@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>HarishKumarKP_ShowReel</title>
+    <style type="text/css">
+#bgcol {  
+  background-color: #2c2c2c;  
+  border-top-style: hidden;  
+  border-right-style: hidden;  
+  border-bottom-style: hidden;  
+  border-left-style: hidden;  
+  border-top-width: 0px;  
+  border-right-width: 0px;  
+  border-bottom-width: 0px;  
+  border-left-width: 0px;
+}
+
+#bd1 {  
+  border-spacing: 0px;  
+  border-top-width: 0px;  
+  border-right-width: 0px;  
+  border-bottom-width: 0px;  
+  border-left-width: 0px;  
+  border-top-style: none;  
+  border-right-style: none;  
+  border-bottom-style: none;  
+  border-left-style: none;  
+  empty-cells: hide;
+}
+
+#gfhgchn {  
+  display: inline;
+}
+
+#pic {  
+  background-image: url("Images/photoNew.jpg");  
+  background-repeat: no-repeat;  
+  border-top-width: 0px;  
+  border-right-width: 0px;  
+  border-bottom-width: 0px;  
+  border-left-width: 0px;  
+  border-top-style: hidden;  
+  border-right-style: hidden;  
+  border-bottom-style: hidden;  
+  border-left-style: hidden;
+}
+
+#head {  
+  background-image: url("Images/header.jpg");  
+  background-repeat: no-repeat;
+}
+
+#footer {  
+  background-image: url("Images/footer.jpg");  
+  background-repeat: no-repeat;
+}
+
+</style></head>
+  <body style="                              margin-top: 0px;" id="bgcol">
+    <p></p>
+    <p></p>
+    <p></p>
+    <table style="width: 1410px; height: 311px;">
+      <tbody>
+        <tr>
+          <td id="bd1" style="height: 62.5px; width: 1374px;">
+            <table style="width: 1368px; height: 297px;" padding="0" border="0">
+              <tbody>
+                <tr>
+                  <td style="height: 108px;">
+                    <table style="width: 1349px; height: 146px;" padding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="width: 407px;" id="pic"><br>
+                          </td>
+                          <td style="width: 981px;" id="head"><br>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <table style="width: 1350px; height: 53px;" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="width: 180.85px;"><a href="index.html"><img
+                                src="Images/rigging.jpg"></a><br>
+                          </td>
+                          <td style="width: 204.48px;"><a href="scripting.html"><img
+                                src="Images/scripting_act.jpg"></a><br>
+                          </td>
+                          <td style="width: 217.633px;"><a href="modelling.html"><img
+                                src="Images/modelling.jpg"></a><br>
+                          </td>
+                          <td style="width: 223.317px;"><a href="animation.html"><img
+                                src="Images/animation.jpg"></a><br>
+                          </td>
+                          <td style="width: 193.884px;"><a href="resource.html"><img
+                                src="Images/resources.jpg"></a><br>
+                          </td>
+                          <td style="width: 291.617px;"><a href="contact.html"><img
+                                src="Images/contact.jpg"></a><br>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td><br>
+                    <table style="width: 100%;" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="height: 20px; text-align: center;"><img style="width: 1314px; height: 17px;"
+                              alt="" src="Images/seperators.jpg"> <br>
+                            <font color="yellow"><br>
+                              MEL Script:"Snap Object On Other Object"<br>
+                              <br>
+                              <img src="Images/SeatCrowd.jpg"><br>
+                            </font>
+                            <div style="text-align: left;"><font color="yellow">&nbsp;<br>
+                                <br>
+                                <span style="color: white;">//-----------------------------------------
+                                  variables&nbsp;&nbsp;
+                                  ---------------------------------------&nbsp;
+                                  <br>
+                                  global int $bsCount;
+                                  <br>
+                                  global int $snCount;
+                                  <br>
+                                  &nbsp;<br>
+                                  global string $bslist;
+                                  <br>
+                                  global string $snlist;
+                                  <br>
+                                  &nbsp;<br>
+                                  global string $get_bas[];&nbsp;
+                                  <br>
+                                  global string $get_snp[];&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  global int $collstat;
+                                  <br>
+                                  //--------------------------------------------------------------------------------//
+                                  <br> &nbsp;<br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> &nbsp;
+                                  <br>
+                                  &nbsp;&nbsp; global proc baseobj()
+                                  <br>
+                                  {
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global string $bslist;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $bsCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $snCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global string
+                                  $get_bas[];&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  //------------------//
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; string $bas_obj[] =
+                                  `ls -sl`;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; $get_bas=$bas_obj;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  $bsCount=size($bas_obj);
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; print "\n" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; print $bsCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; print "\n" ;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $bslist =
+                                  stringArrayToString($bas_obj, ",
+                                  ")&nbsp;&nbsp;&nbsp; ;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;print
+                                  ($bslist + "c");
+                                  <br>
+                                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  Snap_window() ;
+                                  <br>
+                                  }
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> &nbsp;
+                                  <br>
+                                  &nbsp;&nbsp; global proc snapObj()
+                                  <br>
+                                  {
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp; global string $snlist;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $bsCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $snCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global string $get_snp[];
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  //------------------//
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; string $snp_obj[] =
+                                  `ls -sl`;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; $get_snp=$snp_obj;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  $snCount=size($snp_obj);
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; $snlist =
+                                  stringArrayToString($snp_obj, ",
+                                  ")&nbsp;&nbsp;&nbsp; ;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;print
+                                  ($snlist + "c");
+                                  <br>
+                                  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  Snap_window() ;
+                                  <br>
+                                  &nbsp;<br>
+                                  }
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> &nbsp;&nbsp;&nbsp; global proc snapit()
+                                  <br>
+                                  {
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;<br>
+                                  global string $bslist;
+                                  <br>
+                                  global string $snlist;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp; global string
+                                  $get_bas[];&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global string
+                                  $get_snp[];&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $bsCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $snCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; global int $collstat;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  string $del_snp[];&nbsp;
+                                  <br>
+                                  //------------------//
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                  <br>
+                                  &nbsp; if($bsCount&gt;0 &amp;&amp;
+                                  $snCount&gt;0){
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; $collstat=1;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; }&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  if($bsCount&lt;1 &amp;&amp; $snCount&lt;1){
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; print"////
+                                  Plese select both Base object and Snap Object
+                                  !!!!";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; }
+                                  <br>
+                                  &nbsp;for($i=0;$i&lt;$bsCount;++$i) {
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;parentConstraint $get_bas[$i]
+                                  $get_snp[$i] ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;parentConstraint -e -rm $get_bas[$i]
+                                  $get_snp[$i] ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;makeIdentity
+                                  -apply true -t 1 -r 1 -s 1 -n 0;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;$del_snp[$i] =
+                                  $get_snp[$i];
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                                  <br>
+                                  &nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;print
+                                  "\n";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;print
+                                  $del_snp[$i];
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  }
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                  &nbsp;for($j=($bsCount);$j&lt;$snCount;++$j) {
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; //$del_snp[$j] =
+                                  $get_snp[$j];
+                                  <br>
+                                  &nbsp;select -r $get_snp[$j] ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; doDelete;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; $get_snp[$j] =
+                                  $del_snp[$j];
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  }
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp; Snap_window();
+                                  <br>
+                                  &nbsp; }
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> &nbsp;
+                                  <br>
+                                  &nbsp;global proc tran(){
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; global int $snCount;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; global string
+                                  $get_snp[];&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  //------------------//
+                                  <br>
+                                  &nbsp;float $movValX = `floatSliderGrp -q
+                                  -value "movSlidValX"`;
+                                  <br>
+                                  &nbsp;float $movValY = `floatSliderGrp -q
+                                  -value "movSlidValY"`;
+                                  <br>
+                                  &nbsp;float $movValZ = `floatSliderGrp -q
+                                  -value "movSlidValZ"`;
+                                  <br>
+                                  &nbsp;
+                                  <br>
+                                  &nbsp;float $rotValX = `floatSliderGrp -q
+                                  -value "rotSlidValX"`;
+                                  <br>
+                                  &nbsp;float $rotValY = `floatSliderGrp -q
+                                  -value "rotSlidValY"`;
+                                  <br>
+                                  &nbsp;float $rotValZ = `floatSliderGrp -q
+                                  -value "rotSlidValZ"`;
+                                  <br>
+                                  &nbsp;
+                                  <br>
+                                  &nbsp;float $sclValXYZ = `floatSliderGrp -q
+                                  -value "sclSlidValXYZ"`;
+                                  <br>
+                                  &nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;
+                                  for($j=0;$j&lt;$snCount;++$j) {
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  string$mobj =$get_snp[$j];
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setAttr ( $mobj + ".rotate" ) $rotValX
+                                  $rotValY $rotValZ ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setAttr ( $mobj + ".translate" ) $movValX
+                                  $movValY $movValZ ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setAttr ( $mobj + ".scale" ) $sclValXYZ
+                                  $sclValXYZ $sclValXYZ ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; }&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;}
+                                  <br>
+                                  &nbsp;
+                                  <br>
+                                  &nbsp;
+                                  <br>
+                                  //--------------------------------------------------------------------------------
+                                  <br> &nbsp;
+                                  <br>
+                                  &nbsp;global proc ep(){
+                                  <br>
+                                  &nbsp; global string $get_snp[];&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; //print"success";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; select -r $get_snp[0]
+                                  ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; FrameSelected;
+                                  <br>
+                                  &nbsp;}
+                                  <br>
+                                  &nbsp;//--------------------------------------------------------------------------------
+                                  <br> &nbsp;
+                                  <br>
+                                  &nbsp;global proc cp(){
+                                  <br>
+                                  &nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; fitPanel -all;
+                                  <br>
+                                  &nbsp;}
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> &nbsp;global proc exit(){
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; deleteUI myWindow;
+                                  <br>
+                                  &nbsp;}
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> &nbsp;<br>
+                                  &nbsp;<br>
+                                  &nbsp;global proc Snap_window()
+                                  <br>
+                                  &nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  //-----------------------------------------\\&nbsp;&nbsp;
+                                  reset variable&nbsp;
+                                  //-------------------------------------------------------------&nbsp;
+                                  <br>
+                                  global string $bslist="";
+                                  <br>
+                                  global string $snlist="";
+                                  <br>
+                                  global int $bsCount=0;
+                                  <br>
+                                  global int $snCount=0;
+                                  <br>
+                                  global int $collstat=0;
+                                  <br>
+                                  //--------------------------------------------------------------------------------&nbsp;
+                                  <br> global string $get_bas[];&nbsp;&nbsp;
+                                  <br>
+                                  global string $get_snp[];&nbsp;&nbsp;
+                                  <br>
+                                  string $tranObject = $get_snp[0];
+                                  <br>
+                                  //-----------------------------------------\\&nbsp;&nbsp;
+                                  window&nbsp;
+                                  //-------------------------------------------------------------&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  if (`window -exists myWindow`) deleteUI
+                                  myWindow;
+                                  <br>
+                                  window -title "Snap Objects Setup (Version
+                                  1.1)" -widthHeight 400 200&nbsp;
+                                  <br>
+                                  -resizeToFitChildren 1 -sizeable 0 myWindow ;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;columnLayout -adjustableColumn true;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  frameLayout -label "Object Select"
+                                  -collapsable false -collapse false
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  rowLayout -numberOfColumns 2&nbsp;
+                                  -columnWidth2 200 200&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign2 "center" "center" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  button -label "Base Object" -command baseobj;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  button -label "Snap Object" -command snapObj;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;//-------------------------------------------------------------------------------------------------------------------------------------------
+                                  <br> &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  frameLayout -label "Object Details"
+                                  -collapsable true -collapse false
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  rowLayout -numberOfColumns 2&nbsp;
+                                  -columnWidth2 200 200&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign2 "center" "center" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;// create 4 scroll fields
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  scrollField -wordWrap true&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; -insertText $bslist
+                                  -editable false;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; //button -label
+                                  "Snap"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  // snapList; // The name of this element is
+                                  "nameList".
+                                  <br>
+                                  &nbsp;<br>
+                                  // create 4 scroll fields
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  scrollField -wordWrap true&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; -insertText $snlist
+                                  -editable false;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; //button -label
+                                  "Snap"&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  //-------------------------------------------------------------------------------------------------------------------------------------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  rowLayout -numberOfColumns 4&nbsp;
+                                  -columnWidth4 110 90 110 90
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign4 "center" "center" "center"
+                                  "center" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; //button -label
+                                  "Snap"&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  text -label "&nbsp;&nbsp; Base Objects Count:
+                                  ";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  text -label $bsCount bstext;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  //$bstxt = `textField` ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  //$bstxt =$bsCount;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  text -label "&nbsp;&nbsp; Snaped Object Count:
+                                  " ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  text -label $snCount sntext;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  // $sntxt = `textField` ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  text -label "";
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp; rowLayout -numberOfColumns 3&nbsp;
+                                  -columnWidth3 150 150 150&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign2 "center" "center" "center" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;text -label "";
+                                  <br>
+                                  &nbsp; //checkBox -label "Attach/Detach"&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  //&nbsp;&nbsp;&nbsp; -onCommand "$chkbxState =
+                                  \"checked\""
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  //&nbsp; -offCommand "$chkbxState = \"not
+                                  checked\""
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; //myChkBx;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  //button -label "print check box state"
+                                  -command "print $chkbxState" myBtn1;
+                                  <br>
+                                  &nbsp;<br>
+                                  button&nbsp; -w 100&nbsp; -label "Snap it"
+                                  -command snapit;
+                                  <br>
+                                  &nbsp;<br>
+                                  setParent ..;
+                                  <br>
+                                  text -label "";
+                                  <br>
+                                  &nbsp; rowLayout -numberOfColumns 3&nbsp;
+                                  -columnWidth3 100 130 150&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign3 "center" "center" "center";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp; &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  text -label " " ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  // text -label "Base and Snap objects are" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  // text -label&nbsp; $chkbxState;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  //+ $chkbxState
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  //---------------------------------
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  frameLayout -label "Transformtion" -manage
+                                  $collstat -collapsable true&nbsp; -collapse
+                                  false
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  //-----------------------------------------\\&nbsp;&nbsp;
+                                  move&nbsp;
+                                  //-------------------------------------------------------------&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  frameLayout -label "Move" -collapsable true
+                                  -expandCommand ep&nbsp; -collapseCommand cp
+                                  -collapse true
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> floatSliderGrp -dragCommand "tran"
+                                  -minValue -10 -maxValue 10 -value 0 -label
+                                  "Move X" -field true movSlidValX;
+                                  <br>
+                                  floatSliderGrp -dragCommand "tran" -minValue
+                                  -10 -maxValue 10 -value 0 -label "Move Y"
+                                  -field true movSlidValY;
+                                  <br>
+                                  floatSliderGrp -dragCommand "tran" -minValue
+                                  -10 -maxValue 10 -value 0 -label "Move Z"
+                                  -field true movSlidValZ;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  //-----------------------------------------\\&nbsp;&nbsp;
+                                  rotate&nbsp;
+                                  //-------------------------------------------------------------&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  frameLayout -label "Rotate" -collapsable true
+                                  -expandCommand ep&nbsp; -collapseCommand cp
+                                  -collapse true&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;<br>
+                                  floatSliderGrp -dragCommand "tran" -minValue 0
+                                  -maxValue 360 -value 0 -label "Rotate X"
+                                  -field true rotSlidValX;
+                                  <br>
+                                  floatSliderGrp -dragCommand "tran" -minValue 0
+                                  -maxValue 360 -value 0 -label "Rotate Y"
+                                  -field true rotSlidValY;
+                                  <br>
+                                  floatSliderGrp -dragCommand "tran" -minValue 0
+                                  -maxValue 360 -value 0 -label "Rotate Z"
+                                  -field true rotSlidValZ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  //-----------------------------------------\\&nbsp;&nbsp;
+                                  scale&nbsp;
+                                  //-------------------------------------------------------------&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  frameLayout -label "Scale"&nbsp; -collapsable
+                                  true -expandCommand ep -collapseCommand cp
+                                  -collapse true
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; floatSliderGrp
+                                  -dragCommand "tran" -minValue 0.1 -maxValue 3
+                                  -value 1-label "Scale XYZ" -field true
+                                  sclSlidValXYZ;
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  //---------------------------------
+                                  <br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; setParent ..;&nbsp;
+                                  <br>
+                                  &nbsp;<br>
+                                  //--------------------------------------------------------------------------------
+                                  <br> &nbsp;<br>
+                                  &nbsp;<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  // frameLayout -label "Finalize" -collapsable
+                                  false -collapse false
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  // -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rowLayout
+                                  -numberOfColumns 3&nbsp; -columnWidth3 150 150
+                                  150&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign3 "center" "center" "center" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br> &nbsp;
+                                  <br>
+                                  text -label " " ;
+                                  <br>
+                                  button&nbsp; -w 100&nbsp; -label "EXIT"
+                                  -enable $collstat -command exit;
+                                  <br>
+                                  text -label " " ;
+                                  <br>
+                                  &nbsp;<br>
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;//--------------------------------------------------------------------------------
+                                  <br> &nbsp;
+                                  <br>
+                                  &nbsp;frameLayout -label "Application
+                                  Developed&nbsp; by&nbsp; Harish Kumar Kotte
+                                  Prasad" -collapsable false -collapse false
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -borderStyle "etchedIn";
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  rowLayout -numberOfColumns 2&nbsp;
+                                  -columnWidth2 200 200&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  -columnAlign2 "center" "center" ;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                  setParent ..;
+                                  <br>
+                                  &nbsp;<br>
+                                  //--------------------------------------------------------------------------------
+                                  <br> &nbsp;
+                                  <br>
+                                  showWindow myWindow;
+                                  <br>
+                                  &nbsp;<br>
+                                  }
+                                  <br>
+                                  //--------------------------------------------------------------------------------
+                                  <br> &nbsp;<br>
+                                  &nbsp;<br>
+                                  Snap_window();
+                                  <br>
+                                  &nbsp;</span><br>
+                              </font><br>
+                              <font color="yellow"></font></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center;"><img style="width: 1314px; height: 17px;"
+                              alt="" src="Images/seperators.jpg"> <br>
+                            <font color="yellow"><br>
+                              MEL Script:"Matte enable/Disable batch process
+                              script for all and only Arnold Shaders"</font> <br>
+                            <div style="text-align: left;"><span style="color: white;">global
+                                proc matte()<br>
+                                {<br>
+                                &nbsp;&nbsp;&nbsp; // Make a new window<br>
+                                &nbsp;&nbsp;&nbsp; if ( `window -exists
+                                MyWindow` ) {<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp; deleteUI MyWindow;<br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; window -t
+                                "MatteEnable/Disable" MyWindow;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //-iconName
+                                "Short Name"<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                //-widthHeight 250 210;<br>
+                                &nbsp;&nbsp;&nbsp; columnLayout
+                                -adjustableColumn true;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                text("Selected Objects");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                text(".-.");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; button
+                                -label "Enable Matte" -command Enable;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; button
+                                -label "Disable Matte" -command Disable;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                text(".....");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text("All
+                                Shaders");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text("_");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; button
+                                -label "Enable Matte" -command AllEnable;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; button
+                                -label "Disable Matte" -command AllDisable;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; text(".");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                text("___");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; button
+                                -label "Exit" -command ("deleteUI -window
+                                MyWindow");<br>
+                                &nbsp;&nbsp;&nbsp; setParent ..;<br>
+                                &nbsp;&nbsp;&nbsp; showWindow MyWindow;<br>
+                                &nbsp;&nbsp;&nbsp; // Resize the main window<br>
+                                &nbsp;&nbsp;&nbsp; //<br>
+                                &nbsp;&nbsp;&nbsp; //global string $gMainWindow;<br>
+                                &nbsp;&nbsp;&nbsp; //window -edit -widthHeight
+                                900 777 $gMainWindow;<br>
+                                &nbsp;&nbsp; <br>
+                                &nbsp;&nbsp;&nbsp; <br>
+                                }<br>
+                              </span> <span style="color: white;"><br>
+                                global proc Enable( ) {<br>
+                                &nbsp;&nbsp;&nbsp; <br>
+                                &nbsp;&nbsp;&nbsp; string $materials[] =
+                                stringArrayRemoveDuplicates(ls("-mat",listConnections(listConnections("-type","shadingEngine",`ls
+                                -sl -o -dag -s`))));<br>
+                                &nbsp;&nbsp;&nbsp; if(size($materials)==0){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                print("No Object is Selected to Enable");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; for($material in $materials){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                editRenderLayerAdjustment
+                                ($material+".aiEnableMatte");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                setAttr ($material+".aiEnableMatte") 1;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                print("Matte For Selected is Enabled");<br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                              </span> <span style="color: white;"><br>
+                              </span> <span style="color: white;"><br>
+                                }<br>
+                              </span> <span style="color: white;"><br>
+                                global proc Disable( ) {<br>
+                                &nbsp;&nbsp;&nbsp; <br>
+                                &nbsp;&nbsp;&nbsp; string $materials[] =
+                                stringArrayRemoveDuplicates(ls("-mat",listConnections(listConnections("-type","shadingEngine",`ls
+                                -sl -o -dag -s`))));<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                if(size($materials)==0){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                print("No Object is Selected to Disable");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; for($material in $materials){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                editRenderLayerAdjustment
+                                -remove($material+".aiEnableMatte");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                setAttr ($material+".aiEnableMatte") 0;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                print("Matte For Selected is Disabled");<br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                              </span> <span style="color: white;"><br>
+                              </span> <span style="color: white;"><br>
+                                }<br>
+                                global proc AllEnable( ) {<br>
+                                &nbsp;&nbsp;&nbsp; //Get ShaderSG Name List<br>
+                                &nbsp;&nbsp;&nbsp; string $shaderSG[] = `ls
+                                -type shadingEngine`;<br>
+                                &nbsp;&nbsp;&nbsp; for($SG in $shaderSG){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                string $shaders[] = `listConnections
+                                ($SG+".surfaceShader")`; <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                for($shader in $shaders){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                if($shader != "lambert1" &amp;&amp; $shader !=
+                                "RedMat_Shader" &amp;&amp; $shader !=
+                                "GreenMat_Shader" &amp;&amp; $shader !=
+                                "BlueMat_Shader" &amp;&amp; $shader !=
+                                "CyanMat_Shader" &amp;&amp; $shader !=
+                                "MagentaMat_Shader" &amp;&amp; $shader !=
+                                "WhiteMat_Shader" &amp;&amp; $shader !=
+                                "YellowMat_Shader" &amp;&amp; $shader !=
+                                "CutMat_Shader" &amp;&amp; $shader !=
+                                "ShadowMask_Shader" ){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                editRenderLayerAdjustment
+                                ($shader+".aiEnableMatte");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                setAttr ($shader+".aiEnableMatte") 1;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                }<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; <br>
+                                print("Matte For All Shaders Enabled");<br>
+                              </span> <span style="color: white;"><br>
+                                }<br>
+                              </span> <span style="color: white;"><br>
+                                global proc AllDisable( ) {<br>
+                                &nbsp;&nbsp;&nbsp; //Get ShaderSG Name List<br>
+                                &nbsp;&nbsp;&nbsp; string $shaderSG[] = `ls
+                                -type shadingEngine`;<br>
+                                &nbsp;&nbsp;&nbsp; for($SG in $shaderSG){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                string $shaders[] = `listConnections
+                                ($SG+".surfaceShader")`; <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                for($shader in $shaders){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                if($shader != "lambert1" &amp;&amp; $shader !=
+                                "RedMat_Shader" &amp;&amp; $shader !=
+                                "GreenMat_Shader" &amp;&amp; $shader !=
+                                "BlueMat_Shader" &amp;&amp; $shader !=
+                                "CyanMat_Shader" &amp;&amp; $shader !=
+                                "MagentaMat_Shader" &amp;&amp; $shader !=
+                                "WhiteMat_Shader" &amp;&amp; $shader !=
+                                "YellowMat_Shader" &amp;&amp; $shader !=
+                                "CutMat_Shader" &amp;&amp; $shader !=
+                                "ShadowMask_Shader" ){<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                editRenderLayerAdjustment -remove
+                                ($shader+".aiEnableMatte");<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                setAttr ($shader+".aiEnableMatte") 0;<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                }<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; }<br>
+                                &nbsp;&nbsp;&nbsp; <br>
+                                print("Matte For All Shaders Disabled");<br>
+                              </span> <span style="color: white;"><br>
+                                }</span></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center; height: 97px;"><img style="width: 1314px; height: 17px;"
+                              alt="" src="Images/seperators.jpg"> <br>
+                            <br>
+                            <font color="yellow"><font color="yellow">MEL
+                                Script:</font>"</font><font color="yellow">Catche
+                              Exporter</font><font color="yellow">"</font> <br>
+                            <br>
+                            <div style="text-align: left;"><span style="color: white;">global
+                                proc createCache() <br>
+                                { <br>
+                                string $objSel[] = `ls -sl`; <br>
+                                string $objName=`textField -q -text objName`; <br>
+                                string $pathName=`textField -q -text pathName`;
+                                <br>
+                                &nbsp;<br>
+                                performCreateGeometryCache 1 "add"; <br>
+                                cacheSetDirectory&nbsp; ($pathName) "directory";
+                                <br>
+                                hideOptionBox; <br>
+                                &nbsp;<br>
+                                select -r $objSel[0]; <br>
+                                select -hi; <br>
+                                doCreateGeometryCache 4 { "2", "1", "10",
+                                "OneFile", "1", ($pathName + "/"
+                                +$objName),"0",($objName + "_geoCache"),"0",
+                                "add", "0", "1", "1","0","1" } ; <br>
+                                &nbsp;<br>
+                                select -r $objSel[0]; <br>
+                                print "Geometry Cache file Exported"; <br>
+                                }; <br>
+                                &nbsp;<br>
+                                //--------------Baking Mesh Transform
+                                deformation and Exporting the
+                                keys--------------- <br>
+                                &nbsp;<br>
+                                global proc bakeKeys() <br>
+                                { <br>
+                                string $objSel[] = `ls -sl`; <br>
+                                string $objNameA=`textField -q -text objNameA`;
+                                <br>
+                                string $pathNameA=`textField -q -text
+                                pathNameA`; <br>
+                                &nbsp;<br>
+                                bakeResults -simulation true -t "1:25"
+                                -hierarchy below -sampleBy 1
+                                -disableImplicitControl true
+                                -preserveOutsideKeys true -sparseAnimCurveBake
+                                false -controlPoints false -shape true
+                                {$objSel[0]}; <br>
+                                &nbsp;<br>
+                                select -r $objSel[0]; <br>
+                                file -op
+                                "precision=8;intValue=17;nodeNames=1;verboseUnits=0;whichRange=1;range=0:10;options=keys;hierarchy=below;controlPoints=0;shapes=1;helpPictures=0;useChannelBox=0;copyKeyCmd=-animation
+                                objects -option keys -hierarchy below
+                                -controlPoints 0 -shape 1 " -typ "animExport"
+                                -pr -es ($pathNameA + "/" +$objNameA + "/" +
+                                $objNameA); <br>
+                                &nbsp;<br>
+                                select -r $objSel[0]; <br>
+                                print "Anim file exported"; <br>
+                                &nbsp;<br>
+                                }; <br>
+                                &nbsp;<br>
+                                //--------------Importing
+                                Cache------------------ <br>
+                                &nbsp;<br>
+                                global proc importCache() <br>
+                                { <br>
+                                string $objSel[] = `ls -sl`; <br>
+                                string $objName=`textField -q -text objName`; <br>
+                                string $pathName=`textField -q -text pathName`;
+                                <br>
+                                &nbsp;<br>
+                                select -r $objSel[0]; <br>
+                                select -hi; <br>
+                                &nbsp;<br>
+                                attachGeometryCache; <br>
+                                //getAttr defaultRenderGlobals.outf; <br>
+                                //getAttr defaultRenderGlobals.imfkey; <br>
+                                //importCacheFile ($pathName + $objName +
+                                "_geoCache.xml") "xml"; <br>
+                                }; <br>
+                                &nbsp;<br>
+                                //--------------Importing the Baked
+                                keys--------------- <br>
+                                &nbsp;<br>
+                                global proc importKeys() <br>
+                                { <br>
+                                string $objSel[] = `ls -sl`; <br>
+                                string $objNameA=`textField -q -text objNameA`;
+                                <br>
+                                string $pathNameA=`textField -q -text
+                                pathNameA`; <br>
+                                &nbsp;<br>
+                                select -r $objSel[0]; &nbsp;<br>
+                                &nbsp;<br>
+                                //file -import -type "animImport" -rpr "tst"
+                                -options
+                                "targetTime=4;copies=1;option=replace;pictures=0;connect=0;"&nbsp;
+                                -pr -loadReferenceDepth "all" ($pathNameA + "/"
+                                + $objNameA + ".anim"); <br>
+                                &nbsp;<br>
+                                Import; <br>
+                                &nbsp;<br>
+                                }; <br>
+                                &nbsp;<br>
+                                //--------------Creating the UI-------------- <br>
+                                &nbsp;<br>
+                                global proc exportAnimCacheUI() <br>
+                                { <br>
+                                &nbsp;<br>
+                                if (`window -ex exportCfile`) deleteUI
+                                exportCfile; <br>
+                                &nbsp;&nbsp; &nbsp;window&nbsp; -s true&nbsp;
+                                -wh 350 200 -mb true&nbsp; -title "Export/Import
+                                Cache and Anim" <br>
+                                &nbsp;&nbsp; &nbsp;exportCfile; <br>
+                                &nbsp;<br>
+                                columnLayout -adj 1; <br>
+                                columnLayout -adj 1; <br>
+                                frameLayout -l "Export/Import Cache" -cll 1; <br>
+                                rowColumnLayout -numberOfColumns 2 <br>
+                                -columnWidth 1 100 <br>
+                                -columnWidth 2 250; <br>
+                                &nbsp;<br>
+                                &nbsp;&nbsp; &nbsp;text -l "Enter Path"; <br>
+                                &nbsp;&nbsp; &nbsp;textField -text
+                                "D:/GeometryCache_Anim" pathName ; <br>
+                                &nbsp;&nbsp; &nbsp;text -l "Enter Filename"; <br>
+                                &nbsp;&nbsp; &nbsp;textField objName ; <br>
+                                &nbsp;&nbsp; &nbsp;separator -h 10; <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; separator
+                                -h 5; <br>
+                                setParent..; <br>
+                                setParent..; <br>
+                                &nbsp;<br>
+                                string $objName=`textField -q -text objName`; <br>
+                                string $pathName=`textField -q -text pathName`;
+                                <br>
+                                &nbsp;<br>
+                                rowColumnLayout -numberOfColumns 2 <br>
+                                -columnWidth 1 175 <br>
+                                -columnWidth 2 175; <br>
+                                &nbsp;<br>
+                                &nbsp;&nbsp; &nbsp;button -label "Export" -c
+                                createCache; <br>
+                                &nbsp;&nbsp; &nbsp;button -label "Import" -c
+                                importCache; <br>
+                                &nbsp;&nbsp; &nbsp;setParent..; <br>
+                                &nbsp;&nbsp; &nbsp;setParent..; <br>
+                                &nbsp;<br>
+                                columnLayout -adj 1; <br>
+                                frameLayout -l "Export/Import Anim" -cll 1; <br>
+                                rowColumnLayout -numberOfColumns 2 <br>
+                                -columnWidth 1 100 <br>
+                                -columnWidth 2 250; <br>
+                                &nbsp;<br>
+                                &nbsp;&nbsp; &nbsp;text -l "Enter Path"; <br>
+                                &nbsp;&nbsp; &nbsp;textField -text
+                                "D:/GeometryCache_Anim" pathNameA ; <br>
+                                &nbsp;&nbsp; &nbsp;text -l "Enter Filename"; <br>
+                                &nbsp;&nbsp; &nbsp;textField objNameA ; <br>
+                                &nbsp;&nbsp; &nbsp;separator -h 10; <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; separator -h 5; <br>
+                                &nbsp;&nbsp; &nbsp;setParent..; <br>
+                                &nbsp;&nbsp; &nbsp;setParent..; <br>
+                                &nbsp;<br>
+                                string $objNameA=`textField -q -text objNameA`;
+                                <br>
+                                string $pathNameA=`textField -q -text
+                                pathNameA`; <br>
+                                &nbsp;<br>
+                                rowColumnLayout -numberOfColumns 2 <br>
+                                -columnWidth 1 175 <br>
+                                -columnWidth 2 175; <br>
+                                &nbsp;<br>
+                                &nbsp;&nbsp; &nbsp;button -label "Export" -c
+                                bakeKeys; <br>
+                                &nbsp;&nbsp; &nbsp;button -label "Import" -c
+                                importKeys; <br>
+                                &nbsp;&nbsp; &nbsp;setParent..; <br>
+                                &nbsp;&nbsp; &nbsp;setParent..; <br>
+                                &nbsp;&nbsp; &nbsp;separator -h 10; <br>
+                                &nbsp;<br>
+                                columnLayout -adj 1; <br>
+                                frameLayout -l "Note" ; <br>
+                                columnLayout -adj 1; <br>
+                                &nbsp;<br>
+                                text -align "center" "Please select only the Top
+                                group node of the Mesh each time"; <br>
+                                setParent..; <br>
+                                setParent..; <br>
+                                &nbsp;<br>
+                                setParent..; <br>
+                                setParent..; <br>
+                                showWindow ; <br>
+                                }; <br>
+                                exportAnimCacheUI;</span></div>
+                            <div style="text-align: left;"><br>
+                              <span style="color: white;"></span></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="height: 20px; text-align: center;"><img style="width: 1314px; height: 17px;"
+                              alt="" src="Images/seperators.jpg"> <br>
+                            <br>
+                            <font color="yellow"><font color="yellow">MEL
+                                Script:</font>"</font><font color="yellow"><font
+                                color="yellow">Script1</font>"</font> <br>
+                            <br>
+                            <br>
+                            &nbsp; <br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="height: 20px; text-align: center;"><img style="width: 1314px; height: 17px;"
+                              alt="" src="Images/seperators.jpg"> <br>
+                            <br>
+                            <font color="yellow">"Script2"</font> <br>
+                            <br>
+                            &nbsp; <br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="text-align: center;" id="footer">| Harish
+                            Kumar K P | harishk_kotte@rediffmail.com | +91
+                            9884341405 |<br>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p><br>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
