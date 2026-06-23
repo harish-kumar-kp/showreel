@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Video Gallery</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: #111;
+    color: #eee;
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
+  h1 { font-size: 1.3rem; margin-bottom: 20px; font-weight: 500; }
+
+  .player-wrap {
+    width: 100%;
+    max-width: 1200px;
+    background: #1b1b1b;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  }
+  video {
+    width: 100%;
+    max-height: 800vh;
+    background: #000;
+    border-radius: 8px;
+    display: block;
+  }
+  .now-playing {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+
+  .thumbs {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  @media (max-width: 700px) {
+    .thumbs { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .thumb {
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background: #1b1b1b;
+    transition: border-color 0.2s, transform 0.15s;
+    position: relative;
+  }
+  .thumb:hover { transform: translateY(-2px); }
+  .thumb.active { border-color: #5da9ff; }
+
+  .thumb img {
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+    background: #000;
+  }
+  .thumb .label {
+    font-size: 0.78rem;
+    padding: 6px 8px;
+    color: #ddd;
+    text-align: center;
+  }
+  .thumb .play-icon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+    background: rgba(0,0,0,0.55);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+<h1>Video Gallery</h1>
+
+<div class="player-wrap">
+  <video id="video" controls></video>
+  <div class="now-playing" id="nowPlaying">Click a thumbnail below to start playing</div>
+</div>
+
+<div class="thumbs" id="thumbs"></div>
+
+<script>
+  const videos = [
+    {
+      title: "Blooming Flower",
+      src: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      thumb: "https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
+    },
+    {
+      title: "Coffee Cup",
+      src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
+      thumb: "https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"
+    },
+    {
+      title: "Friday",
+      src: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+    },
+    {
+      title: "Bunny Trailer",
+      src: "https://media.w3.org/2010/05/bunny/trailer.mp4",
+      thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"
+    },
+    {
+      title: "Happy Feet 2",
+      src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
+      thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
+    }
+    
+  ];
+
+  const video = document.getElementById('video');
+  const nowPlaying = document.getElementById('nowPlaying');
+  const thumbsEl = document.getElementById('thumbs');
+
+  videos.forEach((v, i) => {
+    const div = document.createElement('div');
+    div.className = 'thumb';
+    div.innerHTML = `
+      <img src="${v.thumb}" alt="${v.title}">
+      <div class="play-icon">▶</div>
+      <div class="label">${v.title}</div>
+    `;
+    div.addEventListener('click', () => {
+      document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+      div.classList.add('active');
+      video.src = v.src;
+      video.load();
+      video.play().catch(() => {});
+      nowPlaying.textContent = "Now playing: " + v.title;
+    });
+    thumbsEl.appendChild(div);
+  });
+</script>
+
+</body>
+</html>
