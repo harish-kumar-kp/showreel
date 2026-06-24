@@ -5,105 +5,168 @@
 <title>Video Gallery</title>
 <style>
   * { box-sizing: border-box; }
-  body {
+  html, body {
     margin: 0;
-    min-height: 100vh;
     background: #111;
     color: #eee;
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    overflow: hidden;
+  }
+  .stage {
+    width: 1540px;
+    height: 810px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 30px 20px;
+    padding: 14px;
   }
-  h1 { font-size: 1.3rem; margin-bottom: 20px; font-weight: 500; }
+  h1 {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+  }
 
+  .layout {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+    min-height: 0;
+  }
+
+  /* LEFT: player */
+  .player-col {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
   .player-wrap {
-    width: 100%;
-    max-width: 1200px;
     background: #1b1b1b;
-    border-radius: 12px;
-    padding: 16px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
   }
   video {
     width: 100%;
-    max-height: 800vh;
+    flex: 1;
+    min-height: 0;
     background: #000;
-    border-radius: 8px;
+    border-radius: 6px;
     display: block;
+    object-fit: contain;
   }
   .now-playing {
-    margin-top: 10px;
-    font-size: 0.9rem;
+    margin-top: 8px;
+    font-size: 0.78rem;
     color: #aaa;
+    flex-shrink: 0;
   }
 
+  /* RIGHT: scrollable thumbnail panel */
+  .thumbs-col {
+    width: 200px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background: #1b1b1b;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    min-height: 0;
+  }
+  .thumbs-title {
+    font-size: 0.72rem;
+    color: #999;
+    margin: 2px 2px 8px 2px;
+    flex-shrink: 0;
+  }
   .thumbs {
-    width: 100%;
-    max-width: 900px;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 12px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-right: 4px;
+    min-height: 0;
   }
-  @media (max-width: 700px) {
-    .thumbs { grid-template-columns: repeat(2, 1fr); }
+  .thumbs::-webkit-scrollbar { width: 6px; }
+  .thumbs::-webkit-scrollbar-thumb {
+    background: #3a3a3a;
+    border-radius: 3px;
   }
+  .thumbs::-webkit-scrollbar-track { background: transparent; }
 
   .thumb {
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 6px;
     overflow: hidden;
     border: 2px solid transparent;
-    background: #1b1b1b;
-    transition: border-color 0.2s, transform 0.15s;
+    background: #222;
+    transition: border-color 0.15s;
     position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
   }
-  .thumb:hover { transform: translateY(-2px); }
+  .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
 
   .thumb img {
-    width: 100%;
-    height: 90px;
+    width: 64px;
+    height: 38px;
     object-fit: cover;
     display: block;
     background: #000;
+    flex-shrink: 0;
   }
   .thumb .label {
-    font-size: 0.78rem;
-    padding: 6px 8px;
+    font-size: 0.66rem;
+    padding: 0 7px;
     color: #ddd;
-    text-align: center;
+    line-height: 1.2;
   }
   .thumb .play-icon {
     position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 22px;
-    height: 22px;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
     background: rgba(0,0,0,0.55);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     color: #fff;
   }
 </style>
 </head>
 <body>
 
-<h1>Video Gallery</h1>
+<div class="stage">
+  <h1>Video Gallery</h1>
 
-<div class="player-wrap">
-  <video id="video" controls></video>
-  <div class="now-playing" id="nowPlaying">Click a thumbnail below to start playing</div>
+  <div class="layout">
+    <div class="player-col">
+      <div class="player-wrap">
+        <video id="video" controls></video>
+        <div class="now-playing" id="nowPlaying">Click a thumbnail on the right to start playing</div>
+      </div>
+    </div>
+
+    <div class="thumbs-col">
+      <div class="thumbs-title">All Videos (25)</div>
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+  </div>
 </div>
 
-<div class="thumbs" id="thumbs"></div>
-
 <script>
+  // 25 unique sample video sources (public domain / Google's public test bucket + MDN/samplelib demos).
+  // Thumbnails are generated placeholders (numbered) since these public demo clips don't ship official posters.
+  // Replace src/thumb on any entry with your own files or links as needed.
   const videos = [
     {
       title: "Blooming Flower",
@@ -116,7 +179,57 @@
       thumb: "https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"
     },
     {
-      title: "Friday",
+      title: "Sintel Trailer",
+      src: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+    },
+    {
+      title: "Bunny Trailer",
+      src: "https://media.w3.org/2010/05/bunny/trailer.mp4",
+      thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"
+    },
+    {
+      title: "Happy Feet 2",
+      src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
+      thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
+    },
+    {
+      title: "Blooming Flower",
+      src: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      thumb: "https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
+    },
+    {
+      title: "Coffee Cup",
+      src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
+      thumb: "https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"
+    },
+    {
+      title: "Sintel Trailer",
+      src: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+    },
+    {
+      title: "Bunny Trailer",
+      src: "https://media.w3.org/2010/05/bunny/trailer.mp4",
+      thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"
+    },
+    {
+      title: "Happy Feet 2",
+      src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
+      thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
+    },
+    {
+      title: "Blooming Flower",
+      src: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      thumb: "https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
+    },
+    {
+      title: "Coffee Cup",
+      src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
+      thumb: "https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"
+    },
+    {
+      title: "Sintel Trailer",
       src: "https://media.w3.org/2010/05/sintel/trailer.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
     },
@@ -130,7 +243,6 @@
       src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
       thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
     }
-    
   ];
 
   const video = document.getElementById('video');
