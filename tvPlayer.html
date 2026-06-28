@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>kOTTe-Its MyOTT</title>
+<title>Video Gallery</title>
 <style>
   * { box-sizing: border-box; }
   html, body {
@@ -13,22 +13,22 @@
     overflow: hidden;
   }
   .stage {
-    width: 980px;
-    height: 560px;
+    width: 960px;
+    height: 540px;
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    padding: 14px;
   }
   h1 {
-    font-size: .8rem;
-    margin: 0 0 2px 0;
-    font-weight: 400 ;
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+    font-weight: 500;
   }
 
   .layout {
     flex: 1;
     display: flex;
-    gap: 8px;
+    gap: 14px;
     min-height: 0;
   }
 
@@ -73,12 +73,8 @@
     display: block;
     object-fit: contain;
   }
-  .now-playing {
-    margin-top: 8px;
-    font-size: 0.78rem;
-    color: #aaa;
-    flex-shrink: 0;
-  }
+  
+
 
   /* RIGHT: scrollable thumbnail panel */
   .thumbs-col {
@@ -169,14 +165,18 @@
 <body>
 
 <div class="stage">
-  <h1>kOTTe-Its MyOTT</h1>
+  <h1>kOTTe - Its My OTT</h1>
 
   <div class="layout">
     <div class="player-col">
       <button class="toggle-btn" id="toggleBtn">Hide List</button>
       <div class="player-wrap">
         <video id="video" controls></video>
-        <div class="now-playing" id="nowPlaying">Click a thumbnail on the right to start playing</div>
+        <div class="now-playing">
+         <span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+	  <span >     </span>
+          <span id="runtime"></span>
+        </div>
       </div>
     </div>
 
@@ -392,9 +392,27 @@
 
   const video = document.getElementById('video');
   const nowPlaying = document.getElementById('nowPlaying');
+  const runtimeEl = document.getElementById('runtime');
   const thumbsEl = document.getElementById('thumbs');
   const thumbsCol = document.getElementById('thumbsCol');
   const toggleBtn = document.getElementById('toggleBtn');
+
+   function formatTime(seconds) {
+    if (!isFinite(seconds) || seconds < 0) seconds = 0;
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  }
+
+  function updateRuntime() {
+    const elapsed = formatTime(video.currentTime);
+    const total = video.duration ? formatTime(video.duration) : '--:--';
+    runtimeEl.textContent = `${elapsed} / ${total}`;
+  }
+
+  video.addEventListener('timeupdate', updateRuntime);
+  video.addEventListener('loadedmetadata', updateRuntime);
+  video.addEventListener('durationchange', updateRuntime);
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
@@ -416,13 +434,11 @@
       video.load();
       video.play().catch(() => {});
       nowPlaying.textContent = "Now playing: " + v.title;
+      runtimeEl.textContent = "     " + '0:00 / --:--';
     });
     thumbsEl.appendChild(div);
   });
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
