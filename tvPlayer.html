@@ -169,14 +169,18 @@
 <body>
 
 <div class="stage">
-  <h1>kOTTe-Its MyOTT</h1>
+  <h1>kOTTe -Its My OTT</h1>
 
   <div class="layout">
     <div class="player-col">
-      <button class="toggle-btn" id="toggleBtn">Hide List</button>
+      <button class="toggle-btn" id="toggleBtn">>"</button>
       <div class="player-wrap">
         <video id="video" controls></video>
-        <div class="now-playing" id="nowPlaying">Click a thumbnail on the right to start playing</div>
+        <div class="now-playing">
+         <span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+	  <span>  .  .  .</span>
+          <span id="runtime"></span>
+        </div>
       </div>
     </div>
 
@@ -362,13 +366,31 @@
 
   const video = document.getElementById('video');
   const nowPlaying = document.getElementById('nowPlaying');
+  const runtimeEl = document.getElementById('runtime');
   const thumbsEl = document.getElementById('thumbs');
   const thumbsCol = document.getElementById('thumbsCol');
   const toggleBtn = document.getElementById('toggleBtn');
 
+  function formatTime(seconds) {
+    if (!isFinite(seconds) || seconds < 0) seconds = 0;
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  }
+
+  function updateRuntime() {
+    const elapsed = formatTime(video.currentTime);
+    const total = video.duration ? formatTime(video.duration) : '--:--';
+    runtimeEl.textContent = `${elapsed} / ${total}`;
+  }
+
+  video.addEventListener('timeupdate', updateRuntime);
+  video.addEventListener('loadedmetadata', updateRuntime);
+  video.addEventListener('durationchange', updateRuntime);
+
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
-    toggleBtn.textContent = isHidden ? 'Show List' : 'Hide List';
+    toggleBtn.textContent = isHidden ? '>>' : '<<';
   });
 
   videos.forEach((v, i) => {
@@ -385,14 +407,12 @@
       video.src = v.src;
       video.load();
       video.play().catch(() => {});
-      nowPlaying.textContent = "Now playing: " + v.title;
+      nowPlaying.textContent = "Now playing: " + v.title ;
+      runtimeEl.textContent = '0:00 / --:--';
     });
     thumbsEl.appendChild(div);
   });
 </script>
-
-</body>
-</html>
 
 </body>
 </html>
