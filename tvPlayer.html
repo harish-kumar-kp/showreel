@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>kOTTe-Its MyOTT</title>
+<title>Video Gallery</title>
 <style>
   * { box-sizing: border-box; }
   html, body {
@@ -13,22 +13,22 @@
     overflow: hidden;
   }
   .stage {
-    width: 980px;
-    height: 560px;
+    width: 960px;
+    height: 540px;
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    padding: 14px;
   }
   h1 {
-    font-size: .8rem;
-    margin: 0 0 2px 0;
-    font-weight: 400 ;
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+    font-weight: 500;
   }
 
   .layout {
     flex: 1;
     display: flex;
-    gap: 8px;
+    gap: 14px;
     min-height: 0;
   }
 
@@ -78,14 +78,44 @@
     font-size: 0.78rem;
     color: #3fd;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
   }
-
-#clock {
+  #nowPlaying {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .custom-controls {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  .ctrl-btn {
+    background: #2a2a2a;
+    color: #eee;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.72rem;
+    cursor: pointer;
+  }
+  .ctrl-btn:hover { background: #383838; }
+  #runtime {
     color: #5da9ff;
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
   }
-
+  #clock {
+    color: #5da9ff;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
 
   /* RIGHT: scrollable thumbnail panel */
   .thumbs-col {
@@ -184,6 +214,11 @@
       <div class="player-wrap">
         <video id="video" controls></video>
         <div class="now-playing">
+	<span class="custom-controls">
+            <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
+            <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
+            <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
+          </span>
          <span id="runtime"></span>
 	  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <span id="nowPlaying">Click a thumbnail on the right to start playing</span>
@@ -458,7 +493,27 @@
   const thumbsEl = document.getElementById('thumbs');
   const thumbsCol = document.getElementById('thumbsCol');
   const toggleBtn = document.getElementById('toggleBtn');
+  const playPauseBtn = document.getElementById('playPauseBtn');
+  const rewindBtn = document.getElementById('rewindBtn');
+  const forwardBtn = document.getElementById('forwardBtn');
 
+  playPauseBtn.addEventListener('click', () => {
+    if (video.paused) {
+      video.play().catch(() => {});
+    } else {
+      video.pause();
+    }
+  });
+  video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; });
+  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; });
+
+  rewindBtn.addEventListener('click', () => {
+    video.currentTime = Math.max(0, video.currentTime - 10);
+  });
+  forwardBtn.addEventListener('click', () => {
+    const max = video.duration || Infinity;
+    video.currentTime = Math.min(max, video.currentTime + 10);
+  });
   function updateClock() {
     const now = new Date();
     const h = now.getHours().toString().padStart(2, '0');
