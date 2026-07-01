@@ -21,7 +21,7 @@
   }
   h1 {
     font-size: 1rem;
-    margin: 0 0 10px 0;
+    margin: 0 0 1px 0;
     font-weight: 500;
   }
 
@@ -74,7 +74,7 @@
     object-fit: contain;
   }
   .now-playing {
-    margin-top: 8px;
+    margin-top: 2px;
     font-size: 0.78rem;
     color: #3fd;
     flex-shrink: 0;
@@ -212,7 +212,7 @@
 
   <div class="layout">
     <div class="player-col">
-      <button class="toggle-btn" id="toggleBtn">>.</button>
+      <button class="toggle-btn" id="toggleBtn">->>-</button>
       <div class="player-wrap">
         <video id="video" controls></video>
         <div class="now-playing">
@@ -546,7 +546,7 @@
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
-    toggleBtn.textContent = isHidden ? '>>' : '<<';
+    toggleBtn.textContent = isHidden ? '<<' : '>>';
   });
 
   videos.forEach((v, i) => {
