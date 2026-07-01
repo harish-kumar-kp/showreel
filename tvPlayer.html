@@ -17,18 +17,18 @@
     height: 560px;
     display: flex;
     flex-direction: column;
-    padding: 2px;
+    padding: 14px;
   }
   h1 {
     font-size: 1rem;
-    margin: 0 0 4px 0;
+    margin: 0 0 10px 0;
     font-weight: 500;
   }
 
   .layout {
     flex: 1;
     display: flex;
-    gap: 4px;
+    gap: 14px;
     min-height: 0;
   }
 
@@ -48,16 +48,16 @@
     background: rgba(0,0,0,0.6);
     color: #eee;
     border: 1px solid #3a3a3a;
-    border-radius: 2px;
-    padding: 3px 7px;
+    border-radius: 6px;
+    padding: 5px 9px;
     font-size: 0.68rem;
     cursor: pointer;
   }
   .toggle-btn:hover { background: rgba(0,0,0,0.8); }
   .player-wrap {
     background: #1b1b1b;
-    border-radius: 4px;
-    padding: 4px;
+    border-radius: 10px;
+    padding: 10px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
@@ -69,12 +69,12 @@
     flex: 1;
     min-height: 0;
     background: #000;
-    border-radius: 4px;
+    border-radius: 6px;
     display: block;
     object-fit: contain;
   }
   .now-playing {
-    margin-top: 4px;
+    margin-top: 8px;
     font-size: 0.78rem;
     color: #3fd;
     flex-shrink: 0;
@@ -101,7 +101,7 @@
     color: #eee;
     border: 1px solid #3a3a3a;
     border-radius: 6px;
-    padding: 3px 5px;
+    padding: 3px 8px;
     font-size: 0.72rem;
     cursor: pointer;
   }
@@ -119,13 +119,13 @@
 
   /* RIGHT: scrollable thumbnail panel */
   .thumbs-col {
-    width: 180px;
+    width: 200px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
     background: #1b1b1b;
-    border-radius: 4px;
-    padding: 4px;
+    border-radius: 10px;
+    padding: 10px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.5);
     min-height: 0;
     transition: width 0.2s, padding 0.2s, opacity 0.2s;
@@ -133,22 +133,22 @@
   }
   .thumbs-col.hidden {
     width: 0;
-    padding: 4px 0;
+    padding: 10px 0;
     opacity: 0;
     pointer-events: none;
   }
   .thumbs-title {
     font-size: 0.72rem;
     color: #999;
-    margin: 2px 2px 4px 2px;
+    margin: 2px 2px 8px 2px;
     flex-shrink: 0;
   }
   .thumbs {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    padding-right: 2px;
+    gap: 7px;
+    padding-right: 4px;
     min-height: 0;
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
@@ -160,7 +160,7 @@
 
   .thumb {
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 6px;
     overflow: hidden;
     border: 2px solid transparent;
     background: #222;
@@ -183,7 +183,7 @@
   }
   .thumb .label {
     font-size: 0.66rem;
-    padding: 0 4px;
+    padding: 0 7px;
     color: #da8;
     line-height: 1.2;
   }
@@ -191,10 +191,10 @@
     position: absolute;
     top: 3px;
     left: 3px;
-    width: 4px;
-    height: 4px;
+    width: 14px;
+    height: 14px;
     background: rgba(0,0,0,0.55);
-    border-radius: 25%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
