@@ -212,7 +212,7 @@
 
   <div class="layout">
     <div class="player-col">
-      <button class="toggle-btn" id="toggleBtn">->>-</button>
+      <button class="toggle-btn" id="toggleBtn">></button>
       <div class="player-wrap">
         <video id="video" controls></video>
         <div class="now-playing">
@@ -595,7 +595,7 @@
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
-    toggleBtn.textContent = isHidden ? '<<' : '>>';
+    toggleBtn.textContent = isHidden ? '<' : '>';
   });
 
   videos.forEach((v, i) => {
