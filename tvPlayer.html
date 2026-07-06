@@ -13,7 +13,7 @@
     overflow: hidden;
   }
   .stage {
-    width: 980px;
+    width: 979px;
     height: 556px;
     display: flex;
     flex-direction: column;
@@ -142,6 +142,50 @@
     color: #999;
     margin: 2px 2px 8px 2px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .autorun-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  .autorun-label {
+    font-size: 0.62rem;
+    color: #999;
+    user-select: none;
+  }
+  .autorun-switch {
+    position: relative;
+    width: 26px;
+    height: 14px;
+    flex-shrink: 0;
+    background: #333;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .autorun-switch.on {
+    background: #2c6b4f;
+    border-color: #3a8562;
+  }
+  .autorun-switch .knob {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    transition: left 0.15s, background 0.15s;
+  }
+  .autorun-switch.on .knob {
+    left: 13px;
+    background: #5da9ff;
   }
   .thumbs {
     overflow-y: auto;
@@ -206,9 +250,14 @@
 <body>
 
 <div class="stage">
-  <h1>&nbsp;&nbsp;&nbsp;&nbsp;k<font color="Orange">OTT</font>e <font color="violet">- Its My OTT</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clock <span id="clock"></span></h1>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;k<font color="Orange">OTT</font>e <font color="violet">- Its My OTT</font>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clock <span id="clock"></span></h1>
 
   <div class="layout">
     <div class="player-col">
@@ -221,16 +270,22 @@
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
           </span>
-			<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<span>&nbsp;&nbsp;</span>
          <span id="runtime"></span>
-	  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	  <span>&nbsp;&nbsp;&nbsp;</span>
           <span id="nowPlaying">Click a thumbnail on the right to start playing</span>
         </div>
       </div>
     </div>
 
     <div class="thumbs-col" id="thumbsCol">
-      <div class="thumbs-title">Browse All Videos</div>
+      <div class="thumbs-title">
+        <span>Browse All Videos</span>
+        <span class="autorun-wrap">
+          <span class="autorun-label">Autorun</span>
+          <span class="autorun-switch on" id="autorunSwitch" title="Toggle autoplay next video"><span class="knob"></span></span>
+        </span>
+      </div>
       <div class="thumbs" id="thumbs"></div>
     </div>
   </div>
@@ -549,6 +604,45 @@
   const rewindBtn = document.getElementById('rewindBtn');
   const forwardBtn = document.getElementById('forwardBtn');
 
+  let currentIndex = -1;
+  let thumbEls = [];
+  let autorunEnabled = true;
+
+  const autorunSwitch = document.getElementById('autorunSwitch');
+  autorunSwitch.addEventListener('click', () => {
+    autorunEnabled = !autorunEnabled;
+    autorunSwitch.classList.toggle('on', autorunEnabled);
+  });
+
+  function playByIndex(i) {
+    if (i < 0 || i >= videos.length) return;
+    currentIndex = i;
+    const v = videos[i];
+
+    thumbEls.forEach(t => t.classList.remove('active'));
+    if (thumbEls[i]) {
+      thumbEls[i].classList.add('active');
+      thumbEls[i].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+
+    video.src = v.src;
+    video.load();
+    video.play().catch(() => {});
+    nowPlaying.textContent = "Now playing: " + v.title;
+    runtimeEl.textContent = '0:00 / --:--';
+  }
+
+  function playNext() {
+    const next = (currentIndex + 1) % videos.length;
+    playByIndex(next);
+  }
+
+  // Autoplay: when a video finishes, automatically advance to the next one in the playlist
+  // (only if the Autorun toggle is switched on).
+  video.addEventListener('ended', () => {
+    if (autorunEnabled) playNext();
+  });
+
   playPauseBtn.addEventListener('click', () => {
     if (video.paused) {
       video.play().catch(() => {});
@@ -607,15 +701,10 @@
       <div class="label">${v.title}</div>
     `;
     div.addEventListener('click', () => {
-      document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
-      div.classList.add('active');
-      video.src = v.src;
-      video.load();
-      video.play().catch(() => {});
-      nowPlaying.textContent = "Now playing: " + v.title ;
-      runtimeEl.textContent = '0:00 / --:--';
+      playByIndex(i);
     });
     thumbsEl.appendChild(div);
+    thumbEls.push(div);
   });
 </script>
 
