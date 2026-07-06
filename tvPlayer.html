@@ -1,699 +1,623 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reel &amp; Row — Cinema Player</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>kOTTe - Its My OTT </title>
 <style>
-  :root{
-    --ink:#0c0a09;
-    --curtain:#2a0f12;
-    --curtain-deep:#1a0a0c;
-    --marquee:#e8b23d;
-    --marquee-dim:#8a691f;
-    --cream:#f4ead4;
-    --cream-dim:#c9bda2;
-    --teal:#2f6f68;
-    --danger:#b5432f;
-    --radius:4px;
-    --shadow: 0 20px 60px rgba(0,0,0,.55);
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: #111;
+    color: #eee;
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    overflow: hidden;
+  }
+  .stage {
+    width: 980px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+  }
+  h1 {
+    font-size: .8rem;
+    margin: 0 0 0px 0;
+    font-weight: 500;
   }
 
-  *{box-sizing:border-box;}
-  html,body{height:100%;}
-  body{
-    margin:0;
-    background:
-      radial-gradient(1200px 700px at 50% -10%, #241012 0%, var(--ink) 60%),
-      var(--ink);
-    color:var(--cream);
-    font-family:'Oswald', sans-serif;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    padding:28px 16px 60px;
+  .layout {
+    flex: 1;
+    display: flex;
+    gap: 14px;
+    min-height: 0;
   }
 
-  /* film grain */
-  body::before{
-    content:"";
-    position:fixed; inset:0;
-    pointer-events:none;
-    opacity:.05;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-    mix-blend-mode:overlay;
-    z-index:1000;
+  /* LEFT: player */
+  .player-col {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .toggle-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 5;
+    background: rgba(0,0,0,0.6);
+    color: #eee;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-size: 0.68rem;
+    cursor: pointer;
+  }
+  .toggle-btn:hover { background: rgba(0,0,0,0.8); }
+  .player-wrap {
+    background: #1b1b1b;
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+  }
+  video {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    background: #000;
+    border-radius: 6px;
+    display: block;
+    object-fit: contain;
+  }
+  .now-playing {
+    margin-top: 0px;
+    font-size: 0.78rem;
+    color: #3fd;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  #nowPlaying {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .custom-controls {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  .ctrl-btn {
+    background: #2a2a2a;
+    color: #eee;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.72rem;
+    cursor: pointer;
+  }
+  .ctrl-btn:hover { background: #383838; }
+  #runtime {
+    color: #5da9ff;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+  #clock {
+    color: #5da9ff;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
   }
 
-  /* ---------- Marquee header ---------- */
-  .marquee-frame{
-    position:relative;
-    width:100%;
-    max-width:1180px;
-    padding:18px 28px;
-    background:linear-gradient(180deg,#170a0b,#0c0405);
-    border:2px solid #000;
-    border-radius:10px;
-    box-shadow: var(--shadow), inset 0 0 0 1px rgba(232,178,61,.15);
-    margin-bottom:22px;
+  /* RIGHT: scrollable thumbnail panel */
+  .thumbs-col {
+    width: 180px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background: #1b1b1b;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    min-height: 0;
+    transition: width 0.2s, padding 0.2s, opacity 0.2s;
+    overflow: hidden;
   }
-  .bulb-row{
-    display:flex;
-    justify-content:space-between;
-    padding:0 4px;
-    margin-bottom:10px;
+  .thumbs-col.hidden {
+    width: 0;
+    padding: 10px 0;
+    opacity: 0;
+    pointer-events: none;
   }
-  .bulb-row.bottom{margin-bottom:0; margin-top:12px;}
-  .bulb{
-    width:8px;height:8px;border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #fff6d6, var(--marquee) 55%, var(--marquee-dim) 100%);
-    box-shadow:0 0 6px 1px rgba(232,178,61,.7);
-    animation: flicker 2.6s infinite ease-in-out;
+  .thumbs-title {
+    font-size: 0.72rem;
+    color: #999;
+    margin: 2px 2px 8px 2px;
+    flex-shrink: 0;
   }
-  .bulb:nth-child(odd){animation-delay:.4s;}
-  .bulb:nth-child(3n){animation-delay:.9s;}
-  @keyframes flicker{
-    0%,100%{opacity:1;}
-    45%{opacity:.35;}
-    50%{opacity:1;}
+  .thumbs {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-right: 4px;
+    min-height: 0;
   }
-  @media (prefers-reduced-motion: reduce){
-    .bulb{animation:none;}
+  .thumbs::-webkit-scrollbar { width: 6px; }
+  .thumbs::-webkit-scrollbar-thumb {
+    background: #3a3a3a;
+    border-radius: 3px;
   }
+  .thumbs::-webkit-scrollbar-track { background: transparent; }
 
-  h1.title{
-    font-family:'Bebas Neue', 'Oswald', sans-serif;
-    letter-spacing:6px;
-    font-size:clamp(30px, 5vw, 54px);
-    text-align:center;
-    margin:2px 0 4px;
-    color:var(--marquee);
-    text-shadow: 0 0 18px rgba(232,178,61,.35);
+  .thumb {
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background: #222;
+    transition: border-color 0.15s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
   }
-  .subtitle{
-    text-align:center;
-    color:var(--cream-dim);
-    font-size:12.5px;
-    letter-spacing:3px;
-    text-transform:uppercase;
-    margin:0;
-  }
+  .thumb:hover { border-color: #4a4a4a; }
+  .thumb.active { border-color: #5da9ff; }
 
-  /* ---------- Layout ---------- */
-  .theater{
-    width:100%;
-    max-width:1180px;
-    display:grid;
-    grid-template-columns: 1fr 360px;
-    gap:22px;
-    align-items:start;
+  .thumb img {
+    width: 64px;
+    height: 38px;
+    object-fit: cover;
+    display: block;
+    background: #000;
+    flex-shrink: 0;
   }
-  @media (max-width: 880px){
-    .theater{grid-template-columns:1fr;}
+  .thumb .label {
+    font-size: 0.66rem;
+    padding: 0 7px;
+    color: #da8;
+    line-height: 1.2;
   }
-
-  /* ---------- Stage ---------- */
-  .stage{
-    background:linear-gradient(180deg,#160b0c,#0a0505);
-    border:1px solid #000;
-    border-radius:10px;
-    padding:14px;
-    box-shadow:var(--shadow);
-  }
-  .screen-wrap{
-    position:relative;
-    background:#000;
-    border-radius:6px;
-    overflow:hidden;
-    box-shadow: 0 0 0 6px #050303, 0 0 40px rgba(232,178,61,.08);
-  }
-  video{
-    display:block;
-    width:100%;
-    aspect-ratio:16/9;
-    background:#000;
-  }
-  .now-playing{
-    padding:16px 6px 6px;
-  }
-  .np-eyebrow{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px;
-    letter-spacing:2px;
-    color:var(--marquee-dim);
-    text-transform:uppercase;
-    margin:0 0 4px;
-  }
-  .np-title{
-    font-family:'Bebas Neue', sans-serif;
-    font-size:26px;
-    letter-spacing:1.5px;
-    color:var(--cream);
-    margin:0 0 14px;
-    min-height:1.2em;
-  }
-
-  .transport{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    flex-wrap:wrap;
-    padding:0 6px 4px;
-  }
-  .transport-btn{
-    appearance:none;
-    border:1px solid rgba(232,178,61,.35);
-    background:transparent;
-    color:var(--cream);
-    border-radius:999px;
-    width:40px;height:40px;
-    display:flex;align-items:center;justify-content:center;
-    cursor:pointer;
-    transition:background .15s ease, color .15s ease, border-color .15s ease, transform .1s ease;
-    font-size:15px;
-  }
-  .transport-btn:hover{background:rgba(232,178,61,.12); border-color:var(--marquee);}
-  .transport-btn:active{transform:scale(.94);}
-  .transport-btn.play-main{
-    width:52px;height:52px;
-    background:var(--marquee);
-    color:#241100;
-    border:none;
-    font-size:18px;
-  }
-  .transport-btn.play-main:hover{background:#f2c159;}
-  .transport-btn.active{
-    background:var(--teal);
-    border-color:var(--teal);
-    color:#eafff9;
-  }
-  .transport-btn:focus-visible, .list-item:focus-visible, .search-input:focus-visible, .transport-btn.tiny:focus-visible{
-    outline:2px solid var(--marquee);
-    outline-offset:2px;
-  }
-  .spacer{flex:1;}
-  .clock{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px;
-    color:var(--cream-dim);
-    letter-spacing:1px;
-    min-width:96px;
-    text-align:right;
-  }
-
-  /* ---------- Ticket booth (playlist panel) ---------- */
-  .booth{
-    background:linear-gradient(180deg,#160b0c,#0a0505);
-    border:1px solid #000;
-    border-radius:10px;
-    box-shadow:var(--shadow);
-    display:flex;
-    flex-direction:column;
-    max-height:none;
-  }
-  .booth-header{
-    padding:16px 16px 12px;
-    border-bottom:1px dashed rgba(232,178,61,.25);
-  }
-  .booth-title{
-    font-family:'Bebas Neue', sans-serif;
-    letter-spacing:2px;
-    font-size:20px;
-    color:var(--marquee);
-    margin:0 0 10px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-  }
-  .count-badge{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px;
-    color:var(--cream-dim);
-    border:1px solid var(--cream-dim);
-    border-radius:999px;
-    padding:2px 8px;
-    letter-spacing:0;
-  }
-  .search-input{
-    width:100%;
-    background:#0a0405;
-    border:1px solid rgba(244,234,212,.15);
-    color:var(--cream);
-    padding:9px 12px;
-    border-radius:6px;
-    font-family:'Oswald', sans-serif;
-    font-size:13px;
-    letter-spacing:.5px;
-  }
-  .search-input::placeholder{color:var(--cream-dim);}
-  .mode-row{
-    display:flex;
-    gap:8px;
-    margin-top:10px;
-  }
-  .mode-row .transport-btn.tiny{
-    width:auto;height:32px;
-    padding:0 12px;
-    border-radius:6px;
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px;
-    letter-spacing:1px;
-    gap:6px;
-    display:flex;align-items:center;
-  }
-
-  .reel-list{
-    list-style:none;
-    margin:0; padding:6px;
-    overflow-y:auto;
-    max-height:640px;
-  }
-  .reel-list::-webkit-scrollbar{width:8px;}
-  .reel-list::-webkit-scrollbar-thumb{background:rgba(232,178,61,.25); border-radius:4px;}
-  .reel-list::-webkit-scrollbar-track{background:transparent;}
-
-  .list-item{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    padding:8px;
-    border-radius:6px;
-    cursor:pointer;
-    border:1px solid transparent;
-    position:relative;
-    transition:background .12s ease, border-color .12s ease;
-  }
-  .list-item:hover{background:rgba(244,234,212,.05);}
-  .list-item.playing{
-    background:rgba(232,178,61,.1);
-    border-color:rgba(232,178,61,.4);
-  }
-  .thumb-wrap{
-    width:76px;height:44px;
-    flex:0 0 auto;
-    border-radius:4px;
-    overflow:hidden;
-    background:#000;
-    position:relative;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.06);
-  }
-  .thumb-wrap img{
-    width:100%;height:100%;object-fit:cover;
-    display:block;
-    filter:saturate(.85) contrast(1.05);
-  }
-  .thumb-wrap .idx{
-    position:absolute; left:3px; bottom:2px;
-    font-family:'IBM Plex Mono', monospace;
-    font-size:9px;
-    background:rgba(0,0,0,.6);
-    color:var(--cream-dim);
-    padding:1px 4px;
-    border-radius:3px;
-  }
-  .thumb-wrap .now-badge{
-    position:absolute; inset:0;
-    display:flex; align-items:center; justify-content:center;
-    background:rgba(0,0,0,.35);
-  }
-  .eq{
-    display:flex; align-items:flex-end; gap:2px; height:14px;
-  }
-  .eq span{
-    width:2.5px; background:var(--marquee); display:block;
-    animation:eq 1s infinite ease-in-out;
-  }
-  .eq span:nth-child(1){height:40%; animation-delay:0s;}
-  .eq span:nth-child(2){height:100%; animation-delay:.2s;}
-  .eq span:nth-child(3){height:65%; animation-delay:.4s;}
-  @keyframes eq{
-    0%,100%{transform:scaleY(.4);}
-    50%{transform:scaleY(1);}
-  }
-
-  .li-meta{min-width:0; flex:1;}
-  .li-title{
-    font-size:13.5px;
-    letter-spacing:.3px;
-    color:var(--cream);
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
-  }
-  .list-item.playing .li-title{color:var(--marquee);}
-
-  .empty-state{
-    padding:30px 16px;
-    text-align:center;
-    color:var(--cream-dim);
-    font-size:13px;
-  }
-
-  /* sprocket divider */
-  .sprockets{
-    display:flex; justify-content:space-between;
-    padding:8px 14px;
-  }
-  .sprockets span{
-    width:10px;height:10px;border-radius:2px;
-    background:#000;
-    box-shadow: inset 0 0 0 1px rgba(244,234,212,.08);
-  }
-
-  footer{
-    max-width:1180px;
-    width:100%;
-    text-align:center;
-    color:var(--cream-dim);
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px;
-    letter-spacing:1px;
-    margin-top:18px;
-    opacity:.6;
+  .thumb .play-icon {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background: rgba(0,0,0,0.55);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    color: #fff;
   }
 </style>
 </head>
 <body>
 
-<div class="marquee-frame">
-  <div class="bulb-row" aria-hidden="true"></div>
-  <h1 class="title">Reel &amp; Row</h1>
-  <p class="subtitle">Now Screening · A Playlist Cinema</p>
-  <div class="bulb-row bottom" aria-hidden="true"></div>
-</div>
+<div class="stage">
+  <h1>&nbsp;&nbsp;&nbsp;&nbsp;k<font color="Orange">OTT</font>e <font color="violet">- Its My OTT</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clock <span id="clock"></span></h1>
 
-<div class="theater">
-
-  <!-- STAGE -->
-  <section class="stage">
-    <div class="screen-wrap">
-      <video id="player" controls playsinline></video>
-    </div>
-
-    <div class="now-playing">
-      <p class="np-eyebrow" id="npEyebrow">Reel —</p>
-      <h2 class="np-title" id="npTitle">Select a feature from the row</h2>
-    </div>
-
-    <div class="transport">
-      <button class="transport-btn" id="btnPrev" title="Previous" aria-label="Previous">⏮</button>
-      <button class="transport-btn play-main" id="btnPlay" title="Play/Pause" aria-label="Play or pause">▶</button>
-      <button class="transport-btn" id="btnNext" title="Next" aria-label="Next">⏭</button>
-      <button class="transport-btn" id="btnShuffle" title="Shuffle" aria-label="Toggle shuffle">🔀</button>
-      <button class="transport-btn" id="btnRepeat" title="Repeat: Off" aria-label="Cycle repeat mode">↻</button>
-      <div class="spacer"></div>
-      <span class="clock" id="clock">0:00 / 0:00</span>
-    </div>
-  </section>
-
-  <!-- TICKET BOOTH / PLAYLIST -->
-  <aside class="booth">
-    <div class="booth-header">
-      <p class="booth-title">Coming Up <span class="count-badge" id="countBadge">0</span></p>
-      <input type="text" class="search-input" id="search" placeholder="Search the marquee…" aria-label="Search playlist">
-      <div class="mode-row">
-        <span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--cream-dim);align-self:center;">Autoplay next: ON</span>
+  <div class="layout">
+    <div class="player-col">
+      <button class="toggle-btn" id="toggleBtn">></button>
+      <div class="player-wrap">
+        <video id="video" controls></video>
+        <div class="now-playing">
+	<span class="custom-controls">
+            <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
+            <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
+            <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
+          </span>
+			<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+         <span id="runtime"></span>
+	  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+        </div>
       </div>
     </div>
-    <div class="sprockets" aria-hidden="true">
-      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-    </div>
-    <ul class="reel-list" id="reelList"></ul>
-  </aside>
 
+    <div class="thumbs-col" id="thumbsCol">
+      <div class="thumbs-title">Browse All Videos</div>
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+  </div>
 </div>
 
-<footer>PROJECTED IN HTML5 · SINGLE REEL FILE · NO INTERMISSION</footer>
-
 <script>
-/* ---------------- Playlist data (embedded) ---------------- */
-const PLAYLIST = [
-  {"title":"SPRING -Short","src":"https://video.blender.org/download/web-videos/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-804.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/3d95fb3d-c866-42c8-9db1-fe82f48ccb95.jpg"},
-  {"title":"Sintel -Short.","src":"http://peach.themazzone.com/durian/movies/sintel-2048-surround.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"},
-  {"title":"Making-Sintel -Doc.","src":"https://video.blender.org/download/web-videos/6a12c7a4-6c0f-46db-a5fd-e212a83661f8-720.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"},
-  {"title":"Big Buck Bunny -Short","src":"https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov","thumb":"https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"},
-  {"title":"Cosmos Laundromat -Short","src":"https://studio.blender.org/download-source/files/9e/9e18c8684db6ae04cc458477554f2976062f4d9d/9e18c8684db6ae04cc458477554f2976062f4d9d.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/f507dfdc-e73e-45a4-9778-d758cbe1ce96.jpg"},
-  {"title":"Agent 327: Operation Barbershop -Short","src":"https://video.blender.org/download/web-videos/264ff760-803e-430e-8d81-15648e904183-804.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/264ff760-803e-430e-8d81-15648e904183.jpg"},
-  {"title":"Sprite Fright -Short","src":"https://video.blender.org/download/web-videos/a69d68a5-a0e0-4a80-9d66-49f093c97aaf-804.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/ff105d09-ca07-4128-b5f7-6e25351bb899.jpg"},
-  {"title":"Charge -Short","src":"https://video.blender.org/download/web-videos/04da454b-9893-4184-98f3-248d00625efe-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg"},
-  {"title":"Making-Charge -Doc.","src":"https://video.blender.org/download/web-videos/d06afb85-ecea-4df6-be75-005a7954a93c-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/da8a3e07-dd59-4a14-adfa-b5e3ae65cb8c.jpg"},
-  {"title":"Caminandes:Llama Drama -Short","src":"https://video.blender.org/download/web-videos/fb70d459-48d2-4db5-adba-813c84f9200a-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/fb70d459-48d2-4db5-adba-813c84f9200a.jpg"},
-  {"title":"Caminandes:Llamigos -Short","src":"https://video.blender.org/download/web-videos/23f3ef79-15dc-44c5-aa45-cf92e78a4509-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/23f3ef79-15dc-44c5-aa45-cf92e78a4509.jpg"},
-  {"title":"Making -Caminandes: Llamigos -Doc.","src":"https://video.blender.org/download/web-videos/515fa4ff-7038-42a3-9e1b-ef7154bd7398-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/eb768a62-cd22-4fba-80a8-4652bf6238ba.jpg"},
-  {"title":"Heros -Short","src":"https://video.blender.org/download/web-videos/3eb93cab-79a2-4fd5-a636-d42e5c59ddea-536.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/8d2a64e7-089c-4ad5-a676-7eec5e51f7c0.jpg"},
-  {"title":"WingIt -Short","src":"https://video.blender.org/download/web-videos/bd0084a5-1d26-4816-ab5e-1bad9e2fb990-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/4efa0a16-83b0-4c62-a4bc-4dcd30c05749.jpg"},
-  {"title":"Singularity -Short","src":"https://crystalstream.mk16.de/static/redundancy/hls/1ba07bbb-1456-4293-99a6-833fa450eda0/903ba2a3-74ae-4ebd-83f5-c6e5c3e245ee-1080-fragmented.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/38b6e48a-40e7-4c46-801f-9a46baf9c02a.jpg"},
-  {"title":"Making-Singularity -Doc.","src":"https://video.blender.org/videos/embed/pT59NDdBRLHX3zmnvGNm9c","thumb":"https://video.blender.org/lazy-static/thumbnails/3d61fdb7-28d4-4e9e-8b44-2225fcd04e35.jpg"},
-  {"title":"Glass Half -Short","src":"https://video.blender.org/download/web-videos/64222c8a-c4c7-4b3b-9850-7fb2078edcf6-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/64222c8a-c4c7-4b3b-9850-7fb2078edcf6.jpg"},
-  {"title":"The Daily Dweebs -Short","src":"https://video.blender.org/download/web-videos/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1-1080.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1.jpg"},
-  {"title":"Coffee Run -Short","src":"https://video.blender.org/download/web-videos/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1-804.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1.jpg"},
-  {"title":"Elephants Dream -Short","src":"https://video.blender.org/download/web-videos/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5-720.mp4","thumb":"https://video.blender.org/lazy-static/thumbnails/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5.jpg"},
-  {"title":"Tears of Steel -Short","src":"https://video.blender.org/object-storage/web_videos/8533ea43-4271-4a57-9694-e9d0b35e1aa1-800.mp4","thumb":"https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png"},
-  {"title":"TearsOfSteel-4k -Short","src":"https://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/tears_of_steel_surround.webm","thumb":"https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png"},
-  {"title":"Gullivers Travel 1939","src":"https://archive.org/download/gullivers_travels_1080hd/gullivers_travels_1080hd.mkv","thumb":"https://i.ytimg.com/vi/mySEPPEifnk/hq720.jpg"},
-  {"title":"Ant Bully 2006","src":"https://dn710205.ca.archive.org/0/items/Popcornarchive-theAntBully2006_ta993/Popcornarchive-theAntBully2006_ta993.mp4","thumb":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png"},
-  {"title":"Dunston Checks In 1996","src":"https://dn721901.ca.archive.org/0/items/Popcornarchive-dunstonChecksIn1996/Popcornarchive-dunstonChecksIn1996.mp4","thumb":"https://m.media-amazon.com/images/S/pv-target-images/318ccb307fe9021f36adf9cd36c520d04d0a64aa594088c66741a770549e2ff2.png"},
-  {"title":"Lassie 2005","src":"https://dn710005.ca.archive.org/0/items/Popcornarchive-lassie2005/Popcornarchive-lassie2005.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0NopiAonxnjlUoG0zl2073l-B6jTuWGbIAqht8kBsPTqJQD7FJYyQAwQ&s=10"},
-  {"title":"Mask 1994","src":"https://archive.org/download/the-mask-vhs-1995-1996/The%20Mask%20VHS%201995%20%281996%29.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyri5fIjghGEykuu2-hiIEK0GsNkWRUX_Am8jbkn5SQ&s=10"},
-  {"title":"TheGodsMustBeCrazy","src":"https://dn710609.ca.archive.org/0/items/the.-gods.-must.-be.-crazy.-1980.-hdrip.-xvi-d.-b-4-nd-1-t-69/The.Gods.Must.Be.Crazy.1980.HDRip.XviD.B4ND1T69.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8fRfjMCydTBBdFOk8cstgUX-dXed2LjVqRgR8zI9vEuY6XsDAeuF66wt&s=10"},
-  {"title":"1heGodsMustBeCrazy2","src":"https://dn710008.ca.archive.org/0/items/Popcornarchive-theGodsMustBeCrazy21989/Popcornarchive-theGodsMustBeCrazy21989.mp4","thumb":"https://californiaherps.com/films/filmimages/godsmustbecrazyII.jpg"},
-  {"title":"theGodsMustBeCrazy3","src":"https://dn721605.ca.archive.org/0/items/GodsMustBeCrazy3CrazySafari/Gods%20Must%20Be%20Crazy%203%20-%20Crazy%20Safari.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMugptVH1zegCveYbzUmrUjwCsbBq7WONVTls1B0gHkbv5N61zrT-S5k&s=10"},
-  {"title":"theGodsMustBeCrazy4","src":"https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10"},
-  {"title":"Shinning 1980","src":"https://dn721904.ca.archive.org/0/items/PopcornArchive-._u7eat/PopcornArchive-._u7eat.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFh404dm8ntHtFAylPdGhOV-CO7M2yBhG44Tvm0NRHPWA73LvKD-BuHGI&s=10"},
-  {"title":"Guns of Neverone","src":"https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4","thumb":"https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg"},
-  {"title":"Peter Pan - 1953","src":"http://www.deadlyblogger.com/NewRelease/pan1.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggHIj-GHzI9FrNQ5CBmXPzIX7WDbHU42OErqgxQUHR220WUw7fQyrQVI&s=10"},
-  {"title":"Planet of the Apes","src":"http://www.deadlyblogger.com/NewRelease/apes1.mp4","thumb":"https://www.filmsite.org/featured/movie-fr-planetofapes.jpg"},
-  {"title":"Jason and the Argonauts","src":"https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v","thumb":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg"},
-  {"title":"Fantasia - Special Edition","src":"https://archive.org/download/fantasia-special-edition-laserdisc-restoration-with-sunflower-v-1.0/Fantasia_Special_Edition_Laserdisc_Restoration_with_Sunflower_v1.0.mp4","thumb":"https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b399f-91c8-7e57-b452-6df1d4a12dfc/compose?aspectRatio=1.78&format=webp&width=1200"},
-  {"title":"Where Eagles Dare","src":"https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4","thumb":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg"},
-  {"title":"Romancing-the-stone-1984","src":"https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4","thumb":"https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg"},
-  {"title":"The. Jewel Of The Nile 1985","src":"https://archive.org/download/s-the.-jewel.-of.-the.-nile.-1985/S-The.Jewel.Of.The.Nile.1985.mp4","thumb":"https://image.tmdb.org/t/p/original/og5qj3KTctBLer1oktVbyIN5zrt.jpg"},
-  {"title":"Captain Sindbad (1963)","src":"https://archive.org/download/Captain.Sindbad.1963.DVDRip/Captain.Sindbad.1963.DVDRip.mp4","thumb":"https://m.media-amazon.com/images/S/pv-target-images/069507013f9eab7830db9174291bdcfb32555b009f1858566aec1f60ec734b90.jpg"},
-  {"title":"The Pink Panther 1963","src":"https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4","thumb":"https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg"},
-  {"title":"Cleopetra 1963","src":"https://dn760104.eu.archive.org/0/items/cleopatra-1963_202511/Cleopatra%20%281963%29/Cleopatra%20-%201963.mp4","thumb":"https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg"},
-  {"title":"5 Men Army 1969","src":"https://archive.org/download/1969-un-esercito-di-5-uomini-ext/%5B1969%5D%20Un%20Esercito%20di%205%20Uomini%20%28ext%29.mp4","thumb":"https://tobrien10.wordpress.com/wp-content/uploads/2018/10/the-five-man-army.jpg"},
-  {"title":"Mackenna's Gold 1969","src":"https://archive.org/download/mackennas-gold-1969-bg-sub/Mackenna%27s%20Gold%281969%29%20bg%20sub.mp4","thumb":"https://i.ytimg.com/vi/vRnzCQLZJoM/mqdefault.jpg"},
-  {"title":"Soylent Green 1973","src":"https://archive.org/download/soylent-green-1973_202512/Soylent%20Green%20%281973%29.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNBZJqwHDhz2E8RJ0RSi8tSepgKfnUgXvcO5O32ufQ&s=10"},
-  {"title":"Logan's Run 1976","src":"https://archive.org/download/soylent-green-1973_202512/Logan%27s%20Run.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSgShhZ3lxwki8d4orFHucGiH3Fu3uAPEzuYh7LGuCl-M1fir8IU7lDM&s=10"},
-  {"title":"Maya 1966","src":"https://archive.org/download/maya-1966-o-vale-dos-tigres-cover-dvd/1966%20-%20Maya%20-%20O%20Vale%20dos%20Tigres.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl1eKMehM2IRQ8kIwoRovg805lGdqY9IpG0GhWWivlQ&s=10"},
-  {"title":"Big Trouble In Little China 1986","src":"https://archive.org/download/big-trouble-little-china/Big%20Trouble%20In%20Little%20China%20720p.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10"},
-  {"title":"Walking-with-Dinosaurs-Ep01","src":"https://archive.org/download/walking-with-dinosaurs/Episode%201%20-%20New%20Blood.mp4","thumb":"https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"},
-  {"title":"Walking-with-Dinosaurs-Ep02","src":"https://archive.org/download/walking-with-dinosaurs/Episode%202%20-%20A%20Time%20of%20the%20Titans.mp4","thumb":"https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"},
-  {"title":"Walking-with-Dinosaurs-Ep03","src":"https://archive.org/download/walking-with-dinosaurs/Episode%203%20-%20Cruel%20Sea.mp4","thumb":"https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"},
-  {"title":"Walking-with-Dinosaurs-Ep04","src":"https://archive.org/download/walking-with-dinosaurs/Episode%204%20-%20Giant%20of%20the%20Skies.mp4","thumb":"https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"},
-  {"title":"Walking-with-Dinosaurs-Ep05","src":"https://archive.org/download/walking-with-dinosaurs/Episode%205%20-%20Spirits%20of%20the%20Ice%20Forest.mp4","thumb":"https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"},
-  {"title":"Walking-with-Dinosaurs-Ep06","src":"https://archive.org/download/walking-with-dinosaurs/Episode%206%20-%20Death%20of%20a%20Dynasty.mp4","thumb":"https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"},
-  {"title":"Coffee Cup","src":"https://samplelib.com/preview/mp4/sample-5s.mp4","thumb":"https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"},
-  {"title":"Sintel Trailer","src":"https://media.w3.org/2010/05/sintel/trailer.mp4","thumb":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"},
-  {"title":"Bunny Trailer","src":"https://media.w3.org/2010/05/bunny/trailer.mp4","thumb":"https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"},
-  {"title":"Happy Feet 2","src":"https://html5videoformatconverter.com/data/images/happyfit2.mp4","thumb":"https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"}
-];
-
-/* ---------------- Player state & logic ---------------- */
-const video      = document.getElementById('player');
-const reelList    = document.getElementById('reelList');
-const npTitle     = document.getElementById('npTitle');
-const npEyebrow   = document.getElementById('npEyebrow');
-const clock       = document.getElementById('clock');
-const btnPlay     = document.getElementById('btnPlay');
-const btnPrev     = document.getElementById('btnPrev');
-const btnNext     = document.getElementById('btnNext');
-const btnShuffle  = document.getElementById('btnShuffle');
-const btnRepeat   = document.getElementById('btnRepeat');
-const searchInput = document.getElementById('search');
-const countBadge  = document.getElementById('countBadge');
-
-let order = PLAYLIST.map((_, i) => i);   // current play order (indices into PLAYLIST)
-let cursor = -1;                          // position within `order`
-let shuffle = false;
-let repeatMode = 0;                       // 0=off, 1=all, 2=one
-const REPEAT_LABELS = ['Repeat: Off', 'Repeat: All', 'Repeat: One'];
-let filterText = '';
-
-function fmtTime(s){
-  if(!isFinite(s)) return '0:00';
-  const m = Math.floor(s/60);
-  const sec = Math.floor(s%60).toString().padStart(2,'0');
-  return `${m}:${sec}`;
-}
-
-function buildOrder(){
-  const base = PLAYLIST.map((_, i) => i);
-  if(shuffle){
-    for(let i = base.length - 1; i > 0; i--){
-      const j = Math.floor(Math.random() * (i + 1));
-      [base[i], base[j]] = [base[j], base[i]];
+  // 25 unique sample video sources (public domain / Google's public test bucket + MDN/samplelib demos).
+  // Thumbnails are generated placeholders (numbered) since these public demo clips don't ship official posters.
+  // Replace src/thumb on any entry with your own files or links as needed.
+  const videos = [
+    {
+      title: "SPRING -Short",
+      src: "https://video.blender.org/download/web-videos/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-804.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/3d95fb3d-c866-42c8-9db1-fe82f48ccb95.jpg"
+    },
+    {
+      title: "Sintel -Short.",
+      src: "http://peach.themazzone.com/durian/movies/sintel-2048-surround.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+    },
+   {
+      title: "Making-Sintel -Doc.",
+      src: "https://video.blender.org/download/web-videos/6a12c7a4-6c0f-46db-a5fd-e212a83661f8-720.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+    },
+    {
+      title: "Big Buck Bunny -Short",
+      src: "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov",
+      thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"
+    },
+    {
+      title: "Cosmos Laundromat -Short",
+      src: "https://studio.blender.org/download-source/files/9e/9e18c8684db6ae04cc458477554f2976062f4d9d/9e18c8684db6ae04cc458477554f2976062f4d9d.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/f507dfdc-e73e-45a4-9778-d758cbe1ce96.jpg"
+    },
+    {
+      title: "Agent 327: Operation Barbershop -Short",
+      src: "https://video.blender.org/download/web-videos/264ff760-803e-430e-8d81-15648e904183-804.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/264ff760-803e-430e-8d81-15648e904183.jpg"
+    },
+    {
+      title: "Sprite Fright -Short",
+      src: "https://video.blender.org/download/web-videos/a69d68a5-a0e0-4a80-9d66-49f093c97aaf-804.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/ff105d09-ca07-4128-b5f7-6e25351bb899.jpg"
+    },
+    {
+      title: "Charge -Short",
+      src: "https://video.blender.org/download/web-videos/04da454b-9893-4184-98f3-248d00625efe-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg"
+    },
+    {
+      title: "Making-Charge -Doc.",
+      src: "https://video.blender.org/download/web-videos/d06afb85-ecea-4df6-be75-005a7954a93c-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/da8a3e07-dd59-4a14-adfa-b5e3ae65cb8c.jpg"
+    },
+   {
+      title: "Caminandes:Llama Drama -Short",
+      src: "https://video.blender.org/download/web-videos/fb70d459-48d2-4db5-adba-813c84f9200a-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/fb70d459-48d2-4db5-adba-813c84f9200a.jpg"
+    },
+   {
+      title: "Caminandes:Llamigos -Short",
+      src: "https://video.blender.org/download/web-videos/23f3ef79-15dc-44c5-aa45-cf92e78a4509-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/23f3ef79-15dc-44c5-aa45-cf92e78a4509.jpg"
+    },
+   {
+      title: "Making -Caminandes: Llamigos -Doc.",
+      src: "https://video.blender.org/download/web-videos/515fa4ff-7038-42a3-9e1b-ef7154bd7398-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/eb768a62-cd22-4fba-80a8-4652bf6238ba.jpg"
+    },
+   {
+      title: "Heros -Short",
+      src: "https://video.blender.org/download/web-videos/3eb93cab-79a2-4fd5-a636-d42e5c59ddea-536.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/8d2a64e7-089c-4ad5-a676-7eec5e51f7c0.jpg"
+    },
+   {
+      title: "WingIt -Short",
+      src: "https://video.blender.org/download/web-videos/bd0084a5-1d26-4816-ab5e-1bad9e2fb990-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/4efa0a16-83b0-4c62-a4bc-4dcd30c05749.jpg"
+    },
+   {
+      title: "Singularity -Short",
+      src: "https://crystalstream.mk16.de/static/redundancy/hls/1ba07bbb-1456-4293-99a6-833fa450eda0/903ba2a3-74ae-4ebd-83f5-c6e5c3e245ee-1080-fragmented.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/38b6e48a-40e7-4c46-801f-9a46baf9c02a.jpg"
+    },
+   {
+      title: "Making-Singularity -Doc.",
+      src: "https://video.blender.org/videos/embed/pT59NDdBRLHX3zmnvGNm9c",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/3d61fdb7-28d4-4e9e-8b44-2225fcd04e35.jpg"
+    },
+   {
+      title: "Glass Half -Short",
+      src: "https://video.blender.org/download/web-videos/64222c8a-c4c7-4b3b-9850-7fb2078edcf6-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/64222c8a-c4c7-4b3b-9850-7fb2078edcf6.jpg"
+    },
+   {
+      title: "The Daily Dweebs -Short",
+      src: "https://video.blender.org/download/web-videos/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1-1080.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1.jpg"
+    },
+   {
+      title: "Coffee Run -Short",
+      src: "https://video.blender.org/download/web-videos/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1-804.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1.jpg"
+    },
+   {
+      title: "Elephants Dream -Short",
+      src: "https://video.blender.org/download/web-videos/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5-720.mp4",
+      thumb: "https://video.blender.org/lazy-static/thumbnails/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5.jpg"
+    },
+    {
+      title: "Tears of Steel -Short",
+      src: "https://video.blender.org/object-storage/web_videos/8533ea43-4271-4a57-9694-e9d0b35e1aa1-800.mp4",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png"
+    },
+     {
+      title: "TearsOfSteel-4k -Short",
+      src: "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/tears_of_steel_surround.webm",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png"
+    },
+    {
+      title: "Gullivers Travel 1939",
+      src: "https://archive.org/download/gullivers_travels_1080hd/gullivers_travels_1080hd.mkv",
+      thumb: "https://i.ytimg.com/vi/mySEPPEifnk/hq720.jpg"
+    },
+    {
+      title: "Ant Bully 2006",
+      src: "https://dn710205.ca.archive.org/0/items/Popcornarchive-theAntBully2006_ta993/Popcornarchive-theAntBully2006_ta993.mp4",
+      thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png"
+    },
+    {
+      title: "Dunston Checks In 1996",
+      src: "https://dn721901.ca.archive.org/0/items/Popcornarchive-dunstonChecksIn1996/Popcornarchive-dunstonChecksIn1996.mp4",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/318ccb307fe9021f36adf9cd36c520d04d0a64aa594088c66741a770549e2ff2.png"
+    },
+    {
+      title: "Lassie 2005",
+      src: "https://dn710005.ca.archive.org/0/items/Popcornarchive-lassie2005/Popcornarchive-lassie2005.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0NopiAonxnjlUoG0zl2073l-B6jTuWGbIAqht8kBsPTqJQD7FJYyQAwQ&s=10"
+    },
+    {
+      title: "Mask 1994",
+      src: "https://archive.org/download/the-mask-vhs-1995-1996/The%20Mask%20VHS%201995%20%281996%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyri5fIjghGEykuu2-hiIEK0GsNkWRUX_Am8jbkn5SQ&s=10"
+    },
+    {
+      title: "TheGodsMustBeCrazy",
+      src: "https://dn710609.ca.archive.org/0/items/the.-gods.-must.-be.-crazy.-1980.-hdrip.-xvi-d.-b-4-nd-1-t-69/The.Gods.Must.Be.Crazy.1980.HDRip.XviD.B4ND1T69.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8fRfjMCydTBBdFOk8cstgUX-dXed2LjVqRgR8zI9vEuY6XsDAeuF66wt&s=10"
+    },
+    {
+      title: "1heGodsMustBeCrazy2",
+      src: "https://dn710008.ca.archive.org/0/items/Popcornarchive-theGodsMustBeCrazy21989/Popcornarchive-theGodsMustBeCrazy21989.mp4",
+      thumb: "https://californiaherps.com/films/filmimages/godsmustbecrazyII.jpg"
+    },
+    {
+      title: "theGodsMustBeCrazy3",
+      src: "https://dn721605.ca.archive.org/0/items/GodsMustBeCrazy3CrazySafari/Gods%20Must%20Be%20Crazy%203%20-%20Crazy%20Safari.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMugptVH1zegCveYbzUmrUjwCsbBq7WONVTls1B0gHkbv5N61zrT-S5k&s=10"
+    },
+    {
+      title: "theGodsMustBeCrazy4",
+      src: "https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10"
+    },
+    {
+      title: "Shinning 1980",
+      src: "https://dn721904.ca.archive.org/0/items/PopcornArchive-._u7eat/PopcornArchive-._u7eat.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFh404dm8ntHtFAylPdGhOV-CO7M2yBhG44Tvm0NRHPWA73LvKD-BuHGI&s=10"
+    },
+    {
+      title: "Guns of Neverone",
+      src: "https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4",
+      thumb: "https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg"
+    },
+    {
+      title: "Peter Pan - 1953",
+      src: "http://www.deadlyblogger.com/NewRelease/pan1.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggHIj-GHzI9FrNQ5CBmXPzIX7WDbHU42OErqgxQUHR220WUw7fQyrQVI&s=10"
+    },
+    {
+      title: "Planet of the Apes",
+      src: "http://www.deadlyblogger.com/NewRelease/apes1.mp4",
+      thumb: "https://www.filmsite.org/featured/movie-fr-planetofapes.jpg"
+    },
+    {
+      title: "Jason and the Argonauts",
+      src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
+      thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg"
+    },
+    {
+      title: "Fantasia - Special Edition",
+      src: "https://archive.org/download/fantasia-special-edition-laserdisc-restoration-with-sunflower-v-1.0/Fantasia_Special_Edition_Laserdisc_Restoration_with_Sunflower_v1.0.mp4",
+      thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b399f-91c8-7e57-b452-6df1d4a12dfc/compose?aspectRatio=1.78&format=webp&width=1200"
+    },
+    {
+      title: "Where Eagles Dare",
+      src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg"
+    },
+    {
+      title: "Romancing-the-stone-1984",
+      src: "https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg"
+    },
+    {
+      title: "The. Jewel Of The Nile 1985",
+      src: "https://archive.org/download/s-the.-jewel.-of.-the.-nile.-1985/S-The.Jewel.Of.The.Nile.1985.mp4",
+      thumb: "https://image.tmdb.org/t/p/original/og5qj3KTctBLer1oktVbyIN5zrt.jpg"
+    },
+    {
+      title: "Captain Sindbad (1963)",
+      src: "https://archive.org/download/Captain.Sindbad.1963.DVDRip/Captain.Sindbad.1963.DVDRip.mp4",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/069507013f9eab7830db9174291bdcfb32555b009f1858566aec1f60ec734b90.jpg"
+    },
+    {
+      title: "The Pink Panther 1963",
+      src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
+      thumb: "https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg"
+    },
+    {
+      title: "Cleopetra 1963",
+      src: "https://dn760104.eu.archive.org/0/items/cleopatra-1963_202511/Cleopatra%20%281963%29/Cleopatra%20-%201963.mp4",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg"
+    },
+    {
+      title: "5 Men Army 1969",
+      src: "https://archive.org/download/1969-un-esercito-di-5-uomini-ext/%5B1969%5D%20Un%20Esercito%20di%205%20Uomini%20%28ext%29.mp4",
+      thumb: "https://tobrien10.wordpress.com/wp-content/uploads/2018/10/the-five-man-army.jpg"
+    },
+    {
+      title: "Mackenna's Gold 1969",
+      src: "https://archive.org/download/mackennas-gold-1969-bg-sub/Mackenna%27s%20Gold%281969%29%20bg%20sub.mp4",
+      thumb: "https://i.ytimg.com/vi/vRnzCQLZJoM/mqdefault.jpg"
+    },
+    {
+      title: "Soylent Green 1973",
+      src: "https://archive.org/download/soylent-green-1973_202512/Soylent%20Green%20%281973%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNBZJqwHDhz2E8RJ0RSi8tSepgKfnUgXvcO5O32ufQ&s=10"
+    },
+    {
+      title: "Logan's Run 1976",
+      src: "https://archive.org/download/soylent-green-1973_202512/Logan%27s%20Run.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSgShhZ3lxwki8d4orFHucGiH3Fu3uAPEzuYh7LGuCl-M1fir8IU7lDM&s=10"
+    },
+    {
+      title: "Maya 1966",
+      src: "https://archive.org/download/maya-1966-o-vale-dos-tigres-cover-dvd/1966%20-%20Maya%20-%20O%20Vale%20dos%20Tigres.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl1eKMehM2IRQ8kIwoRovg805lGdqY9IpG0GhWWivlQ&s=10"
+    },
+    {
+      title: "Big Trouble In Little China 1986",
+      src: "https://archive.org/download/big-trouble-little-china/Big%20Trouble%20In%20Little%20China%20720p.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10"
+    },
+	  {
+      title: "Walking-with-Dinosaurs-Ep01",
+      src: "https://archive.org/download/walking-with-dinosaurs/Episode%201%20-%20New%20Blood.mp4",
+      thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
+    },
+    {
+      title: "Walking-with-Dinosaurs-Ep02",
+      src: "https://archive.org/download/walking-with-dinosaurs/Episode%202%20-%20A%20Time%20of%20the%20Titans.mp4",
+      thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
+    },
+    {
+      title: "Walking-with-Dinosaurs-Ep03",
+      src: "https://archive.org/download/walking-with-dinosaurs/Episode%203%20-%20Cruel%20Sea.mp4",
+      thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
+    },
+    {
+      title: "Walking-with-Dinosaurs-Ep04",
+      src: "https://archive.org/download/walking-with-dinosaurs/Episode%204%20-%20Giant%20of%20the%20Skies.mp4",
+      thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
+    },
+    {
+      title: "Walking-with-Dinosaurs-Ep05",
+      src: "https://archive.org/download/walking-with-dinosaurs/Episode%205%20-%20Spirits%20of%20the%20Ice%20Forest.mp4",
+      thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
+    },
+    {
+      title: "Walking-with-Dinosaurs-Ep06",
+      src: "https://archive.org/download/walking-with-dinosaurs/Episode%206%20-%20Death%20of%20a%20Dynasty.mp4",
+      thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
+    },
+    {
+      title: "Coffee Cup",
+      src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
+      thumb: "https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"
+    },
+    {
+      title: "Sintel Trailer",
+      src: "https://media.w3.org/2010/05/sintel/trailer.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+    },
+    {
+      title: "Bunny Trailer",
+      src: "https://media.w3.org/2010/05/bunny/trailer.mp4",
+      thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"
+    },
+    {
+      title: "Happy Feet 2",
+      src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
+      thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
     }
-  }
-  order = base;
-}
+  ];
 
-function currentPlaylistIndex(){
-  return cursor >= 0 && cursor < order.length ? order[cursor] : -1;
-}
+  const video = document.getElementById('video');
+  const nowPlaying = document.getElementById('nowPlaying');
+  const runtimeEl = document.getElementById('runtime');
+  const clockEl = document.getElementById('clock');
+  const thumbsEl = document.getElementById('thumbs');
+  const thumbsCol = document.getElementById('thumbsCol');
+  const toggleBtn = document.getElementById('toggleBtn');
+  const playPauseBtn = document.getElementById('playPauseBtn');
+  const rewindBtn = document.getElementById('rewindBtn');
+  const forwardBtn = document.getElementById('forwardBtn');
 
-function renderList(){
-  const term = filterText.trim().toLowerCase();
-  reelList.innerHTML = '';
-  const activeIdx = currentPlaylistIndex();
-  let shown = 0;
-
-  PLAYLIST.forEach((item, i) => {
-    if(term && !item.title.toLowerCase().includes(term)) return;
-    shown++;
-    const li = document.createElement('li');
-    li.className = 'list-item' + (i === activeIdx ? ' playing' : '');
-    li.tabIndex = 0;
-    li.setAttribute('role', 'button');
-    li.setAttribute('aria-label', 'Play ' + item.title);
-    li.dataset.playlistIndex = i;
-
-    const thumbWrap = document.createElement('div');
-    thumbWrap.className = 'thumb-wrap';
-
-    const img = document.createElement('img');
-    img.src = item.thumb;
-    img.alt = '';
-    img.loading = 'lazy';
-    img.onerror = () => { img.style.display = 'none'; };
-    thumbWrap.appendChild(img);
-
-    if(i === activeIdx){
-      const badge = document.createElement('div');
-      badge.className = 'now-badge';
-      badge.innerHTML = '<div class="eq"><span></span><span></span><span></span></div>';
-      thumbWrap.appendChild(badge);
+  playPauseBtn.addEventListener('click', () => {
+    if (video.paused) {
+      video.play().catch(() => {});
     } else {
-      const idxTag = document.createElement('span');
-      idxTag.className = 'idx';
-      idxTag.textContent = String(i + 1).padStart(2, '0');
-      thumbWrap.appendChild(idxTag);
+      video.pause();
     }
+  });
+  video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; });
+  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; });
 
-    const meta = document.createElement('div');
-    meta.className = 'li-meta';
-    const titleEl = document.createElement('div');
-    titleEl.className = 'li-title';
-    titleEl.textContent = item.title;
-    meta.appendChild(titleEl);
+  rewindBtn.addEventListener('click', () => {
+    video.currentTime = Math.max(0, video.currentTime - 10);
+  });
+  forwardBtn.addEventListener('click', () => {
+    const max = video.duration || Infinity;
+    video.currentTime = Math.min(max, video.currentTime + 10);
+  });
+  function updateClock() {
+    const now = new Date();
+    const h = now.getHours().toString().padStart(2, '0');
+    const m = now.getMinutes().toString().padStart(2, '0');
+    const s = now.getSeconds().toString().padStart(2, '0');
+    clockEl.textContent = `${h}:${m}:${s}`;
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
 
-    li.appendChild(thumbWrap);
-    li.appendChild(meta);
+  function formatTime(seconds) {
+    if (!isFinite(seconds) || seconds < 0) seconds = 0;
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  }
 
-    const play = () => playByPlaylistIndex(i);
-    li.addEventListener('click', play);
-    li.addEventListener('keydown', (e) => {
-      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); play(); }
-    });
+  function updateRuntime() {
+    const elapsed = formatTime(video.currentTime);
+    const total = video.duration ? formatTime(video.duration) : '--:--';
+    runtimeEl.textContent = `${elapsed} / ${total}`;
+  }
 
-    reelList.appendChild(li);
+  video.addEventListener('timeupdate', updateRuntime);
+  video.addEventListener('loadedmetadata', updateRuntime);
+  video.addEventListener('durationchange', updateRuntime);
+
+  toggleBtn.addEventListener('click', () => {
+    const isHidden = thumbsCol.classList.toggle('hidden');
+    toggleBtn.textContent = isHidden ? '<' : '>';
   });
 
-  if(shown === 0){
-    const empty = document.createElement('div');
-    empty.className = 'empty-state';
-    empty.textContent = 'No features match that search.';
-    reelList.appendChild(empty);
-  }
-
-  countBadge.textContent = shown + ' / ' + PLAYLIST.length;
-}
-
-function playByPlaylistIndex(playlistIdx){
-  let pos = order.indexOf(playlistIdx);
-  if(pos === -1){ buildOrder(); pos = order.indexOf(playlistIdx); }
-  cursor = pos;
-  loadCurrent(true);
-}
-
-function loadCurrent(autoplay){
-  const idx = currentPlaylistIndex();
-  if(idx === -1) return;
-  const item = PLAYLIST[idx];
-  video.src = item.src;
-  npEyebrow.textContent = 'Reel — ' + String(idx + 1).padStart(2, '0') + ' of ' + PLAYLIST.length;
-  npTitle.textContent = item.title;
-  renderList();
-  scrollActiveIntoView();
-  if(autoplay){
-    video.play().catch(() => {/* autoplay may be blocked until user gesture */});
-  }
-}
-
-function scrollActiveIntoView(){
-  const el = reelList.querySelector('.list-item.playing');
-  if(el) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-}
-
-function step(delta){
-  if(order.length === 0) return;
-  if(cursor === -1){ cursor = 0; loadCurrent(true); return; }
-  let next = cursor + delta;
-  if(next >= order.length){
-    if(repeatMode === 1){ next = 0; } else { return; }
-  } else if(next < 0){
-    next = order.length - 1;
-  }
-  cursor = next;
-  loadCurrent(true);
-}
-
-/* ---- transport controls ---- */
-btnPlay.addEventListener('click', () => {
-  if(currentPlaylistIndex() === -1){ cursor = 0; loadCurrent(true); return; }
-  if(video.paused) video.play(); else video.pause();
-});
-btnPrev.addEventListener('click', () => step(-1));
-btnNext.addEventListener('click', () => step(1));
-
-btnShuffle.addEventListener('click', () => {
-  shuffle = !shuffle;
-  btnShuffle.classList.toggle('active', shuffle);
-  btnShuffle.title = shuffle ? 'Shuffle: On' : 'Shuffle';
-  const activeIdx = currentPlaylistIndex();
-  buildOrder();
-  cursor = activeIdx === -1 ? -1 : order.indexOf(activeIdx);
-  renderList();
-});
-
-btnRepeat.addEventListener('click', () => {
-  repeatMode = (repeatMode + 1) % 3;
-  btnRepeat.classList.toggle('active', repeatMode !== 0);
-  btnRepeat.title = REPEAT_LABELS[repeatMode];
-  btnRepeat.textContent = repeatMode === 2 ? '⟲¹' : '↻';
-});
-
-video.addEventListener('ended', () => {
-  if(repeatMode === 2){
-    video.currentTime = 0;
-    video.play();
-    return;
-  }
-  step(1);
-});
-
-video.addEventListener('play',  () => { btnPlay.textContent = '❚❚'; });
-video.addEventListener('pause', () => { btnPlay.textContent = '▶'; });
-
-video.addEventListener('timeupdate', () => {
-  clock.textContent = fmtTime(video.currentTime) + ' / ' + fmtTime(video.duration);
-});
-video.addEventListener('loadedmetadata', () => {
-  clock.textContent = fmtTime(video.currentTime) + ' / ' + fmtTime(video.duration);
-});
-
-searchInput.addEventListener('input', (e) => {
-  filterText = e.target.value;
-  renderList();
-});
-
-/* ---------------- init ---------------- */
-buildOrder();
-renderList();
+  videos.forEach((v, i) => {
+    const div = document.createElement('div');
+    div.className = 'thumb';
+    div.innerHTML = `
+      <img src="${v.thumb}" alt="${v.title}">
+      <div class="play-icon">▶</div>
+      <div class="label">${v.title}</div>
+    `;
+    div.addEventListener('click', () => {
+      document.querySelectorAll('.thumb').forEach(t => t.classList.remove('active'));
+      div.classList.add('active');
+      video.src = v.src;
+      video.load();
+      video.play().catch(() => {});
+      nowPlaying.textContent = "Now playing: " + v.title ;
+      runtimeEl.textContent = '0:00 / --:--';
+    });
+    thumbsEl.appendChild(div);
+  });
 </script>
+
 </body>
 </html>
