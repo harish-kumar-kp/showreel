@@ -317,6 +317,36 @@
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%206%20-%20Death%20of%20a%20Dynasty.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp"
     },
+	{
+      title: "Walking with Beast -Ep01",
+      src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%201%20-%20New%20Dawn.mp4",
+      thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg"
+    },
+    {
+      title: "Walking with Beast -Ep02",
+      src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%202%20-%20Whale%20Killer.mp4",
+      thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg"
+    },
+    {
+      title: "Walking with Beast -Ep03",
+      src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%203%20-%20Land%20of%20Giants.mp4",
+      thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg"
+    },
+    {
+      title: "Walking with Beast -Ep04",
+      src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%204%20-%20Next%20of%20Kin.mp4",
+      thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg"
+    },
+    {
+      title: "Walking with Beast -Ep05",
+      src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%205%20-%20Sabre%20Tooth.mp4",
+      thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg"
+    },
+    {
+      title: "Walking with Beast -Ep06",
+      src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%206%20-%20Mammoth%20Journey.mp4",
+      thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg"
+    },  
     {
       title: "Coffee Cup",
       src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
