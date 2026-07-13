@@ -248,6 +248,61 @@
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10"
     },
 	{
+      title: "Silver Bullet 1985",
+      src: "https://dn721809.ca.archive.org/0/items/Popcornarchive-silverBullet1985/Popcornarchive-silverBullet1985.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uXoBqfpdH3qWpsDQrWPWlCMm4W5uhiHm9fOJsyPDfw&s=10"
+    },
+    {
+      title: "National Treasure Book of Secrets 2007",
+      src: "https://archive.org/download/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiys5p8VSIyvqJgIkxbkH8AdQ_o005sT9sNjmj_f6nhtenXDdgCFceX8w&s=10"
+    },
+    {
+      title: "TrueLies 1994",
+      src: "https://archive.org/download/true-lies-1994-d-theater/True%20Lies%20%281994%29%20%5BD-Theater%5D.mp4",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/7f1febf752aba2f8e392247717048c68eb8d64f5a05ddcae893f039d6383c164.png"
+    },
+    {
+      title: "The Bridge on the River Kwai (1957)",
+      src: "https://archive.org/download/the-bridge-on-the-river-kwai-1957_202511/The%20Bridge%20on%20the%20River%20Kwai%20%281957%29/The%20Bridge%20on%20the%20River%20Kwai%20-%201957.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQ-1fJjQ3nLMORW5Ek8NG08zyzqdxPLUwh7PM30eBkgDk1E6nF3y1LYOj&s=10"
+    },
+    {
+      title: "The Secret of NIMH (1982)",
+      src: "https://archive.org/download/the-secret-of-nimh-1982_202511/The%20Secret%20Of%20NIMH%20%281982%29/mp4/The%20Secret%20of%20NIMH%201982.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24m6NroPJzev5KgjtWQclP1lZAfIYIvYJqcpt0dQUDA&s=10"
+    },
+    {
+      title: "Breakfast At Tiffanys 1961",
+      src: "https://archive.org/download/breakfast-at-tiffanys-1961_202508/Breakfast%20at%20Tiffany%27s%20%281961%29.mp4",
+      thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg"
+    },
+    {
+      title: "Vertical Limit 2000",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Vertical.Limit.%282000%29.H265.1080p.DVDRip.EzzRips/Vertical.Limit.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaradMxoriUb63yKZA2wQlmnuTaycy0IbYZdo0oIy_g&s=10"
+    },
+    {
+      title: "Deep Blue Sea 2007",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Deep.Blue.Sea.%281999%29.H265.1080p.DVDRip.EzzRips/Deep.Blue.Sea.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-image-of-characters-and-sharks-from-Deep-Blue-Sea.jpg?q=50&fit=crop&w=360&h=240&dpr=1.5"
+    },
+    {
+      title: "Gone In Sixty Seconds 2000",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Gone.in.60.Seconds.%282000%29.H265.1080p.DVDRip.EzzRips/Gone.In.Sixty.Seconds.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://i.ytimg.com/vi/kEbu0mqylT4/maxresdefault.jpg"
+    },
+    {
+      title: "Aeroplanes! 1980",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Airplane%21.%281980%29.H265.1080p.DVDRip.EzzRips/Airplane%21.%281980%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://i.ytimg.com/vi/n9MK9F2RZww/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDuXLIBhe1YCyG46EyG-aoctMje9A"
+    },
+   {
+      title: "UHF 1989",
+      src: "https://archive.org/download/uhf.-1989/UHF%20%281989%29/mp4/UHF.1989.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX3ABbHBA9pJeyqDeMdrKNQmSi9vhkQnUJfDyvSz-hUYB0pGDf-fbGDb0&s=10"
+    },
+	{
       title: "Memanto 2000",
       src: "https://archive.org/download/memento.-2000.1080p.-blu-ray.x-264.-yify/Memento.2000.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://images.mubicdn.net/images/artworks/172703/cache-172703-1621560129/images-original.png"
