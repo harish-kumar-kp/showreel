@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>kOTTe - Its My OTT </title>
-
 <style>
   * { box-sizing: border-box; }
   html, body {
@@ -111,6 +110,62 @@
     color: #5da9ff;
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
+  }
+  .aspect-controls {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .aspect-btn {
+    background: #2a2a2a;
+    color: #aaa;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 3px 7px;
+    font-size: 0.66rem;
+    cursor: pointer;
+  }
+  .aspect-btn:hover { background: #383838; color: #eee; }
+  .aspect-btn.active {
+    background: #2c5b8f;
+    border-color: #5da9ff;
+    color: #fff;
+  }
+
+  /* Aspect ratio / fit modes for the video element.
+     Attribute selector gives higher specificity than the base `video` rule. */
+  video[data-ratio="fit"] {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  video[data-ratio="fill"] {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  video[data-ratio="zoom"] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  video[data-ratio="16:9"] {
+    flex: 0 1 auto;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    margin: auto;
+  }
+  video[data-ratio="4:3"] {
+    flex: 0 1 auto;
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    margin: auto;
   }
   #clock {
     color: #5da9ff;
@@ -255,7 +310,7 @@
     <div class="player-col">
       <button class="toggle-btn" id="toggleBtn">></button>
       <div class="player-wrap">
-        <video id="video" controls></video>
+        <video id="video" controls data-ratio="fit"></video>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
@@ -264,6 +319,14 @@
           </span>
 	<span>&nbsp;&nbsp;</span>	
         <span id="runtime"></span>
+	<span>&nbsp;&nbsp;</span>
+	<span class="aspect-controls" id="aspectControls">
+            <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
+            <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
+            <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
+            <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
+            <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
+          </span>
 	<span>&nbsp;&nbsp;</span>
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
          
@@ -299,6 +362,16 @@
   const playPauseBtn = document.getElementById('playPauseBtn');
   const rewindBtn = document.getElementById('rewindBtn');
   const forwardBtn = document.getElementById('forwardBtn');
+  const aspectControls = document.getElementById('aspectControls');
+  const aspectBtns = aspectControls.querySelectorAll('.aspect-btn');
+
+  aspectBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      video.setAttribute('data-ratio', btn.dataset.ratio);
+      aspectBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
 
   let currentIndex = -1;
   let thumbEls = [];
