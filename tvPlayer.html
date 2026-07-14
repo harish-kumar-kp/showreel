@@ -53,7 +53,7 @@
     font-size: 0.68rem;
     cursor: pointer;
   }
-  .toggle-btn:hover { background: rgba(0,0,0,0.8); }
+  .toggle-btn:hover { background: rgba(0,0,0,0.2); }
   .player-wrap {
     background: #1b1b1b;
     border-radius: 10px;
@@ -310,7 +310,7 @@
     <div class="player-col">
       <button class="toggle-btn" id="toggleBtn">></button>
       <div class="player-wrap">
-        <video id="video" controls data-ratio="fit"></video>
+        <video id="video" controls controlsList="nodownload" data-ratio="fill"></video>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
