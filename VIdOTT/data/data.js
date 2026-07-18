@@ -172,22 +172,24 @@
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyri5fIjghGEykuu2-hiIEK0GsNkWRUX_Am8jbkn5SQ&s=10"
     },
     {
-      title: "TheGodsMustBeCrazy",
+      title: "The Gods Must Be Crazy",
       src: "https://dn710609.ca.archive.org/0/items/the.-gods.-must.-be.-crazy.-1980.-hdrip.-xvi-d.-b-4-nd-1-t-69/The.Gods.Must.Be.Crazy.1980.HDRip.XviD.B4ND1T69.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8fRfjMCydTBBdFOk8cstgUX-dXed2LjVqRgR8zI9vEuY6XsDAeuF66wt&s=10"
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8fRfjMCydTBBdFOk8cstgUX-dXed2LjVqRgR8zI9vEuY6XsDAeuF66wt&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The.Gods.Must.Be.Crazy.1984.srt"
     },
-    {
-      title: "1heGodsMustBeCrazy2",
+    {   
+      title: "The Gods Must Be Crazy 2",
       src: "https://dn710008.ca.archive.org/0/items/Popcornarchive-theGodsMustBeCrazy21989/Popcornarchive-theGodsMustBeCrazy21989.mp4",
-      thumb: "https://californiaherps.com/films/filmimages/godsmustbecrazyII.jpg"
+      thumb: "https://californiaherps.com/films/filmimages/godsmustbecrazyII.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The%20Gods%20Must%20Be%20Crazy%20II%20(1989).srt"
     },
     {
-      title: "theGodsMustBeCrazy3",
+      title: "The Gods Must Be Crazy3",
       src: "https://dn721605.ca.archive.org/0/items/GodsMustBeCrazy3CrazySafari/Gods%20Must%20Be%20Crazy%203%20-%20Crazy%20Safari.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMugptVH1zegCveYbzUmrUjwCsbBq7WONVTls1B0gHkbv5N61zrT-S5k&s=10"
     },
     {
-      title: "theGodsMustBeCrazy4",
+      title: "The Gods Must Be Crazy4",
       src: "https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10"
     },
