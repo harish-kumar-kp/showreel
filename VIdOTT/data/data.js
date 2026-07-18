@@ -10,7 +10,8 @@
     {
       title: "Sintel -Short.",
       src: "http://peach.themazzone.com/durian/movies/sintel-2048-surround.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Sintel(2010).eng.srt"
     },
    {
       title: "Making-Sintel -Doc.",
@@ -25,17 +26,20 @@
     {
       title: "Cosmos Laundromat -Short",
       src: "https://studio.blender.org/download-source/files/9e/9e18c8684db6ae04cc458477554f2976062f4d9d/9e18c8684db6ae04cc458477554f2976062f4d9d.mp4",
-      thumb: "https://video.blender.org/lazy-static/thumbnails/f507dfdc-e73e-45a4-9778-d758cbe1ce96.jpg"
+      thumb: "https://video.blender.org/lazy-static/thumbnails/f507dfdc-e73e-45a4-9778-d758cbe1ce96.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Cosmos_Laundromat_First_Cycle_(2015)_.minitoons._.EN.srt"
     },
     {
       title: "Agent 327: Operation Barbershop -Short",
       src: "https://video.blender.org/download/web-videos/264ff760-803e-430e-8d81-15648e904183-804.mp4",
-      thumb: "https://video.blender.org/lazy-static/thumbnails/264ff760-803e-430e-8d81-15648e904183.jpg"
+      thumb: "https://video.blender.org/lazy-static/thumbnails/264ff760-803e-430e-8d81-15648e904183.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Agent%20327.%20Operation%20Barbershop%20(2017)%20-%20EN%20.720p.%20-%20.minitoons.srt"
     },
     {
       title: "Sprite Fright -Short",
       src: "https://video.blender.org/download/web-videos/a69d68a5-a0e0-4a80-9d66-49f093c97aaf-804.mp4",
-      thumb: "https://video.blender.org/lazy-static/thumbnails/ff105d09-ca07-4128-b5f7-6e25351bb899.jpg"
+      thumb: "https://video.blender.org/lazy-static/thumbnails/ff105d09-ca07-4128-b5f7-6e25351bb899.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/SpriteFright_en.srt"
     },
     {
       title: "Charge -Short",
