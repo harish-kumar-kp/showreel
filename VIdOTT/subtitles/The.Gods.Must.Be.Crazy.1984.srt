@@ -1,2952 +1,6521 @@
-﻿1
-00:00:42,861 --> 00:00:48,864
-<i>Kalahari ligner et paradis, men er
-jordas mest forræderske ørken.</i>
+1
+00:00:37,482 --> 00:00:38,188
+[GROWLS]
 
 2
-00:00:49,034 --> 00:00:54,705
-<i>Etter den korte regntida er det
-mange vannhull, til og med elver.</i>
+00:00:42,701 --> 00:00:45,044
+<i>NARRATOR: It looks like
+a paradise, but it is in fact</i>
 
 3
-00:00:54,873 --> 00:00:59,916
-<i>Men etter noen få uker
-synker vannet ned i sanden.</i>
+00:00:45,044 --> 00:00:47,110
+<i>the most treacherous desert
+in the world--</i>
 
 4
-00:01:00,087 --> 00:01:03,005
-<i>Vannhullene og elvene tørker inn.</i>
+00:00:47,515 --> 00:00:48,539
+<i>the Kalahari.</i>
 
 5
-00:01:03,173 --> 00:01:08,298
-<i>Gresset blir vakkert gulaktig, og
-er et glimrende beite for dyrene.</i>
+00:00:48,986 --> 00:00:50,401
+<i>After the short rainy season,</i>
 
 6
-00:01:08,470 --> 00:01:12,053
-<i>Men i de neste ni månedene
-er det ikke noe vann.</i>
+00:00:50,401 --> 00:00:51,762
+<i>there are many water holes,</i>
 
 7
-00:01:12,224 --> 00:01:16,803
-<i>Så de fleste dyrene drar bort
-og etterlater gresset urørt.</i>
+00:00:52,294 --> 00:00:53,344
+<i>and even rivers,</i>
 
 8
-00:01:16,979 --> 00:01:22,935
-<i>Mennesker skyr Kalahari-ørkenen som
-pesten, de kan ikke leve uten vann.</i>
+00:00:54,565 --> 00:00:55,480
+<i>but after a few weeks,</i>
 
 9
-00:01:23,110 --> 00:01:27,238
-<i>Det vakre landskapet
-er tomt for mennesker.</i>
+00:00:55,480 --> 00:00:58,578
+<i>the water sinks away into the
+deep Kalahari sand.</i>
 
 10
-00:01:27,406 --> 00:01:32,116
-<i>Bortsett fra
-det lille folket i Kalahari.</i>
+00:00:59,656 --> 00:01:02,449
+<i>The water holes dry up,
+and the rivers stop flowing.</i>
 
 11
-00:01:37,416 --> 00:01:41,995
-<i>Buskmennene er vakre,
-små og grasiøse.</i>
+00:01:03,180 --> 00:01:05,431
+<i>The grass fades
+to a beautiful blond color</i>
 
 12
-00:01:42,171 --> 00:01:45,172
-<i>Hvor andre raskt
-ville dø av tørst-</i>
+00:01:05,431 --> 00:01:07,474
+<i>that offers excellent grazing
+for the animals,</i>
 
 13
-00:01:45,340 --> 00:01:49,837
-<i>- lever de i denne ørkenen
-som ikke ligner en ørken.</i>
+00:01:08,086 --> 00:01:10,931
+<i>but for the next nine months,
+there'll be no water to drink,</i>
 
 14
-00:01:50,012 --> 00:01:56,180
-<i>De vet hvor de finner røtter,
-og hvilke bær som er spiselige.</i>
+00:01:11,979 --> 00:01:13,841
+<i>so most of the animals
+move away,</i>
 
 15
-00:02:11,158 --> 00:02:13,732
-<i>Og de kan det der med vann.</i>
+00:01:14,009 --> 00:01:16,588
+<i>leaving the beautiful
+blond grass uneaten.</i>
 
 16
-00:02:13,911 --> 00:02:20,827
-<i>Om morgenen kan en f.eks. samle dugg
-på blader som legges ut dagen før.</i>
+00:01:17,234 --> 00:01:19,765
+<i>Humans avoid the deep Kalahari
+like the plague,</i>
 
 17
-00:02:25,255 --> 00:02:28,043
-<i>Man kan få vann fra et gresstrå.</i>
+00:01:19,765 --> 00:01:22,024
+<i>because man must have water
+to live,</i>
 
 18
-00:02:28,217 --> 00:02:36,509
-<i>Uanselige kvister viser hvor en kan
-grave. Og finne en enorm knoll.</i>
+00:01:22,581 --> 00:01:25,470
+<i>so the beautiful landscapes
+are devoid of people...</i>
 
 19
-00:02:39,520 --> 00:02:44,064
-<i>Den skrapes med en pinne som er
-kløyvd for</i> å <i>gjøre kanten skarp.</i>
+00:01:27,105 --> 00:01:28,076
+<i>except for--</i>
 
 20
-00:02:44,233 --> 00:02:50,070
-<i>Man tar en håndfull flis, holder
-tommelen mot munnen og klemmer.</i>
+00:01:28,745 --> 00:01:30,554
+<i>the little people
+of the Kalahari.</i>
 
 21
-00:02:57,246 --> 00:03:00,164
-<i>De må være
-verdens mest fornøyde folk.</i>
+00:01:34,098 --> 00:01:36,649
+[SPEAKING SAN]
 
 22
-00:03:00,332 --> 00:03:07,628
-<i>De har verken kriminalitet, straff,
-vold, politi, dommere eller sjefer.</i>
+00:01:36,893 --> 00:01:39,822
+<i>Pretty, dainty,
+small and graceful,</i>
 
 23
-00:03:09,591 --> 00:03:15,096
-<i>De tror gudene bare fyller jorda
-med gode og anvendelige ting.</i>
+00:01:39,961 --> 00:01:40,967
+<i>the Bushmen.</i>
 
 24
-00:03:15,347 --> 00:03:19,214
-<i>I deres verden
-er ingenting dårlig eller vondt.</i>
+00:01:41,720 --> 00:01:44,848
+<i>Where any other person would
+die of thirst in a few days,</i>
 
 25
-00:03:20,352 --> 00:03:26,189
-<i>Selv ikke en giftslange er dårlig,
-en må bare unngå den bitende enden.</i>
+00:01:44,959 --> 00:01:47,267
+<i>they live quite contentedly
+in this desert</i>
 
 26
-00:03:28,318 --> 00:03:34,736
-<i>Slange smaker faktisk nydelig,
-og skinnet kan bli til en fin pose.</i>
+00:01:47,267 --> 00:01:48,630
+<i>that doesn't look
+like a desert.</i>
 
 27
-00:03:36,034 --> 00:03:40,080
-<i>De lever i det vidstrakte Kalahari
-i små familiegrupper.</i>
+00:01:49,683 --> 00:01:52,866
+<i>They know where to dig
+for roots and bulbs and tubers,</i>
 
 28
-00:03:40,247 --> 00:03:43,664
-<i>Familiene møter sjeldent andre.</i>
+00:01:53,103 --> 00:01:55,549
+<i>and which berries and pods
+are good to eat.</i>
 
 29
-00:03:43,834 --> 00:03:50,371
-<i>Stort sett lever de helt isolert,
-uvitende om andre folks eksistens.</i>
+00:01:56,302 --> 00:01:59,528
+[SPEAKING SAN]
 
 30
-00:03:50,549 --> 00:03:56,089
-<i>Det finnes buskmenn som aldri
-har hørt om siviliserte mennesker.</i>
+00:02:07,423 --> 00:02:08,992
+[BOTH LAUGH]
 
 31
-00:03:56,263 --> 00:04:00,095
-<i>Hører de en drønnende lyd
-fra en skyfri himmel-</i>
+00:02:11,027 --> 00:02:13,014
+<i>And, of course, they know
+what to do about water.</i>
 
 32
-00:04:00,267 --> 00:04:05,226
-<i>- antar de at gudene har spist
-for mye, så magene deres rumler.</i>
+00:02:13,361 --> 00:02:14,812
+<i>For instance,
+in the early morning,</i>
 
 33
-00:04:05,397 --> 00:04:09,525
-<i>Iblant ser de bevis på
-gudenes luftutslipp.</i>
+00:02:14,812 --> 00:02:16,758
+<i>you can collect dewdrops
+from leaves</i>
 
 34
-00:04:09,693 --> 00:04:16,740
-<i>Språket deres er egenartet,
-det består mest av klikkende lyder.</i>
+00:02:16,758 --> 00:02:18,929
+<i>that were carefully laid out
+the previous evening...</i>
 
 35
-00:04:21,622 --> 00:04:26,700
-<i>De straffer aldri barn,
-de snakker aldri strengt til dem-</i>
+00:02:25,101 --> 00:02:27,188
+<i>or a plume of grass
+can be a reservoir,</i>
 
 36
-00:04:26,877 --> 00:04:32,833
-<i>- så ungene er veldig veloppdragne
-og lekene er fantasifulle.</i>
+00:02:27,994 --> 00:02:29,281
+<i>and if you have the know-how,</i>
 
 37
-00:04:41,517 --> 00:04:46,511
-<i>Når de jakter, dypper jegeren
-pilen i et beroligende stoff.</i>
+00:02:29,375 --> 00:02:32,377
+<i>an insignificant clump of twigs
+can tell you where to dig,</i>
 
 38
-00:04:46,688 --> 00:04:50,224
-<i>Bukken kjenner bare et stikk,
-og pilen faller.</i>
+00:02:32,676 --> 00:02:34,992
+<i>then you'll come to light
+with an enormous tuber.</i>
 
 39
-00:04:50,400 --> 00:04:55,561
-<i>Bukken springer,
-men blir døsig og stopper.</i>
+00:02:39,250 --> 00:02:40,739
+<i>You scrape shavings off it</i>
 
 40
-00:04:57,449 --> 00:05:00,320
-<i>Etter en stund sovner den.</i>
+00:02:40,739 --> 00:02:43,143
+<i>with a stick that was split
+to give it a sharp edge.</i>
 
 41
-00:05:03,539 --> 00:05:09,791
-<i>Jegeren sier unnskyld og forklarer
-at familien trenger kjøttet.</i>
+00:02:43,581 --> 00:02:45,202
+<i>You take a handful
+of the shavings,</i>
 
 42
-00:05:11,004 --> 00:05:15,833
-<i>Et trekk som virkelig skiller
-buskmennene fra alle andre-</i>
+00:02:45,373 --> 00:02:47,864
+<i>point your thumb at your mouth
+and squeeze.</i>
 
 43
-00:05:16,009 --> 00:05:19,261
-<i>- er at de ikke
-har noen eierfølelse.</i>
+00:02:49,310 --> 00:02:53,006
+[SPEAKING SAN]
 
 44
-00:05:19,429 --> 00:05:24,887
-<i>Der de bor er det ikke noe en
-kan eie, bare trær, gress og dyr.</i>
+00:02:57,195 --> 00:02:59,570
+<i>They must be the most
+contented people in the world.</i>
 
 45
-00:05:25,060 --> 00:05:28,678
-<i>Disse buskmennene
-har aldri sett en stein.</i>
+00:02:59,885 --> 00:03:01,720
+<i>They have no crime,
+no punishment,</i>
 
 46
-00:05:28,856 --> 00:05:32,641
-<i>Det hardeste de kjenner til
-er tre og bein.</i>
+00:03:01,720 --> 00:03:03,476
+<i>no violence, no laws,</i>
 
 47
-00:05:32,818 --> 00:05:39,615
-<i>Deres verden er vennlig, intet er
-så hardt som stein, stål og betong.</i>
+00:03:03,568 --> 00:03:06,267
+<i>no police, judges,
+rulers, or bosses.</i>
 
 48
-00:05:41,159 --> 00:05:46,119
-<i>Bare 100 mil sørpå
-ligger en enorm by.</i>
+00:03:09,484 --> 00:03:12,201
+<i>They believe that the gods
+put only good and useful things</i>
 
 49
-00:05:48,625 --> 00:05:52,493
-<i>Og her finner man
-det siviliserte mennesket.</i>
+00:03:12,201 --> 00:03:13,603
+<i>on the earth for them to use.</i>
 
 50
-00:06:14,610 --> 00:06:20,612
-<i>Det siviliserte mennesket tilpasset
-omgivelsene etter seg selv.</i>
+00:03:15,144 --> 00:03:17,758
+<i>In this world of theirs,
+nothing is bad or evil.</i>
 
 51
-00:06:20,782 --> 00:06:23,653
-<i>Det bygde byer, veier, kjøretøy-</i>
+00:03:20,072 --> 00:03:21,926
+<i>Even a poisonous snake
+is not bad.</i>
 
 52
-00:06:23,827 --> 00:06:28,241
-<i>- og trakk strømledninger
-til arbeidssparende apparater.</i>
+00:03:22,472 --> 00:03:24,353
+<i>You just have to keep away
+from the sharp end.</i>
 
 53
-00:06:28,415 --> 00:06:33,208
-<i>Men jo mer det forbedret
-omgivelsene for</i> å <i>forenkle livet-</i>
+00:03:27,867 --> 00:03:29,554
+<i>Actually, a snake is very good.</i>
 
 54
-00:06:33,378 --> 00:06:38,883
-<i>- jo mer kompliserte det det.
-Nå går barna 10-15 'ar på skolen-</i>
+00:03:29,735 --> 00:03:30,901
+<i>In fact, it's delicious,</i>
 
 55
-00:06:39,051 --> 00:06:44,295
-<i>- for</i> å <i>lære</i> å <i>overleve i den
-innviklete verdenen de ble født i.</i>
+00:03:31,543 --> 00:03:33,547
+<i>and the skin
+makes a fine pouch.</i>
 
 56
-00:06:44,473 --> 00:06:48,009
-<i>Og det siviliserte mennesket
-må nå daglig tilpasse seg-</i>
+00:03:35,607 --> 00:03:37,667
+<i>They live in the vastness
+of the Kalahari</i>
 
 57
-00:06:48,185 --> 00:06:54,223
-<i>-dets selvskapte omgivelser.</i>
+00:03:37,667 --> 00:03:39,098
+<i>in small family groups.</i>
 
 58
-00:06:54,399 --> 00:06:58,481
-<i>Heter dagen mandag
-og tallene 7, 3, 0 viser seg-</i>
+00:03:39,799 --> 00:03:42,368
+<i>One family of Bushmen might
+meet up with another family</i>
 
 59
-00:06:58,654 --> 00:07:05,819
-<i>- må en omstille seg fra hjemme-
-miljøet til et helt annet miljø.</i>
+00:03:42,368 --> 00:03:44,616
+<i>once in a few years,
+but for the most part,</i>
 
 60
-00:07:13,126 --> 00:07:18,038
-<i>8, 0, 0 betyr
-at alle må se opptatt ut.</i>
+00:03:44,616 --> 00:03:46,310
+<i>they live
+in complete isolation,</i>
 
 61
-00:07:21,885 --> 00:07:25,385
-Jeg har en bra historie
-om handikappete barn.
+00:03:46,318 --> 00:03:48,829
+<i>quite unaware that there are
+other people in the world.</i>
 
 62
-00:07:25,556 --> 00:07:29,933
-<i>Ikke noe deprimerende
-stoff i spalten din!</i>
+00:03:50,247 --> 00:03:52,120
+<i>In the deep Kalahari,
+there are Bushmen</i>
 
 63
-00:07:30,102 --> 00:07:35,096
-Greit, alt skal være fryd og gammen
-selv om det kjeder dem i hjel.
+00:03:52,120 --> 00:03:54,702
+<i>who have never seen
+or heard of civilized man.</i>
 
 64
-00:07:35,274 --> 00:07:41,027
-<i>10, 3, 0 innebærer at man kan
-slutte</i> å <i>se opptatt ut i 15 min.</i>
+00:03:55,828 --> 00:03:57,689
+<i>Sometimes they hear
+a thundering sound</i>
 
 65
-00:07:41,613 --> 00:07:45,694
-<i>For deretter å se opptatt ut igjen.</i>
+00:03:57,689 --> 00:03:59,175
+<i>when there are no clouds
+in the sky,</i>
 
 66
-00:07:47,202 --> 00:07:50,904
-Kan du bruke dette
-om lærermangelen i Botswana?
+00:03:59,683 --> 00:04:02,132
+<i>and they assume the gods
+have eaten too much again,</i>
 
 67
-00:07:51,081 --> 00:07:55,743
-De tar hvem som helst
-som kan lese og skrive.
+00:04:02,132 --> 00:04:04,119
+<i>and their tummies
+are rumbling up there.</i>
 
 68
-00:07:55,919 --> 00:07:58,672
-Jeg fikk kjeft
-for en historie om ran.
+00:04:04,669 --> 00:04:06,630
+<i>Sometimes, they can even
+see the evidence</i>
 
 69
-00:07:58,839 --> 00:08:02,671
-I min spalte skal alt
-være fryd og gammen. Beklager.
+00:04:06,630 --> 00:04:08,023
+<i>of the gods' flatulence.</i>
 
 70
-00:08:02,843 --> 00:08:09,759
-<i>Dagen blir stykket opp, og for
-hver del må man tilpasse seg på ny.</i>
+00:04:09,685 --> 00:04:11,928
+<i>Their language has
+an idiosyncrasy of its own.</i>
 
 71
-00:08:10,893 --> 00:08:15,353
-<i>Ikke rart folk går litt i spinn.</i>
+00:04:12,291 --> 00:04:14,834
+<i>It seems to consist
+mainly of clicking sounds.</i>
 
 72
-00:08:16,648 --> 00:08:22,236
-- Forstyrrer lyden i hodet mitt deg?
-- Nei.
+00:04:16,303 --> 00:04:18,550
+[SPEAKING SAN]
 
 73
-00:08:22,404 --> 00:08:29,404
-Har du klippet om lærermangelen?
-Kanskje de kan bruke meg.
+00:04:19,123 --> 00:04:21,055
+[LAUGHS]
 
 74
-00:08:29,578 --> 00:08:35,166
-<i>I Kalahari er det alltid tirsdag,
-torsdag eller søndag, hvis du vil.</i>
+00:04:21,218 --> 00:04:22,722
+<i>They're very gentle people.</i>
 
 75
-00:08:35,334 --> 00:08:39,878
-<i>Ingen klokker eller kalendere
-sier hva man skal gjøre.</i>
+00:04:23,275 --> 00:04:26,166
+<i>They'll never punish a child
+or even speak harshly to it,</i>
 
 76
-00:08:40,047 --> 00:08:48,007
-<i>Bråkete fugler med urørlige vinger
-hadde begynt</i> å <i>vises på himmelen.</i>
+00:04:26,724 --> 00:04:29,150
+<i>so, of course, those kids
+are extremely well-behaved,</i>
 
 77
-00:09:00,317 --> 00:09:03,568
-<i>En dag falt noe ned fra himmelen.</i>
+00:04:29,299 --> 00:04:31,772
+<i>and their games are cute
+and inventive.</i>
 
 78
-00:09:18,335 --> 00:09:21,622
-<i>Xi hadde aldri sett noe lignende.</i>
+00:04:32,610 --> 00:04:35,478
+[SINGING]
 
 79
-00:09:21,797 --> 00:09:26,423
-<i>Det lignet vann, men var
-hardere enn noe annet i verden.</i>
+00:04:41,332 --> 00:04:44,114
+<i>When the family needs meat,
+the hunter dips his tiny arrow</i>
 
 80
-00:09:26,593 --> 00:09:31,220
-<i>Han lurte på hvorfor gudene
-hadde sendt den til jorda.</i>
+00:04:44,114 --> 00:04:46,151
+<i>in a brew that acts
+as a tranquilizer,</i>
 
 81
-00:09:34,518 --> 00:09:41,981
-<i>De hadde aldri sett noe vakrere, og
-lurte på hvorfor gudene sendte den.</i>
+00:04:46,431 --> 00:04:48,424
+<i>so when he shoots a buck,
+it only feels a sting,</i>
 
 82
-00:09:47,573 --> 00:09:54,489
-<i>Pabo satte fast fingeren,
-og barna syntes han var morsom.</i>
+00:04:48,424 --> 00:04:49,808
+<i>and the arrow drops out.</i>
 
 83
-00:10:03,338 --> 00:10:09,590
-<i>Xi lagde lærreimer med tingen.
-Den hadde rett form og vekt.</i>
+00:04:50,238 --> 00:04:52,872
+<i>The buck runs away,
+but soon it gets very drowsy</i>
 
 84
-00:10:09,761 --> 00:10:16,216
-<i>Den var også herlig glatt,
-ideell til</i> å <i>preparere slange.</i>
+00:04:52,872 --> 00:04:53,933
+<i>and it stops running.</i>
 
 85
-00:10:18,353 --> 00:10:23,514
-<i>Pabo oppdaget
-at han kunne spille på den.</i>
+00:04:57,102 --> 00:04:59,018
+<i>After a while,
+it goes to sleep...</i>
 
 86
-00:10:23,692 --> 00:10:28,319
-<i>Hver dag oppdaget de
-en ny bruksmåte for tingen.</i>
+00:05:03,158 --> 00:05:05,501
+<i>and the hunter apologizes
+to his prey.</i>
 
 87
-00:10:28,488 --> 00:10:33,234
-<i>Den var hardere, tyngre og glattere
-enn noe de kjente til.</i>
+00:05:06,068 --> 00:05:08,129
+<i>He explains
+that his family needs the meat.</i>
 
 88
-00:10:33,410 --> 00:10:39,033
-<i>Det nyttigste gudene hadde gitt
-dem, en arbeidssparende mekanisme.</i>
+00:05:08,129 --> 00:05:10,578
+[SPEAKING SAN]
 
 89
-00:10:41,126 --> 00:10:44,329
-<i>Men de uforsiktige gudene
-hadde bare sendt én.</i>
+00:05:11,248 --> 00:05:13,272
+<i>The one characteristic
+which really makes the</i>
 
 90
-00:10:44,505 --> 00:10:50,757
-<i>For første gang kunne man
-ikke dele, for det var bare én.</i>
+00:05:13,272 --> 00:05:15,386
+<i>Bushmen different from
+all the other races on Earth</i>
 
 91
-00:10:56,892 --> 00:10:59,645
-<i>Plutselig trengte
-alle den stadig vekk.</i>
+00:05:15,680 --> 00:05:18,194
+<i>is the fact that they have
+no sense of ownership at all.</i>
 
 92
-00:10:59,811 --> 00:11:02,813
-<i>Noe de aldri hadde
-trengt før, ble et behov.</i>
+00:05:19,476 --> 00:05:21,587
+<i>Where they live, there's really
+nothing you can own--</i>
 
 93
-00:11:02,981 --> 00:11:11,819
-<i>Fremmede følelser våknet: følelsen
-av</i> å <i>ville eie, ikke</i> å <i>ville dele.</i>
+00:05:21,800 --> 00:05:24,097
+<i>only trees
+and grass and animals.</i>
 
 94
-00:11:18,205 --> 00:11:24,790
-<i>Og andre ting kom:
-sinne, sjalusi, hat ... og vold.</i>
+00:05:24,508 --> 00:05:26,088
+<i>In fact, these Bushmen
+have never seen</i>
 
 95
-00:11:40,936 --> 00:11:47,521
-<i>Xi ble sint på gudene. Han ropte
-at de skulle ta tilbake tingen.</i>
+00:05:26,088 --> 00:05:28,122
+<i>a stone or a rock
+in their lives.</i>
 
 96
-00:11:47,693 --> 00:11:53,696
-<i>Gudene tok den ikke tilbake.
-"Dere må være gale," ropte Xi.</i>
+00:05:28,420 --> 00:05:30,605
+<i>The hardest things they know
+are wood and bone.</i>
 
 97
-00:11:53,866 --> 00:11:59,405
-<i>Så ropte han: "Pass på! Pass på!"
-Men det var for sent.</i>
+00:05:32,792 --> 00:05:34,256
+<i>They live in a gentle world,</i>
 
 98
-00:11:59,580 --> 00:12:03,447
-<i>Tingen falt på hans datter Dani.</i>
+00:05:34,433 --> 00:05:37,466
+<i>where nothing is as hard
+as rock, or steel, or concrete.</i>
 
 99
-00:12:19,766 --> 00:12:23,848
-<i>Han bar bort tingen
-og begravde den.</i>
+00:05:41,167 --> 00:05:44,142
+<i>Only 600 miles to the south,
+there's a vast city.</i>
 
 100
-00:12:36,533 --> 00:12:42,785
-<i>Den kvelden var det
-ingen latter og prat rundt bålet.</i>
+00:05:48,584 --> 00:05:50,588
+<i>And here you find civilized man.</i>
 
 101
-00:12:42,956 --> 00:12:49,458
-<i>En merkelig følelse av skam hadde
-slått dem. De var veldig stille.</i>
+00:06:14,302 --> 00:06:17,328
+<i>Civilized man refused
+to adapt himself to his environment.</i>
 
 102
-00:12:52,382 --> 00:12:57,673
-<i>Xi sa: "Jeg har begravd tingen.
-Den gjør oss ikke ulykkelige igjen."</i>
+00:06:17,440 --> 00:06:19,840
+<i>Instead, he adapted his environment
+to suit him.</i>
 
 103
-00:13:12,611 --> 00:13:17,689
-<i>En hyene kjente blodlukta
-fra tingen og gravde den opp.</i>
+00:06:20,467 --> 00:06:23,500
+<i>So, he built cities, roads,
+vehicles, machinery,</i>
 
 104
-00:13:21,703 --> 00:13:27,706
-<i>Men et sint vortesvin jaget
-bort hyenen, som mistet tingen.</i>
+00:06:23,884 --> 00:06:27,374
+<i>and he put up power lines
+to run his labor-saving devices,</i>
 
 105
-00:13:31,672 --> 00:13:34,923
-<i>Neste dag fant Dani den.</i>
+00:06:27,997 --> 00:06:30,015
+<i>but somehow,
+he didn't know when to stop.</i>
 
 106
-00:13:44,101 --> 00:13:50,021
-<i>Broren Tema hørte henne spille
-og ville også prøve.</i>
+00:06:30,291 --> 00:06:32,985
+<i>The more he improved his
+surroundings to make his life easier,</i>
 
 107
-00:14:26,935 --> 00:14:32,475
-<i>Den kvelden
-var de veldig ulykkelige.</i>
+00:06:33,075 --> 00:06:34,573
+<i>the more complicated he made it.</i>
 
 108
-00:14:36,987 --> 00:14:40,238
-<i>De snakket om tingen
-som hadde kommet inn i deres liv.</i>
+00:06:35,643 --> 00:06:38,846
+<i>so now his children are sentenced
+to 10 to 15 years of school</i>
 
 109
-00:14:40,407 --> 00:14:45,746
-<i>Den hadde ikke noe navn,
-de kalte den "den onde tingen".</i>
+00:06:39,058 --> 00:06:42,342
+<i>just to learn how to survive in
+this complex and hazardous habitat</i>
 
 110
-00:14:50,250 --> 00:14:56,039
-<i>Gaboo sa: "Kanskje gudene var
-åndsfraværende da de kastet den.</i>
+00:06:42,343 --> 00:06:43,285
+<i>they were born into.</i>
 
 111
-00:14:56,215 --> 00:15:01,589
-<i>De har alltid sendt gode ting,
-som regn, trær, røtter og bær-</i>
+00:06:44,062 --> 00:06:45,094
+<i>And civilized man,</i>
 
 112
-00:15:01,762 --> 00:15:08,726
-<i>- for vi er deres elskede barn. Men
-nå har de sendt den onde tingen."</i>
+00:06:45,094 --> 00:06:47,612
+<i>who refused to adapt himself
+to his natural surroundings,</i>
 
 113
-00:15:12,731 --> 00:15:16,349
-<i>Xi sa:
-"Tingen hører ikke til på jorda.</i>
+00:06:47,820 --> 00:06:50,179
+<i>now finds he has to adapt
+and re-adapt himself</i>
 
 114
-00:15:16,527 --> 00:15:21,236
-<i>Imorgen går jeg
-til verdens ende og kaster den."</i>
+00:06:50,179 --> 00:06:52,166
+<i>every day
+and every hour of the day</i>
 
 115
-00:15:21,406 --> 00:15:25,155
-<i>Gobo sa: "Jeg tror det er langt
-til verdens ende.</i>
+00:06:52,281 --> 00:06:54,037
+<i>to his self-created
+environment.</i>
 
 116
-00:15:25,327 --> 00:15:30,452
-<i>Du må kanskje gå i 20 dager,
-kanskje i 40."</i>
+00:06:54,467 --> 00:06:56,436
+<i>For instance,
+if the day is called Monday</i>
 
 117
-00:15:30,624 --> 00:15:34,242
-<i>Xi sa: "Jeg begynner å gå i morgen."</i>
+00:06:56,436 --> 00:06:58,477
+<i>and the number 7:30 comes up,</i>
 
 118
-00:16:07,327 --> 00:16:13,366
-<i>300 mil nordpå, i Birani,
-var det problemer i gjære.</i>
+00:06:58,673 --> 00:07:01,452
+<i>you have to dis-adapt yourself
+from your domestic surroundings</i>
 
 119
-00:16:18,046 --> 00:16:23,421
-35 millioner for å bekjempe
-erosjonen i Munda-dalen ...
+00:07:01,506 --> 00:07:04,213
+<i>and re-adapt yourself to an
+entirely different environment.</i>
 
 120
-00:16:23,594 --> 00:16:26,464
-Vent, minister ...
+00:07:12,836 --> 00:07:15,397
+<i>8:00 means everybody
+has to look busy.</i>
 
 121
-00:17:04,551 --> 00:17:07,470
-Ut, Maffara, vi trenger bilen!
+00:07:15,397 --> 00:07:17,116
+[TELEPHONE RINGING]
 
 122
-00:17:27,074 --> 00:17:31,451
-Sam Bogas gjeng!
-Du sa de var i Cabinda.
+00:07:21,481 --> 00:07:23,968
+<i>I've got a very good story here
+about handicapped children.</i>
 
 123
-00:17:31,620 --> 00:17:34,574
-- Jeg trodde det.
-- Hvor mange slapp unna?
+00:07:24,402 --> 00:07:27,806
+<i>MAN: Handicapped
+children? No! You don't...</i>
 
 124
-00:17:34,748 --> 00:17:39,375
-- To jeeper, fire slapp unna.
-- Sam Boga var ikke med.
+00:07:28,117 --> 00:07:28,569
+<i>Uh...</i>
 
 125
-00:17:39,545 --> 00:17:46,675
-Denne gangen må han dø!
-Finn ham og drep ham selv.
+00:07:29,661 --> 00:07:31,477
+<i>Yeah, all right.
+Look, I'm sorry.</i>
 
 126
-00:17:50,764 --> 00:17:52,840
-Kom hit med ham!
+00:07:31,477 --> 00:07:32,898
+<i>I'll only print
+sweetness and light,</i>
 
 127
-00:18:00,607 --> 00:18:03,182
-Hvor er Sam Boga?
+00:07:32,898 --> 00:07:34,582
+<i>even if it bores
+the pants off them.</i>
 
 128
-00:18:05,863 --> 00:18:09,694
-Hvor er skjulestedet deres?
+00:07:35,190 --> 00:07:38,562
+<i>10:30 says you can stop
+looking busy for 15 minutes...</i>
 
 129
-00:18:11,493 --> 00:18:17,745
-- Kom inn med ham i korridoren.
-- Kom med ham.
+00:07:41,223 --> 00:07:42,771
+<i>and then
+you have to look busy again.</i>
 
 130
-00:18:24,423 --> 00:18:28,670
-Hvor er Sam Boga?
-Hvor er skjulestedet deres?
+00:07:45,840 --> 00:07:46,919
+- Hi, Kate.
+- Hi, Pete.
 
 131
-00:18:28,844 --> 00:18:32,047
-Før dem-
+00:07:47,085 --> 00:07:48,160
+You think you can use this?
 
 132
-00:18:32,222 --> 00:18:34,927
--til helikopteret.
+00:07:48,160 --> 00:07:50,039
+It's about the shortage
+of teachers in Botswana.
 
 133
-00:18:42,649 --> 00:18:47,063
-De dro sørover.
-Jeg dirigerer dere fra helikopteret.
+00:07:50,154 --> 00:07:50,914
+Good story?
 
 134
-00:18:58,707 --> 00:19:00,368
-Bensinsluker.
+00:07:51,040 --> 00:07:52,150
+Yeah, they're so short,
 
 135
-00:19:00,542 --> 00:19:08,005
-<i>Fire av de åtte morderne flyktet i
-to jeeper. De fire andre ble skutt.</i>
+00:07:52,150 --> 00:07:53,771
+they'll take anybody
+who can read and write.
 
 136
-00:19:08,175 --> 00:19:15,091
-<i>Morderne bar brune T-skjorter,
-kjennetegnet for Bogas terrorister.</i>
+00:07:54,388 --> 00:07:55,263
+I don't know.
 
 137
-00:19:15,265 --> 00:19:20,723
-<i>Ifølge øyenvitner deltok
-ikke Sam Boga selv i mordene.</i>
+00:07:55,604 --> 00:07:57,592
+I got bawled out for
+writing a story on mugging.
 
 138
-00:19:20,896 --> 00:19:26,056
-<i>Han antas</i> å <i>ha styrt angrepet
-fra et sted tett på hovedstaden.</i>
+00:07:58,065 --> 00:07:59,999
+He says my page should only
+have sweetness and light,
 
 139
-00:19:26,235 --> 00:19:32,606
-<i>Ministrene for utdanning, offentlig
-arbeid og jordbruk ble drept.</i>
+00:08:00,228 --> 00:08:02,330
+like Liberace
+and Jackie Onassis. I'm sorry.
 
 140
-00:19:32,783 --> 00:19:40,079
-<i>Presidenten, som unnslapp med et
-kjøttsår, vil nå tale til nasjonen.</i>
+00:08:02,330 --> 00:08:04,700
+<i>And so your day is chopped up
+into little pieces,</i>
 
 141
-00:19:45,796 --> 00:19:50,458
-Vi fikk tatt presidenten
-og fem ministere!
+00:08:04,700 --> 00:08:06,102
+<i>and in each segment of time,</i>
 
 142
-00:19:50,634 --> 00:19:53,553
-Nei, det fikk dere ikke. Det er han.
+00:08:06,102 --> 00:08:08,144
+<i>you have adapt
+to a new set of circumstances.</i>
 
 143
-00:19:53,720 --> 00:20:01,100
-Det var Guds vilje at jeg ble skånet,
-men vi sørger over tre ministere ...
+00:08:08,144 --> 00:08:09,305
+May I share a table?
 
 144
-00:20:01,270 --> 00:20:03,678
-Han lyver, jeg så seks som falt!
+00:08:10,481 --> 00:08:12,664
+<i>No wonder some people go
+off the rails a bit.</i>
 
 145
-00:20:03,856 --> 00:20:10,986
-Dere drepte tre,
-såret fem og mistet fire.
+00:08:16,435 --> 00:08:18,039
+Does the noise
+in my head bother you?
 
 146
-00:20:11,154 --> 00:20:13,444
-Hvorfor må jeg
-jobbe med amatører?
+00:08:20,481 --> 00:08:21,320
+No.
 
 147
-00:20:13,615 --> 00:20:19,951
-- Slapp dere unna uten problemer?
-- Ja, de finner oss aldri.
+00:08:21,583 --> 00:08:22,077
+Pete,
 
 148
-00:20:48,901 --> 00:20:51,736
-- Hva har skjedd?
-- Vi gikk tom for bensin.
+00:08:22,077 --> 00:08:24,653
+Have you still got that story about
+the teacher shortage in Botswana?
 
 149
-00:20:51,904 --> 00:20:56,317
-- Når da?
-- For et kvarter siden.
+00:08:25,663 --> 00:08:29,105
+- Yeah. You gonna to use it?
+- No. Maybe they can use me.
 
 150
-00:21:03,665 --> 00:21:09,419
-Vil du si noe nå?
-Hvor er Sam Boga?
+00:08:30,256 --> 00:08:31,203
+<i>But in the Kalahari,</i>
 
 151
-00:21:11,089 --> 00:21:14,341
-Hvor er skjulestedet deres?
+00:08:31,203 --> 00:08:33,663
+<i>it's always Tuesday,
+or Thursday if you like,</i>
 
 152
-00:21:19,890 --> 00:21:22,892
-Neste gang er du litt høyere opp!
+00:08:33,737 --> 00:08:34,540
+<i>or Sunday.</i>
 
 153
-00:21:23,060 --> 00:21:29,063
-Jeg skal fortelle det. Jeg skal
-fortelle det! Jeg skal vise dere!
+00:08:35,289 --> 00:08:38,154
+<i>No clocks or calendars
+tell you to do this or that.</i>
 
 154
-00:21:29,233 --> 00:21:34,275
-Bananskogen i Dumgaze ...
+00:08:39,820 --> 00:08:43,250
+<i>Lately, strange new things
+sometimes appeared in the sky--</i>
 
 155
-00:21:34,446 --> 00:21:40,532
-<i>Oberst Gasa, hører du meg?
-Bananskogen i Dumgaze. Følg meg.</i>
+00:08:43,640 --> 00:08:46,403
+<i>noisy birds that flew
+without flapping their wings.</i>
 
 156
-00:21:40,702 --> 00:21:45,614
-Vi vil ha presidenten,
-ikke den pokkers utdanningsministeren.
+00:08:54,266 --> 00:08:55,538
+[BOTTLE CLINKS]
 
 157
-00:21:45,791 --> 00:21:50,168
-Neste gang blir jeg med,
-og så tar vi ham på senga.
+00:09:00,085 --> 00:09:02,312
+<i>One day,
+something fell from the sky.</i>
 
 158
-00:21:51,296 --> 00:21:53,289
-Dekk til!
+00:09:18,031 --> 00:09:20,440
+<i>Xi had never seen
+anything like this in his life.</i>
 
 159
-00:21:56,426 --> 00:21:59,760
-Gjør klar bazookaen. Fort, fort!
+00:09:21,338 --> 00:09:22,608
+<i>It looked like water,</i>
 
 160
-00:21:59,930 --> 00:22:04,474
-Dekk til den der også.
-Fort, fort!
+00:09:22,608 --> 00:09:25,087
+<i>but it was harder than
+anything else in the world.</i>
 
 161
-00:22:05,811 --> 00:22:10,307
-Gå i dekning. Du går dit.
-Forsvinn derfra, din idiot.
+00:09:26,286 --> 00:09:29,453
+<i>He wondered why the gods
+had sent this thing down to the earth.</i>
 
 162
-00:22:18,198 --> 00:22:23,537
-De er der! De er der!
-De syns ikke, men de er der.
+00:09:30,508 --> 00:09:33,878
+[SPEAKING SAN]
 
 163
-00:22:36,258 --> 00:22:38,583
-Se, der er de.
+00:09:34,442 --> 00:09:37,639
+<i>It was the strangest and most
+beautiful thing they had ever seen.</i>
 
 164
-00:23:04,369 --> 00:23:06,493
-Ok. Pokker.
+00:09:38,145 --> 00:09:40,488
+<i>And they wondered why the gods
+had sent it to them.</i>
 
 165
-00:23:09,875 --> 00:23:11,536
-Slutt!
+00:09:41,441 --> 00:09:44,212
+[SPEAKING SAN]
 
 166
-00:23:37,986 --> 00:23:39,979
-Stille!
+00:09:47,257 --> 00:09:49,111
+<i>Pabo got his finger
+stuck in the thing,</i>
 
 167
-00:23:42,157 --> 00:23:44,150
-Vær klare.
+00:09:49,532 --> 00:09:51,372
+<i>and the children
+thought he was very funny.</i>
 
 168
-00:24:00,592 --> 00:24:02,585
-La oss dra.
+00:09:51,544 --> 00:09:52,843
+[CHILDREN LAUGHING]
 
 169
-00:24:54,813 --> 00:24:58,266
-<i>Det mest nysgjerrige
-vesenet i Afrika er bavianen.</i>
+00:10:02,955 --> 00:10:05,773
+<i>At first, Xi tried
+the thing out to cure thongs.</i>
 
 170
-00:25:18,420 --> 00:25:25,135
-<i>"Den er ond," sa Xi. "Gi meg den,
-så jeg kan kaste den bort fra jorda.</i>
+00:10:06,158 --> 00:10:08,610
+<i>It had the right shape
+and just the right weight.</i>
 
 171
-00:25:25,302 --> 00:25:32,882
-<i>Den har voldt min familie mye sorg,
-og vil gjøre det med din også."</i>
+00:10:09,387 --> 00:10:13,101
+<i>It was also beautifully smooth
+and ideal for curing snakeskin.</i>
 
 172
-00:25:34,186 --> 00:25:40,391
-<i>Han snakket lenge og alvorlig,
-til bavianen begynte</i> å <i>lytte.</i>
+00:10:18,256 --> 00:10:20,728
+<i>And Pabo discovered
+you could make music on it.</i>
 
 173
-00:25:40,567 --> 00:25:47,069
-<i>Til slutt slapp den tingen.
-Xi sa: "Det var veldig klokt gjort."</i>
+00:10:23,164 --> 00:10:25,891
+<i>And every day, they discovered
+a new use for the thing.</i>
 
 174
-00:26:08,470 --> 00:26:14,841
-<i>- Du skai flytte til Botswana?
-- Jeg vil bare komme meg litt bort.</i>
+00:10:28,521 --> 00:10:32,442
+<i>It was harder and heavier and smoother
+than anything they'd ever known.</i>
 
 175
-00:26:15,018 --> 00:26:20,558
-<i>- Men til Kalahari!
-- Botswana er mer enn ørken, mamma.</i>
+00:10:33,180 --> 00:10:35,843
+<i>It was the most useful thing
+the gods had ever given them,</i>
 
 176
-00:27:17,039 --> 00:27:23,042
-Kom deg inn. Hvorfor setter de
-skruer der man ikke kommer til?
+00:10:36,129 --> 00:10:37,796
+<i>a real labor-saving device.</i>
 
 177
-00:27:23,212 --> 00:27:26,830
-Mitt i fjeset mitt.
+00:10:40,712 --> 00:10:42,167
+<i>But the gods had been careless.</i>
 
 178
-00:27:28,884 --> 00:27:32,799
-Jeg må ligge her på ryggen hvert år.
+00:10:42,222 --> 00:10:43,597
+<i>They had sent only one,</i>
 
 179
-00:27:34,181 --> 00:27:39,389
-Demp deg litt, Mpudi,
-jeg prøver å stille inn skanneren.
+00:10:44,161 --> 00:10:46,200
+<i>and now for the first time
+in their lives,</i>
 
 180
-00:27:41,188 --> 00:27:43,430
-Nå kan du fortsette.
+00:10:46,200 --> 00:10:48,119
+<i>here was a thing
+which could not be shared,</i>
 
 181
-00:27:43,607 --> 00:27:47,937
-Hvert år kommer du hit
-med større telt og bedre utstyr-
+00:10:48,119 --> 00:10:49,495
+<i>because there was only
+one of it.</i>
 
 182
-00:27:48,111 --> 00:27:53,616
-- men du har den samme gamle jeepen.
-Og jeg må slite ræva av meg.
+00:10:52,027 --> 00:10:54,592
+[SPEAKING SAN]
 
 183
-00:27:55,786 --> 00:28:01,290
-Snodig, denne elefantmøkka
-mangler helt bor.
+00:10:56,808 --> 00:10:59,100
+<i>Suddenly, everybody needed it
+most of the time.</i>
 
 184
-00:28:09,883 --> 00:28:12,802
-Hallo, pastor.
-Hva gjør du på en hest?
+00:10:59,605 --> 00:11:02,359
+<i>A thing they didn't need before
+became a necessity,</i>
 
 185
-00:28:12,970 --> 00:28:20,219
-Veivhuset mitt er i stykker, og jeg
-skal møte den nye læreren i Mabula.
+00:11:02,830 --> 00:11:05,307
+<i>and unfamiliar emotions
+began to stir.</i>
 
 186
-00:28:20,394 --> 00:28:25,851
-Du kan ta den der,
-men den er i elendig stand.
+00:11:05,910 --> 00:11:08,949
+<i>A feeling of wanting to own,
+of not wanting to share.</i>
 
 187
-00:28:26,024 --> 00:28:32,822
-Jeg lovte å jobbe litt her, så Mpudi
-får ei uke til å lappe den sammen.
+00:11:17,904 --> 00:11:19,311
+<i>And other new things came--</i>
 
 188
-00:28:35,742 --> 00:28:40,536
-- God morgen, Mpudi.
-- God morgen, pastor.
+00:11:19,523 --> 00:11:23,117
+<i>anger, jealousy,
+hate, and violence.</i>
 
 189
-00:28:40,706 --> 00:28:47,919
-- Klarer den en tur til Mabula?
-- Den er en djevel å starte. Unnskyld.
+00:11:23,621 --> 00:11:26,569
+[ARGUING IN SAN]
 
 190
-00:28:48,088 --> 00:28:52,750
-- Men klarer den det?
-- Jeg skulle jo få ei hel uke.
+00:11:35,901 --> 00:11:38,136
+[MOANING]
 
 191
-00:28:52,926 --> 00:28:57,138
-Det er krise.
-Går den til Mabula og tilbake?
+00:11:40,596 --> 00:11:42,111
+<i>Xi was angry with the gods.</i>
 
 192
-00:28:57,306 --> 00:29:01,683
-- Jeg har ikke sett på bremsene ennå.
-- Mpudi!
+00:11:42,480 --> 00:11:43,767
+<i>He shouted,
+"Take back your thing!</i>
 
 193
-00:29:01,852 --> 00:29:06,763
-Den klarer det ...
-Men den blir en djevel å starte.
+00:11:43,767 --> 00:11:45,673
+<i>"We don't want it! Look
+at the trouble it brought."</i>
 
 194
-00:29:06,940 --> 00:29:09,942
-Den er din, pastor.
+00:11:47,612 --> 00:11:49,277
+<i>But the gods
+did not take it back.</i>
 
 195
-00:29:10,110 --> 00:29:14,571
-Jeg kan nok ikke kjøre den.
-Mpudi kaller den visst antikrist.
+00:11:49,374 --> 00:11:51,531
+<i>He shouted, "You must be crazy
+to send us this thing!</i>
 
 196
-00:29:14,740 --> 00:29:18,239
-Ja, litt av en sak.
+00:11:51,531 --> 00:11:52,393
+<i>Take it back!"</i>
 
 197
-00:29:20,454 --> 00:29:23,491
-Jeg håpet ...
+00:11:53,557 --> 00:11:55,129
+<i>Then he shouted,
+"Look out! Look out!"</i>
 
 198
-00:29:29,922 --> 00:29:31,914
-Jeg håpet du kunne dra.
+00:11:57,687 --> 00:11:58,929
+<i>But he spoke too late,</i>
 
 199
-00:29:32,090 --> 00:29:36,468
-- Jeg er utilpass blant kvinner.
-- Det er vi alle.
+00:11:59,022 --> 00:12:01,197
+<i>and the thing felled
+his daughter, Dani.</i>
 
 200
-00:29:36,637 --> 00:29:42,842
-I kvinnelig selskap kopler hjernen
-min ut, jeg blir en komplett idiot.
+00:12:02,864 --> 00:12:05,170
+[CRYING]
 
 201
-00:29:43,018 --> 00:29:49,769
-Da bør du treffe flere kvinner.
-Du vil vel hjelpe meg med dette?
+00:12:05,170 --> 00:12:07,282
+[SPEAKING SAN]
 
 202
-00:30:09,711 --> 00:30:12,037
-Choke! Choke!
+00:12:11,260 --> 00:12:13,446
+[SHOUTING]
 
 203
-00:30:15,676 --> 00:30:18,713
-Prøver du å drepe meg, jeep-dritt?
+00:12:19,391 --> 00:12:22,353
+<i>Xi carried the thing away
+from the shelter and buried it.</i>
 
 204
-00:30:20,055 --> 00:30:24,101
-Ikke stopp motoren,
-da får du den aldri i gang igjen.
+00:12:36,777 --> 00:12:40,845
+<i>That evening, there was no laughter
+and no chatter around the family fire.</i>
 
 205
-00:30:24,268 --> 00:30:28,183
-- Og du har ikke noen håndbrems.
-- Det sier du nå!
+00:12:42,470 --> 00:12:45,476
+<i>A strange feeling of shame
+had come over the family,</i>
 
 206
-00:30:28,355 --> 00:30:32,520
-Farvel, pastor. Farvel, Mpudi.
+00:12:45,836 --> 00:12:47,244
+<i>and they were very quiet.</i>
 
 207
-00:30:42,911 --> 00:30:48,072
-<i>En dag raste et høylytt dyr
-forbi Xi mens han lå og sov.</i>
+00:12:52,140 --> 00:12:53,763
+<i>Xi said,
+"I have buried the thing.</i>
 
 208
-00:30:49,710 --> 00:30:55,713
-<i>Det etterlot seg snåle spor, som om
-to enorme slanger hadde passert.</i>
+00:12:53,861 --> 00:12:55,764
+<i>It will not
+make us unhappy again."</i>
 
 209
-00:33:16,565 --> 00:33:19,519
-LUKK GRINDA
+00:13:12,306 --> 00:13:14,740
+<i>That night, a hyena smelled
+the blood on the thing,</i>
 
 210
-00:37:28,400 --> 00:37:32,695
-Alle legger seg ned på bakken!
-Alle sammen! Ligg ned!
+00:13:14,741 --> 00:13:15,643
+<i>and dug it up.</i>
 
 211
-00:37:34,114 --> 00:37:38,065
-Du, legg deg ned. Og du!
-Alle legger seg ned!
+00:13:21,349 --> 00:13:23,536
+<i>But a bad-tempered warthog
+chased the hyena</i>
 
 212
-00:37:38,243 --> 00:37:41,779
-Du der, hører du?
-Legg deg ned!
+00:13:23,536 --> 00:13:25,686
+<i>away from her territory,
+and it dropped the thing.</i>
 
 213
-00:37:47,920 --> 00:37:50,541
-- Han hører ikke, han er døv.
-- Hold kjeft!
+00:13:31,258 --> 00:13:33,036
+<i>The next day, Dani found it.</i>
 
 214
-00:38:47,062 --> 00:38:52,306
-Hei, våkne! Gi oss bensin.
-Har to jeeper passert?
+00:13:38,383 --> 00:13:40,318
+[PLAYING NOTES]
 
 215
-00:38:52,484 --> 00:38:58,487
-Ja, de tok halve lageret og et stort
-fat bensin, og jeg måtte ligge ned.
+00:13:43,708 --> 00:13:45,554
+<i>Her brother, Toma,
+heard her playing on it,</i>
 
 216
-00:38:58,657 --> 00:39:03,201
-Hvis du finner dem, så be dem betale.
-De tok så mye.
+00:13:45,554 --> 00:13:47,337
+<i>and he said, "Let me try.
+Let me try too."</i>
 
 217
-00:39:17,134 --> 00:39:19,126
-Morn.
+00:13:47,572 --> 00:13:50,514
+[SPEAKING SAN]
 
 218
-00:39:27,728 --> 00:39:33,517
-Miss Thompson? Navnet mitt ...
-Navnet mitt ...
+00:14:09,477 --> 00:14:12,148
+[BOY CRYING]
 
 219
-00:39:33,692 --> 00:39:37,857
-Navnet mitt er ... Navnet mitt ...
+00:14:26,641 --> 00:14:29,075
+<i>That night,
+the family was very unhappy.</i>
 
 220
-00:39:50,375 --> 00:39:54,920
-- Navnet mitt er Andrew Steyn.
-- God dag.
+00:14:36,658 --> 00:14:38,314
+<i>They began to talk
+about this thing</i>
 
 221
-00:39:55,088 --> 00:39:59,549
-Pastoren har ødelagt veivhuset,
-så han bad meg ...
+00:14:38,314 --> 00:14:39,606
+<i>that had come into their lives.</i>
 
 222
-00:40:38,340 --> 00:40:44,676
-Hvor langt skal vi kjøre?
-Hvor langt skal vi kjøre?
+00:14:39,964 --> 00:14:41,456
+<i>They did not
+have a name for it.</i>
 
 223
-00:40:45,848 --> 00:40:47,592
-Unnskyld.
+00:14:41,490 --> 00:14:43,219
+<i>They called it
+the "evil thing."</i>
 
 224
-00:40:53,939 --> 00:40:56,513
-- Hei, Andrew.
-- Hei, Phineas.
+00:14:50,289 --> 00:14:53,057
+<i>Gaboo said, "Perhaps the gods
+were absent-minded</i>
 
 225
-00:40:56,692 --> 00:40:59,183
-- God morgen, madam.
-- God morgen.
+00:14:53,057 --> 00:14:55,011
+<i>"when they dropped
+the evil thing on the earth.</i>
 
 226
-00:40:59,361 --> 00:41:05,779
-Unnskyld, madam, unnskyld!
-Jeg er virkelig lei for det.
+00:14:55,912 --> 00:14:57,846
+<i>"They've always sent us
+only good things,</i>
 
 227
-00:41:11,290 --> 00:41:13,330
-Hva gjør du?
+00:14:57,846 --> 00:15:01,177
+<i>"like the rain, and the trees,
+and roots and berries to eat.</i>
 
 228
-00:41:23,844 --> 00:41:27,510
-- Hva gjør du ... Bremsen er ødelagt!
-- Ja.
+00:15:01,177 --> 00:15:03,399
+<i>"because we are their children,
+and they love us,</i>
 
 229
-00:41:27,681 --> 00:41:31,596
-- Men hva gjør du da?
-- Åpner grinda.
+00:15:04,299 --> 00:15:06,472
+<i>but now, they've sent us
+this evil thing."</i>
 
 230
-00:41:35,189 --> 00:41:39,982
-- Hvordan kommer jeg meg ut?
-- Det går bra, jeg ...
+00:15:12,399 --> 00:15:15,155
+<i>Xi said, "The thing does not
+belong on the earth.</i>
 
 231
-00:41:45,115 --> 00:41:48,034
-Jeg skal bare ...
+00:15:16,116 --> 00:15:18,138
+<i>"Tomorrow, I will take it
+to the end of the earth</i>
 
 232
-00:41:54,666 --> 00:42:01,998
-- Dette er sprøtt, jeg kommer ut.
-- Nei da, jeg må bare ...
+00:15:18,138 --> 00:15:18,958
+<i>and throw it off."</i>
 
 233
-00:42:02,174 --> 00:42:05,757
-- Hva gjør du nå?
-- Lukker grinda. Ikke vær redd.
+00:15:21,265 --> 00:15:24,639
+<i>Gobo said, "I think the end
+of the earth must be very far.</i>
 
 234
-00:42:05,928 --> 00:42:10,092
-Vil du ta livet av meg?
-Er du gal?
+00:15:25,139 --> 00:15:27,213
+<i>"I think you will have to walk
+for 20 days.</i>
 
 235
-00:42:10,265 --> 00:42:15,853
-Det går bra, Miss Thompson.
-Den kommer tilbake.
+00:15:27,755 --> 00:15:28,728
+<i>Perhaps 40."</i>
 
 236
-00:42:16,021 --> 00:42:21,360
-Hva mener du med at den kommer
-tilbake? Skulle dette være morsomt?
+00:15:30,300 --> 00:15:32,881
+<i>Xi said, "I will start walking
+tomorrow."</i>
 
 237
-00:42:21,527 --> 00:42:25,904
-- Unnskyld, bremsene virker ikke.
-- Det har jeg lagt merke til.
+00:15:34,083 --> 00:15:36,486
+[CRYING]
 
 238
-00:42:49,221 --> 00:42:55,093
-<i>Xi så en person og hilset,
-men mannen hørte ham ikke.</i>
+00:15:36,486 --> 00:15:39,283
+[SPEAKING SAN]
 
 239
-00:43:01,483 --> 00:43:06,442
-<i>Han sa: "For en merkelig pinne.
-Har den vokst på et tre?"</i>
+00:15:52,494 --> 00:15:55,106
+[CRYING]
 
 240
-00:43:23,088 --> 00:43:25,709
-<i>Hvorfor sprang mannen sin vei?</i>
+00:16:07,262 --> 00:16:09,995
+<i>2,000 miles to the north
+in the state of Birani,</i>
 
 241
-00:43:25,883 --> 00:43:32,929
-<i>Da innså han at det måtte ha vært
-den onde tingen som skremte mannen.</i>
+00:16:10,204 --> 00:16:11,329
+<i>trouble was brewing.</i>
 
 242
-00:43:50,324 --> 00:43:56,113
-- Den stoppet.
-- Ja. Kan du starte den igjen?
+00:16:17,553 --> 00:16:21,407
+It's 35 million to combat
+erosion in the Moda valley,
 
 243
-00:43:56,288 --> 00:44:00,453
-Nei, vi satte inn nye drev,
-og de sitter veldig hardt.
+00:16:21,824 --> 00:16:25,373
+- And 6 million for improvement of the--
+- Hold it, minister. We can't expect--
 
 244
-00:44:00,626 --> 00:44:04,541
-- Hvor langt er det til misjonen?
-- Cirka fem mil.
+00:16:28,795 --> 00:16:30,617
+[GUNSHOTS]
 
 245
-00:44:04,713 --> 00:44:10,965
-- Når vi fram innen det blir mørkt?
-- Jeg vet ikke. Den stoppet.
+00:16:46,802 --> 00:16:47,338
+Aah!
 
 246
-00:44:11,136 --> 00:44:17,637
-- Kan du ikke starte den igjen?
-- I morges var vi tre menn og en hest.
+00:17:04,328 --> 00:17:05,855
+Get out, my fellow.
+We need the car.
 
 247
-00:44:17,809 --> 00:44:21,760
-Jeg kan lage bål.
-Vi har litt mat og en sovepose.
+00:17:27,107 --> 00:17:28,611
+That was Sam Boga's gang.
 
 248
-00:44:21,939 --> 00:44:25,106
-- Overnatte?
-- Jeg er redd for det.
+00:17:29,131 --> 00:17:30,603
+You said they
+were in Cabinda.
 
 249
-00:44:25,275 --> 00:44:30,104
-- Er du sikker på at den stoppet?
-- Ja, la du ikke merke til det?
+00:17:31,265 --> 00:17:32,351
+That's what I thought.
 
 250
-00:44:33,700 --> 00:44:38,529
-Jeg kan bære deg over,
-så du ikke trenger ...
+00:17:32,797 --> 00:17:33,758
+How many got away?
 
 251
-00:44:48,173 --> 00:44:49,918
-Forsiktig!
+00:17:34,501 --> 00:17:36,822
+There were two jeeps.
+Four got away.
 
 252
-00:44:52,052 --> 00:44:53,168
-Takk.
+00:17:37,437 --> 00:17:38,912
+Sam Boga was there?
 
 253
-00:44:55,264 --> 00:44:57,340
-Unnskyld ... Jeg er lei for det.
+00:17:39,107 --> 00:17:41,017
+This time,
+he's got to die.
 
 254
-00:45:01,228 --> 00:45:05,689
-Se på kjolen min!
-Skoene ... Jeg har mistet skoene.
+00:17:41,704 --> 00:17:45,063
+Find him and
+kill him yourself.
 
 255
-00:45:10,070 --> 00:45:13,569
-- Unnskyld!
-- Vekk med labbene!
+00:17:45,751 --> 00:17:47,385
+[GRUNTS]
 
 256
-00:45:14,700 --> 00:45:21,118
-- Unnskyld. Jeg henter veskene dine.
-- Nei, du mister dem. Jeg henter dem.
+00:17:50,634 --> 00:17:51,679
+Bring him here.
 
 257
-00:45:23,792 --> 00:45:25,749
-Det går bra!
+00:17:52,799 --> 00:17:54,604
+[GRUNTING]
 
 258
-00:45:38,974 --> 00:45:42,225
-La den være. Jeg trenger den ikke.
+00:18:00,368 --> 00:18:01,488
+Where is Sam Boga?
 
 259
-00:45:52,196 --> 00:45:55,066
-Idiot.
+00:18:05,635 --> 00:18:06,987
+Where is your hideout?
 
 260
-00:46:20,933 --> 00:46:23,507
-La meg være i fred. Ikke prøv deg!
+00:18:11,230 --> 00:18:12,761
+Bring the one
+in the corridor.
 
 261
-00:46:26,313 --> 00:46:30,608
-- Det er borte.
-- Hold deg unna meg!
+00:18:14,903 --> 00:18:15,910
+Bring that one.
 
 262
-00:46:30,776 --> 00:46:35,236
-- Nei, jeg ... Det var vortesvinet.
-- Hvilket vortesvin?
+00:18:23,934 --> 00:18:25,188
+Where is Sam Boga?
 
 263
-00:46:35,405 --> 00:46:38,359
-- Det er borte nå.
-- Forsvinn!
+00:18:26,723 --> 00:18:27,861
+Where is your hideout?
 
 264
-00:46:38,534 --> 00:46:42,579
-Jeg ville ikke ... Jeg mente ikke ...
+00:18:28,709 --> 00:18:29,595
+Take them...
 
 265
-00:46:47,668 --> 00:46:53,006
-<i>Bare en kilometer derfra
-ble Xi forstyrret i matlagingen.</i>
+00:18:32,134 --> 00:18:33,389
+to the helicopter.
 
 266
-00:46:54,258 --> 00:47:02,087
-<i>Når et neshorn ser et bål
-stormer det inn og tramper det ut.</i>
+00:18:42,478 --> 00:18:43,506
+They went south.
 
 267
-00:47:17,531 --> 00:47:22,988
-- Jobber du her i Botswana?
-- Ja, jeg... Ja.
+00:18:43,913 --> 00:18:45,597
+- I'll direct you from the helicopter.
+- Yes, sir.
 
 268
-00:47:23,161 --> 00:47:29,117
-- Og hva driver du med?
-- Jeg samler gjødsel. Jeg ...
+00:18:58,550 --> 00:18:59,650
+Gas guzzler.
 
 269
-00:47:30,085 --> 00:47:33,917
-- Spring!
-- La meg være!
+00:19:00,352 --> 00:19:02,779
+<i>RADIO: Four of the eight
+assassins got away in two jeeps.</i>
 
 270
-00:48:02,326 --> 00:48:07,700
-Miss Thompson? Miss Thompson?
+00:19:03,108 --> 00:19:05,086
+<i>The other four were
+shot down in the Cabinet room</i>
 
 271
-00:48:14,963 --> 00:48:17,798
-- Alt i orden, det er borte.
-- Hvem?
+00:19:05,086 --> 00:19:07,228
+<i>by the security guards
+of the president.</i>
 
 272
-00:48:17,966 --> 00:48:20,541
-- Neshornet.
-- Hvilket neshorn?
+00:19:07,322 --> 00:19:08,116
+Bastards.
 
 273
-00:48:20,719 --> 00:48:25,797
-- Så du ikke at det trampet ut bålet?
-- Du gjorde det, jeg så det!
+00:19:08,116 --> 00:19:10,307
+<i>The assassins were wearing
+the brown T-shirts</i>
 
 274
-00:48:25,974 --> 00:48:30,435
-Jeg ville ikke at det skulle
-komme tilbake, så ... Så du det ikke?
+00:19:10,428 --> 00:19:12,624
+<i>which have become the trademark
+of the terrorist gang</i>
 
 275
-00:48:30,604 --> 00:48:35,100
-- Hold deg unna!
-- Miss Thompson ...
+00:19:12,783 --> 00:19:14,838
+<i>led by the notorious Sam Boga.</i>
 
 276
-00:48:35,275 --> 00:48:39,689
-Hvis et neshorn ser et bål,
-kommer det og tramper det ut.
+00:19:15,173 --> 00:19:18,359
+<i>However, eyewitnesses state
+that Sam Boga himself</i>
 
 277
-00:48:39,863 --> 00:48:44,158
-Neshorn gjør det.
-Det er et interessant fenomen.
+00:19:18,369 --> 00:19:20,221
+<i>did not take part
+in the assassination.</i>
 
 278
-00:48:44,326 --> 00:48:48,787
-Du blir grepet av plutselige begjær
-og fabler om neshorn!
+00:19:20,609 --> 00:19:22,809
+<i>It is assumed that
+he masterminded the attack</i>
 
 279
-00:48:48,956 --> 00:48:53,618
-Jeg skal vise deg.
-Jeg lager et nytt bål.
+00:19:22,809 --> 00:19:25,242
+<i>from a hideout
+some distance from the capital.</i>
 
 280
-00:48:53,794 --> 00:48:58,124
-Du tror jeg lyver.
-Jeg skal vise deg.
+00:19:25,871 --> 00:19:27,157
+<i>Government sources announced</i>
 
 281
-00:49:02,803 --> 00:49:10,265
-Du skal få se at det kommer tilbake.
-Du tror jeg lyver.
+00:19:27,157 --> 00:19:29,681
+<i>that the assassins killed
+the ministers of education,</i>
 
 282
-00:49:17,651 --> 00:49:23,689
-Kanskje det er for langt borte.
-Kanskje vindretningen er feil.
+00:19:29,977 --> 00:19:31,784
+<i>public works and agriculture.</i>
 
 283
-00:49:38,088 --> 00:49:40,841
-Mr. Steyn ...
+00:19:32,429 --> 00:19:33,214
+<i>The president,</i>
 
 284
-00:49:55,772 --> 00:49:59,189
-Spør om ikke neshorn
-tramper ut bål.
+00:19:33,214 --> 00:19:35,464
+<i>who miraculously survived
+the hail of bullets</i>
 
 285
-00:49:59,359 --> 00:50:03,357
-- Jeg snakker ikke språket deres.
-- Jeg spør.
+00:19:35,464 --> 00:19:36,620
+<i>with only a flesh wound</i>
 
 286
-00:50:10,245 --> 00:50:17,708
-Der ser du! Tswana-folket rister
-alltid på hodet når de sier ja.
+00:19:36,862 --> 00:19:39,086
+<i>will be addressing the nation
+in a few moments.</i>
 
 287
-00:50:46,573 --> 00:50:51,449
-- Hva gjør du?
-- Jeg lager kaffe.
+00:19:45,496 --> 00:19:47,498
+We did it! We did it!
+We got the president,
 
 288
-00:51:05,968 --> 00:51:11,924
-Sir ... Noen kjørte forbi, viste ikke
-pass og hadde gevær. Dette er Frank.
+00:19:47,622 --> 00:19:49,204
+and we got five
+of his ministers.
 
 289
-00:51:12,099 --> 00:51:18,600
-<i>Kjørte de i to jeeper? Da følger
-to panserbiler etter, ser du dem?</i>
+00:19:50,217 --> 00:19:52,344
+You didn't, you know.
+That's him.
 
 290
-00:51:22,276 --> 00:51:25,146
-- Jeg ser en.
-- Stopp den!
+00:19:52,679 --> 00:19:55,326
+It was the will of the Almighty
+that I was spared,
 
 291
-00:51:31,451 --> 00:51:36,327
-<i>Frank? Frank?
-Frank, hva var den lyden?</i>
+00:19:55,942 --> 00:19:58,816
+but we deeply mourn the deaths
+of three members of our Cabinet.
 
 292
-00:51:39,960 --> 00:51:41,953
-Jeg stoppet dem!
+00:19:58,816 --> 00:20:00,393
+We extend
+our deepest sympathies--
 
 293
-00:51:42,129 --> 00:51:49,045
-<i>Forklar at vi ikke tillater
-at de krenker vårt territorium.</i>
+00:20:00,905 --> 00:20:03,732
+He's lying. We got six of them.
+I saw them go down.
 
 294
-00:51:49,219 --> 00:51:54,013
-Løytnant Mabasha ber om tillatelse
-til å forfølge Sam Boga.
+00:20:03,732 --> 00:20:07,192
+You killed three
+and wounded five...
 
 295
-00:51:54,183 --> 00:51:57,849
-<i>En bevæpnet styrke
-får ikke komme inn i Botswana.</i>
+00:20:08,185 --> 00:20:09,844
+and you lost four.
 
 296
-00:51:58,020 --> 00:52:04,901
-<i>- Men jeg må få tak</i> i <i>Sam Boga.
-- Vårt politi overgir ham til dere.</i>
+00:20:10,894 --> 00:20:13,107
+Why do I have to work
+with amateurs?
 
 297
-00:52:16,038 --> 00:52:21,246
-- Kan de ikke hjelpe oss?
-- De gir beskjed til pastoren.
+00:20:13,226 --> 00:20:14,380
+Did you get away clean?
 
 298
-00:52:21,418 --> 00:52:27,172
-Jeg tror jeg kan få opp jeepen.
-Det er en vinsj foran.
+00:20:14,594 --> 00:20:16,424
+Yes, we were in and out
+in two minutes.
 
 299
-00:53:41,039 --> 00:53:45,619
-Mr. Steyn. Mr. Steyn!
+00:20:16,542 --> 00:20:17,692
+They'll never find us.
 
 300
-00:53:48,130 --> 00:53:51,463
-- Miss Thompson?
-- Kan du hjelpe meg?
+00:20:41,625 --> 00:20:43,192
+Attention.
 
 301
-00:53:51,633 --> 00:53:53,840
-Ikke se!
+00:20:48,598 --> 00:20:49,405
+What happened?
 
 302
-00:53:54,011 --> 00:53:58,673
-Det er et watape-tre.
-Pass deg for dem, de tar fatt i en.
+00:20:49,762 --> 00:20:51,015
+We ran out of gas.
 
 303
-00:53:58,849 --> 00:54:03,144
-Kan du gi meg kjolen min?
-Den ligger i kofferten.
+00:20:51,919 --> 00:20:52,898
+How long ago?
 
 304
-00:54:09,151 --> 00:54:12,402
-Den rosa med hvit kant.
+00:20:53,650 --> 00:20:55,279
+About 15 minutes, sir.
 
 305
-00:55:14,091 --> 00:55:16,416
-Tusen takk.
+00:20:55,279 --> 00:20:56,471
+Okay, let's go!
 
 306
-00:55:48,750 --> 00:55:53,710
-<i>Den morgenen så Xi den styggeste
-personen han noensinne hadde møtt.</i>
+00:21:03,327 --> 00:21:04,333
+Now, you tell me.
 
 307
-00:55:53,881 --> 00:55:57,878
-<i>Bleik som noe som hadde
-kravlet ut av en råtten trestamme.</i>
+00:21:07,027 --> 00:21:08,162
+Where is Sam Boga?
 
 308
-00:55:58,051 --> 00:56:02,631
-<i>Håret var langt og hvitt,
-som om hun var veldig gammel.</i>
+00:21:10,877 --> 00:21:11,993
+Where is your hideout?
 
 309
-00:56:02,806 --> 00:56:08,346
-<i>Og stor. Man ville måtte grave en
-hel dag for</i> å <i>finne føde til henne.</i>
+00:21:15,546 --> 00:21:17,664
+[SCREAMING]
 
 310
-00:56:14,443 --> 00:56:16,353
-Gå bort.
+00:21:19,655 --> 00:21:21,130
+Next time you're going to be
+a bit higher.
 
 311
-00:56:19,281 --> 00:56:25,866
-<i>Tross varmen dekte hun kroppen
-med skinn som lignet spindelvev.</i>
+00:21:22,300 --> 00:21:25,558
+I'll tell you, I'll tell you!
+The banana forest at Dumgaze.
 
 312
-00:56:30,751 --> 00:56:38,331
-<i>Hun måtte være en gud, og han
-lurte på hva hun gjorde her nede.</i>
+00:21:26,875 --> 00:21:28,718
+I'll tell you, I'll tell you!
+I'll show you.
 
 313
-00:56:38,509 --> 00:56:43,752
-<i>Men han var glad for at han
-kunne gi tilbake den onde tingen.</i>
+00:21:28,830 --> 00:21:30,659
+The banana forest
+at Dumgaze.
 
 314
-00:56:43,931 --> 00:56:51,642
-<i>Han sa taktfullt at han trengte den
-ikke, men hun var uhøflig og gikk.</i>
+00:21:32,165 --> 00:21:33,699
+I'll tell you.
+I'll show you where.
 
 315
-00:56:55,901 --> 00:56:59,270
-- En buskmann. Hvordan kom han hit?
-- Jeg vet ikke.
+00:21:34,607 --> 00:21:36,503
+- Do you hear me?
+- Right here, general.
 
 316
-00:56:59,446 --> 00:57:05,117
-<i>Det var en gud til, med ild i seg.
-Røyken kom ut gjennom nese og munn.</i>
+00:21:36,748 --> 00:21:39,002
+Banana forest at Dumgaze.
+Follow me.
 
 317
-00:57:05,285 --> 00:57:12,036
-<i>Xi sa: "Den gjorde familien min
-ulykkelig, så ta den tilbake."</i>
+00:21:39,069 --> 00:21:39,938
+Right, general.
 
 318
-00:57:12,209 --> 00:57:14,166
-Forstår ikke.
+00:21:40,517 --> 00:21:43,068
+The man we want to get
+is the president,
 
 319
-00:57:14,336 --> 00:57:16,412
-Hvor er bilen?
+00:21:43,068 --> 00:21:45,320
+not the bloody
+Minister of Education.
 
 320
-00:57:30,185 --> 00:57:32,973
-Jeg skal prøve å få den ned.
+00:21:46,137 --> 00:21:47,893
+And this time
+I'll come with you.
 
 321
-00:57:33,230 --> 00:57:38,106
-<i>Det lød en underlig lyd,
-og Xi så et fantastisk dyr-</i>
+00:21:47,893 --> 00:21:49,364
+We'll get him in his bed.
 
 322
-00:57:38,277 --> 00:57:43,485
-<i>- med bein som gikk rundt
-og en merkelig gud på ryggen.</i>
+00:21:50,040 --> 00:21:50,777
+[HELICOPTER APPROACHING]
 
 323
-00:57:43,657 --> 00:57:48,616
-<i>Guden hadde et rødt skinn
-på kroppen og hår i ansiktet.</i>
+00:21:50,777 --> 00:21:51,914
+Cover up! Cover up!
 
 324
-00:57:48,787 --> 00:57:52,489
-Hvor i helsike har du vært?
-Pastoren er helt fra seg.
+00:21:56,909 --> 00:21:57,717
+Mount the bazooka.
 
 325
-00:57:52,666 --> 00:57:57,376
-<i>Gudene kunne ikke snakke,
-de pludret som aper.</i>
+00:21:57,773 --> 00:21:58,740
+Move it, move it!
 
 326
-00:57:57,546 --> 00:58:01,129
-Hva har skjedd? Hvor er antikrist?
+00:22:01,893 --> 00:22:03,251
+Hurry up, hurry up, hurry up!
 
 327
-00:58:03,719 --> 00:58:10,765
-- Hvorfor i helsike gjorde du det?
-- Det tar vi siden. Vi må få den ned.
+00:22:05,385 --> 00:22:07,427
+Now take cover.
+You, you go there.
 
 328
-00:58:10,934 --> 00:58:15,845
-- Og hva gjør buskmannen her?
-- Vet ikke, han prøver å si noe.
+00:22:07,445 --> 00:22:09,445
+Not there, you bloody fool.
+Get out of there.
 
 329
-00:58:19,109 --> 00:58:21,482
-- Snakker du språket deres?
-- Ja.
+00:22:17,146 --> 00:22:19,335
+Well?
+They're there. They're there.
 
 330
-00:58:24,907 --> 00:58:31,871
-<i>Den hårete kunne snakke.</i>
+00:22:19,863 --> 00:22:21,775
+You cannot see them,
+but they're there.
 
 331
-00:58:32,706 --> 00:58:37,451
-- "Dere får tilbake flaska nå."
-- Jeg har ikke gitt ham den.
+00:22:25,621 --> 00:22:26,488
+Okay.
 
 332
-00:58:37,628 --> 00:58:41,792
-- Han vil ikke ha flaska.
-- Da får han kaste den bort.
+00:22:35,909 --> 00:22:37,092
+You see?
+There they are.
 
 333
-00:58:41,965 --> 00:58:47,470
-<i>Den hårete sa: "Vi vil ikke ha den,
-du må kaste den selv."</i>
+00:22:44,911 --> 00:22:46,783
+Okay.
+No, hold it.
 
 334
-00:58:47,638 --> 00:58:53,724
-<i>Xi ble skuffet. Han syntes det var
-urettferdig at han måtte kaste den.</i>
+00:23:03,884 --> 00:23:04,652
+Okay.
 
 335
-00:58:53,894 --> 00:58:58,308
-<i>Han begynte</i> å <i>tvile på
-om de virkelig var guder.</i>
+00:23:05,285 --> 00:23:06,204
+Oh, shit.
 
 336
-00:59:09,368 --> 00:59:11,360
-Hopp ut! Hopp ut!
+00:23:09,636 --> 00:23:10,827
+Cut it out, man!
 
 337
-00:59:11,537 --> 00:59:14,407
-Opp i den. Kjør!
+00:23:12,807 --> 00:23:13,373
+Okay.
 
 338
-00:59:46,071 --> 00:59:49,820
-Den store hvite jegeren
-kommer til unnsetning.
+00:23:33,450 --> 00:23:35,092
+- Born to be our champion.
+- You showed them.
 
 339
-00:59:49,992 --> 00:59:55,282
-Miss Thompson, formoder jeg.
-Hva sier du til å reise standsmessig?
+00:23:35,988 --> 00:23:37,577
+- Beautiful, man.
+- Hey.
 
 340
-00:59:55,455 --> 01:00:01,708
-- Takk.
-- Trenger man en boksåpner?
+00:23:37,907 --> 00:23:38,581
+Quiet.
 
 341
-01:00:06,717 --> 01:00:12,340
-- Originalt. Milady ...
-- Tusen takk, Mr. Steyn, for ...
+00:23:39,780 --> 00:23:41,235
+[VEHICLES APPROACHING]
 
 342
-01:00:12,514 --> 01:00:14,140
-Farvel, Miss Thompson.
+00:23:41,891 --> 00:23:42,526
+Stand by.
 
 343
-01:00:14,308 --> 01:00:20,476
-Jeg er forresten Jack Hind.
-Jeg lovte pastoren å lete etter dere.
+00:24:00,219 --> 00:24:00,789
+Let's go.
 
 344
-01:00:20,647 --> 01:00:26,603
-Det var snilt av meg.
-Vil du sitte der?
+00:24:54,540 --> 00:24:57,468
+<i>NARRATOR: The most inquisitive
+creature in Africa is the baboon.</i>
 
 345
-01:00:26,778 --> 01:00:28,605
-Takk, Mr. Steyn.
+00:25:13,431 --> 00:25:14,766
+[SPEAKING SAN]
 
 346
-01:00:30,574 --> 01:00:33,409
-Vi ses, Steyn. Vi ses, Mpudi.
+00:25:18,105 --> 00:25:21,011
+<i>Xi said, "That is a very
+evil thing you've got there.</i>
 
 347
-01:01:07,653 --> 01:01:09,978
-Jeg vil ikke snakke om det.
+00:25:21,239 --> 00:25:22,383
+<i>"You better give it back to me</i>
 
 348
-01:01:11,490 --> 01:01:19,996
-Hun tror jeg er en gærning. Jeg sa
-at jeg driver med å samle gjødsel.
+00:25:22,383 --> 00:25:24,646
+<i>"so I can take it away
+and throw it off the earth.</i>
 
 349
-01:01:20,165 --> 01:01:26,785
-Jeg sa ikke at jeg analyserer den
-til doktoravhandlingen min.
+00:25:24,807 --> 00:25:27,315
+<i>"It brought great unhappiness
+to me and my family.</i>
 
 350
-01:01:29,424 --> 01:01:33,173
-- Var det tøft?
-- Jeg vil ikke snakke om det.
+00:25:27,475 --> 00:25:28,340
+<i>"If you don't give it to me,</i>
 
 351
-01:01:33,345 --> 01:01:38,423
-Så tøft?
-Vel, lidelsene dine er snart over.
+00:25:28,340 --> 00:25:30,747
+<i>it'll bring much grief
+to you and your family too."</i>
 
 352
-01:01:38,600 --> 01:01:45,647
-Når vi kommer fram må du stå og se
-vakker ut under velkomstsangen-
+00:25:33,936 --> 00:25:37,752
+<i>He spoke long and earnestly until
+the baboon began to pay attention.</i>
 
 353
-01:01:45,816 --> 01:01:49,352
-- men så kan du slappe av,
-ta et bad og spise frokost.
+00:25:40,272 --> 00:25:41,565
+<i>In the end,
+he must have convinced it,</i>
 
 354
-01:01:49,528 --> 01:01:53,064
-Er det sant at neshorn
-tramper ut bål?
+00:25:41,565 --> 00:25:42,683
+<i>and it dropped the thing.</i>
 
 355
-01:01:53,240 --> 01:01:59,326
-Hvor har du hørt det? Sa Steyn det?
-Hvorfor skulle han fortelle noe sånt?
+00:25:43,419 --> 00:25:45,634
+<i>And Xi said,
+"You have done a very wise thing."</i>
 
 356
-01:01:59,496 --> 01:02:05,665
-- Jeg vil ikke snakke om det.
-- Her, det vil pigge deg opp.
+00:26:08,187 --> 00:26:10,519
+MAN: So, you want to go into an
+Albert Schweitzer in Botswana?
 
 357
-01:02:10,090 --> 01:02:17,339
-Hun ville ikke tro på neshornet.
-Nei, jeg vil ikke snakke om det.
+00:26:10,597 --> 00:26:12,272
+KATE: I just want to
+get away from all this
 
 358
-01:02:17,514 --> 01:02:24,015
-- Hvordan endte denne i treet?
-- Hun satt fast i et tre og jeg ...
+00:26:12,272 --> 00:26:13,954
+for six months
+or a year, or...
 
 359
-01:02:24,188 --> 01:02:30,808
-- Hun har blomster på trusene.
-- Og sånn havnet den i treet?
+00:26:14,709 --> 00:26:15,981
+WOMAN: But in the Kalahari?
 
 360
-01:02:30,986 --> 01:02:33,774
-Ja.
+00:26:15,981 --> 00:26:19,542
+KATE: Ah, mom, it's not in the Kalahari.
+Botswana isn't all desert.
 
 361
-01:03:13,153 --> 01:03:17,151
-- Skal jeg ikke vinke eller bøye meg?
-- Nei.
+00:26:32,304 --> 00:26:34,406
+[ELEPHANT RUMBLING]
 
 362
-01:03:35,050 --> 01:03:42,346
-<i>Geriljalederen Sam Boga og banden
-hans har trengt inn i Botswana ...</i>
+00:26:36,708 --> 00:26:38,643
+[ROARING]
 
 363
-01:03:42,516 --> 01:03:45,470
-- Hvor mange?
-- Ikke 300 engang.
+00:26:50,337 --> 00:26:51,673
+[ELEPHANT TRUMPETING]
 
 364
-01:03:45,644 --> 01:03:51,232
-Dere har sløst med ammunisjonen,
-så vi kan ikke forsvare oss engang!
+00:27:14,330 --> 00:27:18,526
+MAN: You bloody son
+of a-- Get in there, you...
 
 365
-01:03:51,400 --> 01:03:55,397
-Bytt fra automatisk
-til enkeltskudd.
+00:27:18,964 --> 00:27:20,792
+Why do they always
+put the bloody nuts
 
 366
-01:03:59,241 --> 01:04:02,243
-Det er automatisk,
-og det er enkeltskudd.
+00:27:20,792 --> 00:27:22,523
+where the bloody spanner
+can't get at them?
 
 367
-01:04:02,411 --> 01:04:08,947
-<i>Sam Boga er ytterst farlig, og han
-og banden hans er bevæpnet ...</i>
+00:27:23,060 --> 00:27:25,939
+Right in my bloody face.
 
 368
-01:04:10,294 --> 01:04:14,956
-- Hvorfor er du så fin?
-- Jeg skal gi henne disse.
+00:27:26,991 --> 00:27:28,070
+[SWEARING IN SETSWANA]
 
 369
-01:04:15,132 --> 01:04:18,833
-Du ser ut
-som om du skal i begravelse.
+00:27:28,945 --> 00:27:31,026
+Every year, I have
+to lay here on my back
 
 370
-01:04:19,011 --> 01:04:23,637
-- Le og si at hun ser godt ut.
-- Når ble du ekspert?
+00:27:31,026 --> 00:27:32,548
+like a goddamn poodoohoodoo.
 
 371
-01:04:23,807 --> 01:04:29,265
-Jeg har sju koner. Jeg vet
-hvordan en gifter seg med dem.
+00:27:32,884 --> 00:27:34,204
+[SWEARING]
 
 372
-01:04:29,438 --> 01:04:32,974
-- Ingen vet hvordan en lever med dem.
-- Hvorfor giftet du deg da?
+00:27:34,204 --> 00:27:35,778
+Keep it down
+a bit, Mpudi.
 
 373
-01:04:33,150 --> 01:04:37,527
-Jeg får lære deg litt
-om livet en dag.
+00:27:35,778 --> 00:27:37,131
+I'm trying to tune
+the scanner.
 
 374
-01:04:43,493 --> 01:04:50,244
-"Hver eneste tallerken
-ble knust av Mr. Ingen.
+00:27:41,042 --> 00:27:42,484
+Okay, Mpudi.
+Go ahead.
 
 375
-01:04:50,417 --> 01:04:53,371
-Det er han
-som ødelegger bøkene våre ..."
+00:27:42,832 --> 00:27:45,037
+MPUDI: Year.
+Every year, you comes here
 
 376
-01:05:12,022 --> 01:05:18,108
-- Kom inn.
-- God morgen, Mr. Steyn.
+00:27:45,037 --> 00:27:47,788
+with a bigger and better tent
+and bigger and better equipment,
 
 377
-01:05:18,278 --> 01:05:22,359
-- God morgen.
-- God morgen, Mr. Steyn.
+00:27:47,847 --> 00:27:50,692
+and every year, you turn up
+with this same son of a--,
 
 378
-01:05:23,534 --> 01:05:25,775
-Jeg kom med ...
+00:27:50,692 --> 00:27:52,279
+and I have to work
+my ass off.
 
 379
-01:05:50,894 --> 01:05:53,433
-Vær så snill, bare la det være.
+00:27:55,668 --> 00:27:56,406
+That's funny.
 
 380
-01:05:54,982 --> 01:05:57,355
-Jeg hadde med meg skoene dine.
+00:27:56,578 --> 00:27:58,873
+This elephant's dung
+shows a complete lack of boron.
 
 381
-01:06:04,950 --> 01:06:06,362
-Kom inn.
+00:28:06,308 --> 00:28:08,243
+[MPUDI SPEAKING
+INDISTINCTLY]
 
 382
-01:06:13,500 --> 01:06:15,078
-Kom inn.
+00:28:09,679 --> 00:28:11,481
+Hello, Reverend.
+What are you doing on a horse?
 
 383
-01:06:40,402 --> 01:06:42,644
-Du vil ikke snakke om det, hva?
+00:28:12,015 --> 00:28:14,402
+Mm, I hit a rock
+with my crankcase.
 
 384
-01:06:45,741 --> 01:06:47,698
-Synd.
+00:28:14,485 --> 00:28:16,530
+Cracked it wide open. And the
+trouble is,
 
 385
-01:07:02,758 --> 01:07:07,551
-<i>Det var noen dyr som så latterlige
-men gode ut, og Xi var sulten.</i>
+00:28:16,530 --> 00:28:19,022
+I have to meet the new
+schoolteacher at Mabula today.
 
 386
-01:07:39,920 --> 01:07:46,042
-<i>En gutt pludret, så han hilste
-og sa: "Jeg skjøt et av dyrene.</i>
+00:28:19,415 --> 00:28:21,402
+Oh, boy. Well,
+you can have that one,
 
 387
-01:07:46,218 --> 01:07:51,509
-<i>Snart sovner det, og da kan vi
-spise det." Men gutten sprang bort.</i>
+00:28:21,402 --> 00:28:22,799
+but she's in a terrible shape.
 
 388
-01:07:51,682 --> 01:07:56,226
-<i>Kanskje for å hente
-familien sin til festen.</i>
+00:28:22,799 --> 00:28:24,706
+We've been knocking around
+in the Hamadulas.
 
 389
-01:08:16,373 --> 01:08:23,420
-<i>Det lød en underlig lyd, og enda
-et dyr med runde bein dukket opp.</i>
+00:28:25,676 --> 00:28:28,310
+I promised Mpudi I would
+work around here for a while,
 
 390
-01:08:24,173 --> 01:08:28,717
-<i>Gutten og en voksen hoppet ut.
-De virket opprørt.</i>
+00:28:28,310 --> 00:28:30,244
+so he can have a whole
+week to patch her up.
 
 391
-01:08:28,886 --> 01:08:34,010
-<i>"Kom og sett dere," sa Xi.
-"Det er nok kjøtt til oss alle."</i>
+00:28:30,827 --> 00:28:31,800
+Here, Reverend.
 
 392
-01:08:37,186 --> 01:08:42,975
-<i>Men mannen var uhøflig og grådig.
-Han tok hele dyret.</i>
+00:28:32,591 --> 00:28:33,073
+Thank you.
 
 393
-01:08:43,150 --> 01:08:48,821
-<i>Xi sa: "Vil du spise alt, må jeg
-skyte et annet til meg selv."</i>
+00:28:33,125 --> 00:28:35,599
+MPUDI: Get in there,
+you bloody son of a--
 
 394
-01:08:53,493 --> 01:08:59,081
-<i>Mannen ropte, men Xi ville ikke
-ha noe</i> å <i>gjøre med en slik snåling.</i>
+00:28:35,646 --> 00:28:36,447
+Morning, Mpudi.
 
 395
-01:09:00,375 --> 01:09:02,866
-<i>Plutselig hørtes et tordenskrall.</i>
+00:28:37,796 --> 00:28:40,291
+Morning, Mpudi!
+Morning, Reverend.
 
 396
-01:09:03,045 --> 01:09:07,292
-<i>Xi sprang etter dyrene.
-Han var veldig sulten.</i>
+00:28:40,291 --> 00:28:41,875
+Will this make it
+to Mabula and back?
 
 397
-01:09:24,483 --> 01:09:28,694
-Snakker du engelsk?
-Du har rett til å tie.
+00:28:42,334 --> 00:28:44,183
+She's going be
+a bastard to start.
 
 398
-01:09:28,862 --> 01:09:33,691
-Men alt du sier
-kan bli brukt imot deg.
+00:28:44,183 --> 00:28:45,222
+Ah, sorry, Reverend.
 
 399
-01:09:50,926 --> 01:09:53,251
-Hvorfor er du så fin?
+00:28:45,512 --> 00:28:47,709
+I put in new rings,
+and they're very tight.
 
 400
-01:09:53,428 --> 01:10:00,843
-Jeg skal i retten. Politiet tok
-en buskmann for buskaptyveri-
+00:28:47,712 --> 00:28:49,167
+But will she make it?
 
 401
-01:10:01,019 --> 01:10:04,970
--og de vil at jeg skal tolke.
+00:28:50,298 --> 00:28:52,028
+You said I could have
+a whole week.
 
 402
-01:10:05,148 --> 01:10:07,189
-Xixo!
+00:28:52,561 --> 00:28:54,932
+This is an emergency.
+What we want to know is,
 
 403
-01:10:12,614 --> 01:10:15,402
-<i>De førte Xi til et sted
-med flere mennesker.</i>
+00:28:54,932 --> 00:28:56,947
+will she make it
+to Mabula and back?
 
 404
-01:10:15,576 --> 01:10:19,324
-<i>Han smilte til dem,
-men ingen smilte tilbake.</i>
+00:28:57,232 --> 00:28:59,953
+I hasn't even looked at the brakes
+or the faulty steering.
 
 405
-01:10:30,424 --> 01:10:32,464
-Tolk.
+00:28:59,979 --> 00:29:00,899
+Mpudi...
 
 406
-01:10:39,433 --> 01:10:43,644
-Xixo, du anklages for
-ulovlig å ha slaktet ei geit-
+00:29:01,065 --> 00:29:02,303
+Okay, she'll make it.
 
 407
-01:10:43,812 --> 01:10:51,191
-- den 21. september 1980 ved
-Oniamatokwe. Skyldig eller uskyldig?
+00:29:02,380 --> 00:29:04,066
+As soon as
+I connect up the steering rack.
 
 408
-01:10:52,070 --> 01:10:58,441
-<i>Det var vanskelig å tolke. Xis
-språk hadde ingen ord for "skyldig".</i>
+00:29:04,066 --> 00:29:06,630
+But she gonna be a bastard
+to start. Sorry, Reverend.
 
 409
-01:11:00,329 --> 01:11:03,995
-<i>Til slutt spurte Mpudi:
-"Skjøt du et dyr?"</i>
+00:29:07,033 --> 00:29:08,727
+There we are, Reverend.
+Then she'll be all yours.
 
 410
-01:11:04,166 --> 01:11:08,496
-<i>Ja, men han tok det.
-Han ville ikke dele det med meg.</i>
+00:29:10,430 --> 00:29:12,229
+I don't think
+I can handle her.
 
 411
-01:11:08,670 --> 01:11:12,123
-- Erkjenner han seg skyldig?
-- Ikke skyldig.
+00:29:12,583 --> 00:29:14,514
+I hear Mpudi calls her
+the Antichrist.
 
 412
-01:11:12,299 --> 01:11:16,427
-- De dømte ham til døden.
-- For ei geit? Nei!
+00:29:14,752 --> 00:29:16,970
+Well, she is a... thing.
 
 413
-01:11:16,595 --> 01:11:22,099
-Tre måneders fengsel
-er det samme. Han kommer til å dø!
+00:29:16,970 --> 00:29:18,704
+[MOTOR WHIRRING]
 
 414
-01:11:22,267 --> 01:11:25,387
-Han har aldri sett en vegg
-i hele sitt liv.
+00:29:20,651 --> 00:29:21,814
+I was hoping--
 
 415
-01:11:25,562 --> 01:11:29,608
-- Forklarte du det ikke for dem?
-- De sa: "Ro i salen!"
+00:29:22,117 --> 00:29:22,677
+I was ho--
 
 416
-01:11:29,775 --> 01:11:36,062
-- Men de burde vite det.
-- Ingen kjenner buskmennene.
+00:29:28,787 --> 00:29:29,667
+[WHIRRING STOPS]
 
 417
-01:11:36,240 --> 01:11:41,364
-- Ingen går dypt inn i Kalahari.
-- Hvordan vet du så mye om dem?
+00:29:29,837 --> 00:29:31,187
+I was hoping you could go.
 
 418
-01:11:41,537 --> 01:11:46,531
-Da Botswana var engelsk, slo jeg
-en politi som forulempet faren min.
+00:29:31,334 --> 00:29:33,626
+Well, Reverend, I'm very
+awkward around women.
 
 419
-01:11:46,708 --> 01:11:52,415
-Jeg flyktet inn i Kalahari-ørkenen.
-Og jeg døde, av uttørking.
+00:29:33,901 --> 00:29:36,231
+Yes, aren't we all?
+No, it's not like that.
 
 420
-01:11:52,589 --> 01:11:57,085
-Noen buskmenn begravde meg,
-bare hodet mitt stakk opp.
+00:29:36,760 --> 00:29:38,122
+When I'm in the presence
+of a lady,
 
 421
-01:11:57,261 --> 01:12:00,547
-I to uker
-helte de i meg vann og mat.
+00:29:38,122 --> 00:29:40,883
+my brain switches off
+or something.
 
 422
-01:12:00,722 --> 01:12:04,804
-Da de gravde meg opp
-var jeg nesten hvit. Som deg. Æsj!
+00:29:41,125 --> 00:29:43,020
+I turn into
+a complete idiot.
 
 423
-01:12:04,977 --> 01:12:11,893
-Jeg var der i tre år. De er
-noen vennlige småtroll. Han dør.
+00:29:43,020 --> 00:29:44,445
+Yes, you ought to
+meet more women.
 
 424
-01:12:24,079 --> 01:12:29,501
-- Kan jeg dra til Mahadi?
-- Vil du hilse på ... Hva heter han?
+00:29:44,751 --> 00:29:46,103
+It only gets worse.
 
 425
-01:12:29,668 --> 01:12:36,751
-- Jeg vil få ham ut!
-- Ikke gjør noe dumt.
+00:29:46,719 --> 00:29:48,088
+But you will
+do this for me?
 
 426
-01:12:36,925 --> 01:12:41,719
-- Hvis vi forklarer dem ...
-- Blir du også med?
+00:29:57,884 --> 00:29:59,168
+Come on, Prince. Come on.
 
 427
-01:12:41,889 --> 01:12:43,550
-Ja.
+00:29:59,359 --> 00:29:59,945
+Go, boy.
 
 428
-01:13:04,077 --> 01:13:07,162
-Han vil prøve å spise i morgen.
+00:30:01,014 --> 00:30:02,798
+Come on, boy.
+Come on, come along.
 
 429
-01:13:07,331 --> 01:13:11,246
-- Har han ikke spist hele uka?
-- Nei.
+00:30:03,272 --> 00:30:04,041
+Okay.
 
 430
-01:13:14,463 --> 01:13:19,505
-Selvfølgelig er vi bekymret.
-Han har elleve uker igjen.
+00:30:06,017 --> 00:30:06,691
+Okay.
 
 431
-01:13:19,676 --> 01:13:23,674
-Er det ikke noe vi kan gjøre?
+00:30:08,906 --> 00:30:10,319
+Son of a-- Choke.
 
 432
-01:13:23,847 --> 01:13:30,016
-Muligens hvis noen vil ansette ham,
-men han har ingen erfaring.
+00:30:10,463 --> 00:30:11,750
+Choke, choke,
+choke, choke.
 
 433
-01:13:30,187 --> 01:13:34,731
-Han kunne lære deg ting
-om planter og dyr.
+00:30:15,427 --> 00:30:16,439
+[SWEARING]
 
 434
-01:13:34,900 --> 01:13:40,404
-Ja, vi vil ansette ham
-som ekspert i økologi.
+00:30:16,439 --> 00:30:18,455
+You tried to murder me,
+you son of a--!
 
 435
-01:13:48,664 --> 01:13:51,701
-Han må bli i deres tjeneste
-i elleve uker.
+00:30:20,076 --> 00:30:21,882
+Don't ever switch her off
+or let her stall.
 
 436
-01:13:51,875 --> 01:13:56,537
-Forlater han dere,
-vil han få en veldig lang straff.
+00:30:22,266 --> 00:30:23,625
+You'll never start her again.
+I know.
 
 437
-01:14:13,188 --> 01:14:17,316
-- Vi kan ikke sette ham inn i jeepen.
-- Nei.
+00:30:23,776 --> 00:30:25,853
+And don't park on a slope.
+You've got no hand brake.
 
 438
-01:15:01,236 --> 01:15:04,689
-Jeg forstår ordene, men meningen ...
+00:30:26,225 --> 00:30:27,160
+Now you tell me.
 
 439
-01:15:04,865 --> 01:15:11,450
-Han snakker om en dårlig ting.
-En ond ting, og om verdens ende.
+00:30:28,317 --> 00:30:29,448
+- Goodbye, Reverend.
+- Bye, Andrew.
 
 440
-01:15:11,622 --> 01:15:14,908
-Forklar ham at han må
-bli hos oss i elleve uker.
+00:30:29,561 --> 00:30:31,343
+- Take care, now. Goodbye.
+- Bye, Mpudi.
 
 441
-01:15:15,083 --> 01:15:20,837
-- Han vet ikke hva uker er.
-- Ok, da sier vi når han kan dra.
+00:30:32,552 --> 00:30:33,294
+[CAR BACKFIRES]
 
 442
-01:15:28,055 --> 01:15:32,848
-Hei. Jeg hører at dere
-har en buskmann som jobber her.
+00:30:42,726 --> 00:30:45,007
+<i>One day, a very noisy
+animal rushed past</i>
 
 443
-01:15:33,018 --> 01:15:35,011
-Han heter Xi.
+00:30:45,007 --> 00:30:46,136
+<i>where Xi was sleeping.</i>
 
 444
-01:15:35,187 --> 01:15:38,189
-- Er de gode sporjegere?
-- De beste i verden.
+00:30:49,525 --> 00:30:51,055
+<i>It left very peculiar tracks,</i>
 
 445
-01:15:38,357 --> 01:15:42,189
-Kan han spore
-en såret antilope for meg?
+00:30:51,122 --> 00:30:53,705
+<i>as if two enormous snakes
+had slithered past.</i>
 
 446
-01:15:49,326 --> 01:15:51,900
-Her mistet vi den.
+00:30:54,262 --> 00:30:57,217
+[SPEAKING SAN]
 
 447
-01:16:12,307 --> 01:16:14,467
-Han finner den.
+00:30:57,217 --> 00:30:59,568
+[PLAYING MELODY]
 
 448
-01:16:28,949 --> 01:16:31,073
-Vent på oss!
+00:32:19,722 --> 00:32:22,131
+[HONKING]
 
 449
-01:17:08,405 --> 01:17:13,281
-- Unnskyld, jeg visste ikke ...
-- Jeg vil ikke snakke om det.
+00:32:22,178 --> 00:32:24,594
+[ELEPHANT TRUMPETING]
 
 450
-01:17:26,465 --> 01:17:28,541
-Fort, få dem ut!
+00:33:50,362 --> 00:33:51,089
+[CAR SPUTTERING]
 
 451
-01:17:45,526 --> 01:17:47,899
-Dere kan kaste våpnene deres.
+00:35:06,451 --> 00:35:08,109
+Ay-yi-yi-yi-yi.
 
 452
-01:17:57,371 --> 01:18:00,123
-Vil dere at jeg skal skyte dem?
+00:35:20,120 --> 00:35:20,897
+Whoa...
 
 453
-01:18:02,709 --> 01:18:06,458
-Kom ut nå.
-Hendene over hodet.
+00:35:21,526 --> 00:35:22,344
+Whoa!
 
 454
-01:18:11,844 --> 01:18:14,513
-Ta ut alle barna.
+00:36:01,763 --> 00:36:02,809
+Ay-yi-yi.
 
 455
-01:18:17,516 --> 01:18:22,973
-Jeg vil gå østover til Motambe,
-og jeg vil ta med meg alle barna.
+00:36:14,708 --> 00:36:16,424
+Ay-yi-yi-yi-yi.
 
 456
-01:18:23,146 --> 01:18:28,936
-Ser jeg en bil, et fly, en politi,
-en soldat eller en person-
+00:36:42,402 --> 00:36:44,059
+Ay-yi-yi-yi-yi.
 
 457
-01:18:29,111 --> 01:18:34,022
-- meier vi ned barna.
-Har dere radio i bilen?
+00:36:45,471 --> 00:36:46,331
+Yi-yi!
 
 458
-01:18:34,199 --> 01:18:39,906
-Si til hovedkvarteret
-at jeg vil ha en 15 km bred korridor.
+00:37:28,198 --> 00:37:30,123
+Everybody lie down
+on the ground.
 
 459
-01:18:40,080 --> 01:18:42,915
-Hæren og politiet får rense området.
+00:37:30,600 --> 00:37:32,209
+All of you, lie down!
 
 460
-01:18:43,083 --> 01:18:47,330
-Mat og vann skal plasseres
-med tre mils mellomrom-
+00:37:32,520 --> 00:37:33,351
+[GUNSHOTS]
 
 461
-01:18:47,504 --> 01:18:53,258
-- og alle skal forsvinne
-før vi kommer dit. Si det til dem.
+00:37:33,469 --> 00:37:35,123
+Come on, lie down,
+you and you.
 
 462
-01:18:53,427 --> 01:18:56,926
-Still dem i en ring.
-Jeg vil ha en sirkel rundt meg.
+00:37:36,106 --> 00:37:37,398
+Everybody lie down.
 
 463
-01:18:57,097 --> 01:19:00,596
-La de små bli igjen,
-de klarer det aldri.
+00:37:38,148 --> 00:37:39,626
+Hey, you.
+Didn't you hear me?
 
 464
-01:19:05,105 --> 01:19:11,559
-Rens området fra denne enden,
-for jeg vil begynne å gå om to timer.
+00:37:40,144 --> 00:37:41,156
+Lie down!
 
 465
-01:19:15,365 --> 01:19:18,403
-Rydd bort alle!
+00:37:44,475 --> 00:37:45,542
+[GUNSHOT]
 
 466
-01:19:38,805 --> 01:19:43,765
-Jeg lærer ham å kjøre for moro skyld.
-Vi har ikke annet å gjøre.
+00:37:47,645 --> 00:37:48,656
+He can't hear you, sir.
 
 467
-01:19:43,936 --> 01:19:47,388
-- Tenker du fortsatt på skolefrøkenen?
-- På en måte.
+00:37:48,656 --> 00:37:49,629
+- He's deaf.
+- Shut up!
 
 468
-01:19:47,564 --> 01:19:50,815
-Jeg vil foreta
-en vilttelling i Nioko.
+00:38:27,955 --> 00:38:30,761
+[SPEAKING SETSWANA]
 
 469
-01:19:50,984 --> 01:19:54,437
-- Hvordan skal jeepen holde?
-- Vi tar den fra hverandre.
+00:38:35,507 --> 00:38:36,109
+Oh...
 
 470
-01:20:10,170 --> 01:20:11,962
-Kom, Xi!
+00:38:36,436 --> 00:38:38,771
+[SPEAKING SETSWANA]
 
 471
-01:20:17,636 --> 01:20:19,926
-Han kjenner ikke til dører.
+00:38:46,980 --> 00:38:49,158
+Hey, wake up! Come
+and give us petrol here.
 
 472
-01:20:56,049 --> 01:21:01,970
-Slutt med det pokkers spillet.
-Ok, tida er inne. Opp med dere.
+00:38:50,483 --> 00:38:51,839
+Did two jeeps pass here?
 
 473
-01:21:02,139 --> 01:21:09,719
-Nå går vi, søta. Hold dem i en ring
-rundt meg. Kom an, ingen etternølere.
+00:38:52,400 --> 00:38:54,464
+Yes, sir.
+They took half my stock.
 
 474
-01:21:09,897 --> 01:21:13,894
-- Vekk med labbene!
-- Hold kjeft.
+00:38:54,889 --> 00:38:58,340
+They took a big drum of petrol,
+and they made me to lie down.
 
 475
-01:21:14,067 --> 01:21:19,228
-- Få dem inn i en sirkel.
-- Ikke rop til dem.
+00:38:58,535 --> 00:38:59,931
+If you find them,
+please ask them.
 
 476
-01:21:19,406 --> 01:21:25,824
-- Det der er ikke noen pokkers sirkel.
-- De ender bare i firkant.
+00:38:59,938 --> 00:39:01,388
+They must pay me
+my money, sir.
 
 477
-01:21:25,996 --> 01:21:31,039
-La dem gå i firkant, da.
-Ikke la dem spre seg.
+00:39:01,533 --> 00:39:03,087
+It's such a lot
+of stuff they took.
 
 478
-01:21:33,086 --> 01:21:38,793
-- Hvem sier at de kommer forbi her?
-- Han vil ha en 15 km bred korridor.
+00:39:16,918 --> 00:39:17,545
+Morning.
 
 479
-01:21:38,967 --> 01:21:43,463
-Dessverre må vi flytte oss
-til han har passert.
+00:39:26,817 --> 00:39:28,437
+Uh... Miss Thompson?
 
 480
-01:21:43,639 --> 01:21:50,093
-- Hvor finner jeg Andrew Steyn?
-- Cirka åtte km den veien ...
+00:39:28,437 --> 00:39:29,031
+Yes.
 
 481
-01:21:50,270 --> 01:21:56,725
-Jeg blir med og viser.
-Johnny, kjør dem til Mahadi.
+00:39:29,769 --> 00:39:31,090
+- My name--
+- How do--
 
 482
-01:22:11,917 --> 01:22:16,828
-Si at de skal synge.
-Sett i gang, syng. Syng!
+00:39:32,131 --> 00:39:34,363
+My name-- My name is--
 
 483
-01:23:41,673 --> 01:23:45,422
-Hvor finner vi ham?
+00:39:36,035 --> 00:39:36,749
+My name--
 
 484
-01:23:48,764 --> 01:23:51,599
-De dro i morges.
+00:39:38,138 --> 00:39:42,108
+[CAR SPUTTERS]
 
 485
-01:24:22,256 --> 01:24:25,708
-- De dro igjennom.
-- Han kommer til å møte Boga.
+00:39:50,281 --> 00:39:51,729
+My name is Andrew Steyn.
 
 486
-01:24:25,884 --> 01:24:29,420
-- Kan man kjøre rundt?
-- Det er veldig langt.
+00:39:52,593 --> 00:39:53,621
+How do you do?
 
 487
-01:24:29,596 --> 01:24:32,005
-Kom igjen.
+00:39:55,037 --> 00:39:56,532
+The Reverend cracked
+his crankcase,
 
 488
-01:25:23,525 --> 01:25:28,187
-En ... to ... tre ... fire ...
+00:39:56,532 --> 00:39:58,714
+so he asked me to...
+Uh...
 
 489
-01:25:28,363 --> 01:25:32,741
-...fem ... seks
-voksne oryxantiloper.
+00:40:12,389 --> 00:40:13,557
+Uh, thank you.
 
 490
-01:25:35,412 --> 01:25:39,244
-- Det er mennesketing, sa han.
-- Hvor?
+00:40:38,233 --> 00:40:39,908
+How far do we
+have to go?
 
 491
-01:25:39,416 --> 01:25:42,667
-Der nede.
+00:40:41,874 --> 00:40:44,453
+How far do we have to go?
 
 492
-01:25:51,386 --> 01:25:58,516
-En av hærens lastebiler. De tar
-av noe. Lurer på hva de driver med.
+00:40:44,847 --> 00:40:45,440
+How--Oof!
 
 493
-01:26:01,355 --> 01:26:06,729
-Det ser ut som mat, kokekar og sånt.
-Kanskje det er en piknik.
+00:40:46,063 --> 00:40:46,868
+Oh, sorry.
 
 494
-01:26:08,779 --> 01:26:14,984
-Merkelig, de drar sin vei.
-De dro sin vei og lot tingene ligge.
+00:40:53,823 --> 00:40:54,715
+Hello, Andrew.
 
 495
-01:26:15,160 --> 01:26:17,782
-Merkelig.
+00:40:55,154 --> 00:40:55,999
+Hello, Phineas.
 
 496
-01:26:20,082 --> 01:26:23,700
-Vel, vel. En, to, tre ...
+00:40:56,572 --> 00:40:58,214
+- Good morning, madam.
+- Good morning.
 
 497
-01:26:45,190 --> 01:26:49,402
-Du måla dem hvile.
-De små orker det ikke.
+00:40:58,589 --> 00:40:59,201
+Aah!
 
 498
-01:26:49,570 --> 01:26:55,442
-De får hvile når vi kommer
-til maten. Det er langt til Motambe.
+00:40:59,201 --> 00:41:01,058
+Oh, I'm sorry, madam.
+Sorry, sorry.
 
 499
-01:26:55,617 --> 01:27:00,327
-- De kan ikke gå tre mil uten mat.
-- Stopp!
+00:41:01,058 --> 00:41:01,905
+It's all right.
 
 500
-01:27:08,046 --> 01:27:13,089
-Se der! Jeg sa at dere skulle
-slutte med deres dumme spill.
+00:41:02,626 --> 00:41:04,130
+I'm truly sorry, madam.
+Sorry.
 
 501
-01:27:18,765 --> 01:27:22,847
-- De små må få gå tilbake.
-- Ingen går tilbake.
+00:41:04,611 --> 00:41:05,416
+It's all right.
 
 502
-01:27:23,020 --> 01:27:29,521
-Snart har alle såre føtter.
-Den neste som faller av skyter jeg!
+00:41:11,353 --> 00:41:12,308
+What are you doing?
 
 503
-01:27:29,693 --> 01:27:34,023
-Du og du, hjelp henne.
-Må hun bæres, så bær henne.
+00:41:19,397 --> 00:41:20,633
+[GRUNTS]
 
 504
-01:27:34,198 --> 01:27:38,113
-Ser jeg dere spille kort igjen,
-så ved gud ...
+00:41:23,305 --> 00:41:25,384
+What--What--What are you--
+Your brakes are shot.
 
 505
-01:27:38,285 --> 01:27:43,078
-- Fremad marsj!
-- De kan ikke, de er ikke soldater.
+00:41:26,769 --> 00:41:28,547
+- Yes.
+- What are you doing?
 
 506
-01:27:43,248 --> 01:27:46,416
-Vil de spise, er det best de går.
+00:41:28,949 --> 00:41:30,046
+I'm opening the gate.
 
 507
-01:27:46,585 --> 01:27:52,089
-Er du redd for å skade ditt image
-hvis du innrømmer at du tok feil?
+00:41:35,066 --> 00:41:36,276
+How do I get out of here?
 
 508
-01:27:54,009 --> 01:27:56,714
-Stopp!
+00:41:36,867 --> 00:41:38,101
+No, it's all right. I...
 
 509
-01:28:03,393 --> 01:28:05,849
-Du ... kom hit!
+00:41:39,477 --> 00:41:40,084
+[GRUNTING]
 
 510
-01:28:11,401 --> 01:28:18,235
-Gå til bakketoppen der, og vift
-med denne til soldatene ser deg.
+00:41:44,924 --> 00:41:46,187
+Now, I just, uh...
 
 511
-01:28:18,408 --> 01:28:25,029
-Gå ned til dem og si
-at Sam Boga gjorde en feil.
+00:41:54,451 --> 00:41:56,311
+Oh, this is too weird.
+I'm getting out.
 
 512
-01:28:28,001 --> 01:28:32,462
-Nå vil jeg at de skal legge
-igjen mat hver 15. km. Forstått?
+00:41:56,630 --> 00:41:57,482
+No, it's okay.
 
 513
-01:28:32,631 --> 01:28:35,550
-- Ja.
-- Av sted med deg!
+00:41:57,482 --> 00:41:59,483
+I, uh, just have to...
 
 514
-01:28:39,263 --> 01:28:40,971
-Fremad marsj!
+00:42:02,191 --> 00:42:03,218
+What are you doing now?
 
 515
-01:28:41,139 --> 01:28:45,968
-En struts og fire, fem, seks, sju ...
+00:42:03,218 --> 00:42:05,683
+Well, I--I'm closing
+the gate, but don't worry.
 
 516
-01:28:57,072 --> 01:29:00,655
-En masse barn.
-Maten må være til dem.
+00:42:05,683 --> 00:42:07,873
+You crazy? This thing
+hasn't got any brakes!
 
 517
-01:29:00,826 --> 01:29:02,985
-- De har gevær!
-- Barna?
+00:42:07,873 --> 00:42:09,470
+Do you want to get me killed?
 
 518
-01:29:03,161 --> 01:29:07,622
-Nei, det er bevæpnede menn.
-Det er ikke noen piknik.
+00:42:09,470 --> 00:42:10,539
+Are you crazy?
 
 519
-01:29:07,791 --> 01:29:13,498
-Jeg tror barna er gisler.
-Hva sa de på radioen om Sam Boga?
+00:42:10,539 --> 00:42:12,909
+All right, Miss Thompson.
+It'll come back.
 
 520
-01:29:18,260 --> 01:29:23,420
-Han sa at jeg skulle gå til toppen
-og vifte med kangaen min.
+00:42:12,909 --> 00:42:15,332
+What?
+The Land Rover, it'll come back.
 
 521
-01:29:28,729 --> 01:29:34,233
-- Tre mil er for langt, sa Miss Kate.
-- Er hun der nede?
+00:42:16,070 --> 00:42:17,413
+What do you mean,
+it'll come back?
 
 522
-01:29:44,828 --> 01:29:48,993
-Vi må immobilisere dem.
-Er buskmenn gode til å snike?
+00:42:17,413 --> 00:42:18,266
+It's all right.
 
 523
-01:29:49,166 --> 01:29:53,461
-- De beste i verden.
-- La ham se på dem.
+00:42:19,509 --> 00:42:21,155
+I suppose you think
+that was funny.
 
 524
-01:30:00,802 --> 01:30:06,474
-Forklar at mennene med våpnene
-er onde, og at vi må bedøve dem.
+00:42:21,406 --> 00:42:23,162
+I'm sorry.
+The brakes don't work.
 
 525
-01:30:12,606 --> 01:30:18,395
-- Han spør hvordan de kom inni der.
-- Nei, de er ikke ...
+00:42:23,515 --> 00:42:24,513
+I noticed.
 
 526
-01:30:18,570 --> 01:30:20,397
-Du får forklare.
+00:42:29,797 --> 00:42:33,411
+[KALIMBA PLAYING]
 
 527
-01:30:20,572 --> 01:30:24,737
-Om en time går vi.
-Jeg tar meg en lur.
+00:42:33,829 --> 00:42:36,750
+[SINGING]
 
 528
-01:30:49,893 --> 01:30:56,229
-"Kjære Miss Thompson, kidnapperne har
-fått en immobiliserende innsprøyting.
+00:42:49,261 --> 00:42:51,718
+<i>Xi saw a very strange-looking
+person and he greeted him,</i>
 
 529
-01:30:56,400 --> 01:31:00,647
-Når de har sovnet,
-må dere avvæpne dem."
+00:42:51,728 --> 00:42:53,086
+<i>but the man didn't hear him.</i>
 
 530
-01:31:00,821 --> 01:31:05,235
-Han må ikke gi henne lappen
-før han har skutt alle.
+00:43:00,633 --> 00:43:01,152
+[SPEAKING SAN]
 
 531
-01:31:09,371 --> 01:31:16,335
-Han må dra tilbake tråden fort,
-så de tror de ble stukket av en veps.
+00:43:01,239 --> 00:43:02,867
+<i>Xi said,
+"This is a funny stick.</i>
 
 532
-01:31:25,679 --> 01:31:30,555
-Det kommer til å gå.
-Dypp nålen hver gang.
+00:43:02,867 --> 00:43:04,081
+<i>Did it grow on a tree?"</i>
 
 533
-01:32:05,219 --> 01:32:10,557
-Jeg ser ikke småtrollet.
-Jo, der er han.
+00:43:04,081 --> 00:43:05,458
+[SPEAKING SAN]
 
 534
-01:32:29,409 --> 01:32:33,823
-- Se på det der.
-- Han er dyktig.
+00:43:09,620 --> 00:43:10,925
+[SCREAMING]
 
 535
-01:33:39,438 --> 01:33:42,974
-- Det skjer ikke noe der nede.
-- Det tar tid.
+00:43:23,420 --> 00:43:25,394
+<i>He couldn't understand
+why the man had run away.</i>
 
 536
-01:33:49,448 --> 01:33:51,572
-Hvem er du?
+00:43:25,687 --> 00:43:27,083
+<i>Then he realized
+the man must've seen</i>
 
 537
-01:34:34,535 --> 01:34:38,746
-Hun trenger hjelp når de våkner.
+00:43:27,083 --> 00:43:29,723
+<i>the evil thing he was carrying,
+and that's what made him run.</i>
 
 538
-01:34:40,666 --> 01:34:46,871
-Jafta, våkne. Du må våkne.
-Du kan ikke sove nå. Kom.
+00:43:47,709 --> 00:43:49,088
+[ENGINE DIES]
 
 539
-01:35:12,155 --> 01:35:18,657
-- Det er tau i bilen.
-- Jag ham ... Nei, han kan hente det.
+00:43:50,521 --> 00:43:51,415
+She stopped.
 
 540
-01:35:23,000 --> 01:35:29,584
-Han kan ikke gire. Men jeg sa at
-han kan kjøre på hvilket som helst.
+00:43:51,916 --> 00:43:52,939
+I noticed.
 
 541
-01:35:29,756 --> 01:35:33,921
-Du tar den, og du tar den.
+00:43:53,804 --> 00:43:54,865
+Can you start her again?
 
 542
-01:35:34,094 --> 01:35:40,050
-Jeg tar ... Det er bare seks.
-De skulle være åtte.
+00:43:56,204 --> 00:43:59,104
+No. We gave her new rings,
+and they're very tight.
 
 543
-01:35:48,442 --> 01:35:52,190
-Kanskje de også sover. Jeg vet ikke!
+00:44:00,877 --> 00:44:02,209
+How far are we
+from the mission?
 
 544
-01:35:57,326 --> 01:36:04,242
-Gå forsiktig rundt blant barna,
-og si at når vi tar geværene-
+00:44:02,404 --> 00:44:03,618
+About 30 miles.
 
 545
-01:36:04,416 --> 01:36:10,372
-- må de springe og gjemme seg
-i kløftene bak oss. Ok? Bra!
+00:44:04,478 --> 00:44:05,811
+Will we get there
+before dark?
 
 546
-01:36:22,643 --> 01:36:24,767
-Klare? Gå!
+00:44:06,185 --> 00:44:08,296
+I don't know.
+This thing has stopped.
 
 547
-01:36:40,869 --> 01:36:45,745
-Nei, Frans! Ned! Og bli der!
+00:44:09,008 --> 00:44:09,975
+I noticed.
 
 548
-01:36:50,295 --> 01:36:53,546
-Tilbake! Tilbake, alle sammen!
+00:44:11,202 --> 00:44:12,937
+Are you sure you can't
+start her again?
 
 549
-01:36:54,925 --> 01:36:57,167
-- Pass på!
-- Unnskyld.
+00:44:13,392 --> 00:44:16,102
+Yes. This morning it took
+a horse and three men.
 
 550
-01:37:08,188 --> 01:37:11,273
-Gå rundt, du, jeg dekker deg.
+00:44:16,470 --> 00:44:18,437
+- So now what?
+- Well, I can make a fire,
 
 551
-01:37:34,381 --> 01:37:36,540
-Tilbake! Tilbake!
+00:44:18,575 --> 00:44:21,196
+and there's some food
+and a sleeping bag.
 
 552
-01:37:58,989 --> 01:38:05,953
-- Fire, fem, seks ... To mangler.
-- Han her, og noen skudd derfra.
+00:44:21,741 --> 00:44:22,931
+Spend the night?
 
 553
-01:38:15,547 --> 01:38:17,671
-Se!
+00:44:23,379 --> 00:44:24,590
+I'm afraid so.
 
 554
-01:38:33,148 --> 01:38:35,853
-'-999 deg på magen.
+00:44:25,411 --> 00:44:26,846
+You sure
+this thing's stopped?
 
 555
-01:38:36,026 --> 01:38:39,146
-Hold ham, Mpudi!
+00:44:27,513 --> 00:44:28,698
+Yes. Didn't you notice?
 
 556
-01:40:04,948 --> 01:40:11,284
-- Hva har skjedd?
-- Har du vann? Hold disse.
+00:44:33,644 --> 00:44:35,275
+I can carry you
+across.
 
 557
-01:40:17,044 --> 01:40:21,125
-- Hva har skjedd?
-- Det er en lang historie.
+00:44:35,275 --> 00:44:37,249
+Then you don't
+have to...
 
 558
-01:40:21,298 --> 01:40:27,135
-Er alle de der døde?
-Har du drept dem?
+00:44:37,440 --> 00:44:38,218
+Okay.
 
 559
-01:40:27,304 --> 01:40:31,255
-- De sover.
-- Hvor er Kate og barna?
+00:44:47,097 --> 00:44:49,031
+Aah! Watch it!
+Be careful!
 
 560
-01:40:31,433 --> 01:40:35,810
-De gjemmer seg der borte.
-Herregud, Mpudi!
+00:44:51,983 --> 00:44:53,757
+Thank you.
+Aah!
 
 561
-01:40:38,148 --> 01:40:40,723
-Pass på den fyren der.
+00:44:54,265 --> 00:44:55,213
+Oh!
 
 562
-01:40:47,282 --> 01:40:50,984
-Kate, alt er i orden.
-Dere kan komme fram.
+00:44:55,213 --> 00:44:57,238
+I'm sorry.
+I'm sorry.
 
 563
-01:40:54,998 --> 01:40:58,367
-- Dere kan komme fram nå.
-- Jack?
+00:44:58,081 --> 00:44:58,780
+Aah!
 
 564
-01:40:58,544 --> 01:41:04,167
-Hei, marinen har landet.
-Alt er i orden, dere kan komme fram.
+00:45:00,469 --> 00:45:02,430
+Oh! Look at my dress!
 
 565
-01:41:04,341 --> 01:41:07,378
-Kom igjen ... Kom!
+00:45:02,430 --> 00:45:03,798
+My shoes!
+I've lost my shoes!
 
 566
-01:41:23,193 --> 01:41:28,354
-Nå er dere i sikkerhet.
-Samle sammen mennene før de våkner.
+00:45:03,912 --> 00:45:05,235
+- Your what?
+- My shoes.
 
 567
-01:41:28,532 --> 01:41:32,399
-- Fikset du ham ordentlig?
-- Ja. Reis deg.
+00:45:09,341 --> 00:45:10,399
+Aah!
+I'm sorry.
 
 568
-01:41:33,453 --> 01:41:35,328
-Gå!
+00:45:10,856 --> 00:45:12,092
+Well, watch it, buster.
 
 569
-01:41:47,801 --> 01:41:53,970
-- Se opp! Slutt å fjase, Steyn.
-- Unnskyld, unnskyld.
+00:45:14,459 --> 00:45:15,190
+I'm sorry.
 
 570
-01:42:10,699 --> 01:42:15,575
-- Jeg beklager.
-- For all del, Steyn. Av sted.
+00:45:16,521 --> 00:45:17,197
+I'm sorry.
 
 571
-01:42:23,504 --> 01:42:25,628
-Milady.
+00:45:17,539 --> 00:45:19,343
+- I'll fetch your bags.
+- No don't. You'll drop them.
 
 572
-01:42:27,174 --> 01:42:31,255
-Sersjant, be om
-busser til barna over radioen.
+00:45:19,683 --> 00:45:20,709
+I'll get them myself.
 
 573
-01:42:31,428 --> 01:42:38,807
-- Hvordan ble han den store helten?
-- Vi får dra tilbake til utstyret.
+00:45:23,742 --> 00:45:24,941
+I'm all right.
+I'm okay.
 
 574
-01:42:48,654 --> 01:42:52,106
-Han sier takk og farvel,
-og håper du får mange barn.
+00:45:38,829 --> 00:45:40,367
+Leave that one.
+I don't need it.
 
 575
-01:42:52,282 --> 01:42:57,740
-- Jeg kommer til å savne ham.
-- Buskmenn kjenner ikke til penger.
+00:45:52,314 --> 00:45:53,191
+Idiot.
 
 576
-01:42:57,913 --> 01:43:02,374
-- Hva annet kan jeg gi ham?
-- Buskmenn trenger ikke ting.
+00:46:14,676 --> 00:46:16,945
+[GRUNTING]
 
 577
-01:43:02,543 --> 01:43:05,960
-Ifølge loven
-skal han jo ha pengene.
+00:46:20,860 --> 00:46:23,519
+What are you doing?
+Leave me alone! Don't you dare!
 
 578
-01:43:12,135 --> 01:43:15,552
-Kalahari ligger den veien.
+00:46:25,734 --> 00:46:26,423
+Go away!
 
 579
-01:43:18,475 --> 01:43:23,980
-Han må finne den onde tingen
-og kvitte seg med den.
+00:46:26,722 --> 00:46:27,659
+It's all right.
+She's gone.
 
 580
-01:43:24,147 --> 01:43:28,063
-- Jeg kommer til å savne ham.
-- Jeg også.
+00:46:28,056 --> 00:46:29,955
+Keep away!
+You keep away from me!
 
 581
-01:43:28,235 --> 01:43:35,032
-Skal du se sånn ut i all evighet?
-Fortell henne at du var helten.
+00:46:30,732 --> 00:46:31,883
+No, I wasn't--
 
 582
-01:43:35,784 --> 01:43:42,155
-Det kan jeg ikke, men jeg
-vil snakke med henne og si ...
+00:46:31,883 --> 00:46:33,115
+There was this warthog.
 
 583
-01:43:42,332 --> 01:43:48,121
-Jeg vil si: "Du synes nok at jeg
-er en idiot, Miss Thompson-
+00:46:33,770 --> 00:46:34,771
+What warthog?
 
 584
-01:43:48,297 --> 01:43:53,457
-- men vanligvis er jeg helt normal.
-Det er bare i dameselskap...
+00:46:35,036 --> 00:46:37,051
+- She's gone now, but--
+- Keep away.
 
 585
-01:43:53,635 --> 01:43:57,254
-Egentlig er det
-et interessant psykologisk fenomen.
+00:46:38,320 --> 00:46:39,655
+- I wasn't--
+- Go away!
 
 586
-01:43:57,431 --> 01:44:01,761
-Hva skjer hvis en mann med
-et slikt parafreudiansk syndrom-
+00:46:42,161 --> 00:46:42,864
+I wasn't--
 
 587
-01:44:01,935 --> 01:44:07,724
-- møter en gifteklar kvinne?"
-- Et annet merkelig ord, sikkert.
+00:46:45,284 --> 00:46:46,075
+I didn't...
 
 588
-01:44:07,900 --> 01:44:12,194
-- For akademisk?
-- Ja, hva nå det betyr.
+00:46:47,888 --> 00:46:49,218
+<i>Only about half a mile away,</i>
 
 589
-01:44:12,362 --> 01:44:17,653
-Jeg skal uttrykke meg enklere.
-Jeg sier: "Miss Thompson ...
+00:46:49,218 --> 00:46:51,793
+<i>Xi was fixing dinner
+when he was rudely interrupted.</i>
 
 590
-01:44:17,826 --> 01:44:23,995
-Kate. Kate ... Det er egentlig bare
-et interessant psykologisk fenomen."
+00:46:54,347 --> 00:46:57,374
+<i>The rhino is the self-appointed
+fire-prevention officer.</i>
 
 591
-01:44:24,166 --> 01:44:27,036
-Det forstår hun. Hun er jo lærer.
+00:46:58,296 --> 00:47:00,996
+<i>When he sees a fire,
+he rushes in and stamps it out.</i>
 
 592
-01:44:27,211 --> 01:44:33,249
-Når det ikke er noen kvinner der,
-fanger jeg insekter uten å skade dem.
+00:47:08,590 --> 00:47:10,560
+[SPEAKING SAN]
 
 593
-01:44:33,425 --> 01:44:38,052
-Jeg er ikke en klossmajor.
-Jeg trenger bare litt øvelse.
+00:47:17,348 --> 00:47:22,959
+- Do you work here in Botswana?
+- Yes, I-- Yes. Yes.
 
 594
-01:44:38,222 --> 01:44:41,092
-Vent på meg. Du trenger støtte!
+00:47:22,959 --> 00:47:23,956
+And what do you do?
 
 595
-01:45:01,411 --> 01:45:03,404
-Der er hun.
+00:47:25,254 --> 00:47:27,666
+I--I collect manure.
 
 596
-01:45:07,084 --> 01:45:11,379
-- Sett i gang før elevene kommer.
-- Ja.
+00:47:27,767 --> 00:47:28,677
+I--
 
 597
-01:45:17,970 --> 01:45:22,549
-God morgen.
-God morgen, Miss Thompson.
+00:47:29,944 --> 00:47:31,579
+Get away from--
+Get away from--
 
 598
-01:45:22,724 --> 01:45:24,931
-- God morgen.
-- Hvordan går det?
+00:47:32,383 --> 00:47:33,564
+No. Leave me alone!
 
 599
-01:45:25,102 --> 01:45:28,353
-'Bråk og du?
-'Bråk og du?
+00:48:02,122 --> 00:48:02,988
+Miss Thompson?
 
 600
-01:45:29,731 --> 01:45:32,899
-Jeg har det bra, takk.
+00:48:05,860 --> 00:48:06,682
+Miss Thompson?
 
 601
-01:45:34,653 --> 01:45:36,528
-Kate ...
+00:48:10,321 --> 00:48:11,281
+Miss Thompson?
 
 602
-01:45:36,697 --> 01:45:41,241
-Du synes jeg er en idiot,
-men jeg er egentlig ikke sånn.
+00:48:12,395 --> 00:48:13,548
+Miss Thompson!
 
 603
-01:45:41,410 --> 01:45:47,448
-Det er bare når jeg er sammen
-med kvinner, med deg ... Unnskyld.
+00:48:14,294 --> 00:48:16,610
+Oh, it's all right.
+He's gone.
 
 604
-01:45:47,624 --> 01:45:53,497
-Vanligvis er jeg helt normal,
-men i selskap med kvinner-
+00:48:16,959 --> 00:48:17,781
+Who's gone?
 
 605
-01:45:53,672 --> 01:45:59,046
-- får jeg for mange tommelfingrer
-og hjernen slutter å funke.
+00:48:17,815 --> 00:48:18,635
+The rhinoceros.
 
 606
-01:45:59,219 --> 01:46:01,176
-Pass på!
+00:48:18,927 --> 00:48:20,424
+What bloody rhinoceros?
 
 607
-01:46:05,184 --> 01:46:08,766
-- Det er mel.
-- Jeg ser det.
+00:48:21,230 --> 00:48:23,609
+Didn't you see him?
+He stamped out the fire.
 
 608
-01:46:08,937 --> 01:46:10,894
-Det er ...
+00:48:23,761 --> 00:48:25,519
+You stamped out the fire.
+I saw you.
 
 609
-01:46:15,194 --> 01:46:19,820
-...faktisk bare et interessant
-psykologisk fenomen.
+00:48:25,968 --> 00:48:27,041
+No, he did it first.
 
 610
-01:46:19,990 --> 01:46:25,115
-Et freudiansk syndrom, kanskje.
-Den dagen jeg kom med skoene-
+00:48:27,041 --> 00:48:28,815
+I didn't want him
+to come back, so...
 
 611
-01:46:25,287 --> 01:46:32,203
-- ville jeg si unnskyld og forklare
-at jeg egentlig ikke er så teit.
+00:48:29,684 --> 00:48:31,191
+- But didn't you see?
+- Keep away.
 
 612
-01:46:32,377 --> 01:46:38,298
-Men jeg spolerte det, så jeg
-klandrer deg ikke hvis du tror ...
+00:48:33,027 --> 00:48:36,391
+Miss Thompson,
+if you make a fire,
 
 613
-01:46:38,467 --> 01:46:43,177
-Egentlig er det
-et interessant psykologisk ...
+00:48:36,391 --> 00:48:37,714
+and a rhinoceros sees it,
 
 614
-01:46:43,347 --> 01:46:48,389
-Når vi blir bedre kjent, vil du se
-at jeg ikke alltid er så klossete.
+00:48:37,714 --> 00:48:39,387
+he comes
+and stamps it out.
 
 615
-01:46:55,150 --> 01:46:58,484
-Et interessant psykologisk fenomen.
+00:48:40,458 --> 00:48:41,808
+Rhinos do that.
 
 616
-01:46:58,654 --> 01:47:04,491
-Ja, du er et interessant fenomen,
-og jeg synes du er veldig søt.
+00:48:41,992 --> 00:48:44,169
+It's a most interesting
+phenomenon.
 
 617
-01:47:34,356 --> 01:47:37,773
-<i>Xi begynte å tvile på
-at han ville finne verdens ende.</i>
+00:48:44,450 --> 00:48:45,574
+You get these sudden urges,
 
 618
-01:47:37,943 --> 01:47:41,276
-<i>Men plutselig en dag lå den der.</i>
+00:48:45,574 --> 00:48:47,541
+and then you come up with
+warthogs and rhinoceroses.
 
 619
-01:49:00,317 --> 01:49:01,349
-<i>Ansvarlig utgiver:</i>
-Tomas Crutze
+00:48:48,412 --> 00:48:49,714
+All right, I'll show you.
 
 620
-01:49:01,527 --> 01:49:02,559
-<i>Tekst:</i>
-SDI Media Group
+00:48:50,137 --> 00:48:51,100
+I'll make another fire.
+
+621
+00:48:53,948 --> 00:48:54,890
+Think I'm lying.
+
+622
+00:48:55,526 --> 00:48:56,360
+I'll show you.
+
+623
+00:49:03,337 --> 00:49:04,793
+You see how
+I'm making another fire?
+
+624
+00:49:06,367 --> 00:49:07,499
+You'll see.
+It'll come back.
+
+625
+00:49:07,953 --> 00:49:08,948
+Think I'm a liar?
+
+626
+00:49:17,807 --> 00:49:19,143
+Maybe it's too far away.
+
+627
+00:49:21,076 --> 00:49:22,331
+Maybe it's upwind.
+
+628
+00:49:30,419 --> 00:49:32,501
+[SPEAKING SETSWANA]
+
+629
+00:49:37,921 --> 00:49:38,928
+Mr. Steyn...
+
+630
+00:49:51,288 --> 00:49:55,455
+[GREETINGS IN SETSWANA]
+
+631
+00:49:55,458 --> 00:49:56,103
+Ask them.
+
+632
+00:49:56,111 --> 00:49:58,613
+They'll tell you rhinoceroses
+always stamp out fires.
+
+633
+00:49:59,044 --> 00:50:00,659
+I don't speak
+the language.
+
+634
+00:50:01,010 --> 00:50:02,176
+Okay, I'll ask them.
+
+635
+00:50:03,093 --> 00:50:07,617
+[SPEAKING SETSWANA]
+
+636
+00:50:07,691 --> 00:50:09,870
+[SPEAKING SETSWANA]
+
+637
+00:50:10,235 --> 00:50:11,821
+- See?
+- I noticed.
+
+638
+00:50:11,821 --> 00:50:13,037
+Yeah, but they're Tswanas.
+
+639
+00:50:13,522 --> 00:50:16,051
+They always shake their heads
+when they mean to say yes.
+
+640
+00:50:17,758 --> 00:50:18,605
+[SIGHS]
+
+641
+00:50:46,390 --> 00:50:47,295
+What are you doing?
+
+642
+00:50:49,662 --> 00:50:50,630
+I'm making coffee.
+
+643
+00:51:06,181 --> 00:51:07,545
+Sir! Sir, some people
+went through here.
+
+644
+00:51:07,545 --> 00:51:08,888
+They didn't show me
+their passports,
+
+645
+00:51:08,888 --> 00:51:09,942
+and they smashed down
+the barrier.
+
+646
+00:51:09,942 --> 00:51:11,754
+And they've got guns.
+This is Frank speaking, sir.
+
+647
+00:51:12,248 --> 00:51:13,771
+<i>Frank, were they
+traveling in two jeeps?</i>
+
+648
+00:51:13,771 --> 00:51:14,249
+Yes, sir.
+
+649
+00:51:14,249 --> 00:51:16,303
+They are followed by
+some armored cars.
+
+650
+00:51:16,303 --> 00:51:17,963
+- Can you see them yet?
+- Excuse me, sir.
+
+651
+00:51:22,318 --> 00:51:24,349
+- Yes, sir. I can see one.
+- Stop them right there!
+
+652
+00:51:24,366 --> 00:51:25,000
+Yes, sir.
+
+653
+00:51:25,918 --> 00:51:28,227
+Stop!
+Stop, stop, stop! Stop!
+
+654
+00:51:31,534 --> 00:51:32,154
+Frank?
+
+655
+00:51:33,368 --> 00:51:33,920
+Frank?
+
+656
+00:51:34,898 --> 00:51:36,250
+Frank, what was that noise?
+
+657
+00:51:37,111 --> 00:51:37,693
+Frank?
+
+658
+00:51:40,169 --> 00:51:41,384
+I stopped them, sir.
+
+659
+00:51:42,261 --> 00:51:42,806
+Right.
+
+660
+00:51:42,806 --> 00:51:45,622
+Now, explain to them that they
+cannot cross our border under arms.
+
+661
+00:51:45,622 --> 00:51:48,497
+We cannot allow them to
+violate our territorial integrity.
+
+662
+00:51:48,662 --> 00:51:49,213
+Yes, sir--
+
+663
+00:51:49,354 --> 00:51:50,787
+This is Lieutenant Mabasha.
+
+664
+00:51:50,803 --> 00:51:52,517
+Request permission
+to cross your border
+
+665
+00:51:52,517 --> 00:51:54,050
+in hot pursuit of Sam Boga.
+
+666
+00:51:54,195 --> 00:51:55,038
+Sorry, Lieutenant.
+
+667
+00:51:55,038 --> 00:51:57,543
+We cannot allow an armed force
+to come into Botswana.
+
+668
+00:51:58,094 --> 00:52:00,880
+But I've got to get Sam Boga.
+He shot up half our Cabinet.
+
+669
+00:52:00,880 --> 00:52:02,328
+Yes, our police
+will track him down
+
+670
+00:52:02,328 --> 00:52:04,675
+and hand him over to you,
+dead or alive.
+
+671
+00:52:06,947 --> 00:52:10,387
+[SPEAKING SETSWANA]
+
+672
+00:52:14,589 --> 00:52:15,369
+Bye.
+
+673
+00:52:16,300 --> 00:52:17,462
+Can't they help us?
+
+674
+00:52:18,614 --> 00:52:20,284
+They'll take a message
+to the river.
+
+675
+00:52:21,169 --> 00:52:23,663
+I think I can get the thing
+out of the river.
+
+676
+00:52:24,225 --> 00:52:25,954
+There's an electric winch
+on the front.
+
+677
+00:53:31,682 --> 00:53:32,136
+Ah!
+
+678
+00:53:32,326 --> 00:53:33,531
+Ouch. Ow.
+
+679
+00:53:34,031 --> 00:53:36,514
+Ooh. Ow! Oh.
+
+680
+00:53:40,934 --> 00:53:41,919
+Mr. Steyn?
+
+681
+00:53:43,528 --> 00:53:44,585
+Mr. Steyn.
+
+682
+00:53:48,036 --> 00:53:50,241
+- Miss Thompson?
+- Could you help me, please?
+
+683
+00:53:51,666 --> 00:53:52,319
+Don't look.
+
+684
+00:53:53,974 --> 00:53:55,387
+That's a watape tree.
+
+685
+00:53:55,714 --> 00:53:57,153
+You mustn't go near
+a watape tree.
+
+686
+00:53:57,153 --> 00:53:57,997
+They grab you.
+
+687
+00:53:58,858 --> 00:54:00,368
+Could you hand me
+my gown, please?
+
+688
+00:54:00,455 --> 00:54:01,589
+It's in the suitcase.
+
+689
+00:54:09,702 --> 00:54:11,064
+The pink one
+with the white edging.
+
+690
+00:54:22,625 --> 00:54:23,926
+Ow!
+Thank you.
+
+691
+00:54:23,965 --> 00:54:26,491
+[WINCH WHIRRING]
+
+692
+00:54:26,779 --> 00:54:27,714
+Uh.
+Sorry.
+
+693
+00:54:30,104 --> 00:54:30,625
+Ow.
+
+694
+00:54:32,282 --> 00:54:33,029
+Ouch.
+
+695
+00:54:39,817 --> 00:54:40,544
+Sorry.
+
+696
+00:54:43,512 --> 00:54:43,936
+Ow!
+
+697
+00:54:44,092 --> 00:54:46,761
+[WINCH WHIRRING]
+
+698
+00:54:50,412 --> 00:54:51,145
+Sorry.
+
+699
+00:54:54,595 --> 00:54:56,747
+[WINCH WHIRRING]
+
+700
+00:55:14,156 --> 00:55:16,297
+Thank you very much.
+Thank you.
+
+701
+00:55:17,882 --> 00:55:20,437
+[WINCH WHIRRING TO A STOP]
+
+702
+00:55:32,500 --> 00:55:34,820
+Ay-yi-yi-yi-yi...
+
+703
+00:55:37,402 --> 00:55:39,544
+yi-yi-yi-yi.
+
+704
+00:55:48,753 --> 00:55:49,379
+<i>That morning,</i>
+
+705
+00:55:49,379 --> 00:55:52,129
+<i>Xi saw the ugliest person
+he'd ever come across.</i>
+
+706
+00:55:53,791 --> 00:55:56,941
+<i>She was as pale as something
+that had crawled out of a rotting log.</i>
+
+707
+00:55:57,513 --> 00:55:58,978
+<i>Her hair was quite gruesome...</i>
+
+708
+00:55:59,225 --> 00:56:02,120
+<i>...long and stringy and white,
+as if she was very old.</i>
+
+709
+00:56:02,592 --> 00:56:03,722
+<i>She was very big.</i>
+
+710
+00:56:04,062 --> 00:56:06,796
+<i>You'd have to dig the whole day
+to find enough food to feed her.</i>
+
+711
+00:56:10,782 --> 00:56:11,494
+[GASPS]
+
+712
+00:56:14,718 --> 00:56:15,631
+Go away.
+
+713
+00:56:17,019 --> 00:56:18,964
+[SPEAKING SAN]
+
+714
+00:56:19,633 --> 00:56:20,780
+<i>Although it was a hot day,</i>
+
+715
+00:56:20,781 --> 00:56:22,709
+<i>she was covering
+her body with skins</i>
+
+716
+00:56:22,709 --> 00:56:24,742
+<i>that looked as if
+they were made from cobwebs.</i>
+
+717
+00:56:30,546 --> 00:56:33,224
+<i>She was doing strange
+and magical things,</i>
+
+718
+00:56:33,224 --> 00:56:35,426
+<i>and it struck him that
+she must be one of the gods.</i>
+
+719
+00:56:35,598 --> 00:56:37,834
+<i>And he wondered what she
+was doing down here on earth.</i>
+
+720
+00:56:38,347 --> 00:56:39,593
+<i>But he was glad he'd met her,</i>
+
+721
+00:56:39,593 --> 00:56:41,545
+<i>because now he could give
+the evil thing back to her</i>
+
+722
+00:56:41,545 --> 00:56:42,708
+<i>and go home to his family.</i>
+
+723
+00:56:43,493 --> 00:56:44,548
+<i>So he said, tactfully,</i>
+
+724
+00:56:44,548 --> 00:56:45,937
+<i>that he didn't need
+the thing anymore</i>
+
+725
+00:56:45,937 --> 00:56:47,102
+<i>and she could have it back.</i>
+
+726
+00:56:47,926 --> 00:56:49,795
+<i>But she was very rude,
+and she walked away.</i>
+
+727
+00:56:49,795 --> 00:56:51,618
+[XI SPEAKING SAN]
+
+728
+00:56:56,272 --> 00:56:58,256
+That's a Bushman.
+How did he get here?
+
+729
+00:56:58,256 --> 00:56:59,777
+I don't know.
+He's very rude.
+
+730
+00:56:59,928 --> 00:57:02,523
+<i>There was another god.
+He had a fire inside him</i>
+
+731
+00:57:02,523 --> 00:57:04,780
+<i>and the smoke came out
+through his mouth and nostrils.</i>
+
+732
+00:57:05,714 --> 00:57:06,729
+<i>Xi said politely,</i>
+
+733
+00:57:06,865 --> 00:57:08,827
+<i>"It was very kind of you
+to send us this thing,</i>
+
+734
+00:57:08,827 --> 00:57:11,775
+<i>"but it made my family unhappy.
+Please take it back."</i>
+
+735
+00:57:12,089 --> 00:57:13,397
+Sorry, no sabe.
+
+736
+00:57:15,371 --> 00:57:16,288
+Where's the truck?
+
+737
+00:57:30,982 --> 00:57:32,359
+I'll try and get it down.
+
+738
+00:57:33,783 --> 00:57:37,884
+<i>There was a peculiar sound, and then
+Xi saw a most amazing animal approaching.</i>
+
+739
+00:57:38,288 --> 00:57:40,786
+<i>Its legs went round and round
+instead of up and down,</i>
+
+740
+00:57:41,152 --> 00:57:43,250
+<i>and there was a weird-looking
+god on its back.</i>
+
+741
+00:57:43,779 --> 00:57:46,498
+<i>He wore a blue skin on his head
+and a red one on his body</i>
+
+742
+00:57:46,715 --> 00:57:48,462
+<i>and hair grew on his face.</i>
+
+743
+00:57:48,871 --> 00:57:50,713
+What the hell happened?
+Where have you been?
+
+744
+00:57:50,813 --> 00:57:52,286
+The Reverend
+is sure you've left.
+
+745
+00:57:52,752 --> 00:57:55,280
+<i>The funny thing about these gods
+was that they couldn't speak.</i>
+
+746
+00:57:55,282 --> 00:57:57,436
+<i>They could only make
+chattering sounds, like monkeys.</i>
+
+747
+00:57:57,436 --> 00:57:57,877
+Hi.
+
+748
+00:57:57,877 --> 00:58:00,049
+What happened, man?
+Where's the Antichrist?
+
+749
+00:58:04,445 --> 00:58:07,328
+What the hell
+did you do that for, huh?
+
+750
+00:58:08,200 --> 00:58:09,943
+I'll tell you later.
+Let's get it down.
+
+751
+00:58:10,935 --> 00:58:13,500
+And the little Bushman?
+What's he doing in these parts?
+
+752
+00:58:14,143 --> 00:58:15,743
+I don't know. He was trying
+to tell me something.
+
+753
+00:58:16,533 --> 00:58:18,787
+[SPEAKING SAN]
+
+754
+00:58:19,302 --> 00:58:21,170
+- You speak Bushman?
+- Yeah.
+
+755
+00:58:22,205 --> 00:58:24,960
+[SPEAKING SAN]
+
+756
+00:58:25,060 --> 00:58:26,293
+<i>The hairy one could speak.</i>
+
+757
+00:58:27,158 --> 00:58:29,299
+[SPEAKING SAN]
+
+758
+00:58:33,036 --> 00:58:34,434
+He says, "Thank you
+for the bottle,
+
+759
+00:58:34,434 --> 00:58:35,590
+but you can
+have it back now."
+
+760
+00:58:35,973 --> 00:58:37,064
+Oh, I didn't give it to him.
+
+761
+00:58:38,142 --> 00:58:39,609
+Well, he don't want the bottle.
+
+762
+00:58:40,065 --> 00:58:41,240
+Then he'd better
+throw it away.
+
+763
+00:58:43,054 --> 00:58:45,159
+The hairy one said,
+"We don't want the thing.
+
+764
+00:58:45,226 --> 00:58:46,709
+You'll have to
+throw it away yourself."
+
+765
+00:58:48,027 --> 00:58:49,521
+<i>Xi was very disappointed.</i>
+
+766
+00:58:50,002 --> 00:58:51,428
+<i>He thought
+it was unfair of the gods</i>
+
+767
+00:58:51,428 --> 00:58:53,119
+<i>to make him
+throw the thing off the earth.</i>
+
+768
+00:58:53,490 --> 00:58:56,325
+<i>In fact, he began to doubt
+whether they really were gods.</i>
+
+769
+00:59:07,713 --> 00:59:09,452
+[COUGHING]
+
+770
+00:59:09,452 --> 00:59:11,353
+Get out. Get out.
+Get out!
+
+771
+00:59:11,594 --> 00:59:13,269
+Get in there.
+Get in there!
+
+772
+00:59:13,788 --> 00:59:14,713
+Move it, move it.
+
+773
+00:59:15,833 --> 00:59:17,416
+Let's go. Let's go.
+Let's go. Let's go!
+
+774
+00:59:17,502 --> 00:59:19,437
+[ENGINE SPUTTERING]
+
+775
+00:59:37,370 --> 00:59:39,505
+[ROCK MUSIC PLAYING]
+
+776
+00:59:46,478 --> 00:59:47,381
+Yes, yes, yes.
+
+777
+00:59:47,381 --> 00:59:49,930
+Here comes the great
+white hunter to the rescue.
+
+778
+00:59:50,007 --> 00:59:51,354
+Miss Thompson, I presume.
+
+779
+00:59:51,848 --> 00:59:52,739
+Hello, Steyn.
+
+780
+00:59:52,950 --> 00:59:55,137
+How would you like to travel
+in style for a change?
+
+781
+00:59:55,559 --> 00:59:56,445
+Yes, thank you.
+
+782
+00:59:59,102 --> 01:00:01,026
+How do you open this thing?
+With a can opener?
+
+783
+01:00:06,677 --> 01:00:08,315
+Quaint.
+My lady?
+
+784
+01:00:09,395 --> 01:00:11,309
+Well, thank you very much,
+Mr. Steyn, for--
+
+785
+01:00:11,445 --> 01:00:12,267
+Bye-bye, Steyn.
+
+786
+01:00:12,960 --> 01:00:13,916
+- Goodbye, Miss Thompson.
+- Goodbye.
+
+787
+01:00:14,338 --> 01:00:15,836
+By the way,
+I am Jack Hind.
+
+788
+01:00:16,257 --> 01:00:17,735
+Boy, is the Reverend worried.
+
+789
+01:00:18,044 --> 01:00:19,296
+He got to me
+on the short-wave,
+
+790
+01:00:19,296 --> 01:00:20,960
+so I offered to come
+and look for you,
+
+791
+01:00:20,960 --> 01:00:22,045
+and that was very sweet of me.
+
+792
+01:00:22,697 --> 01:00:23,739
+It sure was.
+
+793
+01:00:24,211 --> 01:00:25,274
+Would you like to sit
+over there?
+
+794
+01:00:25,455 --> 01:00:26,030
+Sure.
+
+795
+01:00:26,774 --> 01:00:27,931
+Oh, thank you, Mr. Steyn.
+
+796
+01:00:30,570 --> 01:00:32,238
+See you, Steyn.
+See you, Mpudi.
+
+797
+01:00:39,540 --> 01:00:41,393
+[ENGINE SPUTTERING]
+
+798
+01:01:07,743 --> 01:01:08,914
+I don't want to talk about it.
+
+799
+01:01:11,735 --> 01:01:13,846
+She thinks I'm a lunatic
+and I don't blame her.
+
+800
+01:01:14,906 --> 01:01:16,643
+You know, she asked me
+what do I do,
+
+801
+01:01:17,225 --> 01:01:18,836
+and I say I collect manure.
+
+802
+01:01:20,246 --> 01:01:22,781
+I don't tell her I analyze it
+for my doctoral thesis.
+
+803
+01:01:23,702 --> 01:01:25,764
+I bet you she thinks
+I shovel the stuff.
+
+804
+01:01:27,064 --> 01:01:28,699
+[POP MUSIC PLAYING]
+
+805
+01:01:29,682 --> 01:01:30,545
+Was it rough?
+
+806
+01:01:31,065 --> 01:01:32,615
+I'd rather not
+talk about it.
+
+807
+01:01:33,787 --> 01:01:34,639
+That rough?
+
+808
+01:01:35,573 --> 01:01:36,847
+Well, it won't
+be long now,
+
+809
+01:01:36,847 --> 01:01:38,197
+and your suffering will be over.
+
+810
+01:01:38,861 --> 01:01:40,123
+Only when
+you get to the Mission,
+
+811
+01:01:40,123 --> 01:01:41,117
+you'll have to stand there
+
+812
+01:01:41,117 --> 01:01:42,706
+and look beautiful
+for a few minutes
+
+813
+01:01:42,706 --> 01:01:44,966
+while the whole tribe
+sings their welcome song at you.
+
+814
+01:01:45,967 --> 01:01:49,162
+Then you can relax, have a bath,
+and a nice breakfast.
+
+815
+01:01:49,674 --> 01:01:52,366
+Is it true that when a rhino
+sees a fire, he stamps it out?
+
+816
+01:01:53,456 --> 01:01:56,135
+Where did you hear that one?
+Did Steyn tell you?
+
+817
+01:01:57,466 --> 01:01:59,252
+Now, why would he want to
+tell you a thing like that?
+
+818
+01:01:59,860 --> 01:02:01,426
+I'd rather not talk about it.
+
+819
+01:02:02,458 --> 01:02:04,158
+Here. This will put some
+hair on your chest.
+
+820
+01:02:04,158 --> 01:02:05,403
+That's all I need.
+
+821
+01:02:10,427 --> 01:02:11,278
+STEYN:
+She wouldn't believe me
+
+822
+01:02:11,278 --> 01:02:13,719
+about the warthog
+and the bloody rhinoceros.
+
+823
+01:02:13,963 --> 01:02:15,324
+MPUDI:
+What bloody rhinoceros?
+
+824
+01:02:15,324 --> 01:02:16,415
+I don't want
+to talk about it.
+
+825
+01:02:17,167 --> 01:02:18,812
+So how did this thing
+get up the tree?
+
+826
+01:02:20,036 --> 01:02:21,877
+She got stuck
+in a watape tree,
+
+827
+01:02:21,877 --> 01:02:22,919
+and I had to...
+
+828
+01:02:24,151 --> 01:02:26,148
+You know she's got flowers
+on her panties?
+
+829
+01:02:28,784 --> 01:02:30,553
+So that's how this thing
+got up the tree.
+
+830
+01:02:31,011 --> 01:02:31,833
+Yes.
+
+831
+01:02:34,284 --> 01:02:37,076
+[BELL CLANGING]
+
+832
+01:02:37,414 --> 01:02:39,469
+[SINGING IN SETSWANA]
+
+833
+01:03:13,285 --> 01:03:15,589
+Don't I wave or take a bow
+or something?
+
+834
+01:03:15,717 --> 01:03:16,509
+No.
+
+835
+01:03:34,928 --> 01:03:36,475
+<i>RADIO ANNOUNCER: Notorious
+Communist guerrilla leader</i>
+
+836
+01:03:36,475 --> 01:03:38,320
+<i>Sam Boga
+and his band of assassins</i>
+
+837
+01:03:38,610 --> 01:03:40,443
+<i>have crashed through the border
+into Botswana.</i>
+
+838
+01:03:41,025 --> 01:03:43,020
+<i>It is believed that they are
+heading for Mozambique.</i>
+
+839
+01:03:43,020 --> 01:03:45,528
+- Well, how many?
+- Not even 300.
+
+840
+01:03:46,168 --> 01:03:48,553
+I told you bastards,
+don't waste ammunition!
+
+841
+01:03:48,553 --> 01:03:50,340
+Now we can't even
+fight back anymore.
+
+842
+01:03:51,179 --> 01:03:52,369
+All of you switch your guns over
+
+843
+01:03:52,369 --> 01:03:53,868
+from automatic
+to single-fire.
+
+844
+01:03:56,163 --> 01:03:57,637
+<i>RADIO ANNOUNCER: Anyone
+who withholds information</i>
+
+845
+01:03:57,875 --> 01:03:59,677
+<i>which could lead to the capture
+of these criminals--</i>
+
+846
+01:03:59,684 --> 01:04:01,715
+That's automatic. That's single.
+
+847
+01:04:01,715 --> 01:04:03,441
+<i>However, citizens are warned</i>
+
+848
+01:04:03,441 --> 01:04:05,703
+<i>that Sam Boga is an
+extremely dangerous person,</i>
+
+849
+01:04:06,112 --> 01:04:07,939
+<i>and that he and his gang
+are well-armed,</i>
+
+850
+01:04:08,010 --> 01:04:09,133
+<i>so it'll be unwise--</i>
+
+851
+01:04:10,660 --> 01:04:12,171
+And why are you
+so beautiful?
+
+852
+01:04:12,627 --> 01:04:14,891
+I'm going to the school
+to give her these.
+
+853
+01:04:14,932 --> 01:04:16,218
+You gonna to
+look like that?
+
+854
+01:04:17,154 --> 01:04:18,706
+- Like what?
+- Like it's a funeral.
+
+855
+01:04:18,903 --> 01:04:21,023
+You've got to smile, man,
+and tell her she looks good.
+
+856
+01:04:21,699 --> 01:04:23,627
+How come suddenly
+you're an expert on women?
+
+857
+01:04:23,651 --> 01:04:25,735
+I got seven wives.
+How many you got?
+
+858
+01:04:26,114 --> 01:04:27,887
+So why aren't you at home
+with your seven wives?
+
+859
+01:04:28,229 --> 01:04:29,372
+I know how to marry them.
+
+860
+01:04:29,527 --> 01:04:31,065
+Nobody knows
+how to live with them.
+
+861
+01:04:31,764 --> 01:04:32,995
+So what did you
+marry them for?
+
+862
+01:04:33,849 --> 01:04:36,219
+MPUDI: Some day I have
+to tell you the facts of life.
+
+863
+01:04:43,660 --> 01:04:47,597
+"And yet we all agree
+that every plate we break
+
+864
+01:04:47,597 --> 01:04:49,927
+- [ENGINE APPROACHING]
+- was cracked by Mr. Nobody..."
+
+865
+01:04:52,573 --> 01:04:54,182
+[HORN HONKING]
+
+866
+01:04:59,589 --> 01:05:00,360
+[HONKING STOPS]
+
+867
+01:05:00,360 --> 01:05:02,641
+[CHILDREN CHATTERING
+AND LAUGHING]
+
+868
+01:05:11,199 --> 01:05:11,960
+[KNOCK ON DOOR]
+
+869
+01:05:12,474 --> 01:05:13,393
+Come in.
+
+870
+01:05:14,140 --> 01:05:17,215
+ALL:
+Good morning, Mr. Steyn.
+
+871
+01:05:18,389 --> 01:05:19,228
+Morning, class.
+
+872
+01:05:20,486 --> 01:05:21,992
+Good morning, Mr. Steyn.
+
+873
+01:05:23,117 --> 01:05:24,488
+I, uh, I brought--
+
+874
+01:05:24,561 --> 01:05:25,751
+[CHILDREN LAUGHING]
+
+875
+01:05:28,602 --> 01:05:29,477
+I'm sorry--
+
+876
+01:05:51,160 --> 01:05:52,487
+Please, just leave it.
+
+877
+01:05:55,483 --> 01:05:56,746
+I brought you your shoes.
+
+878
+01:06:03,043 --> 01:06:03,885
+[KNOCK ON DOOR]
+
+879
+01:06:05,106 --> 01:06:05,956
+Come in.
+
+880
+01:06:12,424 --> 01:06:13,330
+[KNOCK ON DOOR]
+
+881
+01:06:13,727 --> 01:06:14,539
+Come in.
+
+882
+01:06:18,398 --> 01:06:19,024
+Shoe.
+
+883
+01:06:19,138 --> 01:06:20,990
+[CHILDREN LAUGHING]
+
+884
+01:06:40,512 --> 01:06:42,015
+You don't want to talk
+about it, huh?
+
+885
+01:06:45,934 --> 01:06:46,951
+Shame.
+
+886
+01:06:47,883 --> 01:06:49,440
+[FLUTE PLAYING MELODY]
+
+887
+01:06:49,440 --> 01:06:51,098
+[GOATS BLEATING]
+
+888
+01:07:02,795 --> 01:07:04,609
+<i>There were some
+ridiculous-looking animals,</i>
+
+889
+01:07:04,609 --> 01:07:06,652
+<i>but they looked good to eat
+and he was hungry.</i>
+
+890
+01:07:34,230 --> 01:07:35,185
+[BLEATING]
+
+891
+01:07:38,828 --> 01:07:39,934
+[YELLING]
+
+892
+01:07:39,934 --> 01:07:42,629
+<i>Suddenly, a young boy
+made chattering noises at Xi,</i>
+
+893
+01:07:43,130 --> 01:07:45,835
+<i>so he greeted him and said,
+"I shot one of those animals.</i>
+
+894
+01:07:45,946 --> 01:07:48,003
+<i>It'll go to sleep soon,
+and then we can eat it."</i>
+
+895
+01:07:48,024 --> 01:07:50,137
+[SPEAKING IN SETSWANA]
+
+896
+01:07:50,137 --> 01:07:51,348
+<i>But the boy ran away,</i>
+
+897
+01:07:51,512 --> 01:07:53,603
+<i>maybe to call his family
+to join in the feast.</i>
+
+898
+01:08:16,468 --> 01:08:17,652
+<i>There was a weird sound,</i>
+
+899
+01:08:17,745 --> 01:08:19,285
+<i>and another of those
+strange animals</i>
+
+900
+01:08:19,334 --> 01:08:21,003
+<i>with the round legs appeared.</i>
+
+901
+01:08:25,401 --> 01:08:27,297
+<i>The young boy and a grownup
+got out of it,</i>
+
+902
+01:08:27,495 --> 01:08:28,879
+<i>and they seemed very excited.</i>
+
+903
+01:08:29,285 --> 01:08:31,608
+<i>Xi said, "Come, sit down.
+There's enough meat for all of us."</i>
+
+904
+01:08:33,799 --> 01:08:36,962
+[SPEAKING IN SETSWANA]
+
+905
+01:08:37,273 --> 01:08:38,995
+<i>But the man
+was rude and greedy.</i>
+
+906
+01:08:39,113 --> 01:08:40,325
+<i>He took the whole animal.</i>
+
+907
+01:08:43,795 --> 01:08:45,864
+<i>Xi said,
+"You have very bad manners.</i>
+
+908
+01:08:45,905 --> 01:08:46,867
+<i>"If you want to eat
+the whole thing,</i>
+
+909
+01:08:46,867 --> 01:08:48,696
+<i>I'll have to shoot another one
+for myself."</i>
+
+910
+01:08:49,387 --> 01:08:50,279
+[SPEAKING IN SETSWANA]
+
+911
+01:08:53,314 --> 01:08:54,536
+<i>The man shouted at him,</i>
+
+912
+01:08:54,536 --> 01:08:55,938
+<i>but he didn't want
+to have anything to do</i>
+
+913
+01:08:55,938 --> 01:08:58,438
+<i>with such an uncouth person,
+so he ignored him.</i>
+
+914
+01:09:00,536 --> 01:09:02,081
+<i>Suddenly,
+there was a thunderclap.</i>
+
+915
+01:09:02,399 --> 01:09:04,586
+<i>The animals ran away,
+and Xi ran after them.</i>
+
+916
+01:09:04,725 --> 01:09:05,832
+<i>He was very hungry.</i>
+
+917
+01:09:06,435 --> 01:09:07,841
+[SHOUTING IN SETSWANA]
+
+918
+01:09:24,549 --> 01:09:25,611
+Do you speak English?
+
+919
+01:09:26,043 --> 01:09:27,212
+You are free
+to remain silent
+
+920
+01:09:27,212 --> 01:09:28,531
+until you have
+seen your lawyer,
+
+921
+01:09:29,556 --> 01:09:30,949
+but if you choose
+to speak now,
+
+922
+01:09:30,949 --> 01:09:32,700
+whatever you say
+will be taken down
+
+923
+01:09:32,700 --> 01:09:34,161
+as evidence against you.
+
+924
+01:09:50,925 --> 01:09:52,449
+And why are you
+so beautiful?
+
+925
+01:09:53,254 --> 01:09:54,533
+I got to go to court.
+
+926
+01:09:55,197 --> 01:09:56,026
+What did you do?
+
+927
+01:09:56,900 --> 01:09:58,372
+No. The cops
+were here.
+
+928
+01:09:58,529 --> 01:10:00,966
+They say they caught a little
+Bushman for stock theft.
+
+929
+01:10:01,833 --> 01:10:03,825
+They say all he can speak
+is "Xixo, xixo, xixo,"
+
+930
+01:10:03,825 --> 01:10:06,626
+- so they want me to interpret.
+- Call Xi now.
+
+931
+01:10:07,071 --> 01:10:07,837
+MAN:
+Xixo.
+
+932
+01:10:12,553 --> 01:10:13,987
+<i>They brought Xi
+into a place</i>
+
+933
+01:10:13,987 --> 01:10:15,317
+<i>where there were
+several people.</i>
+
+934
+01:10:15,728 --> 01:10:18,836
+<i>He smiled at them in greeting,
+but nobody smiled back.</i>
+
+935
+01:10:30,404 --> 01:10:31,305
+Interpreter.
+
+936
+01:10:39,502 --> 01:10:41,884
+You, Xixo,
+are hereby charged
+
+937
+01:10:41,884 --> 01:10:44,370
+with wrongfully and unlawfully
+slaughtering one goat
+
+938
+01:10:44,370 --> 01:10:48,523
+on the 21st of September, 1980,
+in Oniamatokwe.
+
+939
+01:10:48,523 --> 01:10:50,640
+How plead you?
+Guilty or not guilty?
+
+940
+01:10:51,889 --> 01:10:54,136
+<i>Mpudi found it very difficult
+to interpret,</i>
+
+941
+01:10:54,136 --> 01:10:56,778
+<i>because in his language
+there was no word for "guilty."</i>
+
+942
+01:10:56,778 --> 01:11:00,201
+[TRANSLATING TO SAN]
+
+943
+01:11:00,375 --> 01:11:02,560
+<i>Finally, he asked,
+"Did you shoot an animal?"</i>
+
+944
+01:11:03,843 --> 01:11:06,170
+<i>Xi said, "Yes, I did,
+but that man took it.</i>
+
+945
+01:11:06,170 --> 01:11:07,679
+<i>He did not want
+to share it with me."</i>
+
+946
+01:11:08,854 --> 01:11:10,212
+Well, what does he plead?
+
+947
+01:11:10,470 --> 01:11:11,606
+Not guilty.
+
+948
+01:11:12,233 --> 01:11:13,944
+They gave him
+the death sentence.
+
+949
+01:11:14,402 --> 01:11:16,208
+For killing a goat? No.
+
+950
+01:11:16,973 --> 01:11:18,923
+Three months in jail,
+same thing.
+
+951
+01:11:19,712 --> 01:11:21,134
+He gonna die for sure.
+
+952
+01:11:22,221 --> 01:11:23,870
+He never seen a wall
+in his life.
+
+953
+01:11:23,870 --> 01:11:25,391
+Now, he got walls
+all around him.
+
+954
+01:11:25,400 --> 01:11:26,592
+But didn't you
+explain to them?
+
+955
+01:11:27,831 --> 01:11:29,504
+They said,
+"Silence in court."
+
+956
+01:11:29,819 --> 01:11:31,141
+But surely
+they ought to know.
+
+957
+01:11:33,165 --> 01:11:34,477
+Nobody knows the Bushmen.
+
+958
+01:11:36,197 --> 01:11:38,353
+Nobody ever goes
+into the deep Kalahari.
+
+959
+01:11:38,997 --> 01:11:40,463
+How come you know
+so much about them?
+
+960
+01:11:41,840 --> 01:11:43,925
+Way back, when Botswana
+belonged to the British,
+
+961
+01:11:43,925 --> 01:11:46,310
+I hit a policeman
+because he insulted my father,
+
+962
+01:11:46,603 --> 01:11:48,992
+so I fled,
+right into the Kalahari.
+
+963
+01:11:49,924 --> 01:11:52,153
+I died, you know.
+Dehydration.
+
+964
+01:11:52,779 --> 01:11:54,444
+Some of those little buggers
+found me,
+
+965
+01:11:54,444 --> 01:11:55,346
+and they buried me.
+
+966
+01:11:55,663 --> 01:11:58,055
+Only my head stuck out,
+and for about two weeks,
+
+967
+01:11:58,055 --> 01:12:00,303
+they kept on pushing water
+and food into my mouth,
+
+968
+01:12:00,644 --> 01:12:02,621
+and when they dug me up,
+I was nearly white,
+
+969
+01:12:02,762 --> 01:12:03,923
+like you, yeah.
+
+970
+01:12:05,023 --> 01:12:06,663
+I lived with them
+for three years.
+
+971
+01:12:06,827 --> 01:12:08,494
+They're the sweetest
+little buggers.
+
+972
+01:12:09,524 --> 01:12:11,060
+He gonna die for sure.
+
+973
+01:12:17,352 --> 01:12:19,687
+[DOGS BARKING IN DISTANCE]
+
+974
+01:12:24,193 --> 01:12:26,103
+Can I go to Mahadi
+tomorrow?
+
+975
+01:12:27,097 --> 01:12:29,130
+You want to go and see
+little what's his name?
+
+976
+01:12:29,641 --> 01:12:30,964
+I want to get him out.
+
+977
+01:12:32,159 --> 01:12:33,644
+Now, don't do
+anything silly.
+
+978
+01:12:34,325 --> 01:12:35,593
+They got to
+let him out.
+
+979
+01:12:37,481 --> 01:12:39,155
+Maybe if we explain
+to them.
+
+980
+01:12:40,570 --> 01:12:41,732
+You coming too?
+
+981
+01:12:42,327 --> 01:12:43,092
+Yes.
+
+982
+01:12:46,573 --> 01:12:47,532
+[DOOR UNLOCKS]
+
+983
+01:12:55,661 --> 01:13:02,812
+[BOTH SPEAKING SAN]
+
+984
+01:13:04,127 --> 01:13:05,066
+Says he's sorry.
+
+985
+01:13:05,217 --> 01:13:06,755
+He try to eat the food
+tomorrow.
+
+986
+01:13:07,402 --> 01:13:09,534
+Has he eaten anything?
+It's been a week.
+
+987
+01:13:09,534 --> 01:13:10,192
+No.
+
+988
+01:13:14,236 --> 01:13:16,572
+Of course we're worried.
+We can't force-feed him.
+
+989
+01:13:16,792 --> 01:13:17,900
+STEYN: You've
+got to let him out.
+
+990
+01:13:18,112 --> 01:13:19,354
+He's got 11 weeks to go.
+
+991
+01:13:19,808 --> 01:13:20,882
+Well, is there no way?
+
+992
+01:13:20,986 --> 01:13:22,812
+Can't we buy him out
+or something?
+
+993
+01:13:23,762 --> 01:13:25,088
+Well, if somebody
+wants to employ him
+
+994
+01:13:25,088 --> 01:13:26,814
+as a convict-laborer,
+
+995
+01:13:27,325 --> 01:13:30,125
+but he has no experience,
+no qualifications.
+
+996
+01:13:30,171 --> 01:13:31,497
+MPUDI:
+He got qualifications.
+
+997
+01:13:31,648 --> 01:13:34,067
+He could teach you things
+about plants and animals.
+
+998
+01:13:35,324 --> 01:13:36,020
+Yes.
+
+999
+01:13:36,258 --> 01:13:38,786
+We want to employ him
+as an ecological expert.
+
+1000
+01:13:46,135 --> 01:13:48,589
+[SPEAKING SAN]
+
+1001
+01:13:48,589 --> 01:13:50,030
+He will have to remain
+in your employ
+
+1002
+01:13:50,030 --> 01:13:51,424
+for the full 11 weeks.
+
+1003
+01:13:51,755 --> 01:13:53,715
+If he leaves, we will
+have to hunt him down
+
+1004
+01:13:53,715 --> 01:13:55,251
+and lock him up
+for a very long time.
+
+1005
+01:13:55,251 --> 01:13:56,366
+Okay, thanks.
+
+1006
+01:13:59,949 --> 01:14:02,386
+[SPEAKING SAN]
+
+1007
+01:14:13,057 --> 01:14:14,635
+We can't put him inside.
+
+1008
+01:14:14,948 --> 01:14:15,831
+No, you're right.
+
+1009
+01:14:25,680 --> 01:14:29,374
+[SPEAKING SAN]
+
+1010
+01:14:42,227 --> 01:14:44,551
+[ROCK MUSIC PLAYS
+ON RADIO]
+
+1011
+01:14:44,551 --> 01:14:46,707
+[ANNOUNCER SPEAKING
+IN FOREIGN LANGUAGE]
+
+1012
+01:14:51,351 --> 01:14:55,012
+[SPEAKING SAN]
+
+1013
+01:15:01,038 --> 01:15:04,270
+I understand the words,
+but the meaning...
+
+1014
+01:15:04,875 --> 01:15:08,549
+Talks about a bad thing,
+uh, an evil thing,
+
+1015
+01:15:09,255 --> 01:15:11,492
+and about the end of the world.
+
+1016
+01:15:11,492 --> 01:15:13,522
+Well, explain to him
+he has to stay with us
+
+1017
+01:15:13,522 --> 01:15:15,461
+for the full 11 weeks.
+
+1018
+01:15:16,033 --> 01:15:17,575
+He doesn't know from weeks.
+
+1019
+01:15:17,588 --> 01:15:19,425
+All right. We'll tell him
+when it's okay to go.
+
+1020
+01:15:19,624 --> 01:15:21,115
+[VEHICLE APPROACHING]
+
+1021
+01:15:21,115 --> 01:15:23,376
+[POP MUSIC PLAYING]
+
+1022
+01:15:28,216 --> 01:15:30,618
+- Hello, Andrew, Mpudi.
+- Hello, Jack.
+
+1023
+01:15:30,618 --> 01:15:32,122
+I hear you've got a Bushman
+working for you.
+
+1024
+01:15:32,218 --> 01:15:34,105
+Is that him?
+Yeah, his name is Xi.
+
+1025
+01:15:35,219 --> 01:15:37,842
+- Are they good trackers?
+- Best in the world.
+
+1026
+01:15:38,410 --> 01:15:39,399
+Mind if I borrow him?
+
+1027
+01:15:39,399 --> 01:15:41,157
+One of my bloody guests
+wounded a kudu,
+
+1028
+01:15:41,157 --> 01:15:42,506
+and my trackers can't find it.
+
+1029
+01:15:49,364 --> 01:15:50,439
+This is where
+we lost him.
+
+1030
+01:15:50,885 --> 01:15:53,988
+[MPUDI SPEAKING SAN]
+
+1031
+01:16:05,838 --> 01:16:07,220
+[SPEAKING SAN]
+
+1032
+01:16:12,310 --> 01:16:14,012
+- You'll see, he'll find him.
+- Shh.
+
+1033
+01:16:14,918 --> 01:16:16,069
+[ROARING]
+
+1034
+01:16:28,299 --> 01:16:29,904
+Hey! Hey!
+Wait for us!
+
+1035
+01:16:44,899 --> 01:16:46,058
+Scram. Go away!
+
+1036
+01:16:47,244 --> 01:16:48,841
+Shoo. Shoo. Get!
+
+1037
+01:16:53,161 --> 01:16:54,215
+Go away.
+
+1038
+01:16:54,893 --> 01:16:56,937
+[SHOUTING]
+
+1039
+01:17:01,202 --> 01:17:04,823
+[BOTH SPEAKING SAN]
+
+1040
+01:17:08,405 --> 01:17:10,466
+I'm sorry,
+I didn't realize--
+
+1041
+01:17:10,466 --> 01:17:11,810
+I don't want to talk about it.
+
+1042
+01:17:23,839 --> 01:17:24,891
+What do you want?
+
+1043
+01:17:26,607 --> 01:17:27,263
+Hurry up.
+
+1044
+01:17:27,458 --> 01:17:28,773
+Hurry up. Get them out.
+
+1045
+01:17:30,454 --> 01:17:32,423
+Come on. Come on. Get him.
+Hurry up, man.
+
+1046
+01:17:45,742 --> 01:17:47,291
+You can drop those guns.
+
+1047
+01:17:54,778 --> 01:17:56,500
+- [GRUNTS]
+- Bastard.
+
+1048
+01:17:57,356 --> 01:17:58,570
+Do you want me
+to let fly?
+
+1049
+01:18:02,691 --> 01:18:05,385
+Now get out,
+with your hands up.
+
+1050
+01:18:06,245 --> 01:18:08,074
+[SPEAKING SETSWANA]
+71051
+01:18:11,881 --> 01:18:13,340
+Bring out all the kids.
+
+1052
+01:18:17,559 --> 01:18:20,653
+Sergeant, I'm going to walk
+due East from here to Motambe,
+
+1053
+01:18:20,653 --> 01:18:22,902
+and I'm taking
+all these kids with me.
+
+1054
+01:18:23,330 --> 01:18:24,434
+If I see one truck
+
+1055
+01:18:24,606 --> 01:18:27,610
+or one airplane
+or one policeman or one soldier
+
+1056
+01:18:27,900 --> 01:18:31,132
+or one person,
+we'll mow these kids down.
+
+1057
+01:18:32,126 --> 01:18:33,514
+Have you got
+short-wave in there?
+
+1058
+01:18:33,676 --> 01:18:34,401
+Yes.
+
+1059
+01:18:34,917 --> 01:18:36,575
+Now get on to headquarters,
+
+1060
+01:18:36,831 --> 01:18:40,105
+and tell them I want
+a corridor 10 miles wide.
+
+1061
+01:18:40,464 --> 01:18:43,046
+The army and the police
+better clear out everybody,
+
+1062
+01:18:44,404 --> 01:18:47,482
+and they've got to put down
+food and water every 20 miles,
+
+1063
+01:18:47,633 --> 01:18:50,102
+and then get the hell out of the way
+before we get there.
+
+1064
+01:18:50,284 --> 01:18:51,175
+Tell them that.
+
+1065
+01:18:52,529 --> 01:18:53,364
+[SPEAKING SETSWANA]
+
+1066
+01:18:53,364 --> 01:18:54,871
+All right,
+get them into a circle.
+
+1067
+01:18:54,998 --> 01:18:56,548
+I want a big circle around me.
+
+1068
+01:18:57,201 --> 01:18:58,743
+You've got to leave
+the small ones here.
+
+1069
+01:18:58,826 --> 01:19:00,848
+It's miles and miles to Motambe.
+They'll never make it.
+
+1070
+01:19:00,848 --> 01:19:04,846
+[SPEAKING SETSWANA]
+
+1071
+01:19:05,224 --> 01:19:06,454
+Okay, now buzz off,
+
+1072
+01:19:06,454 --> 01:19:08,549
+and start clearing out
+the people from this end,
+
+1073
+01:19:08,549 --> 01:19:10,992
+because I want
+to start marching in two hours.
+
+1074
+01:19:15,330 --> 01:19:18,270
+And I warn you,
+you better clear out everybody.
+
+1075
+01:19:19,671 --> 01:19:21,140
+[ENGINE REVVING]
+
+1076
+01:19:23,030 --> 01:19:23,848
+MPUDI:
+Clutch!
+
+1077
+01:19:24,596 --> 01:19:26,596
+[SPEAKING SAN]
+
+1078
+01:19:29,913 --> 01:19:30,922
+Brake. Brake!
+
+1079
+01:19:32,711 --> 01:19:34,016
+Clutch. Clutch!
+
+1080
+01:19:39,021 --> 01:19:40,290
+I'm teaching him
+to drive,
+
+1081
+01:19:40,290 --> 01:19:41,548
+just for
+the hell of it.
+
+1082
+01:19:41,824 --> 01:19:43,726
+Nothing else to do
+around here anyhow.
+
+1083
+01:19:44,427 --> 01:19:45,952
+You still mooning
+about the schoolmarm?
+
+1084
+01:19:45,952 --> 01:19:47,172
+Mmmm. Sort of.
+
+1085
+01:19:47,685 --> 01:19:49,508
+I want to move up
+to Nioko for a few days,
+
+1086
+01:19:49,508 --> 01:19:50,814
+so we can do a game count.
+
+1087
+01:19:50,966 --> 01:19:53,488
+So how is this thing going
+to get us through the jungle?
+
+1088
+01:19:53,833 --> 01:19:54,784
+We strip it down.
+
+1089
+01:20:10,314 --> 01:20:12,247
+Come on, Xi.
+Come on!
+
+1090
+01:20:12,944 --> 01:20:15,691
+[SPEAKING SAN]
+
+1091
+01:20:17,073 --> 01:20:19,057
+Ha, ha, ha.
+He don't know from doors.
+
+1092
+01:20:24,442 --> 01:20:27,137
+[SPEAKING SETSWANA]
+
+1093
+01:20:33,204 --> 01:20:35,553
+[SPEAKING SETSWANA]
+
+1094
+01:20:55,990 --> 01:20:57,477
+Stop playing
+that bloody game.
+
+1095
+01:20:58,387 --> 01:21:00,423
+Okay, it's time.
+Let's go. Move them.
+
+1096
+01:21:00,787 --> 01:21:01,796
+Come on, everybody up.
+
+1097
+01:21:02,252 --> 01:21:04,085
+Come on, let's go.
+
+1098
+01:21:04,234 --> 01:21:05,085
+Keep them going.
+
+1099
+01:21:05,482 --> 01:21:07,029
+Keep them in a circle around me.
+
+1100
+01:21:07,350 --> 01:21:08,482
+Move them. Move them.
+
+1101
+01:21:08,729 --> 01:21:10,059
+Don't leave any stragglers.
+
+1102
+01:21:10,441 --> 01:21:12,296
+Keep your paws to yourself.
+You shut up, see?
+
+1103
+01:21:14,045 --> 01:21:16,267
+Get them into a circle.
+A circle, a circle!
+
+1104
+01:21:18,245 --> 01:21:19,411
+Stop yelling at them.
+
+1105
+01:21:19,656 --> 01:21:22,329
+That's not a bloody circle.
+Can't you do anything right?
+
+1106
+01:21:22,388 --> 01:21:23,897
+I can't get them into a circle.
+
+1107
+01:21:23,933 --> 01:21:25,699
+They keep on coming up
+in a square.
+
+1108
+01:21:25,873 --> 01:21:28,614
+All right, then, make it a square.
+Let them walk in a square.
+
+1109
+01:21:28,773 --> 01:21:30,691
+Keep them going.
+Don't let them straggle.
+
+1110
+01:21:33,000 --> 01:21:34,242
+Who says
+they'll come this way?
+
+1111
+01:21:35,563 --> 01:21:38,062
+He says he wants a corridor
+10 miles wide.
+
+1112
+01:21:39,071 --> 01:21:40,583
+Well, I'm sorry,
+ladies and gentlemen.
+
+1113
+01:21:40,583 --> 01:21:42,036
+We'll have to
+get out of the way for now
+
+1114
+01:21:42,036 --> 01:21:43,524
+until he passes this point.
+
+1115
+01:21:43,579 --> 01:21:44,983
+Where can I find Andrew Steyn?
+
+1116
+01:21:46,007 --> 01:21:47,294
+Yeah, you'd better
+warn him too.
+
+1117
+01:21:47,294 --> 01:21:48,748
+He's about five miles
+that-a-way.
+
+1118
+01:21:48,748 --> 01:21:51,524
+You turn right at the, uh--
+Damn it, I'll come and show you.
+
+1119
+01:21:53,499 --> 01:21:55,075
+Johnny, will you
+take them to Machadi?
+
+1120
+01:22:12,348 --> 01:22:13,256
+Tell them to sing.
+
+1121
+01:22:13,589 --> 01:22:15,295
+Come on, everybody.
+Sing, sing!
+
+1122
+01:22:15,958 --> 01:22:20,565
+[CHILDREN BEGIN SINGING]
+
+1123
+01:22:35,879 --> 01:22:39,216
+[PILOT SPEAKS SETSWANA]
+
+1124
+01:23:28,735 --> 01:23:32,840
+[CHILDREN SINGING]
+
+1125
+01:23:40,727 --> 01:23:41,615
+Wouldn't you know?
+
+1126
+01:23:41,615 --> 01:23:43,185
+Now where the hell
+do we find him?
+
+1127
+01:23:48,830 --> 01:23:49,967
+They left
+this morning.
+
+1128
+01:23:51,967 --> 01:23:52,643
+Come on!
+
+1129
+01:23:59,595 --> 01:24:01,730
+[MPUDI SPEAKING SAN]
+
+1130
+01:24:07,993 --> 01:24:11,725
+[CHILDREN SINGING]
+
+1131
+01:24:22,307 --> 01:24:23,153
+They went through.
+
+1132
+01:24:23,880 --> 01:24:25,655
+They're gonna meet up
+with Boga for sure.
+
+1133
+01:24:26,017 --> 01:24:27,516
+Is there
+a way around this?
+
+1134
+01:24:27,635 --> 01:24:28,720
+It's a hell
+of a long way.
+
+1135
+01:24:29,749 --> 01:24:30,624
+Well, let's go.
+
+1136
+01:24:45,109 --> 01:24:49,526
+[CHILDREN SINGING
+IN THE DISTANCE]
+
+1137
+01:25:03,431 --> 01:25:04,186
+Mpudi.
+
+1138
+01:25:23,742 --> 01:25:26,817
+One, two, three...
+
+1139
+01:25:27,368 --> 01:25:29,067
+four, five...
+
+1140
+01:25:29,180 --> 01:25:31,307
+six adult oryx.
+
+1141
+01:25:31,426 --> 01:25:34,403
+[SPEAKING SAN]
+
+1142
+01:25:35,635 --> 01:25:37,390
+He says there are people things
+down there.
+
+1143
+01:25:38,517 --> 01:25:40,343
+- Where?
+- Down there.
+
+1144
+01:25:51,478 --> 01:25:53,884
+Army truck.
+Unloading something.
+
+1145
+01:25:55,983 --> 01:25:57,378
+I wonder
+what they're up to.
+
+1146
+01:26:01,390 --> 01:26:03,969
+Looks like food.
+Cooking pots and stuff.
+
+1147
+01:26:05,098 --> 01:26:06,232
+Maybe it's a picnic.
+
+1148
+01:26:08,632 --> 01:26:10,405
+Funny.
+They're going away.
+
+1149
+01:26:13,067 --> 01:26:14,608
+They went away
+and just left their stuff.
+
+1150
+01:26:15,387 --> 01:26:16,311
+Yeah, funny.
+
+1151
+01:26:20,344 --> 01:26:21,155
+Oh, well.
+
+1152
+01:26:21,504 --> 01:26:23,862
+One, two, three,
+four, five, six...
+
+1153
+01:26:23,862 --> 01:26:27,511
+[SINGING]
+
+1154
+01:26:45,258 --> 01:26:46,728
+You've got to let them rest.
+
+1155
+01:26:47,207 --> 01:26:48,825
+The smaller ones can't keep up.
+
+1156
+01:26:50,069 --> 01:26:52,102
+They can rest when
+they get to the food.
+
+1157
+01:26:52,130 --> 01:26:54,905
+- You're driving them too hard.
+- It's a long way to Motambe.
+
+1158
+01:26:55,745 --> 01:26:57,182
+But you said 20 miles.
+
+1159
+01:26:57,182 --> 01:26:58,910
+They can't walk 20 miles
+without eating.
+
+1160
+01:26:58,910 --> 01:27:00,349
+Halt!
+
+1161
+01:27:05,898 --> 01:27:07,863
+[SOBBING]
+
+1162
+01:27:07,863 --> 01:27:09,304
+Look at that!
+
+1163
+01:27:10,075 --> 01:27:12,560
+I told you,
+stop playing that bloody game!
+
+1164
+01:27:18,927 --> 01:27:20,948
+You've got to let
+the little ones turn back.
+
+1165
+01:27:21,113 --> 01:27:22,749
+Nobody turns back.
+
+1166
+01:27:23,320 --> 01:27:25,976
+Next thing, everybody's
+gonna to get sore feet.
+
+1167
+01:27:26,912 --> 01:27:28,806
+Next one drops out,
+I shoot him!
+
+1168
+01:27:30,253 --> 01:27:31,740
+You, you, help her.
+
+1169
+01:27:32,005 --> 01:27:33,669
+If you got to carry her,
+carry her.
+
+1170
+01:27:34,414 --> 01:27:36,999
+If I catch you
+playing again, by God...
+
+1171
+01:27:38,392 --> 01:27:39,823
+March!
+
+1172
+01:27:40,166 --> 01:27:43,276
+They can't march 20 miles.
+They're not soldiers!
+
+1173
+01:27:43,308 --> 01:27:46,857
+If they want to eat,
+they'd better march 20 miles!
+
+1174
+01:27:47,323 --> 01:27:49,169
+Are you scared
+it'll spoil your image
+
+1175
+01:27:49,169 --> 01:27:51,487
+if you admit
+you made a mistake?
+
+1176
+01:27:54,177 --> 01:27:55,482
+Halt!
+
+1177
+01:28:03,355 --> 01:28:04,760
+You! Come here.
+
+1178
+01:28:11,327 --> 01:28:12,760
+See that hill over there?
+
+1179
+01:28:14,361 --> 01:28:16,328
+Go to the top
+and wave this thing
+
+1180
+01:28:16,328 --> 01:28:17,916
+until the army people
+see you.
+
+1181
+01:28:18,265 --> 01:28:19,666
+Then you go down to them,
+
+1182
+01:28:19,949 --> 01:28:24,034
+and tell them Sam Boga
+made a mistake.
+
+1183
+01:28:28,134 --> 01:28:30,863
+Now, I want them to leave food
+every 10 miles.
+
+1184
+01:28:31,261 --> 01:28:32,122
+Understand?
+
+1185
+01:28:32,610 --> 01:28:34,172
+- Yes.
+- Now, get going. Move!
+
+1186
+01:28:39,351 --> 01:28:40,963
+March!
+
+1187
+01:28:41,158 --> 01:28:45,054
+One ostrich, and
+four, five, six, seven--
+
+1188
+01:28:45,054 --> 01:28:47,375
+[SPEAKING SAN]
+
+1189
+01:28:57,322 --> 01:28:58,380
+A lot of children.
+
+1190
+01:28:58,499 --> 01:29:00,244
+The food must have been
+left there for them.
+
+1191
+01:29:00,781 --> 01:29:02,380
+Hey, what the hell?
+They've got guns.
+
+1192
+01:29:02,380 --> 01:29:03,136
+MPUDI:
+The kids?
+
+1193
+01:29:03,396 --> 01:29:05,051
+No. There are men down there
+with guns.
+
+1194
+01:29:05,593 --> 01:29:06,683
+It's no picnic.
+
+1195
+01:29:08,266 --> 01:29:09,867
+I think those kids are hostages.
+
+1196
+01:29:10,413 --> 01:29:12,175
+What was that on the news
+about Sam Boga?
+
+1197
+01:29:12,175 --> 01:29:12,860
+You reckon?
+
+1198
+01:29:12,996 --> 01:29:15,125
+[SPEAKING SAN]
+
+1199
+01:29:18,463 --> 01:29:20,169
+That man said
+I must go to the top,
+
+1200
+01:29:21,076 --> 01:29:22,365
+and I must wave
+my kanga.
+
+1201
+01:29:28,772 --> 01:29:30,880
+So Miss Kate said
+20 miles is too much.
+
+1202
+01:29:30,880 --> 01:29:31,802
+Is she down there?
+
+1203
+01:29:32,154 --> 01:29:32,816
+Yes.
+
+1204
+01:29:44,873 --> 01:29:46,265
+We'll have to immobilize them.
+
+1205
+01:29:47,743 --> 01:29:49,166
+Are Bushmen
+good stalkers?
+
+1206
+01:29:49,323 --> 01:29:50,347
+Best in the world.
+
+1207
+01:29:50,644 --> 01:29:51,818
+Let him
+have a look at them.
+
+1208
+01:29:52,083 --> 01:29:54,999
+[SPEAKING SAN]
+
+1209
+01:29:59,970 --> 01:30:01,009
+All right.
+
+1210
+01:30:01,229 --> 01:30:04,029
+Explain to him that the men
+with the guns are bad men
+
+1211
+01:30:04,151 --> 01:30:05,600
+and we have to
+put them to sleep.
+
+1212
+01:30:06,350 --> 01:30:09,480
+[MPUDI TRANSLATING
+FOR XI]
+
+1213
+01:30:09,852 --> 01:30:11,678
+[SPEAKING SAN]
+
+1214
+01:30:12,827 --> 01:30:15,094
+He want to know how did
+all those people get in there?
+
+1215
+01:30:15,429 --> 01:30:16,865
+No, no, they're not...
+
+1216
+01:30:19,182 --> 01:30:20,243
+You explain.
+
+1217
+01:30:20,624 --> 01:30:21,964
+One hour, then we move!
+
+1218
+01:30:22,893 --> 01:30:24,491
+I'm going to have a snooze.
+
+1219
+01:30:49,875 --> 01:30:51,385
+"Dear Miss Thompson,
+
+1220
+01:30:51,555 --> 01:30:55,031
+"Your abductors have been
+injected with an immobilizer.
+
+1221
+01:30:56,792 --> 01:30:59,071
+When they go to sleep,
+you must disarm them."
+
+1222
+01:31:00,831 --> 01:31:03,342
+Tell him he must give her the note
+only after he's shot all the men.
+
+1223
+01:31:04,372 --> 01:31:07,340
+[MPUDI TRANSLATING
+FOR XI]
+
+1224
+01:31:09,343 --> 01:31:10,108
+STEYN:
+And when he shoots,
+
+1225
+01:31:10,108 --> 01:31:11,998
+he must pull back on the thread
+very quickly
+
+1226
+01:31:11,998 --> 01:31:14,402
+so the man can think
+it was a horsefly
+
+1227
+01:31:14,402 --> 01:31:15,697
+or a wasp that stung him.
+
+1228
+01:31:16,095 --> 01:31:18,364
+[MPUDI TRANSLATING]
+
+1229
+01:31:25,237 --> 01:31:27,152
+Mm-hm. He's fast.
+It'll work.
+
+1230
+01:31:27,951 --> 01:31:29,500
+He must dip the needle
+each time.
+
+1231
+01:31:30,669 --> 01:31:33,572
+[BOTH SPEAKING SAN]
+
+1232
+01:32:05,851 --> 01:32:07,363
+MPUDI: I can't
+see the little bugger.
+
+1233
+01:32:08,621 --> 01:32:09,505
+Yeah, I see him.
+
+1234
+01:32:29,484 --> 01:32:30,451
+Now, look at that.
+
+1235
+01:32:31,845 --> 01:32:33,180
+MPUDI:
+Yeah, he's clever.
+
+1236
+01:32:43,931 --> 01:32:44,909
+Shh, shh, shh, shh.
+
+1237
+01:32:45,784 --> 01:32:47,002
+Shh, shh, shh, shh.
+
+1238
+01:32:47,268 --> 01:32:48,659
+Shh, shh, shh, shh.
+
+1239
+01:32:49,841 --> 01:32:50,948
+Shh, shh, shh, shh.
+
+1240
+01:33:06,303 --> 01:33:06,769
+[GRUNTS]
+
+1241
+01:33:08,664 --> 01:33:10,785
+Shh, shh, shh, shh.
+Shh, shh, shh, shh.
+
+1242
+01:33:10,785 --> 01:33:13,102
+Shh, shh, shh, shh.
+
+1243
+01:33:21,960 --> 01:33:22,583
+[GRUNTS]
+
+1244
+01:33:28,680 --> 01:33:29,402
+[GRUNTS]
+
+1245
+01:33:33,930 --> 01:33:35,937
+[GRUNTING]
+
+1246
+01:33:39,519 --> 01:33:40,932
+Nothing's happening
+down there.
+
+1247
+01:33:41,791 --> 01:33:42,993
+It takes time.
+
+1248
+01:33:45,981 --> 01:33:48,158
+[SPEAKING SAN]
+
+1249
+01:33:49,669 --> 01:33:50,640
+Who are you?
+
+1250
+01:33:50,897 --> 01:33:53,022
+[SPEAKING SAN]
+
+1251
+01:34:07,994 --> 01:34:11,074
+["ROCK-A-BYE BABY" PLAYS]
+
+1252
+01:34:34,729 --> 01:34:36,291
+You know,
+some of those guys are down.
+
+1253
+01:34:36,374 --> 01:34:38,027
+She's going to need help
+when they wake up.
+
+1254
+01:34:40,483 --> 01:34:43,369
+Hey, Charlie, wake up, man.
+You've got to wake up.
+
+1255
+01:34:44,189 --> 01:34:48,019
+Come on, you can't sleep now.
+Come on...
+
+1256
+01:34:50,481 --> 01:34:52,748
+[MUTTERS]
+
+1257
+01:34:56,332 --> 01:34:58,268
+[GRUNTS]
+
+1258
+01:35:08,631 --> 01:35:09,852
+[BOTH LAUGHING]
+
+1259
+01:35:09,852 --> 01:35:12,222
+[SPEAKING SAN]
+
+1260
+01:35:12,300 --> 01:35:13,586
+We need some rope
+to tie them up.
+
+1261
+01:35:13,586 --> 01:35:14,841
+- There's plenty in the Land Rover.
+- Okay.
+
+1262
+01:35:15,144 --> 01:35:17,450
+No, he can fetch it.
+I didn't teach him for nothing.
+
+1263
+01:35:17,450 --> 01:35:20,339
+[BOTH SPEAKING SAN]
+
+1264
+01:35:23,173 --> 01:35:24,667
+Says he don't understand
+the gears.
+
+1265
+01:35:24,930 --> 01:35:27,041
+[SPEAKING SAN]
+
+1266
+01:35:27,146 --> 01:35:28,930
+- Told him he can drive in any gear.
+- Okay, let's go!
+
+1267
+01:35:29,872 --> 01:35:31,324
+And you take that one.
+
+1268
+01:35:31,935 --> 01:35:34,056
+And you, that one.
+
+1269
+01:35:34,382 --> 01:35:35,139
+And I'll take--
+
+1270
+01:35:37,173 --> 01:35:38,795
+There's only six.
+There should be eight.
+
+1271
+01:35:48,824 --> 01:35:50,175
+Maybe they're asleep as well.
+
+1272
+01:35:50,267 --> 01:35:51,417
+I don't know.
+
+1273
+01:35:55,514 --> 01:35:56,265
+All right.
+
+1274
+01:35:57,639 --> 01:36:00,310
+I want you to circulate
+among the children.
+
+1275
+01:36:00,913 --> 01:36:01,701
+Quietly.
+
+1276
+01:36:02,203 --> 01:36:04,229
+And tell them
+that when we grab the guns,
+
+1277
+01:36:04,517 --> 01:36:07,263
+they must run very fast
+into that crevice behind us
+
+1278
+01:36:07,263 --> 01:36:08,155
+and take cover.
+
+1279
+01:36:08,328 --> 01:36:09,749
+Okay? Good.
+
+1280
+01:36:12,311 --> 01:36:16,037
+[WHISPERING]
+
+1281
+01:36:22,797 --> 01:36:23,515
+Ready?
+
+1282
+01:36:24,082 --> 01:36:24,839
+Go!
+
+1283
+01:36:28,544 --> 01:36:29,278
+[GUNSHOT]
+
+1284
+01:36:31,242 --> 01:36:32,268
+Come on!
+
+1285
+01:36:36,824 --> 01:36:38,960
+[CHILDREN SCREAMING]
+
+1286
+01:36:41,469 --> 01:36:42,994
+No! Get down, get down!
+
+1287
+01:36:44,446 --> 01:36:45,365
+And stay there!
+
+1288
+01:36:50,700 --> 01:36:52,607
+Get back! Get back!
+All of you!
+
+1289
+01:36:54,839 --> 01:36:56,665
+- Hey, watch it!
+- Sorry.
+
+1290
+01:37:08,389 --> 01:37:09,616
+We've got to
+outflank them.
+
+1291
+01:37:09,931 --> 01:37:11,721
+You go around.
+I'll keep you covered.
+
+1292
+01:37:34,580 --> 01:37:35,959
+Get back! Get back!
+
+1293
+01:37:36,146 --> 01:37:37,357
+[CHILDREN SHOUTING]
+
+1294
+01:37:37,357 --> 01:37:38,214
+Hurry up!
+
+1295
+01:37:45,603 --> 01:37:46,998
+Kate?
+
+1296
+01:37:51,377 --> 01:37:52,685
+- You okay?
+- Yep.
+
+1297
+01:37:52,803 --> 01:37:54,515
+- Who are they shooting at?
+- I don't know.
+
+1298
+01:37:59,316 --> 01:38:01,631
+Four, five, six.
+
+1299
+01:38:02,304 --> 01:38:03,278
+There are two missing.
+
+1300
+01:38:03,327 --> 01:38:04,735
+Yeah, this one here,
+
+1301
+01:38:04,735 --> 01:38:06,273
+and I heard some shots
+from over there.
+
+1302
+01:38:15,999 --> 01:38:16,817
+Look.
+
+1303
+01:38:23,124 --> 01:38:24,612
+[SHOUTING]
+
+1304
+01:38:33,050 --> 01:38:34,044
+Roll over.
+
+1305
+01:38:36,647 --> 01:38:37,537
+Mpudi, hold him.
+
+1306
+01:38:50,129 --> 01:38:53,032
+[ENGINE TURNS OVER]
+
+1307
+01:39:02,876 --> 01:39:04,753
+[SPEAKING SAN]
+
+1308
+01:39:51,920 --> 01:39:53,917
+[SHOUTING]
+
+1309
+01:40:05,197 --> 01:40:06,254
+What happened?
+
+1310
+01:40:07,355 --> 01:40:08,544
+Have you got water in there?
+
+1311
+01:40:09,687 --> 01:40:10,636
+Hold these for me.
+
+1312
+01:40:16,327 --> 01:40:17,002
+Get up.
+
+1313
+01:40:17,278 --> 01:40:18,266
+But what happened, man?
+
+1314
+01:40:19,232 --> 01:40:20,243
+Oh, it's a long story.
+
+1315
+01:40:21,438 --> 01:40:23,234
+What happened to those guys?
+Are they all dead?
+
+1316
+01:40:25,672 --> 01:40:26,472
+Did you kill them?
+
+1317
+01:40:27,431 --> 01:40:28,884
+They've been immobilized.
+They're sleeping.
+
+1318
+01:40:29,759 --> 01:40:31,024
+Where's Kate
+and the kids?
+
+1319
+01:40:31,821 --> 01:40:33,649
+They're hiding back there.
+They can come out now.
+
+1320
+01:40:34,635 --> 01:40:35,611
+Oh, my God.
+Mpudi.
+
+1321
+01:40:38,281 --> 01:40:39,372
+Keep that guy covered.
+
+1322
+01:40:45,523 --> 01:40:47,288
+[HORN HONKING]
+
+1323
+01:40:47,434 --> 01:40:50,705
+Kate! It's okay.
+You can come out now.
+
+1324
+01:40:50,870 --> 01:40:51,541
+[HORN HONKING]
+
+1325
+01:40:55,131 --> 01:40:57,423
+We've got everything
+under control. You can come out.
+
+1326
+01:40:57,622 --> 01:40:58,422
+Jack?
+
+1327
+01:40:58,733 --> 01:41:00,973
+Hi there.
+The marines have landed.
+
+1328
+01:41:01,163 --> 01:41:03,217
+It's okay.
+You can all come out now.
+
+1329
+01:41:04,562 --> 01:41:06,443
+All right,
+come on, come on.
+
+1330
+01:41:11,793 --> 01:41:13,428
+[SPEAKING SAN]
+
+1331
+01:41:22,956 --> 01:41:24,177
+You're safe now.
+
+1332
+01:41:24,551 --> 01:41:26,872
+Sergeant, you'd better collect
+those men before they wake up.
+
+1333
+01:41:26,994 --> 01:41:27,979
+You all right?
+
+1334
+01:41:28,612 --> 01:41:29,611
+Did you fix him good?
+
+1335
+01:41:29,837 --> 01:41:31,172
+Yeah, get up.
+
+1336
+01:41:33,667 --> 01:41:34,519
+Walk.
+
+1337
+01:41:37,186 --> 01:41:38,183
+Ay-yi-yi!
+
+1338
+01:41:44,657 --> 01:41:46,334
+Oh, you had
+a tough time, huh?
+
+1339
+01:41:47,703 --> 01:41:48,466
+Watch out!
+
+1340
+01:41:48,922 --> 01:41:50,280
+Stop fooling around, Steyn!
+
+1341
+01:41:51,810 --> 01:41:52,974
+I'm sorry.
+I'm sorry.
+
+1342
+01:42:03,076 --> 01:42:05,135
+Ay-yi-yi-yi-yi.
+
+1343
+01:42:10,870 --> 01:42:11,934
+I'm sorry.
+
+1344
+01:42:12,407 --> 01:42:14,259
+It's all right, Steyn.
+Move.
+
+1345
+01:42:23,822 --> 01:42:24,669
+Milady.
+
+1346
+01:42:27,600 --> 01:42:28,988
+Sergeant, you'd better
+get on the radio
+
+1347
+01:42:28,988 --> 01:42:30,802
+and organize some buses
+to take the kids home.
+
+1348
+01:42:31,953 --> 01:42:33,744
+How come suddenly
+he the big hero?
+
+1349
+01:42:34,619 --> 01:42:37,148
+Ay-yi. We'd better get back
+to our equipment.
+
+1350
+01:42:39,944 --> 01:42:42,541
+[SPEAKING SAN]
+
+1351
+01:42:49,220 --> 01:42:50,562
+Says thank you
+and goodbye
+
+1352
+01:42:50,562 --> 01:42:52,185
+and hopes you have
+lots of children.
+
+1353
+01:42:52,185 --> 01:42:53,684
+Tell him thank you.
+I'll miss him.
+
+1354
+01:42:53,879 --> 01:42:55,263
+He can't
+use that stuff.
+
+1355
+01:42:55,276 --> 01:42:57,317
+Well, I have to--
+Bushmen don't know about money.
+
+1356
+01:42:58,409 --> 01:42:59,416
+Well, what else
+can I give him?
+
+1357
+01:42:59,416 --> 01:43:00,893
+There's nothing here
+he can use.
+
+1358
+01:43:01,278 --> 01:43:02,350
+Bushmen don't need things.
+
+1359
+01:43:02,500 --> 01:43:04,123
+He's got to take the money.
+It's the law.
+
+1360
+01:43:04,752 --> 01:43:06,286
+[SPEAKING SAN]
+
+1361
+01:43:09,299 --> 01:43:11,594
+[SPEAKING SAN]
+
+1362
+01:43:12,446 --> 01:43:14,555
+He's going the wrong way.
+The Kalahari's that way.
+
+1363
+01:43:14,555 --> 01:43:18,579
+[SPEAKING SAN]
+
+1364
+01:43:18,581 --> 01:43:21,556
+Says he got to find the
+evil thing and get rid of it.
+
+1365
+01:43:21,794 --> 01:43:22,496
+I don't know.
+
+1366
+01:43:24,332 --> 01:43:25,934
+I'm going to miss
+the little bugger.
+
+1367
+01:43:26,055 --> 01:43:27,091
+Yeah. Me too.
+
+1368
+01:43:28,152 --> 01:43:29,784
+You gonna to look
+like that forever?
+
+1369
+01:43:30,233 --> 01:43:30,693
+Like what?
+
+1370
+01:43:30,735 --> 01:43:32,495
+Like Jack Hind
+is a better man than you.
+
+1371
+01:43:32,808 --> 01:43:33,891
+No, I'm going
+to talk to her.
+
+1372
+01:43:33,945 --> 01:43:35,441
+Yeah, tell her you were
+the big hero.
+
+1373
+01:43:36,076 --> 01:43:37,214
+No, I can't do that.
+
+1374
+01:43:38,369 --> 01:43:39,535
+But I do want to talk to her.
+
+1375
+01:43:40,548 --> 01:43:41,570
+I'll tell her...
+
+1376
+01:43:42,779 --> 01:43:45,389
+I'll say,
+"Look, Miss Thompson...
+
+1377
+01:43:46,068 --> 01:43:47,588
+...I know you think I'm an idiot...
+
+1378
+01:43:48,161 --> 01:43:49,804
+...but normally, I'm quite normal.
+
+1379
+01:43:50,429 --> 01:43:52,883
+It's only when I'm in the presence
+of a lady that I, uh...
+
+1380
+01:43:53,810 --> 01:43:56,772
+Well, it's really just an interesting
+psychological phenomenon.
+
+1381
+01:43:57,476 --> 01:43:59,731
+If a man who is susceptible
+to a type of
+
+1382
+01:43:59,958 --> 01:44:01,686
+para-Freudian syndrome like this...
+
+1383
+01:44:01,939 --> 01:44:04,515
+encounters a nubile female,
+what happens?"
+
+1384
+01:44:05,224 --> 01:44:07,262
+I suppose another
+big word happens.
+
+1385
+01:44:08,363 --> 01:44:11,035
+- Too erudite, huh?
+- Yeah, whatever that means.
+
+1386
+01:44:11,299 --> 01:44:14,092
+Okay. I'll put it more simply.
+I'll say:
+
+1387
+01:44:15,296 --> 01:44:16,722
+"Look, Miss Thompson...
+
+1388
+01:44:17,900 --> 01:44:20,379
+Kate. Kate.
+
+1389
+01:44:20,379 --> 01:44:23,862
+It's really only an interesting
+psychological phenomenon."
+
+1390
+01:44:24,276 --> 01:44:26,517
+She'll understand that bit.
+She's a schoolteacher.
+
+1391
+01:44:27,418 --> 01:44:30,126
+I'll say,
+"When there's no lady present,
+
+1392
+01:44:30,126 --> 01:44:32,460
+I can catch the tiniest insect
+without hurting it."
+
+1393
+01:44:32,460 --> 01:44:33,598
+If she gets to know me better,
+
+1394
+01:44:33,598 --> 01:44:35,557
+she'll see
+I'm not such a stumblebum.
+
+1395
+01:44:35,757 --> 01:44:37,959
+All I need is a little practice.
+If I could just--
+
+1396
+01:44:38,246 --> 01:44:40,344
+Wait for me.
+You need some moral support.
+
+1397
+01:45:01,713 --> 01:45:02,638
+There she is.
+
+1398
+01:45:07,278 --> 01:45:09,417
+You better do your thing
+before the pupils come.
+
+1399
+01:45:10,596 --> 01:45:11,247
+Yeah.
+
+1400
+01:45:18,271 --> 01:45:18,941
+Morning.
+
+1401
+01:45:20,907 --> 01:45:22,291
+Morning,
+Miss Thompson.
+
+1402
+01:45:23,014 --> 01:45:23,718
+Morning.
+
+1403
+01:45:24,474 --> 01:45:26,962
+- How are you?
+- Fine, thanks. How are you?
+
+1404
+01:45:27,082 --> 01:45:28,352
+Fine, thanks,
+and how are you?
+
+1405
+01:45:28,548 --> 01:45:29,683
+[GROANS]
+
+1406
+01:45:29,932 --> 01:45:31,310
+I'm fine, thank you.
+
+1407
+01:45:33,897 --> 01:45:35,710
+Uh, Kate...
+
+1408
+01:45:36,620 --> 01:45:38,204
+...I know you think I'm an idiot...
+
+1409
+01:45:39,232 --> 01:45:41,549
+...but I'm not really like that.
+It's...
+
+1410
+01:45:42,118 --> 01:45:43,762
+only when I'm around wom--
+
+1411
+01:45:45,212 --> 01:45:47,207
+Around you.
+I'm sorry.
+
+1412
+01:45:48,322 --> 01:45:50,139
+Normally, I'm quite normal.
+
+1413
+01:45:50,779 --> 01:45:53,425
+But whenever
+I'm in the presence of a lady...
+
+1414
+01:45:53,425 --> 01:45:58,846
+...my fingers turn into thumbs,
+my brain switches off.
+
+1415
+01:45:59,307 --> 01:46:00,124
+Watch it!
+
+1416
+01:46:05,495 --> 01:46:06,359
+It's flour.
+
+1417
+01:46:07,128 --> 01:46:08,245
+I noticed.
+
+1418
+01:46:09,037 --> 01:46:10,128
+It's actually--
+
+1419
+01:46:15,396 --> 01:46:19,440
+Actually, it's really only an interesting
+psychological phenomenon.
+
+1420
+01:46:20,169 --> 01:46:22,148
+Perhaps it's some
+Freudian syndrome.
+
+1421
+01:46:23,719 --> 01:46:25,216
+That day,
+when I brought you your shoes,
+
+1422
+01:46:25,216 --> 01:46:26,927
+I actually came to apologize
+
+1423
+01:46:26,927 --> 01:46:29,463
+for the stupid things I did
+when I met you at Mabula
+
+1424
+01:46:29,463 --> 01:46:30,542
+and I wanted to explain that
+
+1425
+01:46:30,542 --> 01:46:31,945
+I'm not really
+as stupid as that,
+
+1426
+01:46:32,934 --> 01:46:34,447
+but then, of course,
+I blew it, and I...
+
+1427
+01:46:35,413 --> 01:46:37,357
+- So I don't blame you if you think...
+- [KATE GIGGLING]
+
+1428
+01:46:38,553 --> 01:46:40,813
+But it's really only
+an interesting psychological...
+
+1429
+01:46:41,125 --> 01:46:42,419
+[KATE GIGGLING]
+
+1430
+01:46:43,364 --> 01:46:45,033
+When you get to know me better,
+you'll see
+
+1431
+01:46:45,033 --> 01:46:46,525
+that I'm not always stumbling.
+
+1432
+01:46:51,070 --> 01:46:52,854
+[LAUGHING]
+
+1433
+01:46:55,256 --> 01:46:58,569
+It's really just an interesting
+psychological phenomenon.
+
+1434
+01:46:58,740 --> 01:47:02,312
+Yes, you are a very interesting
+psychological phenomenon,
+
+1435
+01:47:02,548 --> 01:47:04,186
+and I think you're very sweet.
+
+1436
+01:47:16,611 --> 01:47:18,850
+Ay-yi-yi-yi-yi.
+
+1437
+01:47:34,884 --> 01:47:37,721
+<i>Xi was beginning to think he would
+never find the end of the earth.</i>
+
+1438
+01:47:37,975 --> 01:47:40,135
+<i>And one day, suddenly,
+there it was.</i>
