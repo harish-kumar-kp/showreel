@@ -105,7 +105,7 @@
       title: "Elephants Dream -Short",
       src: "https://video.blender.org/download/web-videos/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5-720.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5.jpg",
-	  subtitle: "https://www.opensubtitles.org/en/download/nfo/7248490/elephants.dream.2006.720p.bluray.x264-bipolar.srt"	   
+	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/elephants.dream.2006.720p.bluray.x264-bipolar.srt"	   
     },
     {
       title: "Tears of Steel -Short",
