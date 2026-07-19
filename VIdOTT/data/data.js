@@ -161,7 +161,7 @@
       title: "Dunston Checks In 1996",
       src: "https://dn721901.ca.archive.org/0/items/Popcornarchive-dunstonChecksIn1996/Popcornarchive-dunstonChecksIn1996.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/318ccb307fe9021f36adf9cd36c520d04d0a64aa594088c66741a770549e2ff2.png",
-	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dunston.Checks.In.dk.srt"
+	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/Dunston Checks In 1996 1080p_eng_sdh.srt"
     },
     {
       title: "Lassie 2005",
