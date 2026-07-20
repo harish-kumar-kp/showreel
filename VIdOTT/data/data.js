@@ -110,12 +110,14 @@
     {
       title: "Tears of Steel -Short",
       src: "https://video.blender.org/object-storage/web_videos/8533ea43-4271-4a57-9694-e9d0b35e1aa1-800.mp4",
-      thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png"
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png",
+	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Tears.of.Steel.2012.BRRip.srt"
     },
      {
       title: "TearsOfSteel-4k -Short",
       src: "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/tears_of_steel_surround.webm",
-      thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png"
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png",
+	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Tears.of.Steel.2012.BRRip.srt"
     },
     {
       title: "Snow White and the Seven Dwarfs 1937",
