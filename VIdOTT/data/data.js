@@ -208,7 +208,19 @@
       thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg"
     },
     {
-      title: "Romancing-the-stone-1984",
+      title: "King Solomons Mines 1985",
+      src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2001%20-%20King%20Solomons%20Mines.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHzX_3cDkY_m9eXrzjd1EKGNoIwPqByUzcLcdrRaJKcA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/King.Solomons.Mines.1985.en.srt"
+    },
+    {
+      title: "Allan Quatermain The Lost City of Gold 1986",
+      src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2002%20-%20The%20Lost%20City%20of%20Gold.mp4",
+      thumb: "https://shatpod.com/movies/wp-content/uploads/Lost-City-Of-Gold-Movie-Poster-1987.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/AllanQuatermainAndtheLostCityofGold1986.srt"
+    },
+    {
+      title: "Romancing the stone 1984",
       src: "https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg",
 	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/RomancingtheStone(1984).srt"
@@ -224,7 +236,6 @@
       src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
       thumb: "https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg"
     },
-
     {
       title: "Where Eagles Dare",
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
