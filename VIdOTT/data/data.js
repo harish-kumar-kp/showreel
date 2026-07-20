@@ -208,12 +208,14 @@
     {
       title: "Romancing-the-stone-1984",
       src: "https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4",
-      thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg"
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg",
+	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/RomancingtheStone(1984).srt"
     },
     {
       title: "The. Jewel Of The Nile 1985",
       src: "https://archive.org/download/s-the.-jewel.-of.-the.-nile.-1985/S-The.Jewel.Of.The.Nile.1985.mp4",
-      thumb: "https://image.tmdb.org/t/p/original/og5qj3KTctBLer1oktVbyIN5zrt.jpg"
+      thumb: "https://image.tmdb.org/t/p/original/og5qj3KTctBLer1oktVbyIN5zrt.jpg",
+	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheJewelof%20theNile(1985).srt"
     },
     {
       title: "The Pink Panther 1963",
@@ -224,7 +226,8 @@
     {
       title: "Where Eagles Dare",
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
-      thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg"
+      thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/whereEaglesDare.srt"
     },
     {
       title: "The Bridge on the River Kwai (1957)",
