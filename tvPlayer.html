@@ -228,6 +228,104 @@
     font-size: 0.75rem;
     margin: auto;
   }
+  .xray-btn {
+    background: #2a2a2a;
+    color: #aaa;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.68rem;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .xray-btn:hover { background: #383838; color: #eee; }
+  .xray-btn.on {
+    background: #2c5b8f;
+    border-color: #5da9ff;
+    color: #fff;
+  }
+  #xrayPanel {
+    position: absolute;
+    inset: 0;
+    /* Semi-transparent so the paused/playing video is still visible behind the info */
+    background: rgba(10,10,10,0.62);
+    backdrop-filter: blur(2px);
+    z-index: 9;
+    display: none;
+    flex-direction: column;
+    padding: 16px 18px;
+    overflow-y: auto;
+  }
+  #xrayPanel.open { display: flex; }
+  .xray-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+  .xray-header span {
+    color: #eee;
+    font-size: 0.85rem;
+  }
+  .xray-close {
+    background: rgba(255,255,255,0.1);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+  .xray-close:hover { background: rgba(255,255,255,0.2); }
+  .xray-body {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .xray-thumb {
+    width: 130px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  }
+  .xray-thumb img {
+    width: 100%;
+    display: block;
+  }
+  .xray-content {
+    flex: 1;
+    min-width: 0;
+  }
+  .xray-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .xray-extract {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: #e2e2e2;
+    white-space: pre-line;
+  }
+  .xray-attribution {
+    margin-top: 12px;
+    font-size: 0.68rem;
+    color: #9ab;
+  }
+  .xray-attribution a {
+    color: #5da9ff;
+    text-decoration: none;
+  }
+  .xray-attribution a:hover { text-decoration: underline; }
+  .xray-status {
+    color: #aaa;
+    font-size: 0.8rem;
+    margin: auto;
+  }
   #subtitleOverlay {
     position: absolute;
     left: 0;
@@ -463,16 +561,24 @@
           </div>
           <div class="scene-grid" id="sceneGrid"></div>
         </div>
+        <div id="xrayPanel">
+          <div class="xray-header">
+            <span>X-Ray</span>
+            <button class="xray-close" id="xrayCloseBtn">Close ✕</button>
+          </div>
+          <div id="xrayBody" class="xray-body"></div>
+        </div>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
           </span>
-	<span>&nbsp;&nbsp;</span>
+	<span>&nbsp;</span>
         <button class="scene-btn" id="sceneBtn" title="Scene selection">SCN</button>
+        <button class="xray-btn" id="xrayBtn" title="Movie info from Wikipedia">X-Ray</button>
         <span>&nbsp;</span>
-        <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>       
+        <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button> 
         <span>&nbsp;&nbsp;</span>	
         <span id="runtime"></span>
         <span>&nbsp;&nbsp;</span>
@@ -525,6 +631,10 @@
   const scenePanel = document.getElementById('scenePanel');
   const sceneGrid = document.getElementById('sceneGrid');
   const sceneCloseBtn = document.getElementById('sceneCloseBtn');
+  const xrayBtn = document.getElementById('xrayBtn');
+  const xrayPanel = document.getElementById('xrayPanel');
+  const xrayBody = document.getElementById('xrayBody');
+  const xrayCloseBtn = document.getElementById('xrayCloseBtn');
 
   // ---- Subtitles (.srt) — fail-proof loader ----
   let subtitleCues = [];      // [{start, end, text}]
@@ -706,14 +816,22 @@
     return interval;
   }
 
-  function buildSceneList(duration) {
+  function buildSceneList(duration, v) {
     sceneList = [];
+    // If the playlist entry supplies its own scene list (time + thumbnail URL
+    // pairs, e.g. pre-extracted with ffmpeg and hosted alongside the videos),
+    // use that directly — it's the only way to guarantee real thumbnails,
+    // since most video hosts don't send the CORS headers live capture needs.
+    if (v && Array.isArray(v.scenes) && v.scenes.length > 0) {
+      sceneList = v.scenes.map(s => ({ time: s.time, thumb: s.thumb || null }));
+      return;
+    }
     if (!duration || !isFinite(duration) || duration <= 0) return;
     const interval = pickSceneInterval(duration);
     for (let t = 0; t < duration; t += interval) {
-      sceneList.push({ time: t });
+      sceneList.push({ time: t, thumb: null });
     }
-    if (sceneList.length === 0) sceneList.push({ time: 0 });
+    if (sceneList.length === 0) sceneList.push({ time: 0, thumb: null });
   }
 
   function renderSceneGrid() {
@@ -725,8 +843,9 @@
     sceneList.forEach((scene, idx) => {
       const tile = document.createElement('div');
       tile.className = 'scene-tile';
+      const bg = scene.thumb ? ` style="background-image:url('${scene.thumb}')"` : '';
       tile.innerHTML = `
-        <div class="scene-thumb" id="sceneThumb${idx}">▶</div>
+        <div class="scene-thumb" id="sceneThumb${idx}"${bg}>${scene.thumb ? '' : '▶'}</div>
         <div class="scene-time">${formatSceneTime(scene.time)}</div>
       `;
       tile.addEventListener('click', () => {
@@ -743,9 +862,10 @@
     sceneBtn.classList.add('on');
     // (Re)build in case the duration wasn't known yet the first time the button was clicked.
     if (sceneList.length === 0 && video.duration) {
-      buildSceneList(video.duration);
+      buildSceneList(video.duration, videos[currentIndex]);
       renderSceneGrid();
     }
+    // Only attempt live capture for scenes that don't already have a real thumbnail.
     generateSceneThumbnails();
   }
   function closeScenePanel() {
@@ -758,10 +878,116 @@
   });
   sceneCloseBtn.addEventListener('click', closeScenePanel);
 
+  // ---- X-Ray: short movie info pulled live from Wikipedia's public REST API ----
+  // Wikipedia summaries are released under CC BY-SA and are explicitly meant for
+  // this kind of "info card" reuse; we always show a link back to the full
+  // article for attribution rather than displaying more than a short extract.
+  const xrayCache = {}; // videoIndex -> { title, extract, thumb, pageUrl } | 'unavailable'
+  let xrayToken = 0;
+
+  function cleanTitleForSearch(title) {
+    return title
+      .replace(/-Short\.?/gi, '')
+      .replace(/-Doc\.?/gi, '')
+      .replace(/^Making[- ]/i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  async function fetchWikipediaInfo(v) {
+    // An explicit `wiki` field (exact article title) always wins and skips the search step.
+    if (v.wiki) {
+      return fetchWikipediaSummary(v.wiki);
+    }
+    const query = cleanTitleForSearch(v.title);
+    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query + ' film')}&format=json&origin=*`;
+    const res = await fetchWithTimeout(searchUrl, 8000);
+    if (!res.ok) throw new Error('search HTTP ' + res.status);
+    const data = await res.json();
+    const hit = data && data.query && data.query.search && data.query.search[0];
+    if (!hit) throw new Error('no search results');
+    return fetchWikipediaSummary(hit.title);
+  }
+
+  async function fetchWikipediaSummary(pageTitle) {
+    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`;
+    const res = await fetchWithTimeout(url, 8000);
+    if (!res.ok) throw new Error('summary HTTP ' + res.status);
+    const data = await res.json();
+    if (!data.extract) throw new Error('no extract');
+    return {
+      title: data.title || pageTitle,
+      extract: data.extract,
+      thumb: (data.thumbnail && data.thumbnail.source) || (data.originalimage && data.originalimage.source) || null,
+      pageUrl: (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page)
+        || `https://en.wikipedia.org/wiki/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`
+    };
+  }
+
+  function renderXray(state) {
+    if (state === 'loading') {
+      xrayBody.innerHTML = '<div class="xray-status">Looking this up on Wikipedia…</div>';
+      return;
+    }
+    if (state === 'unavailable' || !state) {
+      xrayBody.innerHTML = '<div class="xray-status">No Wikipedia info found for this title.</div>';
+      return;
+    }
+    const thumbHtml = state.thumb
+      ? `<div class="xray-thumb"><img src="${state.thumb}" alt="${state.title}"></div>`
+      : '';
+    xrayBody.innerHTML = `
+      ${thumbHtml}
+      <div class="xray-content">
+        <div class="xray-title">${state.title}</div>
+        <div class="xray-extract">${state.extract}</div>
+        <div class="xray-attribution">Summary from <a href="${state.pageUrl}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA</div>
+      </div>
+    `;
+  }
+
+  async function loadXrayInfo() {
+    const idx = currentIndex;
+    if (idx < 0) return;
+    if (xrayCache[idx]) {
+      renderXray(xrayCache[idx] === 'unavailable' ? null : xrayCache[idx]);
+      return;
+    }
+    const token = ++xrayToken;
+    renderXray('loading');
+    try {
+      const info = await fetchWikipediaInfo(videos[idx]);
+      if (token !== xrayToken) return; // a different video was selected meanwhile
+      xrayCache[idx] = info;
+      renderXray(info);
+    } catch (err) {
+      console.warn('X-Ray lookup failed:', err);
+      if (token !== xrayToken) return;
+      xrayCache[idx] = 'unavailable';
+      renderXray(null);
+    }
+  }
+
+  function openXrayPanel() {
+    xrayPanel.classList.add('open');
+    xrayBtn.classList.add('on');
+    loadXrayInfo();
+  }
+  function closeXrayPanel() {
+    xrayPanel.classList.remove('open');
+    xrayBtn.classList.remove('on');
+  }
+  xrayBtn.addEventListener('click', () => {
+    if (xrayPanel.classList.contains('open')) closeXrayPanel();
+    else openXrayPanel();
+  });
+  xrayCloseBtn.addEventListener('click', closeXrayPanel);
+
   // Best-effort thumbnail capture: uses a hidden, muted clone of the current video
-  // to grab a frame at each scene's timestamp without disturbing playback. Many
-  // hosts don't send CORS headers for video, which taints the canvas — the moment
-  // that happens we stop trying and just leave the plain time-labeled tiles in place.
+  // to grab a frame at each scene's timestamp without disturbing playback. Only
+  // used for scenes that don't already have a pre-supplied `thumb` URL. Many video
+  // hosts don't send CORS headers, which taints the canvas — the moment that
+  // happens we stop trying and just leave the plain time-labeled tiles in place.
   function ensureHiddenCaptureVideo() {
     if (hiddenCaptureVideo) return hiddenCaptureVideo;
     const v = document.createElement('video');
@@ -776,6 +1002,8 @@
 
   async function generateSceneThumbnails() {
     if (!sceneThumbsUsable || sceneList.length === 0 || sceneThumbsGenerated) return;
+    // Nothing to capture if every scene already has a real, pre-supplied thumbnail.
+    if (sceneList.every(s => s.thumb)) return;
     sceneThumbsGenerated = true;
     const token = sceneToken;
     const src = videos[currentIndex] && videos[currentIndex].src;
@@ -792,6 +1020,7 @@
     for (let idx = 0; idx < sceneList.length; idx++) {
       if (token !== sceneToken) return; // a different video was selected meanwhile
       const scene = sceneList[idx];
+      if (scene.thumb) continue; // already has a real thumbnail, skip capture
       try {
         await new Promise((resolve, reject) => {
           const onSeeked = () => { cleanup(); resolve(); };
@@ -813,7 +1042,7 @@
           thumbEl.textContent = '';
         }
       } catch (err) {
-        console.warn('Scene thumbnail capture unavailable for this source, keeping time-only tiles:', err);
+        console.warn('Scene thumbnail capture unavailable for this source (likely no CORS headers on the video host), keeping time-only tiles:', err);
         sceneThumbsUsable = false;
         return;
       }
@@ -865,6 +1094,7 @@
     sceneList = [];
     closeScenePanel();
     renderSceneGrid();
+    closeXrayPanel();
   }
 
   function playNext() {
@@ -941,7 +1171,7 @@
 
   video.addEventListener('loadedmetadata', () => {
     if (sceneList.length === 0 && video.duration) {
-      buildSceneList(video.duration);
+      buildSceneList(video.duration, videos[currentIndex]);
       renderSceneGrid();
     }
   });
