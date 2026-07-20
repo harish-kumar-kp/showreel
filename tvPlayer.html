@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>kOTTe - Its My OTT </title>
 <style>
   * { box-sizing: border-box; }
@@ -12,14 +11,10 @@
     color: #eee;
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
   }
   .stage {
-    width: 100%;
-    height: 100dvh;
-    max-width: 1980px;
-    margin: 0 auto;
+    width: 978px;
+    height: 556px;
     display: flex;
     flex-direction: column;
     padding: 4px;
@@ -236,7 +231,7 @@
 
   /* RIGHT: scrollable thumbnail panel */
   .thumbs-col {
-    width: clamp(140px, 18vw, 200px);
+    width: 180px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -361,73 +356,6 @@
     justify-content: center;
     font-size: 0.5rem;
     color: #fff;
-  }
-
-  /* ---------- Responsive breakpoints ---------- */
-
-  /* Tablets / small laptops: shrink the thumbnail rail further */
-  @media (max-width: 900px) {
-    .thumbs-col { width: clamp(120px, 22vw, 160px); }
-    .thumb img { width: 52px; height: 32px; }
-    .thumb .label { font-size: 0.6rem; }
-  }
-
-  /* Phones & narrow windows: stack player above a horizontally
-     scrolling thumbnail strip instead of a side-by-side layout. */
-  @media (max-width: 640px) {
-    .stage { height: 100dvh; padding: 3px; }
-    .layout { flex-direction: column; gap: 6px; }
-
-    .player-col { flex: 1 1 auto; min-height: 0; }
-
-    .thumbs-col {
-      width: 100%;
-      flex: 0 0 auto;
-      height: 118px;
-      padding: 6px 8px;
-    }
-    .thumbs-col.hidden {
-      height: 0;
-      width: 100%;
-      padding: 0 8px;
-    }
-    .thumbs-title { margin-bottom: 5px; }
-    .thumbs {
-      flex-direction: row;
-      overflow-x: auto;
-      overflow-y: hidden;
-      gap: 6px;
-    }
-    .thumb {
-      flex-direction: column;
-      align-items: stretch;
-      width: 96px;
-      flex-shrink: 0;
-    }
-    .thumb img { width: 100%; height: 54px; }
-    .thumb .label {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      padding: 2px 5px;
-    }
-
-    /* Control bar: let it wrap onto multiple lines cleanly and
-       shrink text so everything stays reachable with a thumb. */
-    .now-playing { font-size: 0.7rem; gap: 6px; row-gap: 4px; }
-    #nowPlaying { flex-basis: 100%; order: 5; white-space: normal; }
-    .ctrl-btn { padding: 4px 9px; font-size: 0.78rem; }
-    .aspect-btn { padding: 4px 7px; font-size: 0.62rem; }
-    .subtitle-btn { padding: 4px 9px; }
-  }
-
-  /* Very narrow phones */
-  @media (max-width: 380px) {
-    .thumbs-col { height: 100px; }
-    .thumb { width: 84px; }
-    .thumb img { height: 46px; }
-    .aspect-controls { gap: 3px; }
-    .aspect-btn { padding: 3px 5px; font-size: 0.58rem; }
   }
 </style>
 </head>
