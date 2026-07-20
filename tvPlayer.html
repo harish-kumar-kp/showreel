@@ -140,6 +140,94 @@
     color: #a06060;
     cursor: not-allowed;
   }
+  .scene-btn {
+    background: #2a2a2a;
+    color: #aaa;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.68rem;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .scene-btn:hover { background: #383838; color: #eee; }
+  .scene-btn.on {
+    background: #2c5b8f;
+    border-color: #5da9ff;
+    color: #fff;
+  }
+  .scene-btn:disabled {
+    color: #666;
+    cursor: not-allowed;
+  }
+  #scenePanel {
+    position: absolute;
+    inset: 0;
+    background: rgba(10,10,10,0.92);
+    z-index: 8;
+    display: none;
+    flex-direction: column;
+    padding: 14px;
+    overflow-y: auto;
+  }
+  #scenePanel.open { display: flex; }
+  .scene-panel-title {
+    color: #eee;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .scene-panel-close {
+    background: #2a2a2a;
+    color: #eee;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+  .scene-panel-close:hover { background: #383838; }
+  .scene-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  .scene-tile {
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background: #222;
+    transition: border-color 0.15s;
+    position: relative;
+  }
+  .scene-tile:hover { border-color: #5da9ff; }
+  .scene-tile .scene-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000 center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #556;
+    font-size: 1.1rem;
+  }
+  .scene-tile .scene-time {
+    font-size: 0.68rem;
+    color: #ccc;
+    padding: 4px 6px;
+    background: #1b1b1b;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+  .scene-empty {
+    color: #888;
+    font-size: 0.75rem;
+    margin: auto;
+  }
   #subtitleOverlay {
     position: absolute;
     left: 0;
@@ -368,6 +456,13 @@
       <div class="player-wrap">
         <video id="video" controls controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
+        <div id="scenePanel">
+          <div class="scene-panel-title">
+            <span>Scene selection</span>
+            <button class="scene-panel-close" id="sceneCloseBtn">Close ✕</button>
+          </div>
+          <div class="scene-grid" id="sceneGrid"></div>
+        </div>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
@@ -375,7 +470,9 @@
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
           </span>
 	<span>&nbsp;&nbsp;</span>
-        <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
+        <button class="scene-btn" id="sceneBtn" title="Scene selection">SCN</button>
+        <span>&nbsp;</span>
+        <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>       
         <span>&nbsp;&nbsp;</span>	
         <span id="runtime"></span>
         <span>&nbsp;&nbsp;</span>
@@ -424,6 +521,10 @@
   const aspectBtns = aspectControls.querySelectorAll('.aspect-btn');
   const subtitleBtn = document.getElementById('subtitleBtn');
   const subtitleOverlay = document.getElementById('subtitleOverlay');
+  const sceneBtn = document.getElementById('sceneBtn');
+  const scenePanel = document.getElementById('scenePanel');
+  const sceneGrid = document.getElementById('sceneGrid');
+  const sceneCloseBtn = document.getElementById('sceneCloseBtn');
 
   // ---- Subtitles (.srt) — fail-proof loader ----
   let subtitleCues = [];      // [{start, end, text}]
@@ -577,6 +678,148 @@
 
   video.addEventListener('timeupdate', updateSubtitleDisplay);
 
+  // ---- Scene selection: regular-interval jump points across the whole title ----
+  let sceneList = [];             // [{time}]
+  let sceneToken = 0;             // guards against a stale build overwriting a newer video
+  let sceneThumbsUsable = true;   // flips false the first time canvas capture is blocked (CORS)
+  let sceneThumbsGenerated = false; // guards against starting a duplicate capture pass
+  let hiddenCaptureVideo = null;
+
+  function formatSceneTime(seconds) {
+    seconds = Math.max(0, Math.floor(seconds));
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = seconds % 60;
+    const mm = h > 0 ? m.toString().padStart(2, '0') : m;
+    const ss = s.toString().padStart(2, '0');
+    return h > 0 ? `${h}:${mm}:${ss}` : `${mm}:${ss}`;
+  }
+
+  function pickSceneInterval(duration) {
+    // Aim for a manageable number of tiles (roughly 8–20) regardless of runtime,
+    // snapped to a friendly interval so scene points fall on round-ish times.
+    const targetCount = 14;
+    const rawInterval = duration / targetCount;
+    const steps = [30, 60, 120, 180, 300, 420, 600, 900, 1200, 1800, 2700, 3600];
+    let interval = steps[steps.length - 1];
+    for (const s of steps) { if (rawInterval <= s) { interval = s; break; } }
+    return interval;
+  }
+
+  function buildSceneList(duration) {
+    sceneList = [];
+    if (!duration || !isFinite(duration) || duration <= 0) return;
+    const interval = pickSceneInterval(duration);
+    for (let t = 0; t < duration; t += interval) {
+      sceneList.push({ time: t });
+    }
+    if (sceneList.length === 0) sceneList.push({ time: 0 });
+  }
+
+  function renderSceneGrid() {
+    sceneGrid.innerHTML = '';
+    if (sceneList.length === 0) {
+      sceneGrid.innerHTML = '<div class="scene-empty">Scenes will appear once the video starts loading.</div>';
+      return;
+    }
+    sceneList.forEach((scene, idx) => {
+      const tile = document.createElement('div');
+      tile.className = 'scene-tile';
+      tile.innerHTML = `
+        <div class="scene-thumb" id="sceneThumb${idx}">▶</div>
+        <div class="scene-time">${formatSceneTime(scene.time)}</div>
+      `;
+      tile.addEventListener('click', () => {
+        video.currentTime = scene.time;
+        video.play().catch(() => {});
+        closeScenePanel();
+      });
+      sceneGrid.appendChild(tile);
+    });
+  }
+
+  function openScenePanel() {
+    scenePanel.classList.add('open');
+    sceneBtn.classList.add('on');
+    // (Re)build in case the duration wasn't known yet the first time the button was clicked.
+    if (sceneList.length === 0 && video.duration) {
+      buildSceneList(video.duration);
+      renderSceneGrid();
+    }
+    generateSceneThumbnails();
+  }
+  function closeScenePanel() {
+    scenePanel.classList.remove('open');
+    sceneBtn.classList.remove('on');
+  }
+  sceneBtn.addEventListener('click', () => {
+    if (scenePanel.classList.contains('open')) closeScenePanel();
+    else openScenePanel();
+  });
+  sceneCloseBtn.addEventListener('click', closeScenePanel);
+
+  // Best-effort thumbnail capture: uses a hidden, muted clone of the current video
+  // to grab a frame at each scene's timestamp without disturbing playback. Many
+  // hosts don't send CORS headers for video, which taints the canvas — the moment
+  // that happens we stop trying and just leave the plain time-labeled tiles in place.
+  function ensureHiddenCaptureVideo() {
+    if (hiddenCaptureVideo) return hiddenCaptureVideo;
+    const v = document.createElement('video');
+    v.crossOrigin = 'anonymous';
+    v.muted = true;
+    v.preload = 'metadata';
+    v.style.display = 'none';
+    document.body.appendChild(v);
+    hiddenCaptureVideo = v;
+    return v;
+  }
+
+  async function generateSceneThumbnails() {
+    if (!sceneThumbsUsable || sceneList.length === 0 || sceneThumbsGenerated) return;
+    sceneThumbsGenerated = true;
+    const token = sceneToken;
+    const src = videos[currentIndex] && videos[currentIndex].src;
+    if (!src) return;
+
+    const capture = ensureHiddenCaptureVideo();
+    capture.src = src;
+
+    const canvas = document.createElement('canvas');
+    canvas.width = 160;
+    canvas.height = 90;
+    const ctx = canvas.getContext('2d');
+
+    for (let idx = 0; idx < sceneList.length; idx++) {
+      if (token !== sceneToken) return; // a different video was selected meanwhile
+      const scene = sceneList[idx];
+      try {
+        await new Promise((resolve, reject) => {
+          const onSeeked = () => { cleanup(); resolve(); };
+          const onError = () => { cleanup(); reject(new Error('capture video error')); };
+          function cleanup() {
+            capture.removeEventListener('seeked', onSeeked);
+            capture.removeEventListener('error', onError);
+          }
+          capture.addEventListener('seeked', onSeeked, { once: true });
+          capture.addEventListener('error', onError, { once: true });
+          capture.currentTime = scene.time;
+        });
+        if (token !== sceneToken) return;
+        ctx.drawImage(capture, 0, 0, canvas.width, canvas.height);
+        const dataUrl = canvas.toDataURL('image/jpeg', 0.6); // throws if canvas is tainted
+        const thumbEl = document.getElementById(`sceneThumb${idx}`);
+        if (thumbEl) {
+          thumbEl.style.backgroundImage = `url(${dataUrl})`;
+          thumbEl.textContent = '';
+        }
+      } catch (err) {
+        console.warn('Scene thumbnail capture unavailable for this source, keeping time-only tiles:', err);
+        sceneThumbsUsable = false;
+        return;
+      }
+    }
+  }
+
   aspectBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       video.setAttribute('data-ratio', btn.dataset.ratio);
@@ -613,6 +856,15 @@
     runtimeEl.textContent = '0:00 / --:--';
     loadSubtitles(v.subtitle);
     if (!isRetry) videoRetried = false;
+
+    // Reset scene selection for the new title; the actual list is (re)built once
+    // duration is known, via the loadedmetadata listener below.
+    sceneToken++;
+    sceneThumbsUsable = true;
+    sceneThumbsGenerated = false;
+    sceneList = [];
+    closeScenePanel();
+    renderSceneGrid();
   }
 
   function playNext() {
@@ -686,6 +938,13 @@
   video.addEventListener('timeupdate', updateRuntime);
   video.addEventListener('loadedmetadata', updateRuntime);
   video.addEventListener('durationchange', updateRuntime);
+
+  video.addEventListener('loadedmetadata', () => {
+    if (sceneList.length === 0 && video.duration) {
+      buildSceneList(video.duration);
+      renderSceneGrid();
+    }
+  });
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
