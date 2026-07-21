@@ -394,33 +394,10 @@
     text-align: center;
     padding: 6px 2px;
   }
-
-  .info-overlay{position:absolute;inset:0;background:rgba(0,0,0,.72);backdrop-filter:blur(6px);display:none;z-index:20;padding:20px;color:#fff}
-  .info-overlay.show{display:flex}.info-card{display:flex;gap:20px;width:100%}.info-card img{width:220px;object-fit:contain;border-radius:8px}.info-body{overflow:auto}.close-info{position:absolute;top:10px;right:10px}
-
 </style>
 </head>
 <body>
-<script src="VIdOTT/data/data.js">
-const infoBtn=document.getElementById('infoBtn'),infoOverlay=document.getElementById('infoOverlay');
-const infoTitle=document.getElementById('infoTitle'),infoText=document.getElementById('infoText'),infoImage=document.getElementById('infoImage'),infoLink=document.getElementById('infoLink');
-document.getElementById('closeInfo').onclick=()=>infoOverlay.classList.remove('show');
-document.addEventListener('keydown',e=>{if(e.key==='Escape')infoOverlay.classList.remove('show');});
-infoBtn.onclick=async()=>{
- const t=(videos[currentIndex]?.title||'').replace(/\(.*?\)|\[.*?\]/g,'').trim();
- if(!t)return;
- infoOverlay.classList.add('show');infoTitle.textContent=t;infoText.textContent='Loading...';
- try{
- let s=await fetch('https://en.wikipedia.org/w/api.php?action=opensearch&search='+encodeURIComponent(t+' film')+'&limit=1&namespace=0&format=json&origin=*').then(r=>r.json());
- let page=s[1][0]||t;
- let d=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(page)).then(r=>r.json());
- infoTitle.textContent=d.title||t;infoText.textContent=d.extract||'No information.';
- infoLink.href=d.content_urls?.desktop?.page||'https://en.wikipedia.org/wiki/'+encodeURIComponent(page);
- if(d.thumbnail){infoImage.src=d.thumbnail.source;infoImage.style.display='block';}else infoImage.style.display='none';
- }catch(e){infoText.textContent='Unable to fetch information.';}
-};
-
-</script>
+<script src="VIdOTT/data/data.js"></script>
 <div class="stage">
   <div class="layout">
     <div class="player-col">
@@ -428,8 +405,6 @@ infoBtn.onclick=async()=>{
       <div class="player-wrap">
         <video id="video" controls controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
-<div id="infoOverlay" class="info-overlay"><button class="ctrl-btn close-info" id="closeInfo">✕</button><div class="info-card"><img id="infoImage"><div class="info-body"><h2 id="infoTitle"></h2><p id="infoText">Loading...</p><p><a id="infoLink" target="_blank" style="color:#7cf">Read more</a></p></div></div></div>
-
         <div id="scenePanel" class="scene-panel hidden"></div>
         <div class="now-playing">
 	<span class="custom-controls">
@@ -437,13 +412,12 @@ infoBtn.onclick=async()=>{
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
             <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
-            <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
           </span>
-	<span>&nbsp;</span>
+	<span>&nbsp;&nbsp;</span>
         <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
-        <span>&nbsp;</span>	
+        <span>&nbsp;&nbsp;</span>	
         <span id="runtime"></span>
-        <span>&nbsp;</span>
+        <span>&nbsp;&nbsp;</span>
 	<span class="aspect-controls" id="aspectControls">
             <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
             <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
@@ -825,25 +799,6 @@ infoBtn.onclick=async()=>{
     thumbsEl.appendChild(div);
     thumbEls.push(div);
   });
-
-const infoBtn=document.getElementById('infoBtn'),infoOverlay=document.getElementById('infoOverlay');
-const infoTitle=document.getElementById('infoTitle'),infoText=document.getElementById('infoText'),infoImage=document.getElementById('infoImage'),infoLink=document.getElementById('infoLink');
-document.getElementById('closeInfo').onclick=()=>infoOverlay.classList.remove('show');
-document.addEventListener('keydown',e=>{if(e.key==='Escape')infoOverlay.classList.remove('show');});
-infoBtn.onclick=async()=>{
- const t=(videos[currentIndex]?.title||'').replace(/\(.*?\)|\[.*?\]/g,'').trim();
- if(!t)return;
- infoOverlay.classList.add('show');infoTitle.textContent=t;infoText.textContent='Loading...';
- try{
- let s=await fetch('https://en.wikipedia.org/w/api.php?action=opensearch&search='+encodeURIComponent(t+' film')+'&limit=1&namespace=0&format=json&origin=*').then(r=>r.json());
- let page=s[1][0]||t;
- let d=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(page)).then(r=>r.json());
- infoTitle.textContent=d.title||t;infoText.textContent=d.extract||'No information.';
- infoLink.href=d.content_urls?.desktop?.page||'https://en.wikipedia.org/wiki/'+encodeURIComponent(page);
- if(d.thumbnail){infoImage.src=d.thumbnail.source;infoImage.style.display='block';}else infoImage.style.display='none';
- }catch(e){infoText.textContent='Unable to fetch information.';}
-};
-
 </script>
 
 </body>
