@@ -357,10 +357,70 @@
     font-size: 0.5rem;
     color: #fff;
   }
+
+  /* ---- Scene Selection (S.S) button + panel ---- */
+  .scene-panel {
+    position: absolute;
+    bottom: 34px;
+    left: 4px;
+    background: rgba(20,20,20,0.95);
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    z-index: 6;
+    min-width: 230px;
+  }
+  .scene-panel.hidden { display: none; }
+  .scene-panel .scene-item {
+    background: #2a2a2a;
+    color: #eee;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 6px 4px;
+    font-size: 0.62rem;
+    line-height: 1.3;
+    cursor: pointer;
+    text-align: center;
+    white-space: pre-line;
+  }
+  .scene-panel .scene-item:hover { background: #383838; border-color: #5da9ff; }
+  .scene-panel .scene-empty {
+    grid-column: 1 / -1;
+    color: #999;
+    font-size: 0.68rem;
+    text-align: center;
+    padding: 6px 2px;
+  }
+
+  .info-overlay{position:absolute;inset:0;background:rgba(0,0,0,.72);backdrop-filter:blur(6px);display:none;z-index:20;padding:20px;color:#fff}
+  .info-overlay.show{display:flex}.info-card{display:flex;gap:20px;width:100%}.info-card img{width:220px;object-fit:contain;border-radius:8px}.info-body{overflow:auto}.close-info{position:absolute;top:10px;right:10px}
+
 </style>
 </head>
 <body>
-<script src="VIdOTT/data/data.js"></script>
+<script src="VIdOTT/data/data.js">
+const infoBtn=document.getElementById('infoBtn'),infoOverlay=document.getElementById('infoOverlay');
+const infoTitle=document.getElementById('infoTitle'),infoText=document.getElementById('infoText'),infoImage=document.getElementById('infoImage'),infoLink=document.getElementById('infoLink');
+document.getElementById('closeInfo').onclick=()=>infoOverlay.classList.remove('show');
+document.addEventListener('keydown',e=>{if(e.key==='Escape')infoOverlay.classList.remove('show');});
+infoBtn.onclick=async()=>{
+ const t=(videos[currentIndex]?.title||'').replace(/\(.*?\)|\[.*?\]/g,'').trim();
+ if(!t)return;
+ infoOverlay.classList.add('show');infoTitle.textContent=t;infoText.textContent='Loading...';
+ try{
+ let s=await fetch('https://en.wikipedia.org/w/api.php?action=opensearch&search='+encodeURIComponent(t+' film')+'&limit=1&namespace=0&format=json&origin=*').then(r=>r.json());
+ let page=s[1][0]||t;
+ let d=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(page)).then(r=>r.json());
+ infoTitle.textContent=d.title||t;infoText.textContent=d.extract||'No information.';
+ infoLink.href=d.content_urls?.desktop?.page||'https://en.wikipedia.org/wiki/'+encodeURIComponent(page);
+ if(d.thumbnail){infoImage.src=d.thumbnail.source;infoImage.style.display='block';}else infoImage.style.display='none';
+ }catch(e){infoText.textContent='Unable to fetch information.';}
+};
+
+</script>
 <div class="stage">
   <div class="layout">
     <div class="player-col">
@@ -368,17 +428,22 @@
       <div class="player-wrap">
         <video id="video" controls controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
+<div id="infoOverlay" class="info-overlay"><button class="ctrl-btn close-info" id="closeInfo">✕</button><div class="info-card"><img id="infoImage"><div class="info-body"><h2 id="infoTitle"></h2><p id="infoText">Loading...</p><p><a id="infoLink" target="_blank" style="color:#7cf">Read more</a></p></div></div></div>
+
+        <div id="scenePanel" class="scene-panel hidden"></div>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
+            <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
+            <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
           </span>
-	<span>&nbsp;&nbsp;</span>
+	<span>&nbsp;</span>
         <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
-        <span>&nbsp;&nbsp;</span>	
+        <span>&nbsp;</span>	
         <span id="runtime"></span>
-        <span>&nbsp;&nbsp;</span>
+        <span>&nbsp;</span>
 	<span class="aspect-controls" id="aspectControls">
             <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
             <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
@@ -423,6 +488,8 @@
   const aspectControls = document.getElementById('aspectControls');
   const aspectBtns = aspectControls.querySelectorAll('.aspect-btn');
   const subtitleBtn = document.getElementById('subtitleBtn');
+  const sceneBtn = document.getElementById('sceneBtn');
+  const scenePanel = document.getElementById('scenePanel');
   const subtitleOverlay = document.getElementById('subtitleOverlay');
 
   // ---- Subtitles (.srt) — fail-proof loader ----
@@ -577,6 +644,57 @@
 
   video.addEventListener('timeupdate', updateSubtitleDisplay);
 
+  // ---- Scene Selection (S.S): split current title's runtime into 9 equal parts ----
+  const SCENE_PARTS = 9;
+
+  function closeScenePanel() {
+    scenePanel.classList.add('hidden');
+  }
+
+  function buildScenePanel() {
+    scenePanel.innerHTML = '';
+    const duration = video.duration;
+    if (!duration || !isFinite(duration) || duration <= 0) {
+      const msg = document.createElement('div');
+      msg.className = 'scene-empty';
+      msg.textContent = 'Runtime not loaded yet — please wait a moment and try again.';
+      scenePanel.appendChild(msg);
+      return;
+    }
+    const segment = duration / SCENE_PARTS;
+    for (let i = 0; i < SCENE_PARTS; i++) {
+      const startTime = segment * i;
+      const btn = document.createElement('button');
+      btn.className = 'scene-item';
+      btn.textContent = `Part ${i + 1}\n${formatTime(startTime)}`;
+      btn.title = `Jump to part ${i + 1} of ${SCENE_PARTS}`;
+      btn.addEventListener('click', () => {
+        video.currentTime = startTime;
+        video.play().catch(() => {});
+        closeScenePanel();
+      });
+      scenePanel.appendChild(btn);
+    }
+  }
+
+  sceneBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isHidden = scenePanel.classList.contains('hidden');
+    if (isHidden) {
+      buildScenePanel();
+      scenePanel.classList.remove('hidden');
+    } else {
+      closeScenePanel();
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!scenePanel.classList.contains('hidden') &&
+        !scenePanel.contains(e.target) && e.target !== sceneBtn) {
+      closeScenePanel();
+    }
+  });
+
   aspectBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       video.setAttribute('data-ratio', btn.dataset.ratio);
@@ -612,6 +730,7 @@
     nowPlaying.textContent = "Now playing: " + v.title;
     runtimeEl.textContent = '0:00 / --:--';
     loadSubtitles(v.subtitle);
+    closeScenePanel();
     if (!isRetry) videoRetried = false;
   }
 
@@ -706,6 +825,25 @@
     thumbsEl.appendChild(div);
     thumbEls.push(div);
   });
+
+const infoBtn=document.getElementById('infoBtn'),infoOverlay=document.getElementById('infoOverlay');
+const infoTitle=document.getElementById('infoTitle'),infoText=document.getElementById('infoText'),infoImage=document.getElementById('infoImage'),infoLink=document.getElementById('infoLink');
+document.getElementById('closeInfo').onclick=()=>infoOverlay.classList.remove('show');
+document.addEventListener('keydown',e=>{if(e.key==='Escape')infoOverlay.classList.remove('show');});
+infoBtn.onclick=async()=>{
+ const t=(videos[currentIndex]?.title||'').replace(/\(.*?\)|\[.*?\]/g,'').trim();
+ if(!t)return;
+ infoOverlay.classList.add('show');infoTitle.textContent=t;infoText.textContent='Loading...';
+ try{
+ let s=await fetch('https://en.wikipedia.org/w/api.php?action=opensearch&search='+encodeURIComponent(t+' film')+'&limit=1&namespace=0&format=json&origin=*').then(r=>r.json());
+ let page=s[1][0]||t;
+ let d=await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/'+encodeURIComponent(page)).then(r=>r.json());
+ infoTitle.textContent=d.title||t;infoText.textContent=d.extract||'No information.';
+ infoLink.href=d.content_urls?.desktop?.page||'https://en.wikipedia.org/wiki/'+encodeURIComponent(page);
+ if(d.thumbnail){infoImage.src=d.thumbnail.source;infoImage.style.display='block';}else infoImage.style.display='none';
+ }catch(e){infoText.textContent='Unable to fetch information.';}
+};
+
 </script>
 
 </body>
