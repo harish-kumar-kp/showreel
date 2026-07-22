@@ -160,6 +160,11 @@
     border-radius: 4px;
     white-space: pre-line;
   }
+  .aspect-controls {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
   .aspect-btn {
     background: #2a2a2a;
     color: #aaa;
@@ -390,20 +395,94 @@
     padding: 6px 2px;
   }
 
-  /* ---- Aspect Ratio menu button + popup panel ---- */
-  .aspect-panel {
+  #xrayPanel {
     position: absolute;
-    background: rgba(20,20,20,0.95);
-    border: 1px solid #3a3a3a;
-    border-radius: 8px;
-    padding: 6px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    z-index: 6;
-    min-width: 168px;
+    inset: 0;
+    /* Semi-transparent so the paused/playing video is still visible behind the info */
+    background: rgba(10,10,10,0.62);
+    backdrop-filter: blur(2px);
+    z-index: 9;
+    display: none;
+    flex-direction: column;
+    padding: 16px 18px;
+    overflow-y: auto;
   }
-  .aspect-panel.hidden { display: none; }
+  #xrayPanel.open { display: flex; }
+  .xray-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+  .xray-header span {
+    color: #eee;
+    font-size: 0.85rem;
+  }
+  .xray-close {
+    background: rgba(255,255,255,0.1);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+  .xray-close:hover { background: rgba(255,255,255,0.2); }
+  .xray-body {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .xray-thumb {
+    width: 130px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  }
+  .xray-thumb img {
+    width: 100%;
+    display: block;
+  }
+  .xray-content {
+    flex: 1;
+    min-width: 0;
+  }
+  .xray-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .xray-extract {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: #e2e2e2;
+    white-space: pre-line;
+  }
+  .xray-attribution {
+    margin-top: 12px;
+    font-size: 0.68rem;
+    color: #9ab;
+  }
+  .xray-attribution a {
+    color: #5da9ff;
+    text-decoration: none;
+  }
+  .xray-attribution a:hover { text-decoration: underline; }
+  .xray-status {
+    color: #aaa;
+    font-size: 0.8rem;
+    margin: auto;
+  }
+  #infoBtn.on {
+    background: #2c5b8f;
+    border-color: #5da9ff;
+    color: #fff;
+  }
+
 </style>
 </head>
 <body>
@@ -415,28 +494,36 @@
       <div class="player-wrap">
         <video id="video" controls controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
-        <div id="scenePanel" class="scene-panel hidden"></div>
-        <div id="aspectPanel" class="aspect-panel hidden">
-          <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
-          <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
-          <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
-          <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
-          <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
-          <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
+<div id="xrayPanel">
+          <div class="xray-header">
+            <span>Movie Info</span>
+            <button class="xray-close" id="closeInfo">Close ✕</button>
+          </div>
+          <div id="xrayBody" class="xray-body"></div>
         </div>
+
+        <div id="scenePanel" class="scene-panel hidden"></div>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
             <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
+            <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
           </span>
-	<span>&nbsp;&nbsp;</span>
+	<span>&nbsp;</span>
         <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
-        <span>&nbsp;&nbsp;</span>	
+        <span>&nbsp;</span>	
         <span id="runtime"></span>
-        <span>&nbsp;&nbsp;</span>
-	<button class="ctrl-btn" id="aspectMenuBtn" title="Aspect Ratio">Aspect Ratio ▾</button>
+        <span>&nbsp;</span>
+	<span class="aspect-controls" id="aspectControls">
+            <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
+            <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
+            <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
+            <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
+            <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
+            <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
+          </span> 
         <span>&nbsp;&nbsp;</span>       
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
         <span>&nbsp;&nbsp;</span>
@@ -470,13 +557,11 @@
   const playPauseBtn = document.getElementById('playPauseBtn');
   const rewindBtn = document.getElementById('rewindBtn');
   const forwardBtn = document.getElementById('forwardBtn');
-  const aspectMenuBtn = document.getElementById('aspectMenuBtn');
-  const aspectPanel = document.getElementById('aspectPanel');
-  const aspectBtns = aspectPanel.querySelectorAll('.aspect-btn');
+  const aspectControls = document.getElementById('aspectControls');
+  const aspectBtns = aspectControls.querySelectorAll('.aspect-btn');
   const subtitleBtn = document.getElementById('subtitleBtn');
   const sceneBtn = document.getElementById('sceneBtn');
   const scenePanel = document.getElementById('scenePanel');
-  const playerWrap = document.querySelector('.player-wrap');
   const subtitleOverlay = document.getElementById('subtitleOverlay');
 
   // ---- Subtitles (.srt) — fail-proof loader ----
@@ -667,7 +752,6 @@
   sceneBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     const isHidden = scenePanel.classList.contains('hidden');
-    closeAspectPanel();
     if (isHidden) {
       buildScenePanel();
       scenePanel.classList.remove('hidden');
@@ -681,34 +765,6 @@
         !scenePanel.contains(e.target) && e.target !== sceneBtn) {
       closeScenePanel();
     }
-    if (!aspectPanel.classList.contains('hidden') &&
-        !aspectPanel.contains(e.target) && e.target !== aspectMenuBtn) {
-      closeAspectPanel();
-    }
-  });
-
-  // ---- Aspect Ratio menu: single button opens a popup with all the fit modes ----
-  function closeAspectPanel() {
-    aspectPanel.classList.add('hidden');
-  }
-
-  function positionAspectPanel() {
-    const btnRect = aspectMenuBtn.getBoundingClientRect();
-    const wrapRect = playerWrap.getBoundingClientRect();
-    aspectPanel.style.left = Math.max(4, btnRect.left - wrapRect.left) + 'px';
-    aspectPanel.style.bottom = (wrapRect.bottom - btnRect.top + 6) + 'px';
-  }
-
-  aspectMenuBtn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    const isHidden = aspectPanel.classList.contains('hidden');
-    closeScenePanel();
-    if (isHidden) {
-      positionAspectPanel();
-      aspectPanel.classList.remove('hidden');
-    } else {
-      closeAspectPanel();
-    }
   });
 
   aspectBtns.forEach(btn => {
@@ -716,8 +772,6 @@
       video.setAttribute('data-ratio', btn.dataset.ratio);
       aspectBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      aspectMenuBtn.textContent = btn.textContent + ' ▾';
-      closeAspectPanel();
     });
   });
 
@@ -749,6 +803,7 @@
     runtimeEl.textContent = '0:00 / --:--';
     loadSubtitles(v.subtitle);
     closeScenePanel();
+    closeXrayPanel();
     if (!isRetry) videoRetried = false;
   }
 
@@ -843,6 +898,116 @@
     thumbsEl.appendChild(div);
     thumbEls.push(div);
   });
+
+  // ---- X-Ray: short movie info pulled live from Wikipedia's public REST API ----
+  // Wikipedia summaries are released under CC BY-SA and are explicitly meant for
+  // this kind of "info card" reuse; we always show a link back to the full
+  // article for attribution rather than displaying more than a short extract.
+  const xrayBtn = document.getElementById('infoBtn');
+  const xrayPanel = document.getElementById('xrayPanel');
+  const xrayBody = document.getElementById('xrayBody');
+  const xrayCloseBtn = document.getElementById('closeInfo');
+  const xrayCache = {}; // videoIndex -> { title, extract, thumb, pageUrl } | 'unavailable'
+  let xrayToken = 0;
+
+  function cleanTitleForSearch(title) {
+    return title
+      .replace(/-Short\.?/gi, '')
+      .replace(/-Doc\.?/gi, '')
+      .replace(/^Making[- ]/i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  async function fetchWikipediaInfo(v) {
+    // An explicit `wiki` field (exact article title) always wins and skips the search step.
+    if (v.wiki) {
+      return fetchWikipediaSummary(v.wiki);
+    }
+    const query = cleanTitleForSearch(v.title);
+    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query + ' film')}&format=json&origin=*`;
+    const res = await fetchWithTimeout(searchUrl, 8000);
+    if (!res.ok) throw new Error('search HTTP ' + res.status);
+    const data = await res.json();
+    const hit = data && data.query && data.query.search && data.query.search[0];
+    if (!hit) throw new Error('no search results');
+    return fetchWikipediaSummary(hit.title);
+  }
+
+  async function fetchWikipediaSummary(pageTitle) {
+    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`;
+    const res = await fetchWithTimeout(url, 8000);
+    if (!res.ok) throw new Error('summary HTTP ' + res.status);
+    const data = await res.json();
+    if (!data.extract) throw new Error('no extract');
+    return {
+      title: data.title || pageTitle,
+      extract: data.extract,
+      thumb: (data.thumbnail && data.thumbnail.source) || (data.originalimage && data.originalimage.source) || null,
+      pageUrl: (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page)
+        || `https://en.wikipedia.org/wiki/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`
+    };
+  }
+
+  function renderXray(state) {
+    if (state === 'loading') {
+      xrayBody.innerHTML = '<div class="xray-status">Looking this up on Wikipedia…</div>';
+      return;
+    }
+    if (state === 'unavailable' || !state) {
+      xrayBody.innerHTML = '<div class="xray-status">No Wikipedia info found for this title.</div>';
+      return;
+    }
+    const thumbHtml = state.thumb
+      ? `<div class="xray-thumb"><img src="${state.thumb}" alt="${state.title}"></div>`
+      : '';
+    xrayBody.innerHTML = `
+      ${thumbHtml}
+      <div class="xray-content">
+        <div class="xray-title">${state.title}</div>
+        <div class="xray-extract">${state.extract}</div>
+        <div class="xray-attribution">Summary from <a href="${state.pageUrl}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA</div>
+      </div>
+    `;
+  }
+
+  async function loadXrayInfo() {
+    const idx = currentIndex;
+    if (idx < 0) return;
+    if (xrayCache[idx]) {
+      renderXray(xrayCache[idx] === 'unavailable' ? null : xrayCache[idx]);
+      return;
+    }
+    const token = ++xrayToken;
+    renderXray('loading');
+    try {
+      const info = await fetchWikipediaInfo(videos[idx]);
+      if (token !== xrayToken) return; // a different video was selected meanwhile
+      xrayCache[idx] = info;
+      renderXray(info);
+    } catch (err) {
+      console.warn('X-Ray lookup failed:', err);
+      if (token !== xrayToken) return;
+      xrayCache[idx] = 'unavailable';
+      renderXray(null);
+    }
+  }
+
+  function openXrayPanel() {
+    xrayPanel.classList.add('open');
+    xrayBtn.classList.add('on');
+    loadXrayInfo();
+  }
+  function closeXrayPanel() {
+    xrayPanel.classList.remove('open');
+    xrayBtn.classList.remove('on');
+  }
+  xrayBtn.addEventListener('click', () => {
+    if (xrayPanel.classList.contains('open')) closeXrayPanel();
+    else openXrayPanel();
+  });
+  xrayCloseBtn.addEventListener('click', closeXrayPanel);
+
 </script>
 
 </body>
