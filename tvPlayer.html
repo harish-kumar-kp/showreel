@@ -160,11 +160,6 @@
     border-radius: 4px;
     white-space: pre-line;
   }
-  .aspect-controls {
-    display: flex;
-    gap: 4px;
-    flex-shrink: 0;
-  }
   .aspect-btn {
     background: #2a2a2a;
     color: #aaa;
@@ -395,6 +390,21 @@
     padding: 6px 2px;
   }
 
+  /* ---- Aspect Ratio menu button + popup panel ---- */
+  .aspect-panel {
+    position: absolute;
+    background: rgba(20,20,20,0.95);
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 6px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    z-index: 6;
+    min-width: 168px;
+  }
+  .aspect-panel.hidden { display: none; }
+
   #xrayPanel {
     position: absolute;
     inset: 0;
@@ -503,6 +513,14 @@
         </div>
 
         <div id="scenePanel" class="scene-panel hidden"></div>
+        <div id="aspectPanel" class="aspect-panel hidden">
+          <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
+          <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
+          <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
+          <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
+          <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
+          <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
+        </div>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
@@ -516,14 +534,7 @@
         <span>&nbsp;</span>	
         <span id="runtime"></span>
         <span>&nbsp;</span>
-	<span class="aspect-controls" id="aspectControls">
-            <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
-            <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
-            <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
-            <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
-            <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
-            <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
-          </span> 
+	<button class="ctrl-btn" id="aspectMenuBtn" title="Aspect Ratio">Aspect Ratio ▾</button>
         <span>&nbsp;&nbsp;</span>       
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
         <span>&nbsp;&nbsp;</span>
@@ -557,11 +568,13 @@
   const playPauseBtn = document.getElementById('playPauseBtn');
   const rewindBtn = document.getElementById('rewindBtn');
   const forwardBtn = document.getElementById('forwardBtn');
-  const aspectControls = document.getElementById('aspectControls');
-  const aspectBtns = aspectControls.querySelectorAll('.aspect-btn');
+  const aspectMenuBtn = document.getElementById('aspectMenuBtn');
+  const aspectPanel = document.getElementById('aspectPanel');
+  const aspectBtns = aspectPanel.querySelectorAll('.aspect-btn');
   const subtitleBtn = document.getElementById('subtitleBtn');
   const sceneBtn = document.getElementById('sceneBtn');
   const scenePanel = document.getElementById('scenePanel');
+  const playerWrap = document.querySelector('.player-wrap');
   const subtitleOverlay = document.getElementById('subtitleOverlay');
 
   // ---- Subtitles (.srt) — fail-proof loader ----
@@ -752,6 +765,7 @@
   sceneBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     const isHidden = scenePanel.classList.contains('hidden');
+    closeAspectPanel();
     if (isHidden) {
       buildScenePanel();
       scenePanel.classList.remove('hidden');
@@ -765,6 +779,34 @@
         !scenePanel.contains(e.target) && e.target !== sceneBtn) {
       closeScenePanel();
     }
+    if (!aspectPanel.classList.contains('hidden') &&
+        !aspectPanel.contains(e.target) && e.target !== aspectMenuBtn) {
+      closeAspectPanel();
+    }
+  });
+
+  // ---- Aspect Ratio menu: single button opens a popup with all the fit modes ----
+  function closeAspectPanel() {
+    aspectPanel.classList.add('hidden');
+  }
+
+  function positionAspectPanel() {
+    const btnRect = aspectMenuBtn.getBoundingClientRect();
+    const wrapRect = playerWrap.getBoundingClientRect();
+    aspectPanel.style.left = Math.max(4, btnRect.left - wrapRect.left) + 'px';
+    aspectPanel.style.bottom = (wrapRect.bottom - btnRect.top + 6) + 'px';
+  }
+
+  aspectMenuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isHidden = aspectPanel.classList.contains('hidden');
+    closeScenePanel();
+    if (isHidden) {
+      positionAspectPanel();
+      aspectPanel.classList.remove('hidden');
+    } else {
+      closeAspectPanel();
+    }
   });
 
   aspectBtns.forEach(btn => {
@@ -772,6 +814,8 @@
       video.setAttribute('data-ratio', btn.dataset.ratio);
       aspectBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+      aspectMenuBtn.textContent = btn.textContent + ' ▾';
+      closeAspectPanel();
     });
   });
 
@@ -804,6 +848,7 @@
     loadSubtitles(v.subtitle);
     closeScenePanel();
     closeXrayPanel();
+    closeAspectPanel();
     if (!isRetry) videoRetried = false;
   }
 
