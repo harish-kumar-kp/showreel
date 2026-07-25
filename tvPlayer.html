@@ -168,6 +168,7 @@
     padding: 3px 7px;
     font-size: 0.5rem;
     cursor: pointer;
+    opacity: 0.3;
   }
   .aspect-btn:hover { background: #383838; color: #eee; }
   .aspect-btn.active {
@@ -253,6 +254,13 @@
     align-items: center;
     justify-content: space-between;
     gap: 6px;
+  }
+  .switches-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    flex-shrink: 0;
   }
   .autorun-wrap {
     display: flex;
@@ -400,7 +408,7 @@
     position: absolute;
     bottom: 34px;
     left: 4px;
-    background: rgba(20,20,20,0.95);
+    background: rgba(20,20,20,0.2);
     border: 1px solid #3a3a3a;
     border-radius: 8px;
     padding: 8px;
@@ -422,6 +430,7 @@
     cursor: pointer;
     text-align: center;
     white-space: pre-line;
+    opacity: 0.3;
   }
   .scene-panel .scene-item:hover { background: #383838; border-color: #5da9ff; }
   .scene-panel .scene-empty {
@@ -435,7 +444,7 @@
   /* ---- Aspect Ratio menu button + popup panel ---- */
   .aspect-panel {
     position: absolute;
-    background: rgba(20,20,20,0.95);
+    background: rgba(20,20,20,0.2);
     border: 1px solid #3a3a3a;
     border-radius: 8px;
     padding: 6px;
@@ -544,7 +553,7 @@
     <div class="player-col">
       <button class="toggle-btn" id="toggleBtn">></button>
       <div class="player-wrap">
-        <video id="video" controls controlsList="nodownload" data-ratio="fit"></video>
+        <video id="video" controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
           <div class="xray-header">
@@ -590,9 +599,15 @@
     <div class="thumbs-col" id="thumbsCol">
       <div class="thumbs-title">
         <span>k<font color="Orange">OTT</font>e <font color="violet">- Its My OTT</font></span>
-        <span class="autorun-wrap">
-          <span class="autorun-label">Autorun</span>
-          <span class="autorun-switch on" id="autorunSwitch" title="Toggle autoplay next video"><span class="knob"></span></span>
+        <span class="switches-stack">
+          <span class="autorun-wrap">
+            <span class="autorun-label">Autorun</span>
+            <span class="autorun-switch on" id="autorunSwitch" title="Toggle autoplay next video"><span class="knob"></span></span>
+          </span>
+          <span class="autorun-wrap">
+            <span class="autorun-label">Resume</span>
+            <span class="autorun-switch on" id="resumeSwitch" title="Toggle resuming videos from last watched position"><span class="knob"></span></span>
+          </span>
         </span>
       </div>
       <div class="search-wrap">
@@ -877,6 +892,75 @@
     autorunSwitch.classList.toggle('on', autorunEnabled);
   });
 
+  // ---- Resume: remembers each video's last watched position and picks up
+  // there next time it's played. On by default; toggled off via the switch. ----
+  let resumeEnabled = true;
+  const resumeSwitch = document.getElementById('resumeSwitch');
+  resumeSwitch.addEventListener('click', () => {
+    resumeEnabled = !resumeEnabled;
+    resumeSwitch.classList.toggle('on', resumeEnabled);
+  });
+
+  const RESUME_STORAGE_KEY = 'kotte_resume_positions';
+
+  function loadResumeMap() {
+    try {
+      return JSON.parse(localStorage.getItem(RESUME_STORAGE_KEY)) || {};
+    } catch (e) {
+      return {};
+    }
+  }
+  function saveResumeMap(map) {
+    try {
+      localStorage.setItem(RESUME_STORAGE_KEY, JSON.stringify(map));
+    } catch (e) { /* storage unavailable — resume just won't persist */ }
+  }
+  function resumeKeyFor(v) {
+    return v && v.src;
+  }
+
+  // Persist current playback position for the currently loaded video.
+  // Skips saving if too close to the start (nothing to resume) or the
+  // end (treat as finished), and clears any stale entry in those cases.
+  function saveResumePosition() {
+    if (currentIndex < 0) return;
+    const v = videos[currentIndex];
+    if (!v) return;
+    const key = resumeKeyFor(v);
+    if (!key) return;
+    const map = loadResumeMap();
+    const dur = video.duration;
+    if (dur && video.currentTime > 5 && video.currentTime < dur - 5) {
+      map[key] = video.currentTime;
+    } else {
+      delete map[key];
+    }
+    saveResumeMap(map);
+  }
+
+  function clearResumePosition(v) {
+    const key = resumeKeyFor(v);
+    if (!key) return;
+    const map = loadResumeMap();
+    if (key in map) {
+      delete map[key];
+      saveResumeMap(map);
+    }
+  }
+
+  // Throttle saves to roughly once every 5s of playback rather than on every timeupdate tick.
+  let lastResumeSaveAt = 0;
+  video.addEventListener('timeupdate', () => {
+    if (!resumeEnabled) return;
+    const now = Date.now();
+    if (now - lastResumeSaveAt >= 5000) {
+      lastResumeSaveAt = now;
+      saveResumePosition();
+    }
+  });
+  video.addEventListener('pause', saveResumePosition);
+  window.addEventListener('beforeunload', saveResumePosition);
+
   function playByIndex(i, isRetry) {
     if (i < 0 || i >= videos.length) return;
     currentIndex = i;
@@ -890,6 +974,18 @@
 
     video.src = v.src;
     video.load();
+
+    if (resumeEnabled) {
+      const savedPos = loadResumeMap()[resumeKeyFor(v)];
+      if (savedPos && savedPos > 0) {
+        const onMeta = () => {
+          video.currentTime = savedPos;
+          video.removeEventListener('loadedmetadata', onMeta);
+        };
+        video.addEventListener('loadedmetadata', onMeta);
+      }
+    }
+
     video.play().catch(() => {});
     nowPlaying.textContent = " " + v.title;
     runtimeEl.textContent = '0:00 / --:--';
@@ -925,6 +1021,7 @@
   // Autoplay: when a video finishes, automatically advance to the next one in the playlist
   // (only if the Autorun toggle is switched on).
   video.addEventListener('ended', () => {
+    if (currentIndex >= 0 && videos[currentIndex]) clearResumePosition(videos[currentIndex]);
     if (autorunEnabled) playNext();
   });
 
