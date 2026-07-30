@@ -617,8 +617,7 @@ html,body{width:978px!important;height:556px!important;overflow:hidden!important
       <div class="stage">
         <div class="layout" style="height: 556px;">
           <div class="player-col" style="top: 0px; left: 0px; width: 978px; height: 554px;">
-            <button class="toggle-btn" id="toggleBtn" title="Show/hide the floating playlist">☰
-              Hide Playlist</button>
+            <button class="toggle-btn" id="toggleBtn" title="Show/hide the floating playlist">></button>
             <div class="player-wrap"> <video id="video" controlslist="nodownload"
 
                 data-ratio="fit"></video>
@@ -641,8 +640,7 @@ html,body{width:978px!important;height:556px!important;overflow:hidden!important
                 <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
                 <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
               </div>
-              <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">Hide
-                Controls ▾</button>
+              <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">▾</button>
               <div class="now-playing"> <span class="custom-controls"> <button
 
                     class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
@@ -724,7 +722,7 @@ html,body{width:978px!important;height:556px!important;overflow:hidden!important
 
   controlsToggleBtn.addEventListener('click', () => {
     controlsManuallyHidden = !controlsManuallyHidden;
-    controlsToggleBtn.textContent = controlsManuallyHidden ? 'Show Controls ▴' : 'Hide Controls ▾';
+    controlsToggleBtn.textContent = controlsManuallyHidden ? '▴' : '▾';
     updateControlsVisibility();
   });
 
@@ -1176,7 +1174,7 @@ html,body{width:978px!important;height:556px!important;overflow:hidden!important
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
     toggleBtn.classList.toggle('panel-hidden', isHidden);
-    toggleBtn.textContent = isHidden ? '☰ Show Playlist' : '☰ Hide Playlist';
+    toggleBtn.textContent = isHidden ? '<' : '>';
   });
 
   videos.forEach((v, i) => {
