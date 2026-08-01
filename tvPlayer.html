@@ -34,12 +34,16 @@
   }
 
   /* LEFT: player — now the only thing in the flow; fills the whole viewport */
-  .player-col {
+.player-col {
     position: absolute;
     inset: 0;
+
     display: flex;
     flex-direction: column;
-  }
+
+    justify-content: center; /* Vertical (main axis) */
+    align-items: center;     /* Horizontal (cross axis) */
+}
   .toggle-btn {
     position: fixed;
     top: 14px;
