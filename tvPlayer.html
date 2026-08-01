@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>kOTTe - Its My OTT </title>
-    <style>
+<head>
+<meta charset="UTF-8">
+<title>kOTTe - Its My OTT </title>
+<style>
   * { box-sizing: border-box; }
   html, body {
     margin: 0;
-    width: 976px;
-    height: 546px;
     background: #111;
     color: #eee;
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     overflow: hidden;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
   }
   .stage {
-    width: 976px;
-    height: 546px;
+    width: 978px;
+    height: 556px;
     display: flex;
     flex-direction: column;
     padding: 4px;
-    position: relative;
-    flex-shrink: 0;
   }
   h1 {
     font-size: .8rem;
@@ -34,52 +27,33 @@
 
   .layout {
     flex: 1;
-    position: relative;
+    display: flex;
+    gap: 4px;
     min-height: 0;
   }
 
-  /* LEFT: player — now the only thing in the flow; fills the whole viewport */
+  /* LEFT: player */
   .player-col {
-    position: absolute;
-    inset: 0;
+    flex: 1;
+    min-width: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
   }
   .toggle-btn {
     position: absolute;
-    top: 8px;
-    right: 196px;
-    z-index: 30;
-    background: rgba(255,255,255,0.1);
+    top: 0px;
+    right: 0px;
+    z-index: 5;
+    background: rgba(0,0,0,0.6);
     color: #eee;
-    border: 1px solid rgba(255,255,255,0.28);
+    border: 1px solid #3a3a3a;
     border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 0.62rem;
+    padding: 5px 9px;
+    font-size: 0.68rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s, right 0.2s;
   }
-  .toggle-btn.panel-hidden {
-    right: 8px;
-  }
-  .toggle-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.5); }
-  .controls-toggle-btn {
-    position: absolute;
-    bottom: 58px;
-    left: 8px;
-    z-index: 30;
-    background: rgba(255,255,255,0.1);
-    color: #eee;
-    border: 1px solid rgba(255,255,255,0.28);
-    border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 0.62rem;
-    cursor: pointer;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s;
-  }
-  .controls-toggle-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.5); }
+  .toggle-btn:hover { background: rgba(0,0,0,0.8); }
   .player-wrap {
     background: #1b1b1b;
     border-radius: 10px;
@@ -102,9 +76,9 @@
   }
   .now-playing {
     position: absolute;
-    left: 12px;
-    right: 12px;
-    bottom: 12px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
     z-index: 5;
     margin-top: 0px;
     font-size: 0.78rem;
@@ -115,11 +89,9 @@
     justify-content: flex-start;
     gap: 10px;
     flex-wrap: wrap;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 10px;
-    padding: 8px 12px;
+    background: transparent;
+    border-radius: 0 0 6px 6px;
+    padding: 6px 8px;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
@@ -129,11 +101,6 @@
   .now-playing.force-visible {
     opacity: 1;
     pointer-events: auto;
-  }
-  /* Manual override from the show/hide button — always wins, even on hover/pause */
-  .now-playing.pinned-hidden {
-    opacity: 0 !important;
-    pointer-events: none !important;
   }
   #nowPlaying {
     flex: 1;
@@ -148,50 +115,46 @@
     flex-shrink: 0;
   }
   .ctrl-btn {
-    background: rgba(255,255,255,0.1);
+    background: #2a2a2a;
     color: #eee;
-    border: 1px solid rgba(255,255,255,0.25);
+    border: 1px solid #3a3a3a;
     border-radius: 6px;
     padding: 3px 8px;
     font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s;
   }
-  .ctrl-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+  .ctrl-btn:hover { background: #383838; }
   #runtime {
     color: #5da9ff;
     font-variant-numeric: tabular-nums;
     flex-shrink: 0;
   }
   .subtitle-btn {
-    background: rgba(255,255,255,0.1);
-    color: #ccc;
-    border: 1px solid rgba(255,255,255,0.25);
+    background: #2a2a2a;
+    color: #aaa;
+    border: 1px solid #3a3a3a;
     border-radius: 6px;
     padding: 3px 8px;
     font-size: 0.68rem;
     cursor: pointer;
     flex-shrink: 0;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s;
   }
-  .subtitle-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.5); }
+  .subtitle-btn:hover { background: #383838; color: #eee; }
   .subtitle-btn.on {
-    background: rgba(93,169,255,0.22);
-    border-color: rgba(93,169,255,0.7);
+    background: #2c5b8f;
+    border-color: #5da9ff;
     color: #fff;
   }
   .subtitle-btn.loading {
-    background: rgba(255,255,255,0.1);
-    border-color: rgba(255,255,255,0.2);
+    background: #2a2a2a;
+    border-color: #555;
     color: #888;
     cursor: default;
   }
   .subtitle-btn.unavailable {
-    background: rgba(160,60,60,0.12);
-    border-color: rgba(160,60,60,0.45);
-    color: #c99;
+    background: #2a2a2a;
+    border-color: #6a3a3a;
+    color: #a06060;
     cursor: not-allowed;
   }
   #subtitleOverlay {
@@ -215,20 +178,19 @@
     white-space: pre-line;
   }
   .aspect-btn {
-    background: rgba(255,255,255,0.1);
-    color: #ccc;
-    border: 1px solid rgba(255,255,255,0.25);
+    background: #2a2a2a;
+    color: #aaa;
+    border: 1px solid #3a3a3a;
     border-radius: 6px;
     padding: 3px 7px;
-    font-size: 0.62rem;
+    font-size: 0.5rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s;
+    opacity: 0.3;
   }
-  .aspect-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.5); }
+  .aspect-btn:hover { background: #383838; color: #eee; }
   .aspect-btn.active {
-    background: rgba(93,169,255,0.22);
-    border-color: rgba(93,169,255,0.7);
+    background: #2c5b8f;
+    border-color: #5da9ff;
     color: #fff;
   }
 
@@ -280,28 +242,23 @@
     flex-shrink: 0;
   }
 
-  /* RIGHT: floating, scrollable playlist panel — overlays the full-screen player */
+  /* RIGHT: scrollable thumbnail panel */
   .thumbs-col {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    bottom: 66px;
     width: 180px;
-    z-index: 25;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.14);
+    background: #1b1b1b;
     border-radius: 10px;
-    padding: 8px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
     min-height: 0;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition: width 0.2s, padding 0.2s, opacity 0.2s;
     overflow: hidden;
   }
   .thumbs-col.hidden {
-    transform: translateX(calc(100% + 16px));
+    width: 0;
+    padding: 10px 0;
     opacity: 0;
     pointer-events: none;
   }
@@ -424,14 +381,14 @@
     border-radius: 6px;
     overflow: hidden;
     border: 2px solid transparent;
-    background: rgba(255,255,255,0.1);
-    transition: border-color 0.15s, background 0.15s;
+    background: #222;
+    transition: border-color 0.15s;
     position: relative;
     display: flex;
     align-items: center;
     flex-shrink: 0;
   }
-  .thumb:hover { border-color: #4a4a4a; background: rgba(255,255,255,0.09); }
+  .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
 
   .thumb img {
@@ -466,11 +423,10 @@
   /* ---- Scene Selection (S.S) button + panel ---- */
   .scene-panel {
     position: absolute;
-    bottom: 96px;
-    left: 12px;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.18);
+    bottom: 34px;
+    left: 4px;
+    background: rgba(20,20,20,0.2);
+    border: 1px solid #3a3a3a;
     border-radius: 8px;
     padding: 8px;
     display: grid;
@@ -481,9 +437,9 @@
   }
   .scene-panel.hidden { display: none; }
   .scene-panel .scene-item {
-    background: rgba(255,255,255,0.1);
+    background: #2a2a2a;
     color: #eee;
-    border: 1px solid rgba(255,255,255,0.25);
+    border: 1px solid #3a3a3a;
     border-radius: 6px;
     padding: 6px 4px;
     font-size: 0.55rem;
@@ -491,10 +447,9 @@
     cursor: pointer;
     text-align: center;
     white-space: pre-line;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s;
+    opacity: 0.3;
   }
-  .scene-panel .scene-item:hover { background: rgba(255,255,255,0.18); border-color: rgba(93,169,255,0.7); }
+  .scene-panel .scene-item:hover { background: #383838; border-color: #5da9ff; }
   .scene-panel .scene-empty {
     grid-column: 1 / -1;
     color: #999;
@@ -506,9 +461,8 @@
   /* ---- Aspect Ratio menu button + popup panel ---- */
   .aspect-panel {
     position: absolute;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.18);
+    background: rgba(20,20,20,0.2);
+    border: 1px solid #3a3a3a;
     border-radius: 8px;
     padding: 6px;
     display: grid;
@@ -523,7 +477,7 @@
     position: absolute;
     inset: 0;
     /* Semi-transparent so the paused/playing video is still visible behind the info */
-    background: rgba(10,10,10,0.1);
+    background: rgba(10,10,10,0.62);
     backdrop-filter: blur(2px);
     z-index: 9;
     display: none;
@@ -551,10 +505,8 @@
     padding: 3px 9px;
     font-size: 0.7rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
-    transition: background 0.15s, border-color 0.15s;
   }
-  .xray-close:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+  .xray-close:hover { background: rgba(255,255,255,0.2); }
   .xray-body {
     display: flex;
     gap: 16px;
@@ -610,83 +562,81 @@
   }
 
 </style>
-  </head>
-  <body>
-    <script src="VIdOTT/data/data.js"></script>
-    <div class="stage">
-      <div class="layout">
-        <div class="player-col" style="top: 0px; left: 0px; width: 976px; height: 546px;">
-          <button class="toggle-btn" id="toggleBtn" title="Show/hide the floating playlist">☰
-            Hide Playlist</button>
-          <div class="player-wrap"> <video id="video" controlslist="nodownload"
-
-              data-ratio="fit" style="width: 958px; height: 150px;"></video>
-            <div id="subtitleOverlay"></div>
-            <div id="xrayPanel">
-              <div class="xray-header"> <span>Movie Info</span> <button class="xray-close"
-
-                  id="closeInfo">Close ✕</button> </div>
-              <div id="xrayBody" class="xray-body"></div>
-            </div>
-            <div id="scenePanel" class="scene-panel hidden"></div>
-            <div id="aspectPanel" class="aspect-panel hidden"> <button class="aspect-btn active"
-
-                data-ratio="fit" title="Fit to player">Fit</button> <button class="aspect-btn"
-
-                data-ratio="fill" title="Stretch to fill">Fill</button> <button
-
-                class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
-              <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
-              <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
-              <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
-            </div>
-            <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">Hide
-              Controls ▾</button>
-            <div class="now-playing"> <span class="custom-controls"> <button class="ctrl-btn"
-
-                  id="rewindBtn" title="Rewind 10s">⏪</button> <button class="ctrl-btn"
-
-                  id="playPauseBtn" title="Play/Pause">▶</button> <button class="ctrl-btn"
-
-                  id="forwardBtn" title="Forward 10s">⏩</button> <button class="ctrl-btn"
-
-                  id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
-                <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
-              </span> <span>&nbsp;</span> <button class="subtitle-btn" id="subtitleBtn"
-
-                title="Toggle subtitles">CC</button> <span>&nbsp;</span> <span
-
-                id="runtime"></span> <button class="ctrl-btn" id="aspectMenuBtn"
-
-                title="Aspect Ratio">Aspect Ratio ▾</button> <span>&nbsp;</span>
-              <font color="Orange">Title :</font> <span id="nowPlaying">Click a
-                thumbnail on the right to start playing</span> <span>&nbsp;&nbsp;</span>
-              <font color="Orange">Clock :</font> <span id="clock"></span> </div>
+</head>
+<body>
+<script src="VIdOTT/data/data.js"></script>
+<div class="stage">
+  <div class="layout">
+    <div class="player-col">
+      <button class="toggle-btn" id="toggleBtn">></button>
+      <div class="player-wrap">
+        <video id="video" controlsList="nodownload" data-ratio="fit"></video>
+        <div id="subtitleOverlay"></div>
+<div id="xrayPanel">
+          <div class="xray-header">
+            <span>Movie Info</span>
+            <button class="xray-close" id="closeInfo">Close ✕</button>
           </div>
+          <div id="xrayBody" class="xray-body"></div>
         </div>
-        <div class="thumbs-col" id="thumbsCol">
-          <div class="thumbs-title"> <span>k<font color="Orange">OTT</font>e <font
 
-                color="violet">- Its My OTT</font></span> <span class="switches-stack">
-              <span class="autorun-wrap"> <span class="autorun-label">Autorun</span>
-                <span class="autorun-switch on" id="autorunSwitch" title="Toggle autoplay next video"><span
+        <div id="scenePanel" class="scene-panel hidden"></div>
+        <div id="aspectPanel" class="aspect-panel hidden">
+          <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
+          <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
+          <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
+          <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">16:9</button>
+          <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">4:3</button>
+          <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
+        </div>
+        <div class="now-playing">
+	<span class="custom-controls">
+            <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
+            <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
+            <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
+            <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
+            <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
+          </span>
+	<span>&nbsp;</span>
+        <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
+        <span>&nbsp;</span>	
+        <span id="runtime"></span>
 
-                    class="knob"></span></span> </span> <span class="autorun-wrap">
-                <span class="autorun-label">Resume</span> <span class="autorun-switch on"
-
-                  id="resumeSwitch" title="Toggle resuming videos from last watched position"><span
-
-                    class="knob"></span></span> </span> </span> </div>
-          <div class="search-wrap"> <input class="search-input" id="titleSearch"
-
-              placeholder="Search titles… (Enter to play)" autocomplete="off" type="text">
-            <button class="search-clear" id="searchClear" title="Clear search">✕</button>
-          </div>
-          <div class="thumbs" id="thumbs"></div>
+	<button class="ctrl-btn" id="aspectMenuBtn" title="Aspect Ratio">Aspect Ratio ▾</button>
+        <span>&nbsp;</span> 
+        <font color="Orange">Title :</font>           
+	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+        <span>&nbsp;&nbsp;</span>
+        <font color="Orange">Clock :</font>	
+        <span id="clock"></span>          
         </div>
       </div>
     </div>
-    <script>
+
+    <div class="thumbs-col" id="thumbsCol">
+      <div class="thumbs-title">
+        <span>k<font color="Orange">OTT</font>e <font color="violet">- Its My OTT</font></span>
+        <span class="switches-stack">
+          <span class="autorun-wrap">
+            <span class="autorun-label">Autorun</span>
+            <span class="autorun-switch on" id="autorunSwitch" title="Toggle autoplay next video"><span class="knob"></span></span>
+          </span>
+          <span class="autorun-wrap">
+            <span class="autorun-label">Resume</span>
+            <span class="autorun-switch on" id="resumeSwitch" title="Toggle resuming videos from last watched position"><span class="knob"></span></span>
+          </span>
+        </span>
+      </div>
+      <div class="search-wrap">
+        <input type="text" class="search-input" id="titleSearch" placeholder="Search titles… (Enter to play)" autocomplete="off">
+        <button class="search-clear" id="searchClear" title="Clear search">✕</button>
+      </div>
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+  </div>
+</div>
+
+<script>
   
   const video = document.getElementById('video');
   const nowPlaying = document.getElementById('nowPlaying');
@@ -707,44 +657,17 @@
   const playerWrap = document.querySelector('.player-wrap');
   const subtitleOverlay = document.getElementById('subtitleOverlay');
   const nowPlayingBar = document.querySelector('.now-playing');
-  const controlsToggleBtn = document.getElementById('controlsToggleBtn');
 
   // Keep the controls bar visible (instead of only-on-hover) while the video
   // is paused, or while a popup panel (scenes / aspect ratio / info) is open —
   // otherwise those panels would be unreachable once the mouse moves off them.
-  let controlsManuallyHidden = false;
-
   function updateControlsVisibility() {
     const keepVisible = video.paused
       || !scenePanel.classList.contains('hidden')
       || !aspectPanel.classList.contains('hidden')
       || xrayPanel.classList.contains('open');
-    nowPlayingBar.classList.toggle('force-visible', keepVisible && !controlsManuallyHidden);
-    nowPlayingBar.classList.toggle('pinned-hidden', controlsManuallyHidden);
+    nowPlayingBar.classList.toggle('force-visible', keepVisible);
   }
-
-  controlsToggleBtn.addEventListener('click', () => {
-    controlsManuallyHidden = !controlsManuallyHidden;
-    controlsToggleBtn.textContent = controlsManuallyHidden ? 'Show Controls ▴' : 'Hide Controls ▾';
-    if (controlsManuallyHidden) {
-      // The controls bar is the parent — its child popups (scene select, aspect
-      // ratio) must never stay open/selectable once the parent is hidden.
-      closeScenePanel();
-      closeAspectPanel();
-    }
-    updateControlsVisibility();
-  });
-
-  // Keep the show/hide button centered directly above the play/pause button,
-  // even as the bar reflows or the window is resized.
-  function positionControlsToggle() {
-    const btnRect = playPauseBtn.getBoundingClientRect();
-    const wrapRect = playerWrap.getBoundingClientRect();
-    const left = (btnRect.left - wrapRect.left) + (btnRect.width / 2) - (controlsToggleBtn.offsetWidth / 2);
-    controlsToggleBtn.style.left = Math.max(4, left) + 'px';
-  }
-  positionControlsToggle();
-  window.addEventListener('resize', positionControlsToggle);
 
   // ---- Subtitles (.srt) — fail-proof loader ----
   let subtitleCues = [];      // [{start, end, text}]
@@ -934,7 +857,6 @@
 
   sceneBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    if (controlsManuallyHidden) return; // parent controls bar must be shown first
     const isHidden = scenePanel.classList.contains('hidden');
     closeAspectPanel();
     if (isHidden) {
@@ -972,7 +894,6 @@
 
   aspectMenuBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    if (controlsManuallyHidden) return; // parent controls bar must be shown first
     const isHidden = aspectPanel.classList.contains('hidden');
     closeScenePanel();
     if (isHidden) {
@@ -1184,8 +1105,7 @@
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
-    toggleBtn.classList.toggle('panel-hidden', isHidden);
-    toggleBtn.textContent = isHidden ? '☰ Show Playlist' : '☰ Hide Playlist';
+    toggleBtn.textContent = isHidden ? '<' : '>';
   });
 
   videos.forEach((v, i) => {
@@ -1352,5 +1272,6 @@
   xrayCloseBtn.addEventListener('click', closeXrayPanel);
 
 </script>
-  </body>
+
+</body>
 </html>
