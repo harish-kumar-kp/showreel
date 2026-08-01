@@ -7,23 +7,28 @@
   * { box-sizing: border-box; }
   html, body {
     margin: 0;
-    width: 980px;
-    height: 548px;
+    width: 100%;
+    height: 100%;
     background: #111;
     color: #eee;
     font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     overflow: hidden;
+  }
+  body {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
   }
   .stage {
     width: 980px;
     height: 548px;
+    max-width: 980px;
+    max-height: 548px;
     display: flex;
     flex-direction: column;
-    padding: 4px;
+    padding: 0;
     position: relative;
+    overflow: hidden;
     flex-shrink: 0;
   }
   h1 {
@@ -47,44 +52,49 @@
   }
   .toggle-btn {
     position: absolute;
-    top: 8px;
-    right: 196px;
+    top: 14px;
+    right: 254px;
     z-index: 30;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #eee;
     border: 1px solid rgba(255,255,255,0.28);
     border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 0.62rem;
+    padding: 6px 10px;
+    font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s, right 0.2s;
   }
   .toggle-btn.panel-hidden {
-    right: 8px;
+    right: 14px;
   }
   .toggle-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.5); }
+  .toggle-btn.selected {
+    background: rgba(93,169,255,0.22);
+    border-color: rgba(93,169,255,0.7);
+    color: #fff;
+  }
   .controls-toggle-btn {
     position: absolute;
     bottom: 58px;
-    left: 8px;
+    left: 12px;
     z-index: 30;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #eee;
     border: 1px solid rgba(255,255,255,0.28);
     border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 0.62rem;
+    padding: 6px 10px;
+    font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .controls-toggle-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.5); }
   .player-wrap {
-    background: #1b1b1b;
-    border-radius: 10px;
-    padding: 4px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    background: #000;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -96,7 +106,7 @@
     flex: 1;
     min-height: 0;
     background: #000;
-    border-radius: 6px;
+    border-radius: 0;
     display: block;
     object-fit: contain;
   }
@@ -115,8 +125,8 @@
     justify-content: flex-start;
     gap: 10px;
     flex-wrap: wrap;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(15,15,15,0.35);
+    backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.12);
     border-radius: 10px;
     padding: 8px 12px;
@@ -148,14 +158,14 @@
     flex-shrink: 0;
   }
   .ctrl-btn {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #eee;
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 6px;
     padding: 3px 8px;
     font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .ctrl-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
@@ -165,7 +175,7 @@
     flex-shrink: 0;
   }
   .subtitle-btn {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #ccc;
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 6px;
@@ -173,7 +183,7 @@
     font-size: 0.68rem;
     cursor: pointer;
     flex-shrink: 0;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .subtitle-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.5); }
@@ -183,7 +193,7 @@
     color: #fff;
   }
   .subtitle-btn.loading {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
     border-color: rgba(255,255,255,0.2);
     color: #888;
     cursor: default;
@@ -215,14 +225,14 @@
     white-space: pre-line;
   }
   .aspect-btn {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #ccc;
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 6px;
     padding: 3px 7px;
     font-size: 0.62rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .aspect-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.5); }
@@ -283,25 +293,25 @@
   /* RIGHT: floating, scrollable playlist panel — overlays the full-screen player */
   .thumbs-col {
     position: absolute;
-    top: 8px;
-    right: 8px;
-    bottom: 66px;
-    width: 180px;
+    top: 14px;
+    right: 14px;
+    bottom: 90px;
+    width: 230px;
     z-index: 25;
     display: flex;
     flex-direction: column;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.14);
+    background: transparent;
+    backdrop-filter: none;
+    border: 1px solid transparent;
     border-radius: 10px;
-    padding: 8px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    padding: 10px;
+    box-shadow: none;
     min-height: 0;
     transition: transform 0.2s ease, opacity 0.2s ease;
     overflow: hidden;
   }
   .thumbs-col.hidden {
-    transform: translateX(calc(100% + 16px));
+    transform: translateX(calc(100% + 24px));
     opacity: 0;
     pointer-events: none;
   }
@@ -424,14 +434,14 @@
     border-radius: 6px;
     overflow: hidden;
     border: 2px solid transparent;
-    background: rgba(255,255,255,0.1);
-    transition: border-color 0.15s, background 0.15s;
+    background: transparent;
+    transition: border-color 0.15s;
     position: relative;
     display: flex;
     align-items: center;
     flex-shrink: 0;
   }
-  .thumb:hover { border-color: #4a4a4a; background: rgba(255,255,255,0.09); }
+  .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
 
   .thumb img {
@@ -466,8 +476,8 @@
   /* ---- Scene Selection (S.S) button + panel ---- */
   .scene-panel {
     position: absolute;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(15,15,15,0.45);
+    backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.18);
     border-radius: 8px;
     padding: 8px;
@@ -479,7 +489,7 @@
   }
   .scene-panel.hidden { display: none; }
   .scene-panel .scene-item {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #eee;
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 6px;
@@ -489,7 +499,7 @@
     cursor: pointer;
     text-align: center;
     white-space: pre-line;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .scene-panel .scene-item:hover { background: rgba(255,255,255,0.18); border-color: rgba(93,169,255,0.7); }
@@ -504,8 +514,8 @@
   /* ---- Aspect Ratio menu button + popup panel ---- */
   .aspect-panel {
     position: absolute;
-    background: rgba(15,15,15,0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(15,15,15,0.45);
+    backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.18);
     border-radius: 8px;
     padding: 6px;
@@ -521,8 +531,8 @@
     position: absolute;
     inset: 0;
     /* Semi-transparent so the paused/playing video is still visible behind the info */
-    background: rgba(10,10,10,0.1);
-    backdrop-filter: blur(2px);
+    background: rgba(10,10,10,0.62);
+    backdrop-filter: blur(0.1px);
     z-index: 9;
     display: none;
     flex-direction: column;
@@ -542,14 +552,14 @@
     font-size: 0.85rem;
   }
   .xray-close {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.06);
     color: #eee;
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 6px;
     padding: 3px 9px;
     font-size: 0.7rem;
     cursor: pointer;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .xray-close:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
@@ -613,8 +623,8 @@
 <script src="VIdOTT/data/data.js"></script>
 <div class="stage">
   <div class="layout">
-    <div class="player-col" style="top: 0px; left: 1px; width: 970px; height: 546px;">
-      <button class="toggle-btn" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
+    <div class="player-col">
+      <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
       <div class="player-wrap">
         <video id="video" controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
@@ -723,12 +733,6 @@
   controlsToggleBtn.addEventListener('click', () => {
     controlsManuallyHidden = !controlsManuallyHidden;
     controlsToggleBtn.textContent = controlsManuallyHidden ? 'Show Controls ▴' : 'Hide Controls ▾';
-    if (controlsManuallyHidden) {
-      // The controls bar is the parent — its child popups (scene select, aspect
-      // ratio) must never stay open/selectable once the parent is hidden.
-      closeScenePanel();
-      closeAspectPanel();
-    }
     updateControlsVisibility();
   });
 
@@ -741,10 +745,7 @@
     controlsToggleBtn.style.left = Math.max(4, left) + 'px';
   }
   positionControlsToggle();
-  window.addEventListener('resize', () => {
-    positionControlsToggle();
-    if (!scenePanel.classList.contains('hidden')) positionScenePanel();
-  });
+  window.addEventListener('resize', positionControlsToggle);
 
   // ---- Subtitles (.srt) — fail-proof loader ----
   let subtitleCues = [];      // [{start, end, text}]
@@ -932,18 +933,19 @@
     }
   }
 
-  // Position the Scene Selection panel beside (to the right of) the
-  // Hide/Show Controls button — not stacked above it — so the two never overlap.
+  // Position the Scene Selection panel directly beside (to the right of)
+  // the show/hide controls button, vertically aligned with its bottom edge.
   function positionScenePanel() {
     const btnRect = controlsToggleBtn.getBoundingClientRect();
     const wrapRect = playerWrap.getBoundingClientRect();
-    scenePanel.style.left = Math.round(btnRect.right - wrapRect.left + 10) + 'px';
-    scenePanel.style.bottom = Math.max(4, Math.round(wrapRect.bottom - btnRect.bottom)) + 'px';
+    const left = (btnRect.right - wrapRect.left) + 8;
+    const bottom = wrapRect.bottom - btnRect.bottom;
+    scenePanel.style.left = Math.max(4, left) + 'px';
+    scenePanel.style.bottom = Math.max(4, bottom) + 'px';
   }
 
   sceneBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    if (controlsManuallyHidden) return; // parent controls bar must be shown first
     const isHidden = scenePanel.classList.contains('hidden');
     closeAspectPanel();
     if (isHidden) {
@@ -982,7 +984,6 @@
 
   aspectMenuBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    if (controlsManuallyHidden) return; // parent controls bar must be shown first
     const isHidden = aspectPanel.classList.contains('hidden');
     closeScenePanel();
     if (isHidden) {
@@ -1195,6 +1196,7 @@
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
     toggleBtn.classList.toggle('panel-hidden', isHidden);
+    toggleBtn.classList.toggle('selected', !isHidden);
     toggleBtn.textContent = isHidden ? '☰ Show Playlist' : '☰ Hide Playlist';
   });
 
