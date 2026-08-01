@@ -97,6 +97,8 @@
     box-shadow: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex: 1;
     min-height: 0;
     position: relative;
@@ -109,6 +111,7 @@
     border-radius: 0;
     display: block;
     object-fit: contain;
+    object-position: center center;
   }
   .now-playing {
     position: absolute;
@@ -248,16 +251,19 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    object-position: center center;
   }
   video[data-ratio="fill"] {
     width: 100%;
     height: 100%;
     object-fit: fill;
+    object-position: center center;
   }
   video[data-ratio="zoom"] {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center center;
   }
   video[data-ratio="16:9"] {
     flex: 0 1 auto;
@@ -266,7 +272,9 @@
     max-height: 100%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
+    object-position: center center;
     margin: auto;
+    align-self: center;
   }
   video[data-ratio="4:3"] {
     flex: 0 1 auto;
@@ -275,12 +283,15 @@
     max-width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: contain;
+    object-position: center center;
     margin: auto;
+    align-self: center;
   }
   video[data-ratio="squeeze"] {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    object-position: center center;
     transform: scaleY(0.82);
     transform-origin: center center;
   }
@@ -623,7 +634,7 @@
 <script src="VIdOTT/data/data.js"></script>
 <div class="stage">
   <div class="layout">
-    <div class="player-col" style="top: 0px; left: 0px; width: 970px; height: 548px;">
+    <div class="player-col">
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
       <div class="player-wrap">
         <video id="video" controlsList="nodownload" data-ratio="fit"></video>
