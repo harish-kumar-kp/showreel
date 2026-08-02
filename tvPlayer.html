@@ -725,6 +725,25 @@
   const runtimeEl = document.getElementById('runtime');
   const clockEl = document.getElementById('clock');
   const thumbsEl = document.getElementById('thumbs');
+
+  // Scroll only the playlist list itself so the active thumbnail stays in
+  // view. Native scrollIntoView() walks up every ancestor scroll container
+  // (including html/body/.stage, which are all technically scrollable even
+  // with overflow:hidden) and was shifting the entire layout sideways every
+  // time autorun advanced to the next video. Scoping the scroll to just this
+  // element avoids that entirely.
+  function scrollThumbIntoView(el) {
+    if (!el) return;
+    const cTop = thumbsEl.scrollTop;
+    const cBottom = cTop + thumbsEl.clientHeight;
+    const eTop = el.offsetTop;
+    const eBottom = eTop + el.offsetHeight;
+    if (eTop < cTop) {
+      thumbsEl.scrollTo({ top: eTop, behavior: 'smooth' });
+    } else if (eBottom > cBottom) {
+      thumbsEl.scrollTo({ top: eBottom - thumbsEl.clientHeight, behavior: 'smooth' });
+    }
+  }
   const thumbsCol = document.getElementById('thumbsCol');
   const toggleBtn = document.getElementById('toggleBtn');
   const playPauseBtn = document.getElementById('playPauseBtn');
@@ -1086,7 +1105,7 @@
     thumbEls.forEach(t => t.classList.remove('active'));
     if (thumbEls[i]) {
       thumbEls[i].classList.add('active');
-      thumbEls[i].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      scrollThumbIntoView(thumbEls[i]);
     }
 
     video.src = v.src;
