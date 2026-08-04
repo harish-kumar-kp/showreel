@@ -584,7 +584,10 @@
 
   #xrayPanel {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60%;
     /* Semi-transparent so the paused/playing video is still visible behind the info */
     background: rgba(10,10,10,0.62);
     backdrop-filter: blur(0.1px);
@@ -598,7 +601,8 @@
   .xray-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 12px;
     margin-bottom: 10px;
     flex-shrink: 0;
   }
