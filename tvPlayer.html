@@ -175,6 +175,16 @@
     transition: background 0.15s, border-color 0.15s;
   }
   .ctrl-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+  .ctrl-btn.hq-on {
+    background: rgba(93,169,255,0.28);
+    border-color: rgba(93,169,255,0.85);
+    color: #fff;
+    box-shadow: 0 0 6px rgba(93,169,255,0.6);
+  }
+  #video.hq-enhanced {
+    filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
+    image-rendering: -webkit-optimize-contrast;
+  }
   #runtime {
     color: #5da9ff;
     font-variant-numeric: tabular-nums;
@@ -711,6 +721,7 @@
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
             <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
+            <button class="ctrl-btn" id="hqBtn" title="Toggle HQ Upscale & Enhance">HQ</button>
             <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
           </span>
 	<span>&nbsp;</span>
@@ -1215,6 +1226,18 @@
     const max = video.duration || Infinity;
     video.currentTime = Math.min(max, video.currentTime + 10);
   });
+
+  // HQ Upscale & Enhance toggle — applies a CSS-based sharpen/contrast/saturation
+  // boost to the video element to visually enhance perceived quality.
+  const hqBtn = document.getElementById('hqBtn');
+  let hqEnabled = false;
+  hqBtn.addEventListener('click', () => {
+    hqEnabled = !hqEnabled;
+    hqBtn.classList.toggle('hq-on', hqEnabled);
+    video.classList.toggle('hq-enhanced', hqEnabled);
+    hqBtn.title = hqEnabled ? 'HQ Enhance: On' : 'Toggle HQ Upscale & Enhance';
+  });
+
   function updateClock() {
     const now = new Date();
     const h = now.getHours().toString().padStart(2, '0');
