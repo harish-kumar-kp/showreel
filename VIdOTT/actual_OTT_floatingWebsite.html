@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>kOTTe - Its My OTT </title>
 <style>
   * { box-sizing: border-box; }
@@ -357,10 +358,47 @@
     left: 13px;
     background: #5da9ff;
   }
+  .controls-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 2px 8px 2px;
+    flex-shrink: 0;
+  }
+  .search-toggle-btn {
+    background: rgba(255,255,255,0.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-size: 0.72rem;
+    line-height: 1;
+    cursor: pointer;
+    flex-shrink: 0;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .search-toggle-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+  .search-toggle-btn.active {
+    background: rgba(93,169,255,0.22);
+    border-color: rgba(93,169,255,0.7);
+    color: #fff;
+  }
   .search-wrap {
     position: relative;
-    flex-shrink: 0;
-    margin: 0 2px 8px 2px;
+    flex: 0 1 0;
+    min-width: 0;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: max-width 0.2s ease, opacity 0.15s ease;
+  }
+  .search-wrap.open {
+    flex: 1 1 auto;
+    max-width: 400px;
+    opacity: 1;
+    overflow: visible;
   }
   .search-input {
     width: 100%;
@@ -462,7 +500,7 @@
   .scene-panel {
     position: absolute;
     bottom: 60px;
-    left: 12px;
+    left: 12px; /* fallback; JS repositions this next to the S.S button */
     background: rgba(15,15,15,0.45);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.18);
@@ -607,7 +645,7 @@
 </style>
 </head>
 <body>
-<script src="VIdOTT/data/data.js"></script>
+<script src="data/data.js"></script>
 <div class="stage">
   <div class="layout">
     <div class="player-col">
@@ -671,9 +709,12 @@
           </span>
         </span>
       </div>
-      <div class="search-wrap">
-        <input type="text" class="search-input" id="titleSearch" placeholder="Search titles… (Enter to play)" autocomplete="off">
-        <button class="search-clear" id="searchClear" title="Clear search">✕</button>
+      <div class="controls-row">
+        <button class="search-toggle-btn" id="searchToggleBtn" title="Search titles">🔍</button>
+        <div class="search-wrap" id="searchWrap">
+          <input type="text" class="search-input" id="titleSearch" placeholder="Search titles… (Enter to play)" autocomplete="off">
+          <button class="search-clear" id="searchClear" title="Clear search">✕</button>
+        </div>
       </div>
       <div class="thumbs" id="thumbs"></div>
     </div>
@@ -894,6 +935,31 @@
     updateControlsVisibility();
   }
 
+  // Anchor the scene panel next to the S.S button rather than a fixed spot,
+  // and keep it clear of the "Hide/Show Controls" button (which floats above
+  // the play/pause button) and the right edge of the player.
+  function positionScenePanel() {
+    const btnRect = sceneBtn.getBoundingClientRect();
+    const wrapRect = playerWrap.getBoundingClientRect();
+    const toggleRect = controlsToggleBtn.getBoundingClientRect();
+
+    let left = (btnRect.left - wrapRect.left);
+    const maxLeft = wrapRect.width - scenePanel.offsetWidth - 8;
+    left = Math.max(8, Math.min(left, maxLeft));
+
+    // If that spot would still sit under the show/hide button, push right of it.
+    const toggleLeftRel = toggleRect.left - wrapRect.left;
+    const toggleRightRel = toggleRect.right - wrapRect.left;
+    const panelRight = left + scenePanel.offsetWidth;
+    const overlaps = left < toggleRightRel + 8 && panelRight > toggleLeftRel - 8;
+    if (overlaps) {
+      left = Math.min(toggleRightRel + 8, maxLeft);
+      left = Math.max(8, left);
+    }
+
+    scenePanel.style.left = left + 'px';
+  }
+
   function buildScenePanel() {
     scenePanel.innerHTML = '';
     const duration = video.duration;
@@ -927,10 +993,15 @@
     if (isHidden) {
       buildScenePanel();
       scenePanel.classList.remove('hidden');
+      positionScenePanel();
       updateControlsVisibility();
     } else {
       closeScenePanel();
     }
+  });
+
+  window.addEventListener('resize', () => {
+    if (!scenePanel.classList.contains('hidden')) positionScenePanel();
   });
 
   document.addEventListener('click', (e) => {
@@ -1192,6 +1263,8 @@
   // ---- Title search: filter the thumbnail list live, Enter plays the first match ----
   const titleSearch = document.getElementById('titleSearch');
   const searchClear = document.getElementById('searchClear');
+  const searchToggleBtn = document.getElementById('searchToggleBtn');
+  const searchWrap = document.getElementById('searchWrap');
 
   function filterThumbs() {
     const query = titleSearch.value.trim().toLowerCase();
@@ -1205,6 +1278,24 @@
     return firstMatch;
   }
 
+  function openSearch() {
+    searchWrap.classList.add('open');
+    searchToggleBtn.classList.add('active');
+    titleSearch.focus();
+  }
+
+  function closeSearch() {
+    searchWrap.classList.remove('open');
+    searchToggleBtn.classList.remove('active');
+    titleSearch.value = '';
+    filterThumbs();
+  }
+
+  searchToggleBtn.addEventListener('click', () => {
+    if (searchWrap.classList.contains('open')) closeSearch();
+    else openSearch();
+  });
+
   titleSearch.addEventListener('input', filterThumbs);
 
   titleSearch.addEventListener('keydown', (e) => {
@@ -1214,9 +1305,7 @@
         playByIndex(firstMatch);
       }
     } else if (e.key === 'Escape') {
-      titleSearch.value = '';
-      filterThumbs();
-      titleSearch.blur();
+      closeSearch();
     }
   });
 
