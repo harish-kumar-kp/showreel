@@ -21,10 +21,10 @@
     justify-content: flex-start;
   }
   .stage {
-    width: 100vw;
-    height: 100vh;
-    max-width: 1920px;
-    max-height: 1080px;
+    width: 980px;
+    height: 556px;
+    max-width: 980px;
+    max-height: 556px;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -47,7 +47,10 @@
   /* LEFT: player — now the only thing in the flow; fills the whole viewport */
   .player-col {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
+    width: 978px;
+    height: 556px;
     display: flex;
     flex-direction: column;
   }
@@ -687,7 +690,7 @@
 </style>
 </head>
 <body>
-<script src="data/data.js"></script>
+<script src="VIdOTT/data/data.js"></script>
 <div class="stage">
   <div class="layout">
     <div class="player-col">
