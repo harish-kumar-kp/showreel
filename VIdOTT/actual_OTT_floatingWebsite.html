@@ -17,14 +17,16 @@
   }
   body {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
   }
   .stage {
-    width: 980px;
-    height: 556px;
-    max-width: 980px;
-    max-height: 556px;
+    width: 100%;
+    height: 100%;
+    max-width: min(100vw, calc(100vh * (980 / 556)));
+    max-height: min(100vh, calc(100vw * (556 / 980)));
+    aspect-ratio: 980 / 556;
+    margin: auto;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -47,10 +49,7 @@
   /* LEFT: player — now the only thing in the flow; fills the whole viewport */
   .player-col {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 978px;
-    height: 556px;
+    inset: 0;
     display: flex;
     flex-direction: column;
   }
@@ -132,22 +131,16 @@
     justify-content: flex-start;
     gap: 10px;
     flex-wrap: wrap;
-    background: rgba(15,15,15,0.35);
-    backdrop-filter: blur(0.1px);
+    background: rgba(15,15,15,0.55);
+    backdrop-filter: blur(6px);
     border: 1px solid rgba(255,255,255,0.12);
     border-radius: 10px;
     padding: 8px 12px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-  }
-  .player-wrap:hover .now-playing,
-  .now-playing:focus-within,
-  .now-playing.force-visible {
     opacity: 1;
     pointer-events: auto;
+    transition: opacity 0.2s;
   }
-  /* Manual override from the show/hide button — always wins, even on hover/pause */
+  /* Manual override from the show/hide button — the only thing that hides this bar now */
   .now-playing.pinned-hidden {
     opacity: 0 !important;
     pointer-events: none !important;
@@ -321,7 +314,7 @@
     top: 14px;
     right: 14px;
     bottom: 90px;
-    width: 230px;
+    width: min(230px, 28%);
     z-index: 25;
     display: flex;
     flex-direction: column;
