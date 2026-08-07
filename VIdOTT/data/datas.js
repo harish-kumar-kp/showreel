@@ -154,6 +154,11 @@
       src: "https://archive.org/download/fantasia-special-edition-laserdisc-restoration-with-sunflower-v-1.0/Fantasia_Special_Edition_Laserdisc_Restoration_with_Sunflower_v1.0.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b399f-91c8-7e57-b452-6df1d4a12dfc/compose?aspectRatio=1.78&format=webp&width=1200"
     },
+{
+      title: "The Secret of NIMH (1982)",
+      src: "https://archive.org/download/the-secret-of-nimh-1982_202511/The%20Secret%20Of%20NIMH%20%281982%29/mp4/The%20Secret%20of%20NIMH%201982.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24m6NroPJzev5KgjtWQclP1lZAfIYIvYJqcpt0dQUDA&s=10"
+    },
     {
       title: "Ant Bully 2006",
       src: "https://dn710205.ca.archive.org/0/items/Popcornarchive-theAntBully2006_ta993/Popcornarchive-theAntBully2006_ta993.mp4",
@@ -197,16 +202,23 @@
       src: "https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10"
     },
+   {
+      title: "Where Eagles Dare",
+      src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/whereEaglesDare.srt"
+    },
+    {
+      title: "The Bridge on the River Kwai (1957)",
+      src: "https://archive.org/download/the-bridge-on-the-river-kwai-1957_202511/The%20Bridge%20on%20the%20River%20Kwai%20%281957%29/The%20Bridge%20on%20the%20River%20Kwai%20-%201957.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQ-1fJjQ3nLMORW5Ek8NG08zyzqdxPLUwh7PM30eBkgDk1E6nF3y1LYOj&s=10"
+    },
     {
       title: "Guns of Neverone",
       src: "https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4",
       thumb: "https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg"
     },
-    {
-      title: "Jason and the Argonauts",
-      src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
-      thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg"
-    },
+    
     {
       title: "King Solomons Mines 1985",
       src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2001%20-%20King%20Solomons%20Mines.mp4",
@@ -236,16 +248,11 @@
       src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
       thumb: "https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg"
     },
-    {
-      title: "Where Eagles Dare",
-      src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
-      thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/whereEaglesDare.srt"
-    },
-    {
-      title: "The Bridge on the River Kwai (1957)",
-      src: "https://archive.org/download/the-bridge-on-the-river-kwai-1957_202511/The%20Bridge%20on%20the%20River%20Kwai%20%281957%29/The%20Bridge%20on%20the%20River%20Kwai%20-%201957.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQ-1fJjQ3nLMORW5Ek8NG08zyzqdxPLUwh7PM30eBkgDk1E6nF3y1LYOj&s=10"
+    
+{
+      title: "Jason and the Argonauts",
+      src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
+      thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg"
     },
     {
       title: "Captain Sindbad (1963)",
@@ -313,12 +320,6 @@
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/7f1febf752aba2f8e392247717048c68eb8d64f5a05ddcae893f039d6383c164.png"
     },
     {
-      title: "The Secret of NIMH (1982)",
-      src: "https://archive.org/download/the-secret-of-nimh-1982_202511/The%20Secret%20Of%20NIMH%20%281982%29/mp4/The%20Secret%20of%20NIMH%201982.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24m6NroPJzev5KgjtWQclP1lZAfIYIvYJqcpt0dQUDA&s=10"
-    },
-
-    {
       title: "National Treasure Book of Secrets 2007",
       src: "https://archive.org/download/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiys5p8VSIyvqJgIkxbkH8AdQ_o005sT9sNjmj_f6nhtenXDdgCFceX8w&s=10"
@@ -328,16 +329,7 @@
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Vertical.Limit.%282000%29.H265.1080p.DVDRip.EzzRips/Vertical.Limit.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaradMxoriUb63yKZA2wQlmnuTaycy0IbYZdo0oIy_g&s=10"
     },
-    {
-      title: "Deep Blue Sea 2007",
-      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Deep.Blue.Sea.%281999%29.H265.1080p.DVDRip.EzzRips/Deep.Blue.Sea.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
-      thumb: "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-image-of-characters-and-sharks-from-Deep-Blue-Sea.jpg?q=50&fit=crop&w=360&h=240&dpr=1.5"
-    },
-    {
-      title: "Gone In Sixty Seconds 2000",
-      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Gone.in.60.Seconds.%282000%29.H265.1080p.DVDRip.EzzRips/Gone.In.Sixty.Seconds.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
-      thumb: "https://i.ytimg.com/vi/kEbu0mqylT4/maxresdefault.jpg"
-    },
+  
     {
       title: "Aeroplanes! 1980",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Airplane%21.%281980%29.H265.1080p.DVDRip.EzzRips/Airplane%21.%281980%29.H265.1080P.Dvdrip.Ezzrips.mp4",
@@ -372,6 +364,7 @@
     {
       title: "3000 Miles To Graceland 2001",
       src: "https://archive.org/download/3000-miles-to-graceland-2001/3000%20Miles%20to%20Graceland%20%282001%29.mp4",
+
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSujRLI-i15bBspW9ZiLENq1YpzKB0oeJG9NEdgXlZg&s"
     },
     {
@@ -399,7 +392,277 @@
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202014.mp4",
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg"
     },
-	{
+    {
+      title: "Planet Earth-Ep01",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_01_from_pole_to_pole.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 1,
+      episodeTitle: "From Pole to Pole"
+    },
+   {
+      title: "Planet Earth-Ep02",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_02_mountains.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 2,
+      episodeTitle: "Mountains"
+    },
+   {
+      title: "Planet Earth-Ep03",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_03_fresh_water.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 3,
+      episodeTitle: "Fresh Water"
+    },
+   {
+      title: "Planet Earth-Ep04",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_04_caves.mkv",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 4,
+      episodeTitle: "Caves"
+    },
+
+   {
+      title: "Planet Earth-Ep05",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_05_deserts.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 5,
+      episodeTitle: "Deserts"
+    },
+{
+      title: "Planet Earth-Ep06",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_06_ice_worlds.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 6,
+      episodeTitle: "Ice Worlds"
+    },
+{
+      title: "Planet Earth-Ep07",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_07_great_plains.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 7,
+      episodeTitle: "Great Plains"
+    },
+{
+      title: "Planet Earth-Ep08",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_08_jungles.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 8,
+      episodeTitle: "Jungles"
+    },
+
+{
+      title: "Planet Earth-Ep09",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_09_shallow_seas.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 9,
+      episodeTitle: "Shallow Seas"
+    },
+    {
+      title: "Planet Earth-Ep10",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_10_seasonal_forests.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 10,
+      episodeTitle: "Seasonal Forests"
+    },
+    {
+      title: "Planet Earth-Ep11",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_11_ocean_deep.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 11,
+      episodeTitle: "Ocean Deep"
+    },
+    {
+      title: "Planet Earth-Ep12",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_12_saving_species.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 12,
+      episodeTitle: "Saving Species"
+    },
+    {
+      title: "Planet Earth-Ep13",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_13_into_the_wilderness.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 13,
+      episodeTitle: "Into the Wilderness"
+    },
+    {
+      title: "Planet Earth-Ep14",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_14_living_together.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      series: "Planet Earth",
+      episode: 14,
+      episodeTitle: "Living Together"
+    },
+
+{
+      title: "Planet Earth II-Ep01:Islands",
+      src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_01_islands.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      series: "Planet Earth II",
+      episode: 1,
+      episodeTitle: "Islands"
+    },
+    {
+      title: "Planet Earth II-Ep02:Mountains",
+      src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_02_mountains.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      series: "Planet Earth II",
+      episode: 2,
+      episodeTitle: "Mountains"
+    },
+    {
+      title: "Planet Earth II-Ep03:Jungles",
+      src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_03_jungles.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      series: "Planet Earth II",
+      episode: 3,
+      episodeTitle: "Jungles"
+    },
+    {
+      title: "Planet Earth II-Ep04:Deserts",
+      src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_04_deserts.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      series: "Planet Earth II",
+      episode: 4,
+      episodeTitle: "Deserts"
+    },
+    {
+      title: "Planet Earth II-Ep05:Grasslands",
+      src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_05_grasslands.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      series: "Planet Earth II",
+      episode: 5,
+      episodeTitle: "Grasslands"
+    },
+    {
+      title: "Planet Earth II-Ep06:Cities",
+      src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_06_cities.mkv",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      series: "Planet Earth II",
+      episode: 6,
+      episodeTitle: "Cities"
+    },
+
+
+    {
+      title: "The Blue Planet-Ep01",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_01_ocean_world.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 1,
+      episodeTitle: "Ocean World"
+    },
+    {
+      title: "The Blue Planet-Ep02",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_02_frozen_seas.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 2,
+      episodeTitle: "Frozen Seas"
+    },
+    {
+      title: "The Blue Planet-Ep03",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_03_open_ocean.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 3,
+      episodeTitle: "Open Ocean"
+    },
+    {
+      title: "The Blue Planet-Ep04",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_04_the_deep.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 4,
+      episodeTitle: "The Deep"
+    },
+    {
+      title: "The Blue Planet-Ep05",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_05_seasonal_seas.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 5,
+      episodeTitle: "Seasonal Seas"
+    },
+    {
+      title: "The Blue Planet-Ep06",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_06_coral_seas.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 6,
+      episodeTitle: "Coral Seas"
+    },
+    {
+      title: "The Blue Planet-Ep07",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_07_tidal_seas.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 7,
+      episodeTitle: "Tidal Seas"
+    },
+    {
+      title: "The Blue Planet-Ep08",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_08_coasts.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 8,
+      episodeTitle: "Coasts"
+    },
+    {
+      title: "The Blue Planet-Ep09",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_09_deep_trouble.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 9,
+      episodeTitle: "Deep Trouble"
+    },
+    {
+      title: "The Blue Planet-Ep10",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_10_amazon_abyss.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 10,
+      episodeTitle: "Amazon Abyss"
+    },
+    {
+      title: "The Blue Planet-Ep11",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_11_dive_to_shark_volcano.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 11,
+      episodeTitle: "Dive to Shark Volcano"
+    },
+    {
+      title: "The Blue Planet-Ep12",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_12_being_there_antarctica.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 12,
+      episodeTitle: "Being there Antarctica"
+    },
+    {
+      title: "The Blue Planet-Ep13",
+      src: "https://archive.org/download/the_blue_planet/the_blue_planet_13_being_there_between_the_tides.mp4",
+      thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
+      series: "The Blue Planet",
+      episode: 13,
+      episodeTitle: "Being there between the Tides"
+    },
+
+    {
       title: "Walking-with-Dinosaurs-Ep01",
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%201%20-%20New%20Blood.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
@@ -514,5 +777,15 @@
       title: "Happy Feet 2",
       src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
       thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
+    },
+  {
+      title: "Deep Blue Sea 2007",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Deep.Blue.Sea.%281999%29.H265.1080p.DVDRip.EzzRips/Deep.Blue.Sea.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-image-of-characters-and-sharks-from-Deep-Blue-Sea.jpg?q=50&fit=crop&w=360&h=240&dpr=1.5"
+    },
+    {
+      title: "Gone In Sixty Seconds 2000",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Gone.in.60.Seconds.%282000%29.H265.1080p.DVDRip.EzzRips/Gone.In.Sixty.Seconds.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://i.ytimg.com/vi/kEbu0mqylT4/maxresdefault.jpg"
     }
   ];
