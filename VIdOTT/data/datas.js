@@ -393,6 +393,71 @@
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg"
     },
     {
+      title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 1,
+      episodeTitle: "TRAILER"
+    }, 
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep02:Antarctica",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_1_Antarctica.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 2,
+      episodeTitle: "Antarctica"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_2_Asia.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 3,
+      episodeTitle: "Asia"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep04:South_America",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_3_South_America.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 4,
+      episodeTitle: "South_America"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep05:Australia",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_4_Australia.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 5,
+      episodeTitle: "Australia"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep06:Europe",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_5_Europe.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 6,
+      episodeTitle: "Europe"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep07:North_America",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_6_North_America.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 7,
+      episodeTitle: "North_America"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep08:Africa",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_7_Africa.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 8,
+      episodeTitle: "Africa"
+    },
+
+    {
       title: "Planet Earth-Ep01",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_01_from_pole_to_pole.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
