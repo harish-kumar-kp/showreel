@@ -406,7 +406,8 @@
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 2,
-      episodeTitle: "Antarctica"
+      episodeTitle: "Antarctica",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/SpriteFright_en.srt"
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
@@ -908,6 +909,11 @@
       title: "Happy Feet 2",
       src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
       thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
+    },
+    {
+      title: "IPTV TEST",
+      src: "https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyc0-RsVKTimb3HK_bGU0baLFU9Sd7GjcbphGu2nFunw&s=10"
     },
   {
       title: "Deep Blue Sea 2007",
