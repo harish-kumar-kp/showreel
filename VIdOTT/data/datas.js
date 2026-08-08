@@ -912,7 +912,7 @@
     },
     {
       title: "IPTV TEST",
-      src: "https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8",
+      src: "https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyc0-RsVKTimb3HK_bGU0baLFU9Sd7GjcbphGu2nFunw&s=10"
     },
   {
