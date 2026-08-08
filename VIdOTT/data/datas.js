@@ -623,6 +623,72 @@
 
 
     {
+      title: "Planet Earth III-Ep01:Coasts",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_01_coasts.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 1,
+      episodeTitle: "Coasts"
+    },
+   {
+      title: "Planet Earth III-Ep02:Ocean",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_02_ocean.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 2,
+      episodeTitle: "Ocean"
+    },
+   {
+      title: "Planet Earth III-Ep03:Deserts & Grasslands",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_03_deserts_and_grasslands.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 3,
+      episodeTitle: "Deserts & Grasslands"
+    },
+   {
+      title: "Planet Earth III-Ep04:Freshwater",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_04_freshwater.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 4,
+      episodeTitle: "Freshwater"
+    },
+
+   {
+      title: "Planet Earth III-Ep05:Forests",
+      src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_05_deserts.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 5,
+      episodeTitle: "Forests"
+    },
+    {
+      title: "Planet Earth III-Ep06:Extremes",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_06_extremes.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 6,
+      episodeTitle: "Extremes"
+    },
+    {
+      title: "Planet Earth III-Ep07:Human",
+      src: https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_07_human.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 7,
+      episodeTitle: "Human"
+    },
+    {
+      title: "Planet Earth III-Ep08:Heroes",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_08_heroes.mp4",
+      thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
+      series: "Planet Earth III",
+      episode: 8,
+      episodeTitle: "Heroes"
+    },
+    
+    {
       title: "The Blue Planet-Ep01",
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_01_ocean_world.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
