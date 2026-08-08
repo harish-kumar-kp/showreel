@@ -673,7 +673,7 @@
     },
     {
       title: "Planet Earth III-Ep07:Human",
-      src: https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_07_human.mp4",
+      src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_07_human.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
       episode: 7,
