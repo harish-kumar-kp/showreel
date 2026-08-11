@@ -346,9 +346,9 @@
       thumb: "https://ccapp.osu.edu/sites/default/files/styles/news_and_events_image/public/2022-11/event_spaceballs_0.jpg?h=d1cb525d&itok=6elScADy"
     },
    {
-      title: "UHF 1989",
-      src: "https://archive.org/download/uhf.-1989/UHF%20%281989%29/mp4/UHF.1989.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX3ABbHBA9pJeyqDeMdrKNQmSi9vhkQnUJfDyvSz-hUYB0pGDf-fbGDb0&s=10"
+      title: "Poltergeist 1982",
+      src: "https://ia803104.us.archive.org/13/items/poltergeist.-1982/Poltergeist.1982.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnvNzxHX9XWVTk5tnxyIAa30-Q0JFSwsDQxueLWZHJXw&s=10"
     },
 
      {
