@@ -154,10 +154,15 @@
       src: "https://archive.org/download/fantasia-special-edition-laserdisc-restoration-with-sunflower-v-1.0/Fantasia_Special_Edition_Laserdisc_Restoration_with_Sunflower_v1.0.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b399f-91c8-7e57-b452-6df1d4a12dfc/compose?aspectRatio=1.78&format=webp&width=1200"
     },
-{
+    {
       title: "The Secret of NIMH (1982)",
       src: "https://archive.org/download/the-secret-of-nimh-1982_202511/The%20Secret%20Of%20NIMH%20%281982%29/mp4/The%20Secret%20of%20NIMH%201982.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24m6NroPJzev5KgjtWQclP1lZAfIYIvYJqcpt0dQUDA&s=10"
+    },
+    {
+      title: "Masters of the Universe (1987)",
+      src: "https://archive.org/download/masters-of-the-universe-1987_202304/Masters%20of%20the%20universe%201987.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnFaIN2X21n94ST7uUV8rLfLlXc8j49c1eGcOcdhU8w&s=10"
     },
     {
       title: "Ant Bully 2006",
