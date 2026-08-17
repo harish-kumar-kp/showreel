@@ -51,7 +51,8 @@
     {
       title: "Charge -Short",
       src: "https://video.blender.org/download/web-videos/04da454b-9893-4184-98f3-248d00625efe-1080.mp4",
-      thumb: "https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg"
+      thumb: "https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg",
+	  category: "Shorts"
     },
     {
       title: "Making-Charge -Doc.",
