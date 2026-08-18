@@ -851,17 +851,24 @@
   .idle-wallpaper {
     position: absolute;
     inset: 0;
-    background-image: url("https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    /* Solid fallback color so the area isn't pure black even if the image
+       never loads (e.g. blocked network request in some Android app shells). */
+    background-color: #1a1a1a;
     z-index: 2;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.5s ease;
+    overflow: hidden;
   }
   .idle-wallpaper.show {
     opacity: 0.5;
+  }
+  .idle-wallpaper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
   }
 
 </style>
@@ -874,7 +881,7 @@
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
       <div class="player-wrap">
         <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
-        <div id="idleWallpaper" class="idle-wallpaper show"></div>
+        <div id="idleWallpaper" class="idle-wallpaper show"><img id="idleWallpaperImg" alt="" draggable="false"></div>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
           <div class="xray-header">
@@ -1424,6 +1431,32 @@
   // rendering. Uses 'playing' (not just 'play') so it stays up through any
   // buffering/loading gap, and reappears on 'waiting' (stalls/buffering).
   const idleWallpaper = document.getElementById('idleWallpaper');
+  const idleWallpaperImg = document.getElementById('idleWallpaperImg');
+
+  // Some Android app WebView wrappers (a) don't render CSS background-image
+  // reliably, and/or (b) block requests to raw.githubusercontent.com while
+  // still allowing a CDN mirror. Using a real <img> with an ordered list of
+  // mirrors — falling through to the next on error — fixes both cases.
+  const WALLPAPER_MIRRORS = [
+    'https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg',
+    'https://cdn.jsdelivr.net/gh/harish-kumar-kp/showreel@main/VIdOTT/data/back_banner.jpg',
+    'https://cdn.statically.io/gh/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg'
+  ];
+  let wallpaperMirrorIdx = 0;
+
+  function tryLoadWallpaper() {
+    if (wallpaperMirrorIdx >= WALLPAPER_MIRRORS.length) {
+      console.warn('Idle wallpaper: all mirrors failed to load.');
+      return;
+    }
+    idleWallpaperImg.src = WALLPAPER_MIRRORS[wallpaperMirrorIdx];
+  }
+  idleWallpaperImg.addEventListener('error', () => {
+    wallpaperMirrorIdx++;
+    tryLoadWallpaper();
+  });
+  tryLoadWallpaper();
+
   function showIdleWallpaper() { idleWallpaper.classList.add('show'); video.classList.add('idle'); }
   function hideIdleWallpaper() { idleWallpaper.classList.remove('show'); video.classList.remove('idle'); }
 
