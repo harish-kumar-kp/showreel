@@ -116,6 +116,11 @@
     display: block;
     object-fit: contain;
     object-position: center center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  video.idle {
+    opacity: 0;
   }
   .now-playing {
     position: absolute;
@@ -853,10 +858,10 @@
     z-index: 2;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.3s ease;
   }
   .idle-wallpaper.show {
-    opacity: 0.2;
+    opacity: 0.1;
   }
 
 </style>
@@ -868,7 +873,7 @@
     <div class="player-col">
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
       <div class="player-wrap">
-        <video id="video" controlsList="nodownload" data-ratio="fit"></video>
+        <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
         <div id="idleWallpaper" class="idle-wallpaper show"></div>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
@@ -1419,8 +1424,8 @@
   // rendering. Uses 'playing' (not just 'play') so it stays up through any
   // buffering/loading gap, and reappears on 'waiting' (stalls/buffering).
   const idleWallpaper = document.getElementById('idleWallpaper');
-  function showIdleWallpaper() { idleWallpaper.classList.add('show'); }
-  function hideIdleWallpaper() { idleWallpaper.classList.remove('show'); }
+  function showIdleWallpaper() { idleWallpaper.classList.add('show'); video.classList.add('idle'); }
+  function hideIdleWallpaper() { idleWallpaper.classList.remove('show'); video.classList.remove('idle'); }
 
   video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; updateControlsVisibility(); });
   video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); showIdleWallpaper(); });
