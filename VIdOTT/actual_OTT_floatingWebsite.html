@@ -840,6 +840,25 @@
     color: #fff;
   }
 
+  /* ---- Idle wallpaper: shown behind the player whenever nothing is actively
+     playing (initial state, or paused — i.e. whenever the ▶ play icon is
+     showing). Hidden the instant playback actually starts. ---- */
+  .idle-wallpaper {
+    position: absolute;
+    inset: 0;
+    background-image: url("https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+  .idle-wallpaper.show {
+    opacity: 0.2;
+  }
+
 </style>
 </head>
 <body>
@@ -850,6 +869,7 @@
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
       <div class="player-wrap">
         <video id="video" controlsList="nodownload" data-ratio="fit"></video>
+        <div id="idleWallpaper" class="idle-wallpaper show"></div>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
           <div class="xray-header">
@@ -1393,8 +1413,21 @@
       video.pause();
     }
   });
+
+  // ---- Idle wallpaper: visible whenever the player is idle/paused (i.e.
+  // whenever the ▶ icon is showing), hidden the moment frames actually start
+  // rendering. Uses 'playing' (not just 'play') so it stays up through any
+  // buffering/loading gap, and reappears on 'waiting' (stalls/buffering).
+  const idleWallpaper = document.getElementById('idleWallpaper');
+  function showIdleWallpaper() { idleWallpaper.classList.add('show'); }
+  function hideIdleWallpaper() { idleWallpaper.classList.remove('show'); }
+
   video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; updateControlsVisibility(); });
-  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); });
+  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); showIdleWallpaper(); });
+  video.addEventListener('playing', hideIdleWallpaper);
+  video.addEventListener('waiting', showIdleWallpaper);
+  video.addEventListener('ended', showIdleWallpaper);
+  video.addEventListener('emptied', showIdleWallpaper);
 
   rewindBtn.addEventListener('click', () => {
     video.currentTime = Math.max(0, video.currentTime - 10);
