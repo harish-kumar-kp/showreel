@@ -52,7 +52,7 @@
       title: "Charge -Short",
       src: "https://video.blender.org/download/web-videos/04da454b-9893-4184-98f3-248d00625efe-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg",
-	  category: "Shorts"
+      category: "Shorts"
     },
     {
       title: "Making-Charge -Doc.",
@@ -306,18 +306,19 @@ category: "Action"
       title: "Jason and the Argonauts",
       src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
       thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg",
-category: "Action"
+category: "Mythology"
     },
     {
       title: "Captain Sindbad (1963)",
       src: "https://archive.org/download/Captain.Sindbad.1963.DVDRip/Captain.Sindbad.1963.DVDRip.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/069507013f9eab7830db9174291bdcfb32555b009f1858566aec1f60ec734b90.jpg",
-category: "Action"
+category: "Mythology"
     },
     {
       title: "Cleopatra 1963",
       src: "https://dn760104.eu.archive.org/0/items/cleopatra-1963_202511/Cleopatra%20%281963%29/Cleopatra%20-%201963.mp4",
-      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg"
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
+category: "Mythology"
     },
     {
       title: "5 Men Army 1969",
@@ -359,7 +360,8 @@ category: "Family"
     {
       title: "Breakfast At Tiffanys 1961",
       src: "https://archive.org/download/breakfast-at-tiffanys-1961_202508/Breakfast%20at%20Tiffany%27s%20%281961%29.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROx7IwqAiW_GcnMuQgEI2et-dZP_KGBxk0hIxPY5zPrA&s=10"
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROx7IwqAiW_GcnMuQgEI2et-dZP_KGBxk0hIxPY5zPrA&s=10",
+category: "Drama"
     },
     {
       title: "Shinning 1980",
@@ -371,7 +373,7 @@ category: "Family"
       title: "Big Trouble In Little China 1986",
       src: "https://archive.org/download/big-trouble-little-china/Big%20Trouble%20In%20Little%20China%20720p.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10",
-category: "Action"
+category: "Mythology"
     },
     {
       title: "Silver Bullet 1985",
@@ -383,6 +385,36 @@ category: "Thriller"
       title: "TrueLies 1994",
       src: "https://archive.org/download/true-lies-1994-d-theater/True%20Lies%20%281994%29%20%5BD-Theater%5D.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/7f1febf752aba2f8e392247717048c68eb8d64f5a05ddcae893f039d6383c164.png",
+      category: "Action"
+    },
+    {
+      title: "Terminator2 1991",
+      src: "https://archive.org/download/terminator.-2.-judgement.-day.-1991.-extended.-remastered.-720p.-blu-ray.-h-264._202605/Terminator.2.Judgement.Day.1991.Extended.REMASTERED.720p.BluRay.H264.AAC.READ.NFO-RARBG.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZwRVi42zinrqJfEsgih_l521p6ZgqbNVW7rGbQDvfw&s=10",
+      category: "Sci-Fi"
+    },
+{
+      title: "Total Recall 1990",
+      src: "https://ia601603.us.archive.org/23/items/1990-total-recall-1990-carolco-vhs-480p-h-264/1990%20Total%20Recall%20%281990%20Carolco%20VHS%29%20480p%20H264.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
+      category: "Sci-Fi"
+    },
+{
+      title: "Aliens vs Predator Requiem 2007",
+      src: "https://archive.org/download/aliens.vs.-predator.-requiem.-2007.-unrated.-720p.-blu-ray.-h-264.-aac-rarbg/Aliens.vs.Predator.Requiem.2007.UNRATED.720p.BluRay.H264.AAC-RARBG.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhvzLaLvzvOR-odGHlUA68b2-3taJprvYO0s-J3NDpQ&s=10",
+       category: "Sci-Fi"
+    },
+    {
+      title: "The Mummy 1999",
+      src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/The.Mummy.%281999%29.H265.1080p.DVDRip.EzzRips/The.Mummy.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSZeNzlP2G8HKxVmI2EcDHIAYB5fmNO7o4oxIwmmynQ&s=10",
+      category: "Mythology"
+    },
+{
+      title: "Desperado 1995",
+      src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
       category: "Action"
     },
     {
@@ -413,7 +445,8 @@ category: "Comedy"
     {
       title: "Spaceballs 1987",
       src: "https://archive.org/details/spaceballs-1987-mel-brooks-vhs-film",
-      thumb: "https://ccapp.osu.edu/sites/default/files/styles/news_and_events_image/public/2022-11/event_spaceballs_0.jpg?h=d1cb525d&itok=6elScADy"
+      thumb: "https://ccapp.osu.edu/sites/default/files/styles/news_and_events_image/public/2022-11/event_spaceballs_0.jpg?h=d1cb525d&itok=6elScADy",
+category: "Comedy"
     },
    {
       title: "Poltergeist 1982",
@@ -452,13 +485,13 @@ category: "Action"
       title: "RoboCop 1987",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%201987.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDFdIHUzXVRa2O9CaLGWXKIjYdyi18eLz0GzRv2NS0ASq0inlJZmCpSF-&s=10",
-category: "Action"
+category: "Sci-Fi"
     },
     {
       title: "RoboCop2 1990",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKrF2GUw134lA1prcgpdU0qkyDG9vkllmMovY-4xy633O87KztwYzKOe8&s=10",
-category: "Action"
+category: "Sci-Fi"
     },
     {
       title: "RoboCop3 1993",
@@ -470,7 +503,7 @@ category: "Action"
       title: "Robocop 2014",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202014.mp4",
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg",
-category: "Action"
+category: "Sci-Fi"
 
     },
     {
