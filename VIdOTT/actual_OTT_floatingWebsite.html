@@ -846,11 +846,11 @@
   }
 
   /* ---- Idle overlay image: a single <img> pinned above every other element
-     on the page (playlist, panels, controls, everything). Sits at 20% opacity
-     whenever nothing is actively playing (initial state, or paused — i.e.
-     whenever the ▶ play icon is showing), and fades to fully invisible the
-     instant playback actually starts. Uses a plain image URL (no base64),
-     and pointer-events are disabled so it never blocks clicks/taps. ---- */
+     on the page (playlist, panels, controls, everything). Sits at 50% opacity
+     whenever no video is loaded/active (initial state, buffering, ended, or
+     emptied) — but NOT while merely paused — and fades to fully invisible
+     the instant playback actually starts. Uses a plain image URL (no
+     base64), and pointer-events are disabled so it never blocks clicks/taps. ---- */
   .idle-overlay {
     position: fixed;
     inset: 0;
@@ -863,7 +863,7 @@
     transition: opacity 0.5s ease;
   }
   .idle-overlay.show {
-    opacity: 0.5;
+    opacity: 0.6;
   }
 
 </style>
@@ -948,8 +948,6 @@
         <button class="category-chip" data-category="Shorts">Shorts</button>
         <button class="category-chip" data-category="Comedy">Comedy</button>
         <button class="category-chip" data-category="Action">Action</button>
-	<button class="category-chip" data-category="Mythology">Mythology</button>
-        <button class="category-chip" data-category="Drama">Drama</button>
         <button class="category-chip" data-category="Sci-Fi">Sci-Fi</button>
         <button class="category-chip" data-category="Thriller">Thriller</button>
         <button class="category-chip" data-category="Series">Series</button>
@@ -1432,7 +1430,7 @@
   function hideIdleWallpaper() { idleOverlay.classList.remove('show'); video.classList.remove('idle'); }
 
   video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; updateControlsVisibility(); });
-  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); showIdleWallpaper(); });
+  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); });
   video.addEventListener('playing', hideIdleWallpaper);
   video.addEventListener('waiting', showIdleWallpaper);
   video.addEventListener('ended', showIdleWallpaper);
