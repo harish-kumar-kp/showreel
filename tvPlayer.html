@@ -3,59 +3,1767 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KOT TV</title>
-
+<title>kOTTe - Its My OTT </title>
 <style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    color: #eee;
+    font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .stage {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  h1 {
+    font-size: .8rem;
+    margin: 0 0 0px 0;
+    font-weight: 500;
+  }
 
-    html, body {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
+  .layout {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
 
-    body {
-        background: #000 url("VIdOTT/data/back_banner.jpg") center center / cover no-repeat;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+  /* LEFT: player — now the only thing in the flow; fills the whole viewport */
+  .player-col {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .toggle-btn {
+    position: absolute;
+    top: 14px;
+    right: 254px;
+    z-index: 30;
+    background: rgba(255,255,255,0.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.28);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s, right 0.2s;
+  }
+  .toggle-btn.panel-hidden {
+    right: 14px;
+  }
+  .toggle-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.5); }
+  .toggle-btn.selected {
+    background: rgba(93,169,255,0.1);
+    border-color: rgba(93,169,255,0.7);
+    color: #fff;
+  }
+  .controls-toggle-btn {
+    position: absolute;
+    bottom: 64px;
+    left: 25px;
+    z-index: 30;
+    background: rgba(255,255,255,0.01);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .controls-toggle-btn:hover { background: rgba(255,255,255,0.16); border-color: rgba(255,255,255,0.5); }
+  .player-wrap {
+    background: #000;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 0;
+    position: relative;
+  }
+  video {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    background: #000;
+    border-radius: 0;
+    display: block;
+    object-fit: contain;
+    object-position: center center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  video.idle {
+    opacity: 0;
+  }
+  .now-playing {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 18px;
+    z-index: 5;
+    margin-top: 0px;
+    font-size: 0.78rem;
+    color: #5da9ff;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: rgba(15,15,15,0.35);
+    backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 8px 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .player-wrap:hover .now-playing,
+  .now-playing:focus-within,
+  .now-playing.force-visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  /* Manual override from the show/hide button — always wins, even on hover/pause */
+  .now-playing.pinned-hidden {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+  #nowPlaying {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .custom-controls {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  .ctrl-btn {
+    background: rgba(255,255,255,0.01);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .ctrl-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+  .ctrl-btn.hq-on {
+    background: rgba(93,169,255,0.1);
+    border-color: rgba(93,169,255,0.1);
+    color: #fff;
+    box-shadow: 0 0 6px rgba(93,169,255,0.1);
+  }
+  #video.hq-enhanced {
+    filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
+    image-rendering: -webkit-optimize-contrast;
+  }
+  #runtime {
+    color: #5da9ff;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
+  .subtitle-btn {
+    background: rgba(255,255,255,0.06);
+    color: #ccc;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 3px 8px;
+    font-size: 0.68rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .subtitle-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.1); }
+  .subtitle-btn.on {
+    background: rgba(93,169,255,0.1);
+    border-color: rgba(93,169,255,0.1);
+    color: #fff;
+  }
+  .subtitle-btn.loading {
+    background: rgba(255,255,255,0.01);
+    border-color: rgba(255,255,255,0.1);
+    color: #888;
+    cursor: default;
+  }
+  .subtitle-btn.unavailable {
+    background: rgba(160,60,60,0.1);
+    border-color: rgba(160,60,60,0.1);
+    color: #c99;
+    cursor: not-allowed;
+  }
+  #subtitleOverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 6%;
+    text-align: center;
+    pointer-events: none;
+    z-index: 4;
+    padding: 0 5%;
+  }
+  #subtitleOverlay span {
+    display: inline-block;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.35;
+    padding: 3px 10px;
+    border-radius: 4px;
+    white-space: pre-line;
+  }
+  .aspect-btn {
+    background: rgba(255,255,255,0.06);
+    color: #ccc;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 3px 7px;
+    font-size: 0.62rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .aspect-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.5); }
+  .aspect-btn.active {
+    background: rgba(93,169,255,0.1);
+    border-color: rgba(93,169,255,0.1);
+    color: #fff;
+  }
 
-    /* Optional dark glass overlay */
-    .overlay {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.08);
-        pointer-events: none;
-    }
+  /* Aspect ratio / fit modes for the video element.
+     Attribute selector gives higher specificity than the base `video` rule. */
+  video[data-ratio="fit"] {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+  }
+  video[data-ratio="fill"] {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center center;
+  }
+  video[data-ratio="zoom"] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  video[data-ratio="16:9"] {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    object-position: center center;
+  }
+  video[data-ratio="4:3"] {
+    flex: 0 1 auto;
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    object-position: center center;
+    margin: auto;
+    align-self: center;
+  }
+  video[data-ratio="squeeze"] {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    transform: scaleY(0.80);
+    transform-origin: center center;
+  }
+  #clock {
+    color: #5da9ff;
+    font-variant-numeric: tabular-nums;
+    flex-shrink: 0;
+  }
 
-    .content {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  /* RIGHT: floating, scrollable playlist panel — overlays the full-screen player */
+  .thumbs-col {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    bottom: 90px;
+    width: 230px;
+    z-index: 25;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: none;
+    min-height: 0;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    overflow: hidden;
+  }
+  .thumbs-col.hidden {
+    transform: translateX(calc(100% + 24px));
+    opacity: 0;
+    pointer-events: none;
+  }
+  .thumbs-title {
+    font-size: 0.72rem;
+    color: #999;
+    margin: 2px 2px 8px 2px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .switches-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .controls-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 2px 8px 2px;
+    flex-shrink: 0;
+  }
+  .autorun-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  .autorun-label {
+    font-size: 0.50rem;
+    color: #999;
+    user-select: none;
+  }
+  .autorun-switch {
+    position: relative;
+    width: 24px;
+    height: 14px;
+    flex-shrink: 0;
+    background: #333;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .autorun-switch.on {
+    background: #2c6b4f;
+    border-color: #3a8562;
+  }
+  .autorun-switch .knob {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    transition: left 0.15s, background 0.15s;
+  }
+  .autorun-switch.on .knob {
+    left: 13px;
+    background: #5da9ff;
+  }
+  .search-toggle-btn {
+    background: rgba(255,255,255,0.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 5px 9px;
+    font-size: 0.72rem;
+    line-height: 1;
+    cursor: pointer;
+    flex-shrink: 0;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .search-toggle-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.1); }
+  .search-toggle-btn.active {
+    background: rgba(93,169,255,0.22);
+    border-color: rgba(93,169,255,0.1);
+    color: #fff;
+  }
+  .search-wrap {
+    position: relative;
+    flex: 0 1 0;
+    min-width: 0;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: max-width 0.2s ease, opacity 0.15s ease;
+  }
+  .search-wrap.open {
+    flex: 1 1 auto;
+    max-width: 400px;
+    opacity: 1;
+    overflow: visible;
+  }
+  .search-input {
+    width: 100%;
+    background: #262626;
+    color: #eee;
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    padding: 5px 24px 5px 8px;
+    font-size: 0.68rem;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .search-input:focus {
+    border-color: #5da9ff;
+  }
+  .search-clear {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    display: none;
+  }
+  .search-clear.show {
+    display: block;
+  }
+  .search-clear:hover {
+    color: #eee;
+  }
+  .thumb.filtered-out {
+    display: none;
+  }
+  .category-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0 2px 8px 2px;
+    flex-shrink: 0;
+  }
+  .category-chip {
+    background: rgba(255,255,255,0.06);
+    color: #ccc;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 0.62rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+    flex-shrink: 0;
+  }
+  .category-chip:hover { background: rgba(255,255,255,0.16); color: #eee; border-color: rgba(255,255,255,0.5); }
+  .category-chip.active {
+    background: rgba(93,169,255,0.22);
+    border-color: rgba(93,169,255,0.7);
+    color: #fff;
+  }
+  .thumbs {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-right: 4px;
+    min-height: 0;
+  }
+  .thumbs::-webkit-scrollbar { width: 6px; }
+  .thumbs::-webkit-scrollbar-thumb {
+    background: #3a3a3a;
+    border-radius: 3px;
+  }
+  .thumbs::-webkit-scrollbar-track { background: transparent; }
 
-    /* Add your OTT controls/content inside this area */
-    .center-content {
-        text-align: center;
-        color: white;
-    }
+  .thumb {
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background: transparent;
+    transition: border-color 0.15s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .thumb:hover { border-color: #4a4a4a; }
+  .thumb.active { border-color: #5da9ff; }
+
+  .thumb img {
+    width: 64px;
+    height: 38px;
+    object-fit: cover;
+    display: block;
+    background: #000;
+    flex-shrink: 0;
+  }
+  .thumb .label {
+    font-size: 0.66rem;
+    padding: 0 7px;
+    color: #da8;
+    line-height: 1.2;
+  }
+  .thumb .play-icon {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background: rgba(0,0,0,0.55);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    color: #fff;
+  }
+
+  /* ---- Series thumbnail: one card represents a whole show, badged with episode count ---- */
+  .thumb.series-thumb .label {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .thumb.series-thumb .label .series-name {
+    color: #da8;
+  }
+  .thumb.series-thumb .label .series-count {
+    font-size: 0.58rem;
+    color: #5da9ff;
+  }
+  .thumb .stack-icon {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    background: rgba(0,0,0,0.05);
+    color: #fff;
+    font-size: 0.52rem;
+    padding: 1px 5px;
+    border-radius: 8px;
+    line-height: 1.3;
+    border: 1px solid rgba(255,255,255,0.05);
+  }
+  .thumb.series-thumb img {
+    box-shadow: -3px 0 0 -1px rgba(255,255,255,0.15), -6px 0 0 -2px rgba(255,255,255,0.08);
+  }
+
+  /* ---- Episode picker: overlay panel listing all episodes of a selected series ---- */
+  /* ---- Episode picker: overlay panel listing all episodes of a selected series.
+     Sits on the LEFT (the main playlist panel lives on the right), and starts
+     below the "Show/Hide Playlist" toggle button so the two never overlap. ---- */
+  /* ---- Episode picker: overlay panel listing all episodes of a selected series.
+     Docked just to the LEFT of the main playlist panel (which sits at right:14,
+     width:230), starts below the "Show/Hide Playlist" toggle button, and sizes
+     itself to its content instead of stretching the full height of the stage. ---- */
+  #episodePanel {
+    position: absolute;
+    top: 56px;
+    right: 254px;
+    max-height: calc(100% - 90px);
+    width: 300px;
+    max-width: 40%;
+    background: rgba(12,12,12,0);
+    backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    z-index: 40;
+    display: none;
+    flex-direction: column;
+    padding: 14px 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+  }
+  #episodePanel.open { display: flex; }
+  .episode-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+  .episode-header .episode-title {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  .episode-close {
+    background: rgba(255,255,255,0.05);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .episode-close:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.05); }
+  .episode-list {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
+    padding-right: 4px;
+  }
+  .episode-list::-webkit-scrollbar { width: 6px; }
+  .episode-list::-webkit-scrollbar-thumb { background: #3a3a3a; border-radius: 3px; }
+  .episode-list::-webkit-scrollbar-track { background: transparent; }
+  .episode-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    background: rgba(255,255,255,0.04);
+    transition: border-color 0.15s, background 0.15s;
+    flex-shrink: 0;
+    padding-right: 8px;
+  }
+  .episode-item:hover { background: rgba(255,255,255,0.1); border-color: #4a4a4a; }
+  .episode-item.active { border-color: #5da9ff; }
+  .episode-item img {
+    width: 88px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    background: #000;
+    flex-shrink: 0;
+  }
+  .episode-item .episode-info {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .episode-item .episode-num {
+    font-size: 0.62rem;
+    color: #5da9ff;
+  }
+  .episode-item .episode-name {
+    font-size: 0.75rem;
+    color: #eee;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ---- Scene Selection (S.S) button + panel ---- */
+  .scene-panel {
+    position: absolute;
+    left: 134px;
+    bottom: 64px;
+    background: rgba(15,15,15,0.45);
+    backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 8px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    z-index: 6;
+    min-width: 230px;
+  }
+  .scene-panel.hidden { display: none; }
+  .scene-panel .scene-item {
+    background: rgba(255,255,255,0.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    padding: 6px 4px;
+    font-size: 0.55rem;
+    line-height: 1.3;
+    cursor: pointer;
+    text-align: center;
+    white-space: pre-line;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .scene-panel .scene-item:hover { background: rgba(255,255,255,0.18); border-color: rgba(93,169,255,0.7); }
+  .scene-panel .scene-empty {
+    grid-column: 1 / -1;
+    color: #999;
+    font-size: 0.68rem;
+    text-align: center;
+    padding: 6px 2px;
+  }
+
+  /* ---- Aspect Ratio menu button + popup panel ---- */
+  .aspect-panel {
+    position: absolute;
+    left: 286px;
+    bottom: 55px;
+    background: rgba(15,15,15,0.45);
+    backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 8px;
+    padding: 6px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    z-index: 6;
+    min-width: 168px;
+  }
+  .aspect-panel.hidden { display: none; }
+
+  #xrayPanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60%;
+    /* Semi-transparent so the paused/playing video is still visible behind the info */
+    background: rgba(10,10,10,0.62);
+    backdrop-filter: blur(0.1px);
+    z-index: 9;
+    display: none;
+    flex-direction: column;
+    padding: 16px 18px;
+    overflow-y: auto;
+  }
+  #xrayPanel.open { display: flex; }
+  .xray-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
+  .xray-header span {
+    color: #eee;
+    font-size: 0.85rem;
+  }
+  .xray-close {
+    background: rgba(255,255,255,0.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    padding: 3px 9px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    backdrop-filter: blur(0.1px);
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .xray-close:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
+  .xray-body {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .xray-thumb {
+    width: 130px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  }
+  .xray-thumb img {
+    width: 100%;
+    display: block;
+  }
+  .xray-content {
+    flex: 1;
+    min-width: 0;
+  }
+  .xray-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .xray-extract {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: #e2e2e2;
+    white-space: pre-line;
+  }
+  .xray-attribution {
+    margin-top: 12px;
+    font-size: 0.68rem;
+    color: #9ab;
+  }
+  .xray-attribution a {
+    color: #5da9ff;
+    text-decoration: none;
+  }
+  .xray-attribution a:hover { text-decoration: underline; }
+  .xray-status {
+    color: #aaa;
+    font-size: 0.8rem;
+    margin: auto;
+  }
+  #infoBtn.on {
+    background: #2c5b8f;
+    border-color: #5da9ff;
+    color: #fff;
+  }
+
+  /* ---- Idle overlay image: a single <img> pinned above every other element
+     on the page (playlist, panels, controls, everything). Sits at 20% opacity
+     whenever nothing is actively playing (initial state, or paused — i.e.
+     whenever the ▶ play icon is showing), and fades to fully invisible the
+     instant playback actually starts. Uses a plain image URL (no base64),
+     and pointer-events are disabled so it never blocks clicks/taps. ---- */
+  .idle-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+  }
+  .idle-overlay.show {
+    opacity: 0.5;
+  }
+
 </style>
 </head>
-
 <body>
-    <div class="overlay"></div>
-
-    <main class="content">
-        <div class="center-content">
-            <!-- Your OTT interface can be added here -->
+<script src="data/datas.js"></script>
+<img id="idleOverlay" class="idle-overlay show" src="https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg" alt="">
+<div class="stage">
+  <div class="layout">
+    <div class="player-col">
+      <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">☰ Hide Playlist</button>
+      <div class="player-wrap">
+        <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
+        <div id="subtitleOverlay"></div>
+<div id="xrayPanel">
+          <div class="xray-header">
+            <span>Movie Info</span>
+            <button class="xray-close" id="closeInfo">Close ✕</button>
+          </div>
+          <div id="xrayBody" class="xray-body"></div>
         </div>
-    </main>
+
+        <div id="scenePanel" class="scene-panel hidden"></div>
+        <div id="aspectPanel" class="aspect-panel hidden">
+          <button class="aspect-btn active" data-ratio="fit" title="Fit to player">Fit</button>
+          <button class="aspect-btn" data-ratio="fill" title="Stretch to fill">Fill</button>
+          <button class="aspect-btn" data-ratio="zoom" title="Zoom / crop">Zoom</button>
+          <button class="aspect-btn" data-ratio="16:9" title="Lock to 16:9">CropZoom</button>
+          <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">Zoom Out</button>
+          <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
+        </div>
+        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">Hide Controls ▾</button>
+        <div class="now-playing">
+	<span class="custom-controls">
+            <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
+            <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
+            <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
+            <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">S.S</button>
+            <button class="ctrl-btn" id="hqBtn" title="Toggle HQ Upscale & Enhance">HQ</button>
+            <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹ</button>
+          </span>
+	<span>&nbsp;</span>
+        <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
+        <span>&nbsp;</span>	
+        <span id="runtime"></span>
+
+	<button class="ctrl-btn" id="aspectMenuBtn" title="Aspect Ratio">Aspect Ratio ▾</button>
+        <span>&nbsp;</span> 
+        <font color="Orange">Title :</font>           
+	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+        <span>&nbsp;&nbsp;</span>
+        <font color="Orange">Clock :</font>	
+        <span id="clock"></span>          
+        </div>
+      </div>
+    </div>
+
+    <div class="thumbs-col" id="thumbsCol">
+      <div class="thumbs-title">
+        <span>k<font color="Orange">OTT</font>e <font color="violet">- Its My OTT</font></span>
+        <span class="switches-stack">
+          <span class="autorun-wrap">
+            <span class="autorun-label">Autorun</span>
+            <span class="autorun-switch on" id="autorunSwitch" title="Toggle autoplay next video"><span class="knob"></span></span>
+          </span>
+          <span class="autorun-wrap">
+            <span class="autorun-label">Resume</span>
+            <span class="autorun-switch on" id="resumeSwitch" title="Toggle resuming videos from last watched position"><span class="knob"></span></span>
+          </span>
+        </span>
+      </div>
+      <div class="controls-row">
+        <button class="search-toggle-btn" id="searchToggleBtn" title="Search titles">🔍</button>
+        <div class="search-wrap" id="searchWrap">
+          <input type="text" class="search-input" id="titleSearch" placeholder="Search titles… (Enter to play)" autocomplete="off">
+          <button class="search-clear" id="searchClear" title="Clear search">✕</button>
+        </div>
+      </div>
+      <div class="category-row" id="categoryRow">
+        <button class="category-chip active" data-category="All">All</button>
+        <button class="category-chip" data-category="Family">Family</button>
+        <button class="category-chip" data-category="Shorts">Shorts</button>
+        <button class="category-chip" data-category="Comedy">Comedy</button>
+        <button class="category-chip" data-category="Action">Action</button>
+	<button class="category-chip" data-category="Mythology">Mythology</button>
+        <button class="category-chip" data-category="Drama">Drama</button>
+        <button class="category-chip" data-category="Sci-Fi">Sci-Fi</button>
+        <button class="category-chip" data-category="Thriller">Thriller</button>
+        <button class="category-chip" data-category="Series">Series</button>
+      </div>
+      <div class="thumbs" id="thumbs"></div>
+    </div>
+
+    <div id="episodePanel">
+      <div class="episode-header">
+        <span class="episode-title" id="episodePanelTitle">Series</span>
+        <button class="episode-close" id="episodeCloseBtn">Close ✕</button>
+      </div>
+      <div class="episode-list" id="episodeList"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  const video = document.getElementById('video');
+  const nowPlaying = document.getElementById('nowPlaying');
+  const runtimeEl = document.getElementById('runtime');
+  const clockEl = document.getElementById('clock');
+  const thumbsEl = document.getElementById('thumbs');
+
+  // Scroll only the playlist list itself so the active thumbnail stays in
+  // view. Native scrollIntoView() walks up every ancestor scroll container
+  // (including html/body/.stage, which are all technically scrollable even
+  // with overflow:hidden) and was shifting the entire layout sideways every
+  // time autorun advanced to the next video. Scoping the scroll to just this
+  // element avoids that entirely.
+  function scrollThumbIntoView(el) {
+    if (!el) return;
+    const cTop = thumbsEl.scrollTop;
+    const cBottom = cTop + thumbsEl.clientHeight;
+    const eTop = el.offsetTop;
+    const eBottom = eTop + el.offsetHeight;
+    if (eTop < cTop) {
+      thumbsEl.scrollTo({ top: eTop, behavior: 'smooth' });
+    } else if (eBottom > cBottom) {
+      thumbsEl.scrollTo({ top: eBottom - thumbsEl.clientHeight, behavior: 'smooth' });
+    }
+  }
+  const thumbsCol = document.getElementById('thumbsCol');
+  const toggleBtn = document.getElementById('toggleBtn');
+  const playPauseBtn = document.getElementById('playPauseBtn');
+  const rewindBtn = document.getElementById('rewindBtn');
+  const forwardBtn = document.getElementById('forwardBtn');
+  const aspectMenuBtn = document.getElementById('aspectMenuBtn');
+  const aspectPanel = document.getElementById('aspectPanel');
+  const aspectBtns = aspectPanel.querySelectorAll('.aspect-btn');
+  const subtitleBtn = document.getElementById('subtitleBtn');
+  const sceneBtn = document.getElementById('sceneBtn');
+  const scenePanel = document.getElementById('scenePanel');
+  const playerWrap = document.querySelector('.player-wrap');
+  const subtitleOverlay = document.getElementById('subtitleOverlay');
+  const nowPlayingBar = document.querySelector('.now-playing');
+  const controlsToggleBtn = document.getElementById('controlsToggleBtn');
+
+  // Keep the controls bar visible (instead of only-on-hover) while the video
+  // is paused, or while a popup panel (scenes / aspect ratio / info) is open —
+  // otherwise those panels would be unreachable once the mouse moves off them.
+  let controlsManuallyHidden = false;
+
+  function updateControlsVisibility() {
+    const keepVisible = video.paused
+      || !scenePanel.classList.contains('hidden')
+      || !aspectPanel.classList.contains('hidden')
+      || xrayPanel.classList.contains('open');
+    nowPlayingBar.classList.toggle('force-visible', keepVisible && !controlsManuallyHidden);
+    nowPlayingBar.classList.toggle('pinned-hidden', controlsManuallyHidden);
+  }
+
+  controlsToggleBtn.addEventListener('click', () => {
+    controlsManuallyHidden = !controlsManuallyHidden;
+    controlsToggleBtn.textContent = controlsManuallyHidden ? 'Show Controls ▴' : 'Hide Controls ▾';
+    updateControlsVisibility();
+  });
+
+  // ---- Subtitles (.srt) — fail-proof loader ----
+  let subtitleCues = [];      // [{start, end, text}]
+  let subtitlesEnabled = true;
+  let subtitleLoadToken = 0;  // guards against stale/late fetches overwriting a newer selection
+
+  function srtTimeToSeconds(t) {
+    const m = t.trim().match(/(\d+):(\d+):(\d+)[,.](\d+)/);
+    if (!m) return 0;
+    const [, h, min, s, ms] = m;
+    return (+h) * 3600 + (+min) * 60 + (+s) + (+ms) / 1000;
+  }
+
+  function escapeHTML(str) {
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function parseSRT(raw) {
+    if (!raw) return [];
+    // Strip BOM, normalize line endings
+    let text = raw.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n');
+
+    // Primary strategy: regex-match "index? \n timestamp --> timestamp \n text..."
+    // Works even if blank-line separators between blocks are missing/irregular.
+    const cueRegex = /(?:^|\n)\s*\d*\s*\n?\s*(\d{1,2}:\d{2}:\d{2}[,.]\d{1,3})\s*-{2,3}>\s*(\d{1,2}:\d{2}:\d{2}[,.]\d{1,3})[^\n]*\n([\s\S]*?)(?=\n\s*\d+\s*\n\s*\d{1,2}:\d{2}:\d{2}[,.]\d{1,3}\s*-{2,3}>|$)/g;
+
+    const cues = [];
+    let match;
+    while ((match = cueRegex.exec(text)) !== null) {
+      const start = srtTimeToSeconds(match[1]);
+      const end = srtTimeToSeconds(match[2]);
+      const cueText = match[3]
+        .split('\n')
+        .map(l => l.trim())
+        .filter(l => l !== '')
+        .join('\n')
+        .replace(/<[^>]+>/g, ''); // strip <i>, <b>, <font> etc.
+      if (cueText && end > start) cues.push({ start, end, text: cueText });
+    }
+
+    // Fallback strategy: blank-line block split (older/simpler parser)
+    // Used only if the regex above found nothing, e.g. unusual formatting.
+    if (cues.length === 0) {
+      const blocks = text.split(/\n\s*\n/);
+      for (const block of blocks) {
+        const lines = block.split('\n').filter(l => l.trim() !== '');
+        if (lines.length < 2) continue;
+        let idx = /^\d+$/.test(lines[0].trim()) ? 1 : 0;
+        const timeMatch = (lines[idx] || '').match(/([\d:,.]+)\s*-{2,3}>\s*([\d:,.]+)/);
+        if (!timeMatch) continue;
+        const start = srtTimeToSeconds(timeMatch[1]);
+        const end = srtTimeToSeconds(timeMatch[2]);
+        const cueText = lines.slice(idx + 1).join('\n').replace(/<[^>]+>/g, '');
+        if (cueText && end > start) cues.push({ start, end, text: cueText });
+      }
+    }
+
+    cues.sort((a, b) => a.start - b.start);
+    return cues;
+  }
+
+  function fetchWithTimeout(url, ms) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), ms);
+    return fetch(url, { signal: controller.signal, cache: 'no-store' })
+      .finally(() => clearTimeout(timer));
+  }
+
+  function setSubtitleStatus(state) {
+    // state: 'on' | 'off' | 'loading' | 'unavailable'
+    subtitleBtn.classList.remove('on', 'loading', 'unavailable');
+    if (state === 'on') {
+      subtitleBtn.classList.add('on');
+      subtitleBtn.textContent = 'CC';
+      subtitleBtn.title = 'Subtitles on — click to turn off';
+      subtitleBtn.disabled = false;
+    } else if (state === 'off') {
+      subtitleBtn.textContent = 'CC';
+      subtitleBtn.title = 'Subtitles off — click to turn on';
+      subtitleBtn.disabled = false;
+    } else if (state === 'loading') {
+      subtitleBtn.classList.add('loading');
+      subtitleBtn.textContent = 'CC…';
+      subtitleBtn.title = 'Loading subtitles…';
+      subtitleBtn.disabled = true;
+    } else if (state === 'unavailable') {
+      subtitleBtn.classList.add('unavailable');
+      subtitleBtn.textContent = 'CC';
+      subtitleBtn.title = 'Subtitles unavailable for this title';
+      subtitleBtn.disabled = true;
+    }
+  }
+
+  async function loadSubtitles(source) {
+    const token = ++subtitleLoadToken;
+    subtitleCues = [];
+    subtitleOverlay.textContent = '';
+
+    // Normalize input: allow a single URL string or an array of mirror URLs
+    const urls = !source ? [] : (Array.isArray(source) ? source : [source]);
+    if (urls.length === 0) {
+      setSubtitleStatus('off');
+      subtitleBtn.disabled = true;
+      subtitleBtn.title = 'No subtitles available for this title';
+      return;
+    }
+
+    setSubtitleStatus('loading');
+
+    let lastError = null;
+    for (const url of urls) {
+      try {
+        const res = await fetchWithTimeout(url, 8000);
+        if (token !== subtitleLoadToken) return; // a newer video was selected meanwhile
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        const cues = parseSRT(text);
+        if (cues.length === 0) throw new Error('No cues parsed from file');
+        if (token !== subtitleLoadToken) return;
+        subtitleCues = cues;
+        setSubtitleStatus(subtitlesEnabled ? 'on' : 'off');
+        return; // success — stop trying further mirrors
+      } catch (err) {
+        lastError = err;
+        console.warn('Subtitle mirror failed, trying next if available:', url, err);
+      }
+    }
+
+    if (token !== subtitleLoadToken) return;
+    console.warn('All subtitle sources failed:', lastError);
+    setSubtitleStatus('unavailable');
+  }
+
+  function updateSubtitleDisplay() {
+    if (!subtitlesEnabled || subtitleCues.length === 0) {
+      subtitleOverlay.textContent = '';
+      return;
+    }
+    const t = video.currentTime;
+    const cue = subtitleCues.find(c => t >= c.start && t <= c.end);
+    subtitleOverlay.innerHTML = cue ? `<span>${escapeHTML(cue.text).replace(/\n/g, '<br>')}</span>` : '';
+  }
+
+  subtitleBtn.addEventListener('click', () => {
+    if (subtitleBtn.disabled) return;
+    subtitlesEnabled = !subtitlesEnabled;
+    setSubtitleStatus(subtitlesEnabled ? 'on' : 'off');
+    if (!subtitlesEnabled) subtitleOverlay.textContent = '';
+  });
+  setSubtitleStatus('off');
+
+  video.addEventListener('timeupdate', updateSubtitleDisplay);
+
+  // ---- Scene Selection (S.S): split current title's runtime into 9 equal parts ----
+  const SCENE_PARTS = 9;
+
+  function closeScenePanel() {
+    scenePanel.classList.add('hidden');
+    updateControlsVisibility();
+  }
+
+  function buildScenePanel() {
+    scenePanel.innerHTML = '';
+    const duration = video.duration;
+    if (!duration || !isFinite(duration) || duration <= 0) {
+      const msg = document.createElement('div');
+      msg.className = 'scene-empty';
+      msg.textContent = 'Runtime not loaded yet — please wait a moment and try again.';
+      scenePanel.appendChild(msg);
+      return;
+    }
+    const segment = duration / SCENE_PARTS;
+    for (let i = 0; i < SCENE_PARTS; i++) {
+      const startTime = segment * i;
+      const btn = document.createElement('button');
+      btn.className = 'scene-item';
+      btn.textContent = `Chapter ${i + 1}\n${formatTime(startTime)}`;
+      btn.title = `Jump to part ${i + 1} of ${SCENE_PARTS}`;
+      btn.addEventListener('click', () => {
+        video.currentTime = startTime;
+        video.play().catch(() => {});
+        closeScenePanel();
+      });
+      scenePanel.appendChild(btn);
+    }
+  }
+
+  sceneBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isHidden = scenePanel.classList.contains('hidden');
+    closeAspectPanel();
+    if (isHidden) {
+      buildScenePanel();
+      scenePanel.classList.remove('hidden');
+      updateControlsVisibility();
+    } else {
+      closeScenePanel();
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!scenePanel.classList.contains('hidden') &&
+        !scenePanel.contains(e.target) && e.target !== sceneBtn) {
+      closeScenePanel();
+    }
+    if (!aspectPanel.classList.contains('hidden') &&
+        !aspectPanel.contains(e.target) && e.target !== aspectMenuBtn) {
+      closeAspectPanel();
+    }
+    if (episodePanel.classList.contains('open') &&
+        !episodePanel.contains(e.target) && !e.target.closest('.series-thumb')) {
+      closeEpisodePanel();
+    }
+  });
+
+  // ---- Aspect Ratio menu: single button opens a popup with all the fit modes ----
+  function closeAspectPanel() {
+    aspectPanel.classList.add('hidden');
+    updateControlsVisibility();
+  }
+
+  aspectMenuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isHidden = aspectPanel.classList.contains('hidden');
+    closeScenePanel();
+    if (isHidden) {
+      aspectPanel.classList.remove('hidden');
+      updateControlsVisibility();
+    } else {
+      closeAspectPanel();
+    }
+  });
+
+  aspectBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      video.setAttribute('data-ratio', btn.dataset.ratio);
+      aspectBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      aspectMenuBtn.textContent = btn.textContent + ' ▾';
+      closeAspectPanel();
+    });
+  });
+
+  let currentIndex = -1;
+  let thumbEls = [];
+  let autorunEnabled = true;
+
+  const autorunSwitch = document.getElementById('autorunSwitch');
+  autorunSwitch.addEventListener('click', () => {
+    autorunEnabled = !autorunEnabled;
+    autorunSwitch.classList.toggle('on', autorunEnabled);
+  });
+
+  // ---- Resume: remembers each video's last watched position and picks up
+  // there next time it's played. On by default; toggled off via the switch. ----
+  let resumeEnabled = true;
+  const resumeSwitch = document.getElementById('resumeSwitch');
+  resumeSwitch.addEventListener('click', () => {
+    resumeEnabled = !resumeEnabled;
+    resumeSwitch.classList.toggle('on', resumeEnabled);
+  });
+
+  const RESUME_STORAGE_KEY = 'kotte_resume_positions';
+
+  function loadResumeMap() {
+    try {
+      return JSON.parse(localStorage.getItem(RESUME_STORAGE_KEY)) || {};
+    } catch (e) {
+      return {};
+    }
+  }
+  function saveResumeMap(map) {
+    try {
+      localStorage.setItem(RESUME_STORAGE_KEY, JSON.stringify(map));
+    } catch (e) { /* storage unavailable — resume just won't persist */ }
+  }
+  function resumeKeyFor(v) {
+    return v && v.src;
+  }
+
+  // Persist current playback position for the currently loaded video.
+  // Skips saving if too close to the start (nothing to resume) or the
+  // end (treat as finished), and clears any stale entry in those cases.
+  function saveResumePosition() {
+    if (currentIndex < 0) return;
+    const v = videos[currentIndex];
+    if (!v) return;
+    const key = resumeKeyFor(v);
+    if (!key) return;
+    const map = loadResumeMap();
+    const dur = video.duration;
+    if (dur && video.currentTime > 5 && video.currentTime < dur - 5) {
+      map[key] = video.currentTime;
+    } else {
+      delete map[key];
+    }
+    saveResumeMap(map);
+  }
+
+  function clearResumePosition(v) {
+    const key = resumeKeyFor(v);
+    if (!key) return;
+    const map = loadResumeMap();
+    if (key in map) {
+      delete map[key];
+      saveResumeMap(map);
+    }
+  }
+
+  // Throttle saves to roughly once every 5s of playback rather than on every timeupdate tick.
+  let lastResumeSaveAt = 0;
+  video.addEventListener('timeupdate', () => {
+    if (!resumeEnabled) return;
+    const now = Date.now();
+    if (now - lastResumeSaveAt >= 5000) {
+      lastResumeSaveAt = now;
+      saveResumePosition();
+    }
+  });
+  video.addEventListener('pause', saveResumePosition);
+  window.addEventListener('beforeunload', saveResumePosition);
+
+  function playByIndex(i, isRetry) {
+    if (i < 0 || i >= videos.length) return;
+    currentIndex = i;
+    const v = videos[i];
+
+    thumbEls.forEach(t => t.classList.remove('active'));
+    if (thumbEls[i]) {
+      thumbEls[i].classList.add('active');
+      scrollThumbIntoView(thumbEls[i]);
+    }
+
+    video.src = v.src;
+    video.load();
+
+    if (resumeEnabled) {
+      const savedPos = loadResumeMap()[resumeKeyFor(v)];
+      if (savedPos && savedPos > 0) {
+        const onMeta = () => {
+          video.currentTime = savedPos;
+          video.removeEventListener('loadedmetadata', onMeta);
+        };
+        video.addEventListener('loadedmetadata', onMeta);
+      }
+    }
+
+    video.play().catch(() => {});
+    nowPlaying.textContent = " " + v.title;
+    runtimeEl.textContent = '0:00 / --:--';
+    loadSubtitles(v.subtitle);
+    closeScenePanel();
+    closeXrayPanel();
+    closeAspectPanel();
+    closeEpisodePanel();
+    if (!isRetry) videoRetried = false;
+  }
+
+  function playNext() {
+    const next = (currentIndex + 1) % videos.length;
+    playByIndex(next);
+  }
+
+  // Fail-proof playback: if a source errors out (bad URL, network drop, unsupported
+  // codec, etc.) retry it once, then fall back to the next playlist item rather than
+  // leaving the player stuck on a black screen.
+  let videoRetried = false;
+  video.addEventListener('error', () => {
+    const v = videos[currentIndex];
+    if (!v) return;
+    if (!videoRetried) {
+      videoRetried = true;
+      nowPlaying.textContent = `Playback error — retrying "${v.title}"…`;
+      setTimeout(() => playByIndex(currentIndex, true), 1200);
+    } else {
+      nowPlaying.textContent = `Couldn't play "${v.title}" — skipping to next.`;
+      setTimeout(playNext, 1500);
+    }
+  });
+
+  // Autoplay: when a video finishes, automatically advance to the next one in the playlist
+  // (only if the Autorun toggle is switched on).
+  video.addEventListener('ended', () => {
+    if (currentIndex >= 0 && videos[currentIndex]) clearResumePosition(videos[currentIndex]);
+    if (autorunEnabled) playNext();
+  });
+
+  playPauseBtn.addEventListener('click', () => {
+    if (video.paused) {
+      video.play().catch(() => {});
+    } else {
+      video.pause();
+    }
+  });
+
+  // ---- Idle wallpaper: visible whenever the player is idle/paused (i.e.
+  // whenever the ▶ icon is showing), hidden the moment frames actually start
+  // rendering. Uses 'playing' (not just 'play') so it stays up through any
+  // buffering/loading gap, and reappears on 'waiting' (stalls/buffering).
+  const idleOverlay = document.getElementById('idleOverlay');
+  function showIdleWallpaper() { idleOverlay.classList.add('show'); video.classList.add('idle'); }
+  function hideIdleWallpaper() { idleOverlay.classList.remove('show'); video.classList.remove('idle'); }
+
+  video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; updateControlsVisibility(); });
+  video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); showIdleWallpaper(); });
+  video.addEventListener('playing', hideIdleWallpaper);
+  video.addEventListener('waiting', showIdleWallpaper);
+  video.addEventListener('ended', showIdleWallpaper);
+  video.addEventListener('emptied', showIdleWallpaper);
+
+  rewindBtn.addEventListener('click', () => {
+    video.currentTime = Math.max(0, video.currentTime - 10);
+  });
+  forwardBtn.addEventListener('click', () => {
+    const max = video.duration || Infinity;
+    video.currentTime = Math.min(max, video.currentTime + 10);
+  });
+
+  // HQ Upscale & Enhance toggle — applies a CSS-based sharpen/contrast/saturation
+  // boost to the video element to visually enhance perceived quality.
+  const hqBtn = document.getElementById('hqBtn');
+  let hqEnabled = false;
+  hqBtn.addEventListener('click', () => {
+    hqEnabled = !hqEnabled;
+    hqBtn.classList.toggle('hq-on', hqEnabled);
+    video.classList.toggle('hq-enhanced', hqEnabled);
+    hqBtn.title = hqEnabled ? 'HQ Enhance: On' : 'Toggle HQ Upscale & Enhance';
+  });
+
+  function updateClock() {
+    const now = new Date();
+    const h = now.getHours().toString().padStart(2, '0');
+    const m = now.getMinutes().toString().padStart(2, '0');
+    const s = now.getSeconds().toString().padStart(2, '0');
+    clockEl.textContent = `${h}:${m}:${s}`;
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+  updateControlsVisibility();
+
+  function formatTime(seconds) {
+    if (!isFinite(seconds) || seconds < 0) seconds = 0;
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  }
+
+  function updateRuntime() {
+    const elapsed = formatTime(video.currentTime);
+    const total = video.duration ? formatTime(video.duration) : '--:--';
+    runtimeEl.textContent = `${elapsed} / ${total}`;
+  }
+
+  video.addEventListener('timeupdate', updateRuntime);
+  video.addEventListener('loadedmetadata', updateRuntime);
+  video.addEventListener('durationchange', updateRuntime);
+
+  toggleBtn.addEventListener('click', () => {
+    const isHidden = thumbsCol.classList.toggle('hidden');
+    toggleBtn.classList.toggle('panel-hidden', isHidden);
+    toggleBtn.classList.toggle('selected', !isHidden);
+    toggleBtn.textContent = isHidden ? '☰ Show Playlist' : '☰ Hide Playlist';
+  });
+
+  // ---- Episode picker: a "series" card stacks all episodes of a show behind one
+  // thumbnail; clicking it opens a side panel listing every episode individually. ----
+  const episodePanel = document.getElementById('episodePanel');
+  const episodePanelTitle = document.getElementById('episodePanelTitle');
+  const episodeList = document.getElementById('episodeList');
+  const episodeCloseBtn = document.getElementById('episodeCloseBtn');
+
+  function closeEpisodePanel() {
+    episodePanel.classList.remove('open');
+  }
+  episodeCloseBtn.addEventListener('click', closeEpisodePanel);
+
+  function openEpisodePanel(seriesName, indices) {
+    episodePanelTitle.textContent = seriesName;
+    episodeList.innerHTML = '';
+    indices.forEach((i, pos) => {
+      const v = videos[i];
+      const item = document.createElement('div');
+      item.className = 'episode-item' + (i === currentIndex ? ' active' : '');
+      item.innerHTML = `
+        <img src="${v.thumb}" alt="${v.title}">
+        <div class="episode-info">
+          <span class="episode-num">Episode ${v.episode || (pos + 1)}</span>
+          <span class="episode-name">${v.episodeTitle || v.title}</span>
+        </div>
+      `;
+      item.addEventListener('click', () => {
+        playByIndex(i);
+        closeEpisodePanel();
+      });
+      episodeList.appendChild(item);
+    });
+    episodePanel.classList.add('open');
+  }
+
+  // Build the playlist. Videos sharing the same `series` field are collapsed
+  // into a single stacked thumbnail (badged with the episode count); every
+  // other video keeps its own individual thumbnail, same as before.
+  let renderItems = []; // { el, indices: [videoIndex, ...] } — used by search filtering
+  const seenSeries = new Set();
+
+  videos.forEach((v, i) => {
+    if (v.series) {
+      if (seenSeries.has(v.series)) return; // already rendered as part of its group card
+      seenSeries.add(v.series);
+      const indices = [];
+      videos.forEach((vv, ii) => { if (vv.series === v.series) indices.push(ii); });
+
+      const div = document.createElement('div');
+      div.className = 'thumb series-thumb';
+      div.innerHTML = `
+        <img src="${v.thumb}" alt="${v.series}">
+        <div class="play-icon">▶</div>
+        <div class="label">
+          <span class="series-name">${v.series}</span>
+          <span class="series-count">${indices.length} Episodes</span>
+        </div>
+        <div class="stack-icon">▤ Series</div>
+      `;
+      div.addEventListener('click', () => {
+        openEpisodePanel(v.series, indices);
+      });
+      thumbsEl.appendChild(div);
+      indices.forEach(idx => { thumbEls[idx] = div; });
+      renderItems.push({ el: div, indices, category: 'Series' });
+    } else {
+      const div = document.createElement('div');
+      div.className = 'thumb';
+      div.innerHTML = `
+        <img src="${v.thumb}" alt="${v.title}">
+        <div class="play-icon">▶</div>
+        <div class="label">${v.title}</div>
+      `;
+      div.addEventListener('click', () => {
+        playByIndex(i);
+      });
+      thumbsEl.appendChild(div);
+      thumbEls[i] = div;
+      renderItems.push({ el: div, indices: [i], category: v.category || null });
+    }
+  });
+
+  // ---- Title search: filter the thumbnail list live, Enter plays/opens the first match ----
+  const titleSearch = document.getElementById('titleSearch');
+  const searchClear = document.getElementById('searchClear');
+  const searchToggleBtn = document.getElementById('searchToggleBtn');
+  const searchWrap = document.getElementById('searchWrap');
+
+  let activeCategory = 'All';
+
+  function filterThumbs() {
+    const query = titleSearch.value.trim().toLowerCase();
+    searchClear.classList.toggle('show', query.length > 0);
+    let firstMatch = null;
+    renderItems.forEach(item => {
+      const matchesQuery = !query || item.indices.some(i => {
+        const v = videos[i];
+        return v.title.toLowerCase().includes(query)
+          || (v.series && v.series.toLowerCase().includes(query))
+          || (v.episodeTitle && v.episodeTitle.toLowerCase().includes(query));
+      });
+      const matchesCategory = activeCategory === 'All' || item.category === activeCategory;
+      const isMatch = matchesQuery && matchesCategory;
+      item.el.classList.toggle('filtered-out', !isMatch);
+      if (isMatch && !firstMatch) firstMatch = item;
+    });
+    return firstMatch;
+  }
+
+  // ---- Category chips: filter the playlist by genre; works together with title search ----
+  const categoryRow = document.getElementById('categoryRow');
+  categoryRow.addEventListener('click', (e) => {
+    const btn = e.target.closest('.category-chip');
+    if (!btn) return;
+    activeCategory = btn.dataset.category;
+    categoryRow.querySelectorAll('.category-chip').forEach(c => c.classList.toggle('active', c === btn));
+    filterThumbs();
+  });
+
+  function openSearch() {
+    searchWrap.classList.add('open');
+    searchToggleBtn.classList.add('active');
+    titleSearch.focus();
+  }
+
+  function closeSearch() {
+    searchWrap.classList.remove('open');
+    searchToggleBtn.classList.remove('active');
+    titleSearch.value = '';
+    filterThumbs();
+  }
+
+  searchToggleBtn.addEventListener('click', () => {
+    if (searchWrap.classList.contains('open')) closeSearch();
+    else openSearch();
+  });
+
+  titleSearch.addEventListener('input', filterThumbs);
+
+  titleSearch.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const match = filterThumbs();
+      if (match) {
+        if (match.indices.length > 1) {
+          openEpisodePanel(videos[match.indices[0]].series, match.indices);
+        } else {
+          playByIndex(match.indices[0]);
+        }
+      }
+    } else if (e.key === 'Escape') {
+      closeSearch();
+    }
+  });
+
+  searchClear.addEventListener('click', () => {
+    titleSearch.value = '';
+    filterThumbs();
+    titleSearch.focus();
+  });
+
+  // ---- X-Ray: short movie info pulled live from Wikipedia's public REST API ----
+  // Wikipedia summaries are released under CC BY-SA and are explicitly meant for
+  // this kind of "info card" reuse; we always show a link back to the full
+  // article for attribution rather than displaying more than a short extract.
+  const xrayBtn = document.getElementById('infoBtn');
+  const xrayPanel = document.getElementById('xrayPanel');
+  const xrayBody = document.getElementById('xrayBody');
+  const xrayCloseBtn = document.getElementById('closeInfo');
+  const xrayCache = {}; // videoIndex -> { title, extract, thumb, pageUrl } | 'unavailable'
+  let xrayToken = 0;
+
+  function cleanTitleForSearch(title) {
+    return title
+      .replace(/-Short\.?/gi, '')
+      .replace(/-Doc\.?/gi, '')
+      .replace(/^Making[- ]/i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  async function fetchWikipediaInfo(v) {
+    // An explicit `wiki` field (exact article title) always wins and skips the search step.
+    if (v.wiki) {
+      return fetchWikipediaSummary(v.wiki);
+    }
+    const query = cleanTitleForSearch(v.title);
+    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query + ' film')}&format=json&origin=*`;
+    const res = await fetchWithTimeout(searchUrl, 8000);
+    if (!res.ok) throw new Error('search HTTP ' + res.status);
+    const data = await res.json();
+    const hit = data && data.query && data.query.search && data.query.search[0];
+    if (!hit) throw new Error('no search results');
+    return fetchWikipediaSummary(hit.title);
+  }
+
+  async function fetchWikipediaSummary(pageTitle) {
+    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`;
+    const res = await fetchWithTimeout(url, 8000);
+    if (!res.ok) throw new Error('summary HTTP ' + res.status);
+    const data = await res.json();
+    if (!data.extract) throw new Error('no extract');
+    return {
+      title: data.title || pageTitle,
+      extract: data.extract,
+      thumb: (data.thumbnail && data.thumbnail.source) || (data.originalimage && data.originalimage.source) || null,
+      pageUrl: (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page)
+        || `https://en.wikipedia.org/wiki/${encodeURIComponent(pageTitle.replace(/ /g, '_'))}`
+    };
+  }
+
+  function renderXray(state) {
+    if (state === 'loading') {
+      xrayBody.innerHTML = '<div class="xray-status">Looking this up on Wikipedia…</div>';
+      return;
+    }
+    if (state === 'unavailable' || !state) {
+      xrayBody.innerHTML = '<div class="xray-status">No Wikipedia info found for this title.</div>';
+      return;
+    }
+    const thumbHtml = state.thumb
+      ? `<div class="xray-thumb"><img src="${state.thumb}" alt="${state.title}"></div>`
+      : '';
+    xrayBody.innerHTML = `
+      ${thumbHtml}
+      <div class="xray-content">
+        <div class="xray-title">${state.title}</div>
+        <div class="xray-extract">${state.extract}</div>
+        <div class="xray-attribution">Summary from <a href="${state.pageUrl}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA</div>
+      </div>
+    `;
+  }
+
+  async function loadXrayInfo() {
+    const idx = currentIndex;
+    if (idx < 0) return;
+    if (xrayCache[idx]) {
+      renderXray(xrayCache[idx] === 'unavailable' ? null : xrayCache[idx]);
+      return;
+    }
+    const token = ++xrayToken;
+    renderXray('loading');
+    try {
+      const info = await fetchWikipediaInfo(videos[idx]);
+      if (token !== xrayToken) return; // a different video was selected meanwhile
+      xrayCache[idx] = info;
+      renderXray(info);
+    } catch (err) {
+      console.warn('X-Ray lookup failed:', err);
+      if (token !== xrayToken) return;
+      xrayCache[idx] = 'unavailable';
+      renderXray(null);
+    }
+  }
+
+  function openXrayPanel() {
+    xrayPanel.classList.add('open');
+    xrayBtn.classList.add('on');
+    loadXrayInfo();
+    updateControlsVisibility();
+  }
+  function closeXrayPanel() {
+    xrayPanel.classList.remove('open');
+    xrayBtn.classList.remove('on');
+    updateControlsVisibility();
+  }
+  xrayBtn.addEventListener('click', () => {
+    if (xrayPanel.classList.contains('open')) closeXrayPanel();
+    else openXrayPanel();
+  });
+  xrayCloseBtn.addEventListener('click', closeXrayPanel);
+
+</script>
+
 </body>
 </html>
