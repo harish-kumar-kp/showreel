@@ -23,7 +23,7 @@
     },
     {
       title: "Big Buck Bunny -Short",
-      src: "https://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_h264.mov",
+      src: "https://video.blender.org/w/pAQiVCgv2CsLg79KKXUoMw",
       thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg",
       category: "Shorts"
     },
@@ -395,7 +395,7 @@ category: "Thriller"
     },
 {
       title: "Total Recall 1990",
-      src: "https://ia601603.us.archive.org/23/items/1990-total-recall-1990-carolco-vhs-480p-h-264/1990%20Total%20Recall%20%281990%20Carolco%20VHS%29%20480p%20H264.mp4",
+      src: "https://dn600303.us.archive.org/0/items/total.-recall.-mind.-bending.-edition.-1990.720p.-blu-ray.x-264.-yify_202408/Total.Recall.Mind.Bending.Edition.1990.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
       category: "Sci-Fi"
     },
