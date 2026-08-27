@@ -216,6 +216,36 @@
       category: "Family"
     },
     {
+      title: "Paulie 1998",
+      src: "https://archive.org/download/paulie_201907/Paulie.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUy5BAAcjmzIeDSQi813vQmLBwMaiHH2uxh2mX-rip_Q&s=10",
+      category: "Family"
+    },
+    {
+      title: "Stuart Little 1999",
+      src: "https://ia800605.us.archive.org/5/items/stuart-little-1999_20260222/Stuart%20Little%20%281999%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp1Sfki-9w15YL0jtEl14BkuVfIcwN-EyLEht3EB0gw&s=10",
+      category: "Family"
+    },
+    {
+      title: "Mouse Hunt 1997",
+      src: "https://archive.org/download/mousehunt1997_202001/Mousehunt%20%281997%29.mp4",
+      thumb: "https://www.google.com/imgres?q=Mouse%20Hunt%20&imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fthatguywiththeglasses%2Fimages%2F6%2F6d%2FMouse_Hunt_NC_Current.jpg",
+      category: "Family"
+    },
+    {
+      title: "Last Action Hero 1993",
+      src: "https://archive.org/download/last.-action.-hero.-1993.720p.-blu-ray.x-264.-yify/Last.Action.Hero.1993.720p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
+      category: "Family"
+    },
+    {
+      title: "DUMB & DUMBER 1994",
+      src: "https://ia600700.us.archive.org/32/items/dumb-and-dumber-dvdiso/DUMBDUMBER.mp4",
+      thumb: "https://shatpod.com/movies/wp-content/uploads/Dumb-and-Dumber-Poster-1994.jpg",
+      category: "Comedy"
+    },
+    {
       title: "Mask 1994",
       src: "https://archive.org/download/the-mask-vhs-1995-1996/The%20Mask%20VHS%201995%20%281996%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyri5fIjghGEykuu2-hiIEK0GsNkWRUX_Am8jbkn5SQ&s=10",
@@ -527,7 +557,7 @@ category: "Sci-Fi"
       title: "RoboCop3 1993",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%203.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/0ed3f3c58d1c129e564760b4cf0cfd44daf5bdf66f72b25fb323f7fbe37a9580.jpg",
-category: "Action"
+category: "Sci-Fi"
     },
     {
       title: "Robocop 2014",
