@@ -424,7 +424,7 @@ category: "Thriller"
        category: "Sci-Fi"
     },
 {
-      title: "Aliens Resurrection 1997"
+      title: "Aliens Resurrection 1997",
       src: "https://archive.org/download/alien-1979._202103/Alien%20Resurrection%281997%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBp7Pvn17MpovhTz8H0fmvVQ039_nAOaAMHWKjooUcsUkgtOt5Lq2Tsp1&s=10",
        category: "Sci-Fi"
