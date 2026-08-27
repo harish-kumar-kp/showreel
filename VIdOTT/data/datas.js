@@ -248,7 +248,7 @@ category: "Comedy"
 category: "Comedy"
     },
    {
-      title: "Where Eagles Dare",
+      title: "Where Eagles Dare 1968",
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/whereEaglesDare.srt",
@@ -261,9 +261,15 @@ category: "Comedy"
 category: "Action"
     },
     {
-      title: "Guns of Neverone",
+      title: "Guns of Neverone(1961)",
       src: "https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4",
       thumb: "https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg",
+category: "Action"
+    },
+{
+      title: "Lawrence of Arabia (1962)",
+      src: "https://ia600902.us.archive.org/35/items/some-of-the-best-movies-ever-produced/Lawrence%20of%20Arabia%2C%20by%20David%20Lean%20%281962%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKiI7DHI4TxS-Fmr577LQTwJ5qrC7ZXG8KAAEJyDxofA&s=10",
 category: "Action"
     },
     
@@ -398,6 +404,30 @@ category: "Thriller"
       src: "https://dn600303.us.archive.org/0/items/total.-recall.-mind.-bending.-edition.-1990.720p.-blu-ray.x-264.-yify_202408/Total.Recall.Mind.Bending.Edition.1990.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
       category: "Sci-Fi"
+    },
+{
+      title: "Alien 1979",
+      src: "https://archive.org/download/alien-1979._202103/Alien%281979%29..mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaNa0VmxRzl5rU0EK6GRaROOIQxZDsG9JUWD-TvKPJA&s=10",
+       category: "Sci-Fi"
+    },
+{
+      title: "Aliens 1986",
+      src: "https://archive.org/download/alien-1979._202103/Aliens%201986.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpNj1H1KT1AzNzo04dcrz06oIELg5eFKNSsuJVajPd-dCP2fxYGdGsnU&s=10",
+       category: "Sci-Fi"
+    },
+{
+      title: "Aliens3 1992",
+      src: "https://archive.org/download/alien-1979._202103/Alien%C2%B3%281992%29..mp4",
+      thumb: "https://i.ytimg.com/vi/KUTaNMJJBa8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFGK6kdPTr83J9OaATf_viyJTxZw",
+       category: "Sci-Fi"
+    },
+{
+      title: "Aliens Resurrection 1997"
+      src: "https://archive.org/download/alien-1979._202103/Alien%20Resurrection%281997%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBp7Pvn17MpovhTz8H0fmvVQ039_nAOaAMHWKjooUcsUkgtOt5Lq2Tsp1&s=10",
+       category: "Sci-Fi"
     },
 {
       title: "Aliens vs Predator Requiem 2007",
