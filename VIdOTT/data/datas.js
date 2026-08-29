@@ -227,6 +227,12 @@
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp1Sfki-9w15YL0jtEl14BkuVfIcwN-EyLEht3EB0gw&s=10",
       category: "Family"
     },
+ {
+      title: "Stuart Little 2 2002",
+      src: "https://dn720409.ca.archive.org/0/items/stuart.-little.-2.2002.-br-rip.-720p.x-264.-yify/Stuart.Little.2.2002.BrRip.720p.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFnD55Oq1C9WawrcxTMHJLJtt0Tg9dXmHlFGe15_eiw&s=10",
+      category: "Family"
+    },
     {
       title: "Mouse Hunt 1997",
       src: "https://archive.org/download/mousehunt1997_202001/Mousehunt%20%281997%29.mp4",
@@ -239,6 +245,19 @@
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
       category: "Family"
     },
+{
+      title: "Super Mario Bros 1993",
+      src: "https://ia800904.us.archive.org/4/items/super-mario-bros.-1993_202511/Super%20Mario%20Bros.%20%281993%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
+      category: "Family"
+    },
+{
+      title: "Little Miss Sunshine 2006",
+      src: "https://archive.org/download/little.-miss.-sunshine.-2006.720p.-blu-ray.x-264.-yify_202607/Little.Miss.Sunshine.2006.720p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LdfUnJHCXpLreCZMwIG-5Sf29VfmCyliJx8axhw_7g&s=10",
+      category: "Family"
+    },
+
     {
       title: "DUMB & DUMBER 1994",
       src: "https://ia600700.us.archive.org/32/items/dumb-and-dumber-dvdiso/DUMBDUMBER.mp4",
@@ -369,6 +388,12 @@ category: "Action"
 category: "Action"
     },
     {
+      title: "The Poseidon Adventure 1972",
+      src: "https://archive.org/download/the-poseidon-adventure-1972_202511/The%20Poseidon%20Adventure%20%281972%29/The%20Poseidon%20Adventure%20-%201972.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas0u5_16tiHCGxNWFYXeQzu7oHKqkbmou0We62WzRmw&s=10",
+category: "Action"
+    },
+    {
       title: "Soylent Green 1973",
       src: "https://archive.org/download/soylent-green-1973_202512/Soylent%20Green%20%281973%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNBZJqwHDhz2E8RJ0RSi8tSepgKfnUgXvcO5O32ufQ&s=10",
@@ -399,6 +424,21 @@ category: "Family"
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROx7IwqAiW_GcnMuQgEI2et-dZP_KGBxk0hIxPY5zPrA&s=10",
 category: "Drama"
     },
+
+
+    {
+      title: "Doctor Zhivago 1965",
+      src: "archive.org/download/some-of-the-best-movies-ever-produced/Doctor%20Zhivago%2C%20by%20David%20Lean%20%281965%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLcuwOWoeW8cpysKVMk8_254MtVjanP7OjuGcM2EWvQ&s=10",
+category: "Drama"
+    },
+    {
+      title: "Edward Scissorhands 1990",
+      src: "https://archive.org/download/edward.-scissorhands.-1990.1080p.-br-rip.x-264.-yify/Edward.Scissorhands.1990.1080p.BrRip.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOqMv9Q5bqv5AV1PUkkNhBUuEJiMy8pRWbGEMNHe_vA&s=10",
+category: "Drama"
+    },
+
     {
       title: "Shinning 1980",
       src: "https://dn721904.ca.archive.org/0/items/PopcornArchive-._u7eat/PopcornArchive-._u7eat.mp4",
@@ -460,11 +500,47 @@ category: "Thriller"
        category: "Sci-Fi"
     },
 {
-      title: "Aliens vs Predator Requiem 2007",
-      src: "https://archive.org/download/aliens.vs.-predator.-requiem.-2007.-unrated.-720p.-blu-ray.-h-264.-aac-rarbg/Aliens.vs.Predator.Requiem.2007.UNRATED.720p.BluRay.H264.AAC-RARBG.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlhvzLaLvzvOR-odGHlUA68b2-3taJprvYO0s-J3NDpQ&s=10",
+      title: "Abyss 1989",
+      src: "",
+      thumb: "https://www.primevideo.com/detail/0RO2SGMFCST6W8EHN5X6QV10RU",
        category: "Sci-Fi"
     },
+
+{
+      title: "The Punisher 2004",
+      src: "https://archive.org/download/the.-punisher.-2004.-extended.-cut.-1080p.-blu-ray.-h-264.-aac-rarbg/The.Punisher.2004.EXTENDED.CUT.1080p.BluRay.H264.AAC-RARBG.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZcDRKpGzFzVP-79kJ3qXxTY2YrSE8qVj6zuMd9gPwag&s=10",
+      category: "Action"
+    },
+{
+      title: "They Call Me Trinity 1971",
+      src: "https://archive.org/download/theycallmetrinity1971/They_Call_Me_Trinity_1971.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD11bQw6GfW5LjCS3XLAK9NaLRPhHaUSmu2DiRlj5nuQ&s=10",
+      category: "Action"
+    },
+{
+      title: "Air Force One 1997",
+      src: "https://archive.org/download/air.-force.-one.-1997.720p.-brrip.x-264.-yify/Air.Force.One.1997.720p.BRrip.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqTijnfaAm0eGP7nM-IJaPE4TEZsA2Otg51pzvVdBlw&s=10",
+      subtitle:"https://archive.org/download/air.-force.-one.-1997.720p.-brrip.x-264.-yify/Air.Force.One.1997.720p.BRrip.x264.YIFY.srt",
+      category: "Action"
+    },
+{
+      title: "The Fog 1980",
+      src: "https://archive.org/download/the.-fog.-1980.720p.-blu-ray.x-264.-yify/The%20Fog%20%281980%29/The.Fog.1980.720p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xZ4zS9iYXH_ISbucq4nm20WOQ8S1m93bw67sHlkt0g&s=10",
+      subtitle: "https://archive.org/download/the.-fog.-1980.720p.-blu-ray.x-264.-yify/The%20Fog%20%281980%29/The.Fog.1980.720p.BluRay.x264.YIFY.srt",
+      category: "Thriller"
+    },
+
+{
+      title: "Desperado 1995",
+      src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      category: "Action"
+    },
+
+
     {
       title: "The Mummy 1999",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/The.Mummy.%281999%29.H265.1080p.DVDRip.EzzRips/The.Mummy.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
