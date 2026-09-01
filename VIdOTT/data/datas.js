@@ -389,7 +389,7 @@
     {
       title: "Sandokan The Great 1963",
       src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.mkv",
-      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpfkqcYxpJJucCriMTfz0ciRXr_tMZT8P73XLlR0Yzw&s=10",
       subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.srt",
       category: "Mythology"
     },
