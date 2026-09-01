@@ -389,7 +389,7 @@
     {
       title: "Sandokan The Great 1963",
       src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.mkv",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThpfkqcYxpJJucCriMTfz0ciRXr_tMZT8P73XLlR0Yzw&s=10",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
       subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.srt",
       category: "Mythology"
     },
@@ -553,9 +553,9 @@
       category: "Thriller"
     },
     {
-      title: "Desperado 1995",
-      src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      title: "El Mariachi 1993",
+      src: "https://archive.org/download/el-mariachi-vhs-1993/El%20Mariachi%20VHS%201993.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcoCO67_SIpuM7z6XREMUJ9Kx4r84P2AlMqo_wDglWfw&s=10",
       category: "Action"
     },
     {
@@ -565,9 +565,9 @@
       category: "Action"
     },
     {
-      title: "Desperado 1995",
-      src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      title: "Once upon a time in mexico 2004 VHS",
+      src: "https://archive.org/download/once-upon-a-time-in-mexico-vhs-2004/Once%20Upon%20A%20Time%20In%20Mexico%20VHS%202004.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtztD04hLERUK0Zz3K8h4XR19u4vdbb-6sghSTMiGUQ&s=10",
       category: "Action"
     },
 
