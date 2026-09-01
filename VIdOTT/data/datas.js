@@ -227,7 +227,7 @@
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp1Sfki-9w15YL0jtEl14BkuVfIcwN-EyLEht3EB0gw&s=10",
       category: "Family"
     },
- {
+    {
       title: "Stuart Little 2 2002",
       src: "https://dn720409.ca.archive.org/0/items/stuart.-little.-2.2002.-br-rip.-720p.x-264.-yify/Stuart.Little.2.2002.BrRip.720p.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFnD55Oq1C9WawrcxTMHJLJtt0Tg9dXmHlFGe15_eiw&s=10",
@@ -245,13 +245,13 @@
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
       category: "Family"
     },
-{
+    {
       title: "Super Mario Bros 1993",
       src: "https://ia800904.us.archive.org/4/items/super-mario-bros.-1993_202511/Super%20Mario%20Bros.%20%281993%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
       category: "Family"
     },
-{
+    {
       title: "Little Miss Sunshine 2006",
       src: "https://archive.org/download/little.-miss.-sunshine.-2006.720p.-blu-ray.x-264.-yify_202607/Little.Miss.Sunshine.2006.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LdfUnJHCXpLreCZMwIG-5Sf29VfmCyliJx8axhw_7g&s=10",
@@ -275,26 +275,26 @@
       src: "https://dn710609.ca.archive.org/0/items/the.-gods.-must.-be.-crazy.-1980.-hdrip.-xvi-d.-b-4-nd-1-t-69/The.Gods.Must.Be.Crazy.1980.HDRip.XviD.B4ND1T69.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8fRfjMCydTBBdFOk8cstgUX-dXed2LjVqRgR8zI9vEuY6XsDAeuF66wt&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The.Gods.Must.Be.Crazy.1984.srt",
-category: "Comedy"
+      category: "Comedy"
     },
     {   
       title: "The Gods Must Be Crazy 2",
       src: "https://dn710008.ca.archive.org/0/items/Popcornarchive-theGodsMustBeCrazy21989/Popcornarchive-theGodsMustBeCrazy21989.mp4",
       thumb: "https://californiaherps.com/films/filmimages/godsmustbecrazyII.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The%20Gods%20Must%20Be%20Crazy%20II%20(1989).srt",
-category: "Comedy"
+      category: "Comedy"
     },
     {
       title: "The Gods Must Be Crazy3",
       src: "https://dn721605.ca.archive.org/0/items/GodsMustBeCrazy3CrazySafari/Gods%20Must%20Be%20Crazy%203%20-%20Crazy%20Safari.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMugptVH1zegCveYbzUmrUjwCsbBq7WONVTls1B0gHkbv5N61zrT-S5k&s=10",
-category: "Comedy"
+      category: "Comedy"
     },
     {
       title: "The Gods Must Be Crazy4",
       src: "https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10",
-category: "Comedy"
+      category: "Comedy"
     },
    {
       title: "Where Eagles Dare 1968",
@@ -307,19 +307,19 @@ category: "Comedy"
       title: "The Bridge on the River Kwai (1957)",
       src: "https://archive.org/download/the-bridge-on-the-river-kwai-1957_202511/The%20Bridge%20on%20the%20River%20Kwai%20%281957%29/The%20Bridge%20on%20the%20River%20Kwai%20-%201957.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQ-1fJjQ3nLMORW5Ek8NG08zyzqdxPLUwh7PM30eBkgDk1E6nF3y1LYOj&s=10",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Guns of Neverone(1961)",
       src: "https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4",
       thumb: "https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg",
-category: "Action"
+      category: "Action"
     },
-{
+    {
       title: "Lawrence of Arabia (1962)",
       src: "https://ia600902.us.archive.org/35/items/some-of-the-best-movies-ever-produced/Lawrence%20of%20Arabia%2C%20by%20David%20Lean%20%281962%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKiI7DHI4TxS-Fmr577LQTwJ5qrC7ZXG8KAAEJyDxofA&s=10",
-category: "Action"
+      category: "Action"
     },
     
     {
@@ -327,118 +327,139 @@ category: "Action"
       src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2001%20-%20King%20Solomons%20Mines.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHzX_3cDkY_m9eXrzjd1EKGNoIwPqByUzcLcdrRaJKcA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/King.Solomons.Mines.1985.en.srt",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Allan Quatermain The Lost City of Gold 1986",
       src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2002%20-%20The%20Lost%20City%20of%20Gold.mp4",
       thumb: "https://shatpod.com/movies/wp-content/uploads/Lost-City-Of-Gold-Movie-Poster-1987.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/AllanQuatermainAndtheLostCityofGold1986.srt",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Romancing the stone 1984",
       src: "https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg",
 	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/RomancingtheStone(1984).srt",
-category: "Action"
+      category: "Action"
     },
     {
       title: "The. Jewel Of The Nile 1985",
       src: "https://archive.org/download/s-the.-jewel.-of.-the.-nile.-1985/S-The.Jewel.Of.The.Nile.1985.mp4",
       thumb: "https://image.tmdb.org/t/p/original/og5qj3KTctBLer1oktVbyIN5zrt.jpg",
-	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheJewelof%20theNile(1985).srt",
-category: "Action"
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheJewelof%20theNile(1985).srt",
+      category: "Action"
     },
     {
       title: "The Pink Panther 1963",
       src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
       thumb: "https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg",
-category: "Action"
-    },
-    
-{
+      category: "Action"
+    },    
+    {
       title: "Jason and the Argonauts",
       src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
       thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg",
-category: "Mythology"
+      category: "Mythology"
     },
     {
       title: "Captain Sindbad (1963)",
       src: "https://archive.org/download/Captain.Sindbad.1963.DVDRip/Captain.Sindbad.1963.DVDRip.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/069507013f9eab7830db9174291bdcfb32555b009f1858566aec1f60ec734b90.jpg",
-category: "Mythology"
+      category: "Mythology"
+    },
+    {
+      title: "The Golden Voyage Of Sinbad 1973",
+      src: "https://archive.org/download/1973-the.-golden.-voyage.-of.-sinbad.-1973.i-nternal.-bdrip.x-264-li-brari-ans.mkv/1973%20The.Golden.Voyage.Of.Sinbad.1973.iNTERNAL.BDRip.x264-LiBRARiANS.mkv.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BZYvTwk4ygu7J_jqcDi6MiYo7shKNz2xkOAXCtSIjg&s=10",
+      category: "Mythology"
+    },
+    {
+      title: "Sinbad And The Eye Of The Tiger 1977",
+      src: "https://archive.org/download/sinbad-and-the-eye-of-the-tiger-1977/Sinbad%20and%20the%20Eye%20of%20the%20Tiger%20%281977%29.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7DY2_q1XxdJzbQS7M3lOIDmVhtQRY-_ciMZqPbDX5w&s=10",
+      category: "Mythology"
+    },
+    {
+      title: "The 7th Voyage Of Sinbad 1958",
+      src: "https://archive.org/download/the.-7th.-voyage.-of.-sinbad.-1958.-remastered.-1080p.-blu-ray.-h-264.-aac-rarbg/The.7th.Voyage.Of.Sinbad.1958.REMASTERED.1080p.BluRay.H264.AAC-RARBG.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0yvGKLe9vYUf9gDs4ujHmyUy0wg-1wCuocd_1LzJuA&s=10",
+      category: "Mythology"
+    },
+    {
+      title: "Sandokan The Great 1963",
+      src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.mkv",
+      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
+      subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.srt",
+      category: "Mythology"
     },
     {
       title: "Cleopatra 1963",
       src: "https://dn760104.eu.archive.org/0/items/cleopatra-1963_202511/Cleopatra%20%281963%29/Cleopatra%20-%201963.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
-category: "Mythology"
+      category: "Mythology"
     },
     {
       title: "5 Men Army 1969",
       src: "https://archive.org/download/1969-un-esercito-di-5-uomini-ext/%5B1969%5D%20Un%20Esercito%20di%205%20Uomini%20%28ext%29.mp4",
       thumb: "https://tobrien10.wordpress.com/wp-content/uploads/2018/10/the-five-man-army.jpg",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Mackenna's Gold 1969",
       src: "https://archive.org/download/mackennas-gold-1969-bg-sub/Mackenna%27s%20Gold%281969%29%20bg%20sub.mp4",
       thumb: "https://i.ytimg.com/vi/vRnzCQLZJoM/mqdefault.jpg",
-category: "Action"
+      category: "Action"
     },
     {
       title: "The Poseidon Adventure 1972",
       src: "https://archive.org/download/the-poseidon-adventure-1972_202511/The%20Poseidon%20Adventure%20%281972%29/The%20Poseidon%20Adventure%20-%201972.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas0u5_16tiHCGxNWFYXeQzu7oHKqkbmou0We62WzRmw&s=10",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Soylent Green 1973",
       src: "https://archive.org/download/soylent-green-1973_202512/Soylent%20Green%20%281973%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNBZJqwHDhz2E8RJ0RSi8tSepgKfnUgXvcO5O32ufQ&s=10",
-category: "Action"
+      category: "Action"
     },
    {
       title: "Planet of the Apes",
       src: "http://www.deadlyblogger.com/NewRelease/apes1.mp4",
       thumb: "https://www.filmsite.org/featured/movie-fr-planetofapes.jpg",
-category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "Logan's Run 1976",
       src: "https://archive.org/download/soylent-green-1973_202512/Logan%27s%20Run.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSgShhZ3lxwki8d4orFHucGiH3Fu3uAPEzuYh7LGuCl-M1fir8IU7lDM&s=10",
-category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "Maya 1966",
       src: "https://archive.org/download/maya-1966-o-vale-dos-tigres-cover-dvd/1966%20-%20Maya%20-%20O%20Vale%20dos%20Tigres.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl1eKMehM2IRQ8kIwoRovg805lGdqY9IpG0GhWWivlQ&s=10",
-category: "Family"
+      category: "Family"
 
     },
     {
       title: "Breakfast At Tiffanys 1961",
       src: "https://archive.org/download/breakfast-at-tiffanys-1961_202508/Breakfast%20at%20Tiffany%27s%20%281961%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROx7IwqAiW_GcnMuQgEI2et-dZP_KGBxk0hIxPY5zPrA&s=10",
-category: "Drama"
+      category: "Drama"
     },
-
-
     {
       title: "Doctor Zhivago 1965",
       src: "archive.org/download/some-of-the-best-movies-ever-produced/Doctor%20Zhivago%2C%20by%20David%20Lean%20%281965%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLcuwOWoeW8cpysKVMk8_254MtVjanP7OjuGcM2EWvQ&s=10",
-category: "Drama"
+      category: "Drama"
     },
     {
       title: "Edward Scissorhands 1990",
       src: "https://archive.org/download/edward.-scissorhands.-1990.1080p.-br-rip.x-264.-yify/Edward.Scissorhands.1990.1080p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOqMv9Q5bqv5AV1PUkkNhBUuEJiMy8pRWbGEMNHe_vA&s=10",
-category: "Drama"
+      category: "Drama"
     },
-
     {
       title: "Shinning 1980",
       src: "https://dn721904.ca.archive.org/0/items/PopcornArchive-._u7eat/PopcornArchive-._u7eat.mp4",
@@ -449,13 +470,13 @@ category: "Drama"
       title: "Big Trouble In Little China 1986",
       src: "https://archive.org/download/big-trouble-little-china/Big%20Trouble%20In%20Little%20China%20720p.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10",
-category: "Mythology"
+      category: "Mythology"
     },
     {
       title: "Silver Bullet 1985",
       src: "https://dn721809.ca.archive.org/0/items/Popcornarchive-silverBullet1985/Popcornarchive-silverBullet1985.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uXoBqfpdH3qWpsDQrWPWlCMm4W5uhiHm9fOJsyPDfw&s=10",
-category: "Thriller"
+      category: "Thriller"
     },
     {
       title: "TrueLies 1994",
@@ -469,71 +490,81 @@ category: "Thriller"
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZwRVi42zinrqJfEsgih_l521p6ZgqbNVW7rGbQDvfw&s=10",
       category: "Sci-Fi"
     },
-{
+    {
       title: "Total Recall 1990",
       src: "https://dn600303.us.archive.org/0/items/total.-recall.-mind.-bending.-edition.-1990.720p.-blu-ray.x-264.-yify_202408/Total.Recall.Mind.Bending.Edition.1990.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
       category: "Sci-Fi"
     },
-{
+    {
       title: "Alien 1979",
       src: "https://archive.org/download/alien-1979._202103/Alien%281979%29..mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaNa0VmxRzl5rU0EK6GRaROOIQxZDsG9JUWD-TvKPJA&s=10",
        category: "Sci-Fi"
     },
-{
+    {
       title: "Aliens 1986",
       src: "https://archive.org/download/alien-1979._202103/Aliens%201986.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpNj1H1KT1AzNzo04dcrz06oIELg5eFKNSsuJVajPd-dCP2fxYGdGsnU&s=10",
        category: "Sci-Fi"
     },
-{
+    {
       title: "Aliens3 1992",
       src: "https://archive.org/download/alien-1979._202103/Alien%C2%B3%281992%29..mp4",
       thumb: "https://i.ytimg.com/vi/KUTaNMJJBa8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFGK6kdPTr83J9OaATf_viyJTxZw",
        category: "Sci-Fi"
     },
-{
+    {
       title: "Aliens Resurrection 1997",
       src: "https://archive.org/download/alien-1979._202103/Alien%20Resurrection%281997%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBp7Pvn17MpovhTz8H0fmvVQ039_nAOaAMHWKjooUcsUkgtOt5Lq2Tsp1&s=10",
        category: "Sci-Fi"
     },
-{
+    {
       title: "Abyss 1989",
       src: "",
       thumb: "https://www.primevideo.com/detail/0RO2SGMFCST6W8EHN5X6QV10RU",
        category: "Sci-Fi"
     },
-
-{
+    {
       title: "The Punisher 2004",
       src: "https://archive.org/download/the.-punisher.-2004.-extended.-cut.-1080p.-blu-ray.-h-264.-aac-rarbg/The.Punisher.2004.EXTENDED.CUT.1080p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZcDRKpGzFzVP-79kJ3qXxTY2YrSE8qVj6zuMd9gPwag&s=10",
       category: "Action"
     },
-{
+    {
       title: "They Call Me Trinity 1971",
       src: "https://archive.org/download/theycallmetrinity1971/They_Call_Me_Trinity_1971.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD11bQw6GfW5LjCS3XLAK9NaLRPhHaUSmu2DiRlj5nuQ&s=10",
       category: "Action"
     },
-{
+    {
       title: "Air Force One 1997",
       src: "https://archive.org/download/air.-force.-one.-1997.720p.-brrip.x-264.-yify/Air.Force.One.1997.720p.BRrip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqTijnfaAm0eGP7nM-IJaPE4TEZsA2Otg51pzvVdBlw&s=10",
       subtitle:"https://archive.org/download/air.-force.-one.-1997.720p.-brrip.x-264.-yify/Air.Force.One.1997.720p.BRrip.x264.YIFY.srt",
       category: "Action"
     },
-{
+    {
       title: "The Fog 1980",
       src: "https://archive.org/download/the.-fog.-1980.720p.-blu-ray.x-264.-yify/The%20Fog%20%281980%29/The.Fog.1980.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xZ4zS9iYXH_ISbucq4nm20WOQ8S1m93bw67sHlkt0g&s=10",
       subtitle: "https://archive.org/download/the.-fog.-1980.720p.-blu-ray.x-264.-yify/The%20Fog%20%281980%29/The.Fog.1980.720p.BluRay.x264.YIFY.srt",
       category: "Thriller"
     },
-
-{
+    {
+      title: "Desperado 1995",
+      src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      category: "Action"
+    },
+    {
+      title: "Desperado 1995",
+      src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      category: "Action"
+    },
+    {
       title: "Desperado 1995",
       src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
@@ -547,7 +578,7 @@ category: "Thriller"
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSZeNzlP2G8HKxVmI2EcDHIAYB5fmNO7o4oxIwmmynQ&s=10",
       category: "Mythology"
     },
-{
+    {
       title: "Desperado 1995",
       src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
@@ -557,32 +588,32 @@ category: "Thriller"
       title: "National Treasure Book of Secrets 2007",
       src: "https://archive.org/download/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiys5p8VSIyvqJgIkxbkH8AdQ_o005sT9sNjmj_f6nhtenXDdgCFceX8w&s=10",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Vertical Limit 2000",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Vertical.Limit.%282000%29.H265.1080p.DVDRip.EzzRips/Vertical.Limit.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaradMxoriUb63yKZA2wQlmnuTaycy0IbYZdo0oIy_g&s=10",
-category: "Action"
+      category: "Action"
     },
   
     {
       title: "Aeroplanes! 1980",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Airplane%21.%281980%29.H265.1080p.DVDRip.EzzRips/Airplane%21.%281980%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://i.ytimg.com/vi/n9MK9F2RZww/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDuXLIBhe1YCyG46EyG-aoctMje9A",
-category: "Comedy"
+      category: "Comedy"
     },
     {
       title: "UHF 1989",
       src: "https://archive.org/download/uhf.-1989/UHF%20%281989%29/mp4/UHF.1989.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX3ABbHBA9pJeyqDeMdrKNQmSi9vhkQnUJfDyvSz-hUYB0pGDf-fbGDb0&s=10",
-category: "Comedy"
+      category: "Comedy"
     },
     {
       title: "Spaceballs 1987",
       src: "https://archive.org/details/spaceballs-1987-mel-brooks-vhs-film",
       thumb: "https://ccapp.osu.edu/sites/default/files/styles/news_and_events_image/public/2022-11/event_spaceballs_0.jpg?h=d1cb525d&itok=6elScADy",
-category: "Comedy"
+      category: "Comedy"
     },
    {
       title: "Poltergeist 1982",
@@ -595,53 +626,53 @@ category: "Comedy"
       title: "Memanto 2000",
       src: "https://archive.org/download/memento.-2000.1080p.-blu-ray.x-264.-yify/Memento.2000.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://images.mubicdn.net/images/artworks/172703/cache-172703-1621560129/images-original.png",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Fight Club 1999",
       src: "https://archive.org/download/fight.club.10th.anniversary.edition.1999.1080p.brrip.x264.yify_201908/Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjQ8mkKoJe2HsPyvU-T4qcPqotA3ydCx3QaHqgUe4LkvEX7iRYNJVo4lw&s=10",
-category: "Action"
-
+      category: "Action"
     },
     {
       title: "3000 Miles To Graceland 2001",
       src: "https://archive.org/download/3000-miles-to-graceland-2001/3000%20Miles%20to%20Graceland%20%282001%29.mp4",
 
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSujRLI-i15bBspW9ZiLENq1YpzKB0oeJG9NEdgXlZg&s",
-category: "Action"
+      category: "Action"
     },
     {
       title: "Flatliners 1990",
       src: "https://archive.org/download/flatliners-1990/Flatliners%20%281990%29/Flatliners%20-%201990.mp4",
       thumb: "https://miro.medium.com/1*8ETieBYfLrbJ38EiuDuNqQ.jpeg",
-category: "Action"
+      category: "Action"
     },
     {
       title: "RoboCop 1987",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%201987.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDFdIHUzXVRa2O9CaLGWXKIjYdyi18eLz0GzRv2NS0ASq0inlJZmCpSF-&s=10",
-category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "RoboCop2 1990",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKrF2GUw134lA1prcgpdU0qkyDG9vkllmMovY-4xy633O87KztwYzKOe8&s=10",
-category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "RoboCop3 1993",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%203.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/0ed3f3c58d1c129e564760b4cf0cfd44daf5bdf66f72b25fb323f7fbe37a9580.jpg",
-category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "Robocop 2014",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202014.mp4",
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg",
-category: "Sci-Fi"
+      category: "Sci-Fi"
 
     },
+
     {
       title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
@@ -740,7 +771,6 @@ category: "Sci-Fi"
       episode: 4,
       episodeTitle: "Caves"
     },
-
    {
       title: "Planet Earth-Ep05",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_05_deserts.mp4",
@@ -749,7 +779,7 @@ category: "Sci-Fi"
       episode: 5,
       episodeTitle: "Deserts"
     },
-{
+      {
       title: "Planet Earth-Ep06",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_06_ice_worlds.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
@@ -757,7 +787,7 @@ category: "Sci-Fi"
       episode: 6,
       episodeTitle: "Ice Worlds"
     },
-{
+      {
       title: "Planet Earth-Ep07",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_07_great_plains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
@@ -765,7 +795,7 @@ category: "Sci-Fi"
       episode: 7,
       episodeTitle: "Great Plains"
     },
-{
+    {
       title: "Planet Earth-Ep08",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_08_jungles.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
@@ -773,8 +803,7 @@ category: "Sci-Fi"
       episode: 8,
       episodeTitle: "Jungles"
     },
-
-{
+    {
       title: "Planet Earth-Ep09",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_09_shallow_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
@@ -823,7 +852,7 @@ category: "Sci-Fi"
       episodeTitle: "Living Together"
     },
 
-{
+    {
       title: "Planet Earth II-Ep01:Islands",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_01_islands.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
@@ -1140,6 +1169,74 @@ category: "Sci-Fi"
       episode: 6,
       episodeTitle: "Mammoth Journey"
     },  
+
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 1,
+      episodeTitle: "TRAILER"
+    }, 
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep02:Antarctica",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_1_Antarctica.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 2,
+      episodeTitle: "Antarctica",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/SpriteFright_en.srt"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_2_Asia.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 3,
+      episodeTitle: "Asia"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep04:South_America",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_3_South_America.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 4,
+      episodeTitle: "South_America"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep05:Australia",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_4_Australia.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 5,
+      episodeTitle: "Australia"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep06:Europe",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_5_Europe.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 6,
+      episodeTitle: "Europe"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep07:North_America",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_6_North_America.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 7,
+      episodeTitle: "North_America"
+    },
+    {
+      title: "SEVEN WORLDS ONE PLANET-Ep08:Africa",
+      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_7_Africa.mp4",
+      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      series: "SEVEN WORLDS ONE PLANET",
+      episode: 8,
+      episodeTitle: "Africa"
+    },
+
+
     {
       title: "Coffee Cup",
       src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
@@ -1165,7 +1262,7 @@ category: "Sci-Fi"
       src: "https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyc0-RsVKTimb3HK_bGU0baLFU9Sd7GjcbphGu2nFunw&s=10"
     },
-  {
+    {
       title: "Deep Blue Sea 2007",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Deep.Blue.Sea.%281999%29.H265.1080p.DVDRip.EzzRips/Deep.Blue.Sea.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-image-of-characters-and-sharks-from-Deep-Blue-Sea.jpg?q=50&fit=crop&w=360&h=240&dpr=1.5"
