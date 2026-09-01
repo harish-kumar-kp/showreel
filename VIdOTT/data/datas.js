@@ -6,6 +6,7 @@
       title: "SPRING -Short",
       src: "https://video.blender.org/download/web-videos/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/3d95fb3d-c866-42c8-9db1-fe82f48ccb95.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
     {
@@ -19,12 +20,14 @@
       title: "Making-Sintel -Doc.",
       src: "https://video.blender.org/download/web-videos/6a12c7a4-6c0f-46db-a5fd-e212a83661f8-720.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
     {
       title: "Big Buck Bunny -Short",
       src: "https://video.blender.org/w/pAQiVCgv2CsLg79KKXUoMw",
       thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
     {
@@ -52,18 +55,21 @@
       title: "Charge -Short",
       src: "https://video.blender.org/download/web-videos/04da454b-9893-4184-98f3-248d00625efe-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
     {
       title: "Making-Charge -Doc.",
       src: "https://video.blender.org/download/web-videos/d06afb85-ecea-4df6-be75-005a7954a93c-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/da8a3e07-dd59-4a14-adfa-b5e3ae65cb8c.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Caminandes:Llama Drama -Short",
       src: "https://video.blender.org/download/web-videos/fb70d459-48d2-4db5-adba-813c84f9200a-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/fb70d459-48d2-4db5-adba-813c84f9200a.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
 
     },
@@ -71,54 +77,63 @@
       title: "Caminandes:Llamigos -Short",
       src: "https://video.blender.org/download/web-videos/23f3ef79-15dc-44c5-aa45-cf92e78a4509-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/23f3ef79-15dc-44c5-aa45-cf92e78a4509.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Making -Caminandes: Llamigos -Doc.",
       src: "https://video.blender.org/download/web-videos/515fa4ff-7038-42a3-9e1b-ef7154bd7398-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/eb768a62-cd22-4fba-80a8-4652bf6238ba.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"  
     },
    {
       title: "Heros -Short",
       src: "https://video.blender.org/download/web-videos/3eb93cab-79a2-4fd5-a636-d42e5c59ddea-536.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/8d2a64e7-089c-4ad5-a676-7eec5e51f7c0.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "WingIt -Short",
       src: "https://video.blender.org/download/web-videos/bd0084a5-1d26-4816-ab5e-1bad9e2fb990-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/4efa0a16-83b0-4c62-a4bc-4dcd30c05749.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Singularity -Short",
       src: "https://crystalstream.mk16.de/static/redundancy/hls/1ba07bbb-1456-4293-99a6-833fa450eda0/903ba2a3-74ae-4ebd-83f5-c6e5c3e245ee-1080-fragmented.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/38b6e48a-40e7-4c46-801f-9a46baf9c02a.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Making-Singularity -Doc.",
       src: "https://video.blender.org/videos/embed/pT59NDdBRLHX3zmnvGNm9c",
       thumb: "https://video.blender.org/lazy-static/thumbnails/3d61fdb7-28d4-4e9e-8b44-2225fcd04e35.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Glass Half -Short",
       src: "https://video.blender.org/download/web-videos/64222c8a-c4c7-4b3b-9850-7fb2078edcf6-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/64222c8a-c4c7-4b3b-9850-7fb2078edcf6.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "The Daily Dweebs -Short",
       src: "https://video.blender.org/download/web-videos/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Coffee Run -Short",
       src: "https://video.blender.org/download/web-videos/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
@@ -146,6 +161,7 @@
       title: "Snow White and the Seven Dwarfs 1937",
       src: "https://dn720203.ca.archive.org/0/items/snow-white-and-the-seven-dwarfs-1937_202404/Snow%20White%20and%20the%20Seven%20Dwarfs%20%281937%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShSDpKN_qs_cn86LpWBgYO8iUTIiMLeC_Kk8mQWMVFA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
@@ -157,6 +173,7 @@
     {
       title: "Gullivers Travel 1939",
       src: "https://archive.org/download/gullivers_travels_1080hd/gullivers_travels_1080hd.mkv",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       thumb: "https://i.ytimg.com/vi/mySEPPEifnk/hq720.jpg",
       category: "Family"
     },
@@ -164,42 +181,49 @@
       title: "101 Dalmations 1961",
       src: "https://dn601206.us.archive.org/0/items/101-dalmatians-1992-vhs-french-canadian-copy_202301/101%20Dalmatians%20%281961%29.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/107227da-8d58-4c16-9577-439257f1ea53/compose?aspectRatio=1.78&format=webp&width=1200",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Alladin 1992",
       src: "https://dn601206.us.archive.org/0/items/101-dalmatians-1992-vhs-french-canadian-copy_202301/Aladdin%20%282015%20DVD%29.mp4",
       thumb: "https://i.ytimg.com/vi/ShwFa6MPgGE/maxresdefault.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Sword in The Stone 1992",
       src: "https://dn720302.ca.archive.org/0/items/the-three-caballeros-1996-vhs_20220516/The%20Sword%20in%20the%20Stone%20%282008%20DVD%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnpw3jyyTMlt_ojGfxUvTohiRltFQfaiSbfVBwdpnFW6e9Lc7VGIk5PeI&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Fantasia - Special Edition",
       src: "https://archive.org/download/fantasia-special-edition-laserdisc-restoration-with-sunflower-v-1.0/Fantasia_Special_Edition_Laserdisc_Restoration_with_Sunflower_v1.0.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b399f-91c8-7e57-b452-6df1d4a12dfc/compose?aspectRatio=1.78&format=webp&width=1200",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "The Secret of NIMH (1982)",
       src: "https://archive.org/download/the-secret-of-nimh-1982_202511/The%20Secret%20Of%20NIMH%20%281982%29/mp4/The%20Secret%20of%20NIMH%201982.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24m6NroPJzev5KgjtWQclP1lZAfIYIvYJqcpt0dQUDA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Masters of the Universe (1987)",
       src: "https://archive.org/download/masters-of-the-universe-1987_202304/Masters%20of%20the%20universe%201987.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnFaIN2X21n94ST7uUV8rLfLlXc8j49c1eGcOcdhU8w&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Ant Bully 2006",
       src: "https://dn710205.ca.archive.org/0/items/Popcornarchive-theAntBully2006_ta993/Popcornarchive-theAntBully2006_ta993.mp4",
       thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
@@ -213,48 +237,56 @@
       title: "Lassie 2005",
       src: "https://dn710005.ca.archive.org/0/items/Popcornarchive-lassie2005/Popcornarchive-lassie2005.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0NopiAonxnjlUoG0zl2073l-B6jTuWGbIAqht8kBsPTqJQD7FJYyQAwQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Paulie 1998",
       src: "https://archive.org/download/paulie_201907/Paulie.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUy5BAAcjmzIeDSQi813vQmLBwMaiHH2uxh2mX-rip_Q&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Stuart Little 1999",
       src: "https://ia800605.us.archive.org/5/items/stuart-little-1999_20260222/Stuart%20Little%20%281999%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp1Sfki-9w15YL0jtEl14BkuVfIcwN-EyLEht3EB0gw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Stuart Little 2 2002",
       src: "https://dn720409.ca.archive.org/0/items/stuart.-little.-2.2002.-br-rip.-720p.x-264.-yify/Stuart.Little.2.2002.BrRip.720p.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFnD55Oq1C9WawrcxTMHJLJtt0Tg9dXmHlFGe15_eiw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Mouse Hunt 1997",
       src: "https://archive.org/download/mousehunt1997_202001/Mousehunt%20%281997%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM0I8vZl-cVzqrMgMIldwn0Jj0KVqKtkl0y3_qtzvbyw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Last Action Hero 1993",
       src: "https://archive.org/download/last.-action.-hero.-1993.720p.-blu-ray.x-264.-yify/Last.Action.Hero.1993.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Super Mario Bros 1993",
       src: "https://ia800904.us.archive.org/4/items/super-mario-bros.-1993_202511/Super%20Mario%20Bros.%20%281993%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Little Miss Sunshine 2006",
       src: "https://archive.org/download/little.-miss.-sunshine.-2006.720p.-blu-ray.x-264.-yify_202607/Little.Miss.Sunshine.2006.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LdfUnJHCXpLreCZMwIG-5Sf29VfmCyliJx8axhw_7g&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
 
@@ -262,12 +294,14 @@
       title: "DUMB & DUMBER 1994",
       src: "https://ia600700.us.archive.org/32/items/dumb-and-dumber-dvdiso/DUMBDUMBER.mp4",
       thumb: "https://shatpod.com/movies/wp-content/uploads/Dumb-and-Dumber-Poster-1994.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Comedy"
     },
     {
       title: "Mask 1994",
       src: "https://archive.org/download/the-mask-vhs-1995-1996/The%20Mask%20VHS%201995%20%281996%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyri5fIjghGEykuu2-hiIEK0GsNkWRUX_Am8jbkn5SQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Comedy"
     },
     {
@@ -288,12 +322,14 @@
       title: "The Gods Must Be Crazy3",
       src: "https://dn721605.ca.archive.org/0/items/GodsMustBeCrazy3CrazySafari/Gods%20Must%20Be%20Crazy%203%20-%20Crazy%20Safari.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMugptVH1zegCveYbzUmrUjwCsbBq7WONVTls1B0gHkbv5N61zrT-S5k&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Comedy"
     },
     {
       title: "The Gods Must Be Crazy4",
       src: "https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Comedy"
     },
    {
@@ -307,18 +343,21 @@
       title: "The Bridge on the River Kwai (1957)",
       src: "https://archive.org/download/the-bridge-on-the-river-kwai-1957_202511/The%20Bridge%20on%20the%20River%20Kwai%20%281957%29/The%20Bridge%20on%20the%20River%20Kwai%20-%201957.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQ-1fJjQ3nLMORW5Ek8NG08zyzqdxPLUwh7PM30eBkgDk1E6nF3y1LYOj&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Guns of Neverone(1961)",
       src: "https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4",
       thumb: "https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Lawrence of Arabia (1962)",
       src: "https://ia600902.us.archive.org/35/items/some-of-the-best-movies-ever-produced/Lawrence%20of%20Arabia%2C%20by%20David%20Lean%20%281962%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKiI7DHI4TxS-Fmr577LQTwJ5qrC7ZXG8KAAEJyDxofA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     
@@ -354,36 +393,42 @@
       title: "The Pink Panther 1963",
       src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
       thumb: "https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },    
     {
       title: "Jason and the Argonauts",
       src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
       thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "Captain Sindbad (1963)",
       src: "https://archive.org/download/Captain.Sindbad.1963.DVDRip/Captain.Sindbad.1963.DVDRip.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/069507013f9eab7830db9174291bdcfb32555b009f1858566aec1f60ec734b90.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "The Golden Voyage Of Sinbad 1973",
       src: "https://archive.org/download/1973-the.-golden.-voyage.-of.-sinbad.-1973.i-nternal.-bdrip.x-264-li-brari-ans.mkv/1973%20The.Golden.Voyage.Of.Sinbad.1973.iNTERNAL.BDRip.x264-LiBRARiANS.mkv.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BZYvTwk4ygu7J_jqcDi6MiYo7shKNz2xkOAXCtSIjg&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "Sinbad And The Eye Of The Tiger 1977",
       src: "https://archive.org/download/sinbad-and-the-eye-of-the-tiger-1977/Sinbad%20and%20the%20Eye%20of%20the%20Tiger%20%281977%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7DY2_q1XxdJzbQS7M3lOIDmVhtQRY-_ciMZqPbDX5w&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "The 7th Voyage Of Sinbad 1958",
       src: "https://archive.org/download/the.-7th.-voyage.-of.-sinbad.-1958.-remastered.-1080p.-blu-ray.-h-264.-aac-rarbg/The.7th.Voyage.Of.Sinbad.1958.REMASTERED.1080p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0yvGKLe9vYUf9gDs4ujHmyUy0wg-1wCuocd_1LzJuA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
@@ -397,48 +442,56 @@
       title: "Cleopatra 1963",
       src: "https://dn760104.eu.archive.org/0/items/cleopatra-1963_202511/Cleopatra%20%281963%29/Cleopatra%20-%201963.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "5 Men Army 1969",
       src: "https://archive.org/download/1969-un-esercito-di-5-uomini-ext/%5B1969%5D%20Un%20Esercito%20di%205%20Uomini%20%28ext%29.mp4",
       thumb: "https://tobrien10.wordpress.com/wp-content/uploads/2018/10/the-five-man-army.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Mackenna's Gold 1969",
       src: "https://archive.org/download/mackennas-gold-1969-bg-sub/Mackenna%27s%20Gold%281969%29%20bg%20sub.mp4",
       thumb: "https://i.ytimg.com/vi/vRnzCQLZJoM/mqdefault.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "The Poseidon Adventure 1972",
       src: "https://archive.org/download/the-poseidon-adventure-1972_202511/The%20Poseidon%20Adventure%20%281972%29/The%20Poseidon%20Adventure%20-%201972.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas0u5_16tiHCGxNWFYXeQzu7oHKqkbmou0We62WzRmw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Soylent Green 1973",
       src: "https://archive.org/download/soylent-green-1973_202512/Soylent%20Green%20%281973%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNBZJqwHDhz2E8RJ0RSi8tSepgKfnUgXvcO5O32ufQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
    {
       title: "Planet of the Apes",
       src: "http://www.deadlyblogger.com/NewRelease/apes1.mp4",
       thumb: "https://www.filmsite.org/featured/movie-fr-planetofapes.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "Logan's Run 1976",
       src: "https://archive.org/download/soylent-green-1973_202512/Logan%27s%20Run.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSgShhZ3lxwki8d4orFHucGiH3Fu3uAPEzuYh7LGuCl-M1fir8IU7lDM&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "Maya 1966",
       src: "https://archive.org/download/maya-1966-o-vale-dos-tigres-cover-dvd/1966%20-%20Maya%20-%20O%20Vale%20dos%20Tigres.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl1eKMehM2IRQ8kIwoRovg805lGdqY9IpG0GhWWivlQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
 
     },
@@ -446,66 +499,77 @@
       title: "Breakfast At Tiffanys 1961",
       src: "https://archive.org/download/breakfast-at-tiffanys-1961_202508/Breakfast%20at%20Tiffany%27s%20%281961%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROx7IwqAiW_GcnMuQgEI2et-dZP_KGBxk0hIxPY5zPrA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Drama"
     },
     {
       title: "Doctor Zhivago 1965",
       src: "archive.org/download/some-of-the-best-movies-ever-produced/Doctor%20Zhivago%2C%20by%20David%20Lean%20%281965%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLcuwOWoeW8cpysKVMk8_254MtVjanP7OjuGcM2EWvQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Drama"
     },
     {
       title: "Edward Scissorhands 1990",
       src: "https://archive.org/download/edward.-scissorhands.-1990.1080p.-br-rip.x-264.-yify/Edward.Scissorhands.1990.1080p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOqMv9Q5bqv5AV1PUkkNhBUuEJiMy8pRWbGEMNHe_vA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Drama"
     },
     {
       title: "Shinning 1980",
       src: "https://dn721904.ca.archive.org/0/items/PopcornArchive-._u7eat/PopcornArchive-._u7eat.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFh404dm8ntHtFAylPdGhOV-CO7M2yBhG44Tvm0NRHPWA73LvKD-BuHGI&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Thriller"
     },
     {
       title: "Big Trouble In Little China 1986",
       src: "https://archive.org/download/big-trouble-little-china/Big%20Trouble%20In%20Little%20China%20720p.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "Silver Bullet 1985",
       src: "https://dn721809.ca.archive.org/0/items/Popcornarchive-silverBullet1985/Popcornarchive-silverBullet1985.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uXoBqfpdH3qWpsDQrWPWlCMm4W5uhiHm9fOJsyPDfw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Thriller"
     },
     {
       title: "TrueLies 1994",
       src: "https://archive.org/download/true-lies-1994-d-theater/True%20Lies%20%281994%29%20%5BD-Theater%5D.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/7f1febf752aba2f8e392247717048c68eb8d64f5a05ddcae893f039d6383c164.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Terminator2 1991",
       src: "https://archive.org/download/terminator.-2.-judgement.-day.-1991.-extended.-remastered.-720p.-blu-ray.-h-264._202605/Terminator.2.Judgement.Day.1991.Extended.REMASTERED.720p.BluRay.H264.AAC.READ.NFO-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZwRVi42zinrqJfEsgih_l521p6ZgqbNVW7rGbQDvfw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "Total Recall 1990",
       src: "https://dn600303.us.archive.org/0/items/total.-recall.-mind.-bending.-edition.-1990.720p.-blu-ray.x-264.-yify_202408/Total.Recall.Mind.Bending.Edition.1990.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "Alien 1979",
       src: "https://archive.org/download/alien-1979._202103/Alien%281979%29..mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaNa0VmxRzl5rU0EK6GRaROOIQxZDsG9JUWD-TvKPJA&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
        category: "Sci-Fi"
     },
     {
       title: "Aliens 1986",
       src: "https://archive.org/download/alien-1979._202103/Aliens%201986.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpNj1H1KT1AzNzo04dcrz06oIELg5eFKNSsuJVajPd-dCP2fxYGdGsnU&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
        category: "Sci-Fi"
     },
     {
@@ -518,24 +582,28 @@
       title: "Aliens Resurrection 1997",
       src: "https://archive.org/download/alien-1979._202103/Alien%20Resurrection%281997%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBp7Pvn17MpovhTz8H0fmvVQ039_nAOaAMHWKjooUcsUkgtOt5Lq2Tsp1&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
        category: "Sci-Fi"
     },
     {
       title: "Abyss 1989",
       src: "",
       thumb: "https://www.primevideo.com/detail/0RO2SGMFCST6W8EHN5X6QV10RU",
-       category: "Sci-Fi"
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+      category: "Sci-Fi"
     },
     {
       title: "The Punisher 2004",
       src: "https://archive.org/download/the.-punisher.-2004.-extended.-cut.-1080p.-blu-ray.-h-264.-aac-rarbg/The.Punisher.2004.EXTENDED.CUT.1080p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZcDRKpGzFzVP-79kJ3qXxTY2YrSE8qVj6zuMd9gPwag&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "They Call Me Trinity 1971",
       src: "https://archive.org/download/theycallmetrinity1971/They_Call_Me_Trinity_1971.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD11bQw6GfW5LjCS3XLAK9NaLRPhHaUSmu2DiRlj5nuQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
@@ -556,18 +624,21 @@
       title: "El Mariachi 1993",
       src: "https://archive.org/download/el-mariachi-vhs-1993/El%20Mariachi%20VHS%201993.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcoCO67_SIpuM7z6XREMUJ9Kx4r84P2AlMqo_wDglWfw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Desperado 1995",
       src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Once upon a time in mexico 2004 VHS",
       src: "https://archive.org/download/once-upon-a-time-in-mexico-vhs-2004/Once%20Upon%20A%20Time%20In%20Mexico%20VHS%202004.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtztD04hLERUK0Zz3K8h4XR19u4vdbb-6sghSTMiGUQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
 
@@ -576,18 +647,21 @@
       title: "The Mummy 1999",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/The.Mummy.%281999%29.H265.1080p.DVDRip.EzzRips/The.Mummy.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSZeNzlP2G8HKxVmI2EcDHIAYB5fmNO7o4oxIwmmynQ&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Mythology"
     },
     {
       title: "Desperado 1995",
       src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "National Treasure Book of Secrets 2007",
       src: "https://archive.org/download/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiys5p8VSIyvqJgIkxbkH8AdQ_o005sT9sNjmj_f6nhtenXDdgCFceX8w&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
@@ -601,24 +675,28 @@
       title: "Aeroplanes! 1980",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Airplane%21.%281980%29.H265.1080p.DVDRip.EzzRips/Airplane%21.%281980%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://i.ytimg.com/vi/n9MK9F2RZww/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDuXLIBhe1YCyG46EyG-aoctMje9A",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Comedy"
     },
     {
       title: "UHF 1989",
       src: "https://archive.org/download/uhf.-1989/UHF%20%281989%29/mp4/UHF.1989.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX3ABbHBA9pJeyqDeMdrKNQmSi9vhkQnUJfDyvSz-hUYB0pGDf-fbGDb0&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Comedy"
     },
     {
       title: "Spaceballs 1987",
       src: "https://archive.org/details/spaceballs-1987-mel-brooks-vhs-film",
       thumb: "https://ccapp.osu.edu/sites/default/files/styles/news_and_events_image/public/2022-11/event_spaceballs_0.jpg?h=d1cb525d&itok=6elScADy",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt", 
       category: "Comedy"
     },
    {
       title: "Poltergeist 1982",
       src: "https://ia803104.us.archive.org/13/items/poltergeist.-1982/Poltergeist.1982.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnvNzxHX9XWVTk5tnxyIAa30-Q0JFSwsDQxueLWZHJXw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Thriller"
     },
 
@@ -626,49 +704,56 @@
       title: "Memanto 2000",
       src: "https://archive.org/download/memento.-2000.1080p.-blu-ray.x-264.-yify/Memento.2000.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://images.mubicdn.net/images/artworks/172703/cache-172703-1621560129/images-original.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Fight Club 1999",
       src: "https://archive.org/download/fight.club.10th.anniversary.edition.1999.1080p.brrip.x264.yify_201908/Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjQ8mkKoJe2HsPyvU-T4qcPqotA3ydCx3QaHqgUe4LkvEX7iRYNJVo4lw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "3000 Miles To Graceland 2001",
       src: "https://archive.org/download/3000-miles-to-graceland-2001/3000%20Miles%20to%20Graceland%20%282001%29.mp4",
-
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSujRLI-i15bBspW9ZiLENq1YpzKB0oeJG9NEdgXlZg&s",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "Flatliners 1990",
       src: "https://archive.org/download/flatliners-1990/Flatliners%20%281990%29/Flatliners%20-%201990.mp4",
       thumb: "https://miro.medium.com/1*8ETieBYfLrbJ38EiuDuNqQ.jpeg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
     {
       title: "RoboCop 1987",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%201987.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDFdIHUzXVRa2O9CaLGWXKIjYdyi18eLz0GzRv2NS0ASq0inlJZmCpSF-&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "RoboCop2 1990",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKrF2GUw134lA1prcgpdU0qkyDG9vkllmMovY-4xy633O87KztwYzKOe8&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "RoboCop3 1993",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%203.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/0ed3f3c58d1c129e564760b4cf0cfd44daf5bdf66f72b25fb323f7fbe37a9580.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
     {
       title: "Robocop 2014",
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202014.mp4",
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
 
     },
@@ -678,6 +763,7 @@
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       series: "SEVEN WORLDS ONE PLANET",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       episode: 1,
       episodeTitle: "TRAILER"
     }, 
@@ -694,6 +780,7 @@
       title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_2_Asia.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 3,
       episodeTitle: "Asia"
@@ -702,6 +789,7 @@
       title: "SEVEN WORLDS ONE PLANET-Ep04:South_America",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_3_South_America.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 4,
       episodeTitle: "South_America"
@@ -710,6 +798,7 @@
       title: "SEVEN WORLDS ONE PLANET-Ep05:Australia",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_4_Australia.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 5,
       episodeTitle: "Australia"
@@ -718,6 +807,7 @@
       title: "SEVEN WORLDS ONE PLANET-Ep06:Europe",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_5_Europe.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 6,
       episodeTitle: "Europe"
@@ -726,6 +816,7 @@
       title: "SEVEN WORLDS ONE PLANET-Ep07:North_America",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_6_North_America.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 7,
       episodeTitle: "North_America"
@@ -734,6 +825,7 @@
       title: "SEVEN WORLDS ONE PLANET-Ep08:Africa",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_7_Africa.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "SEVEN WORLDS ONE PLANET",
       episode: 8,
       episodeTitle: "Africa"
@@ -743,6 +835,7 @@
       title: "Planet Earth-Ep01",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_01_from_pole_to_pole.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 1,
       episodeTitle: "From Pole to Pole"
@@ -751,6 +844,7 @@
       title: "Planet Earth-Ep02",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_02_mountains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 2,
       episodeTitle: "Mountains"
@@ -759,6 +853,7 @@
       title: "Planet Earth-Ep03",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_03_fresh_water.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 3,
       episodeTitle: "Fresh Water"
@@ -767,6 +862,7 @@
       title: "Planet Earth-Ep04",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_04_caves.mkv",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 4,
       episodeTitle: "Caves"
@@ -775,6 +871,7 @@
       title: "Planet Earth-Ep05",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_05_deserts.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 5,
       episodeTitle: "Deserts"
@@ -783,6 +880,7 @@
       title: "Planet Earth-Ep06",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_06_ice_worlds.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 6,
       episodeTitle: "Ice Worlds"
@@ -791,6 +889,7 @@
       title: "Planet Earth-Ep07",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_07_great_plains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 7,
       episodeTitle: "Great Plains"
@@ -799,6 +898,7 @@
       title: "Planet Earth-Ep08",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_08_jungles.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 8,
       episodeTitle: "Jungles"
@@ -807,6 +907,7 @@
       title: "Planet Earth-Ep09",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_09_shallow_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 9,
       episodeTitle: "Shallow Seas"
@@ -815,6 +916,7 @@
       title: "Planet Earth-Ep10",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_10_seasonal_forests.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 10,
       episodeTitle: "Seasonal Forests"
@@ -823,6 +925,7 @@
       title: "Planet Earth-Ep11",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_11_ocean_deep.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 11,
       episodeTitle: "Ocean Deep"
@@ -831,6 +934,7 @@
       title: "Planet Earth-Ep12",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_12_saving_species.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 12,
       episodeTitle: "Saving Species"
@@ -839,6 +943,7 @@
       title: "Planet Earth-Ep13",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_13_into_the_wilderness.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 13,
       episodeTitle: "Into the Wilderness"
@@ -847,6 +952,7 @@
       title: "Planet Earth-Ep14",
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_14_living_together.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth",
       episode: 14,
       episodeTitle: "Living Together"
@@ -856,6 +962,7 @@
       title: "Planet Earth II-Ep01:Islands",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_01_islands.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth II",
       episode: 1,
       episodeTitle: "Islands"
@@ -864,6 +971,7 @@
       title: "Planet Earth II-Ep02:Mountains",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_02_mountains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth II",
       episode: 2,
       episodeTitle: "Mountains"
@@ -872,6 +980,7 @@
       title: "Planet Earth II-Ep03:Jungles",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_03_jungles.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth II",
       episode: 3,
       episodeTitle: "Jungles"
@@ -880,6 +989,7 @@
       title: "Planet Earth II-Ep04:Deserts",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_04_deserts.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth II",
       episode: 4,
       episodeTitle: "Deserts"
@@ -888,6 +998,7 @@
       title: "Planet Earth II-Ep05:Grasslands",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_05_grasslands.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth II",
       episode: 5,
       episodeTitle: "Grasslands"
@@ -896,6 +1007,7 @@
       title: "Planet Earth II-Ep06:Cities",
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_06_cities.mkv",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       series: "Planet Earth II",
       episode: 6,
       episodeTitle: "Cities"
