@@ -179,7 +179,7 @@
     },
     {
       title: "101 Dalmations 1961",
-      src: "https://dn601206.us.archive.org/0/items/101-dalmatians-1992-vhs-french-canadian-copy_202301/101%20Dalmatians%20%281961%29.mp4",
+      src: "https://dn721807.ca.archive.org/0/items/Popcornarchive-101Dalmatians1961/Popcornarchive-101Dalmatians1961.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/107227da-8d58-4c16-9577-439257f1ea53/compose?aspectRatio=1.78&format=webp&width=1200",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
@@ -482,9 +482,9 @@
     },
     {
       title: "Logan's Run 1976",
-      src: "https://archive.org/download/soylent-green-1973_202512/Logan%27s%20Run.mp4",
+      src: "https://archive.org/download/logan.is.-run.-1976.720p.-blu-ray.-h-264.-aac-rarbg/Logan.is.Run.1976.720p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSgShhZ3lxwki8d4orFHucGiH3Fu3uAPEzuYh7LGuCl-M1fir8IU7lDM&s=10",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+      subtitle: "https://archive.org/download/logan.is.-run.-1976.720p.-blu-ray.-h-264.-aac-rarbg/Logan.is.Run.1976.720p.BluRay.H264.AAC-RARBG.en.srt",
       category: "Sci-Fi"
     },
     {
@@ -1284,70 +1284,38 @@
 
     {
       title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
+      src: "https://archive.org/download/the-history-of-the-world_202203/01aThe%20Ancient%20World%20%20Part%201%20The%20First%20Civilizations%20%20The%20History%20of%20the%20World%20%20Volume%20I.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
+      series: "The History of the World",
       episode: 1,
-      episodeTitle: "TRAILER"
+      episodeTitle: "The First Civilizations"
     }, 
     {
       title: "SEVEN WORLDS ONE PLANET-Ep02:Antarctica",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_1_Antarctica.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
+      series: "The History of the World",
       episode: 2,
-      episodeTitle: "Antarctica",
+      episodeTitle: "Greece The History of the World",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/SpriteFright_en.srt"
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_2_Asia.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
+      src: "https://archive.org/download/the-history-of-the-world_202203/02bAge%20of%20Empires%20%20Part%201%20The%20Roman%20Republic%20Maurya%20India%20%20Qin%20China%20%20History%20of%20the%20World%20vol%20II.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
+      series: "The History of the World",
       episode: 3,
-      episodeTitle: "Asia"
+      episodeTitle: "The Roman Republic Maurya India  Qin China "
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep04:South_America",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_3_South_America.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
+      src: "https://archive.org/download/the-history-of-the-world_202203/02cAge%20of%20Empires%20-%20Part%202_%20The%20Roman%20Revolution%20_%20The%20History%20of%20the%20World%20-%20Volume%20II.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
+      series: "The History of the World",
       episode: 4,
-      episodeTitle: "South_America"
+      episodeTitle: "The Roman Revolution"
     },
-    {
-      title: "SEVEN WORLDS ONE PLANET-Ep05:Australia",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_4_Australia.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
-      episode: 5,
-      episodeTitle: "Australia"
-    },
-    {
-      title: "SEVEN WORLDS ONE PLANET-Ep06:Europe",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_5_Europe.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
-      episode: 6,
-      episodeTitle: "Europe"
-    },
-    {
-      title: "SEVEN WORLDS ONE PLANET-Ep07:North_America",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_6_North_America.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
-      episode: 7,
-      episodeTitle: "North_America"
-    },
-    {
-      title: "SEVEN WORLDS ONE PLANET-Ep08:Africa",
-      src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_7_Africa.mp4",
-      thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
-      series: "SEVEN WORLDS ONE PLANET",
-      episode: 8,
-      episodeTitle: "Africa"
-    },
-
+    
 
     {
       title: "Coffee Cup",
