@@ -328,7 +328,7 @@
     title: "Mr Bean's Holiday (2007)",
     src: "https://archive.org/download/mr.-bean.s.-holiday.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/Mr.Bean.s.Holiday.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqfR0why0QUOiqZQ6_uTQqYE1vVSBhbjBfNjbq1GlbA&s=10",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Mr.Beans.Holiday.ENG.srt",
     category: "Family"
   },
   {
