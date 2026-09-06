@@ -292,105 +292,106 @@
    {
     title: "Cloudy With A Chance Of Meatballs (2009)",
     src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2009.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2009.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-QjjEan0KRfNKszTevNa20bc2db5Nb26ZLA1wgDi-A&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Cloudy With A Chance Of Meatballs 2 (2013)",
     src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHqpoYvMT9CkfBJzsf6Uq1q7g7yPSRkiozC_XPUHx8Q&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Smallfoot (2018)",
     src: "https://archive.org/download/smallfoot.-2018.1080p.-blu-ray.x-265-rarbg/Smallfoot.2018.1080p.BluRay.x265-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6eo3t5eBN8Kk4CYuPVlWU9uJzxicCygXwY0V_3QSY-A&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Madagascar (2005)",
     src: "https://archive.org/download/madagascar.-2005.1080p.-blu-ray.-h-264.-aac-rarbg/Madagascar.2005.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHNHBXYptio-pfsBEiebQIW0hX__cMR6HqrHf6We9ng&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Bean (1997)",
     src: "https://archive.org/download/bean.-1997.1080p.-blu-ray.-h-264.-aac-rarbg/Bean.1997.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2_Du5XV0CdBAFyfnNZjqc7wgqvsjcS7cvHwZeut2Fg&s",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+ {
+    title: "Mr Bean's Holiday (2007)",
+    src: "https://archive.org/download/mr.-bean.s.-holiday.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/Mr.Bean.s.Holiday.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqfR0why0QUOiqZQ6_uTQqYE1vVSBhbjBfNjbq1GlbA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Johnny English (2003)",
     src: "https://archive.org/download/johnny.-english.-2003.1080p.-blu-ray.-h-264.-aac-rarbg/Johnny.English.2003.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRkM84X2144nXMTstkQ-HGqZ9C5bQYi93RD3erKRbmA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
-  {
-    title: "Mr Bean S Holiday (2007)",
-    src: "https://archive.org/download/mr.-bean.s.-holiday.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/Mr.Bean.s.Holiday.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
-  },
+  
   {
     title: "Johnny English Strikes Again (2018)",
     src: "https://archive.org/download/johnny.-english.-strikes.-again.-2018.1080p.-blu-ray.-h-264.-aac-rarbg/Johnny.English.Strikes.Again.2018.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHErTvEtNuY9EoXO4WhL14cuxSuZi7PJyaWhTsfexqWg&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
-    title: "TheLordoftheRings19781080pBluRayH264AAC Rarbg (1978)",
+    title: "The Lord of the Rings(1978)",
     src: "https://archive.org/download/the-lordofthe-rings-19781080p-blu-ray-h-264-aac-rarbg/TheLordoftheRings19781080pBluRayH264AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://www.lab111.nl/wp-content/uploads/2026/08/lord_of_the_rings_16x9_banner.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Ernest Goes To Camp (1987)",
     src: "https://archive.org/download/ernest.-goes.-to.-camp.-1987.1080p.-blu-ray.x-265-rarbg-x-264/Ernest.Goes.To.Camp.1987.1080p.BluRay.x265-RARBG_x264.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFwz5CriYc2t1K0A-LoJ7Xmoi76Ds6So-R84wPxeAFA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Dantes Inferno An Animated Epic (2010)",
     src: "https://archive.org/download/dantes.-inferno.-an.-animated.-epic.-2010.1080p.-blu-ray.x-265-rarbg/Dantes.Inferno.An.Animated.Epic.2010.1080p.BluRay.x265-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCRtV3KCqRksYwnbHBdzXGLVRE6Qj8Nop9-Iqd5g9UN8hXwAEGxyQQ2lC&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "The Adventures Of Tintin (2011)",
     src: "https://archive.org/download/the.-adventures.of.-tintin.-2011.1080p.-blu-ray.-h-264.-aac-rarbg/The.Adventures.of.Tintin.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0vY-9gWmFrJED3G-aPA8cV6Y4_Z_P3QDUpRZtWfGHQ&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "The Life And Adventures Of Santa Claus (1985)",
     src: "https://archive.org/download/the.-life.and.-adventures.of.-santa.-claus.-1985.1080p.-webrip.x-265-rarbg/The%20Life%20and%20Adventures%20of%20Santa%20Claus%20%281985%29%201080p/The.Life.and.Adventures.of.Santa.Claus.1985.1080p.WEBRip.x265-RARBG.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://m.media-amazon.com/images/S/pv-target-images/60639db197c7142d0eecb73288d3de7aa81421e2097d1bcfdb27caa18de891b7.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Charlie And The Chocolate Factory (2005)",
     src: "https://archive.org/download/charlie-and-the-chocolate-factory-2005-720p-br-rip_202607/Charlie_and_the_Chocolate_Factory_2005_720p_BrRip.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFWl00uJgT9rzW3Hag6AKVlwdIgmWRN0zWwXw9jwzKmQ&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
   {
     title: "Honey, I Shrunk The Kids",
     src: "https://archive.org/download/honey-i-shrunk-the-kids-laserdisc-rf-capture/Honey%2C%20I%20Shrunk%20the%20Kids.mp4",
-    thumb: "https://placehold.co/200x300?text=No+Image",
+    thumb: "https://m.media-amazon.com/images/S/pv-target-images/069768fd28111534f17f2c09a975bc4c732ae221b65ab16f1edb2ece47748475.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
