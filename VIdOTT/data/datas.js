@@ -289,8 +289,112 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
-
-    {
+   {
+    title: "Cloudy With A Chance Of Meatballs (2009)",
+    src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2009.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2009.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Cloudy With A Chance Of Meatballs 2 (2013)",
+    src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Smallfoot (2018)",
+    src: "https://archive.org/download/smallfoot.-2018.1080p.-blu-ray.x-265-rarbg/Smallfoot.2018.1080p.BluRay.x265-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Madagascar (2005)",
+    src: "https://archive.org/download/madagascar.-2005.1080p.-blu-ray.-h-264.-aac-rarbg/Madagascar.2005.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Bean (1997)",
+    src: "https://archive.org/download/bean.-1997.1080p.-blu-ray.-h-264.-aac-rarbg/Bean.1997.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Johnny English (2003)",
+    src: "https://archive.org/download/johnny.-english.-2003.1080p.-blu-ray.-h-264.-aac-rarbg/Johnny.English.2003.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Mr Bean S Holiday (2007)",
+    src: "https://archive.org/download/mr.-bean.s.-holiday.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/Mr.Bean.s.Holiday.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Johnny English Strikes Again (2018)",
+    src: "https://archive.org/download/johnny.-english.-strikes.-again.-2018.1080p.-blu-ray.-h-264.-aac-rarbg/Johnny.English.Strikes.Again.2018.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "TheLordoftheRings19781080pBluRayH264AAC Rarbg (1978)",
+    src: "https://archive.org/download/the-lordofthe-rings-19781080p-blu-ray-h-264-aac-rarbg/TheLordoftheRings19781080pBluRayH264AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Ernest Goes To Camp (1987)",
+    src: "https://archive.org/download/ernest.-goes.-to.-camp.-1987.1080p.-blu-ray.x-265-rarbg-x-264/Ernest.Goes.To.Camp.1987.1080p.BluRay.x265-RARBG_x264.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Dantes Inferno An Animated Epic (2010)",
+    src: "https://archive.org/download/dantes.-inferno.-an.-animated.-epic.-2010.1080p.-blu-ray.x-265-rarbg/Dantes.Inferno.An.Animated.Epic.2010.1080p.BluRay.x265-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "The Adventures Of Tintin (2011)",
+    src: "https://archive.org/download/the.-adventures.of.-tintin.-2011.1080p.-blu-ray.-h-264.-aac-rarbg/The.Adventures.of.Tintin.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "The Life And Adventures Of Santa Claus (1985)",
+    src: "https://archive.org/download/the.-life.and.-adventures.of.-santa.-claus.-1985.1080p.-webrip.x-265-rarbg/The%20Life%20and%20Adventures%20of%20Santa%20Claus%20%281985%29%201080p/The.Life.and.Adventures.of.Santa.Claus.1985.1080p.WEBRip.x265-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Charlie And The Chocolate Factory (2005)",
+    src: "https://archive.org/download/charlie-and-the-chocolate-factory-2005-720p-br-rip_202607/Charlie_and_the_Chocolate_Factory_2005_720p_BrRip.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Honey, I Shrunk The Kids",
+    src: "https://archive.org/download/honey-i-shrunk-the-kids-laserdisc-rf-capture/Honey%2C%20I%20Shrunk%20the%20Kids.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+   {
       title: "DUMB & DUMBER 1994",
       src: "https://ia600700.us.archive.org/32/items/dumb-and-dumber-dvdiso/DUMBDUMBER.mp4",
       thumb: "https://shatpod.com/movies/wp-content/uploads/Dumb-and-Dumber-Poster-1994.jpg",
@@ -389,6 +493,13 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheJewelof%20theNile(1985).srt",
       category: "Action"
     },
+ {
+    title: "Mad Max (1979)",
+    src: "https://archive.org/download/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg/Mad.Max.1979.1080p.BluRay.x265-RARBG.mp4",
+    thumb: "https://placehold.co/200x300?text=No+Image",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Action"
+  },
     {
       title: "The Pink Panther 1963",
       src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
@@ -587,8 +698,8 @@
     },
     {
       title: "Abyss 1989",
-      src: "",
-      thumb: "https://www.primevideo.com/detail/0RO2SGMFCST6W8EHN5X6QV10RU",
+      src: "https://archive.org/download/the.-abyss.-1989.1080p.-webrip.x-264.-aac-5.1-yts.-mx/The.Abyss.1989.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsI4iWy-i3Tc_SWawnvcpQWlxwj7qHfvNGINr46UU6g&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
     },
@@ -1283,7 +1394,7 @@
     },  
 
     {
-      title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
+      title: "SEVEN WORLDS ONE PLANET-Ep01:The First Civilizations",
       src: "https://archive.org/download/the-history-of-the-world_202203/01aThe%20Ancient%20World%20%20Part%201%20The%20First%20Civilizations%20%20The%20History%20of%20the%20World%20%20Volume%20I.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -1291,7 +1402,7 @@
       episodeTitle: "The First Civilizations"
     }, 
     {
-      title: "SEVEN WORLDS ONE PLANET-Ep02:Antarctica",
+      title: "SEVEN WORLDS ONE PLANET-Ep02:Greece",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_1_Antarctica.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -1300,7 +1411,7 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/SpriteFright_en.srt"
     },
     {
-      title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
+      title: "SEVEN WORLDS ONE PLANET-Ep03:Roman,India and China",
       src: "https://archive.org/download/the-history-of-the-world_202203/02bAge%20of%20Empires%20%20Part%201%20The%20Roman%20Republic%20Maurya%20India%20%20Qin%20China%20%20History%20of%20the%20World%20vol%20II.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -1308,7 +1419,7 @@
       episodeTitle: "The Roman Republic Maurya India  Qin China "
     },
     {
-      title: "SEVEN WORLDS ONE PLANET-Ep04:South_America",
+      title: "SEVEN WORLDS ONE PLANET-Ep04:Roman Revolution",
       src: "https://archive.org/download/the-history-of-the-world_202203/02cAge%20of%20Empires%20-%20Part%202_%20The%20Roman%20Revolution%20_%20The%20History%20of%20the%20World%20-%20Volume%20II.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
