@@ -321,7 +321,7 @@
     title: "Bean (1997)",
     src: "https://archive.org/download/bean.-1997.1080p.-blu-ray.-h-264.-aac-rarbg/Bean.1997.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2_Du5XV0CdBAFyfnNZjqc7wgqvsjcS7cvHwZeut2Fg&s",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/Bean.1997.WEBRip.srt",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Bean1997.srt",
     category: "Family"
   },
  {
