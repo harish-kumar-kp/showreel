@@ -440,14 +440,14 @@
   {
     title: "Robots (2005)",
     src: "https://archive.org/download/Popcornarchive-robots2005_bvu4d/Popcornarchive-robots2005_bvu4d.mp4",
-    thumb: "https://archive.org/download/Popcornarchive-myMovie_iazh8/Popcornarchive-myMovie_iazh8_itemimage.jpg",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKG7ZImJZXsRY0GdF3uaHrvyZDiV6zWas8k1G86CPXA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
   {
     title:"The Pursuit Of Happyness (2006)",
     src: "https://dn721602.ca.archive.org/0/items/Popcornarchive-thePursuitOfHappyness2006/Popcornarchive-thePursuitOfHappyness2006.mp4",
-    thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1b302966-37e9-407c-bcb1-734ab28f6bc6/dgssa9p-1aa21df5-5f9e-4c05-8680-318aeb676f20.png/v1/fill/w_1280,h_720,q_80,strp/best_of_2006_by_colmodo_dgssa9p-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMWIzMDI5NjYtMzdlOS00MDdjLWJjYjEtNzM0YWIyOGY2YmM2XC9kZ3NzYTlwLTFhYTIxZGY1LTVmOWUtNGMwNS04NjgwLTMxOGFlYjY3NmYyMC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GwKwZTT1Jm52GS07Hxcht5-fq_vRr-bj36YRHmIa4fo",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMX0GJoM28Iur0o1cFDPcGrMThxW8cm7nHcIv3B2i4A&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
@@ -501,16 +501,16 @@
     category: "unknown",
   },
   {
-    title: "3 Operation Condor",
+    title: "Operation Condor",
     src: "https://archive.org/download/armour-of-god-operation-condor/3.%20Operation%20Condor.mp4",
-    thumb: "https://facts.net/wp-content/uploads/2023/06/49-facts-about-the-movie-three-days-of-the-condor-1687525934.jpeg",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPJPC2o1DMm-bWXyrb11SREqKolcEGXX1Qnu70vWeew&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
   {
-    title: "4 The Armour Of God",
-    src: "https://archive.org/download/armour-of-god-operation-condor/4.%20The%20Armour%20Of%20God.mp4",
-    thumb: "https://www.pngall.com/wp-content/uploads/2/4-Number-PNG-Clipart.png",
+    title: "Armour Of God (1987)",
+    src: "https://archive.org/download/Armour.Of.God.1987.DVDRiP/Armour.Of.God.1987.DVDRiP.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvnsl9dDyd-RyFuAlmeHRelYEeiXSqFO4f2hPg6kvnw&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
@@ -563,13 +563,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-  {
-    title: "Armour Of God (1987)",
-    src: "https://archive.org/download/Armour.Of.God.1987.DVDRiP/Armour.Of.God.1987.DVDRiP.mp4",
-    thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3skcCP_aCR4998uiOdyGNWSG5gIBz8mMMKih0F3R2rqCRjUywDMgbwYZlg0WW3mjfpTlOUVQ64jnXqzxjB5iII3ePnawJHKoe59d7sCv8IDTp3Kv6FGDCWNuWEmYk9sO2NvZlDsXwH-g/w1200-h630-p-k-no-nu/lf.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
+
   {
     title: "New Police Story",
     src: "https://archive.org/download/new-police-story_202409/NEW_POLICE_STORY.mp4",
@@ -591,27 +585,20 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
+{
+    title: "The Medallion (2003)",
+    src: "https://archive.org/download/never-say-never-again-fan-edit-2026/Never%20Say%20Never%20Again%20%28Final%202026%29%20HB%20.mp4https://archive.org/download/the.-medallion.-2003.1080p.-blu-ray.x-264.-aac-yts.-mx/The.Medallion.2003.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
+    thumb: "https://i.ytimg.com/vi/59LevcVDmMQ/maxresdefault.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
   {
-    title: "[1962] 007 Dr No (1962)",
+    title: "007 Dr No (1962)",
     src: "https://archive.org/download/1962-007-dr.-no_202503/%5B1962%5D%20007%20-%20DR.%20NO.mp4",
-    thumb: "https://www.cinemapostergallery.co.uk/wp-content/uploads/2022/11/Dr-No-Original-US-One-Sheet-poster-framed.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "[1962] 007 Dr No Srt (1962)",
-    src: "https://archive.org/download/1962-007-dr.-no_202503/%5B1962%5D%20007%20-%20DR.%20NO.srt",
-    thumb: "https://i.etsystatic.com/47325174/r/il/875552/5449519602/il_1080xN.5449519602_cidi.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Dr No (1962)",
-    src: "https://archive.org/download/dr.-no.-1962.720p.-blu-ray.x-264.-ac-3-ozlem/007%20%281%29%20-%20Dr.%20No%20%5B1962%5D%20%28720p%29/DR.No.1962.720p.BluRay.x264.AC3-Ozlem.mp4",
     thumb: "https://4.bp.blogspot.com/_7J_WGI7Jygw/S736i4XxnHI/AAAAAAAAFD4/krSo7h66ez4/s1600/Dr.+No+Lobby+Set+01+004.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
-  },
+  }, 
   {
     title: "From Russia With Love (1963)",
     src: "https://archive.org/download/from.-russia.-with.-love.-1963.720p.-blu-ray.x-264.-ac-3-ozlem/007%20%282%29%20-%20From%20Russia%20With%20Love%20%5B1963%5D%20%28720p%29/From.Russia.With.Love.1963.720p.BluRay.x264.AC3-Ozlem.mp4",
@@ -654,15 +641,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-  {
-    title: "The Medallion (2003)",
-    src: "https://archive.org/download/never-say-never-again-fan-edit-2026/Never%20Say%20Never%20Again%20%28Final%202026%29%20HB%20.mp4https://archive.org/download/the.-medallion.-2003.1080p.-blu-ray.x-264.-aac-yts.-mx/The.Medallion.2003.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
-    thumb: "https://i.ytimg.com/vi/59LevcVDmMQ/maxresdefault.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-
- 
+   
    {
       title: "Where Eagles Dare 1968",
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
