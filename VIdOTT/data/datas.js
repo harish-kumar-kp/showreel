@@ -272,7 +272,7 @@
       title: "Last Action Hero 1993",
       src: "https://archive.org/download/last.-action.-hero.-1993.720p.-blu-ray.x-264.-yify/Last.Action.Hero.1993.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Last Action Hero (1993).srt",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/LastActionHero(1993).srt",
       category: "Family"
     },
     {
