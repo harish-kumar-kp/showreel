@@ -56,7 +56,7 @@
   }
   .toggle-btn {
     position: absolute;
-    top: 70px;
+    top: 30px;
     right: 254px;
     z-index: 30;
     background: rgba(255,255,255,0.06);
@@ -80,7 +80,7 @@
   }
   .controls-toggle-btn {
     position: absolute;
-    bottom: 70px;
+    bottom: 15px;
     left: 25px;
     z-index: 30;
     background: rgba(255,255,255,0.01);
@@ -126,7 +126,7 @@
     position: absolute;
     left: 12px;
     right: 12px;
-    bottom: 18px;
+    bottom: 40px;
     z-index: 5;
     margin-top: 0px;
     font-size: 0.78rem;
@@ -874,7 +874,7 @@
 <div class="stage">
   <div class="layout">
     <div class="player-col">
-      <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">>☰</button>
+      <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">⇄</button>
       <div class="player-wrap">
         <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
         <div id="subtitleOverlay"></div>
@@ -895,7 +895,7 @@
           <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">Zoom Out</button>
           <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1</button>
         </div>
-        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">▾</button>
+        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">🡳</button>
         <div class="now-playing">
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
@@ -1025,7 +1025,7 @@
 
   controlsToggleBtn.addEventListener('click', () => {
     controlsManuallyHidden = !controlsManuallyHidden;
-    controlsToggleBtn.textContent = controlsManuallyHidden ? '▴' : '▾';
+    controlsToggleBtn.textContent = controlsManuallyHidden ? '🡱' : '🡳';
     updateControlsVisibility();
   });
 
@@ -1489,7 +1489,7 @@
     const isHidden = thumbsCol.classList.toggle('hidden');
     toggleBtn.classList.toggle('panel-hidden', isHidden);
     toggleBtn.classList.toggle('selected', !isHidden);
-    toggleBtn.textContent = isHidden ? '☰<' : '>☰';
+    toggleBtn.textContent = isHidden ? '⇄' : '⇄';
   });
 
   // ---- Episode picker: a "series" card stacks all episodes of a show behind one
