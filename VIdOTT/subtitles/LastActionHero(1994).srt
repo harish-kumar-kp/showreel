@@ -1,3 +1,11 @@
+﻿0
+00:00:51,672 --> 00:00:58,152
+<font color="cyan">
+Minitoons Presents
+[www.minitoons.ir]
+</font>
+
+
 1
 00:00:50,133 --> 00:00:51,258
 This is squad, we got him here.
