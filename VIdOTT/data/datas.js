@@ -25,7 +25,7 @@
     },
     {
       title: "Big Buck Bunny -Short",
-      src: "https://video.blender.org/w/pAQiVCgv2CsLg79KKXUoMw",
+      src: "https://commons.wikimedia.org/wiki/File:Big_Buck_Bunny_4K.webm",
       thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
@@ -103,14 +103,14 @@
     },
    {
       title: "Singularity -Short",
-      src: "https://crystalstream.mk16.de/static/redundancy/hls/1ba07bbb-1456-4293-99a6-833fa450eda0/903ba2a3-74ae-4ebd-83f5-c6e5c3e245ee-1080-fragmented.mp4",
+      src: "https://upload.wikimedia.org/wikipedia/commons/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
       thumb: "https://video.blender.org/lazy-static/thumbnails/38b6e48a-40e7-4c46-801f-9a46baf9c02a.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
     },
    {
       title: "Making-Singularity -Doc.",
-      src: "https://video.blender.org/videos/embed/pT59NDdBRLHX3zmnvGNm9c",
+      src: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Liway_%282018_film%29.webm",
       thumb: "https://video.blender.org/lazy-static/thumbnails/3d61fdb7-28d4-4e9e-8b44-2225fcd04e35.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Shorts"
@@ -272,7 +272,7 @@
       title: "Last Action Hero 1993",
       src: "https://archive.org/download/last.-action.-hero.-1993.720p.-blu-ray.x-264.-yify/Last.Action.Hero.1993.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Last.Action.Hero.1993.576p.BDRip.AC3.x264-ShitBusters.srt",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Last Action Hero (1993).srt",
       category: "Family"
     },
     {
