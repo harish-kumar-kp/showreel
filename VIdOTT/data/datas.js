@@ -168,13 +168,14 @@
       title: "Peter Pan - 1953",
       src: "https://archive.org/download/the-three-caballeros-1996-vhs_20220516/Peter%20Pan%20%282007%20DVD%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggHIj-GHzI9FrNQ5CBmXPzIX7WDbHU42OErqgxQUHR220WUw7fQyrQVI&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
       title: "Gullivers Travel 1939",
       src: "https://archive.org/download/gullivers_travels_1080hd/gullivers_travels_1080hd.mkv",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       thumb: "https://i.ytimg.com/vi/mySEPPEifnk/hq720.jpg",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
     {
@@ -706,7 +707,7 @@
     category: "unknown",
   },
   {
-    title: "1 Drunken Master (1978)",
+    title: "1 Drunken Master(1978)",
     src: "https://ia800502.us.archive.org/23/items/drunken-master-1-and-2-geekjuicemedia/1.%20Drunken%20Master%20%E9%86%89%E6%8B%B3%201978%20%28GeekJuiceMedia%29%20%5BENG%20DUB%5D.mp4",
     thumb: "https://pic.bstarstatic.com/ugc/f794a812fe6bf19ab5c3050dcc500920.jpg@320w_180h_1e_1c_90q",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -805,7 +806,7 @@
     category: "unknown",
   },
   {
-    title: "1965 007 Contra A Chantagem At Thunderball (1965)",
+    title: "1965 007 Contra A Chantagem Atmica Thunderball (1965)",
     src: "https://archive.org/download/thunderball-1965-official-trailer-sean-connery-james-bond-movie-hd/1965%20-%20007%20CONTRA%20A%20CHANTAGEM%20AT%C3%94MICA%20-%20%20Thunderball.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMjhkYWE0ZjMtODQzNi00Y2YyLTkyYzQtNzA0ZTg0ZThkOGYwXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -825,7 +826,13 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-   
+   {
+    title: "Goldfinger (1964)",
+    src: "https://archive.org/download/goldfinger-1964-720p-blu-ray-yts.-mx/Goldfinger%20%281964%29%20%5BBluRay%5D%20%5B720p%5D%20%5BYTS.AM%5D/Goldfinger.1964.720p.BluRay.x264-%5BYTS.AM%5D.mp4",
+    thumb: "https://i.pinimg.com/originals/01/d0/90/01d0904389c1e03bbf2532959b3b3df3.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
    {
       title: "Where Eagles Dare 1968",
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
@@ -873,7 +880,7 @@
       title: "Romancing the stone 1984",
       src: "https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg",
-	  subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/RomancingtheStone(1984).srt",
+	    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/RomancingtheStone(1984).srt",
       category: "Action"
     },
     {
@@ -1064,14 +1071,14 @@
       src: "https://archive.org/download/alien-1979._202103/Alien%281979%29..mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaNa0VmxRzl5rU0EK6GRaROOIQxZDsG9JUWD-TvKPJA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-       category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "Aliens 1986",
       src: "https://archive.org/download/alien-1979._202103/Aliens%201986.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpNj1H1KT1AzNzo04dcrz06oIELg5eFKNSsuJVajPd-dCP2fxYGdGsnU&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-       category: "Sci-Fi"
+      category: "Sci-Fi"
     },
     {
       title: "Aliens3 1992",
@@ -1120,7 +1127,6 @@
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Sci-Fi"
-
     },
     {
       title: "The Punisher 2004",
@@ -1511,6 +1517,7 @@
       title: "Vertical Limit 2000",
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Vertical.Limit.%282000%29.H265.1080p.DVDRip.EzzRips/Vertical.Limit.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaradMxoriUb63yKZA2wQlmnuTaycy0IbYZdo0oIy_g&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
   
@@ -1535,8 +1542,6 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt", 
       category: "Comedy"
     },
-   
-
      {
       title: "Memanto 2000",
       src: "https://archive.org/download/memento.-2000.1080p.-blu-ray.x-264.-yify/Memento.2000.1080p.BluRay.x264.YIFY.mp4",
@@ -1565,7 +1570,6 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
-   
 {
     title: "Willow (1988)",
     src: "https://archive.org/download/willow.-1988.1080p.-blu-ray.x-264-yts.-am/Willow.1988.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
@@ -1580,13 +1584,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-  {
-    title: "Goldfinger (1964)",
-    src: "https://archive.org/download/goldfinger-1964-720p-blu-ray-yts.-mx/Goldfinger%20%281964%29%20%5BBluRay%5D%20%5B720p%5D%20%5BYTS.AM%5D/Goldfinger.1964.720p.BluRay.x264-%5BYTS.AM%5D.mp4",
-    thumb: "https://i.pinimg.com/originals/01/d0/90/01d0904389c1e03bbf2532959b3b3df3.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
+  
   {
     title: "Goodfellas (1990)",
     src: "https://archive.org/download/goodfellas.-1990.1080p.-blu-ray.x-264-yts.-am_202608/Goodfellas.1990.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
@@ -1609,7 +1607,7 @@
     category: "unknown",
   },
   {
-    title: "1981 Roar 1981 (1981)",
+    title: "Roar (1981)",
     src: "https://archive.org/download/1981-roar.-1981.1080p.-blu-ray.x-264.-yts.-ag/1981%20Roar.1981.1080p.BluRay.x264.%5BYTS.AG%5D.mp4",
     thumb: "https://i.pinimg.com/originals/e6/9c/e2/e69ce2fccd44a1fdb9d8e3d5fa12a964.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
