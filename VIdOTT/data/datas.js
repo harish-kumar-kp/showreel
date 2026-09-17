@@ -484,7 +484,7 @@
     src: "https://dn721405.ca.archive.org/0/items/EXTREMEOPS/EXTREMEOPS.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/extreme-ops-cinema-quad-movie-poster-_1.jpg?v=1730178119&width=1445",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: ""Action"
+    category: "Action"
   },
   {
     title: "Gooby",
@@ -706,7 +706,7 @@
     category: "unknown",
   },
   {
-    title: "1 Drunken Master \u9189\u62f3 (1978)",
+    title: "1 Drunken Master (1978)",
     src: "https://ia800502.us.archive.org/23/items/drunken-master-1-and-2-geekjuicemedia/1.%20Drunken%20Master%20%E9%86%89%E6%8B%B3%201978%20%28GeekJuiceMedia%29%20%5BENG%20DUB%5D.mp4",
     thumb: "https://pic.bstarstatic.com/ugc/f794a812fe6bf19ab5c3050dcc500920.jpg@320w_180h_1e_1c_90q",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -805,7 +805,7 @@
     category: "unknown",
   },
   {
-    title: "1965 007 Contra A Chantagem At\u00f4mica Thunderball (1965)",
+    title: "1965 007 Contra A Chantagem At Thunderball (1965)",
     src: "https://archive.org/download/thunderball-1965-official-trailer-sean-connery-james-bond-movie-hd/1965%20-%20007%20CONTRA%20A%20CHANTAGEM%20AT%C3%94MICA%20-%20%20Thunderball.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMjhkYWE0ZjMtODQzNi00Y2YyLTkyYzQtNzA0ZTg0ZThkOGYwXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
