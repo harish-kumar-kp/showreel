@@ -351,7 +351,7 @@
     src: "https://archive.org/download/willow.-1988.1080p.-blu-ray.x-264-yts.-am/Willow.1988.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://www.filmonpaper.com/wp-content/uploads/2011/05/Willow_onesheet_USA_JohnAlvin-3.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Willow.1988.WEB-DL.DSNP.srt",
-    category: "Family","Mythology"
+    category: "Family"
   },
   
     {
