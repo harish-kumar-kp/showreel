@@ -191,6 +191,76 @@
     filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
     image-rendering: -webkit-optimize-contrast;
   }
+
+  /* ---- Timeline / seek bar (full-width row on top of the controls bar) ---- */
+  .timeline {
+    order: -1;
+    flex: 0 0 100%;
+    width: 100%;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+    outline: none;
+  }
+  .timeline-track {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    border-radius: 999px;
+    background: #2f8cff;            /* remaining = blue */
+    transition: height 0.12s ease;
+  }
+  .timeline:hover .timeline-track,
+  .timeline.dragging .timeline-track,
+  .timeline:focus-visible .timeline-track { height: 7px; }
+  .timeline-elapsed {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 0%;
+    border-radius: 999px;
+    background: #9a9a9a;            /* elapsed = grey */
+    pointer-events: none;
+  }
+  .timeline-dot {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 14px; height: 14px;
+    margin: -7px 0 0 -7px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #2f8cff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+    pointer-events: none;
+    transition: transform 0.12s ease;
+  }
+  .timeline:hover .timeline-dot,
+  .timeline.dragging .timeline-dot,
+  .timeline:focus-visible .timeline-dot { transform: scale(1.25); }
+  .timeline-tip {
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+    transform: translateX(-50%);
+    padding: 2px 7px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.85);
+    color: #fff;
+    font-size: 0.7rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  .timeline:hover .timeline-tip,
+  .timeline.dragging .timeline-tip { opacity: 1; }
+
   #runtime {
     color: #5da9ff;
     font-variant-numeric: tabular-nums;
@@ -897,6 +967,13 @@
         </div>
         <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">🡳</button>
         <div class="now-playing">
+        <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" title="Click or drag to seek">
+          <div class="timeline-track" id="timelineTrack">
+            <div class="timeline-elapsed" id="timelineElapsed"></div>
+            <div class="timeline-dot" id="timelineDot"></div>
+            <div class="timeline-tip" id="timelineTip">0:00</div>
+          </div>
+        </div>
 	<span class="custom-controls">
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
@@ -914,6 +991,9 @@
         <span>&nbsp;</span> 
         <font color="Orange">Now Playing🎞 :</font>           
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+        <span>&nbsp;&nbsp;</span>
+        <font color="Orange">Total Titles📚 :</font>
+        <span id="totalTitles" style="color:#5da9ff;font-variant-numeric:tabular-nums;flex-shrink:0;">0</span>
         <span>&nbsp;&nbsp;</span>
         <font color="Orange">Current Time⏲ :</font>	
         <span id="clock"></span>          
@@ -1485,6 +1565,103 @@
   video.addEventListener('loadedmetadata', updateRuntime);
   video.addEventListener('durationchange', updateRuntime);
 
+  // ---- Timeline / seek bar: grey = elapsed, blue = remaining, dot = current time.
+  // Click anywhere on the line or drag the dot to jump; arrow keys also seek. ----
+  const timeline = document.getElementById('timeline');
+  const timelineTrack = document.getElementById('timelineTrack');
+  const timelineElapsed = document.getElementById('timelineElapsed');
+  const timelineDot = document.getElementById('timelineDot');
+  const timelineTip = document.getElementById('timelineTip');
+  let timelineDragging = false;
+  let timelineDragTime = 0;
+
+  function timelineDuration() {
+    const d = video.duration;
+    return (d && isFinite(d) && d > 0) ? d : 0;
+  }
+
+  function paintTimeline(time) {
+    const dur = timelineDuration();
+    const pct = dur ? Math.min(100, Math.max(0, (time / dur) * 100)) : 0;
+    timelineElapsed.style.width = pct + '%';
+    timelineDot.style.left = pct + '%';
+    timeline.setAttribute('aria-valuenow', Math.round(pct));
+    timeline.setAttribute('aria-valuetext', formatTime(time) + (dur ? ' of ' + formatTime(dur) : ''));
+  }
+
+  function timeFromPointer(e) {
+    const rect = timelineTrack.getBoundingClientRect();
+    const ratio = rect.width ? Math.min(1, Math.max(0, (e.clientX - rect.left) / rect.width)) : 0;
+    return { ratio, time: ratio * timelineDuration() };
+  }
+
+  function showTip(ratio, time) {
+    timelineTip.style.left = (ratio * 100) + '%';
+    timelineTip.textContent = formatTime(time);
+  }
+
+  // Smooth dot movement: timeupdate only fires ~4x/second, so also repaint every frame while playing.
+  function timelineLoop() {
+    if (!timelineDragging) paintTimeline(video.currentTime);
+    if (!video.paused && !video.ended) requestAnimationFrame(timelineLoop);
+  }
+  video.addEventListener('play', () => requestAnimationFrame(timelineLoop));
+  video.addEventListener('playing', () => requestAnimationFrame(timelineLoop));
+  ['timeupdate', 'seeked', 'loadedmetadata', 'durationchange', 'emptied', 'pause', 'ended'].forEach(evt =>
+    video.addEventListener(evt, () => { if (!timelineDragging) paintTimeline(video.currentTime || 0); })
+  );
+
+  timeline.addEventListener('pointerdown', (e) => {
+    if (!timelineDuration()) return;
+    timelineDragging = true;
+    timeline.classList.add('dragging');
+    timeline.setPointerCapture(e.pointerId);
+    const p = timeFromPointer(e);
+    timelineDragTime = p.time;
+    paintTimeline(p.time);
+    showTip(p.ratio, p.time);
+    e.preventDefault();
+  });
+  timeline.addEventListener('pointermove', (e) => {
+    const dur = timelineDuration();
+    if (!dur) return;
+    const p = timeFromPointer(e);
+    showTip(p.ratio, p.time);            // hover preview time
+    if (timelineDragging) {
+      timelineDragTime = p.time;
+      paintTimeline(p.time);
+      runtimeEl.textContent = `${formatTime(p.time)} / ${formatTime(dur)}`;
+    }
+  });
+  function endTimelineDrag(e, commit) {
+    if (!timelineDragging) return;
+    timelineDragging = false;
+    timeline.classList.remove('dragging');
+    if (commit) {
+      video.currentTime = timelineDragTime;   // playback continues from here (or stays paused if paused)
+      paintTimeline(timelineDragTime);
+    } else {
+      paintTimeline(video.currentTime);
+    }
+  }
+  timeline.addEventListener('pointerup', (e) => endTimelineDrag(e, true));
+  timeline.addEventListener('pointercancel', (e) => endTimelineDrag(e, false));
+
+  timeline.addEventListener('keydown', (e) => {
+    const dur = timelineDuration();
+    if (!dur) return;
+    let t = null;
+    if (e.key === 'ArrowLeft') t = video.currentTime - 5;
+    else if (e.key === 'ArrowRight') t = video.currentTime + 5;
+    else if (e.key === 'Home') t = 0;
+    else if (e.key === 'End') t = dur - 0.5;
+    if (t === null) return;
+    video.currentTime = Math.min(dur, Math.max(0, t));
+    e.preventDefault();
+  });
+
+  paintTimeline(0);
+
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
     toggleBtn.classList.toggle('panel-hidden', isHidden);
@@ -1573,6 +1750,9 @@
       renderItems.push({ el: div, indices: [i], category: v.category || null });
     }
   });
+
+  // Total titles = first-level playlist cards only (a series counts as 1, its episodes are not added)
+  document.getElementById('totalTitles').textContent = renderItems.length;
 
   // ---- Title search: filter the thumbnail list live, Enter plays/opens the first match ----
   const titleSearch = document.getElementById('titleSearch');
