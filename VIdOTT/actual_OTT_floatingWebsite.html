@@ -965,7 +965,7 @@
           <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">Zoom Out🖥️□</button>
           <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1🖥️□</button>
         </div>
-        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">🡳</button>
+        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">▾</button>
         <div class="now-playing">
         <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" title="Click or drag to seek">
           <div class="timeline-track" id="timelineTrack">
@@ -1105,7 +1105,7 @@
 
   controlsToggleBtn.addEventListener('click', () => {
     controlsManuallyHidden = !controlsManuallyHidden;
-    controlsToggleBtn.textContent = controlsManuallyHidden ? '🡱' : '🡳';
+    controlsToggleBtn.textContent = controlsManuallyHidden ? '▴' : '▾';
     updateControlsVisibility();
   });
 
