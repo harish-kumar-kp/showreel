@@ -213,6 +213,104 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
+  {
+      title: "Ant Bully 2006",
+      src: "https://dn710205.ca.archive.org/0/items/Popcornarchive-theAntBully2006_ta993/Popcornarchive-theAntBully2006_ta993.mp4",
+      thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+      category: "Family"
+    },
+   {
+    title: "Cloudy With A Chance Of Meatballs (2009)",
+    src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2009.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2009.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-QjjEan0KRfNKszTevNa20bc2db5Nb26ZLA1wgDi-A&s",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Cloudy With A Chance Of Meatballs 2 (2013)",
+    src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHqpoYvMT9CkfBJzsf6Uq1q7g7yPSRkiozC_XPUHx8Q&s=10",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Smallfoot (2018)",
+    src: "https://archive.org/download/smallfoot.-2018.1080p.-blu-ray.x-265-rarbg/Smallfoot.2018.1080p.BluRay.x265-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6eo3t5eBN8Kk4CYuPVlWU9uJzxicCygXwY0V_3QSY-A&s=10",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Madagascar (2005)",
+    src: "https://archive.org/download/madagascar.-2005.1080p.-blu-ray.-h-264.-aac-rarbg/Madagascar.2005.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHNHBXYptio-pfsBEiebQIW0hX__cMR6HqrHf6We9ng&s=10",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "Over The Hedge",
+    src: "https://archive.org/download/over-the-hedge-2006-full-screen-dvd-iso_202509/OVER_THE_HEDGE.mp4",
+    thumb: "https://wallpapers.com/images/hd/over-the-hedge-posing-poster-uiydys939zovdv7l.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
+  {
+    title: "Up (2009)",
+    src: "https://archive.org/download/Up.2009.720p.BluRay.x264.YIFY/Up.2009.720p.BluRay.x264.YIFY.mp4",
+    thumb: "https://www.arthipo.com/image/cache/catalog/poster/movie/759-1554/pfilm1417-up-movie-poster-500x500h.webp",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
+  {
+    title: "Rio (Full Movie)",
+    src: "https://archive.org/download/rio-full-movie/Rio%20%28Full%20Movie%29.mp4",
+    thumb: "https://image.tmdb.org/t/p/original/AfQjxSXWGZP6KdK7iDd3bzL02Gc.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
+  {
+    title: "Garfieldthemovie",
+    src: "https://archive.org/download/garfieldthemovie_202503/GARFIELDTHEMOVIE.mp4",
+    thumb: "https://brutifulstore.com/wp-content/uploads/2024/03/Official-New-Poster-For-The-Garfield-Movie-Releasing-In-Theaters-On-May-24-Poster-Canvas.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
+  {
+    title: "Turbo",
+    src: "https://archive.org/download/turbo_202208/TURBO.mp4",
+    thumb: "https://4.bp.blogspot.com/-EggXqmySZlY/UaOFXT4zW2I/AAAAAAAAQDs/B46rKkzl6v4/s1600/PHGXWraJC8S8KK_1_m.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
+ {
+    title: "Dantes Inferno An Animated Epic (2010)",
+    src: "https://archive.org/download/dantes.-inferno.-an.-animated.-epic.-2010.1080p.-blu-ray.x-265-rarbg/Dantes.Inferno.An.Animated.Epic.2010.1080p.BluRay.x265-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCRtV3KCqRksYwnbHBdzXGLVRE6Qj8Nop9-Iqd5g9UN8hXwAEGxyQQ2lC&s=10",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+{
+    title: "The Lord of the Rings(1978)",
+    src: "https://archive.org/download/the-lordofthe-rings-19781080p-blu-ray-h-264-aac-rarbg/TheLordoftheRings19781080pBluRayH264AAC-RARBG.mp4",
+    thumb: "https://www.lab111.nl/wp-content/uploads/2026/08/lord_of_the_rings_16x9_banner.png",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "The Adventures Of Tintin (2011)",
+    src: "https://archive.org/download/the.-adventures.of.-tintin.-2011.1080p.-blu-ray.-h-264.-aac-rarbg/The.Adventures.of.Tintin.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0vY-9gWmFrJED3G-aPA8cV6Y4_Z_P3QDUpRZtWfGHQ&s=10",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
+  {
+    title: "The Life And Adventures Of Santa Claus (1985)",
+    src: "https://archive.org/download/the.-life.and.-adventures.of.-santa.-claus.-1985.1080p.-webrip.x-265-rarbg/The%20Life%20and%20Adventures%20of%20Santa%20Claus%20%281985%29%201080p/The.Life.and.Adventures.of.Santa.Claus.1985.1080p.WEBRip.x265-RARBG.mp4",
+    thumb: "https://m.media-amazon.com/images/S/pv-target-images/60639db197c7142d0eecb73288d3de7aa81421e2097d1bcfdb27caa18de891b7.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family"
+  },
     {
       title: "Masters of the Universe (1987)",
       src: "https://archive.org/download/masters-of-the-universe-1987_202304/Masters%20of%20the%20universe%201987.mp4",
@@ -220,13 +318,7 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
-    {
-      title: "Ant Bully 2006",
-      src: "https://dn710205.ca.archive.org/0/items/Popcornarchive-theAntBully2006_ta993/Popcornarchive-theAntBully2006_ta993.mp4",
-      thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-      category: "Family"
-    },
+  
     {
       title: "Dunston Checks In 1996",
       src: "https://dn721901.ca.archive.org/0/items/Popcornarchive-dunstonChecksIn1996/Popcornarchive-dunstonChecksIn1996.mp4",
@@ -297,34 +389,7 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
     },
-   {
-    title: "Cloudy With A Chance Of Meatballs (2009)",
-    src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2009.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2009.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-QjjEan0KRfNKszTevNa20bc2db5Nb26ZLA1wgDi-A&s",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
-  },
-  {
-    title: "Cloudy With A Chance Of Meatballs 2 (2013)",
-    src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHqpoYvMT9CkfBJzsf6Uq1q7g7yPSRkiozC_XPUHx8Q&s=10",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
-  },
-  {
-    title: "Smallfoot (2018)",
-    src: "https://archive.org/download/smallfoot.-2018.1080p.-blu-ray.x-265-rarbg/Smallfoot.2018.1080p.BluRay.x265-RARBG.mp4",
-    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6eo3t5eBN8Kk4CYuPVlWU9uJzxicCygXwY0V_3QSY-A&s=10",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
-  },
-  {
-    title: "Madagascar (2005)",
-    src: "https://archive.org/download/madagascar.-2005.1080p.-blu-ray.-h-264.-aac-rarbg/Madagascar.2005.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHNHBXYptio-pfsBEiebQIW0hX__cMR6HqrHf6We9ng&s=10",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
-  },
+
   {
     title: "Bean (1997)",
     src: "https://archive.org/download/bean.-1997.1080p.-blu-ray.-h-264.-aac-rarbg/Bean.1997.1080p.BluRay.H264.AAC-RARBG.mp4",
@@ -354,41 +419,44 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
   },
-  {
-    title: "The Lord of the Rings(1978)",
-    src: "https://archive.org/download/the-lordofthe-rings-19781080p-blu-ray-h-264-aac-rarbg/TheLordoftheRings19781080pBluRayH264AAC-RARBG.mp4",
-    thumb: "https://www.lab111.nl/wp-content/uploads/2026/08/lord_of_the_rings_16x9_banner.png",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
+{
+    title: "Encino Man (1992)",
+    src: "https://archive.org/download/encino-man-1992_202412/ENCINO_MAN_1992.mp4",
+    thumb: "https://image.tmdb.org/t/p/original/eIWkzF32Zt8IYA2n6OmwAEKq8gK.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Encino.Man.1992.720p.HDTV.DD.5.1.x264-DNL.ENG.srt",
+    category: "unknown",
   },
+  {
+    title: "Encino Woman (1996)",
+    src: "https://archive.org/download/encino_woman/Encino.Woman.1996.TVRip.AAC.AVC-JDLC83BKNY.mp4",
+    thumb: "https://m.media-amazon.com/images/M/MV5BYTZjOTYzZjAtZWYwYS00YzIwLWI4OWQtMWQ0MzJhYmZlZjdjXkEyXkFqcGc@._V1_QL75_UY281_CR0,0,500,281_.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "unknown",
+  },
+  
   {
     title: "Ernest Goes To Camp (1987)",
     src: "https://archive.org/download/ernest.-goes.-to.-camp.-1987.1080p.-blu-ray.x-265-rarbg-x-264/Ernest.Goes.To.Camp.1987.1080p.BluRay.x265-RARBG_x264.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFwz5CriYc2t1K0A-LoJ7Xmoi76Ds6So-R84wPxeAFA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
-  },
-  {
-    title: "Dantes Inferno An Animated Epic (2010)",
-    src: "https://archive.org/download/dantes.-inferno.-an.-animated.-epic.-2010.1080p.-blu-ray.x-265-rarbg/Dantes.Inferno.An.Animated.Epic.2010.1080p.BluRay.x265-RARBG.mp4",
-    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCRtV3KCqRksYwnbHBdzXGLVRE6Qj8Nop9-Iqd5g9UN8hXwAEGxyQQ2lC&s=10",
+  }, 
+{
+    title: "Legend (1985)",
+    src: "https://archive.org/download/legend.-1985.-dc.-1080p.-blu-ray.x-264.-yify/Legend.1985.DC.1080p.BluRay.x264.YIFY.mp4",
+    thumb: "https://images.squarespace-cdn.com/content/v1/634d99e9685b7a2bf0d1ae2d/3bce2cd2-d632-4682-a8c7-b06f19baeec2/Legend_Movie_Poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
+    category: "unknown",
   },
+
   {
-    title: "The Adventures Of Tintin (2011)",
-    src: "https://archive.org/download/the.-adventures.of.-tintin.-2011.1080p.-blu-ray.-h-264.-aac-rarbg/The.Adventures.of.Tintin.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0vY-9gWmFrJED3G-aPA8cV6Y4_Z_P3QDUpRZtWfGHQ&s=10",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
+    title: "The Adventures Of Baron Munchausen (1988)",
+    src: "https://dn710008.ca.archive.org/0/items/the.-adventures.of.-baron.-munchausen.-1988.1080p.-blu-ray.x-264.-yify/The.Adventures.of.Baron.Munchausen.1988.1080p.BluRay.x264.YIFY.mp4",
+    thumb: "https://www.rarefilmposters.com/wp-content/uploads/ADVENTURES-OF-BARON-MUNCHAUSEN-Quad.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheAdventuresofBaronMunchausen(1988)BRD1080pREMASTERED.srt",
+    category: "unknown",
   },
-  {
-    title: "The Life And Adventures Of Santa Claus (1985)",
-    src: "https://archive.org/download/the.-life.and.-adventures.of.-santa.-claus.-1985.1080p.-webrip.x-265-rarbg/The%20Life%20and%20Adventures%20of%20Santa%20Claus%20%281985%29%201080p/The.Life.and.Adventures.of.Santa.Claus.1985.1080p.WEBRip.x265-RARBG.mp4",
-    thumb: "https://m.media-amazon.com/images/S/pv-target-images/60639db197c7142d0eecb73288d3de7aa81421e2097d1bcfdb27caa18de891b7.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family"
-  },
+
   {
     title: "Charlie And The Chocolate Factory (2005)",
     src: "https://archive.org/download/charlie-and-the-chocolate-factory-2005-720p-br-rip_202607/Charlie_and_the_Chocolate_Factory_2005_720p_BrRip.mp4",
@@ -402,62 +470,6 @@
     thumb: "https://m.media-amazon.com/images/S/pv-target-images/069768fd28111534f17f2c09a975bc4c732ae221b65ab16f1edb2ece47748475.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family"
-  },
-{
-    title: "Legend (1985)",
-    src: "https://archive.org/download/legend.-1985.-dc.-1080p.-blu-ray.x-264.-yify/Legend.1985.DC.1080p.BluRay.x264.YIFY.mp4",
-    thumb: "https://images.squarespace-cdn.com/content/v1/634d99e9685b7a2bf0d1ae2d/3bce2cd2-d632-4682-a8c7-b06f19baeec2/Legend_Movie_Poster.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Kingsman The Secret Service (2014)",
-    src: "https://archive.org/download/kingsman.-the.-secret.-service.-2014.720p.-blu-ray.x-264.-yify/Kingsman.The.Secret.Service.2014.720p.BluRay.x264.YIFY.mp4",
-    thumb: "https://wallpapers.com/images/hd/kingsman-the-secret-service-action-movie-poster-tmwjxqo98z5j1cqx.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Action"
-  },
-  {
-    title: "The Adventures Of Baron Munchausen (1988)",
-    src: "https://dn710008.ca.archive.org/0/items/the.-adventures.of.-baron.-munchausen.-1988.1080p.-blu-ray.x-264.-yify/The.Adventures.of.Baron.Munchausen.1988.1080p.BluRay.x264.YIFY.mp4",
-    thumb: "https://www.rarefilmposters.com/wp-content/uploads/ADVENTURES-OF-BARON-MUNCHAUSEN-Quad.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheAdventuresofBaronMunchausen(1988)BRD1080pREMASTERED.srt",
-    category: "unknown",
-  },
-  {
-    title: "Over The Hedge",
-    src: "https://archive.org/download/over-the-hedge-2006-full-screen-dvd-iso_202509/OVER_THE_HEDGE.mp4",
-    thumb: "https://wallpapers.com/images/hd/over-the-hedge-posing-poster-uiydys939zovdv7l.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Up (2009)",
-    src: "https://archive.org/download/Up.2009.720p.BluRay.x264.YIFY/Up.2009.720p.BluRay.x264.YIFY.mp4",
-    thumb: "https://www.arthipo.com/image/cache/catalog/poster/movie/759-1554/pfilm1417-up-movie-poster-500x500h.webp",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Rio (Full Movie)",
-    src: "https://archive.org/download/rio-full-movie/Rio%20%28Full%20Movie%29.mp4",
-    thumb: "https://image.tmdb.org/t/p/original/AfQjxSXWGZP6KdK7iDd3bzL02Gc.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Garfieldthemovie",
-    src: "https://archive.org/download/garfieldthemovie_202503/GARFIELDTHEMOVIE.mp4",
-    thumb: "https://brutifulstore.com/wp-content/uploads/2024/03/Official-New-Poster-For-The-Garfield-Movie-Releasing-In-Theaters-On-May-24-Poster-Canvas.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Turbo",
-    src: "https://archive.org/download/turbo_202208/TURBO.mp4",
-    thumb: "https://4.bp.blogspot.com/-EggXqmySZlY/UaOFXT4zW2I/AAAAAAAAQDs/B46rKkzl6v4/s1600/PHGXWraJC8S8KK_1_m.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
   },
   {
     title: "Daddy Day Care (2003)",
@@ -481,7 +493,7 @@
     category: "unknown",
   },
   {
-    title: "Extremeops",
+    title: "Extreme Ops",
     src: "https://dn721405.ca.archive.org/0/items/EXTREMEOPS/EXTREMEOPS.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/extreme-ops-cinema-quad-movie-poster-_1.jpg?v=1730178119&width=1445",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -511,7 +523,7 @@
  {
     title: "Jurassic Park (1993)",
     src: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Jurassic%20Park%20%281993%29%20%5B1080p%5D/Jurassic.Park.1993.1080p.BRrip.x264.YIFY.mp4",
-    thumb: "https://xl.movieposterdb.com/22_08/1993/107290/xl_107290_02b417b2.png",
+    thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ccefbec-c048-49be-b9e6-e6b55bc6861d/ddpzrf8-bb905cfb-71f9-41ef-8828-e1c7beb83ae8.jpg/v1/fill/w_1920,h_2560,q_75,strp/jurassic_park_1993_poster_in_retro_style_by_deepthinker121_ddpzrf8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjY2VmYmVjLWMwNDgtNDliZS1iOWU2LWU2YjU1YmM2ODYxZFwvZGRwenJmOC1iYjkwNWNmYi03MWY5LTQxZWYtODgyOC1lMWM3YmViODNhZTguanBnIiwiaGVpZ2h0IjoiPD0yNTYwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvN2NjZWZiZWMtYzA0OC00OWJlLWI5ZTYtZTZiNTViYzY4NjFkXC9kZWVwdGhpbmtlcjEyMS00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.pGylvZOOgrsWGaOWza7eXX1gPVU--Nr6mnpO5yVp9yE",
     subtitle: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Jurassic%20Park%20%281993%29%20%5B1080p%5D/Jurassic.Park.1993.1080p.BRrip.x264.YIFY.srt",
     category: "unknown",
   },
@@ -1063,7 +1075,7 @@
       title: "Total Recall 1990",
       src: "https://dn600303.us.archive.org/0/items/total.-recall.-mind.-bending.-edition.-1990.720p.-blu-ray.x-264.-yify_202408/Total.Recall.Mind.Bending.Edition.1990.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Total.Recall.1990.UNCUT.REMASTERED.1080p.BluRay.x264-GUACAMOLE.SDH.srt",
       category: "Sci-Fi"
     },
     {
@@ -1135,6 +1147,13 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Action"
     },
+  {
+    title: "Kingsman The Secret Service (2014)",
+    src: "https://archive.org/download/kingsman.-the.-secret.-service.-2014.720p.-blu-ray.x-264.-yify/Kingsman.The.Secret.Service.2014.720p.BluRay.x264.YIFY.mp4",
+    thumb: "https://wallpapers.com/images/hd/kingsman-the-secret-service-action-movie-poster-tmwjxqo98z5j1cqx.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Action"
+  },
 {
     title: "Rambo I (1982)",
     src: "https://archive.org/download/rambo-iii-1988_202507/rambo-l%20%281982%29.mp4",
@@ -1256,7 +1275,7 @@
     category: "unknown",
   },
   {
-    title: "Gremlins 360",
+    title: "Gremlins",
     src: "https://archive.org/download/gremlins_360_202608/gremlins_360.mp4",
     thumb: "https://wallup.net/wp-content/uploads/2017/11/23/506944-Gremlins-digital_art-movies-movie_poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1574,7 +1593,7 @@
     title: "Willow (1988)",
     src: "https://archive.org/download/willow.-1988.1080p.-blu-ray.x-264-yts.-am/Willow.1988.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://www.filmonpaper.com/wp-content/uploads/2011/05/Willow_onesheet_USA_JohnAlvin-3.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Willow.1988.WEB-DL.DSNP.srt",
     category: "unknown",
   },
   {
@@ -1804,26 +1823,13 @@
     category: "unknown",
   },
   {
-    title: "Real (2011)",
+    title: "Real Steel (2011)",
     src: "https://archive.org/download/real-steel-2011-tamil-hindi-and-english-audio/Real%20Steel%282011%29%20-%20Tamil%2C%20Hindi%20and%20English%20audio.mkv",
     thumb: "https://m.media-amazon.com/images/M/MV5BMTMzMDIwNDc3Nl5BMl5BanBnXkFtZTcwNjgxNTcxNw@@._V1_FMjpg_UX1000_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-  {
-    title: "Encino Man (1992)",
-    src: "https://archive.org/download/encino-man-1992_202412/ENCINO_MAN_1992.mp4",
-    thumb: "https://image.tmdb.org/t/p/original/eIWkzF32Zt8IYA2n6OmwAEKq8gK.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
-    title: "Encino Woman (1996)",
-    src: "https://archive.org/download/encino_woman/Encino.Woman.1996.TVRip.AAC.AVC-JDLC83BKNY.mp4",
-    thumb: "https://m.media-amazon.com/images/M/MV5BYTZjOTYzZjAtZWYwYS00YzIwLWI4OWQtMWQ0MzJhYmZlZjdjXkEyXkFqcGc@._V1_QL75_UY281_CR0,0,500,281_.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
+  
     {
       title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
