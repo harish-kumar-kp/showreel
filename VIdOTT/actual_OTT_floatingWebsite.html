@@ -242,6 +242,11 @@
   .timeline:hover .timeline-dot,
   .timeline.dragging .timeline-dot,
   .timeline:focus-visible .timeline-dot { transform: scale(1.25); }
+  .timeline:focus .timeline-track { height: 7px; }
+  .timeline:focus .timeline-dot {
+    transform: scale(1.25);
+    box-shadow: 0 0 0 4px rgba(47,140,255,0.6), 0 0 8px rgba(0,0,0,0.7);
+  }
   .timeline-tip {
     position: absolute;
     bottom: 22px;
@@ -965,7 +970,7 @@
           <button class="aspect-btn" data-ratio="4:3" title="Lock to 4:3">Zoom Out🖥️□</button>
           <button class="aspect-btn" data-ratio="squeeze" title="Squeeze height to 75%">2.35:1🖥️□</button>
         </div>
-        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">▾</button>
+        <button class="controls-toggle-btn" id="controlsToggleBtn" title="Show/hide the playback controls">🡳</button>
         <div class="now-playing">
         <div class="timeline" id="timeline" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" title="Click or drag to seek">
           <div class="timeline-track" id="timelineTrack">
@@ -1029,9 +1034,11 @@
         <button class="category-chip" data-category="Shorts">Shorts</button>
         <button class="category-chip" data-category="Comedy">Comedy</button>
         <button class="category-chip" data-category="Action">Action</button>
+        <button class="category-chip" data-category="007">007</button>
         <button class="category-chip" data-category="Sci-Fi">Sci-Fi</button>
         <button class="category-chip" data-category="Thriller">Thriller</button>
         <button class="category-chip" data-category="Drama">Drama</button>
+	<button class="category-chip" data-category="Foreign">Foreign</button>
         <button class="category-chip" data-category="Series">Series</button>
       </div>
       <div class="thumbs" id="thumbs"></div>
@@ -1105,7 +1112,7 @@
 
   controlsToggleBtn.addEventListener('click', () => {
     controlsManuallyHidden = !controlsManuallyHidden;
-    controlsToggleBtn.textContent = controlsManuallyHidden ? '▴' : '▾';
+    controlsToggleBtn.textContent = controlsManuallyHidden ? '🡱' : '🡳';
     updateControlsVisibility();
   });
 
@@ -1616,6 +1623,7 @@
     timelineDragging = true;
     timeline.classList.add('dragging');
     timeline.setPointerCapture(e.pointerId);
+    timeline.focus({ preventScroll: true });   // make the seekbar the selected control
     const p = timeFromPointer(e);
     timelineDragTime = p.time;
     paintTimeline(p.time);
@@ -1651,6 +1659,8 @@
     const dur = timelineDuration();
     if (!dur) return;
     let t = null;
+    if (e.key === ' ' || e.key === 'Enter') { document.getElementById('playPauseBtn').click(); e.preventDefault(); return; }
+    if (e.key === 'ArrowDown') { document.getElementById('playPauseBtn').focus(); e.preventDefault(); return; }
     if (e.key === 'ArrowLeft') t = video.currentTime - 5;
     else if (e.key === 'ArrowRight') t = video.currentTime + 5;
     else if (e.key === 'Home') t = 0;
@@ -1661,6 +1671,13 @@
   });
 
   paintTimeline(0);
+
+  // From the transport buttons, ArrowUp jumps focus to the seekbar (it sits right above them).
+  ['rewindBtn', 'playPauseBtn', 'forwardBtn'].forEach(id => {
+    document.getElementById(id).addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowUp') { timeline.focus(); e.preventDefault(); }
+    });
+  });
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
@@ -1747,7 +1764,7 @@
       });
       thumbsEl.appendChild(div);
       thumbEls[i] = div;
-      renderItems.push({ el: div, indices: [i], category: v.category || null });
+      renderItems.push({ el: div, indices: [i], category: v.category || null });  // category: "Shorts" or ["Shorts", "Family"]
     }
   });
 
@@ -1773,7 +1790,8 @@
           || (v.series && v.series.toLowerCase().includes(query))
           || (v.episodeTitle && v.episodeTitle.toLowerCase().includes(query));
       });
-      const matchesCategory = activeCategory === 'All' || item.category === activeCategory;
+      const itemCats = Array.isArray(item.category) ? item.category : [item.category];
+      const matchesCategory = activeCategory === 'All' || itemCats.includes(activeCategory);
       const isMatch = matchesQuery && matchesCategory;
       item.el.classList.toggle('filtered-out', !isMatch);
       if (isMatch && !firstMatch) firstMatch = item;
