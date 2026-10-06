@@ -941,11 +941,28 @@
     opacity: 0.35;
   }
 
+  /* ---- Empty full-screen blur panel ---- */
+  :root {
+    --panel-blur: 40px;     /* blur strength (fixed) */
+    --panel-alpha: 0.35;    /* panel tint */
+  }
+  #blurPanel {
+    position: fixed;
+    inset: 0;
+    z-index: 3;   /* above the video, below subtitles + playback controls */
+    background: rgba(0,0,0,var(--panel-alpha));
+    backdrop-filter: blur(var(--panel-blur));
+    -webkit-backdrop-filter: blur(var(--panel-blur));
+    pointer-events: none;
+    opacity: 0;                 /* invisible by default; timecodes switch it on */
+    transition: opacity 1s ease;
+  }
 </style>
 </head>
 <body>
 <script src="data/datas.js"></script>
 <img id="idleOverlay" class="idle-overlay show" src="https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg" alt="">
+<div id="blurPanel"></div>
 <div class="stage">
   <div class="layout">
     <div class="player-col">
@@ -989,6 +1006,11 @@
           </span>
 	<span>&nbsp;</span>
         <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
+        <span>&nbsp;</span>
+        <span class="autorun-wrap">
+          <span class="autorun-label">C-Safe</span>
+          <span class="autorun-switch on" id="cSafeSwitch" title="C-Safe: ON = blur panel follows the blur timecodes, OFF = blur panel always hidden"><span class="knob"></span></span>
+        </span>
         <span>&nbsp;</span>	
         <span id="runtime"></span>
 
@@ -1679,6 +1701,48 @@
       if (e.key === 'ArrowUp') { timeline.focus(); e.preventDefault(); }
     });
   });
+
+
+  // ---- Blur panel driven by per-video start/end timecodes (videos[i].blurTimecodes) ----
+  // Panel is invisible (opacity 0) by default; inside a [start, end) range it becomes active at that range's opacity.
+  // Videos with no blurTimecodes keep the normal always-on panel.
+  (function () {
+    const panel = document.getElementById('blurPanel');
+    const cSafeSwitch = document.getElementById('cSafeSwitch');
+    let cSafe = true;    // ON by default: blur panel follows the blur timecodes
+    cSafeSwitch.addEventListener('click', () => {
+      cSafe = !cSafe;
+      cSafeSwitch.classList.toggle('on', cSafe);
+      apply();
+    });
+    const toSec = (t) => String(t).trim().split(':').reduce((a, n) => a * 60 + parseFloat(n), 0);
+    let cache = { idx: -2, list: null };
+    function ranges() {
+      if (cache.idx !== currentIndex) {
+        const v = currentIndex >= 0 ? videos[currentIndex] : null;
+        cache = {
+          idx: currentIndex,
+          list: v && Array.isArray(v.blurTimecodes)
+            ? v.blurTimecodes.map(e => ({
+                s: toSec(e.start),
+                e: (e.end === undefined || e.end === null || e.end === '') ? Infinity : toSec(e.end),
+                o: (e.opacity === undefined ? 1 : e.opacity)
+              }))
+            : null
+        };
+      }
+      return cache.list;
+    }
+    function apply() {
+      const l = ranges();
+      if (!cSafe || !l) { panel.style.opacity = 0; return; }
+      const t = video.currentTime;
+      let o = 0;
+      for (const r of l) { if (t >= r.s && t < r.e) { o = r.o; break; } }
+      panel.style.opacity = o;
+    }
+    ['timeupdate', 'seeked', 'seeking', 'loadedmetadata', 'emptied', 'play'].forEach(evt => video.addEventListener(evt, apply));
+  })();
 
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
