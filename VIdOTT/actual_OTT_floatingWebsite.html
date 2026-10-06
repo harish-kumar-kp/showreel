@@ -117,7 +117,9 @@
     object-fit: contain;
     object-position: center center;
     opacity: 1;
-    transition: opacity 0.3s ease;
+    --cs-blur: 0px;                      /* C-Safe blur, set from JS */
+    filter: blur(var(--cs-blur));
+    transition: opacity 0.3s ease, filter 1s ease;
   }
   video.idle {
     opacity: 0;
@@ -188,7 +190,7 @@
     box-shadow: 0 0 6px rgba(93,169,255,0.1);
   }
   #video.hq-enhanced {
-    filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
+    filter: blur(var(--cs-blur)) contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
     image-rendering: -webkit-optimize-contrast;
   }
 
@@ -943,7 +945,7 @@
 
   /* ---- Empty full-screen blur panel ---- */
   :root {
-    --panel-blur: 40px;     /* blur strength (fixed) */
+    --panel-blur: 40px;     /* blur strength applied to the video during C-Safe ranges */
     --panel-alpha: 0.35;    /* panel tint */
   }
   #blurPanel {
@@ -951,8 +953,6 @@
     inset: 0;
     z-index: 3;   /* above the video, below subtitles + playback controls */
     background: rgba(0,0,0,var(--panel-alpha));
-    backdrop-filter: blur(var(--panel-blur));
-    -webkit-backdrop-filter: blur(var(--panel-blur));
     pointer-events: none;
     opacity: 0;                 /* invisible by default; timecodes switch it on */
     transition: opacity 1s ease;
@@ -1733,13 +1733,20 @@
       }
       return cache.list;
     }
+    const blurPx = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-blur')) || 40;
+    // Blur the <video> element itself (filter) + dark tint panel. backdrop-filter does not
+    // blur video in Android WebView, so it can't be relied on.
+    function setBlur(o) {
+      panel.style.opacity = o;
+      video.style.setProperty('--cs-blur', (o * blurPx) + 'px');
+    }
     function apply() {
       const l = ranges();
-      if (!cSafe || !l) { panel.style.opacity = 0; return; }
+      if (!cSafe || !l) { setBlur(0); return; }
       const t = video.currentTime;
       let o = 0;
       for (const r of l) { if (t >= r.s && t < r.e) { o = r.o; break; } }
-      panel.style.opacity = o;
+      setBlur(o);
     }
     ['timeupdate', 'seeked', 'seeking', 'loadedmetadata', 'emptied', 'play'].forEach(evt => video.addEventListener(evt, apply));
   })();
