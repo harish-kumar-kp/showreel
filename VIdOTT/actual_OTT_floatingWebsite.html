@@ -591,6 +591,9 @@
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
     contain: layout paint;
+    -webkit-user-select: none;
+    user-select: none;                      /* taps/long-press never text-select the list */
+    -webkit-tap-highlight-color: transparent;
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
   .thumbs::-webkit-scrollbar-thumb {
@@ -1843,12 +1846,15 @@
     if (!seriesMap.has(v.series)) seriesMap.set(v.series, []);
     seriesMap.get(v.series).push(i);
   });
+  // false = every title is its own playlist card (selected/highlighted individually);
+  // true  = episodes of a series are collapsed into one stacked "Series" card.
+  const GROUP_SERIES = false;
   const seenSeries = new Set();
   const frag = document.createDocumentFragment();
 
   videos.forEach((v, i) => {
     const div = document.createElement('div');
-    if (v.series) {
+    if (v.series && GROUP_SERIES) {
       if (seenSeries.has(v.series)) return;
       seenSeries.add(v.series);
       const indices = seriesMap.get(v.series);
@@ -1874,7 +1880,7 @@
         <div class="label">${v.title}</div>
       `;
       thumbEls[i] = div;
-      renderItems.push({ el: div, indices: [i], category: v.category || null });
+      renderItems.push({ el: div, indices: [i], category: v.category || (v.series ? 'Series' : null) });
     }
     frag.appendChild(div);
   });
