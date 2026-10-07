@@ -118,12 +118,9 @@
     object-position: center center;
     opacity: 1;
     --cs-blur: 0px;                      /* C-Safe blur, set from JS */
+    filter: blur(var(--cs-blur));
     transition: opacity 0.3s ease, filter 1s ease;
   }
-  /* The filter is only attached while the C-Safe blur is active, so normal playback keeps
-     the plain (fast, hardware-overlay) video path on Android. */
-  #video.cs-blurring { filter: blur(var(--cs-blur)); }
-  #video.hq-enhanced.cs-blurring { filter: blur(var(--cs-blur)) contrast(1.12) saturate(1.18) brightness(1.03); }
   video.idle {
     opacity: 0;
   }
@@ -193,7 +190,7 @@
     box-shadow: 0 0 6px rgba(93,169,255,0.1);
   }
   #video.hq-enhanced {
-    filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
+    filter: blur(var(--cs-blur)) contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
     image-rendering: -webkit-optimize-contrast;
   }
 
@@ -588,12 +585,6 @@
     gap: 7px;
     padding-right: 4px;
     min-height: 0;
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
-    contain: layout paint;
-    -webkit-user-select: none;
-    user-select: none;                      /* taps/long-press never text-select the list */
-    -webkit-tap-highlight-color: transparent;
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
   .thumbs::-webkit-scrollbar-thumb {
@@ -613,7 +604,6 @@
     display: flex;
     align-items: center;
     flex-shrink: 0;
-    contain: layout style;
   }
   .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
@@ -1393,7 +1383,6 @@
 
   let currentIndex = -1;
   let thumbEls = [];
-  let prevActiveThumb = null;
   let autorunEnabled = true;
 
   const autorunSwitch = document.getElementById('autorunSwitch');
@@ -1476,10 +1465,9 @@
     currentIndex = i;
     const v = videos[i];
 
-    if (prevActiveThumb) prevActiveThumb.classList.remove('active');
+    thumbEls.forEach(t => t.classList.remove('active'));
     if (thumbEls[i]) {
       thumbEls[i].classList.add('active');
-      prevActiveThumb = thumbEls[i];
       scrollThumbIntoView(thumbEls[i]);
     }
 
@@ -1748,20 +1736,9 @@
     const blurPx = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-blur')) || 40;
     // Blur the <video> element itself (filter) + dark tint panel. backdrop-filter does not
     // blur video in Android WebView, so it can't be relied on.
-    let lastO = -1, offTimer = null;
     function setBlur(o) {
-      if (o === lastO) return;           // nothing changed -> no style writes on timeupdate
-      lastO = o;
       panel.style.opacity = o;
-      clearTimeout(offTimer);
-      if (o > 0) {
-        video.classList.add('cs-blurring');
-        video.style.setProperty('--cs-blur', (o * blurPx) + 'px');
-      } else {
-        video.style.setProperty('--cs-blur', '0px');
-        // let the 1s fade-out finish, then drop the filter entirely
-        offTimer = setTimeout(() => { if (lastO === 0) video.classList.remove('cs-blurring'); }, 1100);
-      }
+      video.style.setProperty('--cs-blur', (o * blurPx) + 'px');
     }
     function apply() {
       const l = ranges();
@@ -1801,7 +1778,7 @@
       const item = document.createElement('div');
       item.className = 'episode-item' + (i === currentIndex ? ' active' : '');
       item.innerHTML = `
-        <img src="${v.thumb}" alt="" loading="lazy" decoding="async">
+        <img src="${v.thumb}" alt="${v.title}">
         <div class="episode-info">
           <span class="episode-num">Episode ${v.episode || (pos + 1)}</span>
           <span class="episode-name">${v.episodeTitle || v.title}</span>
@@ -1820,48 +1797,19 @@
   // into a single stacked thumbnail (badged with the episode count); every
   // other video keeps its own individual thumbnail, same as before.
   let renderItems = []; // { el, indices: [videoIndex, ...] } — used by search filtering
-
-  // Thumbnails are loaded lazily: an <img> only gets its real src when its card is close to the
-  // visible area of the playlist. Loading+decoding 400+ remote images up-front was what made
-  // scrolling/navigation crawl on Android.
-  const imgObserver = ('IntersectionObserver' in window)
-    ? new IntersectionObserver((entries) => {
-        entries.forEach(en => {
-          if (!en.isIntersecting) return;
-          const img = en.target;
-          imgObserver.unobserve(img);
-          if (img.dataset.src) { img.src = img.dataset.src; img.removeAttribute('data-src'); }
-        });
-      }, { root: thumbsEl, rootMargin: '400px 0px' })
-    : null;
-  function lazyImg(img) {
-    if (imgObserver) imgObserver.observe(img);
-    else { img.src = img.dataset.src; }
-  }
-
-  // Group episodes by series in one pass (was O(n²)).
-  const seriesMap = new Map();
-  videos.forEach((v, i) => {
-    if (!v.series) return;
-    if (!seriesMap.has(v.series)) seriesMap.set(v.series, []);
-    seriesMap.get(v.series).push(i);
-  });
-  // false = every title is its own playlist card (selected/highlighted individually);
-  // true  = episodes of a series are collapsed into one stacked "Series" card.
-  const GROUP_SERIES = false;
   const seenSeries = new Set();
-  const frag = document.createDocumentFragment();
 
   videos.forEach((v, i) => {
-    const div = document.createElement('div');
-    if (v.series && GROUP_SERIES) {
-      if (seenSeries.has(v.series)) return;
+    if (v.series) {
+      if (seenSeries.has(v.series)) return; // already rendered as part of its group card
       seenSeries.add(v.series);
-      const indices = seriesMap.get(v.series);
+      const indices = [];
+      videos.forEach((vv, ii) => { if (vv.series === v.series) indices.push(ii); });
+
+      const div = document.createElement('div');
       div.className = 'thumb series-thumb';
-      div.dataset.series = v.series;
       div.innerHTML = `
-        <img data-src="${v.thumb}" alt="" decoding="async" width="64" height="38">
+        <img src="${v.thumb}" alt="${v.series}">
         <div class="play-icon">▶</div>
         <div class="label">
           <span class="series-name">${v.series}</span>
@@ -1869,30 +1817,27 @@
         </div>
         <div class="stack-icon">▤ Series</div>
       `;
+      div.addEventListener('click', () => {
+        openEpisodePanel(v.series, indices);
+      });
+      thumbsEl.appendChild(div);
       indices.forEach(idx => { thumbEls[idx] = div; });
       renderItems.push({ el: div, indices, category: 'Series' });
     } else {
+      const div = document.createElement('div');
       div.className = 'thumb';
-      div.dataset.vi = i;
       div.innerHTML = `
-        <img data-src="${v.thumb}" alt="" decoding="async" width="64" height="38">
+        <img src="${v.thumb}" alt="${v.title}">
         <div class="play-icon">▶</div>
         <div class="label">${v.title}</div>
       `;
+      div.addEventListener('click', () => {
+        playByIndex(i);
+      });
+      thumbsEl.appendChild(div);
       thumbEls[i] = div;
-      renderItems.push({ el: div, indices: [i], category: v.category || (v.series ? 'Series' : null) });
+      renderItems.push({ el: div, indices: [i], category: v.category || null });  // category: "Shorts" or ["Shorts", "Family"]
     }
-    frag.appendChild(div);
-  });
-  thumbsEl.appendChild(frag);
-  thumbsEl.querySelectorAll('img[data-src]').forEach(lazyImg);
-
-  // One delegated click handler instead of 400+ individual listeners.
-  thumbsEl.addEventListener('click', (e) => {
-    const card = e.target.closest('.thumb');
-    if (!card) return;
-    if (card.dataset.series) openEpisodePanel(card.dataset.series, seriesMap.get(card.dataset.series));
-    else playByIndex(parseInt(card.dataset.vi, 10));
   });
 
   // Total titles = first-level playlist cards only (a series counts as 1, its episodes are not added)
@@ -1954,11 +1899,7 @@
     else openSearch();
   });
 
-  let searchTimer = null;
-  titleSearch.addEventListener('input', () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(filterThumbs, 150);
-  });
+  titleSearch.addEventListener('input', filterThumbs);
 
   titleSearch.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
