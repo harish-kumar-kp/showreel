@@ -117,9 +117,7 @@
     object-fit: contain;
     object-position: center center;
     opacity: 1;
-    --cs-blur: 0px;                      /* C-Safe blur, set from JS */
-    filter: blur(var(--cs-blur));
-    transition: opacity 0.3s ease, filter 1s ease;
+    transition: opacity 0.3s ease;
   }
   video.idle {
     opacity: 0;
@@ -190,7 +188,7 @@
     box-shadow: 0 0 6px rgba(93,169,255,0.1);
   }
   #video.hq-enhanced {
-    filter: blur(var(--cs-blur)) contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
+    filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
     image-rendering: -webkit-optimize-contrast;
   }
 
@@ -585,6 +583,12 @@
     gap: 7px;
     padding-right: 4px;
     min-height: 0;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    contain: layout paint;
+    -webkit-user-select: none;
+    user-select: none;                      /* taps/long-press never text-select the list */
+    -webkit-tap-highlight-color: transparent;
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
   .thumbs::-webkit-scrollbar-thumb {
@@ -604,6 +608,7 @@
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    contain: layout style;
   }
   .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
@@ -773,8 +778,8 @@
   /* ---- Scene Selection (S.S) button + panel ---- */
   .scene-panel {
     position: absolute;
-    left: 134px;
-    bottom: 64px;
+    left: 140px;
+    bottom: 120px;
     background: rgba(15,15,15,0.45);
     backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.18);
@@ -813,8 +818,8 @@
   /* ---- Aspect Ratio menu button + popup panel ---- */
   .aspect-panel {
     position: absolute;
-    left: 286px;
-    bottom: 55px;
+    left: 350px;
+    bottom: 120px;
     background: rgba(15,15,15,0.45);
     backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.18);
@@ -943,26 +948,11 @@
     opacity: 0.35;
   }
 
-  /* ---- Empty full-screen blur panel ---- */
-  :root {
-    --panel-blur: 40px;     /* blur strength applied to the video during C-Safe ranges */
-    --panel-alpha: 0.35;    /* panel tint */
-  }
-  #blurPanel {
-    position: fixed;
-    inset: 0;
-    z-index: 3;   /* above the video, below subtitles + playback controls */
-    background: rgba(0,0,0,var(--panel-alpha));
-    pointer-events: none;
-    opacity: 0;                 /* invisible by default; timecodes switch it on */
-    transition: opacity 1s ease;
-  }
 </style>
 </head>
 <body>
 <script src="data/datas.js"></script>
 <img id="idleOverlay" class="idle-overlay show" src="https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg" alt="">
-<div id="blurPanel"></div>
 <div class="stage">
   <div class="layout">
     <div class="player-col">
@@ -1383,6 +1373,7 @@
 
   let currentIndex = -1;
   let thumbEls = [];
+  let prevActiveThumb = null;
   let autorunEnabled = true;
 
   const autorunSwitch = document.getElementById('autorunSwitch');
@@ -1465,9 +1456,10 @@
     currentIndex = i;
     const v = videos[i];
 
-    thumbEls.forEach(t => t.classList.remove('active'));
+    if (prevActiveThumb) prevActiveThumb.classList.remove('active');
     if (thumbEls[i]) {
       thumbEls[i].classList.add('active');
+      prevActiveThumb = thumbEls[i];
       scrollThumbIntoView(thumbEls[i]);
     }
 
@@ -1538,8 +1530,15 @@
   // rendering. Uses 'playing' (not just 'play') so it stays up through any
   // buffering/loading gap, and reappears on 'waiting' (stalls/buffering).
   const idleOverlay = document.getElementById('idleOverlay');
+  // blurHold = true while a C-Safe blur timecode range is active: the wallpaper is held on screen
+  // for the whole range, so 'playing' events (after buffering / seeking) can't hide it early.
+  let blurHold = false;
   function showIdleWallpaper() { idleOverlay.classList.add('show'); video.classList.add('idle'); }
-  function hideIdleWallpaper() { idleOverlay.classList.remove('show'); video.classList.remove('idle'); }
+  function hideIdleWallpaperNow() { idleOverlay.classList.remove('show'); video.classList.remove('idle'); }
+  function hideIdleWallpaper() {
+    if (blurHold) { video.classList.remove('idle'); return; }   // keep wallpaper overlay, just un-hide the video
+    hideIdleWallpaperNow();
+  }
 
   video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; updateControlsVisibility(); });
   video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); });
@@ -1703,11 +1702,9 @@
   });
 
 
-  // ---- Blur panel driven by per-video start/end timecodes (videos[i].blurTimecodes) ----
-  // Panel is invisible (opacity 0) by default; inside a [start, end) range it becomes active at that range's opacity.
-  // Videos with no blurTimecodes keep the normal always-on panel.
+  // ---- C-Safe: wallpaper driven by per-video start/end timecodes (videos[i].blurTimecodes) ----
+  // Wallpaper shows inside a [start, end) range at that range's opacity; no blur effect is used.
   (function () {
-    const panel = document.getElementById('blurPanel');
     const cSafeSwitch = document.getElementById('cSafeSwitch');
     let cSafe = true;    // ON by default: blur panel follows the blur timecodes
     cSafeSwitch.addEventListener('click', () => {
@@ -1733,20 +1730,33 @@
       }
       return cache.list;
     }
-    const blurPx = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-blur')) || 40;
-    // Blur the <video> element itself (filter) + dark tint panel. backdrop-filter does not
-    // blur video in Android WebView, so it can't be relied on.
-    function setBlur(o) {
-      panel.style.opacity = o;
-      video.style.setProperty('--cs-blur', (o * blurPx) + 'px');
+    // Wallpaper follows the timecodes: shown at a range's start, hidden after its end.
+    let lastActive = false;
+    // The wallpaper's opacity is the range's "opacity" value (same number that drives the blur):
+    // 1 = wallpaper fully covers the video, lower = video (blurred) shows through it.
+    function syncWallpaper(active, o) {
+      if (active) {
+        idleOverlay.style.opacity = o;            // inline value overrides the default .show opacity
+        if (!lastActive) {
+          idleOverlay.classList.add('show');
+          video.classList.remove('idle');         // keep the video visible underneath the wallpaper
+        }
+      }
+      if (active === lastActive) return;
+      lastActive = active;
+      blurHold = active;
+      if (!active) {
+        idleOverlay.style.opacity = '';           // back to the stylesheet default
+        if (!video.ended && video.readyState >= 2) hideIdleWallpaperNow();
+      }
     }
     function apply() {
       const l = ranges();
-      if (!cSafe || !l) { setBlur(0); return; }
+      if (!cSafe || !l) { syncWallpaper(false, 0); return; }
       const t = video.currentTime;
-      let o = 0;
-      for (const r of l) { if (t >= r.s && t < r.e) { o = r.o; break; } }
-      setBlur(o);
+      let o = 0, active = false;
+      for (const r of l) { if (t >= r.s && t < r.e) { o = r.o; active = true; break; } }
+      syncWallpaper(active, o);
     }
     ['timeupdate', 'seeked', 'seeking', 'loadedmetadata', 'emptied', 'play'].forEach(evt => video.addEventListener(evt, apply));
   })();
@@ -1778,7 +1788,7 @@
       const item = document.createElement('div');
       item.className = 'episode-item' + (i === currentIndex ? ' active' : '');
       item.innerHTML = `
-        <img src="${v.thumb}" alt="${v.title}">
+        <img src="${v.thumb}" alt="" loading="lazy" decoding="async">
         <div class="episode-info">
           <span class="episode-num">Episode ${v.episode || (pos + 1)}</span>
           <span class="episode-name">${v.episodeTitle || v.title}</span>
@@ -1797,19 +1807,48 @@
   // into a single stacked thumbnail (badged with the episode count); every
   // other video keeps its own individual thumbnail, same as before.
   let renderItems = []; // { el, indices: [videoIndex, ...] } — used by search filtering
+
+  // Thumbnails are loaded lazily: an <img> only gets its real src when its card is close to the
+  // visible area of the playlist. Loading+decoding 400+ remote images up-front was what made
+  // scrolling/navigation crawl on Android.
+  const imgObserver = ('IntersectionObserver' in window)
+    ? new IntersectionObserver((entries) => {
+        entries.forEach(en => {
+          if (!en.isIntersecting) return;
+          const img = en.target;
+          imgObserver.unobserve(img);
+          if (img.dataset.src) { img.src = img.dataset.src; img.removeAttribute('data-src'); }
+        });
+      }, { root: thumbsEl, rootMargin: '400px 0px' })
+    : null;
+  function lazyImg(img) {
+    if (imgObserver) imgObserver.observe(img);
+    else { img.src = img.dataset.src; }
+  }
+
+  // Group episodes by series in one pass (was O(n²)).
+  const seriesMap = new Map();
+  videos.forEach((v, i) => {
+    if (!v.series) return;
+    if (!seriesMap.has(v.series)) seriesMap.set(v.series, []);
+    seriesMap.get(v.series).push(i);
+  });
+  // false = every title is its own playlist card (selected/highlighted individually);
+  // true  = episodes of a series are collapsed into one stacked "Series" card.
+  const GROUP_SERIES = false;
   const seenSeries = new Set();
+  const frag = document.createDocumentFragment();
 
   videos.forEach((v, i) => {
-    if (v.series) {
-      if (seenSeries.has(v.series)) return; // already rendered as part of its group card
+    const div = document.createElement('div');
+    if (v.series && GROUP_SERIES) {
+      if (seenSeries.has(v.series)) return;
       seenSeries.add(v.series);
-      const indices = [];
-      videos.forEach((vv, ii) => { if (vv.series === v.series) indices.push(ii); });
-
-      const div = document.createElement('div');
+      const indices = seriesMap.get(v.series);
       div.className = 'thumb series-thumb';
+      div.dataset.series = v.series;
       div.innerHTML = `
-        <img src="${v.thumb}" alt="${v.series}">
+        <img data-src="${v.thumb}" alt="" decoding="async" width="64" height="38">
         <div class="play-icon">▶</div>
         <div class="label">
           <span class="series-name">${v.series}</span>
@@ -1817,27 +1856,30 @@
         </div>
         <div class="stack-icon">▤ Series</div>
       `;
-      div.addEventListener('click', () => {
-        openEpisodePanel(v.series, indices);
-      });
-      thumbsEl.appendChild(div);
       indices.forEach(idx => { thumbEls[idx] = div; });
       renderItems.push({ el: div, indices, category: 'Series' });
     } else {
-      const div = document.createElement('div');
       div.className = 'thumb';
+      div.dataset.vi = i;
       div.innerHTML = `
-        <img src="${v.thumb}" alt="${v.title}">
+        <img data-src="${v.thumb}" alt="" decoding="async" width="64" height="38">
         <div class="play-icon">▶</div>
         <div class="label">${v.title}</div>
       `;
-      div.addEventListener('click', () => {
-        playByIndex(i);
-      });
-      thumbsEl.appendChild(div);
       thumbEls[i] = div;
-      renderItems.push({ el: div, indices: [i], category: v.category || null });  // category: "Shorts" or ["Shorts", "Family"]
+      renderItems.push({ el: div, indices: [i], category: v.category || (v.series ? 'Series' : null) });
     }
+    frag.appendChild(div);
+  });
+  thumbsEl.appendChild(frag);
+  thumbsEl.querySelectorAll('img[data-src]').forEach(lazyImg);
+
+  // One delegated click handler instead of 400+ individual listeners.
+  thumbsEl.addEventListener('click', (e) => {
+    const card = e.target.closest('.thumb');
+    if (!card) return;
+    if (card.dataset.series) openEpisodePanel(card.dataset.series, seriesMap.get(card.dataset.series));
+    else playByIndex(parseInt(card.dataset.vi, 10));
   });
 
   // Total titles = first-level playlist cards only (a series counts as 1, its episodes are not added)
@@ -1899,7 +1941,11 @@
     else openSearch();
   });
 
-  titleSearch.addEventListener('input', filterThumbs);
+  let searchTimer = null;
+  titleSearch.addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(filterThumbs, 150);
+  });
 
   titleSearch.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
