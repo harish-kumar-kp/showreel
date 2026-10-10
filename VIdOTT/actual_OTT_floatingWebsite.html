@@ -583,12 +583,6 @@
     gap: 7px;
     padding-right: 4px;
     min-height: 0;
-    overscroll-behavior: contain;
-    -webkit-overflow-scrolling: touch;
-    contain: layout paint;
-    -webkit-user-select: none;
-    user-select: none;                      /* taps/long-press never text-select the list */
-    -webkit-tap-highlight-color: transparent;
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
   .thumbs::-webkit-scrollbar-thumb {
@@ -608,7 +602,6 @@
     display: flex;
     align-items: center;
     flex-shrink: 0;
-    contain: layout style;
   }
   .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
@@ -996,11 +989,6 @@
           </span>
 	<span>&nbsp;</span>
         <button class="subtitle-btn" id="subtitleBtn" title="Toggle subtitles">CC</button>
-        <span>&nbsp;</span>
-        <span class="autorun-wrap">
-          <span class="autorun-label">C-Safe</span>
-          <span class="autorun-switch on" id="cSafeSwitch" title="C-Safe: ON = blur panel follows the blur timecodes, OFF = blur panel always hidden"><span class="knob"></span></span>
-        </span>
         <span>&nbsp;</span>	
         <span id="runtime"></span>
 
@@ -1373,7 +1361,6 @@
 
   let currentIndex = -1;
   let thumbEls = [];
-  let prevActiveThumb = null;
   let autorunEnabled = true;
 
   const autorunSwitch = document.getElementById('autorunSwitch');
@@ -1456,10 +1443,9 @@
     currentIndex = i;
     const v = videos[i];
 
-    if (prevActiveThumb) prevActiveThumb.classList.remove('active');
+    thumbEls.forEach(t => t.classList.remove('active'));
     if (thumbEls[i]) {
       thumbEls[i].classList.add('active');
-      prevActiveThumb = thumbEls[i];
       scrollThumbIntoView(thumbEls[i]);
     }
 
@@ -1530,15 +1516,8 @@
   // rendering. Uses 'playing' (not just 'play') so it stays up through any
   // buffering/loading gap, and reappears on 'waiting' (stalls/buffering).
   const idleOverlay = document.getElementById('idleOverlay');
-  // blurHold = true while a C-Safe blur timecode range is active: the wallpaper is held on screen
-  // for the whole range, so 'playing' events (after buffering / seeking) can't hide it early.
-  let blurHold = false;
   function showIdleWallpaper() { idleOverlay.classList.add('show'); video.classList.add('idle'); }
-  function hideIdleWallpaperNow() { idleOverlay.classList.remove('show'); video.classList.remove('idle'); }
-  function hideIdleWallpaper() {
-    if (blurHold) { video.classList.remove('idle'); return; }   // keep wallpaper overlay, just un-hide the video
-    hideIdleWallpaperNow();
-  }
+  function hideIdleWallpaper() { idleOverlay.classList.remove('show'); video.classList.remove('idle'); }
 
   video.addEventListener('play', () => { playPauseBtn.textContent = '⏸'; updateControlsVisibility(); });
   video.addEventListener('pause', () => { playPauseBtn.textContent = '▶'; updateControlsVisibility(); });
@@ -1701,66 +1680,6 @@
     });
   });
 
-
-  // ---- C-Safe: wallpaper driven by per-video start/end timecodes (videos[i].blurTimecodes) ----
-  // Wallpaper shows inside a [start, end) range at that range's opacity; no blur effect is used.
-  (function () {
-    const cSafeSwitch = document.getElementById('cSafeSwitch');
-    let cSafe = true;    // ON by default: blur panel follows the blur timecodes
-    cSafeSwitch.addEventListener('click', () => {
-      cSafe = !cSafe;
-      cSafeSwitch.classList.toggle('on', cSafe);
-      apply();
-    });
-    const toSec = (t) => String(t).trim().split(':').reduce((a, n) => a * 60 + parseFloat(n), 0);
-    let cache = { idx: -2, list: null };
-    function ranges() {
-      if (cache.idx !== currentIndex) {
-        const v = currentIndex >= 0 ? videos[currentIndex] : null;
-        cache = {
-          idx: currentIndex,
-          list: v && Array.isArray(v.blurTimecodes)
-            ? v.blurTimecodes.map(e => ({
-                s: toSec(e.start),
-                e: (e.end === undefined || e.end === null || e.end === '') ? Infinity : toSec(e.end),
-                o: (e.opacity === undefined ? 1 : e.opacity)
-              }))
-            : null
-        };
-      }
-      return cache.list;
-    }
-    // Wallpaper follows the timecodes: shown at a range's start, hidden after its end.
-    let lastActive = false;
-    // The wallpaper's opacity is the range's "opacity" value (same number that drives the blur):
-    // 1 = wallpaper fully covers the video, lower = video (blurred) shows through it.
-    function syncWallpaper(active, o) {
-      if (active) {
-        idleOverlay.style.opacity = o;            // inline value overrides the default .show opacity
-        if (!lastActive) {
-          idleOverlay.classList.add('show');
-          video.classList.remove('idle');         // keep the video visible underneath the wallpaper
-        }
-      }
-      if (active === lastActive) return;
-      lastActive = active;
-      blurHold = active;
-      if (!active) {
-        idleOverlay.style.opacity = '';           // back to the stylesheet default
-        if (!video.ended && video.readyState >= 2) hideIdleWallpaperNow();
-      }
-    }
-    function apply() {
-      const l = ranges();
-      if (!cSafe || !l) { syncWallpaper(false, 0); return; }
-      const t = video.currentTime;
-      let o = 0, active = false;
-      for (const r of l) { if (t >= r.s && t < r.e) { o = r.o; active = true; break; } }
-      syncWallpaper(active, o);
-    }
-    ['timeupdate', 'seeked', 'seeking', 'loadedmetadata', 'emptied', 'play'].forEach(evt => video.addEventListener(evt, apply));
-  })();
-
   toggleBtn.addEventListener('click', () => {
     const isHidden = thumbsCol.classList.toggle('hidden');
     toggleBtn.classList.toggle('panel-hidden', isHidden);
@@ -1788,7 +1707,7 @@
       const item = document.createElement('div');
       item.className = 'episode-item' + (i === currentIndex ? ' active' : '');
       item.innerHTML = `
-        <img src="${v.thumb}" alt="" loading="lazy" decoding="async">
+        <img src="${v.thumb}" alt="${v.title}">
         <div class="episode-info">
           <span class="episode-num">Episode ${v.episode || (pos + 1)}</span>
           <span class="episode-name">${v.episodeTitle || v.title}</span>
@@ -1807,48 +1726,19 @@
   // into a single stacked thumbnail (badged with the episode count); every
   // other video keeps its own individual thumbnail, same as before.
   let renderItems = []; // { el, indices: [videoIndex, ...] } — used by search filtering
-
-  // Thumbnails are loaded lazily: an <img> only gets its real src when its card is close to the
-  // visible area of the playlist. Loading+decoding 400+ remote images up-front was what made
-  // scrolling/navigation crawl on Android.
-  const imgObserver = ('IntersectionObserver' in window)
-    ? new IntersectionObserver((entries) => {
-        entries.forEach(en => {
-          if (!en.isIntersecting) return;
-          const img = en.target;
-          imgObserver.unobserve(img);
-          if (img.dataset.src) { img.src = img.dataset.src; img.removeAttribute('data-src'); }
-        });
-      }, { root: thumbsEl, rootMargin: '400px 0px' })
-    : null;
-  function lazyImg(img) {
-    if (imgObserver) imgObserver.observe(img);
-    else { img.src = img.dataset.src; }
-  }
-
-  // Group episodes by series in one pass (was O(n²)).
-  const seriesMap = new Map();
-  videos.forEach((v, i) => {
-    if (!v.series) return;
-    if (!seriesMap.has(v.series)) seriesMap.set(v.series, []);
-    seriesMap.get(v.series).push(i);
-  });
-  // false = every title is its own playlist card (selected/highlighted individually);
-  // true  = episodes of a series are collapsed into one stacked "Series" card.
-  const GROUP_SERIES = false;
   const seenSeries = new Set();
-  const frag = document.createDocumentFragment();
 
   videos.forEach((v, i) => {
-    const div = document.createElement('div');
-    if (v.series && GROUP_SERIES) {
-      if (seenSeries.has(v.series)) return;
+    if (v.series) {
+      if (seenSeries.has(v.series)) return; // already rendered as part of its group card
       seenSeries.add(v.series);
-      const indices = seriesMap.get(v.series);
+      const indices = [];
+      videos.forEach((vv, ii) => { if (vv.series === v.series) indices.push(ii); });
+
+      const div = document.createElement('div');
       div.className = 'thumb series-thumb';
-      div.dataset.series = v.series;
       div.innerHTML = `
-        <img data-src="${v.thumb}" alt="" decoding="async" width="64" height="38">
+        <img src="${v.thumb}" alt="${v.series}">
         <div class="play-icon">▶</div>
         <div class="label">
           <span class="series-name">${v.series}</span>
@@ -1856,30 +1746,27 @@
         </div>
         <div class="stack-icon">▤ Series</div>
       `;
+      div.addEventListener('click', () => {
+        openEpisodePanel(v.series, indices);
+      });
+      thumbsEl.appendChild(div);
       indices.forEach(idx => { thumbEls[idx] = div; });
       renderItems.push({ el: div, indices, category: 'Series' });
     } else {
+      const div = document.createElement('div');
       div.className = 'thumb';
-      div.dataset.vi = i;
       div.innerHTML = `
-        <img data-src="${v.thumb}" alt="" decoding="async" width="64" height="38">
+        <img src="${v.thumb}" alt="${v.title}">
         <div class="play-icon">▶</div>
         <div class="label">${v.title}</div>
       `;
+      div.addEventListener('click', () => {
+        playByIndex(i);
+      });
+      thumbsEl.appendChild(div);
       thumbEls[i] = div;
-      renderItems.push({ el: div, indices: [i], category: v.category || (v.series ? 'Series' : null) });
+      renderItems.push({ el: div, indices: [i], category: v.category || null });  // category: "Shorts" or ["Shorts", "Family"]
     }
-    frag.appendChild(div);
-  });
-  thumbsEl.appendChild(frag);
-  thumbsEl.querySelectorAll('img[data-src]').forEach(lazyImg);
-
-  // One delegated click handler instead of 400+ individual listeners.
-  thumbsEl.addEventListener('click', (e) => {
-    const card = e.target.closest('.thumb');
-    if (!card) return;
-    if (card.dataset.series) openEpisodePanel(card.dataset.series, seriesMap.get(card.dataset.series));
-    else playByIndex(parseInt(card.dataset.vi, 10));
   });
 
   // Total titles = first-level playlist cards only (a series counts as 1, its episodes are not added)
@@ -1941,11 +1828,7 @@
     else openSearch();
   });
 
-  let searchTimer = null;
-  titleSearch.addEventListener('input', () => {
-    clearTimeout(searchTimer);
-    searchTimer = setTimeout(filterThumbs, 150);
-  });
+  titleSearch.addEventListener('input', filterThumbs);
 
   titleSearch.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
