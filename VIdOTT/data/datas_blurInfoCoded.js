@@ -14,7 +14,7 @@
       // "end" is optional (omit = until the video ends). Add as many ranges as you like.
       blurTimecodes: [
         { start: "5:45", end: "5:48", opacity: 0.2 },
-        { start: "7:00", end: "7:44", opacity: 0.2 }
+        { start: "7:40", end: "7:44", opacity: 0.2 }
       ]
     },
     {
@@ -228,7 +228,7 @@
     },
   {
       title: "Ant Bully 2006",
-      src: "https://archive.org/download/THE%20ANT%20BULLY%20%282006%29.mp4",
+      src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20ANT%20BULLY%20%282006%29.mp4",
       thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category: "Family"
@@ -1583,8 +1583,8 @@
         { start: "17:19", end: "17:28", opacity: 0.6},
         { start: "18:03", end: "18:18", opacity: 0.6},
         { start: "18:55", end: "19:09", opacity: 0.6},
-        { start: "66:20", end: "66:32", opacity: 0.85},
-        { start: "75:36", end: "77:10", opacity: 0.85}
+        { start: "66:20", end: "66:32", opacity: 0.7},
+        { start: "75:36", end: "76:06", opacity: 0.7}
       ]
     },
     {
