@@ -302,12 +302,11 @@
     cursor: not-allowed;
   }
 
-  /* ---- C-Safe glitch overlay: GlitchVid.mp4 layered over the main video during blurTimecodes ---- */
+  /* ---- C-Safe glitch overlay: image sequence (canvas) layered over the main video during blurTimecodes ---- */
   #glitchVideo {
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    object-fit: cover;
     z-index: 3;              /* above the video, below subtitles (4) and controls (5+) */
     pointer-events: none;
     opacity: 0;              /* invisible by default; JS sets it inside blur ranges */
@@ -965,7 +964,7 @@
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">⇄</button>
       <div class="player-wrap">
         <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
-        <video id="glitchVideo" muted loop playsinline preload="auto" aria-hidden="true"></video>
+        <canvas id="glitchVideo" aria-hidden="true"></canvas>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
           <div class="xray-header">
@@ -1983,11 +1982,23 @@
   // =====================================================================
   // C-Safe glitch overlay
   // While the main video is inside any {start,end,opacity} range of the current
-  // title's `blurTimecodes`, GlitchVid.webm is overlaid at that opacity.
+  // title's `blurTimecodes`, the glitch image sequence is overlaid at that opacity.
   // The C-Safe switch turns the whole feature on/off.
   // =====================================================================
-  const GLITCH_SRC = 'data/GlitchVid.mp4';   // <-- change if you keep the file elsewhere
-  const glitchVideo = document.getElementById('glitchVideo');
+  // Image-sequence based glitch (works in APK/WebView where overlay <video> fails)
+  const GLITCH_DIR = 'data/imageSequence/';
+  const GLITCH_PREFIX = 'vid2';          // files: vid2.jpg ... vid240106.jpg
+  const GLITCH_FIRST = 1;
+  const GLITCH_LAST = 106;
+  const GLITCH_PAD = 4;
+  const GLITCH_FPS = 24;                     // <-- playback speed of the glitch loop
+  const glitchVideo = document.getElementById('glitchVideo');   // <canvas>
+  const glitchCtx = glitchVideo.getContext('2d');
+  const glitchFrames = [];
+  let glitchPlaying = false;
+  let glitchTimer = null;
+  let glitchFrameIdx = 0;
+  let glitchLastTick = 0;
   const csafeSwitch = document.getElementById('csafeSwitch');
   let csafeEnabled = true;
   let glitchLoaded = false;
@@ -2022,23 +2033,68 @@
   function ensureGlitchLoaded() {
     if (glitchLoaded) return;
     glitchLoaded = true;
-    glitchVideo.src = GLITCH_SRC;
-    glitchVideo.load();
+    for (let n = GLITCH_FIRST; n <= GLITCH_LAST; n++) {
+      const img = new Image();
+      img.decoding = 'async';
+      img.src = GLITCH_DIR + GLITCH_PREFIX + String(n).padStart(GLITCH_PAD, '0') + '.jpg';
+      glitchFrames.push(img);
+    }
+  }
+
+  // Draw a frame onto the canvas with object-fit: cover behaviour
+  function drawGlitchFrame(img) {
+    if (!img || !img.complete || !img.naturalWidth) return;
+    const cw = glitchVideo.clientWidth, ch = glitchVideo.clientHeight;
+    if (!cw || !ch) return;
+    if (glitchVideo.width !== cw || glitchVideo.height !== ch) {
+      glitchVideo.width = cw;
+      glitchVideo.height = ch;
+    }
+    const iw = img.naturalWidth, ih = img.naturalHeight;
+    const scale = Math.max(cw / iw, ch / ih);
+    const dw = iw * scale, dh = ih * scale;
+    glitchCtx.drawImage(img, (cw - dw) / 2, (ch - dh) / 2, dw, dh);
+  }
+
+  function glitchTick(ts) {
+    if (!glitchPlaying) return;
+    if (ts - glitchLastTick >= 1000 / GLITCH_FPS) {
+      glitchLastTick = ts;
+      // find next loaded frame (skip ones still downloading)
+      for (let i = 0; i < glitchFrames.length; i++) {
+        glitchFrameIdx = (glitchFrameIdx + 1) % glitchFrames.length;
+        const img = glitchFrames[glitchFrameIdx];
+        if (img.complete && img.naturalWidth) { drawGlitchFrame(img); break; }
+      }
+    }
+    glitchTimer = requestAnimationFrame(glitchTick);
+  }
+
+  function startGlitchAnim() {
+    if (glitchPlaying) return;
+    glitchPlaying = true;
+    glitchTimer = requestAnimationFrame(glitchTick);
+  }
+
+  function stopGlitchAnim() {
+    glitchPlaying = false;
+    if (glitchTimer) cancelAnimationFrame(glitchTimer);
+    glitchTimer = null;
   }
 
   function updateGlitch() {
     const op = csafeEnabled ? activeGlitchOpacity() : null;
     if (op === null) {
       glitchVideo.style.opacity = 0;
-      if (!glitchVideo.paused) glitchVideo.pause();
+      stopGlitchAnim();
       return;
     }
     ensureGlitchLoaded();
     glitchVideo.style.opacity = op;
     if (video.paused || video.ended) {
-      if (!glitchVideo.paused) glitchVideo.pause();
-    } else if (glitchVideo.paused) {
-      glitchVideo.play().catch(() => {});
+      stopGlitchAnim();
+    } else {
+      startGlitchAnim();
     }
   }
 
