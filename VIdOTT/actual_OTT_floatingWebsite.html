@@ -301,18 +301,6 @@
     color: #c99;
     cursor: not-allowed;
   }
-
-  /* ---- C-Safe glitch overlay: image sequence (canvas) layered over the main video during blurTimecodes ---- */
-  #glitchVideo {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    z-index: 3;              /* above the video, below subtitles (4) and controls (5+) */
-    pointer-events: none;
-    opacity: 0;              /* invisible by default; JS sets it inside blur ranges */
-    transition: opacity 0.12s linear;
-    background: transparent;
-  }
   #subtitleOverlay {
     position: absolute;
     left: 0;
@@ -956,7 +944,7 @@
 </style>
 </head>
 <body>
-<script src="data/datas_blurInfoCoded.js"></script>
+<script src="data/datas.js"></script>
 <img id="idleOverlay" class="idle-overlay show" src="https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/data/back_banner.jpg" alt="">
 <div class="stage">
   <div class="layout">
@@ -964,7 +952,6 @@
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">⇄</button>
       <div class="player-wrap">
         <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
-        <canvas id="glitchVideo" aria-hidden="true"></canvas>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
           <div class="xray-header">
@@ -1030,10 +1017,6 @@
           <span class="autorun-wrap">
             <span class="autorun-label">Resume</span>
             <span class="autorun-switch on" id="resumeSwitch" title="Toggle resuming videos from last watched position"><span class="knob"></span></span>
-          </span>
-          <span class="autorun-wrap">
-            <span class="autorun-label">C-Safe</span>
-            <span class="autorun-switch on" id="csafeSwitch" title="C-Safe: overlay the glitch video during flagged scenes"><span class="knob"></span></span>
           </span>
         </span>
       </div>
@@ -1978,141 +1961,6 @@
     else openXrayPanel();
   });
   xrayCloseBtn.addEventListener('click', closeXrayPanel);
-
-  // =====================================================================
-  // C-Safe glitch overlay
-  // While the main video is inside any {start,end,opacity} range of the current
-  // title's `blurTimecodes`, the glitch image sequence is overlaid at that opacity.
-  // The C-Safe switch turns the whole feature on/off.
-  // =====================================================================
-  // Image-sequence based glitch (works in APK/WebView where overlay <video> fails)
-  const GLITCH_DIR = 'data/imageSequence/';
-  const GLITCH_PREFIX = 'vid2';          // files: vid2.jpg ... vid240106.jpg
-  const GLITCH_FIRST = 1;
-  const GLITCH_LAST = 106;
-  const GLITCH_PAD = 4;
-  const GLITCH_FPS = 24;                     // <-- playback speed of the glitch loop
-  const glitchVideo = document.getElementById('glitchVideo');   // <canvas>
-  const glitchCtx = glitchVideo.getContext('2d');
-  const glitchFrames = [];
-  let glitchPlaying = false;
-  let glitchTimer = null;
-  let glitchFrameIdx = 0;
-  let glitchLastTick = 0;
-  const csafeSwitch = document.getElementById('csafeSwitch');
-  let csafeEnabled = true;
-  let glitchLoaded = false;
-
-  // "5:45", "105:34", "1:02:03" or plain seconds -> seconds
-  function parseTimecode(t) {
-    if (typeof t === 'number') return t;
-    if (typeof t !== 'string') return NaN;
-    const parts = t.trim().split(':').map(Number);
-    if (parts.some(isNaN)) return NaN;
-    return parts.reduce((acc, n) => acc * 60 + n, 0);
-  }
-
-  // Returns the opacity (0..1) for the current playhead, or null if outside every range.
-  function activeGlitchOpacity() {
-    if (currentIndex < 0) return null;
-    const ranges = videos[currentIndex] && videos[currentIndex].blurTimecodes;
-    if (!ranges || !ranges.length) return null;
-    const t = video.currentTime;
-    for (const r of ranges) {
-      const start = parseTimecode(r.start);
-      if (isNaN(start)) continue;
-      const end = (r.end === undefined || r.end === null || r.end === '') ? Infinity : parseTimecode(r.end);
-      if (t >= start && t < end) {
-        const o = (r.opacity === undefined) ? 1 : Number(r.opacity);
-        return Math.min(1, Math.max(0, isNaN(o) ? 1 : o));
-      }
-    }
-    return null;
-  }
-
-  function ensureGlitchLoaded() {
-    if (glitchLoaded) return;
-    glitchLoaded = true;
-    for (let n = GLITCH_FIRST; n <= GLITCH_LAST; n++) {
-      const img = new Image();
-      img.decoding = 'async';
-      img.src = GLITCH_DIR + GLITCH_PREFIX + String(n).padStart(GLITCH_PAD, '0') + '.jpg';
-      glitchFrames.push(img);
-    }
-  }
-
-  // Draw a frame onto the canvas with object-fit: cover behaviour
-  function drawGlitchFrame(img) {
-    if (!img || !img.complete || !img.naturalWidth) return;
-    const cw = glitchVideo.clientWidth, ch = glitchVideo.clientHeight;
-    if (!cw || !ch) return;
-    if (glitchVideo.width !== cw || glitchVideo.height !== ch) {
-      glitchVideo.width = cw;
-      glitchVideo.height = ch;
-    }
-    const iw = img.naturalWidth, ih = img.naturalHeight;
-    const scale = Math.max(cw / iw, ch / ih);
-    const dw = iw * scale, dh = ih * scale;
-    glitchCtx.drawImage(img, (cw - dw) / 2, (ch - dh) / 2, dw, dh);
-  }
-
-  function glitchTick(ts) {
-    if (!glitchPlaying) return;
-    if (ts - glitchLastTick >= 1000 / GLITCH_FPS) {
-      glitchLastTick = ts;
-      // find next loaded frame (skip ones still downloading)
-      for (let i = 0; i < glitchFrames.length; i++) {
-        glitchFrameIdx = (glitchFrameIdx + 1) % glitchFrames.length;
-        const img = glitchFrames[glitchFrameIdx];
-        if (img.complete && img.naturalWidth) { drawGlitchFrame(img); break; }
-      }
-    }
-    glitchTimer = requestAnimationFrame(glitchTick);
-  }
-
-  function startGlitchAnim() {
-    if (glitchPlaying) return;
-    glitchPlaying = true;
-    glitchTimer = requestAnimationFrame(glitchTick);
-  }
-
-  function stopGlitchAnim() {
-    glitchPlaying = false;
-    if (glitchTimer) cancelAnimationFrame(glitchTimer);
-    glitchTimer = null;
-  }
-
-  function updateGlitch() {
-    const op = csafeEnabled ? activeGlitchOpacity() : null;
-    if (op === null) {
-      glitchVideo.style.opacity = 0;
-      stopGlitchAnim();
-      return;
-    }
-    ensureGlitchLoaded();
-    glitchVideo.style.opacity = op;
-    if (video.paused || video.ended) {
-      stopGlitchAnim();
-    } else {
-      startGlitchAnim();
-    }
-  }
-
-  function glitchLoop() {
-    updateGlitch();
-    if (!video.paused && !video.ended) requestAnimationFrame(glitchLoop);
-  }
-
-  ['timeupdate', 'seeked', 'seeking', 'loadedmetadata', 'emptied', 'pause', 'ended']
-    .forEach(evt => video.addEventListener(evt, updateGlitch));
-  video.addEventListener('play', glitchLoop);
-  video.addEventListener('playing', glitchLoop);
-
-  csafeSwitch.addEventListener('click', () => {
-    csafeEnabled = !csafeEnabled;
-    csafeSwitch.classList.toggle('on', csafeEnabled);
-    updateGlitch();
-  });
 
 </script>
 
