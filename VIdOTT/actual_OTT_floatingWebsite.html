@@ -66,7 +66,6 @@
     padding: 6px 10px;
     font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s, right 0.2s;
   }
   .toggle-btn.panel-hidden {
@@ -90,7 +89,6 @@
     padding: 6px 10px;
     font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .controls-toggle-btn:hover { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.05); }
@@ -138,7 +136,6 @@
     gap: 10px;
     flex-wrap: wrap;
     background: rgba(15,15,15,0.35);
-    backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 10px;
     padding: 8px 12px;
@@ -177,7 +174,6 @@
     padding: 3px 8px;
     font-size: 0.72rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .ctrl-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
@@ -188,8 +184,7 @@
     box-shadow: 0 0 6px rgba(93,169,255,0.1);
   }
   #video.hq-enhanced {
-    filter: contrast(1.12) saturate(1.18) brightness(1.03) drop-shadow(0 0 0.4px rgba(255,255,255,0.5));
-    image-rendering: -webkit-optimize-contrast;
+    filter: contrast(1.12) saturate(1.18) brightness(1.03);
   }
 
   /* ---- Timeline / seek bar (full-width row on top of the controls bar) ---- */
@@ -208,6 +203,7 @@
     outline: none;
   }
   .timeline-track {
+    contain: layout style;
     position: relative;
     width: 100%;
     height: 4px;
@@ -280,7 +276,6 @@
     font-size: 0.68rem;
     cursor: pointer;
     flex-shrink: 0;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .subtitle-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.1); }
@@ -341,7 +336,6 @@
     padding: 3px 7px;
     font-size: 0.62rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .aspect-btn:hover { background: rgba(255,255,255,0.18); color: #eee; border-color: rgba(255,255,255,0.5); }
@@ -501,7 +495,6 @@
     line-height: 1;
     cursor: pointer;
     flex-shrink: 0;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .search-toggle-btn:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.1); }
@@ -578,7 +571,6 @@
     padding: 3px 10px;
     font-size: 0.62rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s, color 0.15s;
     flex-shrink: 0;
   }
@@ -615,6 +607,7 @@
     align-items: center;
     flex-shrink: 0;
   }
+  .thumb { content-visibility: auto; contain-intrinsic-size: auto 44px; }
   .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
 
@@ -692,7 +685,6 @@
     width: 300px;
     max-width: 40%;
     background: rgba(12,12,12,0);
-    backdrop-filter: blur(0.05px);
     border: 1px solid rgba(255,255,255,0.01);
     border-radius: 10px;
     z-index: 40;
@@ -724,7 +716,6 @@
     padding: 3px 9px;
     font-size: 0.7rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .episode-close:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.05); }
@@ -786,7 +777,6 @@
     left: 140px;
     bottom: 120px;
     background: rgba(15,15,15,0.45);
-    backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.18);
     border-radius: 8px;
     padding: 8px;
@@ -808,7 +798,6 @@
     cursor: pointer;
     text-align: center;
     white-space: pre-line;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .scene-panel .scene-item:hover { background: rgba(255,255,255,0.18); border-color: rgba(93,169,255,0.7); }
@@ -826,7 +815,6 @@
     left: 350px;
     bottom: 120px;
     background: rgba(15,15,15,0.45);
-    backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255,255,255,0.18);
     border-radius: 8px;
     padding: 6px;
@@ -846,7 +834,6 @@
     width: 60%;
     /* Semi-transparent so the paused/playing video is still visible behind the info */
     background: rgba(10,10,10,0.62);
-    backdrop-filter: blur(0.1px);
     z-index: 9;
     display: none;
     flex-direction: column;
@@ -874,7 +861,6 @@
     padding: 3px 9px;
     font-size: 0.7rem;
     cursor: pointer;
-    backdrop-filter: blur(0.1px);
     transition: background 0.15s, border-color 0.15s;
   }
   .xray-close:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.5); }
@@ -946,11 +932,14 @@
     object-fit: cover;
     z-index: 9999;
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s;
   }
   .idle-overlay.show {
     opacity: 0.35;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0s;
   }
 
 </style>
@@ -963,7 +952,7 @@
     <div class="player-col">
       <button class="toggle-btn selected" id="toggleBtn" title="Show/hide the floating playlist">⇄</button>
       <div class="player-wrap">
-        <video id="video" class="idle" controlsList="nodownload" data-ratio="fit"></video>
+        <video id="video" class="idle" controlsList="nodownload" data-ratio="fit" playsinline webkit-playsinline preload="metadata" disablePictureInPicture></video>
         <canvas id="glitchVideo" aria-hidden="true"></canvas>
         <div id="subtitleOverlay"></div>
 <div id="xrayPanel">
@@ -1230,6 +1219,7 @@
     const token = ++subtitleLoadToken;
     subtitleCues = [];
     subtitleOverlay.textContent = '';
+    lastSubCue = null;
 
     // Normalize input: allow a single URL string or an array of mirror URLs
     const urls = !source ? [] : (Array.isArray(source) ? source : [source]);
@@ -1266,13 +1256,16 @@
     setSubtitleStatus('unavailable');
   }
 
+  let lastSubCue = null;
   function updateSubtitleDisplay() {
     if (!subtitlesEnabled || subtitleCues.length === 0) {
-      subtitleOverlay.textContent = '';
+      if (lastSubCue !== null) { subtitleOverlay.textContent = ''; lastSubCue = null; }
       return;
     }
     const t = video.currentTime;
-    const cue = subtitleCues.find(c => t >= c.start && t <= c.end);
+    const cue = subtitleCues.find(c => t >= c.start && t <= c.end) || null;
+    if (cue === lastSubCue) return;           // same cue -> no DOM write
+    lastSubCue = cue;
     subtitleOverlay.innerHTML = cue ? `<span>${escapeHTML(cue.text).replace(/\n/g, '<br>')}</span>` : '';
   }
 
@@ -1280,7 +1273,7 @@
     if (subtitleBtn.disabled) return;
     subtitlesEnabled = !subtitlesEnabled;
     setSubtitleStatus(subtitlesEnabled ? 'on' : 'off');
-    if (!subtitlesEnabled) subtitleOverlay.textContent = '';
+    if (!subtitlesEnabled) { subtitleOverlay.textContent = ''; lastSubCue = null; }
   });
   setSubtitleStatus('off');
 
@@ -1605,13 +1598,21 @@
     return (d && isFinite(d) && d > 0) ? d : 0;
   }
 
+  let lastPaintPct = -1, lastAriaSec = -1;
   function paintTimeline(time) {
     const dur = timelineDuration();
     const pct = dur ? Math.min(100, Math.max(0, (time / dur) * 100)) : 0;
-    timelineElapsed.style.width = pct + '%';
-    timelineDot.style.left = pct + '%';
-    timeline.setAttribute('aria-valuenow', Math.round(pct));
-    timeline.setAttribute('aria-valuetext', formatTime(time) + (dur ? ' of ' + formatTime(dur) : ''));
+    if (Math.abs(pct - lastPaintPct) >= 0.02 || pct === 0 || pct === 100) {   // skip sub-pixel changes
+      lastPaintPct = pct;
+      timelineElapsed.style.width = pct + '%';
+      timelineDot.style.left = pct + '%';
+    }
+    const sec = Math.floor(time);
+    if (sec !== lastAriaSec) {                                                // aria text only once a second
+      lastAriaSec = sec;
+      timeline.setAttribute('aria-valuenow', Math.round(pct));
+      timeline.setAttribute('aria-valuetext', formatTime(time) + (dur ? ' of ' + formatTime(dur) : ''));
+    }
   }
 
   function timeFromPointer(e) {
@@ -1626,12 +1627,7 @@
   }
 
   // Smooth dot movement: timeupdate only fires ~4x/second, so also repaint every frame while playing.
-  function timelineLoop() {
-    if (!timelineDragging) paintTimeline(video.currentTime);
-    if (!video.paused && !video.ended) requestAnimationFrame(timelineLoop);
-  }
-  video.addEventListener('play', () => requestAnimationFrame(timelineLoop));
-  video.addEventListener('playing', () => requestAnimationFrame(timelineLoop));
+  // (the per-frame timeline repaint now lives in the single shared mainLoop at the end of the script)
   ['timeupdate', 'seeked', 'loadedmetadata', 'durationchange', 'emptied', 'pause', 'ended'].forEach(evt =>
     video.addEventListener(evt, () => { if (!timelineDragging) paintTimeline(video.currentTime || 0); })
   );
@@ -1724,7 +1720,7 @@
       const item = document.createElement('div');
       item.className = 'episode-item' + (i === currentIndex ? ' active' : '');
       item.innerHTML = `
-        <img src="${v.thumb}" alt="${v.title}">
+        <img src="${v.thumb}" loading="lazy" decoding="async" fetchpriority="low" alt="${v.title}">
         <div class="episode-info">
           <span class="episode-num">Episode ${v.episode || (pos + 1)}</span>
           <span class="episode-name">${v.episodeTitle || v.title}</span>
@@ -1755,7 +1751,7 @@
       const div = document.createElement('div');
       div.className = 'thumb series-thumb';
       div.innerHTML = `
-        <img src="${v.thumb}" alt="${v.series}">
+        <img src="${v.thumb}" loading="lazy" decoding="async" fetchpriority="low" alt="${v.series}">
         <div class="play-icon">▶</div>
         <div class="label">
           <span class="series-name">${v.series}</span>
@@ -1773,7 +1769,7 @@
       const div = document.createElement('div');
       div.className = 'thumb';
       div.innerHTML = `
-        <img src="${v.thumb}" alt="${v.title}">
+        <img src="${v.thumb}" loading="lazy" decoding="async" fetchpriority="low" alt="${v.title}">
         <div class="play-icon">▶</div>
         <div class="label">${v.title}</div>
       `;
@@ -1987,11 +1983,11 @@
   // =====================================================================
   // Image-sequence based glitch (works in APK/WebView where overlay <video> fails)
   const GLITCH_DIR = 'data/imageSequence/';
-  const GLITCH_PREFIX = 'vid2';          // files: vid2.jpg ... vid240106.jpg
+  const GLITCH_PREFIX = 'vid2';          // files: vid2.mp40001.jpg ... vid2.mp40106.jpg
   const GLITCH_FIRST = 1;
   const GLITCH_LAST = 106;
   const GLITCH_PAD = 4;
-  const GLITCH_FPS = 24;                     // <-- playback speed of the glitch loop
+  const GLITCH_FPS = 6;                     // <-- playback speed of the glitch loop
   const glitchVideo = document.getElementById('glitchVideo');   // <canvas>
   const glitchCtx = glitchVideo.getContext('2d');
   const glitchFrames = [];
@@ -2013,32 +2009,51 @@
   }
 
   // Returns the opacity (0..1) for the current playhead, or null if outside every range.
+  const parsedRangeCache = new WeakMap();
+  function getParsedRanges(ranges) {
+    let p = parsedRangeCache.get(ranges);
+    if (!p) {
+      p = [];
+      for (const r of ranges) {
+        const start = parseTimecode(r.start);
+        if (isNaN(start)) continue;
+        const end = (r.end === undefined || r.end === null || r.end === '') ? Infinity : parseTimecode(r.end);
+        const o = (r.opacity === undefined) ? 1 : Number(r.opacity);
+        p.push({ start, end, op: Math.min(1, Math.max(0, isNaN(o) ? 1 : o)) });
+      }
+      parsedRangeCache.set(ranges, p);
+    }
+    return p;
+  }
   function activeGlitchOpacity() {
     if (currentIndex < 0) return null;
     const ranges = videos[currentIndex] && videos[currentIndex].blurTimecodes;
     if (!ranges || !ranges.length) return null;
     const t = video.currentTime;
-    for (const r of ranges) {
-      const start = parseTimecode(r.start);
-      if (isNaN(start)) continue;
-      const end = (r.end === undefined || r.end === null || r.end === '') ? Infinity : parseTimecode(r.end);
-      if (t >= start && t < end) {
-        const o = (r.opacity === undefined) ? 1 : Number(r.opacity);
-        return Math.min(1, Math.max(0, isNaN(o) ? 1 : o));
-      }
+    for (const r of getParsedRanges(ranges)) {
+      if (t >= r.start && t < r.end) return r.op;
     }
     return null;
+  }
+  let lastGlitchOp = -1;
+  function setGlitchOpacity(o) {
+    if (o !== lastGlitchOp) { lastGlitchOp = o; glitchVideo.style.opacity = o; }
   }
 
   function ensureGlitchLoaded() {
     if (glitchLoaded) return;
     glitchLoaded = true;
-    for (let n = GLITCH_FIRST; n <= GLITCH_LAST; n++) {
-      const img = new Image();
-      img.decoding = 'async';
-      img.src = GLITCH_DIR + GLITCH_PREFIX + String(n).padStart(GLITCH_PAD, '0') + '.jpg';
-      glitchFrames.push(img);
-    }
+    // Load in small batches so 100+ JPEGs don't hit the network/decoder all at once on a phone.
+    let n = GLITCH_FIRST;
+    (function loadBatch() {
+      for (let k = 0; k < 8 && n <= GLITCH_LAST; k++, n++) {
+        const img = new Image();
+        img.decoding = 'async';
+        img.src = GLITCH_DIR + GLITCH_PREFIX + String(n).padStart(GLITCH_PAD, '0') + '.jpg';
+        glitchFrames.push(img);
+      }
+      if (n <= GLITCH_LAST) setTimeout(loadBatch, 120);
+    })();
   }
 
   // Draw a frame onto the canvas with object-fit: cover behaviour
@@ -2046,14 +2061,17 @@
     if (!img || !img.complete || !img.naturalWidth) return;
     const cw = glitchVideo.clientWidth, ch = glitchVideo.clientHeight;
     if (!cw || !ch) return;
-    if (glitchVideo.width !== cw || glitchVideo.height !== ch) {
-      glitchVideo.width = cw;
-      glitchVideo.height = ch;
+    // Render at reduced resolution (max 640px wide); CSS stretches the canvas to full size.
+    const k = Math.min(1, 640 / cw);
+    const rw = Math.max(1, Math.round(cw * k)), rh = Math.max(1, Math.round(ch * k));
+    if (glitchVideo.width !== rw || glitchVideo.height !== rh) {
+      glitchVideo.width = rw;
+      glitchVideo.height = rh;
     }
     const iw = img.naturalWidth, ih = img.naturalHeight;
-    const scale = Math.max(cw / iw, ch / ih);
+    const scale = Math.max(rw / iw, rh / ih);
     const dw = iw * scale, dh = ih * scale;
-    glitchCtx.drawImage(img, (cw - dw) / 2, (ch - dh) / 2, dw, dh);
+    glitchCtx.drawImage(img, (rw - dw) / 2, (rh - dh) / 2, dw, dh);
   }
 
   function glitchTick(ts) {
@@ -2077,6 +2095,7 @@
   }
 
   function stopGlitchAnim() {
+    if (!glitchPlaying && !glitchTimer) return;
     glitchPlaying = false;
     if (glitchTimer) cancelAnimationFrame(glitchTimer);
     glitchTimer = null;
@@ -2085,12 +2104,12 @@
   function updateGlitch() {
     const op = csafeEnabled ? activeGlitchOpacity() : null;
     if (op === null) {
-      glitchVideo.style.opacity = 0;
+      setGlitchOpacity(0);
       stopGlitchAnim();
       return;
     }
     ensureGlitchLoaded();
-    glitchVideo.style.opacity = op;
+    setGlitchOpacity(op);
     if (video.paused || video.ended) {
       stopGlitchAnim();
     } else {
@@ -2098,15 +2117,20 @@
     }
   }
 
-  function glitchLoop() {
+  // ONE shared per-frame loop (timeline + C-Safe check). Guarded so play/playing/seek/buffer
+  // events can never start a second copy (the old code stacked a new loop on every event).
+  let mainRaf = 0;
+  function mainLoop() {
+    if (!timelineDragging) paintTimeline(video.currentTime);
     updateGlitch();
-    if (!video.paused && !video.ended) requestAnimationFrame(glitchLoop);
+    mainRaf = (!video.paused && !video.ended) ? requestAnimationFrame(mainLoop) : 0;
   }
+  function startMainLoop() { if (!mainRaf) mainRaf = requestAnimationFrame(mainLoop); }
 
   ['timeupdate', 'seeked', 'seeking', 'loadedmetadata', 'emptied', 'pause', 'ended']
     .forEach(evt => video.addEventListener(evt, updateGlitch));
-  video.addEventListener('play', glitchLoop);
-  video.addEventListener('playing', glitchLoop);
+  video.addEventListener('play', startMainLoop);
+  video.addEventListener('playing', startMainLoop);
 
   csafeSwitch.addEventListener('click', () => {
     csafeEnabled = !csafeEnabled;
