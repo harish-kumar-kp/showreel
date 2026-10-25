@@ -303,9 +303,9 @@
     top: 0; left: 0;
     width: 100%; height: 100%;
     z-index: 3;              /* above the video, below subtitles (4) and controls (5+) */
+    visibility: hidden;
     pointer-events: none;
     opacity: 0;              /* invisible by default; JS sets it inside blur ranges */
-    transition: opacity 0.12s linear;
     background: transparent;
   }
   #subtitleOverlay {
@@ -607,7 +607,9 @@
     align-items: center;
     flex-shrink: 0;
   }
-  .thumb { content-visibility: auto; contain-intrinsic-size: auto 44px; }
+  .thumb { contain: layout paint; }
+  .thumbs { -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  @media (hover: none) { .thumb:hover { border-color: transparent; } }
   .thumb:hover { border-color: #4a4a4a; }
   .thumb.active { border-color: #5da9ff; }
 
@@ -1239,6 +1241,7 @@
         if (token !== subtitleLoadToken) return; // a newer video was selected meanwhile
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const text = await res.text();
+        await new Promise(r => setTimeout(r, 0));          // let the video start first
         const cues = parseSRT(text);
         if (cues.length === 0) throw new Error('No cues parsed from file');
         if (token !== subtitleLoadToken) return;
@@ -1263,7 +1266,13 @@
       return;
     }
     const t = video.currentTime;
-    const cue = subtitleCues.find(c => t >= c.start && t <= c.end) || null;
+    let lo = 0, hi = subtitleCues.length - 1, cue = null;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1, c = subtitleCues[mid];
+      if (t < c.start) hi = mid - 1;
+      else if (t > c.end) lo = mid + 1;
+      else { cue = c; break; }
+    }
     if (cue === lastSubCue) return;           // same cue -> no DOM write
     lastSubCue = cue;
     subtitleOverlay.innerHTML = cue ? `<span>${escapeHTML(cue.text).replace(/\n/g, '<br>')}</span>` : '';
@@ -1453,7 +1462,8 @@
     currentIndex = i;
     const v = videos[i];
 
-    thumbEls.forEach(t => t.classList.remove('active'));
+    const prevActive = thumbsEl.querySelectorAll('.thumb.active');
+    for (let k = 0; k < prevActive.length; k++) prevActive[k].classList.remove('active');
     if (thumbEls[i]) {
       thumbEls[i].classList.add('active');
       scrollThumbIntoView(thumbEls[i]);
@@ -1698,6 +1708,7 @@
     toggleBtn.classList.toggle('panel-hidden', isHidden);
     toggleBtn.classList.toggle('selected', !isHidden);
     toggleBtn.textContent = isHidden ? '⇄' : '⇄';
+    if (!isHidden) pumpThumbs();
   });
 
   // ---- Episode picker: a "series" card stacks all episodes of a show behind one
@@ -1720,7 +1731,7 @@
       const item = document.createElement('div');
       item.className = 'episode-item' + (i === currentIndex ? ' active' : '');
       item.innerHTML = `
-        <img src="${v.thumb}" loading="lazy" decoding="async" fetchpriority="low" alt="${v.title}">
+        <img data-src="${v.thumb}" decoding="async" alt="${v.title}">
         <div class="episode-info">
           <span class="episode-num">Episode ${v.episode || (pos + 1)}</span>
           <span class="episode-name">${v.episodeTitle || v.title}</span>
@@ -1732,12 +1743,45 @@
       });
       episodeList.appendChild(item);
     });
+    episodePanel.querySelectorAll('img[data-src]').forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
     episodePanel.classList.add('open');
   }
 
   // Build the playlist. Videos sharing the same `series` field are collapsed
   // into a single stacked thumbnail (badged with the episode count); every
   // other video keeps its own individual thumbnail, same as before.
+  // ---- Thumbnail loader: an <img> only gets its real src when its card scrolls near the
+  // visible part of the playlist AND the playlist is open. Max 4 downloads at once so poster
+  // traffic never starves the video stream (works on old WebViews; no native-lazy needed). ----
+  const thumbQueue = [];
+  let thumbActive = 0;
+  function pumpThumbs() {
+    while (thumbActive < 4 && thumbQueue.length) {
+      const img = thumbQueue.shift();
+      if (!img.dataset.src) continue;
+      const done = () => { thumbActive--; pumpThumbs(); };
+      img.addEventListener('load', done, { once: true });
+      img.addEventListener('error', done, { once: true });
+      thumbActive++;
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+    }
+  }
+  const thumbIO = ('IntersectionObserver' in window) ? new IntersectionObserver((entries) => {
+    entries.forEach(en => {
+      if (!en.isIntersecting) return;
+      const img = en.target;
+      thumbIO.unobserve(img);
+      if (img.dataset.src) { thumbQueue.push(img); }
+    });
+    if (!thumbsCol.classList.contains('hidden')) pumpThumbs();
+  }, { root: thumbsEl, rootMargin: '200px 0px' }) : null;
+  function observeThumbs(scope) {
+    scope.querySelectorAll('img[data-src]').forEach(img => {
+      if (thumbIO && scope !== document) thumbIO.observe(img);
+      else { img.src = img.dataset.src; img.removeAttribute('data-src'); }
+    });
+  }
   let renderItems = []; // { el, indices: [videoIndex, ...] } — used by search filtering
   const seenSeries = new Set();
 
@@ -1751,7 +1795,7 @@
       const div = document.createElement('div');
       div.className = 'thumb series-thumb';
       div.innerHTML = `
-        <img src="${v.thumb}" loading="lazy" decoding="async" fetchpriority="low" alt="${v.series}">
+        <img data-src="${v.thumb}" decoding="async" alt="${v.series}">
         <div class="play-icon">▶</div>
         <div class="label">
           <span class="series-name">${v.series}</span>
@@ -1769,7 +1813,7 @@
       const div = document.createElement('div');
       div.className = 'thumb';
       div.innerHTML = `
-        <img src="${v.thumb}" loading="lazy" decoding="async" fetchpriority="low" alt="${v.title}">
+        <img data-src="${v.thumb}" decoding="async" alt="${v.title}">
         <div class="play-icon">▶</div>
         <div class="label">${v.title}</div>
       `;
@@ -1781,6 +1825,8 @@
       renderItems.push({ el: div, indices: [i], category: v.category || null });  // category: "Shorts" or ["Shorts", "Family"]
     }
   });
+
+  observeThumbs(thumbsEl);
 
   // Total titles = first-level playlist cards only (a series counts as 1, its episodes are not added)
   document.getElementById('totalTitles').textContent = renderItems.length;
@@ -2037,7 +2083,11 @@
   }
   let lastGlitchOp = -1;
   function setGlitchOpacity(o) {
-    if (o !== lastGlitchOp) { lastGlitchOp = o; glitchVideo.style.opacity = o; }
+    if (o !== lastGlitchOp) {
+      lastGlitchOp = o;
+      glitchVideo.style.visibility = o > 0 ? 'visible' : 'hidden';   // hidden = no GPU layer
+      glitchVideo.style.opacity = o;
+    }
   }
 
   function ensureGlitchLoaded() {
