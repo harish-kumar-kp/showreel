@@ -161,6 +161,25 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .media-badge {
+    flex-shrink: 0;
+    margin-left: 8px;
+    font-size: 0.68rem;
+    color: #9ab;
+    white-space: nowrap;
+  }
+  .media-badge:empty { display: none; }
+  .xray-tech {
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    font-size: 0.74rem;
+    line-height: 1.6;
+    color: #cfd8e3;
+  }
+  .xray-tech:empty { display: none; }
+  .xray-tech b { color: #fff; font-weight: 600; }
+  .xray-tech .tech-h { color: #5da9ff; font-size: 0.68rem; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 2px; }
   .custom-controls {
     display: flex;
     gap: 5px;
@@ -1000,9 +1019,15 @@
         <span>&nbsp;</span> 
         <font color="Orange">Now Playing🎞 :</font>           
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
+        <span id="mediaBadge" class="media-badge" title="Video / audio format"></span>
         <span>&nbsp;&nbsp;</span>
         <font color="Orange">Total Titles📚 :</font>
         <span id="totalTitles" style="color:#5da9ff;font-variant-numeric:tabular-nums;flex-shrink:0;">0</span>
+        <span id="mediaGroup" style="display:none;flex-shrink:0;white-space:nowrap;">
+          <span>&nbsp;&nbsp;</span>
+          <font color="Orange">Format🎬 :</font>
+          <span id="mediaBadge2" class="media-badge" style="margin-left:4px;"></span>
+        </span>
         <span>&nbsp;&nbsp;</span>
         <font color="Orange">Current Time⏲ :</font>	
         <span id="clock"></span>          
@@ -1378,6 +1403,235 @@
     });
   });
 
+  // ================= Media info: resolution + audio channels =================
+  // Resolution comes straight from the <video> element. Audio channels / codecs are not exposed by
+  // any browser API, so we read the MP4 header ('moov' box) with a couple of small Range requests.
+  // Needs the host to allow CORS + Range; if it doesn't we simply show what the browser knows.
+  const mediaBadge = document.getElementById('mediaBadge');
+  const mediaBadge2 = document.getElementById('mediaBadge2');
+  const mediaGroup = document.getElementById('mediaGroup');
+  const mediaProbeCache = {};          // src -> { vcodec, acodec, channels, size }
+  let mediaInfo = null;                // info for the video that is currently loaded
+  let probeAbort = null;
+
+  function resLabel(w, h) {
+    if (!w || !h) return '';
+    const eff = Math.max(h, Math.round(w * 9 / 16));
+    if (eff >= 2000) return '4K';
+    if (eff >= 1300) return '1440p';
+    if (eff >= 950)  return '1080p';
+    if (eff >= 650)  return '720p';
+    if (eff >= 450)  return '480p';
+    if (eff >= 300)  return '360p';
+    return h + 'p';
+  }
+  function chLabel(n) {
+    return ({1:'Mono',2:'Stereo',3:'3.0',4:'4.0',5:'5.0',6:'5.1',7:'6.1',8:'7.1'})[n] || (n ? n + 'ch' : '');
+  }
+  function fmtSize(b) {
+    if (!b) return '';
+    return b >= 1073741824 ? (b / 1073741824).toFixed(2) + ' GB' : Math.round(b / 1048576) + ' MB';
+  }
+  function badgeText(m) {
+    if (!m) return '';
+    const parts = [];
+    const r = resLabel(m.w, m.h);
+    if (r) parts.push(r);
+    if (m.vcodec) parts.push(m.vcodec);
+    const a = [chLabel(m.channels), m.acodec].filter(Boolean).join(' ');
+    if (a) parts.push(a);
+    return parts.length ? '· ' + parts.join(' · ') : '';
+  }
+  function techHtml(m) {
+    if (!m || (!m.w && !m.vcodec && !m.channels)) return '';
+    const rows = [];
+    if (m.w) rows.push(`<div><b>Video:</b> ${m.w}×${m.h} (${resLabel(m.w, m.h)})${m.vcodec ? ' · ' + m.vcodec : ''}</div>`);
+    if (m.channels || m.acodec) rows.push(`<div><b>Audio:</b> ${[chLabel(m.channels), m.channels ? '(' + m.channels + ' ch)' : '', m.acodec].filter(Boolean).join(' ')}</div>`);
+    else if (m.probed) rows.push('<div><b>Audio:</b> not readable for this file</div>');
+    if (m.size) {
+      const dur = video.duration;
+      const kbps = dur && isFinite(dur) ? Math.round(m.size * 8 / dur / 1000) : 0;
+      rows.push(`<div><b>File:</b> ${fmtSize(m.size)}${kbps ? ' · avg ' + (kbps >= 1000 ? (kbps / 1000).toFixed(1) + ' Mbps' : kbps + ' kbps') : ''}</div>`);
+    }
+    return `<div class="xray-tech"><div class="tech-h">Technical</div>${rows.join('')}</div>`;
+  }
+  function renderMediaInfo() {
+    const bt = badgeText(mediaInfo);
+    mediaBadge.textContent = bt;
+    mediaBadge2.textContent = bt.replace(/^·\s*/, '');
+    mediaGroup.style.display = bt ? '' : 'none';
+    const slot = document.getElementById('xrayTech');
+    if (slot) slot.innerHTML = techHtml(mediaInfo) ? techHtml(mediaInfo).replace(/^<div class="xray-tech">|<\/div>$/g, '') : '';
+  }
+
+  // ---- tiny MP4 parser ----
+  const u32 = (d, o) => d.getUint32(o);
+  const tag = (d, o) => String.fromCharCode(d.getUint8(o), d.getUint8(o+1), d.getUint8(o+2), d.getUint8(o+3));
+  function children(d, start, end) {
+    const out = [];
+    let p = start;
+    while (p + 8 <= end) {
+      let size = u32(d, p), hdr = 8;
+      const type = tag(d, p + 4);
+      if (size === 1) { size = u32(d, p + 12); hdr = 16; }      // 64-bit size (high word ignored)
+      else if (size === 0) size = end - p;
+      if (size < hdr || p + size > end) break;
+      out.push({ type, start: p, body: p + hdr, end: p + size });
+      p += size;
+    }
+    return out;
+  }
+  const kid = (d, box, type) => children(d, box.body, box.end).find(c => c.type === type);
+
+  function readDescLen(d, p) { let len = 0, n = 0, b; do { b = d.getUint8(p + n); len = (len << 7) | (b & 0x7f); n++; } while ((b & 0x80) && n < 4); return [len, n]; }
+
+  function parseAudio(d, e) {            // e = sample-entry box
+    const fmt = e.type;
+    const ver = d.getUint16(e.body + 8);
+    let ch = d.getUint16(e.body + 16);
+    const sub = e.body + 28 + (ver === 1 ? 16 : ver === 2 ? 36 : 0);
+    const info = { channels: ch, acodec: fmt };
+    const subs = children(d, sub, e.end);
+    if (fmt === 'mp4a') {
+      info.acodec = 'AAC';
+      const esds = subs.find(c => c.type === 'esds');
+      if (esds) {
+        try {
+          let p = esds.body + 4;
+          if (d.getUint8(p) === 0x03) { const [, n] = readDescLen(d, p + 1); p += 1 + n + 3; }
+          if (d.getUint8(p) === 0x04) {
+            const [, n] = readDescLen(d, p + 1);
+            const otype = d.getUint8(p + 1 + n);
+            if (otype === 0x6b || otype === 0x69) info.acodec = 'MP3';
+            p += 1 + n + 13;
+            if (d.getUint8(p) === 0x05) {                      // AudioSpecificConfig
+              const [, n2] = readDescLen(d, p + 1);
+              const b0 = d.getUint8(p + 1 + n2), b1 = d.getUint8(p + 2 + n2), b2 = d.getUint8(p + 3 + n2);
+              const bits = (b0 << 16) | (b1 << 8) | b2;
+              const freqIdx = (bits >> 15) & 0xf;
+              const cfg = freqIdx === 15 ? 0 : (bits >> 11) & 0xf;
+              const map = {1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:8};
+              if (map[cfg]) info.channels = map[cfg];
+            }
+          }
+        } catch (_) {}
+      }
+    } else if (fmt === 'ac-3') {
+      info.acodec = 'Dolby Digital';
+      const b = subs.find(c => c.type === 'dac3');
+      if (b) { const b1 = d.getUint8(b.body + 1);
+        const acmod = (b1 >> 3) & 7, lfe = (b1 >> 2) & 1; info.channels = [2,1,2,3,3,4,4,5][acmod] + lfe; }
+    } else if (fmt === 'ec-3') {
+      info.acodec = 'Dolby Digital Plus';
+      const b = subs.find(c => c.type === 'dec3');
+      if (b) { const v = (d.getUint8(b.body + 2) << 8) | d.getUint8(b.body + 3);
+        const acmod = (v >> 1) & 7, lfe = v & 1; info.channels = [2,1,2,3,3,4,4,5][acmod] + lfe; }
+    } else if (fmt === 'Opus') info.acodec = 'Opus';
+    else if (fmt === 'fLaC') info.acodec = 'FLAC';
+    return info;
+  }
+
+  function parseVideo(d, e) {
+    const fmt = e.type;
+    const names = { avc1: 'H.264', avc3: 'H.264', hvc1: 'HEVC', hev1: 'HEVC', av01: 'AV1', vp09: 'VP9', mp4v: 'MPEG-4' };
+    const info = { vcodec: names[fmt] || fmt, w: d.getUint16(e.body + 24), h: d.getUint16(e.body + 26) };
+    if (fmt === 'avc1' || fmt === 'avc3') {
+      const avcC = children(d, e.body + 78, e.end).find(c => c.type === 'avcC');
+      if (avcC) { const pr = { 66: 'Baseline', 77: 'Main', 88: 'Extended', 100: 'High', 110: 'High 10', 122: 'High 4:2:2', 244: 'High 4:4:4' }[d.getUint8(avcC.body + 1)];
+        if (pr) info.vcodec = 'H.264 ' + pr; }
+    }
+    return info;
+  }
+
+  function parseMoov(buf, moovStart, moovEnd) {
+    const d = new DataView(buf);
+    const moov = { body: moovStart + 8, end: moovEnd };
+    const res = {};
+    for (const trak of children(d, moov.body, moov.end).filter(c => c.type === 'trak')) {
+      const mdia = kid(d, trak, 'mdia'); if (!mdia) continue;
+      const hdlr = kid(d, mdia, 'hdlr'); if (!hdlr) continue;
+      const kind = tag(d, hdlr.body + 8);
+      const stbl = kid(d, kid(d, mdia, 'minf') || mdia, 'stbl'); if (!stbl) continue;
+      const stsd = kid(d, stbl, 'stsd'); if (!stsd) continue;
+      const entry = children(d, stsd.body + 8, stsd.end)[0]; if (!entry) continue;
+      if (kind === 'vide' && !res.vcodec) Object.assign(res, parseVideo(d, entry));
+      else if (kind === 'soun' && !res.acodec) Object.assign(res, parseAudio(d, entry));
+    }
+    return res;
+  }
+
+  async function rangeFetch(url, start, end, signal) {
+    const r = await fetch(url, { headers: { Range: `bytes=${start}-${end}` }, signal });
+    let total = 0;
+    if (r.status === 206) {
+      const m = /\/(\d+)\s*$/.exec(r.headers.get('content-range') || '');
+      total = m ? +m[1] : 0;
+      return { buf: await r.arrayBuffer(), total };
+    }
+    if (r.status === 200 && start === 0) {                   // server ignored Range: read a slice then stop
+      total = +r.headers.get('content-length') || 0;
+      const reader = r.body.getReader(); const chunks = []; let got = 0;
+      while (got <= end) { const { value, done } = await reader.read(); if (done) break; chunks.push(value); got += value.length; }
+      reader.cancel().catch(() => {});
+      const all = new Uint8Array(got); let o = 0; chunks.forEach(c => { all.set(c, o); o += c.length; });
+      return { buf: all.buffer.slice(0, Math.min(got, end + 1)), total };
+    }
+    throw new Error('range unsupported');
+  }
+
+  async function probeMp4(url, signal) {
+    const WIN = 256 * 1024, MAX_MOOV = 4 * 1024 * 1024;
+    let win = await rangeFetch(url, 0, WIN - 1, signal), winStart = 0;
+    const total = win.total;
+    let dv = new DataView(win.buf);
+    if (dv.byteLength < 12 || tag(dv, 4) !== 'ftyp') return null;           // not an MP4 (mkv/webm/…)
+    let pos = 0;
+    for (let guard = 0; guard < 10; guard++) {
+      if (pos < winStart || pos + 16 > winStart + win.buf.byteLength) {
+        if (total && pos >= total) return null;
+        win = await rangeFetch(url, pos, pos + WIN - 1, signal); winStart = pos; dv = new DataView(win.buf);
+        if (dv.byteLength < 16) return null;
+      }
+      const o = pos - winStart;
+      let size = u32(dv, o); const type = tag(dv, o + 4);
+      if (size === 1) size = u32(dv, o + 12);
+      if (size === 0) size = (total || 0) - pos;
+      if (size < 8) return null;
+      if (type === 'moov') {
+        if (size > MAX_MOOV) return null;
+        if (o + size > dv.byteLength) { win = await rangeFetch(url, pos, pos + size - 1, signal); winStart = pos; dv = new DataView(win.buf); }
+        const info = parseMoov(win.buf, pos - winStart, pos - winStart + size);
+        info.size = total; return info;
+      }
+      pos += size;
+    }
+    return null;
+  }
+
+  function startMediaProbe() {
+    if (currentIndex < 0) return;
+    const v = videos[currentIndex], src = v.src;
+    mediaInfo = Object.assign({ w: video.videoWidth, h: video.videoHeight }, mediaProbeCache[src] || {});
+    renderMediaInfo();
+    if (mediaProbeCache[src]) return;
+    if (probeAbort) probeAbort.abort();
+    const ac = probeAbort = new AbortController();
+    probeMp4(src, ac.signal).then(info => {
+      if (currentIndex < 0 || videos[currentIndex].src !== src) return;
+      const m = Object.assign({ probed: true }, info || {});
+      mediaProbeCache[src] = m;
+      mediaInfo = Object.assign({ w: video.videoWidth || m.w, h: video.videoHeight || m.h }, m);
+      renderMediaInfo();
+    }).catch(err => {
+      if (err && err.name === 'AbortError') return;
+      console.warn('Media probe failed (host may block Range/CORS):', err && err.message);
+      if (currentIndex >= 0 && videos[currentIndex].src === src) { mediaInfo = Object.assign(mediaInfo || {}, { probed: true }); renderMediaInfo(); }
+    });
+  }
+  video.addEventListener('loadedmetadata', startMediaProbe);
+  video.addEventListener('resize', () => { if (mediaInfo) { mediaInfo.w = video.videoWidth; mediaInfo.h = video.videoHeight; renderMediaInfo(); } });
+  // =========================================================================
+
   let currentIndex = -1;
   let thumbEls = [];
   let autorunEnabled = true;
@@ -1457,6 +1711,16 @@
   video.addEventListener('pause', saveResumePosition);
   window.addEventListener('beforeunload', saveResumePosition);
 
+  // Apply a title's AspectRatio (from the playlist JS). Falls back to "fit" when missing/unknown.
+  function applyAspectRatio(r) {
+    let ratio = 'fit';
+    aspectBtns.forEach(b => { if (b.dataset.ratio === r) ratio = r; });
+    video.setAttribute('data-ratio', ratio);
+    aspectBtns.forEach(b => b.classList.toggle('active', b.dataset.ratio === ratio));
+    const activeBtn = aspectPanel.querySelector('.aspect-btn.active');
+    if (activeBtn) aspectMenuBtn.textContent = activeBtn.textContent + ' ▾';
+  }
+
   function playByIndex(i, isRetry) {
     if (i < 0 || i >= videos.length) return;
     currentIndex = i;
@@ -1469,6 +1733,7 @@
       scrollThumbIntoView(thumbEls[i]);
     }
 
+    applyAspectRatio(v.AspectRatio || 'fit');
     video.src = v.src;
     video.load();
 
@@ -1485,6 +1750,7 @@
 
     video.play().catch(() => {});
     nowPlaying.textContent = " " + v.title;
+    mediaInfo = null; if (probeAbort) { probeAbort.abort(); probeAbort = null; } renderMediaInfo();
     runtimeEl.textContent = '0:00 / --:--';
     loadSubtitles(v.subtitle);
     closeScenePanel();
@@ -1966,7 +2232,8 @@
       return;
     }
     if (state === 'unavailable' || !state) {
-      xrayBody.innerHTML = '<div class="xray-status">No Wikipedia info found for this title.</div>';
+      xrayBody.innerHTML = '<div class="xray-content"><div class="xray-status">No Wikipedia info found for this title.</div><div class="xray-tech" id="xrayTech"></div></div>';
+      renderMediaInfo();
       return;
     }
     const thumbHtml = state.thumb
@@ -1978,8 +2245,10 @@
         <div class="xray-title">${state.title}</div>
         <div class="xray-extract">${state.extract}</div>
         <div class="xray-attribution">Summary from <a href="${state.pageUrl}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA</div>
+        <div class="xray-tech" id="xrayTech"></div>
       </div>
     `;
+    renderMediaInfo();
   }
 
   async function loadXrayInfo() {
