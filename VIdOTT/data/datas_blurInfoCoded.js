@@ -4,6 +4,7 @@
   const videos = [
     {
       title: "SPRING -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/3d95fb3d-c866-42c8-9db1-fe82f48ccb95.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -19,6 +20,7 @@
     },
     {
       title: "Sintel -Short.",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "http://peach.themazzone.com/durian/movies/sintel-2048-surround.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Sintel(2010).eng.srt",
@@ -31,6 +33,7 @@
     },
    {
       title: "Making-Sintel -Doc.",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/6a12c7a4-6c0f-46db-a5fd-e212a83661f8-720.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -38,6 +41,7 @@
     },
     {
       title: "Big Buck Bunny -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://commons.wikimedia.org/wiki/File:Big_Buck_Bunny_4K.webm",
       thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -45,6 +49,7 @@
     },
     {
       title: "Cosmos Laundromat -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://studio.blender.org/download-source/files/9e/9e18c8684db6ae04cc458477554f2976062f4d9d/9e18c8684db6ae04cc458477554f2976062f4d9d.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/f507dfdc-e73e-45a4-9778-d758cbe1ce96.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Cosmos_Laundromat_First_Cycle_(2015)_.minitoons._.EN.srt",
@@ -52,6 +57,7 @@
     },
     {
       title: "Agent 327: Operation Barbershop -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/264ff760-803e-430e-8d81-15648e904183-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/264ff760-803e-430e-8d81-15648e904183.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Agent%20327.%20Operation%20Barbershop%20(2017)%20-%20EN%20.720p.%20-%20.minitoons.srt",
@@ -59,6 +65,7 @@
     },
     {
       title: "Sprite Fright -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/a69d68a5-a0e0-4a80-9d66-49f093c97aaf-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/ff105d09-ca07-4128-b5f7-6e25351bb899.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/SpriteFright_en.srt",
@@ -66,6 +73,7 @@
     },
     {
       title: "Charge -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/04da454b-9893-4184-98f3-248d00625efe-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/0dd54e62-2ae7-4db9-8144-4da805fbe4ba.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -73,6 +81,7 @@
     },
     {
       title: "Making-Charge -Doc.",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/d06afb85-ecea-4df6-be75-005a7954a93c-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/da8a3e07-dd59-4a14-adfa-b5e3ae65cb8c.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -80,6 +89,7 @@
     },
    {
       title: "Caminandes:Llama Drama -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/fb70d459-48d2-4db5-adba-813c84f9200a-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/fb70d459-48d2-4db5-adba-813c84f9200a.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -88,6 +98,7 @@
     },
    {
       title: "Caminandes:Llamigos -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/23f3ef79-15dc-44c5-aa45-cf92e78a4509-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/23f3ef79-15dc-44c5-aa45-cf92e78a4509.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -95,6 +106,7 @@
     },
    {
       title: "Making -Caminandes: Llamigos -Doc.",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/515fa4ff-7038-42a3-9e1b-ef7154bd7398-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/eb768a62-cd22-4fba-80a8-4652bf6238ba.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -102,6 +114,7 @@
     },
    {
       title: "Heros -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/3eb93cab-79a2-4fd5-a636-d42e5c59ddea-536.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/8d2a64e7-089c-4ad5-a676-7eec5e51f7c0.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -109,6 +122,7 @@
     },
    {
       title: "WingIt -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/bd0084a5-1d26-4816-ab5e-1bad9e2fb990-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/4efa0a16-83b0-4c62-a4bc-4dcd30c05749.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -116,6 +130,7 @@
     },
    {
       title: "Singularity -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://upload.wikimedia.org/wikipedia/commons/f/f2/SINGULARITY_-_Blender_Open_Movie-full_movie.webm",
       thumb: "https://video.blender.org/lazy-static/thumbnails/38b6e48a-40e7-4c46-801f-9a46baf9c02a.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -123,6 +138,7 @@
     },
    {
       title: "Making-Singularity -Doc.",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Liway_%282018_film%29.webm",
       thumb: "https://video.blender.org/lazy-static/thumbnails/3d61fdb7-28d4-4e9e-8b44-2225fcd04e35.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -130,6 +146,7 @@
     },
    {
       title: "Glass Half -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/64222c8a-c4c7-4b3b-9850-7fb2078edcf6-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/64222c8a-c4c7-4b3b-9850-7fb2078edcf6.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -137,6 +154,7 @@
     },
    {
       title: "The Daily Dweebs -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1-1080.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/7b2eff2a-35f2-4403-9d88-d0dd6e4b5ba1.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -144,6 +162,7 @@
     },
    {
       title: "Coffee Run -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/ff8fe61b-026f-4f07-b66b-2a790d6f6ab1.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -151,6 +170,7 @@
     },
    {
       title: "Elephants Dream -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5-720.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/cccc3e60-0291-4ecc-aa56-39b2e2c7d0d5.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/elephants.dream.2006.720p.bluray.x264-bipolar.srt"	   ,
@@ -158,6 +178,7 @@
     },
     {
       title: "Tears of Steel -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/object-storage/web_videos/8533ea43-4271-4a57-9694-e9d0b35e1aa1-800.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Tears.of.Steel.2012.BRRip.srt",
@@ -165,6 +186,7 @@
     },
      {
       title: "TearsOfSteel-4k -Short",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ftp.nluug.nl/pub/graphics/blender/demo/movies/ToS/tears_of_steel_surround.webm",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/ac878c08d94a3da94048c54c4585013f2c7672c33ef5236307eba9fb8ae96d38.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Tears.of.Steel.2012.BRRip.srt",
@@ -172,6 +194,7 @@
     },
     {
       title: "Snow White and the Seven Dwarfs 1937",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn720203.ca.archive.org/0/items/snow-white-and-the-seven-dwarfs-1937_202404/Snow%20White%20and%20the%20Seven%20Dwarfs%20%281937%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQShSDpKN_qs_cn86LpWBgYO8iUTIiMLeC_Kk8mQWMVFA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -179,6 +202,7 @@
     },
     {
       title: "Peter Pan - 1953",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-three-caballeros-1996-vhs_20220516/Peter%20Pan%20%282007%20DVD%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggHIj-GHzI9FrNQ5CBmXPzIX7WDbHU42OErqgxQUHR220WUw7fQyrQVI&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -186,6 +210,7 @@
     },
     {
       title: "Gullivers Travel 1939",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/gullivers_travels_1080hd/gullivers_travels_1080hd.mkv",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauuDTpEgnUeMAY4iMw_qpDdXiatFymFDn8o-eyhc5gw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -193,6 +218,7 @@
     },
     {
       title: "101 Dalmations 1961",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn721807.ca.archive.org/0/items/Popcornarchive-101Dalmatians1961/Popcornarchive-101Dalmatians1961.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/107227da-8d58-4c16-9577-439257f1ea53/compose?aspectRatio=1.78&format=webp&width=1200",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -200,6 +226,7 @@
     },
     {
       title: "Alladin 1992",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn601206.us.archive.org/0/items/101-dalmatians-1992-vhs-french-canadian-copy_202301/Aladdin%20%282015%20DVD%29.mp4",
       thumb: "https://i.ytimg.com/vi/ShwFa6MPgGE/maxresdefault.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -207,6 +234,7 @@
     },
     {
       title: "Sword in The Stone 1992",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn720302.ca.archive.org/0/items/the-three-caballeros-1996-vhs_20220516/The%20Sword%20in%20the%20Stone%20%282008%20DVD%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnpw3jyyTMlt_ojGfxUvTohiRltFQfaiSbfVBwdpnFW6e9Lc7VGIk5PeI&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -214,6 +242,7 @@
     },
     {
       title: "Fantasia - Special Edition",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/fantasia-special-edition-laserdisc-restoration-with-sunflower-v-1.0/Fantasia_Special_Edition_Laserdisc_Restoration_with_Sunflower_v1.0.mp4",
       thumb: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/019b399f-91c8-7e57-b452-6df1d4a12dfc/compose?aspectRatio=1.78&format=webp&width=1200",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -221,6 +250,7 @@
     },
     {
       title: "The Secret of NIMH (1982)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-secret-of-nimh-1982_202511/The%20Secret%20Of%20NIMH%20%281982%29/mp4/The%20Secret%20of%20NIMH%201982.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24m6NroPJzev5KgjtWQclP1lZAfIYIvYJqcpt0dQUDA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -228,6 +258,7 @@
     },
   {
       title: "Ant Bully 2006",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20ANT%20BULLY%20%282006%29.mp4",
       thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -235,6 +266,7 @@
     },
    {
     title: "Cloudy With A Chance Of Meatballs (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2009.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2009.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA-QjjEan0KRfNKszTevNa20bc2db5Nb26ZLA1wgDi-A&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -242,6 +274,7 @@
   },
   {
     title: "Cloudy With A Chance Of Meatballs 2 (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/cloudy.with.a.-chance.of.-meatballs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/Cloudy.with.a.Chance.of.Meatballs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXHqpoYvMT9CkfBJzsf6Uq1q7g7yPSRkiozC_XPUHx8Q&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -249,6 +282,7 @@
   },
   {
     title: "Smallfoot (2018)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/smallfoot.-2018.1080p.-blu-ray.x-265-rarbg/Smallfoot.2018.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6eo3t5eBN8Kk4CYuPVlWU9uJzxicCygXwY0V_3QSY-A&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -256,6 +290,7 @@
   },
   {
     title: "Madagascar (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/madagascar.-2005.1080p.-blu-ray.-h-264.-aac-rarbg/Madagascar.2005.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXHNHBXYptio-pfsBEiebQIW0hX__cMR6HqrHf6We9ng&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -263,6 +298,7 @@
   },
   {
     title: "Over The Hedge",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/over-the-hedge-2006-full-screen-dvd-iso_202509/OVER_THE_HEDGE.mp4",
     thumb: "https://wallpapers.com/images/hd/over-the-hedge-posing-poster-uiydys939zovdv7l.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -270,6 +306,7 @@
   },
   {
     title: "Robots (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-robots2005_bvu4d/Popcornarchive-robots2005_bvu4d.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKG7ZImJZXsRY0GdF3uaHrvyZDiV6zWas8k1G86CPXA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -277,6 +314,7 @@
   },
   {
     title: "Up (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Up.2009.720p.BluRay.x264.YIFY/Up.2009.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://www.arthipo.com/image/cache/catalog/poster/movie/759-1554/pfilm1417-up-movie-poster-500x500h.webp",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -284,6 +322,7 @@
   },
   {
     title: "Rio (Full Movie)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rio-full-movie/Rio%20%28Full%20Movie%29.mp4",
     thumb: "https://image.tmdb.org/t/p/original/AfQjxSXWGZP6KdK7iDd3bzL02Gc.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -291,6 +330,7 @@
   },
   {
     title: "The Emoji Movie (2017)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-emoji.-movie.-2017.1080p.-blu-ray.x-264-yts.-ag/The.Emoji.Movie.2017.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "http://www.impawards.com/2017/posters/emoji_movie_ver13.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -298,6 +338,7 @@
   },
   {
     title: "Garfieldthemovie",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/garfieldthemovie_202503/GARFIELDTHEMOVIE.mp4",
     thumb: "https://brutifulstore.com/wp-content/uploads/2024/03/Official-New-Poster-For-The-Garfield-Movie-Releasing-In-Theaters-On-May-24-Poster-Canvas.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -305,6 +346,7 @@
   },
   {
     title: "Turbo",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/turbo_202208/TURBO.mp4",
     thumb: "https://4.bp.blogspot.com/-EggXqmySZlY/UaOFXT4zW2I/AAAAAAAAQDs/B46rKkzl6v4/s1600/PHGXWraJC8S8KK_1_m.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -312,6 +354,7 @@
   },
 {
     title: "Shrek (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/shrek.-2001.1080p.-blu-ray.x-264.-yify_202504/Shrek.2001.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://i.ebayimg.com/images/g/H1cAAOSw5EdfMG2o/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -319,6 +362,7 @@
   },
   {
     title: "How The Grinch Stole Christmas (1966)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/how.the.-grinch.-stole.-christmas.-1966.1080p.-blu-ray.-h-264.-aac-rarbg/How.the.Grinch.Stole.Christmas.1966.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://oefv17-assets-dev.s3.amazonaws.com/event_assets/images/000/086/873/hero/HowtheGrinchStoleChristmasPoster__WixCameraRoll.png?1725032171",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -326,6 +370,7 @@
   },
  {
     title: "Dantes Inferno An Animated Epic (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dantes.-inferno.-an.-animated.-epic.-2010.1080p.-blu-ray.x-265-rarbg/Dantes.Inferno.An.Animated.Epic.2010.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCRtV3KCqRksYwnbHBdzXGLVRE6Qj8Nop9-Iqd5g9UN8hXwAEGxyQQ2lC&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -333,6 +378,7 @@
   },
 {
     title: "The Lord of the Rings(1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-lordofthe-rings-19781080p-blu-ray-h-264-aac-rarbg/TheLordoftheRings19781080pBluRayH264AAC-RARBG.mp4",
     thumb: "https://www.lab111.nl/wp-content/uploads/2026/08/lord_of_the_rings_16x9_banner.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -340,6 +386,7 @@
   },
   {
     title: "The Adventures Of Tintin (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-adventures.of.-tintin.-2011.1080p.-blu-ray.-h-264.-aac-rarbg/The.Adventures.of.Tintin.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0vY-9gWmFrJED3G-aPA8cV6Y4_Z_P3QDUpRZtWfGHQ&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -347,6 +394,7 @@
   },
   {
     title: "The Life And Adventures Of Santa Claus (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-life.and.-adventures.of.-santa.-claus.-1985.1080p.-webrip.x-265-rarbg/The%20Life%20and%20Adventures%20of%20Santa%20Claus%20%281985%29%201080p/The.Life.and.Adventures.of.Santa.Claus.1985.1080p.WEBRip.x265-RARBG.mp4",
     thumb: "https://m.media-amazon.com/images/S/pv-target-images/60639db197c7142d0eecb73288d3de7aa81421e2097d1bcfdb27caa18de891b7.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -354,6 +402,7 @@
   },
     {
       title: "Masters of the Universe (1987)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/masters-of-the-universe-1987_202304/Masters%20of%20the%20universe%201987.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGnFaIN2X21n94ST7uUV8rLfLlXc8j49c1eGcOcdhU8w&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -361,6 +410,7 @@
     },
 {
     title: "Willow (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/willow.-1988.1080p.-blu-ray.x-264-yts.-am/Willow.1988.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://www.filmonpaper.com/wp-content/uploads/2011/05/Willow_onesheet_USA_JohnAlvin-3.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Willow.1988.WEB-DL.DSNP.srt",
@@ -369,6 +419,7 @@
   
     {
       title: "Dunston Checks In 1996",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn721901.ca.archive.org/0/items/Popcornarchive-dunstonChecksIn1996/Popcornarchive-dunstonChecksIn1996.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/318ccb307fe9021f36adf9cd36c520d04d0a64aa594088c66741a770549e2ff2.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/Dunston Checks In 1996 1080p_eng_sdh.srt",
@@ -376,6 +427,7 @@
     },
     {
       title: "Lassie 2005",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710005.ca.archive.org/0/items/Popcornarchive-lassie2005/Popcornarchive-lassie2005.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0NopiAonxnjlUoG0zl2073l-B6jTuWGbIAqht8kBsPTqJQD7FJYyQAwQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -383,6 +435,7 @@
     },
     {
       title: "Paulie 1998",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/paulie_201907/Paulie.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUy5BAAcjmzIeDSQi813vQmLBwMaiHH2uxh2mX-rip_Q&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -390,6 +443,7 @@
     },
     {
       title: "Stuart Little 1999",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia800605.us.archive.org/5/items/stuart-little-1999_20260222/Stuart%20Little%20%281999%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFp1Sfki-9w15YL0jtEl14BkuVfIcwN-EyLEht3EB0gw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -397,6 +451,7 @@
     },
     {
       title: "Stuart Little 2 2002",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn720409.ca.archive.org/0/items/stuart.-little.-2.2002.-br-rip.-720p.x-264.-yify/Stuart.Little.2.2002.BrRip.720p.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFnD55Oq1C9WawrcxTMHJLJtt0Tg9dXmHlFGe15_eiw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -404,6 +459,7 @@
     },
     {
       title: "Mouse Hunt 1997",
+      AspectRatio: "16:9", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/mousehunt1997_202001/Mousehunt%20%281997%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM0I8vZl-cVzqrMgMIldwn0Jj0KVqKtkl0y3_qtzvbyw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -411,6 +467,7 @@
     },
  {
     title: "The Smurfs (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-smurfs.-2011.1080p.-blu-ray.x-264-yts.-ag_202405/The.Smurfs.2011.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "http://pastposters.com/cdn/shop/files/smurfs-cinema-quad-movie-poster-_1.jpg?v=1730006765",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -418,6 +475,7 @@
   },
  {
     title: "Hoodwinked (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/hoodwinked.-2005.1080p.-blu-ray.x-264.-aac-5.1-yts.-mx-3/Hoodwinked.2005.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D~3.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMjcxZDJkMGQtZmQyNy00Mjk0LWE1MDQtZjEwNzMwNTU2YTNiXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -426,6 +484,7 @@
 
   {
     title: "Pan's Labyrinth Guillermo Del Toro (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/pans-labyrinth-guillermo-del-toro-2006/Pan%27s%20Labyrinth%20-Guillermo%20del%20Toro%20%282006%29.mp4",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqX_flHiQorlUn0euvaLezRAHJlZy-k0FbPKjWpuXnPcUOsN2GJ31-5MRwBMtW2Bol01tmT08ofe8peGkz7f967TZUzcE0vtijYt3on1z-tsUOEQj_V2KTkwHuErlIbI3D_HLrIoRwa2IlPrbNotVdPQALgCnWXNl7l4JUfAY-eI5JmyThKx1qD8eoNY1W/s1171/Screenshot_20231002_064104_Chrome.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -433,6 +492,7 @@
   },
   {
     title: "The Spiderwick Chronicles (2008)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-spiderwick.-chronicles.-2008.-multi-5-0-w-3-n_202607/The.Spiderwick.Chronicles.2008.MULTi5-0W3N.mp4",
     thumb: "https://ntvb.tmsimg.com/assets/p172064_v_h10_aa.jpg?w=1280&h=720",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -440,6 +500,7 @@
   },
   {
     title: "Richie Rich",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/richie-rich_202311/Richie%20Rich.mp4",
     thumb: "https://wallpapers.com/images/hd/richie-rich-movie-poster-miorp4awyumlmicd.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -447,6 +508,7 @@
   },
   {
     title: "The Neverending Story (1984)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-neverending-story-1984-ext/The%20Neverending%20Story%201984%20Ext.mp4",
     thumb: "https://www.lulu-berlu.com/upload/image/the-neverending-story---movie-poster-40x60cm---warner-bros-1984-p-image-427629-grande.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -454,6 +516,7 @@
   },
     {
       title: "Last Action Hero 1993",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/last.-action.-hero.-1993.720p.-blu-ray.x-264.-yify/Last.Action.Hero.1993.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeRYVAZjtDgYG62KNwxyYjfSmB4MHCdvs-OiHQ7qhYA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Last Action Hero (1993).srt",
@@ -461,6 +524,7 @@
     },
     {
       title: "Super Mario Bros 1993",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia800904.us.archive.org/4/items/super-mario-bros.-1993_202511/Super%20Mario%20Bros.%20%281993%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -468,6 +532,7 @@
     },
  {
     title: "Super Mario Bros 1993 Spanish",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/SMBFILMEDUBLADOVHS/SMBFILMEDUBLADOVHS.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -475,6 +540,7 @@
   },
     {
       title: "Little Miss Sunshine 2006",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/little.-miss.-sunshine.-2006.720p.-blu-ray.x-264.-yify_202607/Little.Miss.Sunshine.2006.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0LdfUnJHCXpLreCZMwIG-5Sf29VfmCyliJx8axhw_7g&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -483,6 +549,7 @@
 
   {
     title: "Bean (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/bean.-1997.1080p.-blu-ray.-h-264.-aac-rarbg/Bean.1997.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn2_Du5XV0CdBAFyfnNZjqc7wgqvsjcS7cvHwZeut2Fg&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Bean1997.srt",
@@ -490,6 +557,7 @@
   },
  {
     title: "Mr Bean's Holiday (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mr.-bean.s.-holiday.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/Mr.Bean.s.Holiday.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqfR0why0QUOiqZQ6_uTQqYE1vVSBhbjBfNjbq1GlbA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Mr.Beans.Holiday.ENG.srt",
@@ -497,6 +565,7 @@
   },
   {
     title: "Johnny English (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/johnny.-english.-2003.1080p.-blu-ray.-h-264.-aac-rarbg/Johnny.English.2003.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRkM84X2144nXMTstkQ-HGqZ9C5bQYi93RD3erKRbmA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -505,6 +574,7 @@
   
   {
     title: "Johnny English Strikes Again (2018)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/johnny.-english.-strikes.-again.-2018.1080p.-blu-ray.-h-264.-aac-rarbg/Johnny.English.Strikes.Again.2018.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHErTvEtNuY9EoXO4WhL14cuxSuZi7PJyaWhTsfexqWg&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -512,6 +582,7 @@
   },
  {
     title: "Bridge To Terabithia",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia801609.us.archive.org/27/items/bridge-to-terabithia_202609/Bridge%20To%20Terabithia.mp4",
     thumb: "https://image.tmdb.org/t/p/original/1pna5dn5IZsFhx9sLMIbzEN6PQP.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -519,6 +590,7 @@
   },
 {
     title: "Ratatouille (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ratatouille.-2007.720p.-blu-ray.x-264.-yify/Ratatouille.2007.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://bhpcollectibles.com/wp-content/uploads/2023/06/sr_1570765_large.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -526,6 +598,7 @@
   },
   {
     title: "9 (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/9.2009.1080p.-blu-ray.x-264.-yify/9.2009.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BODUyYzVjY2MtYmY3Mi00N2FjLThkYjQtNmFlMzNjMTI1YjM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     subtitle: "https://archive.org/download/9.2009.1080p.-blu-ray.x-264.-yify/9.2009.1080p.BluRay.x264.YIFY.srt",
@@ -533,6 +606,7 @@
   },
   {
     title: "Astro Boy (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/astro-boy-2009_202202/Astro%20Boy%20%282009%29.mp4",
     thumb: "https://anime.astronerdboy.com/wp-content/uploads/2009/10/Astro-Boy-2009-Poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -540,6 +614,7 @@
   },
 {
     title: "The Love Bug (1968)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/%281968%29%20THE%20LOVE%20BUG.mp4",
     thumb: "https://www.themoviedb.org/t/p/original/2XQCa1BQrsJUFx1c47Hsmi1LVXm.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -547,6 +622,7 @@
   },
   {
     title: "Herbie Rides Again (1974)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/%281974%29%20HERBIE%20RIDES%20AGAIN.mp4",
     thumb: "https://i.ebayimg.com/images/g/LeUAAOSwNARnTiXL/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -554,6 +630,7 @@
   },
   {
     title: "Herbie Goes To Monte Carlo (1977)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/%281977%29%20HERBIE%20GOES%20TO%20MONTE%20CARLO.mp4",
     thumb: "https://i.ytimg.com/vi/Kcd2CxSEvOI/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -561,6 +638,7 @@
   },
   {
     title: "Herbie Goes Bananas (1980)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/%281980%29%20HERBIE%20GOES%20BANANAS.mp4",
     thumb: "https://i.ytimg.com/vi/0COCOv2dmjQ/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -568,6 +646,7 @@
   },
   {
     title: "Abominable (2019)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/ABOMINABLE%20%282019%29.mp4",
     thumb: "https://image.tmdb.org/t/p/original/8Pn2weHVKWidOKodiSPYMajdiVh.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -575,6 +654,7 @@
   },
   {
     title: "Aliens In The Attic (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/ALIENS%20IN%20THE%20ATTIC%20%282009%29.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BZDBiMDU0ZDAtZjVkNi00ZWRjLTk0N2UtZDEyZmM4Zjk2MWI2XkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -582,6 +662,7 @@
   },
   {
     title: "An American Tail (1986)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/AN%20AMERICAN%20TAIL%20%281986%29.mp4",
     thumb: "https://movieposterframes.com/cdn/shop/files/SNAP-27-40-B-32MM-NBG-F_dcb08874-3841-4bde-b2f5-436d660ec315_1445x.png?v=1713381555",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -589,6 +670,7 @@
   },
   {
     title: "An American Tail 2 Fievel Goes West (1991)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/AN%20AMERICAN%20TAIL%202%20_FIEVEL%20GOES%20WEST%20%281991%29.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images5/1/0424/08/american-tail-fievel-goes-west-1991_1_42b4dc8a8a219816f1b87544586a3e61.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -596,6 +678,7 @@
   },
   {
     title: "An American Tail 3 The Treasure Of Manhattan Island (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/AN%20AMERICAN%20TAIL%203%20_THE%20TREASURE%20OF%20MANHATTAN%20ISLAND%20%281998%29.mp4",
     thumb: "https://images.fanart.tv/fanart/an-american-tail-the-treasure-of-manhattan-island-665cea8b01b5c.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -603,6 +686,7 @@
   },
   {
     title: "An American Tail 4 The Mystery Of The Night Monster (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/AN%20AMERICAN%20TAIL%204%20_THE%20MYSTERY%20OF%20THE%20NIGHT%20MONSTER%20%281999%29.mp4",
     thumb: "https://flixpatrol.com/title/an-american-tail-the-mystery-of-the-night-monster/ogimage/",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -610,6 +694,7 @@
   },
   {
     title: "Beethoven (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/BEETHOVEN%20%281992%29.mp4",
     thumb: "https://m.media-amazon.com/images/S/pv-target-images/bf91697b361d343cde64cf1a90625fdfde3dddf9e1351907cfb3c732840e69b5.jpg",
     subtitle: "https://archive.org/download/THE%20MUPPET%20MOVIE%20%281979%29.srt",
@@ -617,6 +702,7 @@
   },
   {
     title: "Beethoven's 2nd (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/BEETHOVEN%27S%202ND%20%281993%29.mp4",
     thumb: "https://m.media-amazon.com/images/I/51t6YVzQ2TL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -624,6 +710,7 @@
   },
   {
     title: "Bolt (2008)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/BOLT%20%282008%29.mp4",
     thumb: "https://3.bp.blogspot.com/-1Rf9ZhYgnNk/Ua9yU0vsI4I/AAAAAAAAS2Y/Zm5mwJQZ5I4/s1600/1328780278.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -631,6 +718,7 @@
   },
   {
     title: "Cars (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/CARS%20%282006%29.mp4",
     thumb: "https://bhpcollectibles.com/wp-content/uploads/2023/06/sr_1597559_large.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -638,6 +726,7 @@
   },
   {
     title: "Cars 2 (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/CARS%202%20%282011%29.mp4",
     thumb: "https://images.citiesbox.com/poster9/cars-2-2011-ds32-4.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -645,6 +734,7 @@
   },
   {
     title: "Cars 3 (2017)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/CARS%203%20%282017%29.mp4",
     thumb: "https://media.karousell.com/media/photos/products/2025/1/30/cars_3_2017_movie_poster_2side_1738214814_5daa3a1f_progressive.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -652,6 +742,7 @@
   },
   {
     title: "Cats And Dogs (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/CATS%20AND%20DOGS%20%282001%29.mp4",
     thumb: "https://v3img.voot.com/jioimage/newcpp/6497000a4b3c75387b592bb9/6497000a4b3c75387b592bb9_1687618060185_aa.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -659,6 +750,7 @@
   },
   {
     title: "Cats And Dogs 2 The Revenge Of Kitty Galore (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/CATS%20AND%20DOGS%202%20THE%20REVENGE%20OF%20KITTY%20GALORE%20%282010%29.mp4",
     thumb: "https://images.plex.tv/photo?size=large-1280&url=https://metadata-static.plex.tv/7/gracenote/7650664edf95d3e5bc1cc9d0a66b8608.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -666,6 +758,7 @@
   },
   {
     title: "Cats And Dogs 3 Paws Unite! (2020)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/CATS%20AND%20DOGS%203%20PAWS%20UNITE%21%20%282020%29.mp4",
     thumb: "https://1.bp.blogspot.com/-MvJpotik8gw/X2aq9UYfW4I/AAAAAAAAEcY/gKWQAYHcP9YCNOTzVX9LucXwRlYEvUa5QCLcBGAsYHQ/w1200-h630-p-k-no-nu/cats_and_dogs_three_paws_unite_xlg.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -673,6 +766,7 @@
   },
   {
     title: "Cats And Dogs The Revenge Of Kitty Galore (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/CATS%20AND%20DOGS%20THE%20REVENGE%20OF%20KITTY%20GALORE%20%282010%29.mp4",
     thumb: "https://ntvb.tmsimg.com/assets/p7995627_v_h10_ab.jpg?w=960&h=540",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -680,6 +774,7 @@
   },
   {
     title: "E T The Extra Terrestrial (1982)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/E.T.%20THE%20EXTRA-TERRESTRIAL%20%281982%29.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2022/12/IMG_0175-scaled.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -687,6 +782,7 @@
   },
   {
     title: "Escape To Witch Mountain (1975)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/ESCAPE%20TO%20WITCH%20MOUNTAIN%20%281975%29.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/escape-to-witch-mountain-cinema-quad-movie-poster-_1_BL.jpg?v=1730038214&width=1445",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -694,6 +790,7 @@
   },
   {
     title: "Finding Nemo (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/FINDING%20NEMO%20%282003%29.mp4",
     thumb: "https://boonsartshop.com/wp-content/uploads/imported/3/ORIGINAL-MOVIE-POSTER-FINDING-NEMO-2003-UNFOLDED-EUROPEAN-ADVANCE-ONE-SHEET-174896581403.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -701,6 +798,7 @@
   },
   {
     title: "Happy Feet (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HAPPY%20FEET%20%282006%29.mp4",
     thumb: "http://pastposters.com/cdn/shop/files/happy-feet-cinema-quad-movie-poster-_3.jpg?v=1730250643",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -708,6 +806,7 @@
   },
   {
     title: "Happy Feet 2 (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HAPPY%20FEET%202%20%282011%29.mp4",
     thumb: "https://s.movieinsider.com/images/p/64980_m1317862024.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -715,6 +814,7 @@
   },
   {
     title: "Happy Halloween Scooby Doo! (2020)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HAPPY%20HALLOWEEN%20SCOOBY-DOO%21%20%282020%29.mp4",
     thumb: "https://www.hirescovers.net/gallery/albums/userpics/10001/normal_Happy_Halloween__Scooby-Doo__bd__2020_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -722,6 +822,7 @@
   },
   {
     title: "Home Alone (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HOME%20ALONE%20%281990%29.mp4",
     thumb: "https://i.etsystatic.com/35681979/r/il/ea5c64/3914908312/il_1080xN.3914908312_agd1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -729,6 +830,7 @@
   },
   {
     title: "Home Alone 2 Lost In New York (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HOME%20ALONE%202%20_LOST%20IN%20NEW%20YORK%20%281992%29.mp4",
     thumb: "https://www.picclickimg.com/JowAAeSwWSBn7~1~/HOME-ALONE-2-LOST-IN-NEW-YORK-1992.webp",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -736,6 +838,7 @@
   },
   {
     title: "How To Train Your Dragon (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HOW%20TO%20TRAIN%20YOUR%20DRAGON%20%282010%29.mp4",
     thumb: "https://boonsartshop.com/wp-content/uploads/imported/2/ORIGINAL-MOVIE-POSTER-HOW-TO-TRAIN-YOUR-DRAGON-2010-UNFOLDED-INTL-DS-TEASER-ONE-185003541772.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -743,6 +846,7 @@
   },
   {
     title: "How To Train Your Dragon 2 (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HOW%20TO%20TRAIN%20YOUR%20DRAGON%202%20%282014%29.mp4",
     thumb: "https://i5.walmartimages.com/asr/9aa2e9e9-3ccf-4ebc-bd44-7194d829fd2d_1.a404e41344050be1f53f1c85d5e9c814.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -750,6 +854,7 @@
   },
   {
     title: "How To Train Your Dragon 3 The Hidden World (2019)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/HOW%20TO%20TRAIN%20YOUR%20DRAGON%203%20_THE%20HIDDEN%20WORLD%20%282019%29.mp4",
     thumb: "https://i.etsystatic.com/53443241/r/il/0bcf8c/6236079280/il_fullxfull.6236079280_hvwg.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -757,6 +862,7 @@
   },
   {
     title: "Inside Out (2015)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/INSIDE%20OUT%20%282015%29.mp4",
     thumb: "https://webneel.com/daily/sites/default/files/images/daily/06-2015/2-inside-out-animation-movie-poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -764,6 +870,7 @@
   },
   {
     title: "It's A Very Merry Muppet Christmas Movie (2002)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/IT%27S%20A%20VERY%20MERRY%20MUPPET%20CHRISTMAS%20MOVIE%20%282002%29.mp4",
     thumb: "https://images.plex.tv/photo?size=large-1280&url=https://metadata-static.plex.tv/a/gracenote/acbc686f69d31b0bc545e5f81fca10ac.jpg",
     subtitle: "https://archive.org/download/THE%20MUPPET%20CHRISTMAS%20CAROL%20%281992%29%20Extended%20Cut.srt",
@@ -771,6 +878,7 @@
   },
   {
     title: "Kermit's Swamp Years (2002)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/KERMIT%27S%20SWAMP%20YEARS%20%282002%29.mp4",
     thumb: "https://images.fanart.tv/fanart/kermits-swamp-years-6621272ed5497.jpg",
     subtitle: "https://archive.org/download/KERMIT%27S%20SWAMP%20YEARS%20%282002%29.srt",
@@ -778,6 +886,7 @@
   },
   {
     title: "Lego Batman The Movie Dc Super Heroes Unite (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/LEGO%20BATMAN%20THE%20MOVIE%20%E2%80%93%20DC%20SUPER%20HEROES%20UNITE%20%282013%29.mp4",
     thumb: "https://www.moviemistakes.com/images/titles/social/9837.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -785,6 +894,7 @@
   },
   {
     title: "Mary Poppins (1964)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/MARY%20POPPINS%20%281964%29.mp4",
     thumb: "https://c8.alamy.com/comp/R9B8KK/original-film-title-mary-poppins-english-title-mary-poppins-year-1964-director-robert-stevenson-credit-walt-disney-productions-album-R9B8KK.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -792,6 +902,7 @@
   },
   {
     title: "Mary Poppins Returns (2018)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/MARY%20POPPINS%20RETURNS%20%282018%29.mp4",
     thumb: "https://www.cinemapostergallery.co.uk/wp-content/uploads/2022/02/Mary-Poppins-Returns-2018-UK-Quad-Poster-Framed.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -799,6 +910,7 @@
   },
   {
     title: "Minions (2015)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/MINIONS%20%282015%29.mp4",
     thumb: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/2f44a621118789.562fbcb9eb15e.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -806,6 +918,7 @@
   },
   {
     title: "Monsters Vs Aliens (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/MONSTERS%20VS.%20ALIENS%20%282009%29.mp4",
     thumb: "https://media-cache.cinematerial.com/p/500x/2h9ukq9q/monsters-vs-aliens-poster.jpg?v=1456318060",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -813,6 +926,7 @@
   },
   {
     title: "Muppet Treasure Island (1996)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/MUPPET%20TREASURE%20ISLAND%20%281996%29.mp4",
     thumb: "http://www.impawards.com/1996/posters/muppet_treasure_island_ver2.jpg",
     subtitle: "https://archive.org/download/MUPPET%20TREASURE%20ISLAND%20%281996%29.srt",
@@ -820,6 +934,7 @@
   },
   {
     title: "Muppets From Space (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/MUPPETS%20FROM%20SPACE%20%281999%29.mp4",
     thumb: "https://i.ytimg.com/vi/OsuJhBFJaYU/maxresdefault.jpg",
     subtitle: "https://archive.org/download/MUPPETS%20FROM%20SPACE%20%281999%29.srt",
@@ -827,6 +942,7 @@
   },
   {
     title: "Muppets Most Wanted (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/MUPPETS%20MOST%20WANTED%20%282014%29.mp4",
     thumb: "https://s1.bwallpapers.com/wallpapers/2014/01/04/muppets-most-wanted-2014-movie_110501.jpg",
     subtitle: "https://archive.org/download/MUPPETS%20FROM%20SPACE%20%281999%29.srt",
@@ -834,6 +950,7 @@
   },
   {
     title: "Minions The Rise Of Gru (2022)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/Minions%20-%20The%20Rise%20of%20Gru%20%282022%29%20%282160p%20BluRay%20x265%2010bit%20HDR%20Tigole%29.mp4",
     thumb: "http://thenewportroxy.com/wp-content/uploads/2022/06/Minions-The-Rise-of-Gru-movie-film-comedy-animation-2022-trailer-poster-2.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -841,6 +958,7 @@
   },
   {
     title: "Return From Witch Mountain (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/RETURN%20FROM%20WITCH%20MOUNTAIN%20%281978%29.mp4",
     thumb: "https://i.ytimg.com/vi/1cqji85lOKo/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -848,6 +966,7 @@
   },
   {
     title: "Rudolph The Red Nosed Reindeer (1964)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/RUDOLPH%20THE%20RED-NOSED%20REINDEER%20%281964%29.mp4",
     thumb: "https://m.media-amazon.com/images/I/51wDDiAZ8dL._BO30,255,255,255_UF900,850_SR1910,1000,0,C_ZA12,500,900,420,420,AmazonEmber,50,4,0,0_PIRIOFOURANDHALF-medium,BottomLeft,30,-20_QL100_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -855,6 +974,7 @@
   },
   {
     title: "Rudolph The Red Nosed Reindeer The Movie (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/RUDOLPH%20THE%20RED-NOSED%20REINDEER%20THE%20MOVIE%20%281998%29.mp4",
     thumb: "https://1.bp.blogspot.com/-y-QxAEYweyY/UrdydG95qkI/AAAAAAAAGEk/IZxf7xlx7xs/w1200-h630-p-k-no-nu/rudolph-the-red-nosed-reindeer-the-movie-movie-poster-1998-1020204732.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -863,6 +983,7 @@
  
   {
     title: "Scoob! (2020)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/SCOOB%21%20%282020%29.mp4",
     thumb: "https://media.karousell.com/media/photos/products/2024/10/27/scoob_2020_movie_poster_2sided_1730010897_238c0d4c_progressive.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -870,6 +991,7 @@
   },
   {
     title: "Snoopy Come Home (1972)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/SNOOPY%20COME%20HOME%20%281972%29.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images2/1/0423/18/original-movie-poster-snoopy-come_1_172df65d4e8212a3fcdffb32069bbe43.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -877,6 +999,7 @@
   },
   {
     title: "Spirit Untamed (2021)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/SPIRIT%20UNTAMED%20%282021%29.mp4",
     thumb: "https://cdn.flickeringmyth.com/wp-content/uploads/2021/06/spirit-untamed-header.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -884,20 +1007,15 @@
   },
   {
     title: "That Darn Cat (1965)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THAT%20DARN%20CAT%20%281965%29.mp4",
     thumb: "https://i.ytimg.com/vi/Wqw315ymxN4/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category:  "Family",
   },
   {
-    title: "The Ant Bully (2006)",
-    src: "https://archive.org/download/THE%20ANT%20BULLY%20%282006%29.mp4",
-    thumb: "https://pastposters.com/cdn/shop/files/ant-bully-cinema-quad-movie-poster-_3.jpg?v=1730031321&width=1946",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category:  "Family",
-  },
-  {
     title: "The Brave Little Toaster (1987)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20BRAVE%20LITTLE%20TOASTER%20%281987%29.mp4",
     thumb: "https://dvdcover.com/wp-content/uploads/The_Brave_Little_Toaster_1987_FS_R1-front-www.GetCovers.net_-950x645.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -905,6 +1023,7 @@
   },
   {
     title: "The Brave Little Toaster Goes To Mars (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20BRAVE%20LITTLE%20TOASTER%20GOES%20TO%20MARS%20%281998%29.mp4",
     thumb: "https://i.ytimg.com/vi/eVqadQBJ_DE/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -912,6 +1031,7 @@
   },
   {
     title: "The Brave Little Toaster To The Rescue (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20BRAVE%20LITTLE%20TOASTER%20TO%20THE%20RESCUE%20%281997%29.mp4",
     thumb: "https://www.commonsensemedia.org/sites/default/files/styles/social_share_image/public/product-images/csm-movie/brave-little-toaster-rescue.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -919,6 +1039,7 @@
   },
   {
     title: "The Croods 2 A New Age (2020)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20CROODS%202%20A%20NEW%20AGE%20%282020%29.mp4",
     thumb: "https://wallpapers.com/images/hd/the-croods-2-a-new-age-characters-vgz4nue44ugw7nag.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -926,6 +1047,7 @@
   },
   {
     title: "The Great Muppet Caper (1981)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20GREAT%20MUPPET%20CAPER%20%281981%29.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images1/1/0416/06/great-muppet-caper-movie-poster_1_a58e15b624306ca082ef2f6dc2f1bb65.jpg",
     subtitle: "https://archive.org/download/THE%20GREAT%20MUPPET%20CAPER%20%281981%29.srt",
@@ -933,6 +1055,7 @@
   },
   {
     title: "The Incredibles 1 (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20INCREDIBLES%201%20%282004%29.mp4",
     thumb: "https://boonsartshop.com/wp-content/uploads/imported/4/ORIGINAL-MOVIE-POSTER-THE-INCREDIBLES-2004-UNFOLDED-DS-ADVANCE-ONE-SHEET-PIXAR-174896497084-1536x1227.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -940,6 +1063,7 @@
   },
   {
     title: "The Incredibles 2 (2018)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20INCREDIBLES%202%20%282018%29.mp4",
     thumb: "https://c8.alamy.com/comp/PA9K1K/release-date-june-15-2018-title-incredibles-2-studio-pixar-director-brad-bird-plot-bob-parr-mr-incredible-is-left-to-care-for-jack-jack-while-helen-elastigirl-is-out-saving-the-world-starring-poster-art-credit-image-pixarentertainment-pictures-PA9K1K.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -947,6 +1071,7 @@
   },
   {
     title: "The Iron Giant (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20IRON%20GIANT%20%281999%29.mp4",
     thumb: "https://www.prints4u.net/wp-content/uploads/2025/04/The-Iron-Giant-003.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -954,6 +1079,7 @@
   },
   {
     title: "The Muppet Christmas Carol (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20MUPPET%20CHRISTMAS%20CAROL%20%281992%29%20Extended%20Cut.mp4",
     thumb: "https://filmartgallery.com/cdn/shop/files/The-Muppet-Christmas-Carol-Vintage-Movie-Poster-Original_cbde8809.jpg?v=1741760112",
     subtitle: "https://archive.org/download/THE%20MUPPET%20CHRISTMAS%20CAROL%20%281992%29%20Extended%20Cut.srt",
@@ -962,6 +1088,7 @@
 
   {
     title: "The Muppet Movie (1979)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20MUPPET%20MOVIE%20%281979%29.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images1/1/0518/08/muppet-movie-original-wall-poster_1_bb36761aeecd8a70997785a5c15101fa.jpg",
     subtitle: "https://archive.org/download/THE%20MUPPET%20MOVIE%20%281979%29.srt",
@@ -969,6 +1096,7 @@
   },
   {
     title: "The Muppets (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20MUPPETS%20%282011%29.mp4",
     thumb: "https://www.seekpng.com/png/detail/187-1879026_the-muppets-muppets-2011-poster.png",
     subtitle: "https://archive.org/download/THE%20MUPPET%20MOVIE%20%281979%29.srt",
@@ -976,6 +1104,7 @@
   },
   {
     title: "The Muppets Take Manhattan (1984)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20MUPPETS%20TAKE%20MANHATTAN%20%281984%29.mp4",
     thumb: "https://images.citiesbox.com/poster8/the-muppets-take-manhattan-1984-ds11-2.jpg",
     subtitle: "https://archive.org/download/THE%20MUPPETS%20TAKE%20MANHATTAN%20%281984%29.srt",
@@ -983,6 +1112,7 @@
   },
   {
     title: "The Muppets' Wizard Of Oz (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20MUPPETS%27%20WIZARD%20OF%20OZ%20%282005%29.mp4",
     thumb: "https://www.moviemistakes.com/images/titles/social/6624.jpg",
     subtitle: "https://archive.org/download/THE%20MUPPETS%27%20WIZARD%20OF%20OZ%20%282005%29.srt",
@@ -990,6 +1120,7 @@
   },
   {
     title: "The Bob's Burgers Movie (2022)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/The%20Bob%27s%20Burgers%20Movie%20%282022%29%20%281080p%20BluRay%20x265%2010bit%20Tigole%29.mp4",
     thumb: "https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/lRayfXe6AgDihyHJpoxNv3WKJeP7ip.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -997,6 +1128,7 @@
   },
   {
     title: "Who Framed Roger Rabbit (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/Who%20Framed%20Roger%20Rabbit%20%281988%29%20%20%5B1080p%20x265%2010bit%20FS78%20Joy%5D.mp4",
     thumb: "https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/822cc49c-eefe-44d5-86d1-30e76aabe943/cool-who-framed-roger-rabbit-poster-art-from-artist-thomas-hodge.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1004,6 +1136,7 @@
   },
   {
     title: "Mrs Doubtfire Full Movie Hd",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/c45b4ac33d169f94d53ef02d5a613c4301b476eb47752f4056e9821db6231a2721caae849514723e/MRS....%20DOUBTFIRE..%20FULL%20MOVIE..%20HD.mp4",
     thumb: "https://image.tmdb.org/t/p/original/a4hdifBTny78ObMnMdbMUbo3H1h.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1011,6 +1144,7 @@
   },
 {
     title: "Encino Man (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/encino-man-1992_202412/ENCINO_MAN_1992.mp4",
     thumb: "https://image.tmdb.org/t/p/original/eIWkzF32Zt8IYA2n6OmwAEKq8gK.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Encino.Man.1992.720p.HDTV.DD.5.1.x264-DNL.ENG.srt",
@@ -1018,6 +1152,7 @@
   },
   {
     title: "Encino Woman (1996)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/encino_woman/Encino.Woman.1996.TVRip.AAC.AVC-JDLC83BKNY.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BYTZjOTYzZjAtZWYwYS00YzIwLWI4OWQtMWQ0MzJhYmZlZjdjXkEyXkFqcGc@._V1_QL75_UY281_CR0,0,500,281_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1026,6 +1161,7 @@
   
   {
     title: "Ernest Goes To Camp (1987)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ernest.-goes.-to.-camp.-1987.1080p.-blu-ray.x-265-rarbg-x-264/Ernest.Goes.To.Camp.1987.1080p.BluRay.x265-RARBG_x264.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPFwz5CriYc2t1K0A-LoJ7Xmoi76Ds6So-R84wPxeAFA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1033,6 +1169,7 @@
   }, 
 {
     title: "Legend (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/legend.-1985.-dc.-1080p.-blu-ray.x-264.-yify/Legend.1985.DC.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://images.squarespace-cdn.com/content/v1/634d99e9685b7a2bf0d1ae2d/3bce2cd2-d632-4682-a8c7-b06f19baeec2/Legend_Movie_Poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1041,6 +1178,7 @@
 
   {
     title: "The Adventures Of Baron Munchausen (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn710008.ca.archive.org/0/items/the.-adventures.of.-baron.-munchausen.-1988.1080p.-blu-ray.x-264.-yify/The.Adventures.of.Baron.Munchausen.1988.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://www.rarefilmposters.com/wp-content/uploads/ADVENTURES-OF-BARON-MUNCHAUSEN-Quad.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheAdventuresofBaronMunchausen(1988)BRD1080pREMASTERED.srt",
@@ -1049,6 +1187,7 @@
 
   {
     title: "Charlie And The Chocolate Factory (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/charlie-and-the-chocolate-factory-2005-720p-br-rip_202607/Charlie_and_the_Chocolate_Factory_2005_720p_BrRip.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFWl00uJgT9rzW3Hag6AKVlwdIgmWRN0zWwXw9jwzKmQ&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1056,6 +1195,7 @@
   },
   {
     title: "Honey, I Shrunk The Kids",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/honey-i-shrunk-the-kids-laserdisc-rf-capture/Honey%2C%20I%20Shrunk%20the%20Kids.mp4",
     thumb: "https://m.media-amazon.com/images/S/pv-target-images/069768fd28111534f17f2c09a975bc4c732ae221b65ab16f1edb2ece47748475.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1063,6 +1203,7 @@
   },
   {
     title: "Daddy Day Care (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/daddy-day-care-dvd/Daddy%20Day%20Care%20%282003%29.mkv",
     thumb: "https://s29288.pcdn.co/wp-content/uploads/2010/10/daddy-day-care-750px-750x422.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1070,6 +1211,7 @@
   },
   {
     title: "Diary Of A Wimpy Kid",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/diary-of-a-wimpy-kid_202512/DIARY_OF_A_WIMPY_KID.mp4",
     thumb: "https://images.citiesbox.com/poster8/diary-of-a-wimpy-kid-2021-0.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1077,6 +1219,7 @@
   },
   {
     title: "Shallow Hal",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/shallow-hal-dvd/SHALLOW_HAL.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/shallow-hal-cinema-quad-movie-poster-_1.jpg?v=1729992627&width=1445",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1085,6 +1228,7 @@
 
    {
       title: "DUMB & DUMBER 1994",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia600700.us.archive.org/32/items/dumb-and-dumber-dvdiso/DUMBDUMBER.mp4",
       thumb: "https://shatpod.com/movies/wp-content/uploads/Dumb-and-Dumber-Poster-1994.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1092,6 +1236,7 @@
     },
     {
       title: "Mask 1994",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/doctor-dolittle-1967/THE%20MASK%20%281994%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyri5fIjghGEykuu2-hiIEK0GsNkWRUX_Am8jbkn5SQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1099,6 +1244,7 @@
     },
     {
       title: "The Gods Must Be Crazy(1980)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710609.ca.archive.org/0/items/the.-gods.-must.-be.-crazy.-1980.-hdrip.-xvi-d.-b-4-nd-1-t-69/The.Gods.Must.Be.Crazy.1980.HDRip.XviD.B4ND1T69.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo8fRfjMCydTBBdFOk8cstgUX-dXed2LjVqRgR8zI9vEuY6XsDAeuF66wt&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The.Gods.Must.Be.Crazy.1984.srt",
@@ -1117,6 +1263,7 @@
     },
     {   
       title: "The Gods Must Be Crazy 2(1989)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710008.ca.archive.org/0/items/Popcornarchive-theGodsMustBeCrazy21989/Popcornarchive-theGodsMustBeCrazy21989.mp4",
       thumb: "https://californiaherps.com/films/filmimages/godsmustbecrazyII.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The%20Gods%20Must%20Be%20Crazy%20II%20(1989).srt",
@@ -1124,6 +1271,7 @@
     },
     {
       title: "The Gods Must Be Crazy3(1991)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn721605.ca.archive.org/0/items/GodsMustBeCrazy3CrazySafari/Gods%20Must%20Be%20Crazy%203%20-%20Crazy%20Safari.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrMugptVH1zegCveYbzUmrUjwCsbBq7WONVTls1B0gHkbv5N61zrT-S5k&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1131,6 +1279,7 @@
     },
     {
       title: "The Gods Must Be Crazy4(1993)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710902.ca.archive.org/0/items/GodsMustBeCrazy4CrazyHongKong/Gods%20Must%20Be%20Crazy%204%20-%20Crazy%20Hong%20Kong.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvenMPjU-a11MY4NMbFEKL_UKHXxJMvW7w9awMlQqPQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1138,6 +1287,7 @@
     },
 {
     title: "Grown Ups (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/grown-ups-2010-720p-blu-ray-yts.-mx/Grown%20Ups%20%282010%29/Grown.Ups.2010.720p.BrRip.x264.BOKUTOX.YIFY.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0JBrEauOJbhLJ9elSEtlqB16WrUf4mdjdPwbHsPLbGQ&s=10",
     subtitle: "https://archive.org/download/grown-ups-2010-720p-blu-ray-yts.-mx/Grown%20Ups%20%282010%29/Grown.Ups.2010.720p.BrRip.x264.BOKUTOX.YIFY.srt",
@@ -1145,6 +1295,7 @@
   },
   {
     title: "Grown Ups 2 (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/grown-ups-2-2013-720p-blu-ray-yts.-mx_20231030/Grown%20Ups%202%20%282013%29/Grown.Ups.2.2013.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQeDV1wQPQZLIeL9bR7ytw9CxESgp8aB8yk_XyvmD6Qg&s=10",
     subtitle: "https://archive.org/download/grown-ups-2010-720p-blu-ray-yts.-mx/Grown%20Ups%20%282010%29/Grown.Ups.2010.720p.BrRip.x264.BOKUTOX.YIFY.srt",
@@ -1152,6 +1303,7 @@
   },
  {
     title: "Bad Teacher (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/bad.-teacher.-2011.1080p.-blu-ray.x-264-yts.-am_202608/Bad.Teacher.2011.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://www.dvd-covers.org/d/275642-2/Copy_of_Bad_Teacher_Blu-Ray_Cover_2011.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1159,6 +1311,7 @@
   },
   {
     title: "Happy Gilmore (1996)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Happy%20Gilmore%20%281996%29%20%5B1080p%5D%20%5BBluRay%5D%20%5B5.1%5D%20%5BYTS.MX%5D/Happy.Gilmore.1996.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://m.media-amazon.com/images/I/71XbqC0fGTL._AC_UF894,1000_QL80_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1166,6 +1319,7 @@
   },
   {
     title: "Big Daddy (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Big%20Daddy%20%281999%29%20%5B1080p%5D%20%5BYTS.AG%5D/Big.Daddy.1999.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "https://postermemorabilia.com/cdn/shop/products/big_daddy_1_5250x.jpg?v=1594506449",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1173,6 +1327,7 @@
   },
   {
     title: "Freaky Friday (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mean.-girls.-2024.720p.-blu-ray.x-264.-aac-yts.-mx/Freaky.Friday.2003.720p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ct5lREobqzXh33U-TTVRiHVAYaehBExsWqqsdd8xjA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1180,6 +1335,7 @@
   },
   {
     title: "Mean Girls (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mean.-girls.-2024.720p.-blu-ray.x-264.-aac-yts.-mx/Mean.Girls.2004.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/49204045/r/il/936b93/5932164374/il_fullxfull.5932164374_9sx8.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1187,6 +1343,7 @@
   },
   {
     title: "Mean Girls 2 (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mean.-girls.-2024.720p.-blu-ray.x-264.-aac-yts.-mx/Mean.Girls.2.2011.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://m.media-amazon.com/images/S/pv-target-images/d2ede638147dd29496e046b392620700d4747741ac56ea191ae289c873a7ab87.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1194,6 +1351,7 @@
   },
   {
     title: "Mean Girls (2024)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mean.-girls.-2024.720p.-blu-ray.x-264.-aac-yts.-mx/Mean.Girls.2024.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://chssphinx.com/wp-content/uploads/2024/02/estreno-mean-girls-musical-critica-1024x683-1.webp",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1202,6 +1360,7 @@
 
   {
     title: "White Chicks (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/white.-chicks.-2004.1080p.-webrip.x-264-yts.-am/White.Chicks.2004.1080p.WEBRip.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://resizing.flixster.com/LQZxAPtD0re7YXCWW4NdF7kw1wE=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34622_v_h8_ad.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1209,6 +1368,7 @@
   },
    {
     title: "Ronald The Barbarian (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ronal-barbaren-2011-720p-blu-ray-yts.-mx/Ronal.Barbaren.2011.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLsvd-Bcgll9O4prS6pkCHTIO92r5dAF5oQO1p85RROA&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1216,6 +1376,7 @@
   },
   {
     title:"The Pursuit Of Happyness (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721602.ca.archive.org/0/items/Popcornarchive-thePursuitOfHappyness2006/Popcornarchive-thePursuitOfHappyness2006.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMX0GJoM28Iur0o1cFDPcGrMThxW8cm7nHcIv3B2i4A&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1223,6 +1384,7 @@
   },
  {
     title: "Badlands (Malas Tierras) (1973)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/badlands-malas-tierras-1973-terrence-malick-spa/Badlands%20%28Malas%20tierras%29%201973%2C%20Terrence%20Malick%20%20SPA.mp4",
     thumb: "http://cartelesmix.es/images/CartelesM/malastierras73004.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1231,6 +1393,7 @@
   
  {
     title: "Enter The Dragon (1973)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/enter-the-dragon-1973_202409/ENTER%20THE%20DRAGON%20%20%281973%29.mp4",
     thumb: "https://filmartgallery.com/cdn/shop/files/Enter-the-Dragon-Vintage-Movie-Poster-Original_c1eb11aa_2000x.jpg?v=1741754058",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1238,6 +1401,7 @@
   },
 {
     title: "Game Of Death (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/game.of.-death.-1978.-criterion.-1080p.-blu-ray.x-265-rarbg/Game.of.Death.1978.CRITERION.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://cdn.posteritati.com/posters/000/000/001/957/the-game-of-death-md-web.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1245,6 +1409,7 @@
   },
 {
     title: "Bruce Lee The Curse Of The Dragon (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/bruce-lee-the-curse-of-the-dragon-1993/Bruce%20Lee%20The%20Curse%20of%20the%20Dragon%20%281993%29.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images2/1/0816/26/dragon-bruce-lee-story-1993-one-sheet_1_729bccf23e005f3cb38d00e2e521525a.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1252,6 +1417,7 @@
   },
   {
     title: "Operation Condor",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/armour-of-god-operation-condor/3.%20Operation%20Condor.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPJPC2o1DMm-bWXyrb11SREqKolcEGXX1Qnu70vWeew&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1259,6 +1425,7 @@
   },
   {
     title: "Armour Of God (1987)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Armour.Of.God.1987.DVDRiP/Armour.Of.God.1987.DVDRiP.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMvnsl9dDyd-RyFuAlmeHRelYEeiXSqFO4f2hPg6kvnw&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1266,6 +1433,7 @@
   },
   {
     title: "Jackie Chan Strange Film Show",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/jackie-chan-strange-film-show/Jackie%20Chan%20Strange%20Film%20Show.mp4",
     thumb: "https://vhx.imgix.net/criterionchannelchartersu/assets/249b1b69-a5ea-4a81-864c-94520d112c93-1779f526.jpg?auto=format,compress&fit=crop&h=360&q=70&w=640",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1273,6 +1441,7 @@
   },
   {
     title: "1 Drunken Master(1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia800502.us.archive.org/23/items/drunken-master-1-and-2-geekjuicemedia/1.%20Drunken%20Master%20%E9%86%89%E6%8B%B3%201978%20%28GeekJuiceMedia%29%20%5BENG%20DUB%5D.mp4",
     thumb: "https://pic.bstarstatic.com/ugc/f794a812fe6bf19ab5c3050dcc500920.jpg@320w_180h_1e_1c_90q",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1280,6 +1449,7 @@
   },
   {
     title: "3 Drunken Master 2 [cinemascope] (GeekJuiceMedia)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia600502.us.archive.org/23/items/drunken-master-1-and-2-geekjuicemedia/3.%20Drunken%20Master%202%20%5Bcinemascope%5D%20%28GeekJuiceMedia%29.mp4",
     thumb: "https://i.ebayimg.com/images/g/Ms8AAMXQxU9R8Bj5/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1287,6 +1457,7 @@
   },
   {
     title: "1 Enter The Fat Dragon (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia600609.us.archive.org/23/items/Enter-the-fat-dragon-1978-english-dub-and-subtitles/1.%20Enter%20The%20Fat%20Dragon%20%281978%20English%20dub%29.mp4",
     thumb: "https://1.bp.blogspot.com/-VcOZz7ho-vI/Xm_2EIhBlNI/AAAAAAAAZXA/FgnEc6U1sn0A-KngmKwm1jDuIsKH_RcRgCLcBGAsYHQ/w1200-h630-p-k-no-nu/Enter+the+Fat+Dragon+1978.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1294,6 +1465,7 @@
   },
   {
     title: "Rush Hour (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rush.-hour.-2.2001.1080p.-blu-ray.x-264.-yify_202306/Rush%20Hour%20%281998%29%201080p%20Hevc%20bluury%20.mp4",
     thumb: "https://i.etsystatic.com/61579341/r/il/127d15/7328191846/il_1080xN.7328191846_b7x9.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1301,6 +1473,7 @@
   },
   {
     title: "Rush Hour 2 (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rush.-hour.-2.2001.1080p.-blu-ray.x-264.-yify_202306/Rush.Hour.2.2001.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://www.chisholm-poster.com/enlarge/CL85579.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1308,6 +1481,7 @@
   },
   {
     title: "Rush Hour 3 (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rush.-hour.-2.2001.1080p.-blu-ray.x-264.-yify_202306/Rush%20Hour%203%20%282007%29%201080P%20Hevc%20Bluury.mp4",
     thumb: "https://ntvb.tmsimg.com/assets/p166593_v_h8_az.jpg?w=960&h=540",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1316,6 +1490,7 @@
 
   {
     title: "New Police Story",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/new-police-story_202409/NEW_POLICE_STORY.mp4",
     thumb: "https://image.airtel.tv/HUNGAMA/HUNGAMA_MOVIE_83850699/LANDSCAPE_169/83850699_1280x720.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1323,6 +1498,7 @@
   },
   {
     title: "Jackie Chan's Mr Nice Guy (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/JackieChansMr.NiceGuy1997DVDRip/Jackie%20Chan%27s%20Mr.Nice%20Guy%20%5B1997%5D%20-%20DVDRip.mp4",
     thumb: "https://i.ebayimg.com/images/g/6-0AAOSwf51glCEH/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1330,6 +1506,7 @@
   },
   {
     title: "Rumble In The Bronx (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rumble-in-the-bronx-1995_202408/Rumble.In.The.Bronx.1995.DUBBED.1080p.BluRay.H264.AAC-RARBG%20-%20800p.mp4",
     thumb: "https://moviepostersaustralia.com/cdn/shop/files/RumbleintheBronx_1995_AusOneSheetVFconditionbottomofposter.webp?v=1759192397&width=720",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1337,6 +1514,7 @@
   },
 {
     title: "The Medallion (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/never-say-never-again-fan-edit-2026/Never%20Say%20Never%20Again%20%28Final%202026%29%20HB%20.mp4https://archive.org/download/the.-medallion.-2003.1080p.-blu-ray.x-264.-aac-yts.-mx/The.Medallion.2003.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://i.ytimg.com/vi/59LevcVDmMQ/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1344,6 +1522,7 @@
   },
   {
     title: "007: Dr No (1962)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/1962-007-dr.-no_202503/%5B1962%5D%20007%20-%20DR.%20NO.mp4",
     thumb: "https://4.bp.blogspot.com/_7J_WGI7Jygw/S736i4XxnHI/AAAAAAAAFD4/krSo7h66ez4/s1600/Dr.+No+Lobby+Set+01+004.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1351,6 +1530,7 @@
   }, 
   {
     title: "007:From Russia With Love (1963)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/from.-russia.-with.-love.-1963.720p.-blu-ray.x-264.-ac-3-ozlem/007%20%282%29%20-%20From%20Russia%20With%20Love%20%5B1963%5D%20%28720p%29/From.Russia.With.Love.1963.720p.BluRay.x264.AC3-Ozlem.mp4",
     thumb: "https://www.originalfilmart.com/cdn/shop/products/from_russia_with_love_1963_italian_linen_original_film_art_f_1800x.jpg?v=1633635742",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1358,6 +1538,7 @@
   },
   {
     title: "007:Goldfinger (1964)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/goldfinger-1964-720p-blu-ray-yts.-mx/Goldfinger%20%281964%29%20%5BBluRay%5D%20%5B720p%5D%20%5BYTS.AM%5D/Goldfinger.1964.720p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://i.pinimg.com/originals/01/d0/90/01d0904389c1e03bbf2532959b3b3df3.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1365,6 +1546,7 @@
   },
   {
     title: "007:Thunderball(1965)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/thunderball_202501/Thunderball.mp4",
     thumb: "https://www.filmposters.com/images/posters/22809.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1372,6 +1554,7 @@
   },
   {
     title: "007: Contra A Chantagem Atmica Thunderball (1965)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/thunderball-1965-official-trailer-sean-connery-james-bond-movie-hd/1965%20-%20007%20CONTRA%20A%20CHANTAGEM%20AT%C3%94MICA%20-%20%20Thunderball.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMjhkYWE0ZjMtODQzNi00Y2YyLTkyYzQtNzA0ZTg0ZThkOGYwXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1379,6 +1562,7 @@
   },
   {
     title: "007:You Only Live Twice (1967)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/you-only-live-twice-1967/You_Only_Live_Twice_%281967%29.mp4",
     thumb: "https://bleedingcool.com/wp-content/uploads/2020/07/you-only-live-twice-poster-1200x900.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1386,6 +1570,7 @@
   },
   {
     title: "007:James Bond On Her Majesty's Secret Service (1969)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/007.-james.-bond.-on.-her.-majestys.-secret.-service.-1969.1080p.-blu-ray.x-264.-ac-3-ozlem/007.James.Bond.On.Her.Majesty%27s.Secret.Service.1969.1080p.BluRay.x264.AC3-Ozlem.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2025/02/IMG_9426-2048x1527.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1393,6 +1578,7 @@
   },
  {
     title: "James Bond GoldenEye (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/James.Bond.GoldenEye.1995.1080p.BRrip.x264.YIFY.mp4",
     thumb: "https://www.007.com/wp-content/uploads/2020/08/GE-1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1400,6 +1586,7 @@
   },
   {
     title: "Skyfall (2012)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/skyfall.-2012.720p.-br-rip.x-264.-yify/Skyfall.2012.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMTk4NTQ1Mzc1NV5BMl5BanBnXkFtZTgwODQ2NzA0NDE@._V1_.jpg",
     subtitle: "https://archive.org/download/skyfall.-2012.720p.-br-rip.x-264.-yify/Skyfall.2012.720p.BrRip.x264.YIFY.srt",
@@ -1408,6 +1595,7 @@
   
    {
       title: "Where Eagles Dare 1968",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Where_Eagles_Dare_poster.jpg/250px-Where_Eagles_Dare_poster.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/whereEaglesDare.srt",
@@ -1415,6 +1603,7 @@
     },
     {
       title: "The Bridge on the River Kwai (1957)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-bridge-on-the-river-kwai-1957_202511/The%20Bridge%20on%20the%20River%20Kwai%20%281957%29/The%20Bridge%20on%20the%20River%20Kwai%20-%201957.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgQ-1fJjQ3nLMORW5Ek8NG08zyzqdxPLUwh7PM30eBkgDk1E6nF3y1LYOj&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1422,6 +1611,7 @@
     },
     {
       title: "Guns of Neverone(1961)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia801704.us.archive.org/34/items/the-guns-of-navarone-1961_202511/The%20Guns%20of%20Navarone%20%281961%29/mp4/The%20Guns%20of%20Navarone%20-%201961.mp4",
       thumb: "https://i.etsystatic.com/55580460/r/il/647ba1/7051860689/il_794xN.7051860689_8lvv.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1429,6 +1619,7 @@
     },
     {
       title: "Lawrence of Arabia (1962)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia600902.us.archive.org/35/items/some-of-the-best-movies-ever-produced/Lawrence%20of%20Arabia%2C%20by%20David%20Lean%20%281962%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKiI7DHI4TxS-Fmr577LQTwJ5qrC7ZXG8KAAEJyDxofA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1436,6 +1627,7 @@
     },
       {
     title: "Journey To The Center Of The Earth (1959)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/journey.to.the.-center.of.the.-earth.-1959/Journey%20to%20the%20Center%20of%20the%20Earth%20%281959%29/Journey.to.the.Center.of.the.Earth.1959.mp4",
     thumb: "https://dyn1.heritagestatic.com/lf?set=path[2/9/6/7/8/29678850]&call=url[file:product.chain]",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1443,6 +1635,7 @@
   },
     {
       title: "King Solomons Mines 1985",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2001%20-%20King%20Solomons%20Mines.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHzX_3cDkY_m9eXrzjd1EKGNoIwPqByUzcLcdrRaJKcA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/King.Solomons.Mines.1985.en.srt",
@@ -1450,6 +1643,7 @@
     },
     {
       title: "Allan Quatermain The Lost City of Gold 1986",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia801700.us.archive.org/23/items/alan-quatermain-films-1985-1986/Allan%20Quatermain%20-%2002%20-%20The%20Lost%20City%20of%20Gold.mp4",
       thumb: "https://shatpod.com/movies/wp-content/uploads/Lost-City-Of-Gold-Movie-Poster-1987.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/AllanQuatermainAndtheLostCityofGold1986.srt",
@@ -1457,6 +1651,7 @@
     },
     {
       title: "Romancing the stone 1984",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/romancing-the-stone-1984-directed-by-robert-zemeckis/asa-%F0%9F%8E%A5%F0%9F%93%BD%F0%9F%8E%AC-romancing-the-stone-1984-directed-by-robert-zemeckis-with-michael-douglas-kathleen-turner-danny-devito-alfonso-arau-givefastlink.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/d0daf9f102b78e731fb2c1f6444fc15fdf09fe37b3ec806745d87be5e5918f2a.jpg",
 	    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/RomancingtheStone(1984).srt",
@@ -1464,6 +1659,7 @@
     },
     {
       title: "The. Jewel Of The Nile 1985",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/s-the.-jewel.-of.-the.-nile.-1985/S-The.Jewel.Of.The.Nile.1985.mp4",
       thumb: "https://image.tmdb.org/t/p/original/og5qj3KTctBLer1oktVbyIN5zrt.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/TheJewelof%20theNile(1985).srt",
@@ -1471,6 +1667,7 @@
     },
  {
     title: "Mad Max (1979)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mad.-max.-1979.1080p.-blu-ray.x-265-rarbg/Mad.Max.1979.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kv0brmWhS5VrwRGHvnZ-WLhQnE6AY7qF2srmGWwrYw&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1478,6 +1675,7 @@
   },
     {
       title: "The Pink Panther 1963",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/ThePink.Panther1963/The%20Pink.%20Panther%201963.mp4",
       thumb: "https://i.ytimg.com/vi/R4amWTwO1GM/maxresdefault.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1485,6 +1683,7 @@
     },    
     {
       title: "Jason and the Argonauts",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/jason-and-the-argonauts-1963/Jason%20and%20the%20Argonauts%20%281963%29.m4v",
       thumb: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Jason_and_the_argounauts.jpg/250px-Jason_and_the_argounauts.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1492,6 +1691,7 @@
     },
     {
       title: "Captain Sindbad (1963)",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/Captain.Sindbad.1963.DVDRip/Captain.Sindbad.1963.DVDRip.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/069507013f9eab7830db9174291bdcfb32555b009f1858566aec1f60ec734b90.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1499,6 +1699,7 @@
     },
     {
       title: "The Golden Voyage Of Sinbad 1973",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/1973-the.-golden.-voyage.-of.-sinbad.-1973.i-nternal.-bdrip.x-264-li-brari-ans.mkv/1973%20The.Golden.Voyage.Of.Sinbad.1973.iNTERNAL.BDRip.x264-LiBRARiANS.mkv.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BZYvTwk4ygu7J_jqcDi6MiYo7shKNz2xkOAXCtSIjg&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1506,6 +1707,7 @@
     },
     {
       title: "Sinbad And The Eye Of The Tiger 1977",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/sinbad-and-the-eye-of-the-tiger-1977/Sinbad%20and%20the%20Eye%20of%20the%20Tiger%20%281977%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7DY2_q1XxdJzbQS7M3lOIDmVhtQRY-_ciMZqPbDX5w&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1513,6 +1715,7 @@
     },
     {
       title: "The 7th Voyage Of Sinbad 1958",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the.-7th.-voyage.-of.-sinbad.-1958.-remastered.-1080p.-blu-ray.-h-264.-aac-rarbg/The.7th.Voyage.Of.Sinbad.1958.REMASTERED.1080p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0yvGKLe9vYUf9gDs4ujHmyUy0wg-1wCuocd_1LzJuA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1520,6 +1723,7 @@
     },
     {
       title: "Sandokan The Great 1963",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.mkv",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
       subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.srt",
@@ -1527,6 +1731,7 @@
     },
     {
       title: "Cleopatra 1963",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn760104.eu.archive.org/0/items/cleopatra-1963_202511/Cleopatra%20%281963%29/Cleopatra%20-%201963.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1534,6 +1739,7 @@
     },
     {
       title: "5 Men Army 1969",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/1969-un-esercito-di-5-uomini-ext/%5B1969%5D%20Un%20Esercito%20di%205%20Uomini%20%28ext%29.mp4",
       thumb: "https://tobrien10.wordpress.com/wp-content/uploads/2018/10/the-five-man-army.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1541,6 +1747,7 @@
     },
     {
       title: "Mackenna's Gold 1969",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/mackennas-gold-1969-bg-sub/Mackenna%27s%20Gold%281969%29%20bg%20sub.mp4",
       thumb: "https://i.ytimg.com/vi/vRnzCQLZJoM/mqdefault.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1548,6 +1755,7 @@
     },
     {
       title: "The Poseidon Adventure 1972",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-poseidon-adventure-1972_202511/The%20Poseidon%20Adventure%20%281972%29/The%20Poseidon%20Adventure%20-%201972.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas0u5_16tiHCGxNWFYXeQzu7oHKqkbmou0We62WzRmw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1555,6 +1763,7 @@
     },
     {
       title: "Soylent Green 1973",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/soylent-green-1973_202512/Soylent%20Green%20%281973%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pNBZJqwHDhz2E8RJ0RSi8tSepgKfnUgXvcO5O32ufQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1562,6 +1771,7 @@
     },
    {
       title: "Planet of the Apes",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "http://www.deadlyblogger.com/NewRelease/apes1.mp4",
       thumb: "https://www.filmsite.org/featured/movie-fr-planetofapes.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1569,6 +1779,7 @@
     },
     {
       title: "Logan's Run 1976",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/logan.is.-run.-1976.720p.-blu-ray.-h-264.-aac-rarbg/Logan.is.Run.1976.720p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSgShhZ3lxwki8d4orFHucGiH3Fu3uAPEzuYh7LGuCl-M1fir8IU7lDM&s=10",
       subtitle: "https://archive.org/download/logan.is.-run.-1976.720p.-blu-ray.-h-264.-aac-rarbg/Logan.is.Run.1976.720p.BluRay.H264.AAC-RARBG.en.srt",
@@ -1589,6 +1800,7 @@
     },
     {
       title: "Maya 1966",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/maya-1966-o-vale-dos-tigres-cover-dvd/1966%20-%20Maya%20-%20O%20Vale%20dos%20Tigres.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl1eKMehM2IRQ8kIwoRovg805lGdqY9IpG0GhWWivlQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1597,6 +1809,7 @@
     },
     {
       title: "Breakfast At Tiffanys 1961",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/breakfast-at-tiffanys-1961_202508/Breakfast%20at%20Tiffany%27s%20%281961%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROx7IwqAiW_GcnMuQgEI2et-dZP_KGBxk0hIxPY5zPrA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1604,6 +1817,7 @@
     },
     {
       title: "Doctor Zhivago 1965",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "archive.org/download/some-of-the-best-movies-ever-produced/Doctor%20Zhivago%2C%20by%20David%20Lean%20%281965%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLcuwOWoeW8cpysKVMk8_254MtVjanP7OjuGcM2EWvQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1611,6 +1825,7 @@
     },
     {
       title: "Edward Scissorhands 1990",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/edward.-scissorhands.-1990.1080p.-br-rip.x-264.-yify/Edward.Scissorhands.1990.1080p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOqMv9Q5bqv5AV1PUkkNhBUuEJiMy8pRWbGEMNHe_vA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1619,6 +1834,7 @@
 
     {
       title: "Big Trouble In Little China 1986",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/big-trouble-little-china/Big%20Trouble%20In%20Little%20China%20720p.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1iz342MTgd5TQyD2aqky8eTQ8zYmbynsJveD6rd2ht0aXjnSwC4Z6Ybal&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1626,6 +1842,7 @@
     },
  {
     title: "Fright Night (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/fright.-night.-1985.1080p.-blu-ray.x-264-yts.-ag/Fright.Night.1985.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "https://a.1stdibscdn.com/fright-night-british-uk-film-poster-1985-peter-mueller-rolled-for-sale/366869/f_170441511574869012889/Fright_Night_1985_UK_Quad_Film_Poster_org_master.jpg?disable=upscale&auto=webp&quality=60&width=1400",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1633,6 +1850,7 @@
   },
     {
       title: "Silver Bullet 1985",
+      AspectRatio: "squeeze", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn721809.ca.archive.org/0/items/Popcornarchive-silverBullet1985/Popcornarchive-silverBullet1985.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uXoBqfpdH3qWpsDQrWPWlCMm4W5uhiHm9fOJsyPDfw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1640,6 +1858,7 @@
     },
     {
       title: "TrueLies 1994",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/true-lies-1994-d-theater/True%20Lies%20%281994%29%20%5BD-Theater%5D.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/7f1febf752aba2f8e392247717048c68eb8d64f5a05ddcae893f039d6383c164.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1647,6 +1866,7 @@
     },
 {
     title: "Terminator(1984) Tuhoaja (vhs)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/terminator-tuhoaja/Terminator%20-%20tuhoaja%20%28VHS%29.mp4",
     thumb: "https://i.pinimg.com/originals/0c/53/16/0c5316ff572dcac441f7f685f403d7b5.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1654,6 +1874,7 @@
   },
     {
       title: "Terminator2 1991",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/terminator.-2.-judgement.-day.-1991.-extended.-remastered.-720p.-blu-ray.-h-264._202605/Terminator.2.Judgement.Day.1991.Extended.REMASTERED.720p.BluRay.H264.AAC.READ.NFO-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZwRVi42zinrqJfEsgih_l521p6ZgqbNVW7rGbQDvfw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1661,6 +1882,7 @@
     },
     {
       title: "Total Recall 1990",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn600303.us.archive.org/0/items/total.-recall.-mind.-bending.-edition.-1990.720p.-blu-ray.x-264.-yify_202408/Total.Recall.Mind.Bending.Edition.1990.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMGtwVe0oRUaHJhJvgC9ZSFdcJzuiNT18Ml2hWgtetxw&s",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/hiTotal Recall 1990 1080p Bluray x265 10Bit AAC 5.1 - GetSchwifty.srt",
@@ -1668,6 +1890,7 @@
     },
     {
       title: "Alien 1979",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/alien-1979._202103/Alien%281979%29..mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFaNa0VmxRzl5rU0EK6GRaROOIQxZDsG9JUWD-TvKPJA&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1675,6 +1898,7 @@
     },
     {
       title: "Aliens 1986",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/alien-1979._202103/Aliens%201986.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgpNj1H1KT1AzNzo04dcrz06oIELg5eFKNSsuJVajPd-dCP2fxYGdGsnU&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1682,12 +1906,14 @@
     },
     {
       title: "Aliens3 1992",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/alien-1979._202103/Alien%C2%B3%281992%29..mp4",
       thumb: "https://i.ytimg.com/vi/KUTaNMJJBa8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFGK6kdPTr83J9OaATf_viyJTxZw",
        category: "Sci-Fi"
     },
     {
       title: "Aliens Resurrection 1997",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/alien-1979._202103/Alien%20Resurrection%281997%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBp7Pvn17MpovhTz8H0fmvVQ039_nAOaAMHWKjooUcsUkgtOt5Lq2Tsp1&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1695,6 +1921,7 @@
     },
     {
       title: "Abyss 1989",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the.-abyss.-1989.1080p.-webrip.x-264.-aac-5.1-yts.-mx/The.Abyss.1989.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsI4iWy-i3Tc_SWawnvcpQWlxwj7qHfvNGINr46UU6g&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1702,6 +1929,7 @@
     },
  {
       title: "RoboCop 1987",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/robocop-1987_202311/Robocop%201987.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDFdIHUzXVRa2O9CaLGWXKIjYdyi18eLz0GzRv2NS0ASq0inlJZmCpSF-&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1709,6 +1937,7 @@
     },
     {
       title: "RoboCop2 1990",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKrF2GUw134lA1prcgpdU0qkyDG9vkllmMovY-4xy633O87KztwYzKOe8&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1716,6 +1945,7 @@
     },
     {
       title: "RoboCop3 1993",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/robocop-1987_202311/Robocop%203.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/0ed3f3c58d1c129e564760b4cf0cfd44daf5bdf66f72b25fb323f7fbe37a9580.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1723,6 +1953,7 @@
     },
     {
       title: "Robocop 2014",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/robocop-1987_202311/Robocop%202014.mp4",
       thumb: "https://i.ytimg.com/vi/XRMh0V8DBv0/mqdefault.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1730,6 +1961,7 @@
     },
 {
     title: "Short Circuit (1986)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/short.-circuit.-1986.1080p.-br-rip.x-264.-yify/Short.Circuit.1986.1080p.BrRip.x264.YIFY.mp4",
     thumb: "https://www.simondwyer.com/files/short-circuit-15093.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1737,6 +1969,7 @@
   },
  {
     title: "Short Circuit 2 (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/short.-circuit.-2.1988.1080p.-blu-ray.x-264.-aac-yts.-mx/Short.Circuit.2.1988.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://m.media-amazon.com/images/S/pv-target-images/14202ca5fc3243bba44a864c98c58c23afd7bfb81209bdd7432b381a786d4124.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1744,6 +1977,7 @@
   },
 {
     title: "Real Steel (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/real.-steel.-2011.1080p.-blu-ray.x-264.-yify/Real.Steel.2011.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMTMzMDIwNDc3Nl5BMl5BanBnXkFtZTcwNjgxNTcxNw@@._V1_FMjpg_UX1000_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1751,6 +1985,7 @@
   },
   {
     title: "Extreme Ops",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721405.ca.archive.org/0/items/EXTREMEOPS/EXTREMEOPS.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/extreme-ops-cinema-quad-movie-poster-_1.jpg?v=1730178119&width=1445",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1758,6 +1993,7 @@
   },
   {
     title: "Gooby",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Gooby/Gooby.mp4",
     thumb: "https://www.filmvandaag.nl/api/og-image/movie/8823-gooby.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1765,6 +2001,7 @@
   },
   {
     title: "Reptilicus (1961)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/reptilicus.-1961.1080p.-blu-ray.-h-264.-aac-rarbg/Reptilicus.1961.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BZWRlM2QwN2UtODQyMi00Yjk0LWIxYmQtMGI5NTFjNjBkMmUwXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1772,6 +2009,7 @@
   },
   {
     title: "Jurassic Park(1993)Low",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/jurassic-park_202405/JURASSIC_PARK.mp4",
     thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ccefbec-c048-49be-b9e6-e6b55bc6861d/ddpzrf8-bb905cfb-71f9-41ef-8828-e1c7beb83ae8.jpg/v1/fill/w_1920,h_2560,q_75,strp/jurassic_park_1993_poster_in_retro_style_by_deepthinker121_ddpzrf8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjY2VmYmVjLWMwNDgtNDliZS1iOWU2LWU2YjU1YmM2ODYxZFwvZGRwenJmOC1iYjkwNWNmYi03MWY5LTQxZWYtODgyOC1lMWM3YmViODNhZTguanBnIiwiaGVpZ2h0IjoiPD0yNTYwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvN2NjZWZiZWMtYzA0OC00OWJlLWI5ZTYtZTZiNTViYzY4NjFkXC9kZWVwdGhpbmtlcjEyMS00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.pGylvZOOgrsWGaOWza7eXX1gPVU--Nr6mnpO5yVp9yE",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1779,6 +2017,7 @@
   },
  {
     title: "Jurassic Park (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Jurassic%20Park%20%281993%29%20%5B1080p%5D/Jurassic.Park.1993.1080p.BRrip.x264.YIFY.mp4",
     thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ccefbec-c048-49be-b9e6-e6b55bc6861d/ddpzrf8-bb905cfb-71f9-41ef-8828-e1c7beb83ae8.jpg/v1/fill/w_1920,h_2560,q_75,strp/jurassic_park_1993_poster_in_retro_style_by_deepthinker121_ddpzrf8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjY2VmYmVjLWMwNDgtNDliZS1iOWU2LWU2YjU1YmM2ODYxZFwvZGRwenJmOC1iYjkwNWNmYi03MWY5LTQxZWYtODgyOC1lMWM3YmViODNhZTguanBnIiwiaGVpZ2h0IjoiPD0yNTYwIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvN2NjZWZiZWMtYzA0OC00OWJlLWI5ZTYtZTZiNTViYzY4NjFkXC9kZWVwdGhpbmtlcjEyMS00LnBuZyIsIm9wYWNpdHkiOjk1LCJwcm9wb3J0aW9ucyI6MC40NSwiZ3Jhdml0eSI6ImNlbnRlciJ9fQ.pGylvZOOgrsWGaOWza7eXX1gPVU--Nr6mnpO5yVp9yE",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Jurassic.Park.1993.1080p.BRrip.x264.YIFY.srt",
@@ -1786,6 +2025,7 @@
   },
   {
     title: "Jurassic Park Ii The Lost World (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Jurassic%20Park%20The%20Lost%20World%20%281997%29%20%5B1080p%5D/Jurassic.Park.II.The.Lost.World.1997.1080p.BRrip.x264.YIFY.mp4",
     thumb: "https://i.ebayimg.com/images/g/-zMAAOSwGqtjxsym/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Jurassic.Park.II.The.Lost.World.1997.1080p.BRrip.x264.YIFY.srt",
@@ -1793,6 +2033,7 @@
   },
   {
     title: "Jurassic Park III (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/big-daddy-1999-1080p-blu-ray-yts.-mx/Jurassic%20Park%20III%20%282001%29%20%5B1080p%5D/Jurassic.Park.III.2001.1080p.BRrip.x264.YIFY.mp4",
     thumb: "https://image.tmdb.org/t/p/original/6pCF09FuXaDCZ8SNdYahgmN7to6.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Jurassic.Park.III.2001.1080p.BRrip.x264.YIFY.srt",
@@ -1800,6 +2041,7 @@
   },
   {
     title: "Komodo (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/komodo-1999_202607/Komodo%20%281999%29.mp4",
     thumb: "https://i.servimg.com/u/f33/13/13/61/11/komodo10.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1807,6 +2049,7 @@
   },
   {
     title: "Doom (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/doom_20260117_202601/DOOM.mp4",
     thumb: "https://ntvb.tmsimg.com/assets/p89656_v_h10_aj.jpg?w=1280&h=720",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1814,6 +2057,7 @@
   },
    {
       title: "The Punisher 2004",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the.-punisher.-2004.-extended.-cut.-1080p.-blu-ray.-h-264.-aac-rarbg/The.Punisher.2004.EXTENDED.CUT.1080p.BluRay.H264.AAC-RARBG.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZcDRKpGzFzVP-79kJ3qXxTY2YrSE8qVj6zuMd9gPwag&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1821,6 +2065,7 @@
     },
   {
     title: "Kingsman The Secret Service (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/kingsman.-the.-secret.-service.-2014.720p.-blu-ray.x-264.-yify/Kingsman.The.Secret.Service.2014.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://wallpapers.com/images/hd/kingsman-the-secret-service-action-movie-poster-tmwjxqo98z5j1cqx.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1828,6 +2073,7 @@
   },
 {
     title: "Rambo I (1982)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rambo-iii-1988_202507/rambo-l%20%281982%29.mp4",
     thumb: "https://www.goposter.it/409-thickbox_default/original-poster-rambo-sylvester-stallone-140x200-cm.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1835,6 +2081,7 @@
   },
   {
     title: "Rambo II (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rambo-iii-1988_202507/Rambo-ll%20%281985%29.mp4",
     thumb: "https://www.simondwyer.com/files/rambo-first-blood-ii-12202.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1842,6 +2089,7 @@
   },
   {
     title: "Rambo III (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rambo-iii-1988_202507/Rambo%20III%20%281988%29.mp4",
     thumb: "https://www.mauvais-genres.com/41839-thickbox_default/rambo-iii-movie-poster-adv-47x63-in-1988-sylvester-stallone-richard-crenna.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1849,6 +2097,7 @@
   },
   {
     title: "Rambo Iv (2008)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rambo-iii-1988_202507/Rambo%20IV-4%20%20%282008%29.mp4",
     thumb: "http://pastposters.com/cdn/shop/files/rambo-cinema-quad-movie-poster-_1.jpg?v=1729993413",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1856,6 +2105,7 @@
   },
   {
     title: "Rambo III (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-ramboIii1988/Popcornarchive-ramboIii1988.mp4",
     thumb: "https://media.senscritique.com/media/000011572053/0/popcorn.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1863,6 +2113,7 @@
   },
   {
     title: "Rambo 4",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720409.ca.archive.org/0/items/rambo-4LOL/Rambo_4.mp4",
     thumb: "https://w0.peakpx.com/wallpaper/530/899/HD-wallpaper-rambo-4-stallone-rambo-movie.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1870,6 +2121,7 @@
   },
   {
     title: "Cliffhanger (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/cliffhanger-1993_202309/Cliffhanger%20%281993%29.mp4",
     thumb: "https://images.citiesbox.com/poster5/cliffhanger-1993-ds05-1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1877,6 +2129,7 @@
   },
   {
     title: "The Specialist (1994)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-specialist.-1994.720p.-brrip.x-264.-yify/The.Specialist.1994.720p.BRrip.x264.YIFY.mp4",
     thumb: "https://www.picclickimg.com/zqUAAOSwk4Rc8peF/The-Specialist-Original-VHS-Movie-A3-Poster-Sylvester.webp",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1884,6 +2137,7 @@
   },
   {
     title: "Judge Dredd (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/judge-dredd-1995_202601/Judge%20Dredd%20%281995%29.mp4",
     thumb: "https://www.mauvais-genres.com/23575-thickbox_default/judge-dredd-original-movie-poster-13x30-in-1995-danny-cannon-sylvester-stallone.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1891,6 +2145,7 @@
   },
   {
     title: "Demolition Man (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/demolition.-man.-1993.720p.-brrip.x-264.-yify/Demolition.Man.1993.720p.BRrip.x264.YIFY.mp4",
     thumb: "https://lostislandtc.com/cdn/shop/files/DemolitionMan1993_SMUWall.jpg?v=1742195575&width=1200",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1899,6 +2154,7 @@
   
     {
       title: "Air Force One 1997",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/air.-force.-one.-1997.720p.-brrip.x-264.-yify/Air.Force.One.1997.720p.BRrip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqTijnfaAm0eGP7nM-IJaPE4TEZsA2Otg51pzvVdBlw&s=10",
       subtitle:"https://archive.org/download/air.-force.-one.-1997.720p.-brrip.x-264.-yify/Air.Force.One.1997.720p.BRrip.x264.YIFY.srt",
@@ -1906,6 +2162,7 @@
     },
   {
     title: "Executive Decession 1996",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/06FD4ACB2A8146F0C668A58FCD6315A4408/06FD4ACB2A8146F0C668A58FCD6315A4408.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzV9jB1c1QCiLceyp1pWIjd5rxqBsMltYB52MDduj2Kw&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1913,6 +2170,7 @@
   },
   {
     title: "The Siege (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-siege.-1998.1080p.-blu-ray.x-264.-yify/The.Siege.1998.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT88tUPqT4s-vQAqMckd5v7VaKjgprBxmFvSYP8Ohnu6A&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1920,6 +2178,7 @@
   },
   {
     title: "Bloodsport (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/bloodsport.-1988.1080p.-br-rip.x-264.-yify_202606/Bloodsport.1988.1080p.BrRip.x264.YIFY.mp4",
     thumb: "https://cover.box3.net/newsimg/dvdmov/max1582524306-front-cover.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1927,6 +2186,7 @@
   },
   {
     title: "Lionheart (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/lionheart.-1990.720p.-blu-ray.x-264.-yify-english/Lionheart.1990.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://i.ebayimg.com/thumbs/images/g/Y5cAAOSwPFhgSrdr/s-l500.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1934,6 +2194,7 @@
   },
   {
     title: "Mortal Kombat (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mortal-kombat-1995-film/Mortal%20Kombat%20%281995%29.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images3/1/0123/11/1995-mortal-kombat-one-sheet-movie_1_880fdc37005f9cfce7f8e4877321652a.jpg",
     subtitle: "https://archive.org/download/mortal-kombat-1995-film/Mortal%20Kombat%20%281995%29.srt",
@@ -1941,6 +2202,7 @@
   },
  {
     title: "Mortal Kombat 2 Annihilation (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mortal.-kombat.-2.-annihilation.-1997.720p.-farsi.-golden-fox/Mortal.Kombat.2.Annihilation.1997.720p.Farsi.GoldenFox.mp4",
     thumb: "https://m.media-amazon.com/images/I/41pxbgdzZ6L.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1948,6 +2210,7 @@
   },
   {
     title: "Blade",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/blade_202210/BLADE.mp4",
     thumb: "https://flex-designs.com/cdn/shop/files/FLXPOS00832_01_624afdcd-81c3-435d-b698-b667971a0088.jpg?v=1745473782&width=1206",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1955,6 +2218,7 @@
   },
   {
     title: "Blade2",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/blade-2_202210/BLADE2.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2024/01/IMG_7531-scaled.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1962,6 +2226,7 @@
   },
   {
     title: "Gremlins",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/gremlins_360_202608/gremlins_360.mp4",
     thumb: "https://wallup.net/wp-content/uploads/2017/11/23/506944-Gremlins-digital_art-movies-movie_poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1969,6 +2234,7 @@
   },
   {
     title: "Robin and Marian 1976",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/youtube-sKn_TMOMsY4/sKn_TMOMsY4.webm",
     thumb: "https://static.skillshare.com/uploads/discussion/tmp/1b75ee46.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1977,6 +2243,7 @@
 
     {
       title: "The Fog 1980",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the.-fog.-1980.720p.-blu-ray.x-264.-yify/The%20Fog%20%281980%29/The.Fog.1980.720p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5xZ4zS9iYXH_ISbucq4nm20WOQ8S1m93bw67sHlkt0g&s=10",
       subtitle: "https://archive.org/download/the.-fog.-1980.720p.-blu-ray.x-264.-yify/The%20Fog%20%281980%29/The.Fog.1980.720p.BluRay.x264.YIFY.srt",
@@ -1984,6 +2251,7 @@
     },
     {
       title: "Shinning 1980",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn721904.ca.archive.org/0/items/PopcornArchive-._u7eat/PopcornArchive-._u7eat.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFh404dm8ntHtFAylPdGhOV-CO7M2yBhG44Tvm0NRHPWA73LvKD-BuHGI&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1991,6 +2259,7 @@
     },
 {
       title: "Poltergeist 1982",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia803104.us.archive.org/13/items/poltergeist.-1982/Poltergeist.1982.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnvNzxHX9XWVTk5tnxyIAa30-Q0JFSwsDQxueLWZHJXw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1998,6 +2267,7 @@
     },
   {
     title: "Carrie (1976)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Carrie.1976.720p.BluRay.x264.YIFY_201808/Carrie.1976.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/31615078/r/il/28588d/3342086237/il_fullxfull.3342086237_9bom.jpg",
     subtitle: "https://archive.org/download/Carrie.1976.720p.BluRay.x264.YIFY_201808/Carrie%20%7B1976%7D.srt",
@@ -2005,6 +2275,7 @@
   },
   {
     title: "Ghost Ship",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ghost-ship-720p/Ghost-Ship_720p.mp4",
     thumb: "https://img.wallpapic.com/i7565-945-339/medium/ghost-ship-poster-movie-ocean-wallpaper.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2012,6 +2283,7 @@
   },
 {
     title: "Halloween Iii Season Of The Witch (1996)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/halloween-iii-season-of-the-witch-1996-vhs-rip-4-x-3/HALLOWEEN%20III%20SEASON%20OF%20THE%20WITCH%201996%20VHS%20RIP%204X3.mp4",
     thumb: "https://filmartgallery.com/cdn/shop/files/Halloween-III-3-Season-of-the-Witch-Vintage-Movie-Poster-Original-2.jpg?v=1738914904",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2019,6 +2291,7 @@
   },
   {
     title: "01 Halloween Horror (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/01halloweenhorror1978donaldpleasenceengsubs720ph264mp4/01_Halloween___Horror_1978_Donald_Pleasence_Eng_Subs_720p_H264_mp4.mp4",
     thumb: "https://images.citiesbox.com/poster-dan/halloween-1978-movie-poster-halloween-1978-classic-horror-movie-poster-full-size-poster-ready-to-hang-0.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2027,6 +2300,7 @@
  
   {
     title: "Dracula Prince Of Darkness (1966)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dracula-prince-of-darkness-1966_20240606/Dracula%20Prince%20Of%20Darkness%201966.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images1/1/0415/23/dracula-prince-darkness-original-half_1_c35554c3196b4e423a6cc028d96cc085.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2034,6 +2308,7 @@
   },
   {
     title: "Dead Alive (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dead-alive-1993-unrated-vhs-rip/DEAD%20ALIVE%201993%20UNRATED%20VHS%20RIP.mp4",
     thumb: "https://ntvb.tmsimg.com/assets/p14017_v_h10_ab.jpg?w=1280&h=720",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2041,6 +2316,7 @@
   },
   {
     title: "The Evil Dead Disc 1",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn600300.us.archive.org/0/items/the-evil-dead-ultimate-edition-DVD/THE_EVIL_DEAD_DISC_1.mp4",
     thumb: "https://thumbs.worthpoint.com/zoom/images4/1/0715/26/evil-dead-1981-original-american-one_1_9a8d3435d81ca47c8ab8fe917bac2ac5.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2048,6 +2324,7 @@
   },
   {
     title: "Evil Dead Ii",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/evil-dead-ii_202602/Evil%20Dead%20II.mp4",
     thumb: "https://media.posterlounge.com/img/products/350000/344624/344624_poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2055,6 +2332,7 @@
   },
   {
     title: "EvilDead2",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/evil-dead-2-1987/EvilDead2.mp4",
     thumb: "https://www.teahub.io/photos/full/364-3649092_evil-dead-2-movie-poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2062,6 +2340,7 @@
   },
   {
     title: "Army Of Darkness",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia800703.us.archive.org/25/items/army-of-darkness_202507/ARMY_OF_DARKNESS.mp4",
     thumb: "https://get.wallhere.com/photo/movie-poster-Army-of-Darkness-Ashley-J-Williams-deadite-Deadite-Sheila-necronomicon-Oldsmobile-Delta-88-1877157.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2069,6 +2348,7 @@
   },
   {
     title: "Army Of Darkness (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/army-of-darkness-1992-vhs-rip-1/ARMY%20OF%20DARKNESS%201992%20VHS%20RIP-1.mp4",
     thumb: "https://www.armytimes.com/resizer/My_NhC1dDpuYK6KzHRhr3pcV9Zw=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/VLUJGM6BA5GIBNBOGUEM66RP3A.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2076,6 +2356,7 @@
   },
   {
     title: "The Thirteenth Floor (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-thirteenth.-floor.-1999.1080p.-blu-ray.x-264.-yify/The.Thirteenth.Floor.1999.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuhhxQS_49ssR18jHyisR14vDnAR0vQOsv7lJbOxEGkxOXlz7xSf46-K-NJSUMFeVe0tgK4pN-IM6giKvjz6-t8zM8HbuDoq_UQkm6zM2HrLGn6WZVzydNw3IAKanQBZRWx2ktyis_5Fk/s640/thirteenth-floor-wide.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2083,6 +2364,7 @@
   },
   {
     title: "The Notebook (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-notebook-2004-1080p-blu-rayx-264-aac-ozlem.-179150/The%2BNotebook%2B2004%2B1080p%2BBluRay%2Bx264%2BAAC%2B-%2BOzlem.179150.mp4",
     thumb: "https://dvdcover.com/wp-content/uploads/2017/03/2017-03-30_58dd4841559f2_Notebook-BDCoverScan-700x388.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2090,6 +2372,7 @@
   },
   {
     title: "Fargo (1996)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/fargo-1996_202605/Fargo%20%281996%29.mp4",
     thumb: "http://4.bp.blogspot.com/-_mw3pnFJCEY/Tq8mA0dy1JI/AAAAAAAADMA/zZIB61lHyMk/s716/Fargo-Poster-9.jpg",
     subtitle: "https://archive.org/download/Carrie.1976.720p.BluRay.x264.YIFY_201808/Carrie%20%7B1976%7D.srt",
@@ -2097,6 +2380,7 @@
   },
   {
     title: "Dirty Dozen",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dd_20260705/DD.mp4",
     thumb: "https://i.ytimg.com/vi/RllpOnKHdfY/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2104,6 +2388,7 @@
   },
   {
     title: "2001 A Space Odyssey (1968)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/2001-a-space-odyssey-1968_202407/2001%20A%20Space%20Odyssey%20%281968%29.mp4",
     thumb: "https://c8.alamy.com/comp/C0X0DP/2001-a-space-odyssey-poster-for-1968-mgm-film-directed-by-stanley-C0X0DP.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2111,6 +2396,7 @@
   },
   {
     title: "The Perfect Storm (2000)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-perfect-storm-2000-720p-cm/The%20Perfect%20Storm%20%282000%29%20720p%20%7BCM%7D.mp4",
     thumb: "https://www.vsaauctions.com/ItemImages/000022/22223c_med.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2118,6 +2404,7 @@
   },
   {
     title: "True Romance",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720407.ca.archive.org/0/items/true-romance-quentin-tarantino-cut/True%20Romance.mp4",
     thumb: "https://blackheartprints.com/cdn/shop/files/TrueRomance1993MoviePosterFramed.jpg?v=1689169547",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2125,6 +2412,7 @@
   },
   {
     title: "Sinister Recut",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/sinister-recut-copia/Sinister%20Recut.mp4",
     thumb: "https://m.media-amazon.com/images/I/51NUoqDPg9L.jpg_BO30,255,255,255_UF750,750_SR1910,1000,0,C_QL100_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2132,6 +2420,7 @@
   },
   {
     title: "Sisters (1972)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720003.ca.archive.org/0/items/sisters.-1972.720p.-blu-ray.x-264-838479055489/Sisters.1972.720p.BluRay.x264-838479055489.mp4",
     thumb: "https://i.ebayimg.com/00/s/MTU2MlgxNjAw/z/E20AAOSwnDZT1ARJ/$_1.JPG?set_id=880000500F",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2139,6 +2428,7 @@
   },
   {
     title: "Battle Royale (2000)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn720402.ca.archive.org/0/items/Battle_Royale_2000/Battle%20Royale%202000.mp4",
     thumb: "https://www.mauvais-genres.com/37623-thickbox_default/battle-royale-movie-poster-15x23-in-2000-kinji-fukasaku-takeshi-kitano.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2146,20 +2436,15 @@
   },
   {
     title: "Tv Recut Copia",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/tv-recut/TV%20Recut%20720p%20-%20Copia.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/recruit-cinema-quad-movie-poster-_4.jpg?v=1746785734",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Foreign",
   },
   {
-    title: "Up (2009)",
-    src: "https://archive.org/download/Up.2009.720p.BluRay.x264.YIFY/Up.2009.720p.BluRay.x264.YIFY.mp4",
-    thumb: "https://c8.alamy.com/comp/2JP64Y7/russell-carl-fredricksen-poster-up-2009-2JP64Y7.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Family",
-  },
-  {
     title: "A Brilliant Young Mind (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a.-brilliant.-young.-mind.-2014.1080p.-blu-ray.x-264.-yify/A.Brilliant.Young.Mind.2014.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://ntvb.tmsimg.com/assets/p11520744_v_h10_ae.jpg?w=1280&h=720",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2168,6 +2453,7 @@
 
   {
     title: "Gamer (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/gamer.-2009.720p.-br-rip.x-264.-yify/Gamer.2009.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://s.movieinsider.com/images/p/11326_m1252059678.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2176,6 +2462,7 @@
   
     {
       title: "They Call Me Trinity 1971",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/theycallmetrinity1971/They_Call_Me_Trinity_1971.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD11bQw6GfW5LjCS3XLAK9NaLRPhHaUSmu2DiRlj5nuQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2184,6 +2471,7 @@
 
     {
       title: "El Mariachi 1993",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/el-mariachi-vhs-1993/El%20Mariachi%20VHS%201993.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcoCO67_SIpuM7z6XREMUJ9Kx4r84P2AlMqo_wDglWfw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2191,6 +2479,7 @@
     },
     {
       title: "Desperado 1995",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/desperado.-1995.1080p.-blu-ray.x-264.-yify/Desperado.1995.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuIFNICeUrZrjxefMDe8kiDGnLz3Y_VDSp_g1XDlxxkw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2198,6 +2487,7 @@
     },
     {
       title: "Once upon a time in mexico 2004 VHS",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/once-upon-a-time-in-mexico-vhs-2004/Once%20Upon%20A%20Time%20In%20Mexico%20VHS%202004.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAtztD04hLERUK0Zz3K8h4XR19u4vdbb-6sghSTMiGUQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2205,6 +2495,7 @@
     },
     {
       title: "The Mummy 1999",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/The.Mummy.%281999%29.H265.1080p.DVDRip.EzzRips/The.Mummy.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSZeNzlP2G8HKxVmI2EcDHIAYB5fmNO7o4oxIwmmynQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2213,6 +2504,7 @@
    
     {
       title: "National Treasure Book of Secrets 2007",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY/National.Treasure.Book.of.Secrets.2007.720p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiys5p8VSIyvqJgIkxbkH8AdQ_o005sT9sNjmj_f6nhtenXDdgCFceX8w&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2220,6 +2512,7 @@
     },
     {
       title: "Vertical Limit 2000",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Vertical.Limit.%282000%29.H265.1080p.DVDRip.EzzRips/Vertical.Limit.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfaradMxoriUb63yKZA2wQlmnuTaycy0IbYZdo0oIy_g&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2228,6 +2521,7 @@
   
     {
       title: "Aeroplanes! 1980",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Airplane%21.%281980%29.H265.1080p.DVDRip.EzzRips/Airplane%21.%281980%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://i.ytimg.com/vi/n9MK9F2RZww/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDuXLIBhe1YCyG46EyG-aoctMje9A",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2235,6 +2529,7 @@
     },
     {
       title: "UHF 1989",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/uhf.-1989/UHF%20%281989%29/mp4/UHF.1989.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX3ABbHBA9pJeyqDeMdrKNQmSi9vhkQnUJfDyvSz-hUYB0pGDf-fbGDb0&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2242,6 +2537,7 @@
     },
     {
       title: "Spaceballs 1987",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/details/spaceballs-1987-mel-brooks-vhs-film",
       thumb: "https://ccapp.osu.edu/sites/default/files/styles/news_and_events_image/public/2022-11/event_spaceballs_0.jpg?h=d1cb525d&itok=6elScADy",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt", 
@@ -2249,6 +2545,7 @@
     },
      {
       title: "Memanto 2000",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/memento.-2000.1080p.-blu-ray.x-264.-yify/Memento.2000.1080p.BluRay.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCgOKJ7zFEgobWrvaGE2b7Ft3EouVuEODXmIrUTDGxxQ&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2256,6 +2553,7 @@
     },
     {
       title: "Fight Club 1999",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/fight.club.10th.anniversary.edition.1999.1080p.brrip.x264.yify_201908/Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjQ8mkKoJe2HsPyvU-T4qcPqotA3ydCx3QaHqgUe4LkvEX7iRYNJVo4lw&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2263,6 +2561,7 @@
     },
     {
       title: "3000 Miles To Graceland 2001",
+      AspectRatio: "16:9", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/3000-miles-to-graceland-2001/3000%20Miles%20to%20Graceland%20%282001%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSujRLI-i15bBspW9ZiLENq1YpzKB0oeJG9NEdgXlZg&s",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2270,6 +2569,7 @@
     },
     {
       title: "Flatliners 1990",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/flatliners-1990/Flatliners%20%281990%29/Flatliners%20-%201990.mp4",
       thumb: "https://miro.medium.com/1*8ETieBYfLrbJ38EiuDuNqQ.jpeg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2277,6 +2577,7 @@
     },
 {
     title: "The Crusades (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/TheCrusades2005/The%20Crusades%20%282005%29.mp4",
     thumb: "https://ilarge.lisimg.com/image/7609399/740full-the-crusades-poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2284,6 +2585,7 @@
   },
   {
     title: "Children Of Heaven (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/children-of-heaven-1997_202510/Children%20of%20Heaven%20%281997%29.mp4",
     thumb: "https://www.probinism.com/wp-content/uploads/2022/07/children-of-heaven-1997-1024x536.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2291,6 +2593,7 @@
   },
   {
     title: "The Color Of Paradise (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-color-of-paradise-1999-majid-majidi/The%20Color%20of%20Paradise%20%281999%29.mp4",
     thumb: "https://toirantour.com/blog/wp-content/uploads/2023/08/ToIranTour-The-Color-of-Paradise.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2298,6 +2601,7 @@
   },
   {
     title: "Ninth Gate, The Roman Polanski (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ninth-gate-the-roman-polanski-1999/Ninth%20Gate%2C%20The%20-Roman%20Polanski%20%281999%29.mp4",
     thumb: "https://c8.alamy.com/comp/2JKBDRY/johnny-depp-film-the-ninth-gate-freusa-1999-characters-dean-corso-director-roman-polanski-25-august-1999-warning-this-photograph-is-for-editorial-use-only-and-is-the-copyright-of-artisan-entertainment-andor-the-photographer-assigned-by-the-film-or-production-company-and-can-only-be-reproduced-by-publications-in-conjunction-with-the-promotion-of-the-above-film-a-mandatory-credit-to-artisan-entertainment-is-required-the-photographer-should-also-be-credited-when-known-no-commercial-use-can-be-granted-without-written-authority-from-the-film-company-2JKBDRY.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2305,6 +2609,7 @@
   },
   {
     title: "Monty Python And The Holy Grail (1975)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/monty.-python.and.the.-holy.-grail.-1975.1080p.-blu-ray.-h-264.-aac-rarbg/Monty.Python.and.the.Holy.Grail.1975.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://movieposterframes.com/cdn/shop/files/Generic_1_Black_66eca7bb-be8d-47f3-85ea-0bb7510fe89e_1445x.jpg?v=1713380998",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2312,6 +2617,7 @@
   },
   {
     title: "Holy Grail Hd",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/holy-grail-hd/holy-grail-hd.mp4",
     thumb: "https://images.savoysystems.co.uk/KIW/33843173.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2319,6 +2625,7 @@
   },
   {
     title: "Asterix And The Big Fight Uk English Dub",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/asterix-big-fight-720p-uk/Asterix%20and%20the%20Big%20Fight%20-%20720p%20UK%20English%20Dub.mp4",
     thumb: "https://cdn.mos.cms.futurecdn.net/qjJuHuT9frPDTGJHR7c7Tf.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2326,6 +2633,7 @@
   },
   {
     title: "Mad Monster Party ",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/mad-monster-party-hb-remastered-3bps/Mad%20Monster%20Party%20%28Hb%20Remastered%20%40%203bps%29.mp4",
     thumb: "http://www.limitedruns.com/media/cache/a9/98/a9981dd0855b92edfe2165957713109d.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2333,6 +2641,7 @@
   },
   {
     title: "The Basketball Diaries (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-basketball-diaries/The.Basketball.Diaries.1995.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://images.citiesbox.com/poster6/the-basketball-diaries-1995-ds06-2.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2340,6 +2649,7 @@
   },
   {
     title: "Brazil",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/brazil_20240527/BRAZIL.mp4",
     thumb: "http://xahlee.org/xa/movie/i/Brazil_movie_poster_463cd-2.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2347,6 +2657,7 @@
   },
   {
     title: "Thief (1981)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/1981-thief/1981%20Thief.mp4",
     thumb: "https://i.ytimg.com/vi/3XtHWtc_J1E/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2354,6 +2665,7 @@
   },
   {
     title: "Gummo (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721702.ca.archive.org/0/items/gummo.-1997.-dvdrip.x-264/Gummo.1997.DVDRip.x264.mp4",
     thumb: "https://i.etsystatic.com/41119370/r/il/b77e5d/4766568191/il_1080xN.4766568191_bwac.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2361,6 +2673,7 @@
   },
   {
     title: "City Of Lost Children, The Jean Pierre Jeunet & Marc Caro (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/city-of-lost-children-the-jean-pierre-jeunet-marc-caro-1995/City%20of%20Lost%20Children%2C%20The%20-Jean-Pierre%20Jeunet%20%26%20Marc%20Caro%20%281995%29.mp4",
     thumb: "https://pbs.twimg.com/media/HHO81xrWMAAi7Z-.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2368,6 +2681,7 @@
   },
   {
     title: "Amelie (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/amelie-full-movie-2001/Amelie%20%282001%29.mp4",
     thumb: "https://www.mauvais-genres.com/46613-thickbox_default/amelie-french-movie-poster-47x63-in-2001-r2024-jean-pierre-jeunet-audrey-tautou.jpg",
     subtitle: "https://archive.org/download/ritual.-2000.1080p.-blu-ray.x-264-yts.-lt/Ritual.2000.1080p.BluRay.eng.srt",
@@ -2375,6 +2689,7 @@
   },
   {
     title: "Drowning Love (2016)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/drowning-love-2016-1080p-blu-ray/Drowning%20Love%20%282016%29%20%5B1080p%5D%20%5BBluRay%5D.mp4",
     thumb: "https://image.tmdb.org/t/p/original/ggSLuYr6h4wSaNETgsQVoEXlCDo.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2382,6 +2697,7 @@
   },
   {
     title: "F1 The Movie (2025)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/sony-tamizh-f-1-the-movie-2025-hq-hdrip-720p-x-264/%40SonyTamizh%20-%20F1%20The%20Movie%20%282025%29%20HQ%20HDRip%20-%20720p%20-%20x264%20-%20%5B.mp4",
     thumb: "https://image.tmdb.org/t/p/original/jj5YT83OMzZeW5iHF2QyKpiMzWn.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2389,6 +2705,7 @@
   },
   {
     title: "Thug Life (2025)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/www.-1-tamil-mv.boo-thug-life-2025-tamil-hq-web-dl-1080p-avc-untouched-aac-2.0-3.8-gb-hc-esub/www.1TamilMV.boo%20-%20Thug%20Life%20%282025%29%20Tamil%20HQ%20WEB-DL%20-%201080p%20-%20AVC%20-%20UNTOUCHED%20-%20%28AAC%202.0%29%20-%203.8GB%20-%20HC-ESub.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BN2I2M2Q1NTktN2M4OC00OGM5LTk1NDgtZWZlZDA4ZWM3NjMxXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2396,6 +2713,7 @@
   },
   {
     title: "Vc The 100 (2025)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/www.-1-tamil-mv.vc-the-100-2025-tamil-hq-hdrip-x-264-aac-400-mb-esub/www.1TamilMV.vc%20-%20The%20100%20%282025%29%20Tamil%20HQ%20HDRip%20-%20x264%20-%20AAC%20-%20400MB%20-%20ESub.mp4",
     thumb: "https://static.10tv.in/wp-content/uploads/2025/07/the-100-movie-review.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2403,6 +2721,7 @@
   },
   {
     title: "Vaaranam Aayiram (2008)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/fc-vaaranam-aayiram-2008-tamil-uncut-1080p-webrip/%5BFC%5D%20Vaaranam%20Aayiram%20%5B2008%5DTamil%20UNCUT%201080p%20WEBRip.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BOTFhY2Q4MGItMWYwNC00NjcwLTg1MTUtYWUyYjcyNDU2ZDc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2410,6 +2729,7 @@
   },
   {
     title: "AceVenturaPetDetective (1994)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn710005.ca.archive.org/0/items/Popcornarchive-aceVenturaPetDetective1994/Popcornarchive-aceVenturaPetDetective1994.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_w8wh7/Popcornarchive-myMovie_w8wh7.thumbs/Popcornarchive-myMovie_w8wh7_000118.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2417,6 +2737,7 @@
   },
   {
     title: "Titanic ExtendedCut",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-titanicExtendedCut/Popcornarchive-titanicExtendedCut.mp4",
     thumb: "https://i.etsystatic.com/44808259/r/il/e81dfe/5215560876/il_fullxfull.5215560876_f183.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2434,6 +2755,7 @@
   },
   {
     title: "The Matrix  (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-theMatrix1999/Popcornarchive-theMatrix1999.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_iazh8/Popcornarchive-myMovie_iazh8_itemimage.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2441,6 +2763,7 @@
   },
   {
     title: "Popcornarchive (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-beeMovie2007_5no3y/Popcornarchive-beeMovie2007_5no3y.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_w8wh7/Popcornarchive-myMovie_w8wh7.thumbs/Popcornarchive-myMovie_w8wh7_000118.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2448,6 +2771,7 @@
   },
   {
     title: "Popcornarchive (1980)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-fridayThe13th1980/Popcornarchive-fridayThe13th1980.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_w8wh7/Popcornarchive-myMovie_w8wh7.thumbs/Popcornarchive-myMovie_w8wh7_000118.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2455,6 +2779,7 @@
   },
   {
     title: "Alice (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-alice1988/Popcornarchive-alice1988.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_w8wh7/Popcornarchive-myMovie_w8wh7.thumbs/Popcornarchive-myMovie_w8wh7_000118.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2462,6 +2787,7 @@
   },
   {
     title: "Popcornarchive (1941)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-citizenKane1941_6o23s/Popcornarchive-citizenKane1941_6o23s.mp4",
     thumb: "https://i5.walmartimages.com/seo/Pop-Culture-Graphics-MOVCD3840-1941-Movie-Poster-11-x-17_c7cd7734-5db0-40a8-9868-e4976b27b39d.b06a6de12d756fcf7e0e6926c9766097.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2470,6 +2796,7 @@
 
   {
     title: "CorpseBrideVideo 1080p AudioAc3",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-corpseBrideVideo1080pAudioAc3/Popcornarchive-corpseBrideVideo1080pAudioAc3.mp4",
     thumb: "https://m.media-amazon.com/images/I/41UaBaMghOL.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2477,6 +2804,7 @@
   },
   {
     title: "Babel (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-babel2006/Popcornarchive-babel2006.mp4",
     thumb: "https://i.ytimg.com/vi/R4CSLAxTA4Q/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2484,6 +2812,7 @@
   },
   {
     title: "RogueAgent(2022)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-rogueAgent2022/Popcornarchive-rogueAgent2022.mp4",
     thumb: "https://image-1.uhdpaper.com/wallpaper/black-adam-with-justice-society-of-america-2022-poster-4k-wallpaper-uhdpaper.com-508@1@i.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2491,6 +2820,7 @@
   },
   {
     title: "Ran (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ran-1985_202309/Ran.1985.mp4",
     thumb: "http://www.impawards.com/1985/posters/ran_ver2.jpg",
     subtitle: "https://archive.org/download/ran-1985_202309/Ran.1985.eng.srt",
@@ -2498,6 +2828,7 @@
   },
   {
     title: "A Separation (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a-separation-2011/A.Separation.2011.mp4",
     thumb: "https://i.pinimg.com/736x/5b/41/71/5b41718e3002ae5a8e1b4317919d01d9.jpg",
     subtitle: "https://archive.org/download/a-separation-2011/A.Separation.2011.eng.srt",
@@ -2505,6 +2836,7 @@
   },
   {
     title: "About Elly (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/about-elly-2009-720p/about-elly-2009-720p.mp4",
     thumb: "https://writersblocpresents.com/main/wp-content/uploads/2015/05/aboutellyposter-700x523.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2512,6 +2844,7 @@
   },
   {
     title: "A Hero (2021)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721808.ca.archive.org/0/items/a-hero-2021-net-naija.com/A%20Hero%20%282021%29%20%28NetNaija.com%29.ia.mp4",
     thumb: "https://keithandthemovies.com/wp-content/uploads/2021/10/heroposter.jpg",
     subtitle: "https://archive.org/download/a-separation-2011/A.Separation.2011.eng.srt",
@@ -2519,6 +2852,7 @@
   },
   {
     title: "Ritual (2000)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ritual.-2000.1080p.-blu-ray.x-264-yts.-lt/Ritual.2000.1080p.BluRay.x264-%5BYTS.LT%5D.mp4",
     thumb: "https://i.pinimg.com/736x/67/6f/ec/676fec160e9ef77950e2adf100648d06.jpg",
     subtitle: "https://archive.org/download/ritual.-2000.1080p.-blu-ray.x-264-yts.-lt/Ritual.2000.1080p.BluRay.eng.srt",
@@ -2526,6 +2860,7 @@
   },
   {
     title: "The Ballad Of Narayama (1983)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-ballad-of-narayama-1983/The.Ballad.of.Narayama.1983.1080p.BluRay.H264.AAC-VXT.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/ballad-of-nara-yama-cinema-quad-movie-poster-_2.jpg?v=1746701995&width=1946",
     subtitle: "https://archive.org/download/the-ballad-of-narayama-1983/The.Ballad.of.Narayama.1983.eng.srt",
@@ -2533,6 +2868,7 @@
   },
   {
     title: "Peppermint Candy (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/peppermint-candy-1999/Peppermint.Candy.1999.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://www.filmvandaag.nl/api/og-image/movie/22142-peppermint-candy.jpg",
     subtitle: "https://archive.org/download/peppermint-candy-1999/Peppermint.Candy.1999.eng.srt",
@@ -2540,6 +2876,7 @@
   },
   {
     title: "Magadheera (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Magadheera_2009_BD_RIP_DD-5.1_ShantX-DVD/Magadheera%20%282009%29%20Telugu%20Bluray%20-%201080p%20-%20AVC%20-%20%5BDTS%2BDD_5.1%20-%20448kbps%5D%20-%20Esubs.mp4",
     thumb: "https://venkatarangan.com/wp-content/uploads/2016/03/Magadheera-featured.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2547,6 +2884,7 @@
   },
   {
     title: "AnimePahe Kotonoha No Niwa 01 Bd Coalgirls",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/anime-pahe-kotonoha-no-niwa-01-bd-1080p-coalgirls/AnimePahe_Kotonoha_no_Niwa_-_01_BD_1080p_Coalgirls.mp4",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoKfMtmUGnOy0l-d1RwX2nTz3newG1UMKmOSUNsItJQohElW6ZO78HZcYHveZ-pRBtTZfm875ZhBJgNQ2fHyAl5oWwIXo-CFal0oA732p3a5BJHRtaYZwlHMcdinFJt5WFxqiwIimqD_a6/s1600/kotonohanoniwall.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2554,6 +2892,7 @@
   },
   {
     title: "Through The Olive Trees (1994)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/through-the-olive-trees-fa/Through%20the%20Olive%20Trees%20%281994%29%20USA%20Criterion%20Bluray.mp4",
     thumb: "https://asianfilmarchive.org/wp-content/uploads/2021/06/Retro_AK39.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2561,6 +2900,7 @@
   },
   {
     title: "Taste Of Cherry (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/taste.of.cherry.1997/taste.of.cherry.1997.internal.bdrip.x264-manic.mp4",
     thumb: "https://i5.walmartimages.com/seo/Taste-of-Cherry-Movie-Poster-11-x-17-in_f3a4ea5e-77e1-402e-9df3-f3188d21fd3b.07f5c137c4da0bf7698ba39bf92c8108.jpeg",
     subtitle: "https://archive.org/download/taste.of.cherry.1997/taste.of.cherry.1997.internal.bdrip.x264-manic.srt",
@@ -2568,6 +2908,7 @@
   },
   {
     title: "Close Up (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/close-up_1990/Close-Up.1990.1080p.BluRay.x264-CiNEFiLE.mp4",
     thumb: "https://ih1.redbubble.net/image.5891088677.7758/fposter,small,wall_texture,square_product,600x600.u1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2575,6 +2916,7 @@
   },
   {
     title: "The Last Emperor Recorded (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/The_Last_Emperor_Recorded_1990_off_VHS/The_Last_Emperor_Recorded_1990_off_VHS.mp4",
     thumb: "https://play-lh.googleusercontent.com/1_nJriLV7MzNvtOGt_fmkaMHQt6kUk8Kli1FLhWrR_Dy5QfdPiU16HwgUo7Nls7jPmbL_Y6aDHAYWD-DT00=w600-h300-pc0xffffff-pd",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2583,6 +2925,7 @@
 
   {
     title: "Goodfellas (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/goodfellas.-1990.1080p.-blu-ray.x-264-yts.-am_202608/Goodfellas.1990.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://i.etsystatic.com/49878930/r/il/a0ecb3/6488760382/il_1080xN.6488760382_476m.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2590,6 +2933,7 @@
   },
   {
     title: "Cell (2016)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/cell.-2016.720p.-blu-ray.x-264-yts.-ag/Cell.2016.720p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "https://thefancarpet.com/wp-content/uploads/2016/07/cellposter.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2597,6 +2941,7 @@
   },
   {
     title: "Michael (2026)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/michael.-2026.1080p.-webrip.x-264.-aac-5.1-yts.-bz_202606/Michael.2026.1080p.WEBRip.x264.AAC5.1-%5BYTS.BZ%5D.mp4",
     thumb: "https://michaeljacksonmarket.com/wp-content/uploads/2026/04/img_5302.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2604,6 +2949,7 @@
   },
   {
     title: "Roar (1981)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/1981-roar.-1981.1080p.-blu-ray.x-264.-yts.-ag/1981%20Roar.1981.1080p.BluRay.x264.%5BYTS.AG%5D.mp4",
     thumb: "https://i.pinimg.com/originals/e6/9c/e2/e69ce2fccd44a1fdb9d8e3d5fa12a964.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2611,6 +2957,7 @@
   },
   {
     title: "Coma (2019)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/coma.-2019.720p.-blu-ray.x-264.-aac-yts.-mx_202607/Coma.2019.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://images.fanart.tv/fanart/coma-61a9e7b433131.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2618,6 +2965,7 @@
   }, 
   {
     title: "Troll (2022)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/troll.-2022.1080p.-webrip.x-264.-aac-5.1-yts.-mx/Troll.2022.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://i.ytimg.com/vi/nNrOlMu4xd4/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2625,6 +2973,7 @@
   },
   {
     title: "Midnight Express (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/midnight.-express.-1978.720p.-blu-ray.x-264-yts.-ag/Midnight%20Express%20%281978%29%20%5BYTS.AG%5D/Midnight.Express.1978.720p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2015/07/midnightexpressquadlarge1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2632,6 +2981,7 @@
   },
   {
     title: "Oppenheimer (2023)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/oppenheimer.-2023.1080p.-blu-ray.x-264.-aac-5.1-yts.-mx_202509/Oppenheimer.2023.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://images.wallpapersden.com/image/download/oppenheimer-2023-movie-poster_bmVpamqUmZqaraWkpJRnaWplrWZpaWU.jpg",
     subtitle: "https://archive.org/download/oppenheimer.-2023.1080p.-blu-ray.x-264.-aac-5.1-yts.-mx_202509/Oppenheimer.2023.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.srt",
@@ -2639,6 +2989,7 @@
   }, 
   {
     title: "The Time Traveler's Wife (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-time.-travelers.-wife.-2009.720p.-blu-ray.x-264-yts.-ag/The.Time.Traveler%27s.Wife.2009.720p.BluRay.x264-%5BYTS.AG%5D.mp4",
     thumb: "https://image.tmdb.org/t/p/original/1IXxWN99959OCslOwgC8yqJ7cs.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2646,6 +2997,7 @@
   },
   {
     title: "Assassin's Creed Lineage (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/assassins.-creed.-lineage.-2009.1080p.-blu-ray.x-264.-aac-yts.-mx/Assassin%27s.Creed.Lineage.2009.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://og.simkl.in/image/details/?poster=https://simkl.in/posters/15/15136539597f7bf973_m.webp&year=2009&type=TV+Shows&title=Assassin's+Creed+Lineage&rating=6.79&avatar=&w=1200&h=630",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2653,6 +3005,7 @@
   },
   {
     title: "Sisu Road To Revenge (2025)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/sisu.-road.-to.-revenge.-2025.720p.-webrip.x-264.-aac-yts.-lt/Sisu.Road.To.Revenge.2025.720p.WEBRip.x264.AAC-%5BYTS.LT%5D.mp4",
     thumb: "https://www.shmoti.com/ImageFiles/Image_555x271/20251115_Banner_SisuSE20251115.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2661,6 +3014,7 @@
  
   {
     title: "The Inglorious Bastards (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-inglorious.-bastards.-1978.720p.-blu-ray.x-264.-aac-yts.-mx/The.Inglorious.Bastards.1978.720p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
     thumb: "https://metadata-static.plex.tv/f/gracenote/f698ce4843f5b85db77a438da4fd2a0e.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2668,6 +3022,7 @@
   },
   {
     title: "My Boss, My Hero (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/my.-boss.-my.-hero.-2001.1080p.-blu-ray.x-264-yts.-lt/My.Boss%2C.My.Hero.2001.1080p.BluRay.x264-%5BYTS.LT%5D.mp4",
     thumb: "https://is5-ssl.mzstatic.com/image/thumb/vxV35fIWpynh1wlXjEfOlA/1200x630mw.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2675,6 +3030,7 @@
   },
   {
     title: "Eye In The Sky (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/eye-in-the-sky-2007-1080p-blu-ray-5.1-yts.-mx/Eye%20In%20The%20Sky%20%282007%29%20%5BCHINESE%5D%20%5B1080p%5D%20%5BBluRay%5D%20%5B5.1%5D%20%5BYTS.MX%5D/Eye.In.The.Sky.2007.CHINESE.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://cdn.craft.cloud/5598c3e0-8138-448a-b047-9113ed130c47/assets/films/eyeinthesky/EyeinTheSky-HomePageMobile-750x414.jpg",
     subtitle: "https://archive.org/download/eye-in-the-sky-2007-1080p-blu-ray-5.1-yts.-mx/Eye%20In%20The%20Sky%20%282007%29%20%5BCHINESE%5D%20%5B1080p%5D%20%5BBluRay%5D%20%5B5.1%5D%20%5BYTS.MX%5D/Eye.In.The.Sky.2007.CHINESE.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.srt",
@@ -2682,6 +3038,7 @@
   },
   {
     title: "Superbad (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/superbad.-2007.-unrated.-1080p.-blu-ray.x-264.-aac-5.1-yts.-mx/Superbad.2007.UNRATED.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://i.etsystatic.com/35681979/r/il/2febb9/3914893314/il_1080xN.3914893314_cbqy.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2689,6 +3046,7 @@
   },
   {
     title: "1994 Kurt Russel Stargate (1994)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/1994-kurt-russel-stargate/1994%20-%20Kurt%20Russel%20-%20Stargate.mp4",
     thumb: "https://www.sci-fimovieposters.co.uk/images/posters-s/S-0014_Stargate_movie_poster_l.jpg",
     subtitle: "https://archive.org/download/1994-kurt-russel-stargate/1994%20-%20Kurt%20Russel%20-%20Stargate.srt",
@@ -2696,6 +3054,7 @@
   },
   {
     title: "Stargate (1994)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/stargate-1994_202510/Stargate%20%281994%29.mp4",
     thumb: "https://www.sci-fimovieposters.co.uk/images/posters-s/S-0014_Stargate_movie_poster_l.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2703,6 +3062,7 @@
   },
   {
     title: "Warlock (1989)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/warlock.-1989.720p.-brrip.-xvi-d.-ac-3-rarbg/Warlock.1989.720p.BRRip.XviD.AC3-RARBG.mp4",
     thumb: "https://www.rarovhs.com/wp-content/uploads/2019/09/warlock-1989-poster.jpg",
     subtitle: "https://archive.org/download/warlock.-1989.720p.-brrip.-xvi-d.-ac-3-rarbg/Warlock.1989.720p.BRRip.XviD.AC3-RARBG-eng.srt",
@@ -2710,6 +3070,7 @@
   },
   {
     title: "The Smurfs 2 (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-smurfs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/The.Smurfs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.imageworks.com/sites/default/files/2018-05/smurfs-the-lost-village-3000x1621-animation-2017-hd-7262_0.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2717,6 +3078,7 @@
   },
   {
     title: "The Mist (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-mist.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/The.Mist.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.themoviedb.org/t/p/original/wfS0cq5JXtelUjRMG3iUvRGBcML.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2724,6 +3086,7 @@
   },
   {
     title: "Swordsmen (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/swordsmen.-2011.-subbed.-1080p.-blu-ray.-h-264.-aac-rarbg_202407/Swordsmen.2011.SUBBED.1080p.BluRay.H264.AAC-RARBG/Swordsmen.2011.SUBBED.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.filmvandaag.nl/api/og-image/movie/73472-swordsmen.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2731,6 +3094,7 @@
   },
   {
     title: "Shaun Of The Dead (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/shaun.-of.-the.-dead.-2004.1080p.-blu-ray.-h-264.-aac-rarbg/Shaun.Of.The.Dead.2004.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://vice-press.com/cdn/shop/articles/Shaun-of-the-dead-Matt-Ferguson-Alternative-Movie-Poster-Quad.jpg?v=1581009873&width=1100",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
@@ -2738,6 +3102,7 @@
   },
   {
     title: "No Country For Old Men (2007)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/no.-country.-for.-old.-men.-2007.1080p.-br-rip.x-264.-yify/No.Country.For.Old.Men.2007.1080p.BrRip.x264.YIFY.mp4",
     thumb: "https://static.vecteezy.com/system/resources/previews/067/607/357/non_2x/no-smoking-no-drinking-no-eating-no-littering-no-littering-no-smoking-vector.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2745,6 +3110,7 @@
   },
   {
     title: "Tenebrae (1982)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Tenebrae.1982.1080p.BluRay.H264.AACRARBG/Tenebrae.1982.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://cdn.abcotvs.com/dip/images/16855005_anna-wintour-clean-TN-img.jpg?w=1600",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Slave%20%281962%29%20English.NTSC.DvDRip.720p.%20x264.AAC..ESubs.Chapters.BY.juleyano.srt",
@@ -2752,6 +3118,7 @@
   },
   {
     title: "Unforgiven (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/unforgiven.-1992.1080p.-br-rip.x-264.-yify_202305/Unforgiven.1992.1080p.BrRip.x264.YIFY.mp4",
     thumb: "https://shatpod.com/movies/wp-content/uploads/unforgiven-movie-poster-1992.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2759,6 +3126,7 @@
   },
   {
     title: "Elektra (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/elektra-directors-cut-2005/Elektra.2005.DC.1080p.BluRay.x265-RARBG/Elektra.2005.DC.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://pic.bstarstatic.com/ugc/151856c262088f0fc26af95f772b257dcc9da09b.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2766,6 +3134,7 @@
   },
   {
     title: "The Passion Of The Christ (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://www.simondwyer.com/files/passion-of-the-christ-15354.jpg",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
@@ -2773,6 +3142,7 @@
   },
   {
     title: "Diary Of A Wimpy Kid Rodrick Rules (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/diary.-of.-a.-wimpy.-kid.-rodrick.-rules.-2011.1080p.-blu-ray.-h-264.-aac-rarbg/Diary.Of.A.Wimpy.Kid.Rodrick.Rules.2011.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://i.ytimg.com/vi/XplwhBFB8t0/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2780,6 +3150,7 @@
   },
   {
     title: "Bullet Train (2022)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/carnivalkanyewest/Bullet.Train.2022.1080p.BluRay.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "https://i.etsystatic.com/43906454/r/il/c8bf80/5703865504/il_1080xN.5703865504_12v1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2787,6 +3158,7 @@
   },
   {
     title: "Scary MoVie (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/carnivalkanyewest/Scary.MoVie.2013.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://image.tmdb.org/t/p/original/mYFFk3H8AO3A5e2zU7yqMXQQrDv.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2794,6 +3166,7 @@
   },
   {
     title: "Con Air (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/con-air-1997_202603/Con%20Air%201997.mp4",
     thumb: "https://image.tmdb.org/t/p/original/tyLrITGcqnqw8H6pcAwVScUhqot.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2801,6 +3174,7 @@
   },
   {
     title: "Raising Arizona (1987)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/raising.-arizona.-1987.720p.-blu-ray.x-264-yts.-am/Raising.Arizona.1987.720p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://shatpod.com/movies/wp-content/uploads/Raising-Arizona-1987-Movie-Poster.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2808,6 +3182,7 @@
   },
   {
     title: "Final Fantasy The Spirits Within (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/final.-fantasy.-the.-spirits.-within.-2001.720p.-blu-ray.-dts.x-264-esi-r.-proper/Final.Fantasy.The.Spirits.Within.2001.720p.BluRay.DTS.x264-ESiR.PROPER.mp4",
     thumb: "https://image.tmdb.org/t/p/original/jWNFpL7NLlDRcOJXGRwJkWbeexo.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2815,6 +3190,7 @@
   },
   {
     title: "The Da Vinci Code (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-da.-vinci.-code.-2006.1080p.-blu-ray.-h-264.-aac-rarbg_202605/The.Da.Vinci.Code.2006.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://i.etsystatic.com/47325174/r/il/ae4a67/5612803928/il_1080xN.5612803928_zw94.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2822,6 +3198,7 @@
   },
   {
     title: "The Prestige (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-prestige-2006-1080p-blu-ray-x-264-ac-3-ozlem/The%20Prestige%202006%201080p%20BluRay%20x264%20AC3%20-%20Ozlem.mp4",
     thumb: "https://levycreative.com/wp-content/uploads/2023/05/kevinmcgivern_prestige.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2829,6 +3206,7 @@
   },
   {
     title: "Dead Poets Society (1989)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dead-poets-society-1989-1080p-blu-ray-x-264-aac-ozlem_202402/Dead%20Poets%20Society%201989%201080p%20BluRay%20x264%20AAC%20-%20Ozlem.mp4",
     thumb: "https://images.citiesbox.com/poster8/dead-poets-society-1989-ds04-1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2836,6 +3214,7 @@
   },
   {
     title: "The Message (1977)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/themessage.1977.1080p.bluray.x264.aac.ozlem.dual.eng.urdu/The%20Message%201977%201080p%20BluRay%20x264%20AAC%20-%20Ozlem%20Dual%20Eng%20Urdu.mp4",
     thumb: "https://www.themoviedb.org/t/p/original/58TegriMzKWKp2fDrykbRsx9APM.jpg",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Slave%20%281962%29%20English.NTSC.DvDRip.720p.%20x264.AAC..ESubs.Chapters.BY.juleyano.srt",
@@ -2843,6 +3222,7 @@
   },
   {
     title: "Casablanca(1942)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia800902.us.archive.org/35/items/some-of-the-best-movies-ever-produced/Casablanca%2C%20by%20Michael%20Curtiz%20%281942%29%20Remastered%20%26%20Colorized.mp4",
     thumb: "https://i.etsystatic.com/63076112/r/il/f720ec/7392405156/il_1080xN.7392405156_iv6t.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2850,6 +3230,7 @@
   },
   {
     title: "Gone With The Wind(1939)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia800902.us.archive.org/35/items/some-of-the-best-movies-ever-produced/Gone%20With%20the%20Wind%2C%20by%20Victor%20Fleming%20%281939%29%20VHS.mp4",
     thumb: "https://c8.alamy.com/comp/R00CB0/gone-with-the-wind-year-1939-usa-director-victor-fleming-clark-gable-vivien-leigh-movie-poster-fr-R00CB0.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2857,6 +3238,7 @@
   },
   {
     title: "Sholay (Hindustani, Trans Embers), By Ramesh Sippy (1975)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/some-of-the-best-movies-ever-produced/Sholay%20%28Hindustani%2C%20trans.%20Embers%29%2C%20by%20Ramesh%20Sippy%20%281975%29%20Indian%20epic%20action-adventure%20-%20Director%27s%20Cut%20contains%20the%20original%20ending.mp4",
     thumb: "https://filmheritagefoundation.co.in/wp-content/uploads/2025/06/Sholay-1975-Poster-2-Credit-Film-Heritage-Foundation-1024x684.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2864,6 +3246,7 @@
   },
   {
     title: "12 Angry Men (1957)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/12.Angry.Men.1957.720p.BRrip.x264.YIFY_201902/12.Angry.Men.1957.720p.BRrip.x264.YIFY.mp4",
     thumb: "https://c8.alamy.com/comp/A14P1H/twelve-angry-men-1957-sidney-lumet-movie-poster-A14P1H.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2871,6 +3254,7 @@
   },
   {
     title: "The Magnificent Seven (1960)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-magnificent.-seven.-1960.720p.-blu-ray.x-264.-yify/The.Magnificent.Seven.1960.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://c8.alamy.com/comp/2K0ADC2/the-magnificent-seven-is-a-1960-american-western-film-directed-by-john-sturges-the-screenplay-by-william-roberts-is-a-remake-in-an-old-west-style-of-akira-kurosawas-1954-japanese-film-seven-samurai-the-ensemble-cast-includes-yul-brynner-steve-mcqueen-charles-bronson-robert-vaughn-brad-dexter-james-coburn-and-horst-buchholz-as-a-group-of-seven-gunfighters-and-eli-wallach-as-their-main-antagonist-poster-for-film-2K0ADC2.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2878,6 +3262,7 @@
   },
   {
     title: "The Undefeated (1969)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-undefeated-1969-post-civil-war-western-john-wayne-rock-hudson/The%20Undefeated%20%281969%20Post%20Civil%20War%20Western%20John%20Wayne%20Rock%20Hudson%29.mp4",
     thumb: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/the-undefeated-1969--album.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2885,6 +3270,7 @@
   },
   {
     title: "Krull (1983)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/krull.-1983.1080p.-blu-ray.x-264.-yify_202408/Krull.1983.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://www.mauvais-genres.com/48727-thickbox_default/krull-french-movie-poster-15x21-in-1983-peter-yates-ken-marsall.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2892,6 +3278,7 @@
   },
   {
     title: "Warm Bodies (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-warmBodies2013/Popcornarchive-warmBodies2013.mp4",
     thumb: "https://ca-times.brightspotcdn.com/dims4/default/fe4040e/2147483647/strip/true/crop/600x315+0+43/resize/1200x630!/quality/75/?url=https://california-times-brightspot.s3.amazonaws.com/14/28/03c456d2606105e54fb6f32a835e/la-et-mn-fall-movie-sneaks-list-20130901-001",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2899,6 +3286,7 @@
   },
   {
     title: "IceAge 2001",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-iceAge_w65mv/Popcornarchive-iceAge_w65mv.mp4",
     thumb: "https://i.pinimg.com/originals/63/df/b2/63dfb2e2b31e71de317a1847976ffa93.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2906,6 +3294,7 @@
   },
   {
     title: "They Live (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/they.-live.-1988.-remastered.-1080p.-blu-ray.-h-264.-aac-rarbg_202605/They.Live.1988.REMASTERED.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://i.pinimg.com/originals/24/f6/c1/24f6c146e577ec88e46204372d8b78a9.jpg",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Slave%20%281962%29%20English.NTSC.DvDRip.720p.%20x264.AAC..ESubs.Chapters.BY.juleyano.srt",
@@ -2913,6 +3302,7 @@
   },
   {
     title: "Swiss Family Robinson (1960)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/swiss.-family.-robinson.-1960.1080p.-blu-ray.-h-264.-aac-rarbg/Swiss.Family.Robinson.1960.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.build-electronic-circuits.com/wp-content/uploads/2022/10/fullAdder2-1024x520.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2920,6 +3310,7 @@
   },
   {
     title: "The Fall Of The Roman Empire (1964)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-fall.of.the.-roman.-empire.-1964.1080p.-blu-ray.x-265-rarbg/The.Fall.of.the.Roman.Empire.1964.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://www.rarefilmposters.com/wp-content/uploads/FALL-OF-THE-ROMAN-EMPIRE-Quad-C-1.jpg",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Trojan%20Horse%20%281961%29%20Italian.NTSC.DvDRip.480p.%20x264.AAC.5.1.ESubs.Chapters.BY.juleyano.srt",
@@ -2927,6 +3318,7 @@
   },
   {
     title: "Seven Brides For Seven Brothers (1954)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/seven.-brides.for.-seven.-brothers.-1954.1080p.-blu-ray.-h-264.-aac-rarbg/Seven.Brides.for.Seven.Brothers.1954.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://img.moviepostershop.com/seven-brides-for-seven-brothers-movie-poster-1954-1020208245.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2934,6 +3326,7 @@
   },
   {
     title: "Virus (1999)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/virus.-1999.1080p.-blu-ray.-h-264.-aac-rarbg/Virus.1999.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://image.tmdb.org/t/p/original/dYK0hJC9oHmstcBZF6wyTVLNzsl.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2941,6 +3334,7 @@
   },
   {
     title: "Scanners (1981)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/scanners-1981-1080p/Scanners%20%281981%29%20-%201080p.mp4",
     thumb: "http://galerezo.com/cdn/shop/files/Horror_1_Black_00854d05-e018-4489-a0c8-7674abfd7be5.jpg?v=1718362362",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2948,6 +3342,7 @@
   },
   {
     title: "Jeremiah Johnson (1972)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/jeremiah.-johnson.-1972.1080p.-blu-ray.-h-264.-aac-rarbg/Jeremiah.Johnson.1972.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.originalfilmart.com/cdn/shop/products/jeremiah_johnson_1972_half_original_film_art_1800x.jpg?v=1551890813",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2955,6 +3350,7 @@
   },
   {
     title: "Rosemary's Baby",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rosemarys-baby_202105/Rosemary%27s%20Baby.mp4",
     thumb: "https://www.originalfilmart.com/cdn/shop/products/rosemarys_baby_1968_lc7_original_film_art_f_2500x.jpg?v=1565861172",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2962,6 +3358,7 @@
   },
   {
     title: "Oceans Eleven (1960)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/oceans.-eleven.-1960.1080p.-blu-ray.-h-264.-aac-rarbg/Oceans.Eleven.1960.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://cdn.posteritati.com/posters/000/000/014/680/oceans-eleven-md-web.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2969,6 +3366,7 @@
   },
   {
     title: "Monty Python And The Holy Grail (1975)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/monty.-python.and.the.-holy.-grail.-1975.1080p.-blu-ray.-h-264.-aac-rarbg/Monty.Python.and.the.Holy.Grail.1975.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://movieposterframes.com/cdn/shop/files/Generic_1_Black_66eca7bb-be8d-47f3-85ea-0bb7510fe89e_1445x.jpg?v=1713380998",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2976,6 +3374,7 @@
   },
   {
     title: "Reservoir Dogs (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/reservoir-dogs.-1992.-blu-ray.-1080p.x-264.-yify_202307/Reservoir%20Dogs.1992.BluRay.1080p.x264.YIFY.mp4",
     thumb: "https://atthemovies.uk/cdn/shop/products/P1051-Reservoir-Dogs.jpg?v=1621380935",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2983,6 +3382,7 @@
   },
   {
     title: "Dracula (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dracula.-1992.1080p.-blu-ray.x-264.-yify_202507/dracula.-1992.1080p.-blu-ray.x-264.-yify.ia.mp4",
     thumb: "https://alternativemovieposters.com/wp-content/uploads/2022/09/YVANQUINET_DRACULA.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2990,6 +3390,7 @@
   },
   {
     title: "Queen Of The Damned (2002)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://ia600708.us.archive.org/18/items/queen.of.the.-damned.-2002.720p.-br-rip.x-264.-bokutox.-yify_202605/Queen.of.the.Damned.2002.720p.BrRip.x264.BOKUTOX.YIFY.mp4",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtyNlFqEw2fwYuQkt7EV4jqZPgTLOVFVnDQ1ZYEgPRsQ8iCxLFVVWohIj_dLPt5jzlFvVML2BgRZidq2oMyHUUyNgi8RIgn8OIqz5hRMgmp00jZa1Dhflf9RDf7XlLZp9CqC_vYNVrdCRX38YB_wAKUT_UxjpJkaLpFQlt97xPojymrKwkp41kQhZPtQ/s5000/2002+Queen+Of+The+Damned.+Music+From+And+Inspired+By+The+Motion+Picture+(CD)+(5).jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -2997,6 +3398,7 @@
   },
   {
     title: "Michael Jackson This Is It (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/MichaelJacksonThisIsIt2009DVDRipXviDMAXSPEEDWww.torentz.3xforum.ro/Michael%20Jackson%20This%20Is%20It%20%282009%29%20DVDRip%20XviD-MAXSPEED%20www.torentz.3xforum.ro.mp4",
     thumb: "https://i.ebayimg.com/images/g/uXwAAOSwfyVmAYJg/s-l1600.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3004,6 +3406,7 @@
   },
   {
     title: "Back To The Future (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/back.to.the.-future.-1985.1080p.-brrip.x-264.-deceit.-yify_202605/Back.to.the.Future.1985.1080p.Brrip.x264.Deceit.YIFY.mp4",
     thumb: "https://www.cinemapostergallery.co.uk/wp-content/uploads/2023/01/Back-to-the-Future-Original-US-One-Sheet-Poster-Framed-1200x1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3011,6 +3414,7 @@
   },
   {
     title: "Back To The Future Part Ii (1989)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/back.to.the.-future.-part.-ii.-1989.-remastered.-1080p.-blu-ray.x-265-rbg/Back.to.the.Future.Part.II.1989.REMASTERED.1080p.BluRay.x265-RBG.ia.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2022/04/IMG_6095-scaled.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3018,6 +3422,7 @@
   },
   {
     title: "Back To The Future Part 3 (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/back.to.the.-future.-part.-3.1990.1080p.-brrip.x-264.-deceit.-yify/Back.to.the.Future.Part.3.1990.1080p.Brrip.x264.Deceit.YIFY.mp4",
     thumb: "https://shatpod.com/movies/wp-content/uploads/Back-To-The-Future-III-Movie-Poster-1990.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3025,6 +3430,7 @@
   },
   {
     title: "The Trojan Horse (1961)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Trojan%20Horse%20%281961%29%20Italian.NTSC.DvDRip.480p.%20x264.AAC.5.1.ESubs.Chapters.BY.juleyano.mkv",
     thumb: "https://shefali.dev/wp-content/uploads/2025/01/Screenshot-2025-01-06-174155-1024x507.png",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Trojan%20Horse%20%281961%29%20Italian.NTSC.DvDRip.480p.%20x264.AAC.5.1.ESubs.Chapters.BY.juleyano.srt",
@@ -3032,6 +3438,7 @@
   },
   {
     title: "Morgan, The Pirate (1960)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Morgan%2C%20the%20Pirate%20%281960%29%20English.DvDRip.720p.x264.AAC.5.1.Esubbs.BY.juleyano.mp4",
     thumb: "https://lp-cms-production.imgix.net/2024-09/00-quebec-lp-com-final.jpg?auto=format,compress&q=72&fit=crop",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Morgan%2C%20the%20Pirate%20%281960%29%20English.DvDRip.720p.x264.AAC.5.1.Esubbs.BY.juleyano.srt",
@@ -3040,6 +3447,7 @@
  
   {
     title: "The Merchant Of Four Seasons (1972)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/y-2-mate.is-the-merchant-of-four-seasons-original-title-handler-der-vier-jahresz/Y2Mate.is%20-%20The%20Merchant%20of%20Four%20Seasons%20%20Original%20title%20H%C3%A4ndler%20der%20vier%20Jahreszeiten%20%201972%20%20RW.%20Fassbinder-PM6pTpBGIuI-1080p-1629949863508.mp4",
     thumb: "https://cinema-talk.com/wp-content/uploads/2020/05/3-4.jpg?w=510&h=372",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3047,6 +3455,7 @@
   },
   {
     title: "Journey Back To Oz (1972)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/journey-back-to-oz-1972-full-1983-family-home-entertainment-vhs/Journey%20Back%20to%20Oz%20%281972%29%20%28full%201983%20Family%20Home%20Entertainment%20VHS%29.mp4",
     thumb: "https://i.ebayimg.com/images/g/HQsAAOSwIO9ci6tW/s-l1600.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3054,6 +3463,7 @@
   },
   {
     title: "Blue Movies (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/blue-movies-1988-vhs-rip/BLUE%20MOVIES%201988%20VHS%20RIP.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BYzI1YjAwOTUtOTJiZS00MDRmLTk0NjAtMmVhYmRlNWQzMTkxXkEyXkFqcGc@._V1_FMjpg_UX1024_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3061,6 +3471,7 @@
   },
   {
     title: "The Silence Of The Lambs (1991)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-silence-of-the-lambs-1991_202405/The%20Silence%20of%20the%20Lambs%201991.mp4",
     thumb: "https://c8.alamy.com/comp/BKPER2/the-silence-of-the-lambs-1991-poster-sol-001-05-os-BKPER2.jpg",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
@@ -3068,6 +3479,7 @@
   },
   {
     title: "The Slave (1962)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Slave%20%281962%29%20English.NTSC.DvDRip.720p.%20x264.AAC..ESubs.Chapters.BY.juleyano.mkv",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyj1ZeNISitkCf-mQElC9PG-BeowFh-3uKRkZbRH7GUb-zc5zMAiaVv_9JLmyqCay7UJt9CesP_a3_o2JSPiIcyP1Kbx8W5P6Otku3LKx9L_I7lTDVCTxLz-WKPrGWW2ExSVraURVS/w1200-h630-p-k-no-nu/slave.jpg",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Slave%20%281962%29%20English.NTSC.DvDRip.720p.%20x264.AAC..ESubs.Chapters.BY.juleyano.srt",
@@ -3075,6 +3487,7 @@
   },
   {
     title: "The Towering Inferno (1974)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-towering.-inferno.-1974/The.Towering.Inferno.1974.mp4",
     thumb: "https://www.mauvais-genres.com/46672-thickbox_default/the-towering-inferno-us-movie-poster-27x41-in-1974-john-guillermin-steve-mcqueen.jpg",
     subtitle: "https://archive.org/download/the.-towering.-inferno.-1974/The.Towering.Inferno.1974.English.srt",
@@ -3082,6 +3495,7 @@
   },
   {
     title: "El Condor (1970)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/el-condor-1970-720p/El%20Condor%201970%20720p.mp4",
     thumb: "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2025/2/6/1/8/0/180cc3a0-45f0-4ab2-8f8a-069d7b235f99.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3089,6 +3503,7 @@
   },
   {
     title: "Se7en",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/se7en.1995.remastered.720p.bluray.x264.yify_202404/se7en.1995.remastered.720p.bluray.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/38735138/r/il/1a27f5/4378232880/il_fullxfull.4378232880_38rx.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3096,6 +3511,7 @@
   },
   {
     title: "The Magnificent Seven (1960)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-magnificent.-seven.-1960.720p.-blu-ray.x-264.-yify/The.Magnificent.Seven.1960.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://m.media-amazon.com/images/I/817IIlQYE1L.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3103,6 +3519,7 @@
   },
   {
     title: "The Da Vinci Code (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-da.-vinci.-code.-2006.1080p.-blu-ray.-h-264.-aac-rarbg_202605/The.Da.Vinci.Code.2006.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://i.ebayimg.com/images/g/UCgAAOSwuzNkhxb2/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3110,6 +3527,7 @@
   },
   {
     title: "Django Unchained",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/django-unchained_202604/DJANGO_UNCHAINED.mp4",
     thumb: "https://images.citiesbox.com/poster1/django-unchained-movie-poster-django-unchained-classic-vintage-movie-poster-leonardo-dicaprio-classic-movie-canvas-cloth-poster-1-1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3117,6 +3535,7 @@
   },
   {
     title: "Little Big Man (1970)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/little-big-man-1970_202511/Little%20Big%20Man%20%281970%29/Little%20Big%20Man%20-%201970.mp4",
     thumb: "https://cdn.shopify.com/s/files/1/0238/0813/products/Little-Big-Man-1970-original-vintage-UK-quad-film-movie-poster_large.jpg?v=1571438557",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3124,6 +3543,7 @@
   },
   {
     title: "A Fistful Of Dollars (1964)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a.-fistful.of.-dollars.-1964.-remastered.-1080p.-blu-ray.-h-264.-aac-rarbg_202606/A.Fistful.of.Dollars.1964.REMASTERED.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://m.media-amazon.com/images/I/61SJfYgrhiL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3131,6 +3551,7 @@
   },
   {
     title: "A Man Called Horse (1970)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/a-man-called-horse-1970/A%20Man%20Called%20Horse%20%281970%29/A%20Man%20Called%20Horse%20-%201970.mp4",
     thumb: "https://classicmovierev.com/wp-content/uploads/2018/03/A-Man-Called-Horse-1970-Poster-SM.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3138,6 +3559,7 @@
   },
   {
     title: "The 300 Spartans (1962)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-300-spartans-1962/The%20300%20Spartans%20%281962%29/mp4/The%20300%20Spartans%20-%201962.mp4",
     thumb: "https://wallpaperaccess.com/full/1435384.jpg",
     subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/The%20Slave%20%281962%29%20English.NTSC.DvDRip.720p.%20x264.AAC..ESubs.Chapters.BY.juleyano.srt",
@@ -3145,6 +3567,7 @@
   },
   {
     title: "The Vikings (1958)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-vikings-1958_202510/The%20Vikings%20-%201958/The%20Vikings%20-%201958.mp4",
     thumb: "https://i.ytimg.com/vi/D0u-_lBS6F4/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3152,6 +3575,7 @@
   },
   {
     title: "Vlc Record (2025)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/vlc-record-2025-08-13-18h21m45s-dvd____D__-/vlc-record-2025-08-13-15h45m55s-dvd____D__-.mp4",
     thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/djpeeyw-5647f021-311f-4b31-824c-2280577aa194.jpg/v1/fill/w_1192,h_670,q_70,strp/2025_movie__and_tv__posters_3rd_edition_by_thekingblader995_djpeeyw-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGpwZWV5dy01NjQ3ZjAyMS0zMTFmLTRiMzEtODI0Yy0yMjgwNTc3YWExOTQuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.M61E_yCvfE1S36g52sJVtPWkyNxz3ndn6TSwvlGukEE",
     subtitle: "https://archive.org/download/vlc-record-2025-08-13-18h21m45s-dvd____D__-/vlc-record-2025-08-13-18h21m45s-dvd____D__-.disc.srt",
@@ -3159,6 +3583,7 @@
   },
   {
     title: "Enter The Dragon (1973)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/enter-the-dragon-1973_202409/ENTER%20THE%20DRAGON%20%20%281973%29.mp4",
     thumb: "https://moviepostersaustralia.com/cdn/shop/files/EntertheDragon_1973_DaybillVF_conditionbottomofposter.webp?v=1746498916&width=720",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3166,6 +3591,7 @@
   },
   {
     title: "2001 Space Odyssey (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/2001-space-odyssey-kued-funding-drive-1991-03/2001-space-odyssey-kued-funding-drive-1991-03.mp4",
     thumb: "https://stat.ameba.jp/user_images/20240509/00/prius-v/0f/e6/j/o0840110615436312278.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3173,6 +3599,7 @@
   }, 
 {
     title: "Puss In Boots (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/puss.-in.-boots.-2011.-unrated.-1080p.-blu-ray.-h-264.-aac-rarbg_202604/Puss.In.Boots.2011.UNRATED.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.mauvais-genres.com/30581-thickbox_default/puss-in-boots-original-movie-poster-15x21-in-2011-chris-miller-antonio-banderas.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3180,6 +3607,7 @@
   },
   {
     title: "Trinity Is Back Again (1975)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/trinity.-is.-back.-again.-1975.-dubbed.-1080p.-blu-ray.x-265-rarbg/Trinity.Is.Back.Again.1975.DUBBED.1080p.BluRay.x265-RARBG.mp4",
     thumb: "https://www.kinoart.net/kinoart2018/bilder/2024/2024NobodyistderGrsste707736_supersize.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3187,6 +3615,7 @@
   },
   {
     title: "The Adventures Of Barry McKenzie (1972)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-adventures.of.-barry.-mc-kenzie.-1972.1080p.-blu-ray.-h-264.-aac-rarbg/The.Adventures.of.Barry.McKenzie.1972.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.filmvandaag.nl/api/og-image/movie/3197-the-adventures-of-barry-mckenzie.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3194,6 +3623,7 @@
   },
   {
     title: "Once Upon A Forest (1993)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/once.-upon.-a.-forest.-1993.1080p.-webrip.x-264-rarbg/Once.Upon.A.Forest.1993.1080p.WEBRip.x264-RARBG.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMTI5ODUxMjE4OF5BMl5BanBnXkFtZTcwMjM2MjQyMQ@@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3201,6 +3631,7 @@
   },
   {
     title: "01 Halloween Horror (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/01halloweenhorror1978donaldpleasenceengsubs720ph264mp4/01_Halloween___Horror_1978_Donald_Pleasence_Eng_Subs_720p_H264_mp4.mp4",
     thumb: "https://i.etsystatic.com/15554723/r/il/3047ea/4443798234/il_fullxfull.4443798234_nh74.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3208,6 +3639,7 @@
   },
   {
     title: "Trollhunters Rise Of The Titans (2021)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/trollhunters.-rise.of.the.-titans.-2021.1080p.-webrip.x-264-rarbg/Trollhunters.Rise.of.the.Titans.2021.1080p.WEBRip.x264-RARBG.mp4",
     thumb: "https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/poster-film-Trollhunters-Rise-of-the-Titans-2021.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3216,6 +3648,7 @@
  
   {
     title: "Heat (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/heat.-1995.-br-rip.-720p.x-264.-yify_202408/Heat.1995.BrRip.720p.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/8850566/r/il/070d51/5197670895/il_1080xN.5197670895_l2db.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3223,6 +3656,7 @@
   },
   {
     title: "The Martian (2015)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-martian.-2015.-extended.-1080p.-brrip.x-264.-aac-etrg/The.Martian.2015.EXTENDED.1080p.BRRip.x264.AAC-ETRG.mp4",
     thumb: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/08ce5d30702221.562f8411ef69f.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3230,6 +3664,7 @@
   },
   {
     title: "Speed (1994)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721607.ca.archive.org/0/items/speed-1994_202410/SPEED%20%20%281994%29.mp4",
     thumb: "https://m.media-amazon.com/images/I/51RoDBpcUWL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3237,6 +3672,7 @@
   },
   {
     title: "Speed 2 (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721902.ca.archive.org/0/items/speed-2-1997/Speed%202%20%20%281997%29.mp4",
     thumb: "https://cover.box3.net/newsimg/dvdmov/max1131286498-frontback-cover.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3245,6 +3681,7 @@
 
   {
     title: "Asoka (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/asoka-2001-xvi-drip/Asoka%202001%20XviDRip.mp4",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgjvnbLqoJqeDoT_C3SD63L9qqmKWSKt1LjZy-UZi-AmL_Io25I0GSoOHjtdGPBLz0noZ34i5byLVaqPbzhRTzEtqmWXwSm7LS4BT7R-tjizDw0gMFAJ2uHHvqGBRFKyF6-kiivEJRGfI/w1200-h630-p-k-no-nu/94Asoka_2001_movie_poste.jpg",
     subtitle: "https://archive.org/download/9.2009.1080p.-blu-ray.x-264.-yify/9.2009.1080p.BluRay.x264.YIFY.srt",
@@ -3252,6 +3689,7 @@
   },
   {
     title: "Dawn Of The Dead (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/dawn-of-the-dead-1978_202512/Dawn%20Of%20The%20Dead%201978.mp4",
     thumb: "https://i.ebayimg.com/images/g/cj4AAOSw821kDMGV/s-l1600.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3259,6 +3697,7 @@
   },
   {
     title: "Letters From Iwo Jima (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/letters.-from.-iwo.-jima.-2006_202511/Letters%20From%20Iwo%20Jima%20%282006%29/Letters.From.Iwo.Jima.2006.mp4",
     thumb: "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/6edd3622-8d82-4508-9907-a0eb3e92d5b7/16d7178c-312a-405a-9647-3dd1a2143b3d?host=wbd-images.prod-vod.h264.io&partner=beamcom",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3266,6 +3705,7 @@
   },
   {
     title: "Flowers In The Attic (1987)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/flowers-in-the-attic-1987_202510/Flowers%20in%20the%20Attic%20-%201987/Flowers%20in%20the%20Attic%20-%201987.mp4",
     thumb: "https://wallpaperaccess.com/full/1238364.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3273,6 +3713,7 @@
   },
   {
     title: "The Time Travelers (1964)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-time.-travelers.-1964/The%20Time%20Travelers%20%281964%29/mp4/The.Time.Travelers.1964.mp4",
     thumb: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6603_v_h9_aa.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3281,6 +3722,7 @@
 
   {
     title: "Batman (1966)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/batman-1966_202112/Batman%20%281966%29%20%5BDVDrip%5D.mp4",
     thumb: "https://i.etsystatic.com/35897569/r/il/116723/3983023211/il_fullxfull.3983023211_dgsm.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3288,6 +3730,7 @@
   },
   {
     title: "The Howling (1981)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-howling-1981_202512/The%20Howling%20%281981%29/mp4/The%20Howling%20-%201981.mp4",
     thumb: "https://i.pinimg.com/originals/bf/f4/fb/bff4fb09c1db42a708fa0d45f56a823f.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3295,6 +3738,7 @@
   },
   {
     title: "Slumdog Millionaire (2008)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/slumdog-millionaire-2008-dv-drip-x-264-esubs-ddr/Slumdog%20Millionaire%202008%20DvDRip%20X%20264%20Esubs%20DDR.mp4",
     thumb: "https://media-cache.cinematerial.com/p/500x/s6hpbscc/slumdog-millionaire-indian-movie-poster.jpg?v=1456313984",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3302,6 +3746,7 @@
   },
   {
     title: "The Big Gundown (1966)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-big-gundown-1966_202511/The%20Big%20Gundown%20%281966%29/mp4/The%20Big%20Gundown%20-%201966.mp4",
     thumb: "http://imgc.allpostersimages.com/img/posters/big-gundown-1968_u-L-Q1IWEXO0.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3309,6 +3754,7 @@
   },
   {
     title: "Happiness (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/happiness.-1998.4-k.-ai.-gup-scale/Happiness.1998.4K.AI.GUpScale.mp4",
     thumb: "https://cdn.posteritati.com/posters/000/000/004/241/happiness-md-web.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3316,6 +3762,7 @@
   },
   {
     title: "Samsara 512kb",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Samsara-PanNalin/Samsara_512kb.mp4",
     thumb: "https://d2alu56i91c6gw.cloudfront.net/curzon/Samsara_UK_final.jpg",
     subtitle: "https://archive.org/download/Samsara-PanNalin/Samsara.srt",
@@ -3323,6 +3770,7 @@
   },
   {
     title: "Fallen Angels (1995)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/fallen.-angels.-1995.-blu-ray.-720p.x-264.-dts-my-silu.eng/Fallen.Angels.1995.BluRay.720p.x264.DTS-.mp4",
     thumb: "https://cdn.posteritati.com/posters/000/000/047/995/fallen-angels-md-web.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3330,6 +3778,7 @@
   },
   {
     title: "The Palace (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-palace.-2013.1080p.-webrip.x-264.-aac-fgn/The%20Palace.2013.1080p.WEBRip.x264.AAC-FGN.mp4",
     thumb: "https://metadata-static.plex.tv/e/gracenote/e72a55129c60b10310a5a9d9a025a3fe.jpg",
     subtitle: "https://archive.org/download/death.-race.-unrated.-2008.1080p.-br-rip.x-264.-yify/Death%20Race%202%20%282010%29/Death.Race.2.2010.720p.BrRip.x264.YIFY.srt",
@@ -3337,6 +3786,7 @@
   },
   {
     title: "The Palace (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-palace.-2013.1080p.-webrip.x-264.-aac-fgn.-turkce-alltyazili/The%20Palace.2013.1080p.WEBRip.x264.AAC-FGN.T%C3%BCrk%C3%A7e%20Alltyaz%C4%B1l%C4%B1.mp4",
     thumb: "https://metadata-static.plex.tv/e/gracenote/e72a55129c60b10310a5a9d9a025a3fe.jpg",
     subtitle: "https://archive.org/download/death.-race.-unrated.-2008.1080p.-br-rip.x-264.-yify/Death%20Race%202%20%282010%29/Death.Race.2.2010.720p.BrRip.x264.YIFY.srt",
@@ -3345,6 +3795,7 @@
   
   {
     title: "Kung Fu Master (1988)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/kung-fu-master-1988-agnes-varda-1080p-24fps-h-264-128kbit-aac/Kung-Fu%20Master%20%281988%20Agne%CC%80s%20Varda%29%20%281080p_24fps_H264-128kbit_AAC%29.mp4",
     thumb: "https://og.simkl.in/image/details/?poster=https://simkl.in/posters/10/107562243d7ef1eeb9_m.webp&year=1988&type=Movies&title=Kung-Fu+Master!&rating=7&avatar=&w=1200&h=630",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3352,6 +3803,7 @@
   },
   {
     title: "Go Brother (2018)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/go-brother-2018-1080p-brrip-aac-x-265-fgn/Go%20Brother%202018%201080p%20BRRip%20AAC%20x265-FGN.mp4",
     thumb: "https://media.fstatic.com/xGzeu4M7HCdB_hLy-ZkTZ8D_nh4=/fit-in/640x480/smart/filters:format(webp)/media/movies/covers/2020/08/Go_Brother_2018_720p_WEB-DL-fanart.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3360,6 +3812,7 @@
  
   {
     title: "The Man From Nowhere (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-man.-from.-nowhere.-2010.1080p.-brrip.x-264.-gaz.-yify/The.Man.From.Nowhere.2010.1080p.BRrip.x264.GAZ.YIFY.mp4",
     thumb: "https://i.ytimg.com/vi/-pFmDUnyPNE/maxresdefault.jpg",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
@@ -3367,6 +3820,7 @@
   },
   {
     title: "Water (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/water-2005-dv-drip-aac-5.1-x-264/Water%202005%20DvDRip%20AAC%205.1%20x264.mp4",
     thumb: "http://www.impawards.com/2006/posters/med_water_ver4.jpg",
     subtitle: "https://archive.org/download/lord.of.-war.-2005.720p.-br-rip.x-264.-yify/Lord%20of%20War%20%282005%29/Lord.of.War.2005.720p.BrRip.x264.YIFY.srt",
@@ -3374,6 +3828,7 @@
   },
   {
     title: "The Enemy Below (1957)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/TheEnemyBelow19571080pBluRayX264YIFY/The%20Enemy%20Below%201957%201080p%20BluRay%20x264%20YIFY.mp4",
     thumb: "http://lostislandtc.com/cdn/shop/files/TheEnemyBelow1957_MitchumWall2.jpg?v=1738009603&width=1024",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3381,6 +3836,7 @@
   },
   {
     title: "Popcornarchive (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-theRoad2009/Popcornarchive-theRoad2009.mp4",
     thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5298bac0-b8bf-4c80-af67-725c1272dbb0/dda3o8t-eb4ae48b-cb97-41da-aedb-a79f2a997ded.jpg/v1/fill/w_1192,h_670,q_70,strp/movies_turning_10__2009_movie_posters_by_thekingblader995_dda3o8t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzUyOThiYWMwLWI4YmYtNGM4MC1hZjY3LTcyNWMxMjcyZGJiMFwvZGRhM284dC1lYjRhZTQ4Yi1jYjk3LTQxZGEtYWVkYi1hNzlmMmE5OTdkZWQuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.zEVqyo8VHpqYkbb0jZdG-KPxVHP4zrcnmJLLxdETSFI",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3388,6 +3844,7 @@
   },
   {
     title: "Popcornarchive (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-lava2014/Popcornarchive-lava2014.mp4",
     thumb: "https://aurorasginjoint.com/wp-content/uploads/2015/08/4.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3395,6 +3852,7 @@
   },
   {
     title: "Popcornarchive (2011)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-marsNeedsMoms2011FullMovie/Popcornarchive-marsNeedsMoms2011FullMovie.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_1dc1k/Popcornarchive-myMovie_1dc1k.thumbs/Popcornarchive-myMovie_1dc1k_000062.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3402,6 +3860,7 @@
   },
   {
     title: "Popcornarchive (2012)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-thisMeansWar2012/Popcornarchive-thisMeansWar2012.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_v0mdr/Popcornarchive-myMovie_v0mdr.thumbs/Popcornarchive-myMovie_v0mdr_000002.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3409,6 +3868,7 @@
   },
   {
     title: "Unforgiven (1992)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/unforgiven.-1992.1080p.-br-rip.x-264.-yify_202305/Unforgiven.1992.1080p.BrRip.x264.YIFY.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2025/01/IMG_9078-scaled.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3416,6 +3876,7 @@
   },
   {
     title: "Popcornarchive (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/Popcornarchive-borat2006/Popcornarchive-borat2006.mp4",
     thumb: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1b302966-37e9-407c-bcb1-734ab28f6bc6/dgssa9p-1aa21df5-5f9e-4c05-8680-318aeb676f20.png/v1/fill/w_1280,h_720,q_80,strp/best_of_2006_by_colmodo_dgssa9p-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMWIzMDI5NjYtMzdlOS00MDdjLWJjYjEtNzM0YWIyOGY2YmM2XC9kZ3NzYTlwLTFhYTIxZGY1LTVmOWUtNGMwNS04NjgwLTMxOGFlYjY3NmYyMC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GwKwZTT1Jm52GS07Hxcht5-fq_vRr-bj36YRHmIa4fo",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3423,6 +3884,7 @@
   },
   {
     title: "Wild Things (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/wild.-things.-1998.720p.-blu-ray.x-264.-yify/Wild%20Things%20%281998%29/Wild.Things.1998.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://wallpapercave.com/wp/wp14894233.webp",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3430,6 +3892,7 @@
   },
   {
     title: "Looper (2012)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/looper.-2012.1080p.-blu-ray.x-264.-yify_202310/Looper.2012.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://collider.com/wp-content/uploads/looper-poster1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3437,6 +3900,7 @@
   },
   {
     title: "jOBS (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/jOBS.2013.1080p.BluRay.x264.YIFY/jOBS.2013.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://cover.box3.net/newsimg/dvdmov/max1387062630-frontback-cover.jpg",
     subtitle: "https://archive.org/download/iron.-sky.-2012.1080p.-blu-ray.x-264.-yify/Iron.Sky.2012.1080p.BluRay.x264.YIFY.srt",
@@ -3445,6 +3909,7 @@
  
   {
     title: "The Passion Of The Christ (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://www.simondwyer.com/files/passion-of-the-christ-15354.jpg",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
@@ -3452,6 +3917,7 @@
   },
   {
     title: "The Fly (1986)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the-fly-1986-blu-ray-yify/The%20Fly%201986%20BluRay%20YIFY.mp4",
     thumb: "https://image.invaluable.com/housePhotos/Dawsons/22/784722/H20550-L392232900_original.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3459,6 +3925,7 @@
   },
   {
     title: "Halloween Ii (2009)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/halloween.-ii.-2009.1080p.-brrip.x-264.-yify/Halloween.II.2009.1080p.BRrip.x264.YIFY.mp4",
     thumb: "https://cover.box3.net/newsimg/dvdmov/max1336912653-front-cover.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3467,6 +3934,7 @@
  
   {
     title: "Interstellar (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/interstellar.-2014.2014.1080p.-blu-ray.x-264.-yify_202604/Interstellar.2014.2014.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://pics.filmaffinity.com/interstellar-261524074-large.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3475,6 +3943,7 @@
  
   {
     title: "Firestarter (1984)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/firestarter.-1984.1080p.-blu-ray.x-264.-yify/Firestarter.1984.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://image.tmdb.org/t/p/w780/nAD1y49nVRkUrKYtAYdNh6DpPL5.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3482,6 +3951,7 @@
   },
   {
     title: "Rushmore (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/rushmore.-1998.1080p.-blu-ray.x-264.-yify/Rushmore.1998.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://images.citiesbox.com/poster2/rushmore-movie-poster-high-quality-canvas-wall-art-room-decor-rushmore-1998-movie-poster-for-gift-2-3.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3489,6 +3959,7 @@
   },
   {
     title: "Bolt",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/bolt.-2008.1080p.-blu-ray.x-264.-yify_202412/Bolt.mp4",
     thumb: "https://i.etsystatic.com/44424864/r/il/7588f8/5389724298/il_fullxfull.5389724298_fh9e.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3496,6 +3967,7 @@
   },
   {
     title: "Pixels (2015)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/pixels1520/Pixels.2015.1080p.BluRay.x264.YIFY.mp4",
     thumb: "http://www.hdwallpapers.in/walls/pixels_movie-wide.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3503,6 +3975,7 @@
   },
   {
     title: "Conspiracy Theory (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/conspiracy.-theory.-1997.720p.-blu-ray.x-264.-yify/Conspiracy.Theory.1997.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://musicart.xboxlive.com/7/a70e5100-0000-0000-0000-000000000002/504/image.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3510,6 +3983,7 @@
   },
   {
     title: "Guardians Of The Galaxy (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/guardians.of.the.-galaxy.-2014.1080p.-blu-ray.x-264.-yify_202609/Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://www.vintagemovieposters.co.uk/wp-content/uploads/2018/11/IMG_2592-1024x766.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3517,6 +3991,7 @@
   },
   {
     title: "Bulletproof Monk (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/bulletproof.-monk.-2003.720p.-br-rip.x-264.-yify/Bulletproof.Monk.2003.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://www.moviemistakes.com/images/titles/social/3162.jpg",
     subtitle: "https://archive.org/download/bulletproof.-monk.-2003.720p.-br-rip.x-264.-yify/Bulletproof.Monk.2003.720p.BrRip.x264.YIFY.srt",
@@ -3524,6 +3999,7 @@
   },
   {
     title: "Starship Troopers (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/starship.-troopers.-1997.720p.-br-rip.x-264.-yify_202601/Starship.Troopers.1997.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/50594216/r/il/b1046c/5917568329/il_1080xN.5917568329_75ax.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3531,6 +4007,7 @@
   },
   {
     title: "Leprechaun In The Hood (2000)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/leprechaun.in.the.-hood.-2000.720p.-blu-ray.x-264.-yify/Leprechaun.in.the.Hood.2000.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM8xiamcRdCYHJ4BxVCjraSmFoCOc6_QaAiSpIKJns0ie5C8-PS483au73MlYV9rXuxmeLKvH27WcNICbFjv0GINmLomMFzV1CsUg2hceZLL7ePg4Ijh3eWe783t9GAvyqOO7pehivczk/w1200-h630-p-k-no-nu/Leprechaun.In.The.Hood.2000.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3538,6 +4015,7 @@
   },
   {
     title: "Lord Of War (2005)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/lord.of.-war.-2005.720p.-br-rip.x-264.-yify/Lord%20of%20War%20%282005%29/Lord.of.War.2005.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://i.ebayimg.com/images/g/RdgAAOSwyulb6Ey6/s-l1200.jpg",
     subtitle: "https://archive.org/download/lord.of.-war.-2005.720p.-br-rip.x-264.-yify/Lord%20of%20War%20%282005%29/Lord.of.War.2005.720p.BrRip.x264.YIFY.srt",
@@ -3545,6 +4023,7 @@
   },
   {
     title: "Jaws (1975)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/jaws.-1975.1080p.-br-rip.x-264.bitloks.-yify_202408/Jaws.1975.1080p.BrRip.x264.bitloks.YIFY.mp4",
     thumb: "https://images.citiesbox.com/poster1/jaws-1975-movie-poster-jaws-classic-vintage-movie-poster-classic-movie-canvas-cloth-poster-1-1.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3552,6 +4031,7 @@
   },
   {
     title: "Pacific Rim (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/pacific.-rim.-2013.720p.-blu-ray.x-264.-yify_202604/Pacific.Rim.2013.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://cdn.posteritati.com/posters/000/000/037/218/pacific-rim-md-web.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3559,6 +4039,7 @@
   },
   {
     title: "The Departed (2006)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-departed.-2006.720p.-br-rip.x-264.-yify_202502/The.Departed.2006.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://images.citiesbox.com/poster5/the-departed-2006-ds21-3.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3566,6 +4047,7 @@
   },
   {
     title: "Ex Machina (2015)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/ex.-machina.-2015.720p.-blu-ray.x-264.-yify_202604/Ex.Machina.2015.720p.BluRay.x264.YIFY.mp4",
     thumb: "https://artofthemovies.co.uk/cdn/shop/products/IMG_0139.jpg?v=1667321555&width=1946",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3573,6 +4055,7 @@
   },
   {
     title: "Men In Black (1997)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/men.-in.-black.-1997.720p.-blu-ray.x-264.-yify_202505/Men.In.Black.1997.720p.BluRay.x264.YIFY.mp4",
     thumb: "http://atthemovies.uk/cdn/shop/products/MenInBlack1997bq100u.jpg?v=1621384476",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3580,6 +4063,7 @@
   },
   {
     title: "Iron Sky (2012)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/iron.-sky.-2012.1080p.-blu-ray.x-264.-yify/Iron.Sky.2012.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://images.citiesbox.com/poster9/iron-sky-2012-ds04-1.jpg",
     subtitle: "https://archive.org/download/iron.-sky.-2012.1080p.-blu-ray.x-264.-yify/Iron.Sky.2012.1080p.BluRay.x264.YIFY.srt",
@@ -3587,6 +4071,7 @@
   },
   {
     title: "Arachnophobia (1990)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/arachnophobia.-1990.720p.-br-rip.x-264.-bokutox.-yify-bg/Arachnophobia.1990.720p.BrRip.x264.BOKUTOX.YIFY%20bg.mp4",
     thumb: "https://shatpod.com/movies/wp-content/uploads/Arachnophobia-1990-Movie-Poster-720x340.jpg",
     subtitle: "https://archive.org/download/arachnophobia.-1990.720p.-br-rip.x-264.-bokutox.-yify-bg/Arachnophobia.1990.720p.BrRip.x264.BOKUTOX.YIFY%20bg.srt",
@@ -3594,6 +4079,7 @@
   },
   {
     title: "50 First Dates (2004)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/50.-first.-dates.-2004.720p.-br-rip.x-264.-yify_202606/50.First.Dates.2004.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://thewilldowntown.com/wp-content/uploads/2024/02/50-First-Dates-2004--1024x576.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3601,6 +4087,7 @@
   },
  {
     title: "Divergent (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/divergent-2014-1080p-blu-ray-x-264-yify_202509/Divergent.2014.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://c8.alamy.com/comp/HCEJDR/insurgent-aka-the-divergent-series-insurgent-british-poster-art-from-HCEJDR.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3609,6 +4096,7 @@
 
   {
     title: "Insurgent (2015)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/insurgent-2015-1080p-bluray-x-264-yify/Insurgent.2015.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://c8.alamy.com/comp/HCEJDR/insurgent-aka-the-divergent-series-insurgent-british-poster-art-from-HCEJDR.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3617,6 +4105,7 @@
 
   {
     title: "Death Race Unrated (2008)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/death.-race.-unrated.-2008.1080p.-br-rip.x-264.-yify/Death%20Race%20UNRATED%20%282008%29%20%5B1080p%5D/Death.Race.UNRATED.2008.1080p.BrRip.x264.YIFY.mp4",
     thumb: "https://cover.box3.net/newsimg/dvdmov/max1489043319-back-cover.jpg",
     subtitle: "https://archive.org/download/death.-race.-unrated.-2008.1080p.-br-rip.x-264.-yify/Death%20Race%20UNRATED%20%282008%29%20%5B1080p%5D/Death.Race.2008.1080p.BrRip.x264.YIFY.srt",
@@ -3624,6 +4113,7 @@
   },
   {
     title: "Death Race 2 (2010)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/death.-race.-unrated.-2008.1080p.-br-rip.x-264.-yify/Death%20Race%202%20%282010%29/Death.Race.2.2010.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://images.fanart.tv/fanart/death-race-2-61193d6846a6d.jpg",
     subtitle: "https://archive.org/download/death.-race.-unrated.-2008.1080p.-br-rip.x-264.-yify/Death%20Race%202%20%282010%29/Death.Race.2.2010.720p.BrRip.x264.YIFY.srt",
@@ -3631,6 +4121,7 @@
   },
   {
     title: "The Book Of Life (2014)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-book.of.-life.-2014.1080p.-blu-ray.x-264.-yify/The.Book.of.Life.2014.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://i.ebayimg.com/images/g/d5QAAOSwnotiOPpe/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3638,6 +4129,7 @@
   },
   {
     title: "The Big Lebowski (1998)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-big.-lebowski.-1998.720p.-br-rip.x-264.-yify_202512/The.Big.Lebowski.1998.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/47325174/r/il/0d3dd7/5522323708/il_1080xN.5522323708_auol.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3645,6 +4137,7 @@
   },
   {
     title: "The Haunted Mansion (2003)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-haunted.-mansion.-2003.720p.-blu-ray.x-264.-yify/The.Haunted.Mansion.2003.720p.BluRay.x264.YIFY.mp4",
     thumb: "http://manapop.com/wp-content/uploads/2020/05/haunted-mansion-banner.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3652,6 +4145,7 @@
   },
   {
     title: "Anaconda (2025)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/Anaconda%20%282025%29%20Eng%201080p%20WEBRip%20x265%20DDP%205.1%20ESub.mp4",
     thumb: "https://bleedingcool.com/wp-content/uploads/2025/12/Anaconda-Character-Posters.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3659,6 +4153,7 @@
   },
   {
     title: "Argylle (2024)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/Argylle.2024.1080p.WEBRip.x264.AAC5.1-%5BYTS.MX%5D.mp4",
     thumb: "http://www.impawards.com/2024/posters/argylle_ver6.jpg",
     subtitle: "https://archive.org/download/skyfall.-2012.720p.-br-rip.x-264.-yify/Skyfall.2012.720p.BrRip.x264.YIFY.srt",
@@ -3666,6 +4161,7 @@
   },
   {
     title: "Blade Runner 2049 (2017) ",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/Blade%20Runner%202049%20%282017%29.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-3N9jErIKvmMlNitK9QRAjnw4qhEu8cY3kmCDWELb9w&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3673,6 +4169,7 @@
   },
   {
     title: "Blade Runner (1982)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/Blade.Runner.1982.1080p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://images8.alphacoders.com/117/1170940.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3680,6 +4177,7 @@
   },
   {
     title: "Bumblebee",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/Bumblebee-.mp4",
     thumb: "https://dygtyjqp7pi0m.cloudfront.net/i/73918/57500357_1.jpg?v=8DDD20109D717D0",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3687,6 +4185,7 @@
   },
   {
     title: "Good Morning Vietnam (1987)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/Good.Morning.Vietnam.1987.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://i.ebayimg.com/images/g/664AAOSwD0dij41x/s-l1200.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3695,6 +4194,7 @@
 
   {
     title: "The Boy And The Heron (2023)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/The.Boy.and.the.Heron.2023.DUBBED.1080p.AMZN.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mp4",
     thumb: "https://mariviu.com/wp-content/uploads/2023/12/poster-film-The-Boy-and-the-Heron-jpg.webp",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
@@ -3702,6 +4202,7 @@
   },
   {
     title: "The Crow (2024)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/The.Crow.2024.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mp4",
     thumb: "https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/a017759c-f519-4268-87da-6b035af8e127/new-poster-art-for-the-crow-remake.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3709,6 +4210,7 @@
   },
   {
     title: "Training Day (2001)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/training-day-2001-br-rip-720p-x-264-yify/Training%20Day%202001%20BrRip%20720p%20x264%20YIFY.mp4",
     thumb: "https://wallpapers.com/images/hd/training-day-actors-poster-0iiwcvrhtb3uk6jn.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3716,6 +4218,7 @@
   },
   {
     title: "The Great Train Robbery (1978)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-great.-train.-robbery.-1978.1080p.-blu-ray.x-264.-yify/The.Great.Train.Robbery.1978.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://m.media-amazon.com/images/I/81+P7vlrnvL._AC_SL1500_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3724,6 +4227,7 @@
 
   {
     title: "Bbc Horizon (2012)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/BBC.Horizon.2012.How.Small.is.the.Universe.720p.HDTV.x264.AAC_201807/BBC.Horizon.2012.How.Small.is.the.Universe.720p.HDTV.x264.AAC.mp4",
     thumb: "https://ilarge.lisimg.com/image/29491600/740full-bbc-horizon-screenshot.jpg",
     subtitle: "https://archive.org/download/iron.-sky.-2012.1080p.-blu-ray.x-264.-yify/Iron.Sky.2012.1080p.BluRay.x264.YIFY.srt",
@@ -3731,6 +4235,7 @@
   },
   {
     title: "Quantum, Ai & Hybrid Cloud Converge The Future Of Computing Webm Vp9 Webm",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Quantum%2C_AI_%26_Hybrid_Cloud_converge-_The_future_of_computing.webm/Quantum%2C_AI_%26_Hybrid_Cloud_converge-_The_future_of_computing.webm.1080p.vp9.webm",
     thumb: "https://miro.medium.com/v2/resize:fit:1200/1*EuLRZ04-ksF5dCM3tPwPxA@2x.jpeg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3739,6 +4244,7 @@
   
     {
       title: "SEVEN WORLDS ONE PLANET-Ep01:Trailer",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_0_Trailer.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       series: "SEVEN WORLDS ONE PLANET",
@@ -3748,6 +4254,7 @@
     }, 
     {
       title: "SEVEN WORLDS ONE PLANET-Ep02:Antarctica",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_1_Antarctica.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       series: "SEVEN WORLDS ONE PLANET",
@@ -3757,6 +4264,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep03:Asia",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_2_Asia.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3766,6 +4274,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep04:South_America",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_3_South_America.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3775,6 +4284,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep05:Australia",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_4_Australia.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3784,6 +4294,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep06:Europe",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_5_Europe.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3793,6 +4304,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep07:North_America",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_6_North_America.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3802,6 +4314,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep08:Africa",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_7_Africa.mp4",
       thumb: "https://www.medianews4u.com/wp-content/uploads/2019/07/Seven-worlds-one-planet-750x375.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3812,6 +4325,7 @@
 
     {
       title: "Planet Earth-Ep01",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_01_from_pole_to_pole.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3821,6 +4335,7 @@
     },
    {
       title: "Planet Earth-Ep02",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_02_mountains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3830,6 +4345,7 @@
     },
    {
       title: "Planet Earth-Ep03",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_03_fresh_water.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3839,6 +4355,7 @@
     },
    {
       title: "Planet Earth-Ep04",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_04_caves.mkv",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3848,6 +4365,7 @@
     },
    {
       title: "Planet Earth-Ep05",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_05_deserts.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3857,6 +4375,7 @@
     },
       {
       title: "Planet Earth-Ep06",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_06_ice_worlds.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3866,6 +4385,7 @@
     },
       {
       title: "Planet Earth-Ep07",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_07_great_plains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3875,6 +4395,7 @@
     },
     {
       title: "Planet Earth-Ep08",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_08_jungles.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3884,6 +4405,7 @@
     },
     {
       title: "Planet Earth-Ep09",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_09_shallow_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3893,6 +4415,7 @@
     },
     {
       title: "Planet Earth-Ep10",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_10_seasonal_forests.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3902,6 +4425,7 @@
     },
     {
       title: "Planet Earth-Ep11",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_11_ocean_deep.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3911,6 +4435,7 @@
     },
     {
       title: "Planet Earth-Ep12",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_12_saving_species.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3920,6 +4445,7 @@
     },
     {
       title: "Planet Earth-Ep13",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_13_into_the_wilderness.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3929,6 +4455,7 @@
     },
     {
       title: "Planet Earth-Ep14",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_14_living_together.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/e/e3/BBC_PE_title.jpg",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3939,6 +4466,7 @@
 
     {
       title: "Planet Earth II-Ep01:Islands",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_01_islands.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3948,6 +4476,7 @@
     },
     {
       title: "Planet Earth II-Ep02:Mountains",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_02_mountains.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3957,6 +4486,7 @@
     },
     {
       title: "Planet Earth II-Ep03:Jungles",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_03_jungles.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3966,6 +4496,7 @@
     },
     {
       title: "Planet Earth II-Ep04:Deserts",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_04_deserts.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3975,6 +4506,7 @@
     },
     {
       title: "Planet Earth II-Ep05:Grasslands",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_05_grasslands.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3984,6 +4516,7 @@
     },
     {
       title: "Planet Earth II-Ep06:Cities",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_2_bbc/planet_earth_ii_06_cities.mkv",
       thumb: "https://upload.wikimedia.org/wikipedia/en/b/ba/Planet_Earth_II.png",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -3995,6 +4528,7 @@
 
     {
       title: "Planet Earth III-Ep01:Coasts",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_01_coasts.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4003,6 +4537,7 @@
     },
    {
       title: "Planet Earth III-Ep02:Ocean",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_02_ocean.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4011,6 +4546,7 @@
     },
    {
       title: "Planet Earth III-Ep03:Deserts & Grasslands",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_03_deserts_and_grasslands.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4019,6 +4555,7 @@
     },
    {
       title: "Planet Earth III-Ep04:Freshwater",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_04_freshwater.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4028,6 +4565,7 @@
 
    {
       title: "Planet Earth III-Ep05:Forests",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_1_bbc/planet_earth_05_deserts.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4036,6 +4574,7 @@
     },
     {
       title: "Planet Earth III-Ep06:Extremes",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_06_extremes.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4044,6 +4583,7 @@
     },
     {
       title: "Planet Earth III-Ep07:Human",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_07_human.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4052,6 +4592,7 @@
     },
     {
       title: "Planet Earth III-Ep08:Heroes",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/planet_earth_3_bbc/planet_earth_iii_08_heroes.mp4",
       thumb: "https://i.ytimg.com/vi/lKkFj9KfJ6U/hq720.jpg",
       series: "Planet Earth III",
@@ -4061,6 +4602,7 @@
     
     {
       title: "The Blue Planet-Ep01",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_01_ocean_world.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4069,6 +4611,7 @@
     },
     {
       title: "The Blue Planet-Ep02",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_02_frozen_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4077,6 +4620,7 @@
     },
     {
       title: "The Blue Planet-Ep03",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_03_open_ocean.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4085,6 +4629,7 @@
     },
     {
       title: "The Blue Planet-Ep04",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_04_the_deep.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4093,6 +4638,7 @@
     },
     {
       title: "The Blue Planet-Ep05",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_05_seasonal_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4101,6 +4647,7 @@
     },
     {
       title: "The Blue Planet-Ep06",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_06_coral_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4109,6 +4656,7 @@
     },
     {
       title: "The Blue Planet-Ep07",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_07_tidal_seas.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4117,6 +4665,7 @@
     },
     {
       title: "The Blue Planet-Ep08",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_08_coasts.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4125,6 +4674,7 @@
     },
     {
       title: "The Blue Planet-Ep09",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_09_deep_trouble.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4133,6 +4683,7 @@
     },
     {
       title: "The Blue Planet-Ep10",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_10_amazon_abyss.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4141,6 +4692,7 @@
     },
     {
       title: "The Blue Planet-Ep11",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_11_dive_to_shark_volcano.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4149,6 +4701,7 @@
     },
     {
       title: "The Blue Planet-Ep12",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_12_being_there_antarctica.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4157,6 +4710,7 @@
     },
     {
       title: "The Blue Planet-Ep13",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the_blue_planet/the_blue_planet_13_being_there_between_the_tides.mp4",
       thumb: "https://upload.wikimedia.org/wikipedia/en/2/21/BBC_Blue_Planet_II_title_card.jpg",
       series: "The Blue Planet",
@@ -4166,6 +4720,7 @@
 
     {
       title: "Walking-with-Dinosaurs-Ep01",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%201%20-%20New%20Blood.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
       series: "Walking with Dinosaurs",
@@ -4174,6 +4729,7 @@
     },
     {
       title: "Walking-with-Dinosaurs-Ep02",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%202%20-%20A%20Time%20of%20the%20Titans.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
       series: "Walking with Dinosaurs",
@@ -4182,6 +4738,7 @@
     },
     {
       title: "Walking-with-Dinosaurs-Ep03",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%203%20-%20Cruel%20Sea.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
       series: "Walking with Dinosaurs",
@@ -4190,6 +4747,7 @@
     },
     {
       title: "Walking-with-Dinosaurs-Ep04",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%204%20-%20Giant%20of%20the%20Skies.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
       series: "Walking with Dinosaurs",
@@ -4198,6 +4756,7 @@
     },
     {
       title: "Walking-with-Dinosaurs-Ep05",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%205%20-%20Spirits%20of%20the%20Ice%20Forest.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
       series: "Walking with Dinosaurs",
@@ -4206,6 +4765,7 @@
     },
     {
       title: "Walking-with-Dinosaurs-Ep06",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-dinosaurs/Episode%206%20-%20Death%20of%20a%20Dynasty.mp4",
       thumb: "https://i.ebayimg.com/images/g/Fn8AAOSwHnFV3gUn/s-l960.webp",
       series: "Walking with Dinosaurs",
@@ -4214,6 +4774,7 @@
     },
 	{
       title: "Walking with Beast -Ep01",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%201%20-%20New%20Dawn.mp4",
       thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg",
       series: "Walking with Beasts",
@@ -4222,6 +4783,7 @@
     },
     {
       title: "Walking with Beast -Ep02",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%202%20-%20Whale%20Killer.mp4",
       thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg",
       series: "Walking with Beasts",
@@ -4230,6 +4792,7 @@
     },
     {
       title: "Walking with Beast -Ep03",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%203%20-%20Land%20of%20Giants.mp4",
       thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg",
       series: "Walking with Beasts",
@@ -4238,6 +4801,7 @@
     },
     {
       title: "Walking with Beast -Ep04",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%204%20-%20Next%20of%20Kin.mp4",
       thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg",
       series: "Walking with Beasts",
@@ -4246,6 +4810,7 @@
     },
     {
       title: "Walking with Beast -Ep05",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%205%20-%20Sabre%20Tooth.mp4",
       thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg",
       series: "Walking with Beasts",
@@ -4254,6 +4819,7 @@
     },
     {
       title: "Walking with Beast -Ep06",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/walking-with-beasts/Walking%20With%20Beasts%20Ep%206%20-%20Mammoth%20Journey.mp4",
       thumb: "https://i.ytimg.com/vi/S46Qd3ypMMM/sddefault.jpg",
       series: "Walking with Beasts",
@@ -4263,6 +4829,7 @@
 
     {
       title: "SEVEN WORLDS ONE PLANET-Ep01:The First Civilizations",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-history-of-the-world_202203/01aThe%20Ancient%20World%20%20Part%201%20The%20First%20Civilizations%20%20The%20History%20of%20the%20World%20%20Volume%20I.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -4271,6 +4838,7 @@
     }, 
     {
       title: "SEVEN WORLDS ONE PLANET-Ep02:Greece",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/seven-worlds-one-planet/SEVEN_WORLDS_ONE_PLANET_1_Antarctica.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -4280,6 +4848,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep03:Roman,India and China",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-history-of-the-world_202203/02bAge%20of%20Empires%20%20Part%201%20The%20Roman%20Republic%20Maurya%20India%20%20Qin%20China%20%20History%20of%20the%20World%20vol%20II.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -4288,6 +4857,7 @@
     },
     {
       title: "SEVEN WORLDS ONE PLANET-Ep04:Roman Revolution",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-history-of-the-world_202203/02cAge%20of%20Empires%20-%20Part%202_%20The%20Roman%20Revolution%20_%20The%20History%20of%20the%20World%20-%20Volume%20II.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYq-0NiVv8rK-07QGsiYhTWO61rX2FJLPNt-dIshnDgg&s=10",
       series: "The History of the World",
@@ -4296,36 +4866,43 @@
     },
     {
       title: "Coffee Cup",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://samplelib.com/preview/mp4/sample-5s.mp4",
       thumb: "https://thumbs.dreamstime.com/b/cup-cofee-2927130.jpg"
     },
     {
       title: "Sintel Trailer",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://media.w3.org/2010/05/sintel/trailer.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyqEeO_d66wHHlyGLtZ_0rGfQegfnZgxfqQ&s"
     },
     {
       title: "Bunny Trailer",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://media.w3.org/2010/05/bunny/trailer.mp4",
       thumb: "https://i1.sndcdn.com/artworks-000005011281-9brqv2-t1080x1080.jpg"
     },
     {
       title: "Happy Feet 2",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://html5videoformatconverter.com/data/images/happyfit2.mp4",
       thumb: "https://c8.alamy.com/comp/F6KH5T/release-date-november-17-2006-movie-title-happy-feet-director-george-F6KH5T.jpg"
     },
     {
       title: "IPTV TEST",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyc0-RsVKTimb3HK_bGU0baLFU9Sd7GjcbphGu2nFunw&s=10"
     },
     {
       title: "Deep Blue Sea 2007",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Deep.Blue.Sea.%281999%29.H265.1080p.DVDRip.EzzRips/Deep.Blue.Sea.%281999%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/07/Split-image-of-characters-and-sharks-from-Deep-Blue-Sea.jpg?q=50&fit=crop&w=360&h=240&dpr=1.5"
     },
     {
       title: "Gone In Sixty Seconds 2000",
+      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn710003.ca.archive.org/0/items/live.-free.or.-die.-hard.-2007.-h-265.1080p.-dvdrip.-ezz-rips/Gone.in.60.Seconds.%282000%29.H265.1080p.DVDRip.EzzRips/Gone.In.Sixty.Seconds.%282000%29.H265.1080P.Dvdrip.Ezzrips.mp4",
       thumb: "https://i.ytimg.com/vi/kEbu0mqylT4/maxresdefault.jpg"
     }
