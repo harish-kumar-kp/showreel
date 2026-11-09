@@ -1584,7 +1584,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Action",
   }, 
-  {													 {
+  {													 
     title: "Secret (2007)",
    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src:  "https://archive.org/download/secret.-2007.1080p.-blu-ray.-h-264.-aac-vxt/Secret.2007.1080p.BluRay.H264.AAC-VXT.mp4",
