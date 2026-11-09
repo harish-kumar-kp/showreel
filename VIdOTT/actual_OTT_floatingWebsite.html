@@ -1021,15 +1021,17 @@
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
         <span id="mediaBadge" class="media-badge" title="Video / audio format"></span>
         <span>&nbsp;&nbsp;</span>
-        <font color="Orange">Total Titles📚 :</font>
+        <font color="Orange">Titles📚 :</font>
         <span id="totalTitles" style="color:#5da9ff;font-variant-numeric:tabular-nums;flex-shrink:0;">0</span>
         <span id="mediaGroup" style="display:none;flex-shrink:0;white-space:nowrap;">
           <span>&nbsp;&nbsp;</span>
+	<!-- 
           <font color="Orange">Format🎬 :</font>
           <span id="mediaBadge2" class="media-badge" style="margin-left:4px;"></span>
+        -->
         </span>
         <span>&nbsp;&nbsp;</span>
-        <font color="Orange">Current Time⏲ :</font>	
+        <font color="Orange">Clock⏲ :</font>	
         <span id="clock"></span>          
         </div>
       </div>
@@ -1711,16 +1713,6 @@
   video.addEventListener('pause', saveResumePosition);
   window.addEventListener('beforeunload', saveResumePosition);
 
-  // Apply a title's AspectRatio (from the playlist JS). Falls back to "fit" when missing/unknown.
-  function applyAspectRatio(r) {
-    let ratio = 'fit';
-    aspectBtns.forEach(b => { if (b.dataset.ratio === r) ratio = r; });
-    video.setAttribute('data-ratio', ratio);
-    aspectBtns.forEach(b => b.classList.toggle('active', b.dataset.ratio === ratio));
-    const activeBtn = aspectPanel.querySelector('.aspect-btn.active');
-    if (activeBtn) aspectMenuBtn.textContent = activeBtn.textContent + ' ▾';
-  }
-
   function playByIndex(i, isRetry) {
     if (i < 0 || i >= videos.length) return;
     currentIndex = i;
@@ -1733,7 +1725,6 @@
       scrollThumbIntoView(thumbEls[i]);
     }
 
-    applyAspectRatio(v.AspectRatio || 'fit');
     video.src = v.src;
     video.load();
 
