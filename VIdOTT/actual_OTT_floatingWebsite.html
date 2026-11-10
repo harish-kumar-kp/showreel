@@ -1017,18 +1017,18 @@
 
 	<button class="ctrl-btn" id="aspectMenuBtn" title="Aspect Ratio">A:R 🖥️□ ▾</button>
         <span>&nbsp;</span> 
-        <font color="Orange">Now Playing🎞 :</font>           
+        <font color="Orange">Title🎞 :</font>           
 	<span id="nowPlaying">Click a thumbnail on the right to start playing</span>
         <span id="mediaBadge" class="media-badge" title="Video / audio format"></span>
         <span>&nbsp;&nbsp;</span>
-        <font color="Orange">Titles📚 :</font>
+        <font color="Orange">Total Titles📚 :</font>
         <span id="totalTitles" style="color:#5da9ff;font-variant-numeric:tabular-nums;flex-shrink:0;">0</span>
         <span id="mediaGroup" style="display:none;flex-shrink:0;white-space:nowrap;">
           <span>&nbsp;&nbsp;</span>
-	<!-- 
+	<!--
           <font color="Orange">Format🎬 :</font>
           <span id="mediaBadge2" class="media-badge" style="margin-left:4px;"></span>
-        -->
+	-->
         </span>
         <span>&nbsp;&nbsp;</span>
         <font color="Orange">Clock⏲ :</font>	
@@ -1124,6 +1124,12 @@
   const aspectMenuBtn = document.getElementById('aspectMenuBtn');
   const aspectPanel = document.getElementById('aspectPanel');
   const aspectBtns = aspectPanel.querySelectorAll('.aspect-btn');
+  // X-Ray panel elements are declared here (not further down) because updateControlsVisibility()
+  // runs during start-up, before the X-Ray section is reached.
+  const xrayBtn = document.getElementById('infoBtn');
+  const xrayPanel = document.getElementById('xrayPanel');
+  const xrayBody = document.getElementById('xrayBody');
+  const xrayCloseBtn = document.getElementById('closeInfo');
   const subtitleBtn = document.getElementById('subtitleBtn');
   const sceneBtn = document.getElementById('sceneBtn');
   const scenePanel = document.getElementById('scenePanel');
@@ -1459,9 +1465,10 @@
   }
   function renderMediaInfo() {
     const bt = badgeText(mediaInfo);
-    mediaBadge.textContent = bt;
-    mediaBadge2.textContent = bt.replace(/^·\s*/, '');
-    mediaGroup.style.display = bt ? '' : 'none';
+    // mediaBadge2 is commented out in the markup, so every element is null-checked.
+    if (mediaBadge) mediaBadge.textContent = bt;
+    if (mediaBadge2) mediaBadge2.textContent = bt.replace(/^·\s*/, '');
+    if (mediaGroup) mediaGroup.style.display = (bt && mediaBadge2) ? '' : 'none';
     const slot = document.getElementById('xrayTech');
     if (slot) slot.innerHTML = techHtml(mediaInfo) ? techHtml(mediaInfo).replace(/^<div class="xray-tech">|<\/div>$/g, '') : '';
   }
@@ -1713,6 +1720,16 @@
   video.addEventListener('pause', saveResumePosition);
   window.addEventListener('beforeunload', saveResumePosition);
 
+  // Apply a title's AspectRatio (from the playlist JS). Falls back to "fit" when missing/unknown.
+  function applyAspectRatio(r) {
+    let ratio = 'fit';
+    aspectBtns.forEach(b => { if (b.dataset.ratio === r) ratio = r; });
+    video.setAttribute('data-ratio', ratio);
+    aspectBtns.forEach(b => b.classList.toggle('active', b.dataset.ratio === ratio));
+    const activeBtn = aspectPanel.querySelector('.aspect-btn.active');
+    if (activeBtn) aspectMenuBtn.textContent = activeBtn.textContent + ' ▾';
+  }
+
   function playByIndex(i, isRetry) {
     if (i < 0 || i >= videos.length) return;
     currentIndex = i;
@@ -1725,6 +1742,7 @@
       scrollThumbIntoView(thumbEls[i]);
     }
 
+    applyAspectRatio(v.AspectRatio || 'fit');
     video.src = v.src;
     video.load();
 
@@ -2167,39 +2185,28 @@
     titleSearch.focus();
   });
 
-  // ---- X-Ray: short movie info pulled live from Wikipedia's public REST API ----
-  // Wikipedia summaries are released under CC BY-SA and are explicitly meant for
-  // this kind of "info card" reuse; we always show a link back to the full
-  // article for attribution rather than displaying more than a short extract.
-  const xrayBtn = document.getElementById('infoBtn');
-  const xrayPanel = document.getElementById('xrayPanel');
-  const xrayBody = document.getElementById('xrayBody');
-  const xrayCloseBtn = document.getElementById('closeInfo');
-  const xrayCache = {}; // videoIndex -> { title, extract, thumb, pageUrl } | 'unavailable'
+  // ---- X-Ray: movie info from Wikipedia (+ IMDb data via OMDb) + technical media info ----
+  // * Wikipedia: summary, poster and the "Plot" section (public API, CORS enabled, CC BY-SA).
+  // * IMDb: IMDb has no free public API and blocks browser requests, so IMDb data (plot, rating,
+  //   genre, director, cast, runtime) comes through OMDb (omdbapi.com), which serves IMDb data.
+  //   Put your free key below. Without a key the plot is taken from Wikipedia's "Plot" section.
+  //   Optional per-title fields in the playlist JS:  wiki: "Exact Article Title",  imdb: "tt0060153"
+  const OMDB_API_KEY = '';   // <-- free key: https://www.omdbapi.com/apikey.aspx
+  const xrayCache = {}; // videoIndex -> { wiki, imdb, plot } | 'unavailable'
   let xrayToken = 0;
 
-  function cleanTitleForSearch(title) {
-    return title
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  function parseTitle(title) {
+    const ym = String(title).match(/\((\d{4})\)/);
+    const name = String(title)
+      .replace(/\(\d{4}\)/g, '')
       .replace(/-Short\.?/gi, '')
       .replace(/-Doc\.?/gi, '')
       .replace(/^Making[- ]/i, '')
       .replace(/\s+/g, ' ')
       .trim();
-  }
-
-  async function fetchWikipediaInfo(v) {
-    // An explicit `wiki` field (exact article title) always wins and skips the search step.
-    if (v.wiki) {
-      return fetchWikipediaSummary(v.wiki);
-    }
-    const query = cleanTitleForSearch(v.title);
-    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query + ' film')}&format=json&origin=*`;
-    const res = await fetchWithTimeout(searchUrl, 8000);
-    if (!res.ok) throw new Error('search HTTP ' + res.status);
-    const data = await res.json();
-    const hit = data && data.query && data.query.search && data.query.search[0];
-    if (!hit) throw new Error('no search results');
-    return fetchWikipediaSummary(hit.title);
+    return { name, year: ym ? ym[1] : '' };
   }
 
   async function fetchWikipediaSummary(pageTitle) {
@@ -2207,9 +2214,10 @@
     const res = await fetchWithTimeout(url, 8000);
     if (!res.ok) throw new Error('summary HTTP ' + res.status);
     const data = await res.json();
-    if (!data.extract) throw new Error('no extract');
+    if (!data.extract || data.type === 'disambiguation') throw new Error('no usable extract');
     return {
       title: data.title || pageTitle,
+      description: data.description || '',
       extract: data.extract,
       thumb: (data.thumbnail && data.thumbnail.source) || (data.originalimage && data.originalimage.source) || null,
       pageUrl: (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page)
@@ -2217,26 +2225,110 @@
     };
   }
 
-  function renderXray(state) {
-    if (state === 'loading') {
-      xrayBody.innerHTML = '<div class="xray-status">Looking this up on Wikipedia…</div>';
-      return;
+  async function fetchWikipediaInfo(v) {
+    if (v.wiki) return fetchWikipediaSummary(v.wiki);   // exact article title wins
+    const { name, year } = parseTitle(v.title);
+    const q = `${name} ${year} film`.replace(/\s+/g, ' ').trim();
+    const searchUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(q)}&srlimit=5&format=json&origin=*`;
+    const res = await fetchWithTimeout(searchUrl, 8000);
+    if (!res.ok) throw new Error('search HTTP ' + res.status);
+    const data = await res.json();
+    const hits = (data && data.query && data.query.search) || [];
+    if (!hits.length) throw new Error('no search results');
+    let fallback = null;
+    for (const hit of hits.slice(0, 3)) {
+      try {
+        const info = await fetchWikipediaSummary(hit.title);
+        if (/film|movie|series|documentary|animated|short/i.test(info.description + ' ' + info.extract.slice(0, 300))) return info;
+        if (!fallback) fallback = info;
+      } catch (e) { /* try next hit */ }
     }
-    if (state === 'unavailable' || !state) {
-      xrayBody.innerHTML = '<div class="xray-content"><div class="xray-status">No Wikipedia info found for this title.</div><div class="xray-tech" id="xrayTech"></div></div>';
+    if (fallback) return fallback;
+    throw new Error('no usable page');
+  }
+
+  // "Plot" / "Synopsis" section of the article as plain text
+  async function fetchWikipediaPlot(pageTitle) {
+    const url = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exsectionformat=wiki&redirects=1&titles=${encodeURIComponent(pageTitle)}&format=json&origin=*`;
+    const res = await fetchWithTimeout(url, 10000);
+    if (!res.ok) throw new Error('plot HTTP ' + res.status);
+    const data = await res.json();
+    const pages = (data && data.query && data.query.pages) || {};
+    const page = pages[Object.keys(pages)[0]];
+    const text = page && page.extract || '';
+    const m = text.match(/\n==+\s*(?:Plot|Synopsis|Premise|Summary|Story)[^=\n]*==+\s*\n([\s\S]*?)(?=\n==[^=]|$)/i);
+    if (!m) return '';
+    let plot = m[1].replace(/\n==+[^=\n]+==+\s*\n/g, '\n').trim();
+    if (plot.length > 2200) plot = plot.slice(0, 2200).replace(/\s+\S*$/, '') + '…';
+    return plot;
+  }
+
+  async function fetchImdbInfo(v) {
+    if (!OMDB_API_KEY) return null;
+    const { name, year } = parseTitle(v.title);
+    const q = v.imdb
+      ? `i=${encodeURIComponent(v.imdb)}`
+      : `t=${encodeURIComponent(name)}${year ? '&y=' + year : ''}`;
+    const res = await fetchWithTimeout(`https://www.omdbapi.com/?${q}&plot=full&apikey=${encodeURIComponent(OMDB_API_KEY)}`, 8000);
+    if (!res.ok) throw new Error('OMDb HTTP ' + res.status);
+    const d = await res.json();
+    if (d.Response === 'False') throw new Error(d.Error || 'not found on IMDb');
+    const ok = x => x && x !== 'N/A' ? x : '';
+    return {
+      imdbID: d.imdbID, plot: ok(d.Plot), rating: ok(d.imdbRating), votes: ok(d.imdbVotes),
+      genre: ok(d.Genre), director: ok(d.Director), actors: ok(d.Actors), runtime: ok(d.Runtime),
+      rated: ok(d.Rated), year: ok(d.Year), poster: ok(d.Poster)
+    };
+  }
+
+  function renderXray(state, v) {
+    // The "Technical" slot is always present so media info shows in every state.
+    const techSlot = '<div class="xray-tech" id="xrayTech"></div>';
+    if (state === 'loading') {
+      xrayBody.innerHTML = `<div class="xray-content"><div class="xray-status">Looking this up on Wikipedia${OMDB_API_KEY ? ' / IMDb' : ''}…</div>${techSlot}</div>`;
       renderMediaInfo();
       return;
     }
-    const thumbHtml = state.thumb
-      ? `<div class="xray-thumb"><img src="${state.thumb}" alt="${state.title}"></div>`
-      : '';
+    if (state === 'unavailable' || !state) {
+      xrayBody.innerHTML = `<div class="xray-content"><div class="xray-title">${esc(v ? v.title : '')}</div><div class="xray-status">No Wikipedia / IMDb info found for this title.</div>${techSlot}</div>`;
+      renderMediaInfo();
+      return;
+    }
+    const { wiki, imdb, plot } = state;
+    const title = (wiki && wiki.title) || (v && v.title) || '';
+    const poster = (wiki && wiki.thumb) || (imdb && imdb.poster) || (v && v.thumb) || '';
+    const thumbHtml = poster ? `<div class="xray-thumb"><img src="${esc(poster)}" alt="${esc(title)}" referrerpolicy="no-referrer"></div>` : '';
+
+    const facts = [];
+    if (imdb) {
+      const meta = [imdb.year, imdb.rated, imdb.runtime].filter(Boolean).join(' · ');
+      if (imdb.rating) facts.push(`<div><b>IMDb:</b> ⭐ ${esc(imdb.rating)}/10${imdb.votes ? ' (' + esc(imdb.votes) + ' votes)' : ''}</div>`);
+      if (meta) facts.push(`<div><b>Info:</b> ${esc(meta)}</div>`);
+      if (imdb.genre) facts.push(`<div><b>Genre:</b> ${esc(imdb.genre)}</div>`);
+      if (imdb.director) facts.push(`<div><b>Director:</b> ${esc(imdb.director)}</div>`);
+      if (imdb.actors) facts.push(`<div><b>Cast:</b> ${esc(imdb.actors)}</div>`);
+    }
+    const factsHtml = facts.length ? `<div class="xray-tech">${facts.join('')}</div>` : '';
+
+    const plotText = (imdb && imdb.plot) || plot || '';
+    const plotSrc = (imdb && imdb.plot) ? 'IMDb' : 'Wikipedia';
+    const plotHtml = plotText ? `<div class="xray-tech"><div class="tech-h">Plot</div><div class="xray-extract">${esc(plotText)}</div></div>` : '';
+
+    const links = [];
+    if (wiki) links.push(`Summary from <a href="${esc(wiki.pageUrl)}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA`);
+    if (imdb && imdb.imdbID) links.push(`<a href="https://www.imdb.com/title/${esc(imdb.imdbID)}/" target="_blank" rel="noopener">IMDb</a>${plotText && plotSrc === 'IMDb' ? ' (plot)' : ''}`);
+    else if (plotText && plotSrc === 'Wikipedia' && wiki) links.push('Plot from Wikipedia');
+
     xrayBody.innerHTML = `
       ${thumbHtml}
       <div class="xray-content">
-        <div class="xray-title">${state.title}</div>
-        <div class="xray-extract">${state.extract}</div>
-        <div class="xray-attribution">Summary from <a href="${state.pageUrl}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA</div>
-        <div class="xray-tech" id="xrayTech"></div>
+        <div class="xray-title">${esc(title)}</div>
+        ${wiki && wiki.description ? `<div class="xray-attribution" style="margin:0 0 6px">${esc(wiki.description)}</div>` : ''}
+        ${wiki ? `<div class="xray-extract">${esc(wiki.extract)}</div>` : ''}
+        ${factsHtml}
+        ${plotHtml}
+        <div class="xray-attribution">${links.join(' · ')}</div>
+        ${techSlot}
       </div>
     `;
     renderMediaInfo();
@@ -2245,23 +2337,28 @@
   async function loadXrayInfo() {
     const idx = currentIndex;
     if (idx < 0) return;
+    const v = videos[idx];
     if (xrayCache[idx]) {
-      renderXray(xrayCache[idx] === 'unavailable' ? null : xrayCache[idx]);
+      renderXray(xrayCache[idx] === 'unavailable' ? null : xrayCache[idx], v);
       return;
     }
     const token = ++xrayToken;
-    renderXray('loading');
-    try {
-      const info = await fetchWikipediaInfo(videos[idx]);
-      if (token !== xrayToken) return; // a different video was selected meanwhile
-      xrayCache[idx] = info;
-      renderXray(info);
-    } catch (err) {
-      console.warn('X-Ray lookup failed:', err);
+    renderXray('loading', v);
+    const [wR, iR] = await Promise.allSettled([fetchWikipediaInfo(v), fetchImdbInfo(v)]);
+    if (token !== xrayToken) return; // a different video was selected meanwhile
+    const wiki = wR.status === 'fulfilled' ? wR.value : null;
+    const imdb = iR.status === 'fulfilled' ? iR.value : null;
+    if (wR.status === 'rejected') console.warn('Wikipedia lookup failed:', wR.reason);
+    if (iR.status === 'rejected') console.warn('IMDb (OMDb) lookup failed:', iR.reason);
+    if (!wiki && !imdb) { xrayCache[idx] = 'unavailable'; renderXray(null, v); return; }
+    // Wikipedia "Plot" section is the fallback when IMDb has no plot
+    let plot = '';
+    if (wiki && !(imdb && imdb.plot)) {
+      try { plot = await fetchWikipediaPlot(wiki.title); } catch (e) { console.warn('Plot lookup failed:', e); }
       if (token !== xrayToken) return;
-      xrayCache[idx] = 'unavailable';
-      renderXray(null);
     }
+    xrayCache[idx] = { wiki, imdb, plot };
+    renderXray(xrayCache[idx], v);
   }
 
   function openXrayPanel() {
