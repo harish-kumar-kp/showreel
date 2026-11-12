@@ -3,7 +3,7 @@
   // Replace src/thumb on any entry with your own files or links as needed.
   const videos = [
     {
-      title: "SPRING -Short",
+      title: "SPRING 2019 -Short",
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/3d95fb3d-c866-42c8-9db1-fe82f48ccb95.jpg",
@@ -56,7 +56,7 @@
       category: "Shorts"
     },
     {
-      title: "Agent 327: Operation Barbershop -Short",
+      title: "Agent 327: Operation Barbershop 2017 -Short",
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://video.blender.org/download/web-videos/264ff760-803e-430e-8d81-15648e904183-804.mp4",
       thumb: "https://video.blender.org/lazy-static/thumbnails/264ff760-803e-430e-8d81-15648e904183.jpg",
@@ -473,6 +473,14 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family",
   },
+{
+    title: "The Smurfs 2 (2013)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+    src: "https://archive.org/download/the.-smurfs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/The.Smurfs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
+    thumb: "https://www.imageworks.com/sites/default/files/2018-05/smurfs-the-lost-village-3000x1621-animation-2017-hd-7262_0.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Family",
+  },
  {
     title: "Hoodwinked (2005)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -481,7 +489,6 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Family",
   },
-
   {
     title: "Pan's Labyrinth Guillermo Del Toro (2006)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -1376,7 +1383,7 @@
   },
   {
     title:"The Pursuit Of Happyness (2006)",
-    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+    AspectRatio: "squeeze", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://dn721602.ca.archive.org/0/items/Popcornarchive-thePursuitOfHappyness2006/Popcornarchive-thePursuitOfHappyness2006.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUMX0GJoM28Iur0o1cFDPcGrMThxW8cm7nHcIv3B2i4A&s",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1487,7 +1494,6 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Action"
   },
-
   {
     title: "New Police Story",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -1512,7 +1518,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Action",
   },
-{
+  {
     title: "The Medallion (2003)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/never-say-never-again-fan-edit-2026/Never%20Say%20Never%20Again%20%28Final%202026%29%20HB%20.mp4https://archive.org/download/the.-medallion.-2003.1080p.-blu-ray.x-264.-aac-yts.-mx/The.Medallion.2003.1080p.BluRay.x264.AAC-%5BYTS.MX%5D.mp4",
@@ -1520,7 +1526,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Action",
   },
-{
+  {
     title: "Police Story (1985)",
    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src:  "https://archive.org/download/police-story-1985-subtitled-and-dubbed-hong-kong-cut/2.%20Police%20Story%20%281985%29%20%5Bdubbed%5D.ia.mp4",
@@ -1606,7 +1612,7 @@
       src:  "https://archive.org/download/hey-ram-2000-dv-drip-x-264-aac-5.1...-hon-3y/Hey%20Ram%202000%20DvDRip%20x264%20AAC%205.1...Hon3y.mp4",
     thumb: "https://images.moneycontrol.com/static-mcnews/2020/10/Hey-Ram.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Foriegn",
+    category: "Action",
   },
   {
     title: "Indian (1996)",												
@@ -1705,20 +1711,12 @@
     category: "Action",
   },
   {
-    title: "The Bible In The Beginning (1966)",
-   AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
-      src:  "https://dn720403.ca.archive.org/0/items/doctor-dolittle-1967/The%20Bible%20-%20In%20The%20Beginning%201966.mp4",
-    thumb: "https://img.hghlnd.com/imgix/https://detroitcatholic.nyc3.digitaloceanspaces.com/The-Bible-poster.jpg?w=2400&h=1350&fit=crop&crop=faces",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Action",
-  },
-  {
     title: "Jonah A VeggieTales Movie (2002)",
    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src:  "https://dn720403.ca.archive.org/0/items/doctor-dolittle-1967/Jonah%20A%20VeggieTales%20Movie%20%282002%29.mp4",
     thumb: "https://i.ytimg.com/vi/lovD_tLxiog/maxresdefault.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Action",
+    category: "Family",
   },
   {
     title: "Dracula Dead And Loving It (1995)",
@@ -1742,7 +1740,7 @@
       src:  "https://archive.org/download/gate_20221003/Gate.mp4",
     thumb: "https://goauctionexcalibur.blob.core.windows.net/stock/37564-0-medium.jpg?v=63847927001433",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Action",
+    category: "Thriller",
   },
   {
     title: "Drive (1997)",
@@ -1757,14 +1755,6 @@
    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src:  "https://archive.org/download/2017-the-saint-movie-1080p-spanish-or-english/%281997%29%20--------%20The%20Saint%20--%20movie.mp4",
     thumb: "https://www.historyforsale.com/productimages/large/275563.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Action",
-  },
-  {
-    title: "Adventures Of Sinbad",
-   AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
-      src:  "https://dn720002.ca.archive.org/0/items/arabian-nights-1974/Adventures%20of%20Sinbad.mp4",
-    thumb: "https://13thdimension.com/wp-content/uploads/2016/02/poster-1.png",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Action",
   },
@@ -1825,7 +1815,7 @@
     category: "Action",
   },
   {
-    title: "Wheels On Meals (GeekJuiceMedia)",
+    title: "Wheels On Meals ",
    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src:  "https://archive.org/download/wheels-on-meals-geekjuicemedia/Wheels%20On%20Meals%20%28GeekJuiceMedia%29.mp4",
     thumb: "https://www.filmvandaag.nl/api/og-image/movie/9156-wheels-on-meals.jpg",
@@ -1982,7 +1972,7 @@
     src: "https://archive.org/download/goldfinger-1964-720p-blu-ray-yts.-mx/Goldfinger%20%281964%29%20%5BBluRay%5D%20%5B720p%5D%20%5BYTS.AM%5D/Goldfinger.1964.720p.BluRay.x264-%5BYTS.AM%5D.mp4",
     thumb: "https://i.pinimg.com/originals/01/d0/90/01d0904389c1e03bbf2532959b3b3df3.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: ["Action", "007"],
   },
   {
     title: "007:Thunderball(1965)",
@@ -1998,7 +1988,7 @@
     src: "https://archive.org/download/thunderball-1965-official-trailer-sean-connery-james-bond-movie-hd/1965%20-%20007%20CONTRA%20A%20CHANTAGEM%20AT%C3%94MICA%20-%20%20Thunderball.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMjhkYWE0ZjMtODQzNi00Y2YyLTkyYzQtNzA0ZTg0ZThkOGYwXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: ["Action", "007"],
   },
   {
     title: "007:You Only Live Twice (1967)",
@@ -2016,7 +2006,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: ["Action", "007"]
   },
- {
+  {
     title: "James Bond GoldenEye (1995)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/james.-bond.-golden-eye.-1995.1080p.-brrip.x-264.-yify_202603/James.Bond.GoldenEye.1995.1080p.BRrip.x264.YIFY.mp4",
@@ -2032,8 +2022,7 @@
     subtitle: "https://archive.org/download/skyfall.-2012.720p.-br-rip.x-264.-yify/Skyfall.2012.720p.BrRip.x264.YIFY.srt",
     category: ["Action", "007"]
   },
-  
-   {
+  {
       title: "Where Eagles Dare 1968",
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/1968-where-eagles-dare/1968%20Where%20Eagles%20Dare.mp4",
@@ -2162,10 +2151,18 @@
       category:  "Myth"
     },
     {
+       title: "Adventures Of Sinbad",
+       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+       src:  "https://dn720002.ca.archive.org/0/items/arabian-nights-1974/Adventures%20of%20Sinbad.mp4",
+       thumb: "https://13thdimension.com/wp-content/uploads/2016/02/poster-1.png",
+       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+       category: "Action",
+    },
+    {
       title: "Sandokan The Great 1963",
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.mkv",
-      thumb: "https://m.media-amazon.com/images/S/pv-target-images/fcc2c0af3158e86db884a6921b8420b113d14f24e701ac071ab44ef1578caba4.jpg",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjGJ9LGPZNpDtQ9mSdP431ZNO17mqsz-uQQkvqWhd59w&s=10",
       subtitle: "https://archive.org/download/a-long-ride-from-hell-1968-english.-dv-drip.-720p.x-264.-aac..-esubs.-by-juleyano/Sandokan%20the%20Great%20%281963%29%20English.NTSC.DvDRip.576p.%20x264.AAC.Arabic.ESubs.Chapters.BY.juleyano.srt",
       category:  "Myth"
     },
@@ -2280,22 +2277,7 @@
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
       category:  "Myth"
     },
- {
-    title: "Fright Night (1985)",
-    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
-    src: "https://archive.org/download/fright.-night.-1985.1080p.-blu-ray.x-264-yts.-ag/Fright.Night.1985.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
-    thumb: "https://a.1stdibscdn.com/fright-night-british-uk-film-poster-1985-peter-mueller-rolled-for-sale/366869/f_170441511574869012889/Fright_Night_1985_UK_Quad_Film_Poster_org_master.jpg?disable=upscale&auto=webp&quality=60&width=1400",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Thriller"
-  },
-    {
-      title: "Silver Bullet 1985",
-      AspectRatio: "squeeze", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
-      src: "https://dn721809.ca.archive.org/0/items/Popcornarchive-silverBullet1985/Popcornarchive-silverBullet1985.mp4",
-      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uXoBqfpdH3qWpsDQrWPWlCMm4W5uhiHm9fOJsyPDfw&s=10",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-      category: "Thriller"
-    },
+ 
     {
       title: "TrueLies 1994",
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -2680,7 +2662,22 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Action"
   },
-
+  {
+    title: "Fright Night (1985)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+    src: "https://archive.org/download/fright.-night.-1985.1080p.-blu-ray.x-264-yts.-ag/Fright.Night.1985.1080p.BluRay.x264-%5BYTS.AG%5D.mp4",
+    thumb: "https://a.1stdibscdn.com/fright-night-british-uk-film-poster-1985-peter-mueller-rolled-for-sale/366869/f_170441511574869012889/Fright_Night_1985_UK_Quad_Film_Poster_org_master.jpg?disable=upscale&auto=webp&quality=60&width=1400",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Thriller"
+   },
+    {
+      title: "Silver Bullet 1985",
+      AspectRatio: "squeeze", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+      src: "https://dn721809.ca.archive.org/0/items/Popcornarchive-silverBullet1985/Popcornarchive-silverBullet1985.mp4",
+      thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uXoBqfpdH3qWpsDQrWPWlCMm4W5uhiHm9fOJsyPDfw&s=10",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+      category: "Thriller"
+    },
     {
       title: "The Fog 1980",
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -2793,6 +2790,14 @@
     thumb: "https://www.armytimes.com/resizer/My_NhC1dDpuYK6KzHRhr3pcV9Zw=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/VLUJGM6BA5GIBNBOGUEM66RP3A.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "Thriller"
+  },
+{
+    title: "Friday The 13th (1980)",
+    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+    src: "https://archive.org/download/Popcornarchive-fridayThe13th1980/Popcornarchive-fridayThe13th1980.mp4",
+    thumb: "https://archive.org/download/Popcornarchive-myMovie_w8wh7/Popcornarchive-myMovie_w8wh7.thumbs/Popcornarchive-myMovie_w8wh7_000118.jpg",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    category: "Thriller",
   },
   {
     title: "The Thirteenth Floor (1999)",
@@ -3149,7 +3154,7 @@
     src: "https://archive.org/download/www.-1-tamil-mv.boo-thug-life-2025-tamil-hq-web-dl-1080p-avc-untouched-aac-2.0-3.8-gb-hc-esub/www.1TamilMV.boo%20-%20Thug%20Life%20%282025%29%20Tamil%20HQ%20WEB-DL%20-%201080p%20-%20AVC%20-%20UNTOUCHED%20-%20%28AAC%202.0%29%20-%203.8GB%20-%20HC-ESub.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BN2I2M2Q1NTktN2M4OC00OGM5LTk1NDgtZWZlZDA4ZWM3NjMxXkEyXkFqcGc@._V1_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: "Action",
   },
   {
     title: "Vc The 100 (2025)",
@@ -3165,7 +3170,7 @@
     src: "https://archive.org/download/fc-vaaranam-aayiram-2008-tamil-uncut-1080p-webrip/%5BFC%5D%20Vaaranam%20Aayiram%20%5B2008%5DTamil%20UNCUT%201080p%20WEBRip.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BOTFhY2Q4MGItMWYwNC00NjcwLTg1MTUtYWUyYjcyNDU2ZDc0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: "Drama",
   },
   {
     title: "AceVenturaPetDetective (1994)",
@@ -3199,7 +3204,7 @@
     src: "https://archive.org/download/Popcornarchive-theMatrix1999/Popcornarchive-theMatrix1999.mp4",
     thumb: "https://archive.org/download/Popcornarchive-myMovie_iazh8/Popcornarchive-myMovie_iazh8_itemimage.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: "Action",
   },
   {
     title: "Popcornarchive (2007)",
@@ -3209,14 +3214,7 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-  {
-    title: "Popcornarchive (1980)",
-    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
-    src: "https://archive.org/download/Popcornarchive-fridayThe13th1980/Popcornarchive-fridayThe13th1980.mp4",
-    thumb: "https://archive.org/download/Popcornarchive-myMovie_w8wh7/Popcornarchive-myMovie_w8wh7.thumbs/Popcornarchive-myMovie_w8wh7_000118.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
+  
   {
     title: "Alice (1988)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -3320,7 +3318,7 @@
     src: "https://archive.org/download/Magadheera_2009_BD_RIP_DD-5.1_ShantX-DVD/Magadheera%20%282009%29%20Telugu%20Bluray%20-%201080p%20-%20AVC%20-%20%5BDTS%2BDD_5.1%20-%20448kbps%5D%20-%20Esubs.mp4",
     thumb: "https://venkatarangan.com/wp-content/uploads/2016/03/Magadheera-featured.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: "Action",
   },
   {
     title: "AnimePahe Kotonoha No Niwa 01 Bd Coalgirls",
@@ -3509,20 +3507,12 @@
     category: "unknown",
   },
   {
-    title: "The Smurfs 2 (2013)",
-    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
-    src: "https://archive.org/download/the.-smurfs.-2.2013.1080p.-blu-ray.-h-264.-aac-rarbg/The.Smurfs.2.2013.1080p.BluRay.H264.AAC-RARBG.mp4",
-    thumb: "https://www.imageworks.com/sites/default/files/2018-05/smurfs-the-lost-village-3000x1621-animation-2017-hd-7262_0.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
-  },
-  {
     title: "The Mist (2007)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-mist.-2007.1080p.-blu-ray.-h-264.-aac-rarbg/The.Mist.2007.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://www.themoviedb.org/t/p/original/wfS0cq5JXtelUjRMG3iUvRGBcML.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "unknown",
+    category: "Thriller",
   },
   {
     title: "Swordsmen (2011)",
@@ -3804,14 +3794,14 @@
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
   },
-  {
+ /* {
     title: "Monty Python And The Holy Grail (1975)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/monty.-python.and.the.-holy.-grail.-1975.1080p.-blu-ray.-h-264.-aac-rarbg/Monty.Python.and.the.Holy.Grail.1975.1080p.BluRay.H264.AAC-RARBG.mp4",
     thumb: "https://movieposterframes.com/cdn/shop/files/Generic_1_Black_66eca7bb-be8d-47f3-85ea-0bb7510fe89e_1445x.jpg?v=1713380998",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
     category: "unknown",
-  },
+  },*/
   {
     title: "Reservoir Dogs (1992)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
@@ -4339,7 +4329,7 @@
     category: "unknown",
   },
   {
-    title: "jOBS (2013)",
+    title: "Jobs (2013)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/jOBS.2013.1080p.BluRay.x264.YIFY/jOBS.2013.1080p.BluRay.x264.YIFY.mp4",
     thumb: "https://cover.box3.net/newsimg/dvdmov/max1387062630-frontback-cover.jpg",
@@ -4347,14 +4337,14 @@
     category: "unknown",
   },
  
-  {
+ /* {
     title: "The Passion Of The Christ (2004)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.mp4",
     thumb: "https://www.simondwyer.com/files/passion-of-the-christ-15354.jpg",
     subtitle: "https://archive.org/download/the.-passion.of.the.-christ.-2004.720p.-br-rip.x-264.-yify/The.Passion.of.the.Christ.2004.720p.BrRip.x264.YIFY.srt",
     category: "Bio",
-  },
+  },  */  
   {
     title: "The Fly (1986)",
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
