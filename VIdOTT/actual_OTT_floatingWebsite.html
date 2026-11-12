@@ -57,7 +57,7 @@
   .toggle-btn {
     position: absolute;
     top: 30px;
-    right: 254px;
+    right: calc(var(--pl-w) + 24px);
     z-index: 30;
     background: rgba(255,255,255,0.06);
     color: #eee;
@@ -415,13 +415,22 @@
     flex-shrink: 0;
   }
 
+  /* Playlist panel width + grid size. Change these to resize the title menu. */
+  :root {
+    --pl-w: min(46vw, 600px);   /* panel width: stays in the right half of the screen */
+    --pl-cols: 6;               /* columns */
+    --pl-rows: 4;               /* rows visible before the scrollbar kicks in */
+    --pl-row-h: 76px;           /* height of one card row */
+    --pl-gap: 7px;
+  }
   /* RIGHT: floating, scrollable playlist panel — overlays the full-screen player */
   .thumbs-col {
     position: absolute;
     top: 14px;
     right: 14px;
-    bottom: 90px;
-    width: 230px;
+    bottom: auto;
+    max-height: calc(100% - 104px);
+    width: var(--pl-w);
     z-index: 25;
     display: flex;
     flex-direction: column;
@@ -601,11 +610,16 @@
   }
   .thumbs {
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    padding-right: 4px;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(var(--pl-cols), minmax(0, 1fr));
+    grid-auto-rows: var(--pl-row-h);
+    gap: var(--pl-gap);
+    padding-right: 6px;
     min-height: 0;
+    flex: 0 1 auto;
+    /* exactly 6 rows tall; more titles scroll */
+    max-height: calc(var(--pl-rows) * var(--pl-row-h) + (var(--pl-rows) - 1) * var(--pl-gap));
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
   .thumbs::-webkit-scrollbar-thumb {
@@ -623,8 +637,10 @@
     transition: border-color 0.15s;
     position: relative;
     display: flex;
-    align-items: center;
-    flex-shrink: 0;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 0;
+    height: 100%;
   }
   .thumb { contain: layout paint; }
   .thumbs { -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
@@ -633,18 +649,24 @@
   .thumb.active { border-color: #5da9ff; }
 
   .thumb img {
-    width: 64px;
-    height: 38px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
     object-fit: cover;
     display: block;
     background: #000;
     flex-shrink: 0;
   }
   .thumb .label {
-    font-size: 0.66rem;
-    padding: 0 7px;
+    font-size: 0.6rem;
+    padding: 3px 4px 0;
     color: #da8;
     line-height: 1.2;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
   }
   .thumb .play-icon {
     position: absolute;
@@ -666,6 +688,12 @@
     display: flex;
     flex-direction: column;
     gap: 1px;
+    -webkit-line-clamp: unset;
+  }
+  .thumb.series-thumb .label .series-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .thumb.series-thumb .label .series-name {
     color: #da8;
@@ -676,9 +704,9 @@
   }
   .thumb .stack-icon {
     position: absolute;
-    bottom: 3px;
+    top: 3px;
     right: 3px;
-    background: rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.55);
     color: #fff;
     font-size: 0.52rem;
     padding: 1px 5px;
@@ -701,7 +729,7 @@
   #episodePanel {
     position: absolute;
     top: 56px;
-    right: 254px;
+    right: calc(var(--pl-w) + 24px);
     max-height: calc(100% - 90px);
     width: 300px;
     max-width: 40%;
