@@ -417,11 +417,12 @@
 
   /* Playlist panel width + grid size. Change these to resize the title menu. */
   :root {
-    --pl-w: min(46vw, 600px);   /* panel width: stays in the right half of the screen */
-    --pl-cols: 6;               /* columns */
-    --pl-rows: 4;               /* rows visible before the scrollbar kicks in */
-    --pl-row-h: 76px;           /* height of one card row */
-    --pl-gap: 7px;
+    --pl-w: 850px;              /* panel width */
+    --pl-h: 450px;              /* panel height */
+    --pl-cols: 8;               /* columns */
+    --pl-rows: 6;               /* rows visible before the scrollbar kicks in */
+    --pl-row-h: 53px;           /* height of one card row */
+    --pl-gap: 5px;
   }
   /* RIGHT: floating, scrollable playlist panel — overlays the full-screen player */
   .thumbs-col {
@@ -429,7 +430,10 @@
     top: 14px;
     right: 14px;
     bottom: auto;
+    box-sizing: border-box;
+    height: var(--pl-h);
     max-height: calc(100% - 104px);
+    max-width: calc(100% - 28px);
     width: var(--pl-w);
     z-index: 25;
     display: flex;
@@ -461,9 +465,9 @@
   }
   .switches-stack {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
     flex-shrink: 0;
   }
   .controls-row {
@@ -586,7 +590,9 @@
   }
   .category-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
     gap: 5px;
     margin: 0 2px 8px 2px;
     flex-shrink: 0;
@@ -617,9 +623,7 @@
     gap: var(--pl-gap);
     padding-right: 6px;
     min-height: 0;
-    flex: 0 1 auto;
-    /* exactly 6 rows tall; more titles scroll */
-    max-height: calc(var(--pl-rows) * var(--pl-row-h) + (var(--pl-rows) - 1) * var(--pl-gap));
+    flex: 1 1 0;   /* fills what is left of the fixed-height panel; extra titles scroll */
   }
   .thumbs::-webkit-scrollbar { width: 6px; }
   .thumbs::-webkit-scrollbar-thumb {
@@ -650,18 +654,21 @@
 
   .thumb img {
     width: 100%;
-    aspect-ratio: 16 / 9;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     display: block;
     background: #000;
     flex-shrink: 0;
   }
   .thumb .label {
-    font-size: 0.6rem;
-    padding: 3px 4px 0;
-    color: #da8;
-    line-height: 1.2;
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0));
+    font-size: 0.56rem;
+    padding: 8px 3px 2px;
+    color: #eec;
+    line-height: 1.15;
+    pointer-events: none;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
