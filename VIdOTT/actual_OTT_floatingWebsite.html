@@ -447,6 +447,7 @@
     min-height: 0;
     transition: transform 0.2s ease, opacity 0.2s ease;
     overflow: hidden;
+    will-change: transform;
   }
   .thumbs-col.hidden {
     transform: translateX(calc(100% + 24px));
@@ -646,7 +647,7 @@
     min-width: 0;
     height: 100%;
   }
-  .thumb { contain: layout paint; }
+  .thumb { contain: layout paint; content-visibility: auto; contain-intrinsic-size: 98px var(--pl-row-h); }
   .thumbs { -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
   @media (hover: none) { .thumb:hover { border-color: transparent; } }
   .thumb:hover { border-color: #4a4a4a; }
@@ -2080,29 +2081,66 @@
   // ---- Thumbnail loader: an <img> only gets its real src when its card scrolls near the
   // visible part of the playlist AND the playlist is open. Max 4 downloads at once so poster
   // traffic never starves the video stream (works on old WebViews; no native-lazy needed). ----
+  // ---- Thumbnail loading (tuned for smooth scrolling) ----
+  // 1. Posters come from many hosts and are often huge (1000px+). Each one is decoded in full even
+  //    though a card is ~100px wide, which is what made scrolling lag. With THUMB_RESIZER on, a
+  //    free image resizer (wsrv.nl) serves a small WebP instead; if it fails, the original URL is used.
+  // 2. Only images that are on screen are loaded; ones you scrolled past before they started
+  //    are dropped from the queue, and the newest (what you are looking at) loads first.
+  // 3. A slow/dead host can no longer block a download slot for more than a few seconds.
+  const THUMB_RESIZER = true;     // set to false to always load the original poster URLs
+  const THUMB_MAX_PARALLEL = 8;
+  const THUMB_TIMEOUT_MS = 6000;
+  function thumbUrl(u) {
+    return (THUMB_RESIZER && /^https?:\/\//i.test(u))
+      ? 'https://wsrv.nl/?url=' + encodeURIComponent(u) + '&w=200&h=112&fit=cover&output=webp&q=70'
+      : u;
+  }
   const thumbQueue = [];
   let thumbActive = 0;
   function pumpThumbs() {
-    while (thumbActive < 4 && thumbQueue.length) {
-      const img = thumbQueue.shift();
-      if (!img.dataset.src) continue;
-      const done = () => { thumbActive--; pumpThumbs(); };
-      img.addEventListener('load', done, { once: true });
-      img.addEventListener('error', done, { once: true });
-      thumbActive++;
-      img.src = img.dataset.src;
+    while (thumbActive < THUMB_MAX_PARALLEL && thumbQueue.length) {
+      const img = thumbQueue.pop();           // newest first = what is on screen now
+      img._queued = false;
+      const orig = img.dataset.src;
+      if (!orig) continue;
       img.removeAttribute('data-src');
+      let finished = false, triedOrig = false, timer = 0;
+      const done = () => {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timer);
+        img.removeEventListener('load', done);
+        img.removeEventListener('error', onErr);
+        thumbActive--;
+        pumpThumbs();
+      };
+      const onErr = () => {
+        const resized = thumbUrl(orig) !== orig;
+        if (resized && !triedOrig) { triedOrig = true; img.src = orig; return; }   // resizer failed: use original
+        done();
+      };
+      img.addEventListener('load', done);
+      img.addEventListener('error', onErr);
+      timer = setTimeout(done, THUMB_TIMEOUT_MS);
+      thumbActive++;
+      img.src = thumbUrl(orig);
     }
   }
   const thumbIO = ('IntersectionObserver' in window) ? new IntersectionObserver((entries) => {
     entries.forEach(en => {
-      if (!en.isIntersecting) return;
       const img = en.target;
-      thumbIO.unobserve(img);
-      if (img.dataset.src) { thumbQueue.push(img); }
+      if (!img.dataset.src) { thumbIO.unobserve(img); return; }   // already started loading
+      if (en.isIntersecting) {
+        if (!img._queued) { img._queued = true; thumbQueue.push(img); }
+      } else if (img._queued) {                                     // scrolled away before it started
+        img._queued = false;
+        const k = thumbQueue.indexOf(img);
+        if (k >= 0) thumbQueue.splice(k, 1);
+      }
     });
     if (!thumbsCol.classList.contains('hidden')) pumpThumbs();
-  }, { root: thumbsEl, rootMargin: '200px 0px' }) : null;
+  }, { root: thumbsEl, rootMargin: '120px 0px' }) : null;
   function observeThumbs(scope) {
     scope.querySelectorAll('img[data-src]').forEach(img => {
       if (thumbIO && scope !== document) thumbIO.observe(img);
