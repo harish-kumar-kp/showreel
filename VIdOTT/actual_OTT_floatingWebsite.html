@@ -1041,6 +1041,7 @@
             <button class="ctrl-btn" id="rewindBtn" title="Rewind 10s">⏪</button>
             <button class="ctrl-btn" id="playPauseBtn" title="Play/Pause">▶</button>
             <button class="ctrl-btn" id="forwardBtn" title="Forward 10s">⏩</button>
+            <button class="ctrl-btn" id="stopBtn" title="Stop and show the playlist">⏹</button>
             <button class="ctrl-btn" id="sceneBtn" title="Scene Selection — jump to one of 9 equal parts">Chapter 📖</button>
             <button class="ctrl-btn" id="hqBtn" title="Toggle HQ Upscale & Enhance">HQ</button>
             <button class="ctrl-btn" id="infoBtn" title="Movie Information">ℹnfo</button>
@@ -1156,6 +1157,7 @@
   const playPauseBtn = document.getElementById('playPauseBtn');
   const rewindBtn = document.getElementById('rewindBtn');
   const forwardBtn = document.getElementById('forwardBtn');
+  const stopBtn = document.getElementById('stopBtn');
   const aspectMenuBtn = document.getElementById('aspectMenuBtn');
   const aspectPanel = document.getElementById('aspectPanel');
   const aspectBtns = aspectPanel.querySelectorAll('.aspect-btn');
@@ -2007,18 +2009,32 @@
   paintTimeline(0);
 
   // From the transport buttons, ArrowUp jumps focus to the seekbar (it sits right above them).
-  ['rewindBtn', 'playPauseBtn', 'forwardBtn'].forEach(id => {
+  ['rewindBtn', 'playPauseBtn', 'forwardBtn', 'stopBtn'].forEach(id => {
     document.getElementById(id).addEventListener('keydown', (e) => {
       if (e.key === 'ArrowUp') { timeline.focus(); e.preventDefault(); }
     });
   });
 
-  toggleBtn.addEventListener('click', () => {
-    const isHidden = thumbsCol.classList.toggle('hidden');
+  // Show / hide the floating playlist. Shared by the ⇄ button, the ⏹ Stop button and
+  // title selection, so they all stay in sync and can be mixed freely.
+  function setPlaylistHidden(isHidden) {
+    thumbsCol.classList.toggle('hidden', isHidden);
     toggleBtn.classList.toggle('panel-hidden', isHidden);
     toggleBtn.classList.toggle('selected', !isHidden);
-    toggleBtn.textContent = isHidden ? '⇄' : '⇄';
     if (!isHidden) pumpThumbs();
+  }
+
+  // ⇄ button: manual show/hide (unchanged behaviour)
+  toggleBtn.addEventListener('click', () => {
+    setPlaylistHidden(!thumbsCol.classList.contains('hidden'));
+  });
+
+  // ⏹ Stop: stop playback (back to the start) and expand the playlist so another title can be picked
+  stopBtn.addEventListener('click', () => {
+    video.pause();
+    try { video.currentTime = 0; } catch (e) {}
+    showIdleWallpaper();
+    setPlaylistHidden(false);
   });
 
   // ---- Episode picker: a "series" card stacks all episodes of a show behind one
@@ -2050,6 +2066,7 @@
       item.addEventListener('click', () => {
         playByIndex(i);
         closeEpisodePanel();
+        setPlaylistHidden(true);   // title chosen: play it and tuck the playlist away
       });
       episodeList.appendChild(item);
     });
@@ -2129,6 +2146,7 @@
       `;
       div.addEventListener('click', () => {
         playByIndex(i);
+        setPlaylistHidden(true);   // title chosen: play it and tuck the playlist away
       });
       thumbsEl.appendChild(div);
       thumbEls[i] = div;
@@ -2207,6 +2225,7 @@
           openEpisodePanel(videos[match.indices[0]].series, match.indices);
         } else {
           playByIndex(match.indices[0]);
+          setPlaylistHidden(true);
         }
       }
     } else if (e.key === 'Escape') {
