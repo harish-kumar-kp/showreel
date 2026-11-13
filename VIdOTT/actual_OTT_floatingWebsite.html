@@ -417,9 +417,11 @@
 
   /* Playlist panel width + grid size. Change these to resize the title menu. */
   :root {
-    --pl-w: 850px;              /* panel width */
+    /* width = cols*card + (cols-1)*gap + grid scrollbar pad (6) + panel padding (20) + border (2)
+             = 6*98 + 5*5 + 6 + 20 + 2 = 641px  (cards stay 98px wide) */
+    --pl-w: 641px;              /* panel width */
     --pl-h: 450px;              /* panel height */
-    --pl-cols: 8;               /* columns */
+    --pl-cols: 6;               /* columns */
     --pl-rows: 6;               /* rows visible before the scrollbar kicks in */
     --pl-row-h: 53px;           /* height of one card row */
     --pl-gap: 5px;
@@ -894,8 +896,8 @@
     z-index: 9;
     display: none;
     flex-direction: column;
-    padding: 16px 18px;
-    overflow-y: auto;
+    padding: 16px 18px 104px;   /* bottom padding keeps the last line clear of the control bar */
+    overflow: hidden;
   }
   #xrayPanel.open { display: flex; }
   .xray-header {
@@ -925,7 +927,16 @@
     display: flex;
     gap: 16px;
     align-items: flex-start;
+    flex: 1 1 auto;
+    min-height: 0;              /* lets the body shrink so it can scroll */
+    overflow-y: scroll;         /* scroll bar for long plots / media info (always visible) */
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #5da9ff rgba(255,255,255,0.08);
   }
+  .xray-body::-webkit-scrollbar { width: 10px; }
+  .xray-body::-webkit-scrollbar-thumb { background: #5da9ff; border-radius: 4px; }
+  .xray-body::-webkit-scrollbar-track { background: rgba(255,255,255,0.08); border-radius: 4px; }
   .xray-thumb {
     width: 130px;
     flex-shrink: 0;
