@@ -202,7 +202,7 @@
     },
     {
       title: "Peter Pan - 1953",
-      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+      AspectRatio: "16:9", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://archive.org/download/the-three-caballeros-1996-vhs_20220516/Peter%20Pan%20%282007%20DVD%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTggHIj-GHzI9FrNQ5CBmXPzIX7WDbHU42OErqgxQUHR220WUw7fQyrQVI&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -4082,7 +4082,7 @@
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/heat.-1995.-br-rip.-720p.x-264.-yify_202408/Heat.1995.BrRip.720p.x264.YIFY.mp4",
     thumb: "https://i.etsystatic.com/8850566/r/il/070d51/5197670895/il_1080xN.5197670895_l2db.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Heat.1995.720p.en.srt",
     category: "unknown",
   },
   {
@@ -4571,7 +4571,7 @@
     AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/the.-haunted.-mansion.-2003.720p.-blu-ray.x-264.-yify/The.Haunted.Mansion.2003.720p.BluRay.x264.YIFY.mp4",
     thumb: "http://manapop.com/wp-content/uploads/2020/05/haunted-mansion-banner.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The.Haunted.Mansion.2003.srt",
     category: "unknown",
   },
   {
