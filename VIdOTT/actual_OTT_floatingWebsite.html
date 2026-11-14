@@ -953,6 +953,11 @@
     flex: 1;
     min-width: 0;
   }
+  .xray-plot-toggle {
+    display: flex; align-items: center; gap: 6px;
+    margin: 0 0 8px; font-size: 0.7rem; color: #aaa;
+  }
+  .xray-body:not(.show-plot) .xray-plot { display: none; }
   .xray-title {
     font-size: 1.05rem;
     font-weight: 600;
@@ -2295,6 +2300,7 @@
   //   Put your free key below. Without a key the plot is taken from Wikipedia's "Plot" section.
   //   Optional per-title fields in the playlist JS:  wiki: "Exact Article Title",  imdb: "tt0060153"
   const OMDB_API_KEY = '';   // <-- free key: https://www.omdbapi.com/apikey.aspx
+  let xrayShowPlot = false;   // plot is hidden by default; the Plot switch in the panel turns it on
   const xrayCache = {}; // videoIndex -> { wiki, imdb, plot } | 'unavailable'
   let xrayToken = 0;
 
@@ -2384,6 +2390,16 @@
     };
   }
 
+  xrayBody.classList.toggle('show-plot', xrayShowPlot);
+  xrayBody.addEventListener('click', (e) => {
+    const sw = e.target.closest('#plotSwitch');
+    if (!sw) return;
+    xrayShowPlot = !xrayShowPlot;
+    sw.classList.toggle('on', xrayShowPlot);
+    sw.setAttribute('aria-checked', xrayShowPlot);
+    xrayBody.classList.toggle('show-plot', xrayShowPlot);
+  });
+
   function renderXray(state, v) {
     // The "Technical" slot is always present so media info shows in every state.
     const techSlot = '<div class="xray-tech" id="xrayTech"></div>';
@@ -2415,7 +2431,7 @@
 
     const plotText = (imdb && imdb.plot) || plot || '';
     const plotSrc = (imdb && imdb.plot) ? 'IMDb' : 'Wikipedia';
-    const plotHtml = plotText ? `<div class="xray-tech"><div class="tech-h">Plot</div><div class="xray-extract">${esc(plotText)}</div></div>` : '';
+    const plotHtml = plotText ? `<div class="xray-tech xray-plot"><div class="tech-h">Plot</div><div class="xray-extract">${esc(plotText)}</div></div>` : '';
 
     const links = [];
     if (wiki) links.push(`Summary from <a href="${esc(wiki.pageUrl)}" target="_blank" rel="noopener">Wikipedia</a> · CC BY-SA`);
@@ -2426,6 +2442,7 @@
       ${thumbHtml}
       <div class="xray-content">
         <div class="xray-title">${esc(title)}</div>
+        ${plotText ? `<div class="xray-plot-toggle"><span>Plot</span><span class="autorun-switch${xrayShowPlot ? ' on' : ''}" id="plotSwitch" role="switch" aria-checked="${xrayShowPlot}" title="Show / hide the plot"><span class="knob"></span></span></div>` : ''}
         ${wiki && wiki.description ? `<div class="xray-attribution" style="margin:0 0 6px">${esc(wiki.description)}</div>` : ''}
         ${wiki ? `<div class="xray-extract">${esc(wiki.extract)}</div>` : ''}
         ${factsHtml}
