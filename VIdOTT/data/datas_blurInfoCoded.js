@@ -261,7 +261,7 @@
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn720402.ca.archive.org/0/items/how-to-train-your-dragon-2010_202106/THE%20ANT%20BULLY%20%282006%29.mp4",
       thumb: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCfIGyLH5R370nQP9fd7v-phlbfTVUiQ7fysbChopGayaepPGfxuV1fjPujG2yABlz2ZiFc8dG_-68-uJacdhSbKIw8_Wzoa5PcEGcgQ2c7GEO59Iw8Nh-iKwH1La3OfBpkJeykskOEbPG_ZHGuXC_4Ao6GB_EING3GkAUq2lEJvlG_cn1IRq7zzuklPk/s1395/Screencap%201.png",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/The.Ant.Bully.2006.srt",
       category: "Family"
     },
    {
@@ -422,7 +422,7 @@
       AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://dn721901.ca.archive.org/0/items/Popcornarchive-dunstonChecksIn1996/Popcornarchive-dunstonChecksIn1996.mp4",
       thumb: "https://m.media-amazon.com/images/S/pv-target-images/318ccb307fe9021f36adf9cd36c520d04d0a64aa594088c66741a770549e2ff2.png",
-      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/Dunston Checks In 1996 1080p_eng_sdh.srt",
+      subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/DunstonChecksIn1996.srt",
       category: "Family"
     },
     {
@@ -531,7 +531,7 @@
     },
     {
       title: "Super Mario Bros 1993",
-      AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+      AspectRatio: "zoom", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src: "https://ia800904.us.archive.org/4/items/super-mario-bros.-1993_202511/Super%20Mario%20Bros.%20%281993%29.mp4",
       thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
       subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -539,7 +539,7 @@
     },
  {
     title: "Super Mario Bros 1993 Spanish",
-    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+    AspectRatio: "zoom", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/SMBFILMEDUBLADOVHS/SMBFILMEDUBLADOVHS.mp4",
     thumb: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTva1PQdU7BR0-UYIdsufiuTQzDOvuVHebNeGnH7SSj2A&s=10",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
@@ -1151,11 +1151,12 @@
   },
 {
     title: "Encino Man (1992)",
-    AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+    AspectRatio: "zoom", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
     src: "https://archive.org/download/encino-man-1992_202412/ENCINO_MAN_1992.mp4",
     thumb: "https://image.tmdb.org/t/p/original/eIWkzF32Zt8IYA2n6OmwAEKq8gK.jpg",
-    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Encino.Man.1992.720p.HDTV.DD.5.1.x264-DNL.ENG.srt",
+    subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Encino.Man.1992.1080p.WEBRip.x264-RARBG.srt",
     category: "Comedy",
+    /*https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Encino.Man.1992.720p.HDTV.DD.5.1.x264-DNL.ENG.srt*/
   },
   {
     title: "Encino Woman (1996)",
@@ -1604,7 +1605,7 @@
       src:  "https://archive.org/download/final-flight-of-the-osiris-1280p/Animatrix%20Final%20Flight%20of%20the%20Osiris%201280p.mp4",
     thumb: "https://m.media-amazon.com/images/M/MV5BMTU5NDU2MDc4N15BMl5BanBnXkFtZTcwMDMwNjIyNw@@._V1_FMjpg_UX1000_.jpg",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
-    category: "Short",
+    category: "Shorts",
   },
   {
     title: "Hey Ram (2000)",
@@ -1632,7 +1633,7 @@
   },
   {
     title: "The Broken Arrow",
-   AspectRatio: "fit", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
+   AspectRatio: "fill", // "fit" (default) | "fill" | "zoom" | "16:9" | "4:3" | "squeeze"
       src:  "https://archive.org/download/the-broken-arrow/The%20Broken%20Arrow.mp4",
     thumb: "https://pastposters.com/cdn/shop/files/JamieR___BrokenArrow_2.jpg?v=1746730047&width=1946",
     subtitle: "https://raw.githubusercontent.com/harish-kumar-kp/showreel/main/VIdOTT/subtitles/Dummy_Subtitles.srt",
