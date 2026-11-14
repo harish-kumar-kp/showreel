@@ -1,3981 +1,4780 @@
-﻿1
-00:01:15,950 --> 00:01:20,079
-MAURBØLLA
+1
+00:00:11,428 --> 00:00:39,373
+<font color="#ffff80"><b>GoRichard</b></font>
 
 2
-00:01:43,186 --> 00:01:46,355
-Der har vi det! Spindle, lys i vei!
+00:01:43,604 --> 00:01:46,773
+Oh, that's it! Spindle, taillight.
 
 3
-00:01:56,825 --> 00:01:58,534
-Hei!
+00:01:57,034 --> 00:01:58,994
+Hey. Hey!
 
 4
-00:01:58,701 --> 00:02:01,203
--Hva?
--Hva hva da?
+00:01:59,161 --> 00:02:01,663
+-What?
+-What do you mean, "what"?
 
 5
-00:02:02,330 --> 00:02:04,540
-Hva driver du med?
+00:02:01,830 --> 00:02:04,124
+Hey! Hey, what are you doing?
 
 6
-00:02:04,707 --> 00:02:09,461
--Dette er soverommet - så sov!
--La meg slippe å komme opp dit.
+00:02:04,291 --> 00:02:08,003
+Yeah, this is the sleeping chamber.
+Go to sleep.
 
 7
-00:02:09,629 --> 00:02:14,216
-Jeg må finne siste ingrediensen
-til trylledrikken.
+00:02:08,170 --> 00:02:09,963
+Don't make me come up there!
 
 8
-00:02:14,801 --> 00:02:16,552
-Hva er viktigst:
+00:02:10,130 --> 00:02:14,885
+I'm so sorry, but I must have
+the final ingredient for my potion.
 
 9
-00:02:16,719 --> 00:02:21,557
-At jeg fullfører livsverket mitt
-med å redde maurkolonien,-
+00:02:15,052 --> 00:02:16,762
+Now, what's more important:
 
 10
-00:02:21,724 --> 00:02:25,811
--innbefattet dere,
-eller at dere får sove?
+00:02:16,929 --> 00:02:22,851
+Me completing my life's work
+for the salvation of the colony--
 
 11
-00:02:26,396 --> 00:02:29,231
--Sove.
--Ja, samme her.
+00:02:23,018 --> 00:02:24,811
+Which includes you guys.
 
 12
-00:02:29,399 --> 00:02:32,693
-Jeg skal prøve å være veldig stille.
+00:02:24,978 --> 00:02:27,105
+--or your sleep?
 
 13
-00:02:33,069 --> 00:02:34,570
-Clacktiel!
+00:02:27,314 --> 00:02:29,900
+-Sleep. I'm going with sleep.
+-Yeah, the second one.
 
 14
-00:02:37,532 --> 00:02:41,076
-Nå er det nok, jeg kommer opp!
+00:02:30,067 --> 00:02:33,278
+Well, then I shall try to be very quiet.
 
 15
-00:02:42,579 --> 00:02:47,249
-Ildkrystaller.
-Endelig, den siste ingrediensen.
+00:02:33,445 --> 00:02:35,197
+Clacktiel.
 
 16
-00:02:53,214 --> 00:02:55,465
-Jeg er på ferie.
+00:02:37,658 --> 00:02:41,245
+That's it, I'm coming up there!
 
 17
-00:02:58,344 --> 00:03:02,097
--Nei. Kutt ut!
--Alle på ham!
+00:02:42,829 --> 00:02:44,498
+Fire crystals.
 
 18
-00:03:07,020 --> 00:03:08,687
-Ødeleggeren!
+00:02:45,374 --> 00:02:48,877
+At last. The final ingredient.
 
 19
-00:03:14,485 --> 00:03:16,278
-Megatruserøsk!
+00:02:53,298 --> 00:02:55,551
+I'm on vacation.
 
 20
-00:03:16,613 --> 00:03:18,447
-Totalt!
+00:02:58,512 --> 00:03:01,139
+-No. No, cut it out.
+-Dogpile.
 
 21
-00:03:21,284 --> 00:03:26,288
--Kutt ut, jeg har ikke flere truser.
--Og hva gjør du med det? Ingen ting!
+00:03:01,306 --> 00:03:03,183
+Dogpile.
 
 22
-00:03:26,497 --> 00:03:29,750
-Fordi jeg er stor og du liten.
+00:03:07,604 --> 00:03:09,022
+It's the Destroyer!
 
 23
-00:03:31,252 --> 00:03:34,713
-Fordi han er stor og du liten.
+00:03:14,862 --> 00:03:16,613
+Atomic wedgy.
 
 24
-00:03:36,633 --> 00:03:41,261
--Slutt å herme etter meg.
--Jeg sa det bare med ekstra tyngde.
+00:03:17,573 --> 00:03:18,991
+And a clean break.
 
 25
-00:03:42,013 --> 00:03:44,640
-Hvorfor må du være så slem?
+00:03:19,157 --> 00:03:21,368
+-Clean break. Excellent wedge.
+-Yeah. All right.
 
 26
-00:04:01,574 --> 00:04:02,908
-Ødelegger.
+00:03:21,535 --> 00:03:24,162
+Come on, man,
+I'm running out of underwear.
 
 27
-00:04:17,465 --> 00:04:18,966
-Zoc?
+00:03:24,371 --> 00:03:26,665
+Well, what are you gonna do about it, huh?
+Nothing.
 
 28
-00:04:19,133 --> 00:04:21,134
-Vann! Løp!
+00:03:26,874 --> 00:03:31,712
+-Because I'm big and you're small.
+-Yeah.
 
 29
-00:04:21,302 --> 00:04:24,846
-Hova, kom deg bort til gresset,
-det er farlig her.
+00:03:31,879 --> 00:03:36,967
+-Because he's big and you're small.
+-Hey.
 
 30
-00:04:25,014 --> 00:04:29,851
-Jeg har alltid villet se et menneske.
-De skal kunne snakke, som oss.
+00:03:37,134 --> 00:03:39,845
+Quit repeating everything I say.
 
 31
-00:04:30,019 --> 00:04:32,354
-De er slett ikke som oss.
+00:03:40,012 --> 00:03:42,014
+I was just adding emphasis, dude.
 
 32
-00:04:38,361 --> 00:04:41,488
-Dere kan ikke
-gjøre noe med det, maur.
+00:03:42,222 --> 00:03:44,975
+Man, why you gotta be hating?
 
 33
-00:04:41,656 --> 00:04:44,574
-For jeg er stor og dere er små.
+00:04:02,034 --> 00:04:03,160
+Destroyer.
 
 34
-00:04:45,702 --> 00:04:50,289
-Vekk, monster, ellers bruker jeg
-mine evner til å knuse deg!
+00:04:17,382 --> 00:04:18,509
+Zoc?
 
 35
-00:04:53,710 --> 00:04:56,712
-Evner jeg må finpusse litt. Løp!
+00:04:19,551 --> 00:04:21,178
+Water!
 
 36
-00:05:05,471 --> 00:05:09,641
-Hallo.
-Vi vil deg ikke noe vondt.
+00:04:21,345 --> 00:04:23,388
+-Zoc.
+-Hova, please, get to the grass.
 
 37
-00:05:10,601 --> 00:05:12,894
--Strålende.
--Sko!
+00:04:23,597 --> 00:04:24,973
+It's dangerous up here.
 
 38
-00:05:20,069 --> 00:05:23,113
--Gå i fred.
--Pass opp!
+00:04:25,140 --> 00:04:27,643
+But I've always wanted to see
+a human up close.
 
 39
-00:05:27,201 --> 00:05:30,412
--Gikk det bra?
--Han hørte meg visst ikke.
+00:04:27,809 --> 00:04:30,145
+I hear they're capable of speech, like us.
 
 40
-00:05:34,751 --> 00:05:37,169
-Peanøtt, på tide å komme inn.
+00:04:30,312 --> 00:04:32,981
+They are nothing like us.
 
 41
-00:05:43,843 --> 00:05:45,677
-Peanøtt.
+00:04:38,820 --> 00:04:41,740
+What you gonna do about it, ants?
+Nothing.
 
 42
-00:05:46,929 --> 00:05:50,891
-Jeg tror jeg nådde fram til ham.
-Hva tror du?
+00:04:41,907 --> 00:04:45,452
+Because I'm big and you're small.
 
 43
-00:05:51,267 --> 00:05:53,560
-Ødelegger.
+00:04:45,619 --> 00:04:50,582
+Away, monster, or I will use my powers
+to destroy you.
 
 44
-00:05:54,145 --> 00:05:56,396
-Tiffany, Lucas, vi drar nå.
+00:04:53,919 --> 00:04:57,381
+Powers that I have yet to perfect. Run!
 
 45
-00:05:58,858 --> 00:06:02,361
-Lucas?
-Alle numrene står på kjøleskapet.
+00:05:05,639 --> 00:05:06,890
+Hello.
 
 46
-00:06:04,781 --> 00:06:08,617
-Hva driver du med?
-Hvorfor svarte du ikke?
+00:05:07,057 --> 00:05:10,435
+We mean you no harm.
 
 47
-00:06:09,285 --> 00:06:14,081
--Er alt bra med deg, vennen?
--Jeg spilte bare med vennene mine.
+00:05:10,602 --> 00:05:11,937
+-Oh, great.
+-Shoe!
 
 48
-00:06:14,290 --> 00:06:19,086
--Kanskje vi ikke burde dra på ferie.
--Det er bryllupsdagen vår.
+00:05:12,104 --> 00:05:13,814
+Shoe!
 
 49
-00:06:19,253 --> 00:06:25,258
-Vi skal til Puerco Vallarta og jeg
-skal nyte ferien med min mamacita.
+00:05:20,153 --> 00:05:23,448
+-Please, go in peace.
+-Look out!
 
 50
-00:06:26,177 --> 00:06:30,597
-Ikke avlys ferien for min skyld.
-Jeg kan løse problemene mine selv.
+00:05:27,828 --> 00:05:32,082
+-Are you all right?
+-l-- I guess he didn't hear me.
 
 51
-00:06:31,182 --> 00:06:36,144
-Hvilke problemer? Har det noe
-å gjøre med at du ikke har truser igjen?
+00:05:33,166 --> 00:05:35,002
+Lucas.
 
 52
-00:06:36,312 --> 00:06:37,396
-Nei!
+00:05:35,169 --> 00:05:37,462
+Peanut, it's time to come inside now.
 
 53
-00:06:37,647 --> 00:06:41,483
-Sengevæting er ikke
-noe å skamme seg over, Peanøtt.
+00:05:44,511 --> 00:05:46,513
+Peanut.
 
 54
-00:06:41,818 --> 00:06:47,155
-Gi deg! Eneste problemet jeg har,
-er at du behandler meg som en unge.
+00:05:47,222 --> 00:05:49,683
+I think I might have gotten through
+to him.
 
 55
-00:06:48,324 --> 00:06:52,828
-Og slutt å kalle meg Peanøtt.
-Bare dra og la meg være i fred.
+00:05:49,850 --> 00:05:53,604
+-What do you think?
+-Destroyer.
 
 56
-00:06:57,166 --> 00:06:59,668
-Jeg, Zoc, påkaller elementene:
+00:05:55,647 --> 00:05:58,066
+Tiffany, Lucas, we're leaving now.
 
 57
-00:07:00,086 --> 00:07:04,756
-Vinden som blåser,
-regnet som faller, ilden som brenner.
+00:05:58,317 --> 00:06:00,986
+Lucas? All the numbers are on the fridge.
 
 58
-00:07:04,924 --> 00:07:09,511
-Bruk deres voldsomme kraft
-til å forvandle trylledrikken min.
+00:06:01,153 --> 00:06:04,698
+<i>-Good one. Extended play.
+-Lucas.</i>
 
 59
-00:07:09,720 --> 00:07:11,638
-Clacktiel!
+00:06:05,532 --> 00:06:09,203
+What are you doing back there?
+Why didn't you answer?
 
 60
-00:07:14,767 --> 00:07:16,643
-Kjempebra.
+00:06:09,703 --> 00:06:11,830
+-Are you all right, sweetie?
+-I'm fine.
 
 61
-00:07:16,853 --> 00:07:20,772
-Flotte røykeffekter.
-Ikke sant, Spindle?
+00:06:11,997 --> 00:06:15,375
+-I was just playing with my friends.
+-I don't know.
 
 62
-00:07:21,149 --> 00:07:24,818
-Fillestein!
-Forbannelser over ungene dine.
+00:06:15,542 --> 00:06:19,171
+-Maybe we shouldn't go on vacation.
+-Come on, it's our big wedding anniversary.
 
 63
-00:07:24,986 --> 00:07:27,863
-Jeg tror ikke steiner får unger, kjære.
+00:06:19,379 --> 00:06:21,131
+We're going to Puerco Vallarta.
 
 64
-00:07:28,322 --> 00:07:31,450
--Ikke nå, nei.
--Hva er i veien?
+00:06:21,298 --> 00:06:26,011
+<i>And I gotta spend a little quality time
+with the mamacita.</i>
 
 65
-00:07:31,826 --> 00:07:36,746
-Trylledrikken skal skifte farge.
-Den skifter ikke farge.
+00:06:26,720 --> 00:06:29,223
+Don't cancel your vacation
+just because of me.
 
 66
-00:07:37,123 --> 00:07:40,292
-Jeg påkaller elementene.
-Vind, regn...
+00:06:29,389 --> 00:06:33,352
+-I can solve my own problems.
+-Problems? What problems?
 
 67
-00:07:40,460 --> 00:07:44,129
-Til å forvandle trylledrikken min.
-Og Clacktiel!
+00:06:33,560 --> 00:06:36,522
+Does it have anything to do with
+why I can't find your underwear?
 
 68
-00:07:45,381 --> 00:07:48,175
-Clacktiel, klakketi-klakk!
+00:06:36,730 --> 00:06:37,940
+No!
 
 69
-00:07:48,885 --> 00:07:52,387
--Kanskje du uttaler det feil.
--Hvordan kan jeg det?
+00:06:38,106 --> 00:06:41,068
+Bed-wetting is nothing
+to be ashamed of, Peanut.
 
 70
-00:07:52,555 --> 00:07:55,682
--Jeg har selv funnet på det.
--Ta en pause.
+00:06:41,235 --> 00:06:43,153
+What? Just stop it, Mom!
 
 71
-00:07:55,850 --> 00:08:01,813
-Hova, vi holdt på å bli most i dag,
-og det er kaos i maurkolonien.
+00:06:43,320 --> 00:06:46,365
+I don't have any problems
+except for you treating me like a baby.
 
 72
-00:08:02,064 --> 00:08:07,569
-Jeg er nær ved å finne en løsning
-på menneskeproblemet, og du sier...
+00:06:46,990 --> 00:06:49,993
+-Peanut.
+-And stop calling me that.
 
 73
-00:08:08,029 --> 00:08:10,906
--Hova, hva gjør du?
--Ingen ting.
+00:06:50,160 --> 00:06:52,788
+Just go away and leave me alone.
 
 74
-00:08:11,532 --> 00:08:15,076
-Jeg går bare mot deg.
-Ingen grunn til panikk.
+00:06:57,417 --> 00:07:00,128
+I, Zoc, call upon the elements:
 
 75
-00:08:15,244 --> 00:08:17,746
-Jeg kommer bare mot deg.
+00:07:00,295 --> 00:07:05,092
+The wind that blows, rain that falls,
+fire that burns.
 
 76
-00:08:17,914 --> 00:08:20,373
-Kiler det? Nå da?
+00:07:05,259 --> 00:07:09,471
+Deliver your awesome power
+and transform my potion.
 
 77
-00:08:20,791 --> 00:08:25,253
--Hvorfor ler du da?
--La meg slippe å clacktiele deg.
+00:07:09,638 --> 00:07:11,390
+Clacktiel.
 
 78
-00:08:25,421 --> 00:08:29,007
-Godt dere to har noe å le av.
+00:07:14,935 --> 00:07:16,979
+That was great, sweetie.
 
 79
-00:08:29,800 --> 00:08:32,010
-Maurrådsleder.
+00:07:17,145 --> 00:07:20,649
+I loved the smoke effects.
+Didn't you, Spindle?
 
 80
-00:08:32,929 --> 00:08:35,931
-Så hyggelig.
-Det var uventet.
+00:07:21,233 --> 00:07:22,568
+You...
 
 81
-00:08:36,390 --> 00:08:39,559
-Tilgi meg,
-jeg jobbet med et eksperiment.
+00:07:22,734 --> 00:07:24,611
+...rock. Curse upon your children.
 
 82
-00:08:39,852 --> 00:08:41,770
-Jeg forstår.
+00:07:24,778 --> 00:07:27,406
+I don't think rocks have children, honey.
 
 83
-00:08:41,938 --> 00:08:45,106
-Vi skulle...
-Hva kan jeg stå til tjeneste med?
+00:07:28,532 --> 00:07:31,910
+-They won't now.
+-Okay. What's the matter?
 
 84
-00:08:45,274 --> 00:08:48,777
-Zoc, Ødeleggeren
-angriper stadig oftere.
+00:07:32,077 --> 00:07:34,371
+Hova, the potion is supposed to
+change color.
 
 85
-00:08:48,945 --> 00:08:51,780
-Matlagrene våre er nesten tomme.
+00:07:34,538 --> 00:07:38,000
+It's not changing color.
+It's not changing color.
 
 86
-00:08:51,948 --> 00:08:56,117
-Maurrådet håpet
-at du kanskje har en løsning.
+00:07:38,166 --> 00:07:40,460
+I call upon the elements:
+Wind, rain, et cetera.
 
 87
-00:08:56,744 --> 00:09:02,207
--Kjemp imot, vi må stoppe Ødeleggeren.
--Men tusener av maur vil dø forgjeves.
+00:07:40,627 --> 00:07:43,172
+Transform my potion and clacktiel.
 
 88
-00:09:02,375 --> 00:09:06,127
-Kanskje vi kunne kommunisere,
-snakke med mennesket.
+00:07:46,091 --> 00:07:48,468
+Clacktiel, clacktiel....
 
 89
-00:09:06,295 --> 00:09:09,923
-Glimrende forslag.
-La oss ta en hyggeprat.
+00:07:49,636 --> 00:07:52,764
+-Maybe you're pronouncing it wrong.
+-How could I pronounce it wrong?
 
 90
-00:09:10,091 --> 00:09:16,221
-"Hallo, Ødelegger. Du ser sliten ut.
-Hvil beina dine på kjæresten min."
+00:07:52,973 --> 00:07:56,143
+-I made it up.
+-Take a break.
 
 91
-00:09:16,389 --> 00:09:20,141
-Du kan være en skikkelig stinktege.
+00:07:56,310 --> 00:07:57,936
+Hova, perhaps you didn't notice...
 
 92
-00:09:20,309 --> 00:09:25,272
-Zoc, en krig
-mot mennesket er... umulig.
+00:07:58,145 --> 00:08:02,107
+...but we were almost squished today,
+and the colony is in shambles.
 
 93
-00:09:26,232 --> 00:09:29,442
-En trollmaur kjenner ikke det ordet.
+00:08:02,316 --> 00:08:06,403
+I am this close to finding a solution
+to the human problem...
 
 94
-00:09:34,991 --> 00:09:37,826
--Greit.
--Ha det, Tiff, Lucas.
+00:08:06,570 --> 00:08:09,114
+...and you tell me I need to--
+Hova, what are you doing?
 
 95
-00:09:37,994 --> 00:09:40,120
-Jeg er glad i dere.
+00:08:09,323 --> 00:08:11,283
+-Nothing, I'm not doing anything.
+-No. Wait.
 
 96
-00:09:41,956 --> 00:09:44,332
-Pass godt på bestemor!
+00:08:11,491 --> 00:08:13,327
+-No.
+-I'm simply walking towards you.
 
 97
-00:09:45,418 --> 00:09:49,296
-Ha det. Kos dere.
-Slapp av, alt er under kontroll.
+00:08:13,493 --> 00:08:15,746
+-There's no reason to panic.
+-Wait. Now, Hova--
 
 98
-00:09:55,845 --> 00:10:00,140
--Litt hjelp, takk.
--Jeg tror det er din tur.
+00:08:15,913 --> 00:08:18,373
+-I'm just coming towards you.
+-Wait. No. Hova. No.
 
 99
-00:10:00,349 --> 00:10:02,434
-Tenner i gresset.
+00:08:18,540 --> 00:08:20,792
+Does it tickle?
+What about when I do this?
 
 100
-00:10:03,853 --> 00:10:07,689
-Mormor, her er...
-Hva gjør du?
+00:08:21,001 --> 00:08:22,920
+Why are you laughing?
+I see you laughing.
 
 101
-00:10:08,149 --> 00:10:12,152
-Forhindrer aliens i å bortføre dere.
+00:08:23,086 --> 00:08:25,130
+Don't make me clacktiel you.
 
 102
-00:10:13,029 --> 00:10:14,654
-Takk.
+00:08:25,339 --> 00:08:29,510
+Well, I'm glad you two have something
+to laugh about.
 
 103
-00:10:15,531 --> 00:10:17,991
-Hersens ugress.
+00:08:30,969 --> 00:08:33,138
+-Head of Council.
+-Hi.
 
 104
-00:10:18,534 --> 00:10:22,996
-Se her. Luftstrøm.
-Aliens kan ikke fordra luftstrøm.
+00:08:33,347 --> 00:08:36,683
+How nice of you to....
+It was unexpected.
 
 105
-00:10:23,664 --> 00:10:27,375
-Og prøver de å slå av strømmen
-midt på natta...
+00:08:36,850 --> 00:08:39,478
+Forgive me.
+I was working on an experiment.
 
 106
-00:10:29,545 --> 00:10:32,631
-...da vekker disse meg.
+00:08:39,686 --> 00:08:41,855
+Oh, yes, I see.
 
 107
-00:10:33,299 --> 00:10:37,719
--Vær forberedt. Varsle vennene dine!
--Jeg har ingen venner.
+00:08:42,022 --> 00:08:45,609
+Well, we were-- How may I be of service?
 
 108
-00:10:37,928 --> 00:10:41,640
-Hvem skal da passe deg
-når du blir gammel og tannløs-
+00:08:45,776 --> 00:08:48,987
+Zoc, attacks from the Destroyer
+grow more frequent.
 
 109
-00:10:41,807 --> 00:10:45,060
--og har aliens etter deg?
+00:08:49,196 --> 00:08:51,949
+Our food supplies
+are now desperately low.
 
 110
-00:10:45,728 --> 00:10:48,229
-Jeg kan passe på meg selv.
+00:08:52,115 --> 00:08:56,787
+The council was hoping
+perhaps you might have a solution.
 
 111
-00:10:49,231 --> 00:10:52,734
--God natt, mormor.
--God natt, sov godt, må vite.
+00:08:57,746 --> 00:09:00,415
+Fight back. We must stop the Destroyer.
 
 112
-00:10:52,902 --> 00:10:55,028
-Ikke la sengebiller bite.
+00:09:00,582 --> 00:09:02,876
+But thousands of ants
+would needlessly die.
 
 113
-00:10:55,196 --> 00:10:58,198
-Eller krype inn i øret
-og legge egg.
+00:09:03,043 --> 00:09:06,797
+Perhaps if we could communicate,
+you know, just talk with the human.
 
 114
-00:11:12,755 --> 00:11:16,257
--Dans, Spyas.
--Dans, apegutten!
+00:09:06,964 --> 00:09:10,509
+Oh, what a great idea.
+Let's have a nice chat.
 
 115
-00:11:16,676 --> 00:11:18,218
-Tenk fort.
+00:09:10,717 --> 00:09:14,012
+Well, hello, Destroyer.
+Gee, you look kind of tired.
 
 116
-00:11:40,908 --> 00:11:43,076
-Clacktiel!
+00:09:14,179 --> 00:09:16,640
+Why don't you just rest your feet
+on my girlfriend.
 
 117
-00:11:45,996 --> 00:11:47,288
-Du...
+00:09:16,849 --> 00:09:18,058
+Okay, oka--
 
 118
-00:11:47,456 --> 00:11:50,250
-Zoc, ikke når Spindle ser det.
+00:09:18,225 --> 00:09:20,727
+Sometimes you're a real stinkbug,
+you know that?
 
 119
-00:11:51,627 --> 00:11:53,545
-Unnskyld.
+00:09:20,894 --> 00:09:26,024
+Zoc, a war with the human is--
+It's impossible.
 
 120
-00:11:54,046 --> 00:11:57,382
-Jeg må ha glemt et eller annet.
+00:09:26,233 --> 00:09:30,696
+A wizard knows no such word.
 
 121
-00:11:58,467 --> 00:12:00,802
-Vent. En sprekk.
+00:09:35,075 --> 00:09:38,453
+-Whatever.
+-Bye, Tiff. Bye, Lucas.
 
 122
-00:12:01,011 --> 00:12:03,638
-En brist i krystallet.
+00:09:38,620 --> 00:09:41,039
+I love you.
 
 123
-00:12:03,889 --> 00:12:08,727
-Jeg smører den med klebrig masse.
-Spindle, finn kvae!
+00:09:42,875 --> 00:09:45,002
+You kids mind your grandma.
 
 124
-00:12:17,653 --> 00:12:19,320
-Clacktiel!
+00:09:45,169 --> 00:09:47,421
+Okay, goodbye. Have fun.
 
 125
-00:12:23,534 --> 00:12:27,245
-Det virket!
-Trylledrikken er ferdig!
+00:09:47,588 --> 00:09:50,799
+Don't worry, everything's under control.
 
 126
-00:12:28,748 --> 00:12:31,249
-Lovet være Moren! Ja!
+00:09:56,054 --> 00:09:58,015
+A little help, please.
 
 127
-00:12:34,170 --> 00:12:36,171
-Nei!
+00:09:58,223 --> 00:10:00,809
+I think it's your turn.
 
 128
-00:12:37,173 --> 00:12:39,799
--Zoc.
--Hova, hold ut!
+00:10:00,976 --> 00:10:02,936
+Teeth in the grass.
 
 129
-00:12:41,093 --> 00:12:44,345
-Spindle, ta trylledrikken, fort!
+00:10:04,313 --> 00:10:08,358
+Mommo, here's your--
+What are you doing?
 
 130
-00:13:14,585 --> 00:13:16,211
-Hallo.
+00:10:08,525 --> 00:10:12,613
+Preventing alien abduction,
+that's what I'm doing.
 
 131
-00:13:17,838 --> 00:13:22,550
-Jeg var på din alder
-da jeg oversvømte min første maurtue.
+00:10:12,779 --> 00:10:14,781
+Thank you.
 
 132
-00:13:23,719 --> 00:13:26,721
-Det var gode tider, det!
+00:10:16,408 --> 00:10:18,702
+Dang crabgrass.
 
 133
-00:13:28,516 --> 00:13:31,893
--Hvem er du?
--Stan Beals er navnet.
+00:10:18,869 --> 00:10:23,290
+See these? Airflow. Aliens hate airflow.
 
 134
-00:13:32,061 --> 00:13:34,229
-Beals Skadedyrkontroll.
+00:10:24,041 --> 00:10:28,670
+Drives them nuts. And if they try to cut
+the power in the middle of the night...
 
 135
-00:13:34,688 --> 00:13:38,650
-Eksterminator, kverker, problemløser.
+00:10:30,797 --> 00:10:33,383
+...these babies will wake me up.
 
 136
-00:13:38,818 --> 00:13:41,402
-Du må være sønnen til Nickle.
+00:10:33,550 --> 00:10:37,721
+-We gotta be prepared. Tell your friends.
+-I don't have any friends.
 
 137
-00:13:41,612 --> 00:13:46,574
-Faren din bestilte meg, men glemte
-å undertegne kontrakten før han dro.
+00:10:37,888 --> 00:10:40,349
+Well, who's gonna look out for you
+when you get old...
 
 138
-00:13:46,742 --> 00:13:49,536
-En opptatt mann, sånt skjer.
+00:10:40,516 --> 00:10:44,520
+...and your teeth are falling out,
+and them aliens are after you?
 
 139
-00:13:49,703 --> 00:13:52,664
-Så han ba meg snakke med deg...
+00:10:44,686 --> 00:10:48,315
+-Lucas.
+-I'll look after myself.
 
 140
-00:13:53,499 --> 00:13:55,375
-Lucas.
+00:10:49,816 --> 00:10:52,903
+-Good night, Mommo.
+-Good night. Sleep tight.
 
 141
-00:13:56,210 --> 00:13:59,838
-Han sa: "Lucas, sønnen min
-kan skrive under-
+00:10:53,070 --> 00:10:55,113
+Don't let the bedbugs bite...
 
 142
-00:14:00,005 --> 00:14:04,384
--hvis jeg glemmer det før jeg drar.
-Han er voksen mann nå."
+00:10:55,280 --> 00:10:58,450
+...or creep into your ear
+and lay eggs in your brain.
 
 143
-00:14:04,552 --> 00:14:06,344
-Det sa han.
+00:11:13,257 --> 00:11:16,802
+-Dance, Pukas.
+-Dance, monkey boy, dance!
 
 144
-00:14:07,555 --> 00:14:10,348
-Tja... Har du noen referanser?
+00:11:17,427 --> 00:11:19,137
+Think fast.
 
 145
-00:14:11,058 --> 00:14:13,017
-Referanser?
+00:11:41,076 --> 00:11:42,786
+Clacktiel.
 
 146
-00:14:13,185 --> 00:14:15,270
-Der har du en!
+00:11:46,039 --> 00:11:47,833
+You....
 
 147
-00:14:16,438 --> 00:14:18,940
-Jeg tror ikke jeg bør.
+00:11:48,000 --> 00:11:50,669
+Zoc, please, not in front of Spindle.
 
 148
-00:14:20,276 --> 00:14:23,611
-Så du tror ikke det, nei?
+00:11:52,045 --> 00:11:53,630
+Sorry.
 
 149
-00:14:24,446 --> 00:14:27,782
-Hvem tenker for deg, da?
-Mora di?
+00:11:54,673 --> 00:11:58,343
+God, there must be something I missed.
 
 150
-00:14:27,950 --> 00:14:30,618
-"Mamma, hva skal jeg gjøre?
+00:11:58,677 --> 00:12:00,679
+Wait. A crack.
 
 151
-00:14:30,786 --> 00:14:36,916
-Jeg er bare en drittunge som ikke kan
-tenke selv. Tørk den lille stumpen min."
+00:12:00,888 --> 00:12:03,974
+That's it. Imperfections in the crystals.
 
 152
-00:14:40,921 --> 00:14:45,633
--Hit med den dumme kontrakten!
--Ja visst. En meget moden beslutning.
+00:12:04,141 --> 00:12:07,060
+Perhaps coating it
+in a viscous compound.
 
 153
-00:14:45,801 --> 00:14:48,052
-Nyt et liv uten insektherket
+00:12:07,227 --> 00:12:09,188
+Spindle. Resin.
 
 154
-00:14:48,220 --> 00:14:51,639
-Skriv under her,
-så skal jeg dem kverke
+00:12:17,696 --> 00:12:18,906
+Clacktiel.
 
 155
-00:14:51,807 --> 00:14:54,309
-Den har jeg skrevet selv.
+00:12:24,203 --> 00:12:28,916
+Oh, that's it. It worked!
+The potion is complete!
 
 156
-00:15:08,782 --> 00:15:11,117
--Er alt bra med deg?
--Ja da.
+00:12:29,458 --> 00:12:34,213
+Praise the Mother! Yes! Yes! Yes!
 
 157
-00:15:11,285 --> 00:15:12,994
-Spindle?
+00:12:34,379 --> 00:12:35,797
+No!
 
 158
-00:15:15,998 --> 00:15:18,708
-Spindle, du reddet den.
+00:12:37,758 --> 00:12:40,719
+-Zoc.
+-Hova, hang on.
 
 159
-00:15:20,336 --> 00:15:23,796
-Noen får en rot
-med ekstra mold på i kveld.
+00:12:41,178 --> 00:12:44,723
+Spindle, get the potion. Quickly.
 
 160
-00:15:25,633 --> 00:15:27,216
-Zoc!
+00:13:14,753 --> 00:13:16,839
+Hello.
 
 161
-00:15:29,345 --> 00:15:31,346
-Spindle, lys!
+00:13:18,215 --> 00:13:23,637
+Yep, I was about your age
+when I flooded my first colony.
 
 162
-00:15:38,729 --> 00:15:41,731
--Må Mor hjelpe oss.
--Å nei.
+00:13:23,971 --> 00:13:28,392
+Brother, those were good times.
+Good times!
 
 163
-00:15:42,024 --> 00:15:45,860
-Å angripe uten provokasjon,
-uten grunn,-
+00:13:29,560 --> 00:13:32,771
+-Who are you?
+-Stan Beals is the name.
 
 164
-00:15:46,028 --> 00:15:49,739
--bare fordi de kan...
-Det er barbarisk.
+00:13:32,980 --> 00:13:34,648
+Beals-A-Bug Pest Control.
 
 165
-00:15:50,783 --> 00:15:53,493
-Men hva kan vi gjøre?
+00:13:36,233 --> 00:13:38,944
+Exterminator, eradicator,
+solver of problems.
 
 166
-00:15:53,744 --> 00:15:55,870
-Vi er fortapt.
+00:13:39,111 --> 00:13:41,780
+Hey, you must be the Nickle boy, right?
 
 167
-00:15:56,455 --> 00:15:59,040
-Nei, vi er reddet.
+00:13:41,989 --> 00:13:43,991
+Now, your dad ordered my services...
 
 168
-00:15:59,541 --> 00:16:02,377
-Dette er redningen vår.
+00:13:44,157 --> 00:13:46,785
+...but he forgot to sign the contract
+before he left.
 
 169
-00:16:02,836 --> 00:16:05,046
-En trylledrikk?
+00:13:46,994 --> 00:13:49,955
+Busy man. Lot on his mind. It happens.
 
 170
-00:16:05,381 --> 00:16:08,466
-Hva gjør den?
+00:13:50,122 --> 00:13:53,166
+So he just told me to talk to you....
 
 171
-00:17:34,219 --> 00:17:36,262
-Froskeflygere.
+00:13:53,417 --> 00:13:56,336
+-Lucas.
+-Yeah, Lucas.
 
 172
-00:18:02,581 --> 00:18:05,333
-Menneske! Bli med oss.
+00:13:56,503 --> 00:14:00,257
+He said, "You have my son, Lucas,
+sign the contract for me...
 
 173
-00:18:11,590 --> 00:18:13,841
-Husj! Vekk!
+00:14:00,424 --> 00:14:04,469
+...if I happen to forget to before I leave.
+He's a grown man now."
 
 174
-00:18:14,009 --> 00:18:17,095
-Jeg har vifte. Jeg har luft!
+00:14:04,636 --> 00:14:06,638
+His exact words.
 
 175
-00:18:17,805 --> 00:18:19,764
-Jeg har luft!
+00:14:07,764 --> 00:14:10,684
+I don't know.
+Do you have any references?
 
 176
-00:18:23,894 --> 00:18:26,312
-Hallo?
+00:14:11,351 --> 00:14:13,270
+References?
 
 177
-00:18:34,696 --> 00:18:37,198
-Skanner, skanner.
+00:14:13,437 --> 00:14:15,189
+There's one.
 
 178
-00:18:38,534 --> 00:18:40,868
-Stopp! Kutt ut!
+00:14:17,065 --> 00:14:19,359
+I don't think I should.
 
 179
-00:18:41,036 --> 00:18:44,455
-Hva gjør du ute av seng, lille Lucas?
+00:14:20,402 --> 00:14:24,573
+You don't think you should, huh?
+You don't think?
 
 180
-00:18:55,467 --> 00:18:58,553
-Hva har dere gjort med meg?
-Slipp meg!
+00:14:24,740 --> 00:14:28,285
+So who does your thinking for you?
+Your mommy?
 
 181
-00:19:27,374 --> 00:19:29,041
-Kutt ut!
+00:14:28,452 --> 00:14:30,913
+Mommy, Mommy, Mommy,
+what do I do?
 
 182
-00:19:46,268 --> 00:19:55,276
-Sett meg ned!
+00:14:31,079 --> 00:14:33,957
+I'm just a little baby
+that can't think for myself.
 
 183
-00:20:00,866 --> 00:20:03,242
-Hva er det? Han stinker.
+00:14:34,124 --> 00:14:35,876
+Please wipe my little bottom for me.
 
 184
-00:20:03,410 --> 00:20:07,455
--Det er mennesket.
--Det er Peanøtt, Ødeleggeren!
+00:14:36,043 --> 00:14:40,172
+Wipe me. Oh, oh, please, wipe me.
 
 185
-00:20:08,790 --> 00:20:10,541
-Uff da.
+00:14:41,298 --> 00:14:45,344
+-Give me that stupid contract.
+-Yes, sir. A very mature decision.
 
 186
-00:20:11,043 --> 00:20:13,461
-Peanøtt, denne veien.
+00:14:45,552 --> 00:14:47,971
+<i>Enjoy a world that's entirely bug free</i>
 
 187
-00:20:14,129 --> 00:20:15,963
-Det er lite.
+00:14:48,138 --> 00:14:52,184
+<i>Just sign right here
+And leave the killing to me</i>
 
 188
-00:20:16,131 --> 00:20:18,925
--Stikk det!
--Han er så myk.
+00:14:52,351 --> 00:14:54,269
+I wrote that.
 
 189
-00:20:19,301 --> 00:20:23,554
--Han har skjelettet på innsiden.
--Er han vrengt?
+00:15:08,784 --> 00:15:11,328
+-Are you all right?
+-I'm fine.
 
 190
-00:20:26,808 --> 00:20:29,727
-Hvor skal dere med meg?
+00:15:11,495 --> 00:15:14,540
+Spindle? Spindle?
 
 191
-00:20:32,064 --> 00:20:33,731
-Hjelp!
+00:15:15,916 --> 00:15:18,877
+Spindle. You saved it.
 
 192
-00:20:35,817 --> 00:20:38,986
-Hvem er dere?
-Hva gjør dere med meg? Slipp!
+00:15:19,586 --> 00:15:21,213
+Oh, well, come here.
 
 193
-00:20:42,032 --> 00:20:46,118
-Menneske, du er framstilt
-for maurrådet-
+00:15:21,380 --> 00:15:24,341
+Well, someone's getting
+an extra moldy root tonight.
 
 194
-00:20:46,286 --> 00:20:50,289
--for å dømmes
-for forbrytelser mot maurkolonien.
+00:15:24,550 --> 00:15:26,677
+-Okay, okay.
+-Zoc.
 
 195
-00:20:50,457 --> 00:20:51,999
-Les tiltalen.
+00:15:29,346 --> 00:15:31,765
+Spindle, light.
 
 196
-00:20:52,167 --> 00:20:55,294
-"Dette menneskeødeleggerbeistet,-
+00:15:38,772 --> 00:15:41,942
+-Mother, help us.
+-Oh, no.
 
 197
-00:20:55,462 --> 00:20:58,673
--heretter omtalt
-som Peanøtt Ødeleggeren,-
+00:15:42,109 --> 00:15:45,863
+To attack without provocation,
+without reason...
 
 198
-00:20:58,840 --> 00:21:01,509
--har med forsett
-og forbrytersk hensikt-
+00:15:46,029 --> 00:15:50,242
+...just because they can, it's--
+It's barbaric.
 
 199
-00:21:01,677 --> 00:21:06,639
--knust matlagerkamrene,
-oversvømt de nedre rugekamrene-
+00:15:51,034 --> 00:15:53,412
+But what can we do?
 
 200
-00:21:06,807 --> 00:21:11,519
--og dusjet maurtua
-med sitt farlige gule regn."
+00:15:53,871 --> 00:15:56,081
+We are lost.
 
 201
-00:21:12,854 --> 00:21:14,939
-Jeg var så trengt.
+00:15:56,623 --> 00:15:59,626
+No. We are saved.
 
 202
-00:21:16,358 --> 00:21:19,860
-Domfellelse av mennesket
-vil bli foretatt-
+00:15:59,793 --> 00:16:02,921
+This is our salvation.
 
 203
-00:21:20,028 --> 00:21:22,280
--av dronningen selv.
+00:16:03,130 --> 00:16:05,257
+A potion?
 
 204
-00:21:31,790 --> 00:21:34,709
-Vær hilset, mine barn.
+00:16:05,424 --> 00:16:09,970
+What exactly does it do?
 
 205
-00:21:35,711 --> 00:21:38,879
-Og vår uvanlige gjest.
+00:17:41,937 --> 00:17:43,230
+Hey. Hey, hey.
 
 206
-00:21:40,007 --> 00:21:45,052
-Et menneske som truer
-selve eksistensen til vår koloni.
+00:18:02,708 --> 00:18:06,044
+Human. Come with us.
 
 207
-00:21:45,470 --> 00:21:47,596
-Vent nå litt! Vent.
+00:18:11,800 --> 00:18:14,052
+Shoo. Shoo. Get away. Get away.
 
 208
-00:21:47,848 --> 00:21:53,144
-Hvordan kunne jeg vite at maur har
-følelser, familier eller rettssaker?
+00:18:14,219 --> 00:18:17,347
+I got a fan. I'm windy.
 
 209
-00:21:53,312 --> 00:21:57,356
--Dere er bare en bøling teite maur.
--Ødelegg Ødeleggeren!
+00:18:18,307 --> 00:18:20,017
+I am windy.
 
 210
-00:21:57,816 --> 00:21:59,317
-Vi eter ham!
+00:18:23,937 --> 00:18:25,856
+Hello?
 
 211
-00:21:59,526 --> 00:22:02,903
-Vent.
-Vi er ikke tankeløse ville.
+00:18:26,023 --> 00:18:27,900
+Hello?
 
 212
-00:22:03,071 --> 00:22:06,824
-Dette mennesket bør studeres.
-Og så eter vi ham.
+00:18:28,775 --> 00:18:32,696
+Hello?
 
 213
-00:22:07,534 --> 00:22:09,493
-Et! Et! Et!
+00:18:34,907 --> 00:18:38,452
+Scanning. Scanning. Scanning.
 
 214
-00:22:11,163 --> 00:22:12,830
-Orden!
+00:18:39,244 --> 00:18:41,246
+Stop! Hey, come on! Cut it out!
 
 215
-00:22:13,832 --> 00:22:16,083
-Vær stille.
+00:18:41,413 --> 00:18:44,917
+What are you doing out of bed,
+tiny Lucas?
 
 216
-00:22:16,418 --> 00:22:19,420
-I kveld har vi et valg.
+00:18:55,636 --> 00:18:58,472
+Who are you? What did you do to me?
+Let me go!
 
 217
-00:22:19,921 --> 00:22:25,092
-Vi kan tilintetgjøre dette mennesket
-og være trygge denne dagen.
+00:19:26,792 --> 00:19:29,294
+Gross. Hey, cut it out.
 
 218
-00:22:25,761 --> 00:22:30,431
-Eller vi kan forandre
-dette menneskets natur-
+00:19:46,019 --> 00:19:49,356
+Put me down! Hey. Stop. Put me down.
 
 219
-00:22:30,766 --> 00:22:35,770
--og kanskje skape
-en bedre framtid for alle maur.
+00:19:54,444 --> 00:19:55,654
+Put me down!
 
 220
-00:22:36,229 --> 00:22:41,275
-Jeg dømmer derfor mennesket
-til å leve og arbeide i kolonien-
+00:20:01,660 --> 00:20:03,328
+What is that? Oh, he smells.
 
 221
-00:22:41,526 --> 00:22:46,572
--for å lære vårt levesett.
-Han må bli en maur.
+00:20:03,495 --> 00:20:06,832
+-It's the human.
+-It's Peanut, the Destroyer.
 
 222
-00:22:47,407 --> 00:22:50,159
--Hva?
--Nei, min dronning.
+00:20:09,168 --> 00:20:11,044
+Oh, my.
 
 223
-00:22:50,619 --> 00:22:54,246
-Hva om han ikke blir en maur?
+00:20:11,211 --> 00:20:14,339
+-All right, Peanut, this way.
+-It's small.
 
 224
-00:22:55,665 --> 00:22:57,750
-Ærlig talt.
+00:20:14,506 --> 00:20:15,841
+-What is it?
+-Touch it.
 
 225
-00:22:58,627 --> 00:23:01,087
-Det ville være synd.
+00:20:16,049 --> 00:20:17,009
+-Don't touch it.
+-Hey.
 
 226
-00:23:01,463 --> 00:23:04,924
-Men hvem skal lære ham vårt levevis?
+00:20:17,217 --> 00:20:20,179
+-Poke it.
+-He's so soft.
 
 227
-00:23:05,467 --> 00:23:08,094
--Jeg skal.
--Hova?
+00:20:20,345 --> 00:20:24,725
+-His skeleton is on the inside.
+-He's inside out?
 
 228
-00:23:08,970 --> 00:23:13,265
-Det er bestemt.
-Da fortsetter vi med arbeidet.
+00:20:31,565 --> 00:20:34,318
+Where are you taking me? Help!
 
 229
-00:23:14,935 --> 00:23:18,604
-Hvor lenge skal jeg være sånn?
-Jeg vil hjem.
+00:20:36,195 --> 00:20:39,198
+Who are you? What did you do to me?
+Let me go!
 
 230
-00:23:18,980 --> 00:23:21,315
-Dette er umenneskelig!
+00:20:41,992 --> 00:20:43,243
+Human...
 
 231
-00:23:21,983 --> 00:23:24,276
-Ja, det er det.
+00:20:44,036 --> 00:20:46,997
+...you have been brought
+before the council...
 
 232
-00:23:27,406 --> 00:23:29,323
-Peanøtt?
+00:20:47,164 --> 00:20:50,959
+...to face judgment
+for crimes against the colony.
 
 233
-00:23:30,325 --> 00:23:32,493
-Ødelegger?
+00:20:51,126 --> 00:20:52,377
+Read the charges.
 
 234
-00:23:32,786 --> 00:23:35,204
-Hallo? Vi må gå.
+00:20:53,212 --> 00:20:55,506
+"This human-destructor beast...
 
 235
-00:23:35,414 --> 00:23:38,124
-Nå begynner opplæringen din.
+00:20:55,672 --> 00:20:59,009
+...hereafter referred to
+as Peanut the Destroyer...
 
 236
-00:23:39,126 --> 00:23:41,293
-Hvor er du?
+00:20:59,176 --> 00:21:01,887
+...did willfully
+and with malice aforethought...
 
 237
-00:23:45,424 --> 00:23:49,009
-Jeg løper forbi vaktene,
-flykter fra maurtua-
+00:21:02,054 --> 00:21:04,723
+...crush the food-storage chambers...
 
 238
-00:23:49,219 --> 00:23:53,013
-- og blir ikke spist av noe som helst.
--Hallo der.
+00:21:04,890 --> 00:21:07,267
+...flood all of the lower
+hatching chambers...
 
 239
-00:23:53,181 --> 00:23:55,683
-Jeg har en million spørsmål.
+00:21:07,434 --> 00:21:13,065
+...and douse the colony
+with the dreaded yellow rain."
 
 240
-00:23:55,851 --> 00:23:59,019
-Når ble du klekket?
-Er du hann eller hunn?
+00:21:13,232 --> 00:21:15,234
+Hey, come on, I had to go.
 
 241
-00:23:59,229 --> 00:24:02,815
-Hvordan ser en forskjellen?
-Å, er det sånn?
+00:21:16,610 --> 00:21:19,905
+Sentencing of the human
+will be handed down...
 
 242
-00:24:02,983 --> 00:24:06,735
-Ikke kikk, ellers tråkker jeg på deg!
+00:21:20,072 --> 00:21:22,741
+...by the queen herself.
 
 243
-00:24:07,112 --> 00:24:12,366
-Det ville jeg ikke gjøre, var jeg deg.
-Jeg er eneste vennen du har.
+00:21:31,750 --> 00:21:35,546
+Greetings, my children...
 
 244
-00:24:12,534 --> 00:24:14,243
-Du eter meg!
+00:21:35,712 --> 00:21:40,092
+...and to our unusual guest...
 
 245
-00:24:14,744 --> 00:24:19,748
-Du ser jo myk og saftig ut,
-men jeg lovet dronningen å la være.
+00:21:40,259 --> 00:21:45,514
+...a human that threatens
+the very existence of our colony.
 
 246
-00:24:20,834 --> 00:24:23,002
-Hånden på hjertet.
+00:21:45,681 --> 00:21:48,642
+Wait a second! Wait, wait, wait.
+Time out.
 
 247
-00:24:23,170 --> 00:24:24,378
-Ja vel.
+00:21:48,809 --> 00:21:53,063
+How was I supposed to know
+ants had feelings or families or trials?
 
 248
-00:24:24,546 --> 00:24:29,383
--Hånden på hjertet, jeg eter deg ikke.
--På hjertet, ikke på ræva.
+00:21:53,230 --> 00:21:56,984
+-You're just a bunch of stupid ants.
+-Destroy the Destroyer!
 
 249
-00:24:29,551 --> 00:24:34,763
-Jeg gjorde det.
-En gang til. Merkelig skikk...
+00:21:57,150 --> 00:21:59,736
+-Throw him in the pit.
+-Let's eat him!
 
 250
-00:24:34,973 --> 00:24:37,016
-Jeg blir ikke med for det.
+00:21:59,903 --> 00:22:03,615
+No, wait. We are not mindless savages.
 
 251
-00:24:37,184 --> 00:24:41,228
--Peanøtt, du må...
--Jeg heter Lucas, ikke Peanøtt.
+00:22:03,824 --> 00:22:05,951
+This human should be studied.
 
 252
-00:24:42,272 --> 00:24:48,027
-Lucas, du hørte hva dronningen sa.
-Du må bli maur om du vil hjem igjen.
+00:22:06,118 --> 00:22:07,703
+-And then we'll eat him.
+-Yeah.
 
 253
-00:24:48,236 --> 00:24:52,740
--Og hvordan skal jeg bli det?
--Du må finne din plass i kolonien.
+00:22:07,870 --> 00:22:10,914
+Eat! Eat! Eat!
 
 254
-00:25:02,918 --> 00:25:05,753
-Lucas, er det noe du er flink til?
+00:22:11,331 --> 00:22:13,917
+Order. Order.
 
 255
-00:25:05,921 --> 00:25:09,590
-Jeg kan få melk til å renne ut
-av nesen til søstera mi.
+00:22:14,334 --> 00:22:16,461
+Be still, be still.
 
 256
-00:25:09,799 --> 00:25:13,177
-Du får prøve deg som sanker.
+00:22:16,670 --> 00:22:20,299
+Tonight we have a choice.
 
 257
-00:25:13,345 --> 00:25:17,723
-Instruktøren er en venn av meg.
-Hun vil nok gjerne hjelpe til.
+00:22:20,465 --> 00:22:25,846
+We could destroy this human
+and make safe this day.
 
 258
-00:25:17,891 --> 00:25:20,267
-Peanøtt? Ødeleggeren?
+00:22:26,013 --> 00:22:30,809
+Or we could change
+the nature of this human...
 
 259
-00:25:20,435 --> 00:25:24,563
-Jeg måtte flytte ut på grunn av deg.
-Jeg mistet alt jeg eide.
+00:22:30,976 --> 00:22:36,648
+...and perhaps create
+a brighter future for all ants.
 
 260
-00:25:24,731 --> 00:25:30,819
-Gjenoppbyggingen tok halve dagen.
-Hova, ikke si at du lærer opp denne...
+00:22:36,815 --> 00:22:41,904
+I therefore sentence the human
+to live and work in the colony...
 
 261
-00:25:32,113 --> 00:25:33,614
-Lucas.
+00:22:42,070 --> 00:22:47,159
+...to learn our ways.
+He must become an ant.
 
 262
-00:25:35,867 --> 00:25:39,787
-Hvorfor går han i filler? Er han gal?
-Jeg lærer ikke opp gærningmaur.
+00:22:47,910 --> 00:22:51,330
+-What?
+-No. No, my queen.
 
 263
-00:25:39,955 --> 00:25:42,915
-Nei, han kaller de fillene klær.
+00:22:51,747 --> 00:22:55,876
+What if he does not become an ant?
 
 264
-00:25:43,083 --> 00:25:48,128
-De liker å skjule kjønnsorganene sine.
-Han er hann.
+00:22:56,043 --> 00:22:58,337
+Okay, I mean, come on.
 
 265
-00:25:49,214 --> 00:25:52,049
-Lucas, du er på blått lag.
+00:22:58,754 --> 00:23:01,381
+That would be regrettable.
 
 266
-00:25:52,634 --> 00:25:54,635
-Urettferdig!
+00:23:02,299 --> 00:23:05,344
+But-- But who will teach him our ways?
 
 267
-00:25:54,803 --> 00:25:56,220
-Stille!
+00:23:06,512 --> 00:23:08,972
+-I will.
+-Hova?
 
 268
-00:25:56,388 --> 00:25:58,472
-Dra inn forkroppen!
+00:23:09,181 --> 00:23:10,641
+It is done.
 
 269
-00:25:59,140 --> 00:26:03,769
-Som alt annet i kolonien,
-skjer matsanking ved laginnsats.
+00:23:10,807 --> 00:23:13,852
+Let us continue our work.
 
 270
-00:26:03,979 --> 00:26:09,149
-Hvert lag må her opptre selvstendig
-for å unngå hindere,-
+00:23:15,145 --> 00:23:17,648
+That's it?
+How long am I gonna be like this?
 
 271
-00:26:09,359 --> 00:26:13,404
--finne søtsteinen
-og vende tilbake til tua.
+00:23:17,814 --> 00:23:19,066
+I wanna go home.
 
 272
-00:26:13,572 --> 00:26:16,490
-Ikke en maur må etterlates.
+00:23:19,233 --> 00:23:21,026
+Wait. This is inhuman.
 
 273
-00:26:16,783 --> 00:26:20,578
-Første lag tilbake vinner.
-Noen spørsmål?
+00:23:22,069 --> 00:23:24,655
+Yes, it is.
 
 274
-00:26:24,249 --> 00:26:26,834
--Hallo, vesla.
--Fugax.
+00:23:27,574 --> 00:23:29,701
+Hello, Peanut?
 
 275
-00:26:27,502 --> 00:26:31,130
-Er det ikke slik
-at speidermaur som meg-
+00:23:30,536 --> 00:23:32,538
+Destroyer?
 
 276
-00:26:31,298 --> 00:26:35,134
--lever et liv
-fullt av eventyr og spenning?
+00:23:32,955 --> 00:23:35,332
+Hello? We have to go.
 
 277
-00:26:36,761 --> 00:26:39,847
--Fugax!
--Mens sankere som deg-
+00:23:35,958 --> 00:23:38,418
+It's time to start your training.
 
 278
-00:26:40,015 --> 00:26:43,517
--bare vandrer rundt
-og plukker opp pinner.
+00:23:39,336 --> 00:23:41,255
+Where are you?
 
 279
-00:26:45,895 --> 00:26:49,023
-Spørsmål?
-Fyren med skjeve kjever.
+00:23:45,759 --> 00:23:46,885
+Okay, okay. It's simple.
 
 280
-00:26:49,316 --> 00:26:53,444
--Hva slags eventyr?
--Jeg er glad for at du spurte.
+00:23:47,052 --> 00:23:50,097
+All I have to do is run past the guards,
+then escape the anthill...
 
 281
-00:26:53,612 --> 00:26:56,864
--Fugax.
--Samling her, unge speidere.
+00:23:50,264 --> 00:23:53,267
+-...and not get eaten by anything.
+-Well, hello there.
 
 282
-00:26:57,490 --> 00:27:02,703
-På mine reiser har jeg vært langt
-bortenfor den store, flate steinen.
+00:23:53,433 --> 00:23:55,769
+You know, there's a million things
+I wanna ask you.
 
 283
-00:27:04,039 --> 00:27:08,876
--Mener du gata?
--Nei, den store, flate steinen-
+00:23:55,936 --> 00:23:58,939
+When were you hatched?
+Are you--? Are you male or female?
 
 284
-00:27:09,044 --> 00:27:13,714
--der menneskene rir
-i sine enorme metallkokonger.
+00:23:59,481 --> 00:24:01,066
+And how do you tell the difference?
 
 285
-00:27:14,966 --> 00:27:16,300
-Biler.
+00:24:01,275 --> 00:24:04,069
+Is it--? Oh, is that how?
 
 286
-00:27:17,010 --> 00:27:20,721
-Spurte jeg deg?
-Hvem inviterte kaptein Festbrems?
+00:24:04,278 --> 00:24:08,574
+Hey, stop peeking.
+Or-- Or I'll stomp on you.
 
 287
-00:27:20,889 --> 00:27:24,183
--Fugax, hils på Ødeleggeren.
--Ødeleggeren?
+00:24:08,740 --> 00:24:12,494
+Well, I wouldn't if I were you.
+You see, I'm the only friend you've got.
 
 288
-00:27:31,691 --> 00:27:33,817
-Er det andre..?
+00:24:12,661 --> 00:24:13,787
+You're gonna eat me.
 
 289
-00:27:36,821 --> 00:27:40,366
-Er det andre spørsmål
-angående oppdraget?
+00:24:14,204 --> 00:24:17,416
+You know, now that you mention it,
+you do look soft and chewy...
 
 290
-00:27:40,533 --> 00:27:43,035
-Ja. Hva er en søtstein?
+00:24:17,624 --> 00:24:20,085
+...but I promised the queen I wouldn't.
 
 291
-00:27:43,536 --> 00:27:45,162
-Gå!
+00:24:21,503 --> 00:24:22,754
+Cross your heart.
 
 292
-00:27:51,586 --> 00:27:53,879
--Bru!
--Still opp!
+00:24:22,921 --> 00:24:24,548
+What? Oh, all right.
 
 293
-00:27:54,422 --> 00:27:58,175
--Kom igjen, Peanøtt.
--Jeg klarer det selv.
+00:24:24,715 --> 00:24:26,717
+Cross my heart, I will not eat you.
 
 294
-00:28:03,264 --> 00:28:05,516
-Jeg tror han er død.
+00:24:27,467 --> 00:24:29,636
+I said, cross your heart, not your butt.
 
 295
-00:28:05,684 --> 00:28:07,768
-Jeg er ikke død.
+00:24:29,803 --> 00:24:31,597
+I just did.
 
 296
-00:28:08,895 --> 00:28:11,021
--Stige.
--Stige skal bli.
+00:24:31,805 --> 00:24:34,016
+See, there, did it again.
 
 297
-00:28:11,481 --> 00:28:15,275
--Ta tak.
--Jeg trenger ikke din hjelp.
+00:24:34,183 --> 00:24:35,434
+Strange custom.
 
 298
-00:28:15,485 --> 00:28:17,986
-Jeg trenger din hjelp!
+00:24:35,809 --> 00:24:37,311
+I'm still not going.
 
 299
-00:28:18,405 --> 00:28:20,531
-Adjøss, tapere.
+00:24:37,477 --> 00:24:40,397
+-Peanut, you need to--
+-My name's Lucas, not Peanut.
 
 300
-00:28:21,116 --> 00:28:22,741
-Kom an!
+00:24:40,564 --> 00:24:42,274
+Lucas.
 
 301
-00:28:25,370 --> 00:28:28,205
--Bra!
--Skynd deg, menneske!
+00:24:42,482 --> 00:24:45,485
+Well, Lucas. You heard the queen.
 
 302
-00:28:28,373 --> 00:28:31,959
--Vi taper på grunn av deg.
--Jeg har bare to bein.
+00:24:45,652 --> 00:24:48,363
+You must become an ant
+if you ever want to return home.
 
 303
-00:28:32,711 --> 00:28:36,463
--Få opp farten, Tobein!
--Fort, Lucas!
+00:24:48,530 --> 00:24:50,490
+And how am I supposed to do that?
 
 304
-00:28:37,006 --> 00:28:39,633
--Hopp!
--Skal bli.
+00:24:50,657 --> 00:24:53,160
+Well, you just have
+to find your place in the colony.
 
 305
-00:28:43,012 --> 00:28:46,223
-Pause.
-Jeg tror ikke jeg klarer...
+00:25:03,587 --> 00:25:07,174
+So, Lucas,
+do you have any special skills?
 
 306
-00:28:47,016 --> 00:28:48,225
-Bra!
+00:25:07,341 --> 00:25:09,843
+I can make milk come out
+of my sister's nose.
 
 307
-00:28:50,395 --> 00:28:53,313
--Slipp meg ned!
--Ikke slipp taket!
+00:25:10,010 --> 00:25:13,805
+Okay, well, let's try foraging.
 
 308
-00:28:53,982 --> 00:28:57,151
--Jeg blir kvalm.
--Ikke slipp taket.
+00:25:13,972 --> 00:25:15,933
+The instructor
+is a personal friend of mine.
 
 309
-00:28:57,444 --> 00:28:59,653
--Jeg slipper taket.
--Nei!
+00:25:16,141 --> 00:25:18,268
+I'm sure she'd love to help.
 
 310
-00:29:02,657 --> 00:29:04,450
-Han slapp taket.
+00:25:18,435 --> 00:25:20,646
+Peanut? The Destroyer?
 
 311
-00:29:10,290 --> 00:29:11,999
-Et sukkertøy?
+00:25:20,812 --> 00:25:22,940
+I had to move out
+of my nest because of you.
 
 312
-00:29:12,167 --> 00:29:14,168
-Smart tenkt!
+00:25:23,106 --> 00:25:24,691
+I lost everything.
 
 313
-00:29:15,795 --> 00:29:17,546
-Slynge!
+00:25:24,858 --> 00:25:27,152
+Took me all morning to rebuild.
 
 314
-00:29:25,597 --> 00:29:28,974
--Godt jobba, Lucas.
--Peanøtt, du ruler!
+00:25:27,319 --> 00:25:31,990
+Hova, don't tell me
+that you are mentoring this-- This-- This....
 
 315
-00:29:31,436 --> 00:29:33,479
--Har vi vunnet?
--Nesten.
+00:25:32,533 --> 00:25:34,284
+It's Lucas.
 
 316
-00:29:33,646 --> 00:29:37,608
-Vi må bare få søtsteinen
-over målstreken.
+00:25:36,203 --> 00:25:39,623
+Why is he covered in trash? Is he crazy?
+Because I don't teach crazy ants.
 
 317
-00:29:41,988 --> 00:29:43,822
-Akkurat.
+00:25:39,790 --> 00:25:43,335
+No, no, no. He calls the trash "clothes."
 
 318
-00:29:45,074 --> 00:29:49,453
--Fort, Lucas, over muren.
--Kjapt, Peanøtt!
+00:25:43,502 --> 00:25:45,504
+They like keeping
+their gender traits hidden.
 
 319
-00:29:49,662 --> 00:29:51,872
-Adjøss, taper!
+00:25:46,380 --> 00:25:48,382
+He's male.
 
 320
-00:29:52,540 --> 00:29:54,500
-Over muren.
+00:25:49,383 --> 00:25:52,302
+Okay, Lucas, you're on the blue team.
 
 321
-00:29:54,959 --> 00:29:58,504
-Kom igjen, over muren!
+00:25:52,469 --> 00:25:54,137
+-Oh, man. That's not fair.
+-Come on.
 
 322
-00:29:59,005 --> 00:30:01,173
-Glem det. Avtalt spill!
+00:25:54,304 --> 00:25:56,348
+Hey, hey, hey, quiet.
 
 323
-00:30:01,883 --> 00:30:03,884
--Stige.
--Skal bli.
+00:25:56,515 --> 00:25:59,142
+And suck in that thorax.
 
 324
-00:30:05,053 --> 00:30:06,845
-Kom igjen!
+00:25:59,309 --> 00:26:03,647
+Like everything in the colony,
+foraging is a team effort.
 
 325
-00:30:07,305 --> 00:30:11,141
--Vi klarte det!
--Rødt ruler!
+00:26:03,814 --> 00:26:09,862
+In this test, each team must act
+as a single unit to avoid obstacles...
 
 326
-00:30:13,311 --> 00:30:15,187
-Rødt lag vinner.
+00:26:10,028 --> 00:26:13,740
+...retrieve the sweet rock
+and return to the nest.
 
 327
-00:30:16,147 --> 00:30:18,106
-Vi klarte det!
+00:26:13,907 --> 00:26:16,994
+No ant gets left behind.
 
 328
-00:30:20,735 --> 00:30:23,111
-Takk for innsatsen.
+00:26:17,160 --> 00:26:18,745
+First team back wins.
 
 329
-00:30:34,707 --> 00:30:38,919
-Lucas, du klarte deg bra.
-Du må bare finne mauren i deg.
+00:26:18,912 --> 00:26:20,914
+Any questions?
 
 330
-00:30:39,128 --> 00:30:42,256
-Tenk deg at du har seks bein.
-Og så...
+00:26:24,960 --> 00:26:27,546
+-Hello, baby.
+-Fugax.
 
 331
-00:30:42,423 --> 00:30:46,593
-Får det meg hjem?
-Se på meg. Jeg er ingen teit maur.
+00:26:27,754 --> 00:26:31,717
+Well, isn't it true that scout ants,
+such as myself...
 
 332
-00:30:46,761 --> 00:30:50,430
-Å være maur
-innebærer mer enn å ha seks bein-
+00:26:31,925 --> 00:26:36,346
+...lead an exciting life of adventure
+and intrigue.
 
 333
-00:30:50,640 --> 00:30:54,768
--eller å løfte ti ganger din egen vekt
-eller å gå loddrett opp en vegg.
+00:26:36,847 --> 00:26:40,350
+-Fugax!
+-While foragers, such as you...
 
 334
-00:30:54,936 --> 00:30:59,439
-Det er å være en del av en koloni,
-å sette fellesskapet foran seg selv.
+00:26:40,517 --> 00:26:43,729
+...just walk around and pick up sticks.
 
 335
-00:30:59,607 --> 00:31:02,609
--Ikke rør meg.
--Jeg prøver å hjelpe deg.
+00:26:46,106 --> 00:26:47,357
+Questions, anyone?
 
 336
-00:31:02,777 --> 00:31:06,613
-Tror du det er lett for meg
-å være Ødeleggerens lille hjelper?
+00:26:47,524 --> 00:26:49,693
+-Oh, sir?
+-The guy with the crooked mandibles.
 
 337
-00:31:06,781 --> 00:31:10,576
-Så du får tenke på deg,
-så skal jeg tenke på meg.
+00:26:49,860 --> 00:26:51,361
+What kind of adventures?
 
 338
-00:31:10,743 --> 00:31:13,912
-Lucas.
-Det er ikke sånn maur er.
+00:26:51,570 --> 00:26:53,906
+Well, I'm glad you asked.
 
 339
-00:31:14,747 --> 00:31:17,666
-Hova, det er sånn jeg er.
+00:26:54,114 --> 00:26:57,492
+-Fugax.
+-Gather round, young scouts.
 
 340
-00:31:18,209 --> 00:31:20,794
-Hvis jeg bare kunne...
+00:26:57,659 --> 00:27:03,207
+In my travels, I have journeyed
+far beyond the great flat rock.
 
 341
-00:31:22,881 --> 00:31:24,464
-Kunne hva da?
+00:27:04,708 --> 00:27:06,251
+You mean, the street?
 
 342
-00:31:24,632 --> 00:31:27,467
-Hallo? Base til maurdame.
+00:27:06,793 --> 00:27:09,588
+No. The great flat rock...
 
 343
-00:31:27,677 --> 00:31:30,304
-Nå hørtes du ut som mora mi.
+00:27:09,755 --> 00:27:14,760
+...where the humans
+ride in their giant metal cocoons.
 
 344
-00:31:30,680 --> 00:31:32,973
-De kommer. Løp!
+00:27:15,177 --> 00:27:16,428
+Cars.
 
 345
-00:31:34,309 --> 00:31:36,101
-Hva er det?
+00:27:17,304 --> 00:27:18,597
+Did I call on you?
 
 346
-00:31:41,816 --> 00:31:44,776
--De er ute etter flokken.
--Hvilken flokk?
+00:27:18,764 --> 00:27:21,016
+Who invited Captain Party Pooper?
 
 347
-00:31:47,196 --> 00:31:49,323
-Rolig, jente.
+00:27:21,183 --> 00:27:23,060
+Fugax, meet the Destroyer.
 
 348
-00:31:52,285 --> 00:31:54,328
-Søk dekning!
+00:27:23,227 --> 00:27:24,603
+Destroyer?
 
 349
-00:31:57,123 --> 00:32:00,000
-Si til dronningen at jeg elsker henne!
+00:27:31,902 --> 00:27:34,905
+Now, are there any other--?
 
 350
-00:32:00,418 --> 00:32:02,294
-Vi er avskåret.
+00:27:37,115 --> 00:27:40,452
+Are there any other questions
+about your assignment?
 
 351
-00:32:06,257 --> 00:32:09,676
-Kom an, brødre.
-For dronning og koloni!
+00:27:40,619 --> 00:27:43,455
+Yeah, what's a sweet rock?
 
 352
-00:32:16,809 --> 00:32:19,019
-Bort til gresset.
+00:27:43,664 --> 00:27:45,165
+Go.
 
 353
-00:32:20,188 --> 00:32:22,189
-Angrepsformasjon.
+00:27:51,922 --> 00:27:53,382
+-Bridge.
+-Stack up.
 
 354
-00:32:22,357 --> 00:32:23,857
-Lad!
+00:27:53,549 --> 00:27:55,008
+Bridge, hooyah.
 
 355
-00:32:26,361 --> 00:32:29,237
--Fiendtlig beskytning.
--Pass på vingen!
+00:27:55,175 --> 00:27:56,385
+Come on, Peanut.
 
 356
-00:32:30,031 --> 00:32:32,324
--Den satt!
--Bra forsøk!
+00:27:56,552 --> 00:27:59,680
+Hello, I can do it myself.
 
 357
-00:32:33,868 --> 00:32:35,494
-Min tur.
+00:28:03,475 --> 00:28:05,936
+Hey, guys. I think he's dead.
 
 358
-00:32:36,871 --> 00:32:39,539
--Hvor er Hova?
--Jeg vet ikke.
+00:28:06,520 --> 00:28:08,480
+I'm not dead.
 
 359
-00:32:41,209 --> 00:32:43,752
-Innta stillingene. Klar.
+00:28:08,856 --> 00:28:11,275
+-Ladder.
+-Ladder, hooyah.
 
 360
-00:32:46,130 --> 00:32:47,631
-Sprut!
+00:28:11,692 --> 00:28:13,986
+-Come on.
+-Grab hold.
 
 361
-00:32:56,516 --> 00:32:59,017
-Nei! Jeg adlød bare ordre.
+00:28:14,194 --> 00:28:16,154
+I don't need your help.
 
 362
-00:33:00,395 --> 00:33:02,854
-Hvem vil ha trolldom?
+00:28:16,321 --> 00:28:18,365
+I need your help! I need your help!
 
 363
-00:33:08,778 --> 00:33:11,738
--Du ser smakfull ut.
--La ham være.
+00:28:18,532 --> 00:28:20,742
+Bye, losers.
 
 364
-00:33:14,826 --> 00:33:17,077
-Hova!
-Vekk med deg!
+00:28:21,326 --> 00:28:23,078
+Come on.
 
 365
-00:33:19,914 --> 00:33:22,416
-Fort! Alle inn i gresset.
+00:28:26,123 --> 00:28:28,417
+-All right.
+-Hurry, human.
 
 366
-00:33:23,167 --> 00:33:25,919
-Ikke bare stå der. Hjelp henne.
+00:28:28,584 --> 00:28:29,793
+You're gonna make us lose.
 
 367
-00:33:26,087 --> 00:33:28,922
--Lucas, løp!
--Hva gjør du?
+00:28:29,960 --> 00:28:32,212
+Hey. I've only got two legs.
 
 368
-00:33:33,511 --> 00:33:35,929
-Alle inn i gresset!
+00:28:33,380 --> 00:28:35,507
+Go, Two Legs, go.
 
 369
-00:33:59,829 --> 00:34:01,747
-Hvor er du,-
+00:28:35,716 --> 00:28:37,009
+Go, Lucas.
 
 370
-00:34:01,914 --> 00:34:03,874
--lille kryp?
+00:28:37,176 --> 00:28:39,469
+-Spring.
+-Spring, hooyah.
 
 371
-00:34:24,562 --> 00:34:26,772
-Fort. Tenn!
+00:28:39,636 --> 00:28:41,555
+Hooyah.
 
 372
-00:34:29,484 --> 00:34:30,984
-Tenn!
+00:28:43,056 --> 00:28:45,017
+Oh, time out.
 
 373
-00:34:42,330 --> 00:34:44,247
-Hova, dukk!
+00:28:45,225 --> 00:28:47,144
+I don't think I can do this--
 
 374
-00:34:44,499 --> 00:34:45,957
-Zoc.
+00:28:47,311 --> 00:28:48,478
+All right.
 
 375
-00:34:50,922 --> 00:34:52,297
-Nei!
+00:28:50,731 --> 00:28:53,817
+-Let me off!
+-Don't let go!
 
 376
-00:34:54,801 --> 00:34:56,927
-Stopp! Nei.
+00:28:54,234 --> 00:28:55,861
+I'm gonna be sick.
 
 377
-00:35:06,479 --> 00:35:08,688
-Varsko her!
+00:28:56,069 --> 00:28:57,696
+Don't let go.
 
 378
-00:35:16,697 --> 00:35:20,033
--Hva var det?
--Dusjetid. Retrett!
+00:28:57,863 --> 00:29:00,032
+-I'm letting go.
+-Don't let go.
 
 379
-00:35:32,046 --> 00:35:34,381
-De drar.
-Vi vant.
+00:29:03,243 --> 00:29:04,244
+He let go.
 
 380
-00:35:38,719 --> 00:35:40,971
-Ære være Ødeleggeren!
+00:29:10,584 --> 00:29:13,295
+-A jellybean?
+-All right, Lucas.
 
 381
-00:35:41,139 --> 00:35:42,389
-Peanøtt!
+00:29:13,462 --> 00:29:15,214
+Good thinking.
 
 382
-00:35:42,557 --> 00:35:47,727
-Genialt! Lucas lagde et smell,
-og da flyktet de alle.
+00:29:15,964 --> 00:29:17,758
+Slingshot, hooyah.
 
 383
-00:35:47,937 --> 00:35:54,151
-Jeg vet hvorfor de kaller deg Peanøtt.
-Han har en hjerne stor som en peanøtt.
+00:29:26,016 --> 00:29:28,685
+-All right, Lucas. Good job.
+-Yeah, Peanut, you rule.
 
 384
-00:35:54,318 --> 00:35:58,822
-Lucas Ødeleggeren.
-Jeg tar tilbake alt jeg har tenkt om deg.
+00:29:28,852 --> 00:29:31,939
+-Come on, we're losing. Let's go.
+-Good job, Lucas.
 
 385
-00:35:58,990 --> 00:36:00,991
-Du reddet oss.
+00:29:32,105 --> 00:29:33,732
+-Did we win yet?
+-Almost.
 
 386
-00:36:01,159 --> 00:36:03,076
-Takk, Lucas.
+00:29:33,899 --> 00:29:36,818
+We just have to get the sweet rock
+over the finish line.
 
 387
-00:36:03,244 --> 00:36:05,328
-Greit, det.
+00:29:36,985 --> 00:29:38,195
+Come on, let's go.
 
 388
-00:36:05,496 --> 00:36:08,498
-Å ja, han reddet oss!
+00:29:39,571 --> 00:29:41,907
+Hurry up, Peanut.
 
 389
-00:36:09,000 --> 00:36:12,752
-Så klart.
-Jeg var så dum.
+00:29:42,282 --> 00:29:45,035
+Yeah, right.
 
 390
-00:36:13,212 --> 00:36:15,589
-Ære være Ødeleggeren!
+00:29:45,202 --> 00:29:47,079
+Hurry, Lucas, climb the wall.
 
 391
-00:36:15,756 --> 00:36:18,258
-Våkn opp!
-Han reddet seg selv.
+00:29:47,287 --> 00:29:48,539
+Climb fast, Peanut.
 
 392
-00:36:19,594 --> 00:36:21,344
-Vi andre bare...
+00:29:48,705 --> 00:29:49,915
+They're catching up.
 
 393
-00:36:21,512 --> 00:36:23,763
-Vi kom bare i veien.
+00:29:50,332 --> 00:29:51,959
+Bye-bye, loser.
 
 394
-00:36:23,973 --> 00:36:27,601
--Zoc, er alt bra med deg?
--Nei, jeg...
+00:29:52,125 --> 00:29:53,710
+Climb the wall.
 
 395
-00:36:27,768 --> 00:36:29,603
-Det går bra.
+00:29:54,920 --> 00:29:56,713
+Come on. Climb the wall.
 
 396
-00:36:29,770 --> 00:36:32,272
--Du er skadet.
--Nei da, det er bare...
+00:29:56,880 --> 00:29:58,507
+Come on.
 
 397
-00:36:32,481 --> 00:36:37,360
-Zoc, har du palmesevje?
-Lucas har fått et brannsår, stakkar.
+00:29:59,216 --> 00:30:01,426
+Forget it. This game is rigged.
 
 398
-00:36:38,571 --> 00:36:41,281
-Dette er fienden vår.
+00:30:02,052 --> 00:30:03,595
+-Ladder.
+-Hooyah.
 
 399
-00:36:41,616 --> 00:36:45,076
-De redder ikke maur, de dreper dem.
+00:30:03,804 --> 00:30:07,724
+Come on. Let's go. Go, go, go.
 
 400
-00:36:45,286 --> 00:36:47,871
-Han drepte nesten meg.
+00:30:07,933 --> 00:30:09,893
+We got it. We go it. Yeah, man. All right.
 
 401
-00:36:48,456 --> 00:36:50,999
-Betyr ikke det noe for deg?
+00:30:10,060 --> 00:30:11,478
+Red rules.
 
 402
-00:37:00,468 --> 00:37:04,095
-Både du og jeg er nødt,
-alle må vi ha honningsøtt
+00:30:13,814 --> 00:30:15,315
+Red team wins.
 
 403
-00:37:04,263 --> 00:37:07,474
--Middagen er servert.
--Og jeg er desserten.
+00:30:15,691 --> 00:30:18,527
+All right. We did it.
 
 404
-00:37:07,642 --> 00:37:10,477
-Jeg går på hueslankingskur.
+00:30:20,988 --> 00:30:23,240
+Thanks for trying.
 
 405
-00:37:10,645 --> 00:37:12,646
-Og det syns.
+00:30:35,002 --> 00:30:37,004
+Lucas, you did fine, really.
 
 406
-00:37:12,813 --> 00:37:15,774
--Lucas, hva jobber du med?
--Briller.
+00:30:37,171 --> 00:30:39,631
+You just need to discover the ant within.
 
 407
-00:37:17,318 --> 00:37:20,946
-Dette er deilig honningdugg.
+00:30:39,798 --> 00:30:42,134
+Start by visualizing yourself with six legs.
 
 408
-00:37:23,115 --> 00:37:26,451
-Lucas, du må smake.
-Den er kjempegod.
+00:30:42,342 --> 00:30:44,428
+-Then, if you--
+-How's that gonna get me home?
 
 409
-00:37:27,745 --> 00:37:29,496
-Kom igjen.
+00:30:44,595 --> 00:30:47,097
+Look at me. I'm not a stupid ant.
 
 410
-00:37:34,961 --> 00:37:38,838
-Knallgod!
-Den smaker som grønnepletyggis.
+00:30:47,264 --> 00:30:51,101
+Lucas, being an ant means more
+than just having six legs or--
 
 411
-00:37:45,554 --> 00:37:50,016
--Den gikk ned på høykant. Litt til?
--Ja, kom med det.
+00:30:51,268 --> 00:30:54,646
+Or lifting 10 times your own weight
+or walking vertically up a wall...
 
 412
-00:38:05,199 --> 00:38:07,659
-Spis mens det er varmt.
+00:30:54,813 --> 00:30:58,317
+...it's being part of a colony.
+Not always thinking of yourself first.
 
 413
-00:38:09,829 --> 00:38:13,957
-Jeg visste ikke at mennesker
-kunne skifte farge. Stilig!
+00:30:58,525 --> 00:31:00,819
+-Oh, careful.
+-Hey, don't touch me.
 
 414
-00:38:14,125 --> 00:38:17,711
-Kanskje vår unge puppe
-spiste for mye honningdugg.
+00:31:00,986 --> 00:31:03,030
+I'm trying to help you.
 
 415
-00:38:22,675 --> 00:38:25,468
-Spis denne, så blir du bedre.
+00:31:03,197 --> 00:31:04,573
+You think this is easy for me?
 
 416
-00:38:26,721 --> 00:38:30,640
--Hva kommer den fra?
--Det er en alkarot.
+00:31:04,740 --> 00:31:06,992
+Being the Destroyer's little helper?
 
 417
-00:38:30,808 --> 00:38:35,353
-Zoc oppdaget at den driver ut ondskap
-og skaper velbehag.
+00:31:07,159 --> 00:31:10,996
+So you worry about you,
+and I'll worry about me.
 
 418
-00:38:35,521 --> 00:38:38,189
-Han er en stor trollmaur.
+00:31:11,413 --> 00:31:13,081
+Oh, Lucas.
 
 419
-00:38:38,691 --> 00:38:40,567
-Han hater meg.
+00:31:13,248 --> 00:31:14,875
+That's not the way ants are.
 
 420
-00:38:40,735 --> 00:38:44,154
-Ja, han gjør det.
-Han hater deg inderlig.
+00:31:15,042 --> 00:31:18,295
+Oh, Hova, that's the way I am.
 
 421
-00:38:44,322 --> 00:38:47,365
-Utrolig
-hvor inderlig han hater deg.
+00:31:18,462 --> 00:31:21,215
+Well, if I could just--
 
 422
-00:38:47,533 --> 00:38:48,700
-Beklager.
+00:31:23,008 --> 00:31:24,176
+Just what?
 
 423
-00:38:48,868 --> 00:38:52,746
-Zoc har et sinne å stri med,
-særlig overfor mennesker.
+00:31:24,676 --> 00:31:27,804
+Hello? Earth to ant lady.
 
 424
-00:38:52,913 --> 00:38:57,584
-Men han er en ekte maur:
-Hard utenpå, myk inni.
+00:31:27,971 --> 00:31:30,307
+You were in the middle
+of sounding like my mom.
 
 425
-00:38:57,752 --> 00:39:00,420
-Bare gi ham tid, Lucas.
+00:31:30,766 --> 00:31:33,185
+They're coming. Run!
 
 426
-00:39:18,606 --> 00:39:20,357
-Lovet være Mor.
+00:31:34,228 --> 00:31:36,230
+Hey. Hey! What's wrong?
 
 427
-00:39:21,275 --> 00:39:23,443
-Lovet være Mor!
+00:31:42,319 --> 00:31:44,988
+-They're after the herd.
+-What herd?
 
 428
-00:39:24,445 --> 00:39:26,029
-Takk.
+00:31:47,366 --> 00:31:48,825
+Whoa, easy, girl.
 
 429
-00:39:26,405 --> 00:39:30,450
-Hvem er denne mor dere snakker om?
-Er det dronningen?
+00:31:49,034 --> 00:31:50,744
+Easy.
 
 430
-00:39:30,659 --> 00:39:32,952
-Nei, Lucas. Maurmoren.
+00:31:53,205 --> 00:31:54,873
+Take cover.
 
 431
-00:39:33,162 --> 00:39:35,205
-Dronningenes dronning.
+00:31:57,501 --> 00:31:59,503
+Tell the queen I love her.
 
 432
-00:39:35,373 --> 00:39:38,416
-Hun ga fødsel
-til den første kolonien.
+00:32:01,171 --> 00:32:02,673
+Oh, we're cut off.
 
 433
-00:39:38,584 --> 00:39:40,752
-Til alle maur.
+00:32:06,426 --> 00:32:10,806
+Come, brothers, for queen and colony.
 
 434
-00:39:40,920 --> 00:39:43,797
-Kom, nå skal du få se.
+00:32:18,689 --> 00:32:20,566
+Get to the grass.
 
 435
-00:39:59,772 --> 00:40:02,649
-Dette er historiekammeret.
+00:32:21,108 --> 00:32:22,401
+Attack formation.
 
 436
-00:40:06,070 --> 00:40:08,321
-Hva er disse?
+00:32:22,818 --> 00:32:24,570
+Load them up.
 
 437
-00:40:08,489 --> 00:40:12,158
-De forteller om kolonien vår,
-historien vår.
+00:32:27,114 --> 00:32:30,117
+-Enemy fire.
+-Watch your wing. Watch your wing.
 
 438
-00:40:12,326 --> 00:40:14,494
-Disse er kule.
+00:32:30,284 --> 00:32:32,411
+-Now, that's gotta sting.
+-Nice shot.
 
 439
-00:40:26,465 --> 00:40:29,509
-Dette er bildet av Maurmoren.
+00:32:34,079 --> 00:32:35,455
+My turn.
 
 440
-00:40:32,346 --> 00:40:35,682
-Det sies
-at hun en dag vil vende tilbake,-
+00:32:35,914 --> 00:32:37,749
+-Thanks.
+-Where's Hova?
 
 441
-00:40:35,850 --> 00:40:39,811
--og da vil honningdugg
-strømme fra himmelen som regn.
+00:32:37,916 --> 00:32:39,626
+I don't know.
 
 442
-00:40:39,979 --> 00:40:42,439
-Da vil vi aldri mer sulte.
+00:32:39,835 --> 00:32:41,378
+Come on.
 
 443
-00:40:42,606 --> 00:40:46,484
-Så dere vil faktisk at det
-skal falle varm bæsj fra himmelen?
+00:32:41,795 --> 00:32:44,423
+To your positions. Ready.
 
 444
-00:40:46,652 --> 00:40:50,113
-Ja, det ville være en velsignet dag.
+00:32:46,300 --> 00:32:47,926
+Squirt.
 
 445
-00:40:50,281 --> 00:40:53,491
-Beklager, det er bare så vakkert.
+00:32:56,727 --> 00:32:59,438
+Don't.
+Please, I was just following orders.
 
 446
-00:40:53,951 --> 00:40:55,994
-Hva er det?
+00:33:00,898 --> 00:33:02,107
+Who wants magic?
 
 447
-00:40:57,204 --> 00:41:00,832
-Det er den onde. Skyblåseren.
+00:33:02,274 --> 00:33:03,942
+Clacktiel.
 
 448
-00:41:01,375 --> 00:41:04,544
-Det er gammelt, tegnet før vår tid.
+00:33:09,072 --> 00:33:10,490
+You look tasty.
 
 449
-00:41:04,753 --> 00:41:09,507
-Ingen vet sikkert hva det er,
-bare at det vil bli fulgt av død.
+00:33:10,657 --> 00:33:12,075
+Leave him alone.
 
 450
-00:41:10,301 --> 00:41:14,888
-Jeg tror det bare er for å skremme
-slemme pupper til å være lydige.
+00:33:14,995 --> 00:33:17,247
+Hova? Oh, quick, get out of my way.
 
 451
-00:41:15,055 --> 00:41:17,515
-Nei, eksterminatoren!
+00:33:17,414 --> 00:33:18,582
+Move.
 
 452
-00:41:17,683 --> 00:41:22,312
--Jeg må avbestille ham. Jeg må hjem!
--Men du er ikke maur ennå.
+00:33:18,749 --> 00:33:21,126
+-Hova.
+-Hurry.
 
 453
-00:41:22,480 --> 00:41:26,691
--Bare en snarvisitt.
--Menneskenes tue er forbudt område.
+00:33:21,293 --> 00:33:22,669
+Everyone, into the grass.
 
 454
-00:41:28,402 --> 00:41:32,030
-Vel...
-Kolonien trenger mat, ikke sant?
+00:33:23,212 --> 00:33:25,255
+Don't just stand there. Help her.
 
 455
-00:41:32,490 --> 00:41:36,201
--Mat?
--Søtstein. Hjemme har jeg fullt av dem.
+00:33:26,256 --> 00:33:28,050
+Lucas, run.
 
 456
-00:41:36,368 --> 00:41:40,580
--I forskjellige farger og smaker.
--Forskjellige smaker?
+00:33:28,217 --> 00:33:29,426
+What are you doing?
 
 457
-00:41:40,748 --> 00:41:43,917
-Grønne også?
-Du vil trenge en speider.
+00:33:33,972 --> 00:33:35,432
+Everyone, into the grass.
 
 458
-00:41:44,084 --> 00:41:46,836
-Nei. Aldri i verden om du...
+00:34:00,207 --> 00:34:02,125
+Where are you...
 
 459
-00:41:47,004 --> 00:41:49,714
--Jeg er med.
--Kom an.
+00:34:02,292 --> 00:34:04,169
+...little bug?
 
 460
-00:41:50,174 --> 00:41:52,759
-Der bør helst være røde.
+00:34:24,648 --> 00:34:27,025
+Please, hurry up. Light, light.
 
 461
-00:41:56,347 --> 00:42:01,392
-Jøss, for ei stor tue. Det måtte vel
-tusener av mennesker til å bygge den.
+00:34:29,570 --> 00:34:31,864
+Light, light.
 
 462
-00:42:01,560 --> 00:42:03,937
--Hva er det?
--Bare en dør.
+00:34:42,416 --> 00:34:43,542
+Hova, get down.
 
 463
-00:42:04,104 --> 00:42:09,108
-En dør? Fantastisk. Går alle
-gjestene dine under denne døra?
+00:34:44,585 --> 00:34:46,211
+Zoc.
 
 464
-00:42:09,318 --> 00:42:13,363
-Dere er faktisk de første vennene
-jeg har hatt på besøk.
+00:34:51,258 --> 00:34:53,468
+No!
 
 465
-00:42:13,531 --> 00:42:18,034
-Er vi de første? Kreela, vi er
-de første som går under døra.
+00:34:54,928 --> 00:34:56,388
+Stop, hey! No, no.
 
 466
-00:42:18,619 --> 00:42:22,539
-Og tenk at alt dette
-er lagd av din egen bæsj.
+00:35:06,481 --> 00:35:07,774
+Fire in the hole!
 
 467
-00:42:23,541 --> 00:42:24,958
-Pent.
+00:35:16,825 --> 00:35:19,036
+-What was that?
+-It's bath time.
 
 468
-00:42:26,627 --> 00:42:32,298
-Hvorfor måtte mamma ha så tjukt teppe?
-Det vil ta dager å nå fram til kjøkkenet.
+00:35:19,203 --> 00:35:20,287
+Retreat.
 
 469
-00:42:33,884 --> 00:42:35,802
-Så synd.
+00:35:32,299 --> 00:35:33,425
+They're leaving.
 
 470
-00:42:36,345 --> 00:42:39,973
-Vi får vel gå hjem
-før vi havner i trøbbel.
+00:35:33,634 --> 00:35:34,927
+We-- We won.
 
 471
-00:42:42,810 --> 00:42:44,227
-Nei.
+00:35:38,388 --> 00:35:40,891
+All hail the Destroyer.
 
 472
-00:42:45,563 --> 00:42:47,146
-Vent...
+00:35:41,058 --> 00:35:42,476
+Peanut! Peanut!
 
 473
-00:42:51,443 --> 00:42:54,404
-Kom an.
-Dette kalles hanggliding.
+00:35:42,643 --> 00:35:44,102
+Brilliant. Genius.
 
 474
-00:42:55,489 --> 00:42:58,241
-Har du noen gang gjort dette?
+00:35:44,269 --> 00:35:45,729
+I mean, Lucas made a:
 
 475
-00:42:58,867 --> 00:43:03,162
-Jeg har spilt videospillet.
-Når jeg gir beskjed, hopper alle.
+00:35:45,938 --> 00:35:48,398
+And then...they all flew away.
 
 476
-00:43:07,501 --> 00:43:08,918
-Nå!
+00:35:48,565 --> 00:35:50,817
+And now I know
+why they call you Peanut.
 
 477
-00:43:12,131 --> 00:43:14,173
-Å, var det beskjeden?
+00:35:50,984 --> 00:35:54,321
+He's got a brain the size of a peanut.
 
 478
-00:43:14,383 --> 00:43:16,634
--Kommer!
--Pass opp.
+00:35:54,488 --> 00:35:56,156
+Lucas the Destroyer.
 
 479
-00:43:16,802 --> 00:43:19,470
-For dronning og koloni!
+00:35:56,573 --> 00:35:59,243
+I take back everything
+I thought about you.
 
 480
-00:43:20,180 --> 00:43:22,432
-Herregud!
+00:35:59,409 --> 00:36:00,911
+You saved us.
 
 481
-00:43:27,896 --> 00:43:30,523
--Blære!
--Stilig!
+00:36:01,328 --> 00:36:03,413
+Thank you, Lucas.
 
 482
-00:43:32,943 --> 00:43:36,696
-Hawaii. Vi var der i sommer.
-Der er det vulkaner-
+00:36:03,580 --> 00:36:06,291
+Yeah, sure.
 
 483
-00:43:36,905 --> 00:43:41,326
--og hula-dansere og Don Ho
-og surfebrett. Og jeg fikk en fisk.
+00:36:07,543 --> 00:36:09,419
+He saved us.
 
 484
-00:43:41,619 --> 00:43:43,870
-Dette er pyramidene.
+00:36:09,586 --> 00:36:13,465
+Oh, it's so obvious, I was so dumb.
 
 485
-00:43:44,038 --> 00:43:48,207
-Ikke de ekte, for de er mye større.
-Mormor sier aliens bygde dem.
+00:36:13,632 --> 00:36:16,134
+Praise the Destroyer.
 
 486
-00:43:48,417 --> 00:43:50,418
-Bestemora mi.
+00:36:16,343 --> 00:36:18,637
+Wake up. He saved himself.
 
 487
-00:43:59,553 --> 00:44:03,848
--Er dette de som bor i tua med deg?
--Ja, det er familien min.
+00:36:19,680 --> 00:36:20,848
+The rest of us just--
 
 488
-00:44:04,016 --> 00:44:08,436
--Hvem av dem er dronningen?
--Søsteren min tror hun er.
+00:36:21,723 --> 00:36:23,976
+Just got in the way.
 
 489
-00:44:09,438 --> 00:44:13,316
--Hva er i veien?
--Ingen ting. Det er bare...
+00:36:24,434 --> 00:36:26,603
+Zoc. Oh, are you all right?
 
 490
-00:44:14,860 --> 00:44:18,196
-Jeg skulle sagt ha det til mamma.
+00:36:26,770 --> 00:36:28,230
+-No, I'm--
+-What happened to you?
 
 491
-00:44:19,031 --> 00:44:22,200
-Jeg kan være en dust noen ganger.
+00:36:28,397 --> 00:36:29,940
+I'm fine. I'm fine.
 
 492
-00:44:22,576 --> 00:44:25,411
--Lucas, ansiktet ditt lekker.
--Lekker?
+00:36:30,107 --> 00:36:32,359
+-You're hurt.
+-No, it's nothing, really, I just--
 
 493
-00:44:25,579 --> 00:44:27,872
-Nei da, alt i orden.
+00:36:32,526 --> 00:36:34,361
+Zoc, do you have any yucca sap?
 
 494
-00:44:28,040 --> 00:44:32,752
-Er det sånn mennsker gjør
-når de er triste? Lekker i ansiktet?
+00:36:34,528 --> 00:36:37,781
+Lucas has a burn. Poor baby.
 
 495
-00:44:32,961 --> 00:44:36,047
-Når maur er triste, gjør vi sånn:
+00:36:38,699 --> 00:36:41,535
+This is our enemy.
 
 496
-00:44:56,193 --> 00:44:58,695
-Lucas, det... det...
+00:36:41,952 --> 00:36:45,497
+They do not save ants, they kill ants.
 
 497
-00:44:59,488 --> 00:45:01,989
-Det er nydelig!
+00:36:45,664 --> 00:36:48,125
+He very nearly killed me.
 
 498
-00:45:02,783 --> 00:45:05,284
-Søtsteiner, kom til paps!
+00:36:49,126 --> 00:36:51,295
+Or does that not matter to you?
 
 499
-00:45:23,053 --> 00:45:26,639
--En rød.
--Hvorfor tar du ikke de røde?
+00:37:00,846 --> 00:37:04,308
+<i>I do, you do
+We all like the honeydew</i>
 
 500
-00:45:26,807 --> 00:45:31,644
-Det er ganske enkelt, snuppa,
-Jeg hater de røde.
+00:37:04,516 --> 00:37:05,976
+Dinner is served.
 
 501
-00:45:31,812 --> 00:45:35,314
--Jeg elsker de røde.
--Hater dem!
+00:37:06,185 --> 00:37:07,644
+And I'm the dessert.
 
 502
-00:45:35,524 --> 00:45:37,608
--Hater!
--Elsker!
+00:37:07,811 --> 00:37:10,397
+And I'm on a low-fathead diet.
 
 503
-00:45:37,776 --> 00:45:40,737
--Innrøm at du er tiltrukket av meg.
--Hva?
+00:37:10,564 --> 00:37:12,900
+And you know, it looks good on you.
 
 504
-00:45:40,904 --> 00:45:43,656
-Du erter meg med flørtingen din.
+00:37:13,066 --> 00:37:14,818
+So, Lucas, what are you working on?
 
 505
-00:45:43,824 --> 00:45:48,286
-Så du vil ha flørting?
-Jeg skal gi deg flørting, jeg.
+00:37:14,985 --> 00:37:15,986
+Glasses.
 
 506
-00:45:48,662 --> 00:45:52,582
--Ta en rød nå, før jeg drar av disse.
--Jeg trenger dem.
+00:37:18,488 --> 00:37:21,325
+This is some good honeydew.
 
 507
-00:45:54,001 --> 00:45:55,668
-Hva gjør vi?
+00:37:23,285 --> 00:37:26,747
+Oh, Lucas, you have to try some.
+It's so good.
 
 508
-00:45:55,919 --> 00:45:57,837
-Ingen ting.
+00:37:28,498 --> 00:37:29,666
+Go ahead.
 
 509
-00:46:17,483 --> 00:46:20,985
--Mormor, jeg er hjemme igjen!
--Hva var det?
+00:37:35,130 --> 00:37:36,423
+This is awesome.
 
 510
-00:46:21,862 --> 00:46:24,447
--Tiffany.
--Hva er en Tiffany?
+00:37:36,590 --> 00:37:39,092
+Tastes like green-apple bubble gum.
 
 511
-00:46:24,615 --> 00:46:27,700
--Kjappere!
--La de røde ligge igjen!
+00:37:45,682 --> 00:37:48,101
+That went away quick.
+Another round for you?
 
 512
-00:46:28,160 --> 00:46:29,660
-Fugax!
+00:37:48,268 --> 00:37:49,770
+Oh, yeah, keep it coming.
 
 513
-00:46:32,039 --> 00:46:34,207
-Er du der, din fjomp?
+00:38:05,869 --> 00:38:07,955
+Get it while it's hot.
 
 514
-00:46:34,374 --> 00:46:36,042
-Hallo?
+00:38:09,790 --> 00:38:13,043
+Whoa, I didn't know
+humans could change their colors.
 
 515
-00:46:36,210 --> 00:46:37,543
-Kryssild!
+00:38:13,210 --> 00:38:15,087
+-Trippy.
+-Perhaps our young pupa...
 
 516
-00:46:37,878 --> 00:46:41,547
-Den gutten og de dumme
-elektroniske lekene.
+00:38:15,254 --> 00:38:17,673
+...ate too much honeydew.
 
 517
-00:46:46,386 --> 00:46:51,891
--Hva gjør han?
--Hopper. En speidergreie du ikke forstår.
+00:38:22,761 --> 00:38:24,388
+Here, eat this.
 
 518
-00:46:53,227 --> 00:46:56,062
-Én til.
-Jeg trenger bare en sjuer.
+00:38:24,555 --> 00:38:25,931
+It'll make you feel better.
 
 519
-00:46:59,650 --> 00:47:01,651
-Hallo. Står til?
+00:38:27,266 --> 00:38:29,434
+What did that come out of?
 
 520
-00:47:03,070 --> 00:47:05,154
-Pizza Kingdom.
+00:38:30,060 --> 00:38:31,353
+It's an alka root.
 
 521
-00:47:05,322 --> 00:47:09,200
-Prøv vår nye Prinsesse-pepperoni
-med hoffnarrsaus.
+00:38:31,520 --> 00:38:35,566
+Zoc discovered its powers to expel evil
+and create well-being.
 
 522
-00:47:09,368 --> 00:47:13,830
-Dette er Lucas Nickle!
-Jeg er nødt til å avbestille!
+00:38:36,692 --> 00:38:38,777
+He is a great wizard.
 
 523
-00:47:17,167 --> 00:47:19,418
-Vil du ikke bestille?
+00:38:38,986 --> 00:38:40,988
+Yeah, he hates me.
 
 524
-00:47:21,755 --> 00:47:23,881
-Annuller kontrakten!
+00:38:41,154 --> 00:38:42,698
+Whoa, he really does, doesn't he?
 
 525
-00:47:24,049 --> 00:47:28,678
--Ingen eksterminator.
--Ingen ekstra tomater, nei vel.
+00:38:42,865 --> 00:38:44,575
+I mean, he hates your guts.
 
 526
-00:47:31,014 --> 00:47:34,392
-Ingen eksterminator.
-Jeg avbestiller.
+00:38:44,741 --> 00:38:47,452
+It's actually amazing
+how much he hates your guts.
 
 527
-00:47:35,143 --> 00:47:37,436
-Vil du avbestille?
+00:38:47,619 --> 00:38:48,871
+Okay, I'm sorry.
 
 528
-00:47:37,604 --> 00:47:40,606
-Hvem er dette?
-Bill, er det deg?
+00:38:49,037 --> 00:38:52,875
+Yes, Zoc has anger issues,
+especially towards humans...
 
 529
-00:47:41,149 --> 00:47:44,110
-Der lurte du meg, mann.
+00:38:53,041 --> 00:38:54,501
+...but he's a true ant.
 
 530
-00:47:46,280 --> 00:47:50,700
--Det var godt.
--Lucas, jeg forstår ingen ting.
+00:38:54,918 --> 00:38:57,921
+Hard on the outside,
+but soft on the inside.
 
 531
-00:47:50,868 --> 00:47:53,286
-Hva er en eksterminator?
+00:38:58,338 --> 00:39:00,841
+Just give him time, Lucas.
 
 532
-00:47:53,537 --> 00:47:56,414
-Ta det rolig. Alt er i orden nå.
+00:39:19,151 --> 00:39:20,611
+Praise the Mother.
 
 533
-00:48:03,130 --> 00:48:05,381
-Au da... Gjem dere!
+00:39:21,820 --> 00:39:23,822
+Praise the Mother.
 
 534
-00:48:09,553 --> 00:48:12,221
-Dette er Tiff. Hei, mamma.
+00:39:25,240 --> 00:39:26,825
+Thanks.
 
 535
-00:48:12,389 --> 00:48:15,558
-Ja, alt er bare bra.
-Lucas er en plage.
+00:39:27,034 --> 00:39:29,536
+Who is this mother
+you keep talking about, anyway?
 
 536
-00:48:16,476 --> 00:48:20,813
-Han er på rommet sitt
-og spiller de teite videospillene.
+00:39:29,703 --> 00:39:30,787
+Is it the queen?
 
 537
-00:48:21,565 --> 00:48:23,983
-Det skal jeg, mamma.
+00:39:30,954 --> 00:39:33,207
+No, Lucas, the Ant Mother.
 
 538
-00:48:24,192 --> 00:48:28,571
-Jeg gir også telefonen en klem.
-Ha det.
+00:39:33,624 --> 00:39:35,209
+The queen of queens.
 
 539
-00:48:34,745 --> 00:48:38,664
-Du må være dronning Tiffany.
-Får jeg presentere...
+00:39:35,375 --> 00:39:38,170
+She gave birth to the first colony.
 
 540
-00:48:51,011 --> 00:48:53,220
-Husk opplæringen din nå.
+00:39:38,378 --> 00:39:41,089
+To all ants.
 
 541
-00:48:55,807 --> 00:48:57,516
-Å nei! Mor!
+00:39:41,256 --> 00:39:44,718
+Come on. It's time for you to see.
 
 542
-00:48:59,811 --> 00:49:02,939
-Du har ringt et nummer
-som ikke er i bruk.
+00:39:59,900 --> 00:40:04,238
+This is the Chamber of the Ages.
 
 543
-00:49:03,106 --> 00:49:04,482
-Hallo?
+00:40:07,574 --> 00:40:09,076
+What are these?
 
 544
-00:49:06,026 --> 00:49:08,694
-Tiffany, nei! Du moser Lucas.
+00:40:09,409 --> 00:40:12,955
+They tell the story
+of our colony, our history.
 
 545
-00:49:08,862 --> 00:49:11,113
-Ingen er krympet. Ha det.
+00:40:13,121 --> 00:40:15,415
+These are pretty cool.
 
 546
-00:49:11,281 --> 00:49:15,868
--Hva snakker du om?
--Slipp Lucas fri. Ta meg i stedet.
+00:40:26,802 --> 00:40:30,180
+This is the image of the Ant Mother.
 
 547
-00:49:16,036 --> 00:49:19,246
-Kom tilbake! Forsk på meg i stedet!
+00:40:33,100 --> 00:40:36,228
+It is said that one day she will return...
 
 548
-00:49:23,961 --> 00:49:27,213
-Kom tilbake med Lucas, alien-svin!
+00:40:36,395 --> 00:40:40,232
+...and honeydew will pour
+from the sky like rain.
 
 549
-00:49:27,714 --> 00:49:29,715
-Å, Lucas...
+00:40:40,440 --> 00:40:43,777
+Then we will never go hungry again.
 
 550
-00:49:30,050 --> 00:49:33,761
-Mormor, la oss gå og finne
-det andre gebisset ditt.
+00:40:43,944 --> 00:40:46,613
+So you actually want warm poop
+to fall from the sky?
 
 551
-00:49:53,156 --> 00:49:55,658
-Hova, hvor er du?
+00:40:46,780 --> 00:40:50,450
+Yes. That would be a blessed day.
 
 552
-00:50:07,879 --> 00:50:11,340
-Hova! Er alt bra med dere?
+00:40:50,909 --> 00:40:53,745
+I'm sorry, it's just so beautiful.
 
 553
-00:50:11,717 --> 00:50:14,844
-Selvsagt.
-Skulle det ikke være det?
+00:40:54,204 --> 00:40:56,874
+Hey, what's that one?
 
 554
-00:50:15,012 --> 00:50:17,930
-Alt er bra med oss, dummen.
+00:40:57,040 --> 00:40:58,750
+It's the evil one.
 
 555
-00:50:18,724 --> 00:50:20,599
-Vent.
+00:40:59,459 --> 00:41:01,378
+The Cloudbreather.
 
 556
-00:50:20,892 --> 00:50:22,935
-Zoc, gjett hva vi gjorde.
+00:41:01,753 --> 00:41:04,840
+It is ancient, drawn before our time.
 
 557
-00:50:23,103 --> 00:50:27,064
-Vi var på Hawaii. Vi så pyramidene.
-Vi fløy uten vinger.
+00:41:05,007 --> 00:41:10,429
+No one knows for sure what it is,
+except that death is said to follow it.
 
 558
-00:50:27,232 --> 00:50:30,109
-Først var det... Men så var det...
+00:41:10,596 --> 00:41:13,807
+I think it's just a story used
+to scare naughty pupas into behaving.
 
 559
-00:50:30,277 --> 00:50:36,240
--De andre ble redde, jeg tok styringen.
--Vi var inni menneskenes tue.
+00:41:15,100 --> 00:41:17,811
+No, the exterminator.
 
 560
-00:50:36,408 --> 00:50:39,535
-Menneskenes tue?
-Det er forbudt!
+00:41:17,978 --> 00:41:19,271
+l-- I gotta cancel him.
 
 561
-00:50:39,703 --> 00:50:43,289
-Ja da. Men tua var full av søtstein.
+00:41:19,479 --> 00:41:20,898
+I gotta go home now.
 
 562
-00:50:43,457 --> 00:50:45,374
-Massevis.
+00:41:21,064 --> 00:41:22,441
+But you're not an ant yet.
 
 563
-00:50:45,542 --> 00:50:50,421
-Så begynte dronning Tiffany å slå,
-svære flygende tenner angrep oss...
+00:41:22,816 --> 00:41:24,818
+-Just a quick visit.
+-No way, Two Legs.
 
 564
-00:50:50,589 --> 00:50:52,965
-Og, vel, her er vi.
-For en dag. God natt.
+00:41:24,985 --> 00:41:26,987
+The humans' nest is strictly forbidden.
 
 565
-00:50:53,133 --> 00:50:56,135
-Hvem fortalte dere om søtsteinene?
+00:41:28,071 --> 00:41:29,489
+Well...
 
 566
-00:50:56,344 --> 00:50:59,138
--Lucas, så klart.
--Å ja?
+00:41:30,324 --> 00:41:32,409
+...the colony needs food, right?
 
 567
-00:51:02,225 --> 00:51:04,101
-Hei. Står til?
+00:41:32,576 --> 00:41:34,077
+Food?
 
 568
-00:51:04,853 --> 00:51:07,313
--Bra.
--Fint.
+00:41:34,286 --> 00:41:37,080
+Yeah, sweet rocks.
+My house is filled with them.
 
 569
-00:51:07,647 --> 00:51:10,149
-Det er fint å ha det bra.
+00:41:37,247 --> 00:41:40,709
+-In assorted colors and flavors.
+-Assorted flavors?
 
 570
-00:51:10,901 --> 00:51:14,612
-Jeg ville bare vise deg noe,
-om det er greit.
+00:41:40,876 --> 00:41:42,127
+Even the greenies?
 
 571
-00:51:16,656 --> 00:51:18,741
-Vet du hva dette er?
+00:41:42,336 --> 00:41:44,838
+Well, you'll be needing a scout.
 
 572
-00:51:18,909 --> 00:51:22,661
-Dette er trylledrikken
-som kan gjøre deg stor igjen.
+00:41:45,005 --> 00:41:46,924
+No. There is no way
+you're gonna get me--
 
 573
-00:51:22,871 --> 00:51:26,791
-Jeg ville bare
-at du skulle få se nøye på den.
+00:41:47,090 --> 00:41:49,593
+-I'm in.
+-Come on.
 
 574
-00:51:26,958 --> 00:51:30,169
-For dette er siste gang du ser den.
+00:41:50,677 --> 00:41:52,971
+Better be some red ones.
 
 575
-00:51:30,378 --> 00:51:32,171
-Hva mener du?
+00:41:56,517 --> 00:41:58,727
+Wow, this is a big nest.
 
 576
-00:51:32,672 --> 00:51:36,926
-Aldri i verden om jeg
-noen gang gjør deg stor igjen.
+00:41:58,894 --> 00:42:01,647
+Must have taken thousands
+of humans to build this.
 
 577
-00:51:38,637 --> 00:51:43,349
-Aldri. Du er en trussel
-mot hver maur i kolonien.
+00:42:01,855 --> 00:42:04,024
+-What's that?
+-It's just the door.
 
 578
-00:51:43,975 --> 00:51:46,018
-Særlig mot Hova.
+00:42:04,191 --> 00:42:06,693
+A door? Fantastic.
 
 579
-00:51:46,186 --> 00:51:50,022
-Jeg ville da aldri gjøre Hova noe.
-Jeg vil bare...
+00:42:07,110 --> 00:42:09,321
+Do all of your guests
+pass under this door?
 
 580
-00:51:50,398 --> 00:51:55,653
--Jeg vil bare hjem.
--Vel, hvis jeg var deg,-
+00:42:09,530 --> 00:42:13,325
+Well, actually, you guys
+are the first friends I've had over.
 
 581
-00:51:55,904 --> 00:52:01,033
--så ville jeg søke hjelp andre steder,
-for det er ingen å få her.
+00:42:13,534 --> 00:42:15,244
+We are the first ones?
 
 582
-00:52:03,537 --> 00:52:04,870
-Ingen.
+00:42:15,410 --> 00:42:18,163
+Kreela, we're the first ones
+to pass under the door.
 
 583
-00:52:15,799 --> 00:52:20,386
-For en smerte! Uutholdelig!
-Bare gjør slutt på lidelsene mine!
+00:42:18,330 --> 00:42:20,457
+-Great.
+-And to think...
 
 584
-00:52:20,554 --> 00:52:24,557
-Hold tåta, din store puppe.
-Jeg har jo ikke rørt deg ennå.
+00:42:20,624 --> 00:42:24,044
+...all of this is made from your own poop.
 
 585
-00:52:26,059 --> 00:52:28,060
-Vær varsom med meg.
+00:42:24,378 --> 00:42:25,504
+Nice.
 
 586
-00:52:37,362 --> 00:52:40,406
--Hvor er Lucas?
--Er han ikke med deg?
+00:42:26,839 --> 00:42:30,217
+Oh, why did Mom
+have to get shag carpet?
 
 587
-00:52:40,991 --> 00:52:42,825
-Lucas?
+00:42:30,384 --> 00:42:33,136
+lt'll take days to get to the kitchen.
 
 588
-00:52:42,993 --> 00:52:45,077
-Så rart.
+00:42:33,303 --> 00:42:36,807
+Oh, gee, that is too bad.
 
 589
-00:52:45,954 --> 00:52:50,541
-Han er vel ute og ødelegger tua
-til en annen maurkoloni.
+00:42:36,974 --> 00:42:40,769
+I guess now we'll have to go home
+before we all get in trouble.
 
 590
-00:52:51,835 --> 00:52:54,753
--Zoc, hva har du gjort?
--Jeg?
+00:42:43,313 --> 00:42:44,523
+No.
 
 591
-00:52:55,005 --> 00:52:57,464
--Hvor er han?
--Vekk.
+00:42:45,732 --> 00:42:47,401
+Wait.
 
 592
-00:52:58,341 --> 00:53:01,385
--Han førte dere i en felle, Hova.
--Nei.
+00:42:51,613 --> 00:42:52,865
+Come on.
 
 593
-00:53:01,553 --> 00:53:04,763
-Han førte oss til mat.
-Beskyttet oss mot...
+00:42:53,073 --> 00:42:54,867
+This is called hang-gliding.
 
 594
-00:53:04,931 --> 00:53:07,224
--Mot hva da, Hova?
--Mot noe.
+00:42:56,493 --> 00:42:59,371
+Have you ever done this, actually?
 
 595
-00:53:07,434 --> 00:53:09,101
-Å, noe!
+00:42:59,580 --> 00:43:00,789
+I played the video game.
 
 596
-00:53:09,269 --> 00:53:13,063
-Jeg var redd det ikke var noe.
-Han har gjort deg blind.
+00:43:00,956 --> 00:43:03,500
+Now, when I give the word,
+everybody jump.
 
 597
-00:53:13,231 --> 00:53:15,441
-Det er du som er blind.
+00:43:07,713 --> 00:43:09,214
+Now.
 
 598
-00:53:15,609 --> 00:53:18,944
-Du er så oppslukt
-av hat mot menneskene-
+00:43:12,384 --> 00:43:14,553
+Oh, sorry, was that the word?
 
 599
-00:53:19,112 --> 00:53:21,864
--at du kun ser det du vil se.
+00:43:14,761 --> 00:43:16,889
+-Coming.
+-Hey, hey, look out.
 
 600
-00:53:22,032 --> 00:53:26,452
-Zoc, jeg ser en ung puppe,
-et menneske som lærer vårt levevis,-
+00:43:17,097 --> 00:43:20,100
+For queen and colony.
 
 601
-00:53:26,620 --> 00:53:30,122
--blir en del av kolonien vår,
-blir en maur.
+00:43:20,267 --> 00:43:22,352
+Oh, God.
 
 602
-00:53:30,290 --> 00:53:32,791
--Umulig.
--Hør på deg selv.
+00:43:27,774 --> 00:43:31,987
+-Showoff.
+-Awesome. Yeah.
 
 603
-00:53:33,001 --> 00:53:36,962
-"En trollmaur kjenner ikke det ordet."
-Så hva er du nå?
+00:43:34,031 --> 00:43:36,200
+This is Hawaii.
+We went there last summer.
 
 604
-00:53:37,130 --> 00:53:40,966
--I alle fall ikke mauren jeg elsker.
--Hova!
+00:43:36,366 --> 00:43:39,703
+It's got volcanoes and hula dancers
+and Don Ho and surfboards.
 
 605
-00:53:41,468 --> 00:53:46,597
--Jeg gjorde det for deg, for kolonien.
--Du gjorde det for deg selv.
+00:43:39,870 --> 00:43:41,455
+And I caught a fish.
 
 606
-00:53:46,932 --> 00:53:49,099
-Hova, jeg...
+00:43:42,831 --> 00:43:45,542
+And these are the pyramids.
+Well, not the real pyramids.
 
 607
-00:53:50,810 --> 00:53:55,481
--Han overlever ikke natta alene.
--Fugax, du har brukket beinet.
+00:43:45,709 --> 00:43:48,545
+The real ones are lots bigger.
+Mommo says aliens built them.
 
 608
-00:53:55,649 --> 00:53:59,610
-Jeg har ennå fem som fungerer bra.
-Veldig bra.
+00:43:48,712 --> 00:43:50,047
+She's my grandma.
 
 609
-00:54:00,028 --> 00:54:03,656
-Jeg tror han prøvde
-å beskytte oss mot noe.
+00:43:59,723 --> 00:44:01,558
+Oh, are these your nest mates?
 
 610
-00:54:03,823 --> 00:54:05,574
-Vi ses, Zoc.
+00:44:01,975 --> 00:44:04,436
+Yeah, that's my family.
 
 611
-00:54:27,847 --> 00:54:29,974
-Kanskje Zoc har rett.
+00:44:04,603 --> 00:44:05,729
+Which one's the queen?
 
 612
-00:54:30,141 --> 00:54:32,977
-Nå kommer jeg meg aldri hjem.
+00:44:05,896 --> 00:44:08,607
+My sister thinks she is.
 
 613
-00:54:35,855 --> 00:54:38,482
-Hei! Fin kveld, hva?
+00:44:09,650 --> 00:44:10,943
+What's wrong?
 
 614
-00:54:38,650 --> 00:54:41,527
--Får jeg lov?
--Bare forsyn deg.
+00:44:11,109 --> 00:44:14,279
+Nothing. It's just, well....
 
 615
-00:54:41,695 --> 00:54:46,031
-Takk. Jeg er en bille som elsker vann,
-men jeg er ingen vannbille.
+00:44:15,614 --> 00:44:18,617
+I should have told
+my mom goodbye. That's all.
 
 616
-00:54:46,199 --> 00:54:48,325
-Morsomt, hva?
+00:44:19,284 --> 00:44:22,120
+I can be a real jerk sometimes.
 
 617
-00:55:26,239 --> 00:55:28,240
-Hei, Lucas.
+00:44:22,955 --> 00:44:25,415
+-Lucas, your face is leaking.
+-Leaking?
 
 618
-00:55:28,742 --> 00:55:31,535
-Vet noen hva uææææ betyr?
+00:44:25,624 --> 00:44:28,460
+Oh, no, it's okay.
 
 619
-00:55:32,746 --> 00:55:36,206
-Jeg tror jeg nettopp fant det ut.
-En kvekker!
+00:44:28,669 --> 00:44:30,921
+Is that what humans do
+when they're sad?
 
 620
-00:55:40,211 --> 00:55:42,254
-Denne veien!
+00:44:31,088 --> 00:44:32,589
+They leak from the face?
 
 621
-00:55:48,928 --> 00:55:51,055
-Gå aldri fra meg igjen.
+00:44:33,131 --> 00:44:36,718
+When ants are sad, we do this:
 
 622
-00:55:51,222 --> 00:55:54,516
--Men Zoc sa...
--Du er min puppe, ikke Zocs.
+00:44:56,530 --> 00:44:59,491
+Oh, Lucas, it's-- It's--
 
 623
-00:55:56,853 --> 00:55:58,395
-Kom an!
+00:44:59,700 --> 00:45:01,660
+It's beautiful!
 
 624
-00:56:04,277 --> 00:56:07,863
-Du klarer å klatre opp.
-Bare konsentrer deg.
+00:45:03,036 --> 00:45:05,664
+Sweet rocks, come to papa!
 
 625
-00:56:08,573 --> 00:56:10,783
-Jeg er en maur...
+00:45:23,515 --> 00:45:24,474
+Red one.
 
 626
-00:56:11,284 --> 00:56:14,411
--Han klarer det.
--Se, jeg er en maur!
+00:45:24,683 --> 00:45:27,311
+What are you doing?
+Why aren't you taking the red ones?
 
 627
-00:56:14,579 --> 00:56:17,164
-Han klarer det ikke.
+00:45:27,477 --> 00:45:30,647
+Well, it's actually
+quite simple, sugar lips.
 
 628
-00:56:24,714 --> 00:56:26,173
-Ta tak!
+00:45:30,814 --> 00:45:32,191
+I hate the red ones.
 
 629
-00:56:28,760 --> 00:56:30,427
-Hova?
+00:45:32,399 --> 00:45:34,484
+Well, I love the red ones.
 
 630
-00:56:32,639 --> 00:56:34,306
-Lucas!
+00:45:34,651 --> 00:45:36,153
+-Hate them.
+-I love them!
 
 631
-00:56:48,655 --> 00:56:51,949
-Vi åkte rett nedi strupen
-på den fyren, hva?
+00:45:36,320 --> 00:45:38,030
+-Hate, hate, hate.
+-Love. Love.
 
 632
-00:56:52,117 --> 00:56:56,120
--Du står på vingen min.
--Unnskyld. Beklager så mye.
+00:45:38,197 --> 00:45:41,033
+-Admit it, you find me attractive.
+-What?
 
 633
-00:56:56,287 --> 00:57:00,582
--Hva driver dere med?
--Jeg er sankthansorm. Jeg gløder.
+00:45:41,200 --> 00:45:43,911
+Oh, how you tease me
+with your sweet talk.
 
 634
-00:57:00,750 --> 00:57:04,253
--Stilig!
--Du irriterer meg. Kan du..?
+00:45:44,077 --> 00:45:46,371
+Oh, you want some sweet talk?
 
 635
-00:57:09,467 --> 00:57:11,510
-Æsj, ekkelt!
+00:45:46,538 --> 00:45:48,790
+Because I'll give you some sweet talk.
 
 636
-00:57:12,262 --> 00:57:17,015
-Kan du slutte å ete, feiten?
-Det er ikke plass til mer her inne!
+00:45:48,957 --> 00:45:51,376
+Now grab a red one
+before I pull these off.
 
 637
-00:57:17,183 --> 00:57:21,687
-Jeg er redd vi må videre
-i systemet etter hvert.
+00:45:51,585 --> 00:45:53,170
+Whoa, I need those.
 
 638
-00:57:22,355 --> 00:57:27,359
-Du er alltid så negativ.
-Kan du ikke være mer... Hei, Lenny!
+00:45:55,047 --> 00:45:56,590
+What are we doing?
 
 639
-00:57:27,527 --> 00:57:32,322
-Der ser du hva jeg mener.
-Lenny har alltid et smil på lur...
+00:45:56,757 --> 00:45:58,592
+Nothing, nothing.
 
 640
-00:57:34,868 --> 00:57:36,368
-Slipp meg ut!
+00:46:18,779 --> 00:46:21,573
+-Mommo, I'm back!
+-What was that?
 
 641
-00:57:36,536 --> 00:57:40,372
--Jeg vil ikke bli paddebæsj!
--Paddebæsj. Herlig.
+00:46:22,449 --> 00:46:24,701
+-Tiffany.
+-What's a Tiffany?
 
 642
-00:57:40,540 --> 00:57:44,460
--Veldig morsomt.
--Det er mye mer der det kom fra.
+00:46:24,868 --> 00:46:26,245
+-Hurry up!
+-Right.
 
 643
-00:57:44,878 --> 00:57:48,338
--Hva heter du?
--På'n igjen.
+00:46:26,453 --> 00:46:28,080
+Leave the red ones behind!
 
 644
-00:57:50,049 --> 00:57:52,718
-Stopp! Kom tilbake!
+00:46:28,288 --> 00:46:30,040
+Fugax!
 
 645
-00:57:52,886 --> 00:57:55,971
--Nei!
--Hova, han er død.
+00:46:31,959 --> 00:46:34,253
+Hey, pipsqueak, you there?
 
 646
-00:57:57,056 --> 00:57:59,683
-Kvekker her borte. Hitover!
+00:46:34,461 --> 00:46:36,213
+Hello?
 
 647
-00:57:59,851 --> 00:58:01,143
-Zoc!
+00:46:36,380 --> 00:46:38,131
+<i>Crossfire!</i>
 
 648
-00:58:01,311 --> 00:58:03,395
-Jeg smaker deilig, et meg.
+00:46:38,507 --> 00:46:42,469
+That kid and his stupid electronic toys.
 
 649
-00:58:03,563 --> 00:58:05,689
-Zoc, er du gal?
+00:46:46,557 --> 00:46:48,058
+What is he doing?
 
 650
-00:58:05,857 --> 00:58:08,400
--Han er gal.
--Hei, frosken!
+00:46:48,267 --> 00:46:50,561
+Jumping. You know,
+hippity hop, uppity downy?
 
 651
-00:58:10,778 --> 00:58:13,739
-Ikke noe forhold er verdt dette.
+00:46:50,727 --> 00:46:52,729
+It's a scout thing.
+You wouldn't understand.
 
 652
-00:58:18,661 --> 00:58:21,914
-Ja da, hvorfor ikke? Stig på.
+00:46:53,105 --> 00:46:55,023
+Okay, come on. One more.
 
 653
-00:58:22,081 --> 00:58:25,667
--Velkommen til paradis.
--Zoc! Hvordan kom du hit?
+00:46:55,190 --> 00:46:56,233
+I just need a seven.
 
 654
-00:58:25,835 --> 00:58:30,923
--I alle fall ikke inn bakveien.
--Velkommen. Føl deg som hjemme.
+00:46:59,820 --> 00:47:03,448
+-Hello. How are you?
+-Hi.
 
 655
-00:58:31,090 --> 00:58:32,674
-Mauren din?
+00:47:03,615 --> 00:47:05,534
+Pizza Kingdom. Hail to the king.
 
 656
-00:58:32,842 --> 00:58:37,846
-Zoc, du er gal, du er inni en maur.
-Hva driver du med? Dette er umulig!
+00:47:05,701 --> 00:47:09,496
+Would you like to try our new
+Princess Pepperoni with tangy Jester Sauce?
 
 657
-00:58:38,014 --> 00:58:42,601
-"En trollmaur kjenner ikke det ordet.
-Så hva er du nå?"
+00:47:09,872 --> 00:47:12,040
+Hello! This is Lucas Nickle!
 
 658
-00:58:44,938 --> 00:58:46,605
-Gærning.
+00:47:12,207 --> 00:47:14,334
+I need to cancel my order!
 
 659
-00:58:46,814 --> 00:58:48,774
-Hva ser hun i deg?
+00:47:17,254 --> 00:47:18,255
+<i>What?</i>
 
 660
-00:58:48,942 --> 00:58:51,860
--Hva ser hun i deg?
--Nettopp!
+00:47:18,463 --> 00:47:19,798
+You don't want to order?
 
 661
-00:58:55,281 --> 00:58:57,324
-Det var ikke meg.
+00:47:22,092 --> 00:47:24,261
+Please cancel the contract!
 
 662
-00:58:57,909 --> 00:59:00,577
--Er det..?
--Alkarot, ja.
+00:47:24,428 --> 00:47:29,183
+<i>-No exterminator!
+-No extra tomato. Got it.</i>
 
 663
-00:59:04,624 --> 00:59:06,625
-Å nei.
+00:47:31,018 --> 00:47:33,228
+Yes. No exterminator.
 
 664
-00:59:08,962 --> 00:59:13,715
--Best du kaster fra deg den.
--Så du kan ta den? Å nei, du.
+00:47:33,395 --> 00:47:35,355
+I'm canceling the contract.
 
 665
-00:59:13,967 --> 00:59:16,843
--Opp med hendene!
--Au da.
+00:47:35,522 --> 00:47:38,483
+What? You-- You wanna cancel?
 
 666
-00:59:21,558 --> 00:59:23,267
-Stilig!
+00:47:38,650 --> 00:47:39,610
+Who is this?
 
 667
-00:59:23,434 --> 00:59:26,478
-Vi skylder deg en tjeneste! Takk!
+00:47:39,818 --> 00:47:41,653
+Oh, Bill, is this you, man?
 
 668
-00:59:27,438 --> 00:59:29,439
-Jeg er fri!
+00:47:41,862 --> 00:47:45,032
+You got me, man. You got me, dude.
 
 669
-00:59:32,485 --> 00:59:34,444
-Fillern.
+00:47:46,909 --> 00:47:48,160
+That's a relief.
 
 670
-00:59:37,156 --> 00:59:40,325
-Takk, Zoc.
-Men hvorfor gjorde du det?
+00:47:48,327 --> 00:47:51,830
+Okay, Lucas, I don't understand
+most of what just happened.
 
 671
-00:59:40,493 --> 00:59:43,829
-En maur ofrer seg selv
-for sine venner.
+00:47:52,039 --> 00:47:53,498
+What is an exterminator?
 
 672
-00:59:43,997 --> 00:59:47,916
--Jeg trodde du hatet meg.
--Jeg gjorde det ikke for deg.
+00:47:53,665 --> 00:47:57,544
+Oh, don't worry. Everything's okay now.
 
 673
-01:00:02,348 --> 01:00:07,644
--Vi slår leir her for natta.
--Fugax, la oss sanke litt mat.
+00:48:04,968 --> 00:48:06,637
+Hide!
 
 674
-01:00:07,812 --> 01:00:12,316
-Hæ? Jeg sanker ikke.
-Jeg speider etter mat.
+00:48:09,932 --> 00:48:12,768
+This is Tiff. Hi, Mom.
 
 675
-01:00:12,900 --> 01:00:14,818
-Greit, kom an.
+00:48:12,935 --> 00:48:16,188
+Yeah, everything's fine.
+Lucas is being a pest.
 
 676
-01:00:15,028 --> 01:00:18,989
-Zoc, bli hos Lucas.
-Han har vært gjennom mye i dag.
+00:48:17,898 --> 00:48:19,191
+He's in his room playing...
 
 677
-01:00:19,157 --> 01:00:23,785
--Hova, ikke be meg...
--Du tar feil. Det er mye godt i ham.
+00:48:19,358 --> 00:48:21,068
+-...those stupid video games.
+-No, no!
 
 678
-01:00:23,953 --> 01:00:26,455
-Det er en maur i ham.
+00:48:21,735 --> 00:48:24,196
+I will. I will. Okay, Mom.
 
 679
-01:00:27,624 --> 01:00:30,500
-Se, han prøver virkelig.
+00:48:24,613 --> 00:48:29,660
+Yes. I'm hugging the phone too. Bye.
 
 680
-01:00:30,710 --> 01:00:34,963
-Kom igjen, du klarer det.
-Konsentrer deg.
+00:48:35,415 --> 00:48:37,376
+You must be Queen Tiffany.
 
 681
-01:00:36,924 --> 01:00:39,676
-Tenk maur. Maur.
+00:48:37,543 --> 00:48:39,086
+Allow me to introduce--
 
 682
-01:00:42,513 --> 01:00:44,389
-Ja vel...
+00:48:51,723 --> 00:48:53,433
+Remember your training.
 
 683
-01:00:46,059 --> 01:00:47,684
-Craznocks!
+00:48:55,853 --> 00:48:57,855
+Oh, no. No, no, no! Mother!
 
 684
-01:00:57,445 --> 01:01:01,490
-Merkelig.
-Himmelen ser akkurat likedan ut.
+00:49:00,190 --> 00:49:03,610
+<i>We're sorry. Your call
+cannot be completed as dialed.</i>
 
 685
-01:01:01,658 --> 01:01:07,537
-Alt annet er helt forandret, men det
-er samme himmel, samme stjerner.
+00:49:03,777 --> 00:49:05,404
+Hello?
 
 686
-01:01:10,583 --> 01:01:13,919
-Hvorfor gjør du det der?
-Er du syk?
+00:49:06,405 --> 00:49:08,907
+Tiffany, no! You'll squish Lucas.
 
 687
-01:01:14,087 --> 01:01:19,883
--Du mener gjespingen? Jeg er trett.
--Slutt med det, det er ekkelt.
+00:49:09,074 --> 00:49:11,368
+Hello. Nobody's shrunk.
+Gotta go. Bye-bye.
 
 688
-01:01:20,593 --> 01:01:24,388
--Gjesper ikke maur?
--Absolutt ikke.
+00:49:11,535 --> 00:49:12,786
+What are you talking about?
 
 689
-01:01:27,600 --> 01:01:31,603
-Denne byen deres,
-er den en slags tue?
+00:49:12,953 --> 00:49:15,706
+Lucas! You let him go. It's me you want.
 
 690
-01:01:32,605 --> 01:01:34,773
-Ja, en slags.
+00:49:15,873 --> 00:49:21,628
+Come back. Probe me instead. Lucas!
 
 691
-01:01:35,108 --> 01:01:40,904
-Og alle menneskene der er brødre
-som samarbeider til koloniens beste?
+00:49:24,464 --> 00:49:27,509
+Bring back Lucas, you alien scum!
 
 692
-01:01:41,364 --> 01:01:43,407
-Ikke akkurat.
+00:49:27,676 --> 00:49:29,678
+Oh, Lucas. Lucas.
 
 693
-01:01:43,574 --> 01:01:48,203
-Det er litt mer sånn
-at hver jobber for seg.
+00:49:29,845 --> 00:49:31,263
+-Okay, Mommo.
+-Lucas.
 
 694
-01:01:48,371 --> 01:01:52,624
-Noe så primitivt.
-Hvordan blir noe gjort da?
+00:49:31,430 --> 00:49:34,600
+Let's go find your other teeth.
 
 695
-01:01:52,792 --> 01:01:56,878
--Noen samarbeider.
--Hvorfor ikke alle?
+00:49:53,285 --> 00:49:56,705
+Hova, where are you?
 
 696
-01:01:57,046 --> 01:02:00,465
-Fordi de er forskjellige.
+00:50:07,883 --> 00:50:11,929
+Hova? Hova! Are you all right?
 
 697
-01:02:00,633 --> 01:02:03,552
-Forskjellene gjør en koloni sterk.
+00:50:12,513 --> 00:50:14,848
+Are we all right? Of course.
+Why wouldn't we be?
 
 698
-01:02:03,720 --> 01:02:07,472
-Sankere, speidere, droner,
-pleiere, matoppgulpere...
+00:50:15,015 --> 00:50:17,935
+We're fine. We're all right. Silly.
 
 699
-01:02:07,640 --> 01:02:10,767
-Vi er forskjellige,
-men en del av helheten.
+00:50:18,769 --> 00:50:20,729
+Whoa, whoa, wait.
+No, wait, now, hold up.
 
 700
-01:02:10,935 --> 01:02:13,478
-Sånn blir vi maur sterke.
+00:50:20,896 --> 00:50:23,065
+Zoc! Zoc, guess what we did?
 
 701
-01:02:13,646 --> 01:02:18,150
--Forskjellene mine skaffet meg juling.
--Hvorfor det?
+00:50:23,232 --> 00:50:25,317
+We went to Hawaii.
+We saw the pyramids.
 
 702
-01:02:18,317 --> 01:02:23,113
-Noen mennesker
-herser med folk de ikke forstår.
+00:50:25,484 --> 00:50:26,902
+We flew without wings.
 
 703
-01:02:23,656 --> 01:02:26,575
-Slik du herser med maur.
+00:50:27,069 --> 00:50:28,654
+At first, it was like:
 
 704
-01:02:27,785 --> 01:02:30,912
-Jeg tenkte ikke over hva jeg gjorde.
+00:50:28,862 --> 00:50:30,364
+But then it was:
 
 705
-01:02:31,789 --> 01:02:34,666
-Det skjer visst ofte.
+00:50:30,531 --> 00:50:33,867
+Of course, the others were terrified,
+so I took charge. And then we....
 
 706
-01:02:36,627 --> 01:02:40,046
-Jeg kan også gjøre ting uten å tenke.
+00:50:34,034 --> 00:50:36,495
+We were inside the humans' nest.
 
 707
-01:02:42,300 --> 01:02:46,011
-Kanskje vi er like sånn.
+00:50:36,662 --> 00:50:39,665
+Humans' nest? That's forbidden!
 
 708
-01:02:50,141 --> 01:02:53,185
--God natt, Lucas.
--God natt, Zoc.
+00:50:39,873 --> 00:50:40,958
+Right, right.
 
 709
-01:03:34,477 --> 01:03:36,144
--Hva er det?
--Se!
+00:50:41,124 --> 00:50:43,961
+But the nest was filled
+with sweet rocks, okay.
 
 710
-01:03:36,312 --> 01:03:39,064
--Hva er det?
--Jeg ser henne!
+00:50:44,127 --> 00:50:45,629
+Lots of them.
 
 711
-01:03:39,232 --> 01:03:42,818
-Maurmoren!
-Hun er kommet! Hun er her!
+00:50:45,796 --> 00:50:49,883
+But then Queen Tiffany started swatting,
+some massive flying teeth attacked us...
 
 712
-01:03:45,863 --> 01:03:47,364
-Se!
+00:50:50,050 --> 00:50:52,845
+...and, well, here we are.
+What a day. Good night.
 
 713
-01:03:50,910 --> 01:03:53,745
-I all verden.
+00:50:53,011 --> 00:50:56,473
+And who told you
+about these sweet rocks?
 
 714
-01:03:54,747 --> 01:03:57,123
-Det er virkelig en...
+00:50:56,640 --> 00:50:59,852
+-Lucas, of course.
+-Really?
 
 715
-01:04:00,127 --> 01:04:01,253
-Nei!
+00:51:02,521 --> 00:51:04,523
+Hi, there. How are you?
 
 716
-01:04:11,347 --> 01:04:15,183
--Skyblåser.
--Men jeg annullerte kontrakten.
+00:51:06,066 --> 00:51:08,861
+-Okay.
+-Okay. That's good.
 
 717
-01:04:16,853 --> 01:04:19,563
-Lovet være Mor!
+00:51:09,069 --> 00:51:10,863
+It's good to be okay.
 
 718
-01:04:19,730 --> 01:04:21,439
-Hun kom!
+00:51:11,029 --> 00:51:15,701
+Listen, I just wanted
+to show you something, if that's okay.
 
 719
-01:04:21,649 --> 01:04:24,359
-Ro dere ned, alle sammen.
+00:51:16,785 --> 00:51:18,787
+You know what this is?
 
 720
-01:04:29,156 --> 01:04:32,367
-Hør på meg!
-Det er ikke Maurmoren!
+00:51:19,079 --> 00:51:22,875
+This is the potion that will
+make you big again.
 
 721
-01:04:32,535 --> 01:04:35,787
--Det er en skyblåser!
--Det er sant.
+00:51:23,208 --> 00:51:27,087
+I just wanted you to take
+a good, long look at it.
 
 722
-01:04:35,955 --> 01:04:40,876
--Han skal utrydde hele kolonien.
--Hvordan kan vi kjempe imot?
+00:51:27,546 --> 00:51:30,340
+Because this is the last time
+you will ever see it.
 
 723
-01:04:41,043 --> 01:04:42,961
-Magien hans er sterk.
+00:51:31,550 --> 00:51:33,010
+What do you mean?
 
 724
-01:04:45,298 --> 01:04:46,798
-Sprøytere.
+00:51:33,177 --> 00:51:37,431
+I mean, there is no way I am ever
+going to make you big again.
 
 725
-01:04:48,134 --> 01:04:49,926
-Tåkeleggere.
+00:51:39,224 --> 00:51:44,146
+Ever. You are a threat
+to every ant in this colony.
 
 726
-01:04:50,428 --> 01:04:51,970
-Det gjør susen.
+00:51:44,313 --> 00:51:46,231
+Especially to Hova.
 
 727
-01:04:52,179 --> 01:04:53,597
-Elektrosjokk.
+00:51:46,398 --> 00:51:48,859
+But I would never do anything
+to hurt Hova.
 
 728
-01:04:54,432 --> 01:04:56,308
-Svovelbomber!
+00:51:49,026 --> 00:51:52,070
+I just-- l--
 
 729
-01:05:03,190 --> 01:05:06,568
-Hvordan vet du om denne skapningen?
+00:51:52,279 --> 00:51:54,239
+I just wanna go home.
 
 730
-01:05:06,736 --> 01:05:08,612
-Fordi...
+00:51:54,406 --> 00:51:56,033
+Well, then, if I were you...
 
 731
-01:05:09,488 --> 01:05:12,574
--Fordi jeg brakte ham hit.
--Lucas!
+00:51:56,200 --> 00:52:01,496
+...l'd try to find help somewhere else,
+because there is nothing for you here.
 
 732
-01:05:12,742 --> 01:05:17,454
--Jeg visste det. Jeg advarte dere.
--Vakter, fjern dette mennesket.
+00:52:03,832 --> 00:52:05,209
+Nothing.
 
 733
-01:05:17,788 --> 01:05:20,081
+00:52:17,137 --> 00:52:19,097
+The pain, the pain! It's unbearable.
+
+734
+00:52:19,306 --> 00:52:20,766
+Just put me out of my misery!
+
+735
+00:52:20,974 --> 00:52:22,643
+Oh, hold still, you big pupa.
+
+736
+00:52:22,809 --> 00:52:25,145
+I haven't even touched you yet.
+
+737
+00:52:26,313 --> 00:52:28,273
+Be gentle with me.
+
+738
+00:52:37,491 --> 00:52:39,952
+-Where's Lucas?
+-Isn't he with you?
+
+739
+00:52:40,202 --> 00:52:45,415
+-No.
+-Lucas? Lucas? That's weird.
+
+740
+00:52:45,707 --> 00:52:49,169
+Well, he's probably off destroying
+some other poor, unfortunate colony.
+
+741
+00:52:49,336 --> 00:52:51,338
+You know how they are. Destroyers.
+
+742
+00:52:52,047 --> 00:52:53,423
+Zoc, what have you done?
+
+743
+00:52:53,590 --> 00:52:56,760
+-Me? What did I do?
+-Where is he?
+
+744
+00:52:56,927 --> 00:52:58,345
+He's gone.
+
+745
+00:52:58,512 --> 00:53:01,598
+-He led you into a trap, Hova.
+-There was no trap.
+
+746
+00:53:01,807 --> 00:53:04,977
+He led us to food.
+He was trying to protect us from....
+
+747
+00:53:05,185 --> 00:53:07,604
+-From what? What, Hova?
+-From something.
+
+748
+00:53:07,771 --> 00:53:09,231
+Oh, something!
+
+749
+00:53:09,398 --> 00:53:11,441
+And I was worried it was from nothing.
+
+750
+00:53:11,650 --> 00:53:13,277
+He's blinded you, Hova.
+
+751
+00:53:13,443 --> 00:53:15,696
+No, you are the one who's blind.
+
+752
+00:53:15,863 --> 00:53:19,116
+You are so consumed
+by your hatred for the humans...
+
+753
+00:53:19,283 --> 00:53:22,494
+-...you see only what you want to see.
+-Oh, come on.
+
+754
+00:53:22,828 --> 00:53:26,665
+Zoc, I see a young pupa,
+a human learning our ways...
+
+755
+00:53:26,832 --> 00:53:30,502
+...becoming part of this colony,
+becoming an ant.
+
+756
+00:53:30,836 --> 00:53:33,130
+-Impossible.
+-Listen to yourself, Zoc.
+
+757
+00:53:33,297 --> 00:53:36,884
+"A wizard knows no such word."
+So, what are you now?
+
+758
+00:53:37,176 --> 00:53:39,636
+Certainly not the ant I love.
+
+759
+00:53:40,012 --> 00:53:41,513
+Hova!
+
+760
+00:53:41,680 --> 00:53:44,391
+I did it for you, for the colony.
+
+761
+00:53:44,558 --> 00:53:46,727
+You did it for yourself.
+
+762
+00:53:47,352 --> 00:53:49,062
+Hova, I....
+
+763
+00:53:51,273 --> 00:53:53,150
+He won't make it
+through the night alone.
+
+764
+00:53:53,317 --> 00:53:55,319
+Fugax, your leg's broken.
+
+765
+00:53:55,527 --> 00:53:57,863
+Yeah, but I still have five good ones.
+
+766
+00:53:58,030 --> 00:53:59,948
+Very good ones.
+
+767
+00:54:00,115 --> 00:54:03,660
+You know, I believe he was trying
+to protect us from something.
+
+768
+00:54:03,869 --> 00:54:05,871
+See you, Zoc.
+
+769
+00:54:28,519 --> 00:54:30,521
+Maybe Zoc is right.
+
+770
+00:54:30,812 --> 00:54:33,732
+Now I'll never get home.
+
+771
+00:54:36,026 --> 00:54:38,862
+Hi! Nice evening, huh?
+
+772
+00:54:39,029 --> 00:54:40,030
+Oh, may I?
+
+773
+00:54:40,906 --> 00:54:42,032
+Sure, help yourself.
+
+774
+00:54:42,241 --> 00:54:46,203
+Thanks, I love water! I'm a beetle
+that loves water, but I'm not a water beetle.
+
+775
+00:54:46,370 --> 00:54:49,039
+Isn't that funny? I'm a beetle--
+
+776
+00:55:26,326 --> 00:55:27,828
+Hey, Lucas.
+
+777
+00:55:28,871 --> 00:55:32,374
+Hey, anybody know what...means?
+
+778
+00:55:33,083 --> 00:55:35,460
+I think I just figured it out.
+
+779
+00:55:36,503 --> 00:55:37,588
+Croaker!
+
+780
+00:55:41,133 --> 00:55:42,426
+This way!
+
+781
+00:55:49,433 --> 00:55:51,101
+Don't ever leave me again.
+
+782
+00:55:51,268 --> 00:55:53,604
+-But Zoc told me--
+-You are my pupa, not Zoc's.
+
+783
+00:55:57,191 --> 00:55:58,692
+Lucas, come on.
+
+784
+00:56:04,656 --> 00:56:08,285
+Climb! You can do it. Just concentrate.
+
+785
+00:56:09,411 --> 00:56:11,163
+I'm an ant. Okay, I'm an ant.
+
+786
+00:56:11,330 --> 00:56:14,416
+-He's got it. He's got it.
+-Look, I'm an ant!
+
+787
+00:56:14,583 --> 00:56:17,461
+He hasn't got it.
+
+788
+00:56:25,177 --> 00:56:27,179
+Grab hold!
+
+789
+00:56:29,014 --> 00:56:30,807
+Hova?
+
+790
+00:56:32,851 --> 00:56:34,853
+Lucas!
+
+791
+00:56:48,784 --> 00:56:52,079
+Wow, we came right
+down that guy's throat, didn't we?
+
+792
+00:56:52,246 --> 00:56:53,956
+Hey, smiley, you're on my wing.
+
+793
+00:56:54,122 --> 00:56:56,083
+Oh, oh, I'm sorry. I am so sorry.
+
+794
+00:56:56,250 --> 00:56:57,709
+So, what do you guys do?
+
+795
+00:56:57,876 --> 00:57:00,921
+I'm a glowworm. I glow.
+
+796
+00:57:01,088 --> 00:57:02,297
+That's great!
+
+797
+00:57:02,464 --> 00:57:04,967
+You're really starting
+to irritate me. Can you--?
+
+798
+00:57:09,680 --> 00:57:12,140
+Oh, gross.
+
+799
+00:57:12,391 --> 00:57:15,143
+Will you quit eating, fatso?
+
+800
+00:57:15,310 --> 00:57:17,271
+It's cramped in here.
+There's no more room!
+
+801
+00:57:17,437 --> 00:57:22,192
+Don't worry. I'm afraid we will be
+moving along in due course.
+
+802
+00:57:22,359 --> 00:57:23,986
+Always with the negative with you.
+
+803
+00:57:24,152 --> 00:57:27,531
+Why can't you be more-- Hey, Lenny!
+
+804
+00:57:27,906 --> 00:57:29,366
+This is what I'm talking about.
+
+805
+00:57:29,533 --> 00:57:32,828
+Lenny always has a smile on his face--
+
+806
+00:57:35,539 --> 00:57:37,374
+Let me out! Let me out!
+
+807
+00:57:37,541 --> 00:57:40,544
+-I don't wanna be a toadstool!
+-"A toadstool." That's great.
+
+808
+00:57:40,752 --> 00:57:42,337
+-You like that?
+-That's very funny.
+
+809
+00:57:42,504 --> 00:57:44,590
+There's plenty more
+where that came from, pal.
+
+810
+00:57:44,756 --> 00:57:46,633
+I like-- Hi, what's your name?
+
+811
+00:57:46,800 --> 00:57:48,886
+There he goes again.
+
+812
+00:57:50,179 --> 00:57:52,264
+Stop! Come back!
+
+813
+00:57:52,431 --> 00:57:53,849
+-Hova!
+-No!
+
+814
+00:57:54,016 --> 00:57:56,560
+Hova, he's gone.
+
+815
+00:57:57,728 --> 00:57:59,938
+Croaker, over here. This way!
+
+816
+00:58:00,105 --> 00:58:01,315
+-Zoc!
+-Zoc!
+
+817
+00:58:01,481 --> 00:58:03,650
+I am delicious, eat me.
+
+818
+00:58:03,817 --> 00:58:05,944
+Zoc, are you crazy?
+
+819
+00:58:06,111 --> 00:58:08,739
+-He's crazy.
+-Hey, froggy!
+
+820
+00:58:10,782 --> 00:58:13,744
+No relationship is worth this.
+
+821
+00:58:18,790 --> 00:58:22,419
+Oh, sure. Why not? Come on in.
+
+822
+00:58:22,628 --> 00:58:25,964
+-Welcome to paradise.
+-Zoc! How'd you get here?
+
+823
+00:58:26,131 --> 00:58:28,342
+I sure didn't come in
+through the rear entrance.
+
+824
+00:58:28,509 --> 00:58:31,136
+Welcome. Make yourself at home. Hi.
+
+825
+00:58:31,303 --> 00:58:32,804
+Who is this? Your ant?
+
+826
+00:58:32,971 --> 00:58:35,766
+Zoc, you are crazy.
+You're inside a frog, for Mother's sake.
+
+827
+00:58:35,933 --> 00:58:37,768
+What are you doing? This is impossible!
+
+828
+00:58:37,935 --> 00:58:40,646
+"Listen to yourself, Zoc.
+A wizard knows no such word.
+
+829
+00:58:40,812 --> 00:58:43,106
+So, what are you now?"
+
+830
+00:58:45,150 --> 00:58:46,485
+Weirdo.
+
+831
+00:58:47,319 --> 00:58:49,029
+What does she see in you?
+
+832
+00:58:49,196 --> 00:58:52,115
+-What does she see in you?
+-Exactly!
+
+833
+00:58:56,078 --> 00:58:57,663
+Not me.
+
+834
+00:58:58,038 --> 00:59:01,333
+-Hey, is that...?
+-Alka root? So it is.
+
+835
+00:59:04,461 --> 00:59:05,671
+-Oh, no.
+-Oh, my.
+
+836
+00:59:09,091 --> 00:59:11,009
+You might wanna let go of that.
+
+837
+00:59:11,176 --> 00:59:14,054
+Oh, no. So you can grab it?
+I don't think so.
+
+838
+00:59:14,221 --> 00:59:17,182
+-Hands in the air.
+-Oh, my.
+
+839
+00:59:22,229 --> 00:59:24,022
+Wow, that was great!
+
+840
+00:59:24,189 --> 00:59:27,025
+Hey, we sure owe you one!
+Thanks a lot!
+
+841
+00:59:27,442 --> 00:59:30,696
+I'm free! I'm free!
+
+842
+00:59:31,989 --> 00:59:34,491
+Oh, crap.
+
+843
+00:59:37,327 --> 00:59:40,622
+Hey, Zoc, thanks. But why'd you do it?
+
+844
+00:59:40,789 --> 00:59:44,209
+An ant will sacrifice himself
+for his friends.
+
+845
+00:59:44,376 --> 00:59:47,671
+-I thought you hated me.
+-I didn't do it for you.
+
+846
+01:00:02,895 --> 01:00:05,230
+All right, well, we should
+camp here for the night.
+
+847
+01:00:05,397 --> 01:00:07,983
+Come on, Fugax. Let's forage some food.
+
+848
+01:00:08,150 --> 01:00:11,069
+Excuse me? I don't forage.
+
+849
+01:00:11,236 --> 01:00:13,655
+I'll scout for food.
+
+850
+01:00:13,822 --> 01:00:15,282
+Right, let's go.
+
+851
+01:00:15,616 --> 01:00:17,534
+Zoc, stay with Lucas.
+
+852
+01:00:17,701 --> 01:00:19,244
+He's been through a lot today.
+
+853
+01:00:19,411 --> 01:00:22,331
+-Hova, please, don't ask me to--
+-He's not what you think.
+
+854
+01:00:22,497 --> 01:00:24,333
+There is goodness in him.
+
+855
+01:00:24,499 --> 01:00:27,252
+There's an ant in him.
+
+856
+01:00:27,753 --> 01:00:30,506
+See, he really is trying.
+
+857
+01:00:30,672 --> 01:00:32,382
+Come on. You can do it.
+
+858
+01:00:32,633 --> 01:00:36,803
+-Concentrate.
+-One, two, three.
+
+859
+01:00:37,012 --> 01:00:41,225
+Think ant. Ant. Ant.
+
+860
+01:00:42,392 --> 01:00:44,603
+Yeah, all right.
+
+861
+01:00:46,271 --> 01:00:48,106
+Craznocks.
+
+862
+01:00:57,407 --> 01:00:58,700
+It's funny.
+
+863
+01:00:58,867 --> 01:01:02,162
+The sky looks exactly the same.
+
+864
+01:01:02,329 --> 01:01:04,748
+Everything else is so different...
+
+865
+01:01:04,915 --> 01:01:08,126
+...but it's the same sky, the same stars.
+
+866
+01:01:10,629 --> 01:01:12,464
+Why must you keep doing that?
+
+867
+01:01:12,631 --> 01:01:17,094
+-Are you ill?
+-What? Oh, you mean yawning.
+
+868
+01:01:17,261 --> 01:01:20,597
+-I'm just tired.
+-Please stop. It's disgusting.
+
+869
+01:01:20,848 --> 01:01:25,894
+-Ants don't yawn?
+-Definitely not, thank you.
+
+870
+01:01:27,980 --> 01:01:32,317
+So this city of yours, it's like a nest?
+
+871
+01:01:32,484 --> 01:01:35,195
+Well, yeah. Kind of.
+
+872
+01:01:35,362 --> 01:01:38,073
+And the humans that live there
+are all brothers...
+
+873
+01:01:38,240 --> 01:01:41,201
+...working together
+for the greatness of their colony?
+
+874
+01:01:41,577 --> 01:01:43,662
+Well, not exactly.
+
+875
+01:01:43,829 --> 01:01:48,709
+It's a little more like,
+you know, every man for himself.
+
+876
+01:01:49,001 --> 01:01:51,336
+But that's so primitive.
+
+877
+01:01:51,503 --> 01:01:53,046
+How does anything get done?
+
+878
+01:01:53,338 --> 01:01:55,174
+Some people work together.
+
+879
+01:01:55,340 --> 01:01:57,217
+Some. Why not all?
+
+880
+01:01:57,718 --> 01:02:00,888
+I suppose it's because
+of their differences.
+
+881
+01:02:01,054 --> 01:02:03,640
+But it's the differences
+that make a colony strong.
+
+882
+01:02:03,849 --> 01:02:07,519
+Foragers, scouts, drones,
+nurses, regurgitators...
+
+883
+01:02:07,686 --> 01:02:10,939
+...all are different,
+but an essential part of the whole.
+
+884
+01:02:11,106 --> 01:02:13,567
+This is where we ants draw our strength.
+
+885
+01:02:14,902 --> 01:02:16,987
+My differences just get me beat up.
+
+886
+01:02:17,196 --> 01:02:19,865
+-And why is that?
+-I don't know.
+
+887
+01:02:20,365 --> 01:02:23,869
+Some humans prefer to clobber people
+they don't understand.
+
+888
+01:02:24,036 --> 01:02:27,789
+Like you prefer to clobber ants.
+
+889
+01:02:28,624 --> 01:02:31,793
+I guess I didn't think
+about what I was doing.
+
+890
+01:02:31,960 --> 01:02:34,379
+Seems to happen a lot.
+
+891
+01:02:37,132 --> 01:02:41,178
+I suppose sometimes I, too,
+can act without thinking.
+
+892
+01:02:43,013 --> 01:02:47,226
+Perhaps in this way, we are alike.
+
+893
+01:02:50,229 --> 01:02:52,523
+Good night, Lucas.
+
+894
+01:02:52,689 --> 01:02:54,358
+Good night, Zoc.
+
+895
+01:03:34,815 --> 01:03:36,775
+-What's the matter?
+-Look!
+
+896
+01:03:36,942 --> 01:03:38,986
+-What is it? What's wrong?
+-I see her!
+
+897
+01:03:39,152 --> 01:03:40,946
+-Who her?
+-The Ant Mother!
+
+898
+01:03:41,113 --> 01:03:43,407
+She's come! She's here!
+
+899
+01:03:45,951 --> 01:03:48,453
+Look! Look!
+
+900
+01:03:53,208 --> 01:03:54,751
+What do you know?
+
+901
+01:03:55,544 --> 01:03:57,337
+There really is an--
+
+902
+01:04:00,299 --> 01:04:01,633
+No.
+
+903
+01:04:11,518 --> 01:04:13,312
+Cloudbreather.
+
+904
+01:04:13,478 --> 01:04:16,064
+But I cancelled the contract.
+
+905
+01:04:17,441 --> 01:04:19,193
+Praise the Mother!
+
+906
+01:04:19,359 --> 01:04:21,195
+-Praise the Mother!
+-She's come at last!
+
+907
+01:04:21,486 --> 01:04:24,948
+Everyone, please, calm down.
+
+908
+01:04:29,328 --> 01:04:32,706
+Listen to me! It is not the Ant Mother!
+
+909
+01:04:32,873 --> 01:04:36,168
+-It is a Cloudbreather!
+-It's true.
+
+910
+01:04:36,793 --> 01:04:39,171
+He's come to wipe out the entire colony.
+
+911
+01:04:39,630 --> 01:04:41,215
+How can we possibly fight back?
+
+912
+01:04:41,632 --> 01:04:43,133
+His magic is strong.
+
+913
+01:04:45,677 --> 01:04:47,137
+Sprayers.
+
+914
+01:04:48,680 --> 01:04:50,349
+Foggers.
+
+915
+01:04:50,891 --> 01:04:52,351
+Oh, that's the stuff.
+
+916
+01:04:52,518 --> 01:04:54,228
+Zappers.
+
+917
+01:04:55,312 --> 01:04:56,647
+Sulfur bombs.
+
+918
+01:05:03,362 --> 01:05:06,990
+And how do you know of this creature?
+
+919
+01:05:07,366 --> 01:05:09,284
+Because....
+
+920
+01:05:10,202 --> 01:05:12,663
+-Because I brought him here.
+-Lucas!
+
+921
+01:05:12,871 --> 01:05:13,997
+I knew it. I told you.
+
+922
+01:05:14,206 --> 01:05:17,960
+-Guards, remove this human.
+-Come on, kid.
+
+923
+01:05:18,126 --> 01:05:20,379
 -Hova!
 -Lucas!
 
-734
-01:05:22,001 --> 01:05:25,086
--Nei!
--Vent. Trylledrikken.
+924
+01:05:22,256 --> 01:05:24,883
+-No.
+-Wait. The potion.
 
-735
-01:05:25,254 --> 01:05:29,799
-Ja visst! Zoc, du krympet meg,
-så du kan krympe skyblåseren.
+925
+01:05:25,050 --> 01:05:30,514
+That's it! Zoc, you shrunk me.
+You can shrink the Cloudbreather.
 
-736
-01:05:31,010 --> 01:05:34,179
-Vi lader disse, og så...
-Pang, rett i øret!
+926
+01:05:31,181 --> 01:05:33,934
+We can load these things up and then:
 
-737
-01:05:36,515 --> 01:05:40,977
-Ja, kanskje. Men skyblåseren
-tårner over oss som et tre.
+927
+01:05:34,101 --> 01:05:35,561
+Right in the ear!
 
-738
-01:05:41,270 --> 01:05:44,856
--Hvordan kommer vi nær nok?
--Jeg har en idé.
+928
+01:05:36,728 --> 01:05:39,189
+Yes. Yes, perhaps.
 
-739
-01:05:45,775 --> 01:05:49,819
-Zoc,
-ville du stole på dette mennesket?
+929
+01:05:39,356 --> 01:05:42,150
+But the Cloudbreather
+towers above us like a tree.
 
-740
-01:05:59,747 --> 01:06:03,375
-Hallo?
-Vi må snakke med dere.
+930
+01:05:42,317 --> 01:05:43,902
+How do we get close enough?
 
-741
-01:06:04,794 --> 01:06:06,711
-Vis dere.
+931
+01:05:44,069 --> 01:05:45,612
+I've got an idea.
 
-742
-01:06:08,297 --> 01:06:10,548
-Her nede. Hallo?
+932
+01:05:45,779 --> 01:05:50,701
+Zoc, you would trust this human?
 
-743
-01:06:18,307 --> 01:06:22,310
--Vel, vel, vel...
--Akkurat i tide til lunsj.
+933
+01:05:59,710 --> 01:06:01,920
+Yoo-hoo, hello?
 
-744
-01:06:22,853 --> 01:06:27,023
--Hallo.
--Vent. Vi kommer i fredelig ærend.
+934
+01:06:02,087 --> 01:06:04,047
+We need to talk to you.
 
-745
-01:06:27,566 --> 01:06:31,903
-Eksterminatoren er her med dødsskyer
-som vil utrydde oss alle-
+935
+01:06:04,923 --> 01:06:07,176
+Show yourselves.
 
-746
-01:06:32,071 --> 01:06:36,366
-- om vi ikke sammen stopper ham.
--Dødsskyer, hva?
+936
+01:06:08,093 --> 01:06:11,430
+Down here. Hello?
 
-747
-01:06:37,368 --> 01:06:39,577
-La oss ete.
+937
+01:06:18,604 --> 01:06:22,941
+Well, well, well.
+Just in time for lunch.
 
-748
-01:06:41,580 --> 01:06:43,331
-Stå bak meg.
+938
+01:06:23,108 --> 01:06:24,818
+-Hello.
+-Wait.
 
-749
-01:06:56,095 --> 01:06:58,555
-Sir, tua i øst-
+939
+01:06:24,985 --> 01:06:27,571
+Listen to me. We come in peace.
 
-750
-01:06:59,682 --> 01:07:01,766
--er helt ødelagt.
+940
+01:06:27,779 --> 01:06:31,950
+The exterminator's here. He brings
+death clouds that will destroy us all...
 
-751
-01:07:01,934 --> 01:07:04,019
-Skyen kommer.
+941
+01:06:32,117 --> 01:06:34,411
+...unless we can work together
+to stop him.
 
-752
-01:07:04,562 --> 01:07:06,229
-Skyen!
+942
+01:06:34,870 --> 01:06:37,372
+Death clouds, huh?
 
-753
-01:07:19,869 --> 01:07:22,412
-Hva foreslår dere?
+943
+01:06:37,539 --> 01:06:40,083
+Okay, let's eat.
 
-754
-01:07:29,128 --> 01:07:31,963
-Husk at du kun får ett forsøk.
+944
+01:06:42,169 --> 01:06:43,629
+Get behind me.
 
-755
-01:07:32,131 --> 01:07:36,051
-Ikke skyt før du ser ørevoksen hans.
+945
+01:06:56,225 --> 01:07:01,647
+Sir, the east nest, totally destroyed.
 
-756
-01:07:36,218 --> 01:07:39,137
--Oppfattet.
--Klar? Lucas?
+946
+01:07:02,064 --> 01:07:04,316
+The cloud is coming.
 
-757
-01:07:39,305 --> 01:07:42,140
--Jeg er klar.
--Slutt!
+947
+01:07:04,691 --> 01:07:07,569
+The cloud!
 
-758
-01:07:42,725 --> 01:07:46,269
-Zoc, kan jeg bytte?
-Min virker ikke.
+948
+01:07:19,873 --> 01:07:23,168
+What do you have in mind?
 
-759
-01:07:46,937 --> 01:07:49,105
-Fyr dem opp, gutter.
+949
+01:07:29,049 --> 01:07:32,135
+Remember, you only get one shot at it.
 
-760
-01:07:54,987 --> 01:07:57,155
-Da flyr vi!
+950
+01:07:32,344 --> 01:07:36,557
+Don't fire until you see
+the wax of his ears.
 
-761
-01:08:17,134 --> 01:08:20,136
-Det ser gøy ut.
-La oss hjelpe til.
+951
+01:07:36,723 --> 01:07:39,351
+-Understood.
+-Ready? Lucas?
 
-762
-01:08:20,304 --> 01:08:23,681
-Ja vel.
-Jeg lever jo bare to uker uansett.
+952
+01:07:39,518 --> 01:07:42,896
+-Good to go.
+-Hey. Hey. Stop it. Stop it.
 
-763
-01:08:23,891 --> 01:08:25,475
-Bra!
+953
+01:07:43,063 --> 01:07:46,567
+Zoc! Can I switch? Mine's broken.
 
-764
-01:08:35,194 --> 01:08:37,946
-Første bølge - angrip!
+954
+01:07:46,900 --> 01:07:49,486
+All right, boys. Heat them up.
 
-765
-01:08:43,536 --> 01:08:46,704
-Så dere ypper, hva? Kom an!
+955
+01:07:55,117 --> 01:07:57,744
+Let's fly.
 
-766
-01:08:46,872 --> 01:08:48,289
-Kom an!
+956
+01:08:17,097 --> 01:08:20,434
+Hey, that looks fun. Let's help, shall we?
 
-767
-01:08:48,457 --> 01:08:50,166
-Jeg angriper!
+957
+01:08:20,601 --> 01:08:24,271
+Okay. I only live two weeks anyway.
 
-768
-01:08:59,218 --> 01:09:02,887
-Jeg kommer ikke gjennom,
-han har et skjold.
+958
+01:08:24,438 --> 01:08:26,732
+Good for you.
 
-769
-01:09:03,556 --> 01:09:05,807
-Craznocks! Øretelefoner!
+959
+01:08:35,282 --> 01:08:38,452
+First wave, attack!
 
-770
-01:09:27,997 --> 01:09:31,416
-For dronning og koloni!
+960
+01:08:43,707 --> 01:08:47,085
+So you want to rumble, huh?
+Come on. Come on.
 
-771
-01:09:37,089 --> 01:09:39,716
-Hvorfor har du stoppet?
+961
+01:08:47,252 --> 01:08:48,754
+Come on!
 
-772
-01:09:40,759 --> 01:09:44,095
-Det gjør vondt. Slutt!
+962
+01:08:48,921 --> 01:08:50,422
+I'm going in.
 
-773
-01:09:44,972 --> 01:09:46,848
-Adjøss.
+963
+01:09:00,098 --> 01:09:03,435
+I can't get through.
+He's got some kind of shield.
 
-774
-01:09:53,564 --> 01:09:56,900
-Vi må lande på ham.
-Finn en rute inn.
+964
+01:09:03,852 --> 01:09:06,104
+Craznocks. Headphones!
 
-775
-01:10:01,739 --> 01:10:04,908
-Han må lade om!
-Nå har vi sjansen.
+965
+01:09:29,503 --> 01:09:32,673
+For queen and colony!
 
-776
-01:10:09,872 --> 01:10:11,122
-Trekk!
+966
+01:09:34,883 --> 01:09:36,134
+Yeah.
 
-777
-01:10:14,919 --> 01:10:16,252
+967
+01:09:38,011 --> 01:09:40,264
+Why have you stopped?
+
+968
+01:09:40,848 --> 01:09:44,935
+Oh, geez. Boy, that hurts. Please stop.
+
+969
+01:09:45,102 --> 01:09:46,603
+Bye-bye.
+
+970
+01:09:53,819 --> 01:09:57,489
+We'll have to land on him.
+Find a way in.
+
+971
+01:10:01,869 --> 01:10:05,205
+He's reloading! Now's our chance.
+
+972
+01:10:09,960 --> 01:10:11,837
+Draw!
+
+973
+01:10:15,174 --> 01:10:16,925
 Zoc!
 
-778
-01:10:27,306 --> 01:10:30,433
--Velkommen til skalpen.
--Hallo.
+974
+01:10:27,352 --> 01:10:30,689
+-Welcome to the scalp.
+-Hello.
 
-779
-01:10:30,601 --> 01:10:32,894
--Ta en bit.
--Nyt den.
+975
+01:10:30,856 --> 01:10:33,192
+-Have a slice.
+-Enjoy.
 
-780
-01:10:34,897 --> 01:10:36,814
-Fingrer!
+976
+01:10:35,360 --> 01:10:36,820
+Fingers!
 
-781
-01:10:37,107 --> 01:10:39,609
-Han klør seg igjen!
+977
+01:10:37,029 --> 01:10:39,114
+He's scratching again!
 
-782
-01:10:39,777 --> 01:10:41,819
-Til armhulen!
+978
+01:10:39,573 --> 01:10:42,659
+-To the armpit!
+-Dive, dive!
 
-783
-01:10:49,161 --> 01:10:51,955
-La vennene mine være!
+979
+01:10:49,458 --> 01:10:52,377
+Leave my friends alone!
 
-784
-01:10:58,170 --> 01:11:00,338
-Ikke pell deg i nesen.
+980
+01:10:58,634 --> 01:11:00,677
+Don't pick your nose.
+Don't pick your nose.
 
-785
-01:11:06,303 --> 01:11:08,972
--Vil du sitte på?
--Takk.
+981
+01:11:06,558 --> 01:11:09,436
+-Need a lift?
+-Thanks.
 
-786
-01:11:27,658 --> 01:11:29,117
-Nei!
+982
+01:11:28,247 --> 01:11:30,207
+No.
 
-787
-01:11:31,203 --> 01:11:34,289
-Hova, er alt bra med deg?
+983
+01:11:31,166 --> 01:11:34,336
+Hova, are you okay?
 
-788
-01:11:34,540 --> 01:11:36,207
-Hva?
+984
+01:11:34,503 --> 01:11:36,046
+What?
 
-789
-01:11:37,543 --> 01:11:39,127
-God natt.
+985
+01:11:37,714 --> 01:11:39,466
+Nighty night.
 
-790
-01:11:39,962 --> 01:11:41,379
-Løp!
+986
+01:11:40,509 --> 01:11:41,760
+Run!
 
-791
-01:11:46,051 --> 01:11:50,722
--Opp, opp! Vi må vekk!
--Jeg er ferdig, vesle maur.
+987
+01:11:45,973 --> 01:11:49,268
+Come on, get up!
+We got to go, we got to go!
 
-792
-01:11:57,479 --> 01:11:59,188
-Løp!
+988
+01:11:49,476 --> 01:11:51,103
+I'm done, little ant.
 
-793
-01:12:01,817 --> 01:12:05,611
-Lucas, fortsett.
-Redd deg selv.
+989
+01:11:57,442 --> 01:12:00,112
+Run! Run!
 
-794
-01:12:19,335 --> 01:12:21,586
-Det er ikke sånn maur er.
+990
+01:12:01,947 --> 01:12:04,241
+Lucas, go on.
 
-795
-01:12:25,883 --> 01:12:27,550
-Skynd deg!
+991
+01:12:04,408 --> 01:12:06,493
+Save yourself.
 
-796
-01:12:42,900 --> 01:12:50,073
+992
+01:12:19,965 --> 01:12:22,926
+That's not the way ants are.
+
+993
+01:12:26,138 --> 01:12:27,598
+Hurry up.
+
+994
+01:12:42,988 --> 01:12:45,115
+Lucas? Lucas!
+
+995
+01:12:49,036 --> 01:12:50,746
 Lucas!
 
-797
-01:12:56,663 --> 01:12:58,623
-Du klarte det!
+996
+01:12:56,835 --> 01:12:58,837
+You did it. You did it!
 
-798
-01:12:59,375 --> 01:13:01,959
-Det er en maur, det.
+997
+01:12:59,880 --> 01:13:02,090
+Now, that's an ant.
 
-799
-01:13:02,169 --> 01:13:03,294
-Unnskyld.
+998
+01:13:02,257 --> 01:13:03,509
+Oh, sorry.
 
-800
-01:13:03,462 --> 01:13:05,546
-Takk, gutt.
+999
+01:13:03,967 --> 01:13:06,220
+Thanks, kid.
 
-801
-01:13:15,557 --> 01:13:16,808
-Ja!
+1000
+01:13:15,687 --> 01:13:17,648
+Oh, yeah!
 
-802
-01:13:17,476 --> 01:13:22,397
--Våpnene våre hjelper ikke.
--Vi må treffe ordentlig med ett skudd.
+1001
+01:13:18,524 --> 01:13:21,735
+-Our weapons are useless.
+-We just need a clear shot.
 
-803
-01:13:25,317 --> 01:13:27,652
-Vent. Ett skudd...
+1002
+01:13:25,405 --> 01:13:28,367
+Hey, wait. A shot.
 
-804
-01:13:30,447 --> 01:13:32,490
-Hva nå?
+1003
+01:13:30,577 --> 01:13:33,580
+Okay, now what?
 
-805
-01:13:32,658 --> 01:13:36,661
-Jeg vet ikke,
-for jeg har aldri angrepet før.
+1004
+01:13:33,747 --> 01:13:37,751
+Well, I don't know,
+because I've never attacked before.
 
-806
-01:13:36,829 --> 01:13:39,831
--Er ikke det morsomt?
--Ustyrtelig!
+1005
+01:13:37,918 --> 01:13:40,003
+-Isn't that funny?
+-Hilarious.
 
-807
-01:13:39,998 --> 01:13:42,583
-Se. Her er en vei inn.
+1006
+01:13:40,379 --> 01:13:43,006
+Oh, look. Here's a way in.
 
-808
-01:13:45,629 --> 01:13:48,297
-Nyt et liv uten insektherket
+1007
+01:13:46,009 --> 01:13:49,888
+<i>Enjoy a world that's entirely bug free</i>
 
-809
-01:13:50,217 --> 01:13:53,803
-Ring Beals-A-Bug
-så skal jeg dem kverke
+1008
+01:13:50,597 --> 01:13:54,434
+<i>Call Beals-A-Bug
+And leave the bug-killing to me</i>
 
-810
-01:14:00,018 --> 01:14:04,230
-Jeg føler at vi burde
-angripe noe her inne.
+1009
+01:14:00,274 --> 01:14:04,778
+Okay, I'm feeling like we ought to attack
+something in here.
 
-811
-01:14:06,608 --> 01:14:09,819
--Det ser sårbart ut.
--Perfekt!
+1010
+01:14:05,779 --> 01:14:08,490
+Hey, that looks vulnerable.
 
-812
-01:14:15,492 --> 01:14:17,994
-Se. Der er veien ut.
+1011
+01:14:08,657 --> 01:14:11,076
+Perfect.
 
-813
-01:14:18,370 --> 01:14:21,456
-La oss gi mennesket et farvel-kyss.
+1012
+01:14:15,414 --> 01:14:18,250
+Oh, look. Here's our way out.
 
-814
-01:14:24,001 --> 01:14:26,043
-Stålsett deg, Beals!
+1013
+01:14:18,750 --> 01:14:21,461
+Let's give this human a goodbye kiss.
 
-815
-01:14:51,570 --> 01:14:53,404
-Nei, nei!
+1014
+01:14:24,089 --> 01:14:25,883
+Pucker up, Mr. Beals!
 
-816
-01:14:53,572 --> 01:14:56,157
-Gå vekk fra meg!
+1015
+01:14:51,658 --> 01:14:54,244
+No, no, no.
 
-817
-01:15:04,082 --> 01:15:08,419
-Dere kan ikke kverke meg.
-For jeg er Stan Beals!
+1016
+01:14:54,453 --> 01:14:56,830
+Stop. Just get away from me.
+Get away from me.
 
-818
-01:15:09,588 --> 01:15:11,339
-Å nei!
+1017
+01:15:04,296 --> 01:15:05,881
+You can't exterminate me.
 
-819
-01:15:13,175 --> 01:15:15,676
-Lovet være Mor!
+1018
+01:15:06,048 --> 01:15:09,510
+Oh, yeah. I'm Stan Beals!
 
-820
-01:15:23,727 --> 01:15:26,103
+1019
+01:15:09,676 --> 01:15:11,428
+Oh, no, no, no!
+
+1020
+01:15:13,472 --> 01:15:16,141
+Praise the Mother!
+
+1021
+01:15:22,523 --> 01:15:25,025
 Lucas! Lucas! Lucas!
 
-821
-01:15:32,945 --> 01:15:37,406
-På denne dag ser jeg ikke lenger
-et menneske blant maur,-
+1022
+01:15:33,116 --> 01:15:38,121
+This day I no longer see
+a human among ants...
 
-822
-01:15:37,574 --> 01:15:41,244
--men en eneste koloni.
+1023
+01:15:38,330 --> 01:15:42,292
+...but instead a single colony.
 
-823
-01:15:42,246 --> 01:15:45,373
-Ingen Lucas Ødeleggeren lenger,-
+1024
+01:15:42,459 --> 01:15:45,420
+No more Lucas the Destroyer...
 
-824
-01:15:45,541 --> 01:15:48,292
--men mauren Rokai.
+1025
+01:15:45,587 --> 01:15:48,966
+...but Rokai the ant.
 
-825
-01:15:52,130 --> 01:15:54,465
-Velkommen til kolonien.
+1026
+01:15:52,302 --> 01:15:54,680
+Welcome to the colony.
 
-826
-01:15:55,968 --> 01:15:58,261
-Er det ikke flott?
+1027
+01:15:56,014 --> 01:15:59,101
+Isn't that wonderful?
 
-827
-01:15:59,638 --> 01:16:02,306
+1028
+01:15:59,977 --> 01:16:02,271
 -Rokai?
--Det er et maurnavn.
+-It's an ant name.
 
-828
-01:16:02,474 --> 01:16:04,225
-Trollmaurnavn.
+1029
+01:16:02,437 --> 01:16:03,856
+A wizard name.
 
-829
-01:16:04,393 --> 01:16:08,312
-Rokai har gjort seg fortjent
-til sin frihet.
+1030
+01:16:04,356 --> 01:16:08,694
+Rokai has earned his freedom.
 
-830
-01:16:08,855 --> 01:16:11,566
-Og vi har fått en venn.
+1031
+01:16:09,194 --> 01:16:12,406
+And we have earned a friend.
 
-831
-01:16:12,651 --> 01:16:14,902
-Husk oss.
+1032
+01:16:12,823 --> 01:16:15,742
+Remember us.
 
-832
-01:16:18,991 --> 01:16:20,449
-Lucas...
+1033
+01:16:18,996 --> 01:16:20,205
+Hey, Lucas--
 
-833
-01:16:20,909 --> 01:16:24,328
-Jeg mener Rokai.
-Når du vender tilbake,-
+1034
+01:16:21,206 --> 01:16:24,501
+I mean, Rokai.
+Listen, once you get back...
 
-834
-01:16:24,496 --> 01:16:28,499
--kan du kanskje avse
-noen søtsteiner i ny og ne?
+1035
+01:16:24,668 --> 01:16:28,380
+...if you get the chance, how about
+dropping a few sweet rocks now and then?
 
-835
-01:16:28,667 --> 01:16:31,294
-Helst de røde.
+1036
+01:16:28,547 --> 01:16:31,675
+You know, red ones, preferably.
 
-836
-01:16:31,628 --> 01:16:34,630
-Røde? Du hatet jo de røde.
+1037
+01:16:31,884 --> 01:16:35,095
+Red ones?
+I thought you hated the red ones.
 
-837
-01:16:34,798 --> 01:16:38,676
-Ja, men nå begynner jeg å like dem.
+1038
+01:16:35,262 --> 01:16:40,058
+Well, I do, but I'm starting to like them.
 
-838
-01:16:40,596 --> 01:16:43,139
-Jeg vil savne deg, Tobein.
+1039
+01:16:41,143 --> 01:16:44,021
+I'm gonna miss you, Two Legs.
 
-839
-01:16:43,932 --> 01:16:46,642
-Tenk å kalle et menneske venn.
+1040
+01:16:44,188 --> 01:16:46,982
+Calling a human "friend."
 
-840
-01:16:46,810 --> 01:16:49,854
-Jeg trodde det var umulig
-inntil du kom.
+1041
+01:16:47,149 --> 01:16:49,860
+I thought that impossible until you came.
 
-841
-01:16:50,022 --> 01:16:53,149
-Men Zoc,
-det ordet er ukjent for en trollmaur.
+1042
+01:16:50,027 --> 01:16:52,779
+But, Zoc, a wizard knows no such word.
 
-842
-01:16:53,317 --> 01:16:55,318
-Sant.
+1043
+01:16:53,447 --> 01:16:55,199
+Very true.
 
-843
-01:16:55,527 --> 01:16:57,320
-Her.
+1044
+01:16:55,616 --> 01:16:56,992
+Here.
 
-844
-01:16:57,946 --> 01:17:01,198
-Vent med å drikke den
-til du er utenfor.
+1045
+01:16:58,076 --> 01:17:01,163
+But just wait until you're outside
+before you drink it.
 
-845
-01:17:01,450 --> 01:17:06,120
--Jeg mener ennå jeg burde spist deg.
--Jeg er myk og saftig.
+1046
+01:17:01,330 --> 01:17:04,249
+I still think I should have eaten you
+when I had the chance.
 
-846
-01:17:06,288 --> 01:17:09,540
-Men jeg lovet dronningen å la være.
+1047
+01:17:04,416 --> 01:17:06,210
+I am soft and chewy.
 
-847
-01:17:09,708 --> 01:17:14,045
--Jeg vil savne deg, Hova.
--Vi vil savne deg også, Rokai.
+1048
+01:17:06,376 --> 01:17:09,254
+But I promised the queen I wouldn't.
 
-848
-01:17:14,212 --> 01:17:17,423
--Hånden på hjertet,
--Hånden på hjertet!
+1049
+01:17:09,922 --> 01:17:11,423
+I'm gonna miss you, Hova.
 
-849
-01:17:28,393 --> 01:17:31,228
-Han er tilbake!
+1050
+01:17:11,590 --> 01:17:14,218
+We're going to miss you too, Rokai.
 
-850
-01:17:31,480 --> 01:17:36,484
-I bare fødselsdagsdrakten.
-Gratulerer med dagen, Lucas!
+1051
+01:17:14,384 --> 01:17:15,886
+Cross our hearts.
 
-851
-01:17:38,737 --> 01:17:41,238
-Ikke denne gangen.
+1052
+01:17:16,261 --> 01:17:18,889
+Cross our hearts!
 
-852
-01:17:49,373 --> 01:17:52,083
-Hei, Tiff. Er alt i orden?
+1053
+01:17:28,607 --> 01:17:31,735
+He's back. He's back!
 
-853
-01:17:52,250 --> 01:17:56,962
--Hvor er Lucas?
--Han har isolert seg på rommet sitt.
+1054
+01:17:31,902 --> 01:17:38,075
+He's in his birthday suit.
+Happy birthday, Lucas!
 
-854
-01:17:57,589 --> 01:17:59,423
-Mamma!
+1055
+01:17:39,910 --> 01:17:41,662
+Got you that time.
 
-855
-01:17:59,591 --> 01:18:03,260
--Lucas, hva er det?
--Jeg glemte å si ha det.
+1056
+01:17:49,920 --> 01:17:52,339
+Hi, Tiff. Is everything all right?
 
-856
-01:18:03,428 --> 01:18:05,096
-Ha det.
+1057
+01:17:52,506 --> 01:17:53,757
+Where's Lucas?
 
-857
-01:18:05,263 --> 01:18:09,266
-Ha det, Peanøtt. Å nei,
-jeg skulle jo ikke kalle deg det.
+1058
+01:17:53,924 --> 01:17:57,427
+Still locked in his room,
+hiding from society.
 
-858
-01:18:09,434 --> 01:18:11,894
-Det gjør ikke noe.
+1059
+01:17:57,761 --> 01:17:59,471
+Mom, hey, Mom!
 
-859
-01:18:12,604 --> 01:18:15,189
-Hjem, kjære hjem.
+1060
+01:17:59,638 --> 01:18:03,267
+-Lucas, what is it?
+-I forgot to tell you goodbye.
 
-860
-01:18:15,440 --> 01:18:19,402
-Koffertene er tunge, lille nacho.
-Kan du åpne dørio?
+1061
+01:18:03,809 --> 01:18:05,769
+Goodbye.
 
-861
-01:18:19,569 --> 01:18:22,405
-Skjønner ikke hva du mener.
+1062
+01:18:05,936 --> 01:18:09,439
+Goodbye, Peanut. Oh, sorry,
+I shouldn't call you that.
 
-862
-01:18:22,614 --> 01:18:25,616
--Kjære, puerta...
--Hva er puerta?
+1063
+01:18:09,606 --> 01:18:12,276
+It's okay. I don't mind.
 
-863
-01:18:25,784 --> 01:18:28,953
--Døra!
--Å ja, døra. Skal bli.
+1064
+01:18:12,734 --> 01:18:15,529
+<i>Casa, sweet casa.</i>
 
-864
-01:18:31,081 --> 01:18:34,625
-Spyas, hvor har du vært?
-Vi har lett etter deg.
+1065
+01:18:15,821 --> 01:18:18,574
+<i>These suitcases are muy grande,
+my little love nacho.</i>
 
-865
-01:18:34,793 --> 01:18:39,046
--Nå skal du få juling av alle.
--Ja, av alle!
+1066
+01:18:18,740 --> 01:18:20,200
+<i>How about getting the el door-o?</i>
 
-866
-01:18:39,423 --> 01:18:45,469
--Han sa av alle!
--Slutt å gjenta alt jeg sier, forstått?
+1067
+01:18:20,367 --> 01:18:22,661
+I don't know what you mean, honey.
 
-867
-01:18:46,221 --> 01:18:49,724
-Slutte å gjenta alt du sier. Forstått.
+1068
+01:18:22,828 --> 01:18:25,372
+<i>-Yeah, honey, the puerta, the--
+-What's the puerta?</i>
 
-868
-01:18:50,225 --> 01:18:53,394
-Ja. Jeg kan jo jule opp deg.
+1069
+01:18:25,539 --> 01:18:28,834
+-The door, the door!
+-The door. Okay, I got it. I got it.
 
-869
-01:18:53,603 --> 01:18:56,981
-La ham være.
-Hva i craznocks feiler det deg?
+1070
+01:18:30,878 --> 01:18:34,548
+Hey, Pukas, where you been?
+We've been looking for you.
 
-870
-01:18:57,149 --> 01:19:00,025
-Hva?!
-Du kan jo tvinge meg.
+1071
+01:18:34,715 --> 01:18:40,179
+-I think someone's overdue for a dogpile.
+-Yeah, dogpile!
 
-871
-01:19:00,318 --> 01:19:03,571
-Nei, det kan du jo ikke.
+1072
+01:18:40,345 --> 01:18:41,555
+He said dogpile.
 
-872
-01:19:04,990 --> 01:19:08,325
-For jeg er stor og du er liten.
+1073
+01:18:41,722 --> 01:18:46,226
+Stop saying everything I say, got it?
 
-873
-01:19:09,286 --> 01:19:14,123
-Ja, jeg er liten. Vi er alle små.
-Men sammen er vi store.
+1074
+01:18:46,393 --> 01:18:50,355
+Stop saying everything you say. Got it.
 
-874
-01:19:14,833 --> 01:19:18,502
-Tror du de teite taperne
-vil gå sammen mot meg?
+1075
+01:18:50,522 --> 01:18:53,192
+That's it. How about I dogpile you?
 
-875
-01:19:18,670 --> 01:19:23,132
-Jeg kan gjøre hva jeg vil med dem,
-og de kan ikke hindre meg.
+1076
+01:18:53,358 --> 01:18:56,486
+How about you leave him alone?
+What the craznocks is wrong with you?
 
-876
-01:19:23,467 --> 01:19:26,927
-Det samme gjelder deg, Spyas.
+1077
+01:18:56,987 --> 01:19:00,282
+What? How about you make me?
 
-877
-01:19:27,846 --> 01:19:29,680
-Alle på ham!
+1078
+01:19:00,449 --> 01:19:04,953
+Oh, that's right, you can't.
 
-878
-01:19:31,933 --> 01:19:35,060
-Alle på ham, sa jeg!
+1079
+01:19:05,120 --> 01:19:09,208
+Because I'm big and you're small.
 
-879
-01:19:36,688 --> 01:19:40,191
--Dere hørte hva han sa.
--Alle på ham!
+1080
+01:19:09,541 --> 01:19:15,172
+Yeah, I'm small. We're all small.
+But together, we're big.
 
-880
-01:19:43,195 --> 01:19:46,322
-Nei, ikke gjør meg noe! Mamma!
+1081
+01:19:15,339 --> 01:19:18,717
+You think these stupid losers
+are going to team up against me?
 
-881
-01:19:48,492 --> 01:19:53,120
--Blir dere med hjem til meg og spiller?
--Ja, kult! Kom an, Lucas.
+1082
+01:19:18,884 --> 01:19:23,430
+I can do anything I want to them,
+and there's nothing they can do about it.
 
-882
-01:19:53,288 --> 01:19:57,708
-Jeg kommer etter.
-Det er noe jeg må gjøre først.
+1083
+01:19:23,764 --> 01:19:27,559
+And the same goes for you, Pukas.
 
-883
-01:20:02,130 --> 01:20:04,632
-Jammen vokser de fort opp.
+1084
+01:19:28,143 --> 01:19:30,103
+Dogpile!
 
-884
-01:20:05,342 --> 01:20:07,718
--Hva?
--Se hva jeg har.
+1085
+01:19:31,939 --> 01:19:35,901
+I said, dogpile!
 
-885
-01:20:07,969 --> 01:20:09,970
-Å nei. Zoc.
+1086
+01:19:36,735 --> 01:19:41,281
+-You heard the man.
+-Dogpile!
 
-886
-01:20:10,222 --> 01:20:13,307
-Zoc, vent! Nei, stopp!
+1087
+01:19:43,534 --> 01:19:47,621
+No! Don't hurt me! Mommy!
 
-887
-01:20:13,642 --> 01:20:15,643
-Kom an.
+1088
+01:19:48,664 --> 01:19:50,749
+Hey, you guys want to come over
+and play?
 
-888
-01:20:16,394 --> 01:20:19,146
-Slutt! Jeg mener det...
+1089
+01:19:50,916 --> 01:19:53,252
+Yeah, cool. Come on, Lucas.
 
-889
-01:20:24,069 --> 01:20:26,529
-Søtstein!
+1090
+01:19:53,418 --> 01:19:56,171
+I'll catch up.
+There's something I gotta do first.
 
-890
-01:28:57,290 --> 01:28:59,291
-Tekst:
-SDI Media Group
+1091
+01:19:56,338 --> 01:19:59,174
+Yeah! All right!
+
+1092
+01:19:59,341 --> 01:20:00,884
+Oh, yeah.
+
+1093
+01:20:02,344 --> 01:20:05,055
+They sure grow up fast.
+
+1094
+01:20:06,181 --> 01:20:08,225
+-What?
+-Look what I got.
+
+1095
+01:20:08,392 --> 01:20:09,643
+Oh, no. Zoc.
+
+1096
+01:20:09,810 --> 01:20:13,814
+Zoc! Wait! Wait! No, no! Stop!
+
+1097
+01:20:14,022 --> 01:20:15,566
+Come on.
+
+1098
+01:20:16,441 --> 01:20:19,236
+Stop it! I'm serious....
+
+1099
+01:20:24,283 --> 01:20:26,493
+Sweet Rocks !!!
+
+1100
+01:20:25,367 --> 01:20:40,090
+<font color="#ffff80"><b>GoRichard</b></font>
